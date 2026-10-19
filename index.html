@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -294,6 +294,22 @@
       <div class="study-stage" id="study-stage">
         <div class="study-layout">
           <div class="study-main">
+            <div class="exam-panel hidden" id="exam-panel">
+              <div class="exam-top">
+                <span class="eyebrow">AKTIVER RÜCKRUF</span>
+                <span class="exam-progress" id="exam-progress">到期词</span>
+              </div>
+              <h2 class="exam-question" id="exam-question"></h2>
+              <p class="exam-sub" id="exam-sub"></p>
+              <div class="exam-options" id="exam-options"></div>
+              <div class="exam-result hidden" id="exam-result">
+                <span class="exam-result-icon" id="exam-result-icon"></span>
+                <div><strong id="exam-result-title"></strong><p id="exam-result-copy"></p></div>
+              </div>
+              <button class="btn btn-primary exam-reveal" id="exam-reveal" data-action="exam-reveal">查看完整词卡 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+              <p class="exam-foot">先回忆，再翻卡。选错也没关系，它会被安排更早再见。</p>
+            </div>
+
             <div class="card-scene" id="card-scene">
               <article class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="点击翻转卡片，查看释义">
                 <div class="card-face card-front">
@@ -328,6 +344,10 @@
                       <div><span>复数</span><strong id="back-plural">die Augenblicke</strong></div>
                       <div><span>等级</span><strong id="back-level-fact">A2</strong></div>
                     </div>
+                    <details class="conjugation-block" id="conjugation-block">
+                      <summary>变位 / 词形 <span id="conjugation-summary">展开查看</span></summary>
+                      <div class="conjugation-table-wrap" id="conjugation-content"></div>
+                    </details>
                     <div class="example-block" id="example-block">
                       <span class="eyebrow">BEISPIEL</span>
                       <p class="example-de" id="back-example"></p>
@@ -345,10 +365,10 @@
             </div>
 
             <div class="rating-bar" id="rating-bar" aria-label="评价掌握程度">
-              <button class="rating again" data-rating="again"><span>重来</span><small id="preview-again">10 分钟</small></button>
-              <button class="rating hard" data-rating="hard"><span>困难</span><small id="preview-hard">1 天</small></button>
-              <button class="rating good" data-rating="good"><span>记得</span><small id="preview-good">3 天</small></button>
-              <button class="rating easy" data-rating="easy"><span>轻松</span><small id="preview-easy">7 天</small></button>
+              <button class="rating again" data-rating="again"><span>忘记</span><small id="preview-again">1 天</small></button>
+              <button class="rating hard" data-rating="hard"><span>困难</span><small id="preview-hard">12 小时</small></button>
+              <button class="rating good" data-rating="good"><span>良好</span><small id="preview-good">1 天</small></button>
+              <button class="rating easy" data-rating="easy"><span>简单</span><small id="preview-easy">4 天</small></button>
             </div>
             <div class="study-keys">
               <span><kbd>Space</kbd> 翻转</span>
@@ -551,7 +571,7 @@
       </div>
 
       <div class="library-overview reveal" style="--delay: 40ms">
-        <div><span>全部词汇</span><strong id="library-total">7513</strong></div>
+        <div><span>全部词汇</span><strong id="library-total">7508</strong></div>
         <div><span>已掌握</span><strong id="library-mastered">0</strong></div>
         <div><span>学习中</span><strong id="library-learning">0</strong></div>
         <div><span>等待见面</span><strong id="library-new">0</strong></div>
@@ -713,6 +733,23 @@
         </section>
       </div>
 
+      <section class="panel calendar-panel reveal" style="--delay: 150ms">
+        <div class="panel-heading">
+          <div><p class="eyebrow">REVIEW-KALENDER</p><h2>复习日历</h2></div>
+          <div class="calendar-actions">
+            <button class="icon-button small" data-action="calendar-prev" aria-label="上个月"><svg class="icon"><use href="#i-chevron"/></svg></button>
+            <strong id="calendar-month">—</strong>
+            <button class="icon-button small calendar-next" data-action="calendar-next" aria-label="下个月"><svg class="icon"><use href="#i-chevron"/></svg></button>
+          </div>
+        </div>
+        <div class="calendar-weekdays"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+        <div class="calendar-grid" id="calendar-grid"></div>
+        <div class="calendar-foot">
+          <span><i class="calendar-dot"></i> 有词到期 · 本日历仅反映导出当日的计划</span>
+          <button class="text-link" data-action="export-ics">导出 .ics 日历 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </section>
+
       <div class="stats-lower">
         <section class="panel heatmap-panel reveal" style="--delay: 160ms">
           <div class="panel-heading">
@@ -756,6 +793,7 @@
   <script src="textbook-pack.js"></script>
   <script src="grammar.js"></script>
   <script src="grammar-summary.js"></script>
+  <script src="data-fixes.js"></script>
   <script src="app.js"></script>
   <script id="pwa-register">
     if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
@@ -766,4 +804,5 @@
   </script>
 </body>
 </html>
+
 

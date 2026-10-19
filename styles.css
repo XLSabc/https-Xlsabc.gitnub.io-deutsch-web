@@ -1931,6 +1931,183 @@ h2 {
   perspective: 1800px;
 }
 
+/* Exam-first recall */
+.exam-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: clamp(492px, calc(100vh - 272px), 585px);
+  padding: 28px 30px;
+  background:
+    radial-gradient(360px 180px at 100% 0%, rgba(196, 92, 59, 0.07), transparent 70%),
+    var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow-md);
+}
+
+.exam-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.exam-progress {
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.exam-question {
+  max-width: 520px;
+  margin: 0 0 8px;
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: clamp(30px, 4vw, 48px);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+
+.exam-sub {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.exam-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin-top: auto;
+  margin-bottom: 16px;
+}
+
+.exam-option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 48px;
+  padding: 10px 13px;
+  color: var(--ink-2);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  font-size: 11px;
+  line-height: 1.45;
+  text-align: left;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.exam-option:hover:not(:disabled) {
+  border-color: var(--forest-3);
+  background: var(--surface-3);
+  transform: translateY(-1px);
+}
+
+.exam-option .exam-index {
+  display: grid;
+  place-items: center;
+  width: 19px;
+  height: 19px;
+  flex: 0 0 auto;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 5px;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.exam-option.is-correct {
+  color: var(--forest);
+  background: #eef5ed;
+  border-color: var(--sage);
+}
+
+.exam-option.is-wrong {
+  color: var(--rose);
+  background: #fcf2f3;
+  border-color: var(--rose);
+}
+
+.exam-option.is-dimmed {
+  opacity: 0.45;
+}
+
+.exam-result {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 13px 14px;
+  background: var(--surface-2);
+  border-left: 2px solid var(--sage);
+  border-radius: 0 8px 8px 0;
+}
+
+.exam-result.is-wrong {
+  border-left-color: var(--rose);
+}
+
+.exam-result-icon {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  flex: 0 0 auto;
+  color: var(--forest);
+  background: #eef5ed;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.exam-result.is-wrong .exam-result-icon {
+  color: var(--rose);
+  background: #fcf2f3;
+}
+
+.exam-result strong {
+  display: block;
+  margin-bottom: 2px;
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.exam-result p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.exam-reveal {
+  align-self: flex-start;
+  margin-top: 15px;
+}
+
+.exam-panel:not(.is-answered) .exam-reveal {
+  display: none;
+}
+
+.exam-foot {
+  margin: 13px 0 0;
+  color: var(--faint);
+  font-size: 8px;
+}
+
+.study-stage.exam-active .card-scene,
+.study-stage.exam-active .rating-bar,
+.study-stage.exam-active .study-keys {
+  display: none;
+}
+
+.study-stage.exam-active .exam-panel {
+  display: flex;
+}
+
+
 .flashcard {
   position: relative;
   width: 100%;
@@ -2207,6 +2384,92 @@ kbd {
   font-weight: 600;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.conjugation-block {
+  margin: 0 0 14px;
+  overflow: hidden;
+  background: var(--surface-2);
+  border: 1px solid var(--line-soft);
+  border-radius: 9px;
+}
+
+.conjugation-block summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 12px;
+  color: var(--ink-2);
+  cursor: pointer;
+  font-size: 9.5px;
+  font-weight: 600;
+  list-style: none;
+}
+
+.conjugation-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.conjugation-block summary::before {
+  content: "+";
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  color: var(--forest-3);
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.conjugation-block[open] summary::before {
+  content: "−";
+}
+
+.conjugation-block summary span {
+  margin-left: auto;
+  color: var(--faint);
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.conjugation-table-wrap {
+  overflow-x: auto;
+  border-top: 1px solid var(--line-soft);
+}
+
+.conjugation-table {
+  width: 100%;
+  min-width: 280px;
+  border-collapse: collapse;
+  font-size: 9px;
+}
+
+.conjugation-table th,
+.conjugation-table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--line-soft);
+  text-align: left;
+}
+
+.conjugation-table tr:last-child th,
+.conjugation-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.conjugation-table th {
+  width: 42%;
+  color: var(--faint);
+  font-weight: 500;
+}
+
+.conjugation-table td {
+  color: var(--ink-2);
+  font-family: var(--display);
+  font-size: 11px;
 }
 
 .example-block {
@@ -4718,6 +4981,130 @@ kbd {
   line-height: 1.5;
 }
 
+/* Review calendar */
+.calendar-panel {
+  margin-top: 14px;
+  padding: 22px 24px 19px;
+}
+
+.calendar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.calendar-actions strong {
+  min-width: 92px;
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.icon-button.small {
+  width: 27px;
+  height: 27px;
+}
+
+.calendar-next .icon {
+  transform: rotate(-90deg);
+}
+
+.calendar-actions [data-action="calendar-prev"] .icon {
+  transform: rotate(90deg);
+}
+
+.calendar-weekdays,
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+}
+
+.calendar-weekdays {
+  margin: 14px 0 5px;
+  color: var(--faint);
+  font-size: 8px;
+  text-align: center;
+}
+
+.calendar-day {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  color: var(--ink-2);
+  background: var(--surface-2);
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-size: 9.5px;
+}
+
+.calendar-day:hover {
+  border-color: var(--line);
+  background: var(--surface-3);
+}
+
+.calendar-day.is-outside {
+  color: var(--faint);
+  background: transparent;
+  opacity: 0.45;
+}
+
+.calendar-day.is-today {
+  color: var(--forest);
+  border-color: var(--forest-3);
+  font-weight: 700;
+}
+
+.calendar-day.has-due {
+  background: #eef5ed;
+}
+
+.calendar-day .calendar-count {
+  margin-top: 2px;
+  color: var(--forest-3);
+  font-size: 7.5px;
+  line-height: 1;
+}
+
+.calendar-day.has-due::after {
+  content: "";
+  width: 3px;
+  height: 3px;
+  margin-top: 2px;
+  background: var(--clay);
+  border-radius: 50%;
+}
+
+.calendar-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 12px;
+  padding-top: 11px;
+  color: var(--faint);
+  border-top: 1px solid var(--line-soft);
+  font-size: 8px;
+}
+
+.calendar-foot > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.calendar-dot {
+  width: 5px;
+  height: 5px;
+  background: var(--clay);
+  border-radius: 50%;
+}
+
 .stats-lower {
   display: grid;
   grid-template-columns: minmax(0, 1.23fr) minmax(300px, 0.77fr);
@@ -5759,6 +6146,14 @@ kbd {
   .rating-bar { grid-template-columns: 1fr 1fr; }
   .rating { height: 49px; }
   .card-scene { height: clamp(470px, calc(100dvh - 235px), 620px); }
+  .exam-panel {
+    min-height: clamp(470px, calc(100dvh - 235px), 620px);
+    padding: 21px 20px;
+  }
+  .exam-options { grid-template-columns: 1fr; margin-bottom: 12px; }
+  .exam-question { font-size: 30px; }
+  .exam-sub { margin-bottom: 15px; }
+  .exam-option { min-height: 43px; }
   .study-timer { display: none; }
   .study-top { margin-bottom: 15px; }
   .study-progress-copy { font-size: 8.5px; }
@@ -5766,6 +6161,13 @@ kbd {
   .word-facts > div { padding: 8px; }
   .example-de { font-size: 13px; }
   .summary-card { padding: 26px 18px 23px; }
+}
+
+@media (max-width: 760px) {
+  .calendar-panel { padding: 18px 16px 15px; }
+  .calendar-day { min-height: 38px; font-size: 9px; }
+  .calendar-foot { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .calendar-actions strong { min-width: 74px; font-size: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
