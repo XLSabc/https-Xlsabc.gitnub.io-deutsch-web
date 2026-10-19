@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#f4efe4">
+  <meta name="description" content="Wortkarte – 用间隔重复记住德语单词。学习、复习、测验与进度追踪，全部保存在本地浏览器。">
+  <title>Wortkarte · 德语词卡</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Wortkarte">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.8 12 3l9 7.8"/><path d="M5.5 9.5V21h13V9.5"/><path d="M9.5 21v-6h5v6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v18H6.5A2.5 2.5 0 0 0 4 22V4.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M8 6h8M8 10h5"/></symbol>
+    <symbol id="i-grammar" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h5M8 16h8"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3.5 13.8 9l5.5 1.8-5.5 1.8L12 18l-1.8-5.4L4.7 10.8 10.2 9 12 3.5Z"/><path d="m18.5 16 .8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.2 16.2 4.3 4.3"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12.5 22c4.1 0 7-2.7 7-6.7 0-3.2-2.2-5.4-3.9-7.7-.9-1.3-1.5-2.6-1.6-4.6-2.2 1.3-3.3 3.1-3.2 5.1 0 .9.3 1.7.7 2.4-1.5-.1-2.7-1-3.3-2.5-1.2 1.8-2.7 4.1-2.7 7.1C5.5 19.2 8.4 22 12.5 22Z"/><path d="M12.5 22c-1.9 0-3.2-1.3-3.2-3.1 0-1.6 1.1-2.7 2.1-4 1.1 1.2 3.9 2.1 3.9 4.2 0 1.7-1 2.9-2.8 2.9Z"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-2.8 2.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6v.2h-4V21a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1L4.2 17l.1-.1a1.7 1.7 0 0 0 .3-1.9A1.7 1.7 0 0 0 3 14H2.8v-4H3a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9L4.2 7 7 4.2l.1.1A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.6v-.2h4V3a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1L19.8 7l-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.6 1h.2v4H21a1.7 1.7 0 0 0-1.6 1Z"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 18l-6-6 6-6"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="M11 5 6.5 9H3v6h3.5L11 19V5Z"/><path d="M15 9a4.2 4.2 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5L20 6.5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m8 10 4 4 4-4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5.3l3.5 2"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 6v5h-5"/><path d="M18.4 9A7.5 7.5 0 1 0 20 14"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 5.7a5.2 5.2 0 0 0-7.4 0L12 7.1l-1.4-1.4a5.2 5.2 0 0 0-7.4 7.4L12 21l8.8-7.9a5.2 5.2 0 0 0 0-7.4Z"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z"/></symbol>
+    <symbol id="i-hourglass" viewBox="0 0 24 24"><path d="M6 3h12M6 21h12M7 3c0 5 5 5 5 9s-5 4-5 9M17 3c0 5-5 5-5 9s5 4 5 9"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7V5Z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 14h10l1-14M10 11v6M14 11v6"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4V3Z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 4C11 4 4 8 4 15c0 2.5 1.5 5 5 5 7 0 11-7 11-16Z"/><path d="M4 21c2-5 6-8 11-11"/></symbol>
+  </svg>
+
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <aside class="sidebar" id="sidebar">
+    <button class="brand" data-nav="home" aria-label="回到今日学习">
+      <span class="brand-mark" aria-hidden="true">W<span></span></span>
+      <span class="brand-type"><strong>WORTKARTE</strong><small>Deutsch, täglich.</small></span>
+    </button>
+
+    <div class="side-label">学习空间</div>
+    <nav class="side-nav" aria-label="主导航">
+      <button class="side-link is-active" data-nav="home">
+        <svg class="icon"><use href="#i-home"/></svg><span>今日学习</span>
+        <span class="nav-badge" id="nav-due-badge" hidden>0</span>
+      </button>
+      <button class="side-link" data-nav="library">
+        <svg class="icon"><use href="#i-book"/></svg><span>我的词库</span>
+      </button>
+      <button class="side-link" data-nav="grammar">
+        <svg class="icon"><use href="#i-grammar"/></svg><span>语法地图</span>
+      </button>
+      <button class="side-link" data-nav="quiz">
+        <svg class="icon"><use href="#i-spark"/></svg><span>小测验</span>
+      </button>
+      <button class="side-link" data-nav="stats">
+        <svg class="icon"><use href="#i-chart"/></svg><span>学习进度</span>
+      </button>
+    </nav>
+
+    <div class="side-label side-label-spaced">快捷开始</div>
+    <div class="side-quick">
+      <button data-action="quick-review">
+        <span class="quick-icon"><svg class="icon"><use href="#i-clock"/></svg></span>
+        <span><strong>到期复习</strong><small><span id="side-due-count">0</span> 张卡片待复习</small></span>
+        <svg class="icon quick-arrow"><use href="#i-arrow-right"/></svg>
+      </button>
+      <button data-action="quick-new">
+        <span class="quick-icon"><svg class="icon"><use href="#i-plus"/></svg></span>
+        <span><strong>认识新词</strong><small>每天一点点</small></span>
+        <svg class="icon quick-arrow"><use href="#i-arrow-right"/></svg>
+      </button>
+    </div>
+
+    <div class="sidebar-bottom">
+      <div class="word-of-day" id="word-of-day"></div>
+      <button class="profile" data-action="settings" aria-label="打开设置">
+        <span class="avatar" id="profile-avatar">L</span>
+        <span class="profile-copy"><strong id="profile-name">Lena</strong><small id="profile-subtitle">本地学习档案</small></span>
+        <svg class="icon"><use href="#i-settings"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <header class="mobile-header">
+    <button class="brand brand-mobile" data-nav="home" aria-label="回到今日学习">
+      <span class="brand-mark">W<span></span></span>
+      <span class="brand-type"><strong>WORTKARTE</strong></span>
+    </button>
+    <div class="mobile-header-actions">
+      <button class="streak-pill compact" data-nav="stats" aria-label="查看连续学习天数">
+        <svg class="icon"><use href="#i-flame"/></svg><strong id="mobile-streak">0</strong>
+      </button>
+      <button class="icon-button" data-action="settings" aria-label="设置">
+        <svg class="icon"><use href="#i-settings"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <header class="topbar">
+      <div class="crumb"><span>Wortkarte</span><i>/</i><strong id="crumb-current">今日学习</strong></div>
+      <div class="top-actions">
+        <label class="global-search" for="global-search">
+          <svg class="icon"><use href="#i-search"/></svg>
+          <input id="global-search" type="search" placeholder="搜索单词或释义" autocomplete="off">
+          <kbd>Ctrl K</kbd>
+        </label>
+        <button class="streak-pill" data-nav="stats" title="连续学习天数">
+          <svg class="icon"><use href="#i-flame"/></svg>
+          <span><strong id="top-streak">0</strong> 天</span>
+        </button>
+        <button class="icon-button top-settings" data-action="settings" aria-label="设置">
+          <svg class="icon"><use href="#i-settings"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- ─────────────────────────── 今日学习 ─────────────────────────── -->
+    <section class="view is-active" id="view-home" data-view="home">
+      <div class="home-heading reveal">
+        <div>
+          <p class="eyebrow" id="home-date">MONTAG · 19. OKTOBER</p>
+          <h1 class="greeting" id="home-greeting">Guten Abend.</h1>
+          <p class="home-subline" id="home-subline">今天也让德语靠近一点。</p>
+        </div>
+        <div class="week-strip" id="week-strip" aria-label="本周学习记录"></div>
+      </div>
+
+      <div class="hero-grid">
+        <section class="hero-card reveal" style="--delay: 40ms">
+          <div class="hero-copy">
+            <p class="eyebrow light">DEIN TAGESPLAN</p>
+            <h2 id="hero-title">12 Wörter<br><em>warten auf dich.</em></h2>
+            <p class="hero-line" id="hero-line">先复习到期卡片，再认识几个新词。大约 8 分钟。</p>
+            <div class="hero-actions">
+              <button class="btn btn-cream" id="hero-cta" data-action="start-daily">
+                <span>开始学习</span>
+                <svg class="icon"><use href="#i-arrow-right"/></svg>
+              </button>
+              <span class="hero-meta"><svg class="icon"><use href="#i-clock"/></svg><span id="hero-time">约 8 分钟</span></span>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-ring"></div>
+            <div class="stack-card stack-a"><small>das</small><strong>Gefühl</strong></div>
+            <div class="stack-card stack-b"><small>die</small><strong>Zeit</strong></div>
+            <div class="stack-card stack-c"><small>der</small><strong>Augenblick</strong></div>
+            <div class="orbit-count">
+              <span id="hero-orbit-count">0</span>
+              <small id="hero-orbit-label">fällig</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="goal-card reveal" style="--delay: 90ms" aria-label="每日目标">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">TAGESZIEL</p>
+              <h2>今日目标</h2>
+            </div>
+            <span class="goal-streak"><svg class="icon"><use href="#i-flame"/></svg><strong id="daily-streak">0</strong></span>
+          </div>
+          <div class="goal-ring-wrap">
+            <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+              <circle class="ring-track" cx="60" cy="60" r="51"/>
+              <circle class="ring-value" id="daily-ring" cx="60" cy="60" r="51"/>
+            </svg>
+            <div class="goal-ring-label">
+              <strong id="daily-count">0</strong>
+              <span>/ <span id="daily-goal">20</span> 词</span>
+            </div>
+          </div>
+          <p class="goal-note" id="daily-note">再学一点，今天的节奏就完成了。</p>
+          <button class="text-link" data-action="start-daily">继续学习 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </section>
+      </div>
+
+      <div class="stat-strip reveal" style="--delay: 130ms">
+        <div class="stat-item">
+          <span class="stat-icon sage"><svg class="icon"><use href="#i-layers"/></svg></span>
+          <div><span class="stat-label">长期记忆</span><strong><span id="stat-mastered">0</span> <small>词</small></strong></div>
+          <span class="stat-trend" id="stat-mastered-note">稳定掌握</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon clay"><svg class="icon"><use href="#i-target"/></svg></span>
+          <div><span class="stat-label">今日已学</span><strong><span id="stat-today">0</span> <small>词</small></strong></div>
+          <span class="stat-trend" id="stat-today-note">目标 20</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-icon amber"><svg class="icon"><use href="#i-flame"/></svg></span>
+          <div><span class="stat-label">复习正确率</span><strong><span id="stat-accuracy">0</span><small>%</small></strong></div>
+          <span class="stat-trend" id="stat-accuracy-note">最近 30 次</span>
+        </div>
+      </div>
+
+      <section class="section-block reveal" style="--delay: 170ms">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">DEINE SAMMLUNGEN</p>
+            <h2>从一个主题开始</h2>
+          </div>
+          <button class="text-link" data-nav="library" id="home-library-link">查看全部 70 词 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+        </div>
+        <div class="deck-grid" id="deck-grid"></div>
+      </section>
+
+      <section class="pack-banner reveal" id="pack-banner" style="--delay:190ms" hidden>
+        <div class="pack-glyph" aria-hidden="true">
+          <span>G</span>
+          <svg class="icon"><use href="#i-book"/></svg>
+        </div>
+        <div class="pack-copy">
+          <p class="eyebrow">OFFIZIELLER WORTSCHATZ</p>
+          <h3>歌德证书 A1–C2 词表</h3>
+          <p id="pack-subtitle">从 Goethe-Institut 分级词表导入词汇，按等级逐步扩展。</p>
+          <div class="pack-meta" id="pack-meta"></div>
+        </div>
+        <div class="pack-actions">
+          <button class="btn btn-ghost" data-action="open-dictionary">浏览官方词表</button>
+          <button class="btn btn-primary" data-action="start-pack">学习词表</button>
+        </div>
+      </section>
+
+      <div class="home-lower">
+        <section class="panel activity-panel reveal" style="--delay: 210ms">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">WOCHENRHYTHMUS</p>
+              <h2>这一周的节奏</h2>
+            </div>
+            <span class="panel-pill" id="week-total">0 词</span>
+          </div>
+          <div class="week-chart" id="week-chart"></div>
+          <div class="activity-foot">
+            <span id="week-compare">保持这个节奏。</span>
+            <span class="dot-label"><i></i>复习量</span>
+          </div>
+        </section>
+
+        <section class="panel due-panel reveal" style="--delay: 250ms">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">ALS NÄCHSTES</p>
+              <h2>接下来复习</h2>
+            </div>
+            <button class="icon-button small" data-action="start-daily" aria-label="开始复习">
+              <svg class="icon"><use href="#i-arrow-right"/></svg>
+            </button>
+          </div>
+          <div class="due-list" id="home-due-list"></div>
+          <button class="panel-footer-link" data-action="start-daily">复习全部到期词 <span id="home-due-more">0</span></button>
+        </section>
+      </div>
+
+      <p class="local-note"><svg class="icon"><use href="#i-leaf"/></svg> <span id="local-note-text">所有学习记录只保存在你的浏览器里。没有账号，也没有云端。</span></p>
+    </section>
+
+    <!-- ─────────────────────────── 学习卡片 ─────────────────────────── -->
+    <section class="view study-view" id="view-study" data-view="study">
+      <div class="study-top">
+        <button class="text-button" data-action="exit-study">
+          <svg class="icon"><use href="#i-arrow-left"/></svg> 结束学习
+        </button>
+        <div class="study-progress-wrap">
+          <div class="study-progress-copy"><span id="study-topic-label">今日复习</span><strong id="study-progress-label">0 / 0</strong></div>
+          <div class="progress-track"><span id="study-progress-bar"></span></div>
+        </div>
+        <div class="study-timer"><svg class="icon"><use href="#i-clock"/></svg><span id="study-timer">00:00</span></div>
+      </div>
+
+      <div class="study-stage" id="study-stage">
+        <div class="study-layout">
+          <div class="study-main">
+            <div class="card-scene" id="card-scene">
+              <article class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="点击翻转卡片，查看释义">
+                <div class="card-face card-front">
+                  <div class="card-meta">
+                    <div class="card-tags"><span class="level-chip" id="card-level">A1</span><span class="topic-label" id="card-topic">日常与习惯</span></div>
+                    <button class="audio-button" data-action="speak-card" aria-label="朗读单词">
+                      <svg class="icon"><use href="#i-volume"/></svg>
+                    </button>
+                  </div>
+                  <div class="front-center">
+                    <div class="article-line" id="card-article-row"><span class="article" id="card-article">der</span></div>
+                    <h2 class="front-word" id="card-word">Augenblick</h2>
+                    <p class="word-forms" id="card-forms">Nomen · die Augenblicke</p>
+                  </div>
+                  <div class="card-hint"><span>点击卡片，揭晓它的意思</span><kbd>Space</kbd></div>
+                </div>
+
+                <div class="card-face card-back">
+                  <div class="card-meta">
+                    <div class="card-tags"><span class="level-chip" id="back-level">A1</span><span class="topic-label" id="back-topic">日常与习惯</span></div>
+                    <button class="audio-button" data-action="speak-card" aria-label="朗读单词">
+                      <svg class="icon"><use href="#i-volume"/></svg>
+                    </button>
+                  </div>
+                  <div class="back-scroll">
+                    <div class="back-word-row">
+                      <div class="back-word"><span class="article" id="back-article">der</span> <span id="back-word">Augenblick</span></div>
+                      <span class="back-translation" id="back-translation">瞬间；片刻</span>
+                    </div>
+                    <div class="word-facts">
+                      <div><span>词性</span><strong id="back-pos">名词</strong></div>
+                      <div><span>复数</span><strong id="back-plural">die Augenblicke</strong></div>
+                      <div><span>等级</span><strong id="back-level-fact">A2</strong></div>
+                    </div>
+                    <div class="example-block" id="example-block">
+                      <span class="eyebrow">BEISPIEL</span>
+                      <p class="example-de" id="back-example"></p>
+                      <p class="example-zh" id="back-example-zh"></p>
+                    </div>
+                    <div class="memory-tip">
+                      <span class="memory-icon"><svg class="icon"><use href="#i-spark"/></svg></span>
+                      <div><span>记忆钩子</span><p id="back-note"></p></div>
+                    </div>
+                    <div class="card-source hidden" id="card-source"></div>
+                  </div>
+                  <div class="card-hint"><span>你记得多牢？</span><span class="hint-keys"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd></span></div>
+                </div>
+              </article>
+            </div>
+
+            <div class="rating-bar" id="rating-bar" aria-label="评价掌握程度">
+              <button class="rating again" data-rating="again"><span>重来</span><small id="preview-again">10 分钟</small></button>
+              <button class="rating hard" data-rating="hard"><span>困难</span><small id="preview-hard">1 天</small></button>
+              <button class="rating good" data-rating="good"><span>记得</span><small id="preview-good">3 天</small></button>
+              <button class="rating easy" data-rating="easy"><span>轻松</span><small id="preview-easy">7 天</small></button>
+            </div>
+            <div class="study-keys">
+              <span><kbd>Space</kbd> 翻转</span>
+              <span><kbd>1</kbd>–<kbd>4</kbd> 评价</span>
+              <span><kbd>Esc</kbd> 结束</span>
+            </div>
+          </div>
+
+          <aside class="study-side">
+            <div class="side-session-card">
+              <div class="session-head">
+                <span class="eyebrow">DIESE SITZUNG</span>
+                <span class="session-live"><i></i>LIVE</span>
+              </div>
+              <div class="session-numbers">
+                <div><strong id="session-done">0</strong><span>已完成</span></div>
+                <div><strong id="session-left">0</strong><span>剩余</span></div>
+              </div>
+              <div class="session-note" id="session-note">慢一点也没关系。回忆本身，就是在加深记忆。</div>
+            </div>
+            <div class="queue-card">
+              <div class="queue-head"><span>接下来</span><span id="queue-count">0 张</span></div>
+              <div id="queue-preview" class="queue-preview"></div>
+            </div>
+            <div class="quote-card">
+              <svg class="icon"><use href="#i-leaf"/></svg>
+              <p>„Übung macht den Meister.“</p>
+              <span>熟能生巧。</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <div class="session-summary hidden" id="study-summary">
+        <div class="summary-card">
+          <div class="summary-mark"><svg class="icon"><use href="#i-check"/></svg></div>
+          <p class="eyebrow">SITZUNG BEENDET</p>
+          <h2 id="summary-title">Schön gemacht.</h2>
+          <p class="summary-copy" id="summary-copy">你完成了这一组卡片。记忆正在悄悄变牢。</p>
+          <div class="summary-stats">
+            <div><strong id="summary-count">0</strong><span>复习卡片</span></div>
+            <div><strong id="summary-accuracy">0%</strong><span>掌握率</span></div>
+            <div><strong id="summary-time">0:00</strong><span>专注时间</span></div>
+          </div>
+          <div class="summary-actions">
+            <button class="btn btn-primary" data-action="study-again">再学一组 <svg class="icon"><use href="#i-refresh"/></svg></button>
+            <button class="btn btn-ghost" data-nav="home">回到概览</button>
+          </div>
+          <p class="summary-foot">明天见。保持这个节奏，比一次学很多更重要。</p>
+        </div>
+        <div class="confetti" id="confetti" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────── 测验 ─────────────────────────── -->
+    <section class="view" id="view-quiz" data-view="quiz">
+      <div class="page-heading reveal">
+        <div>
+          <p class="eyebrow">WISSEN CHECKEN</p>
+          <h1>小测验<span class="heading-dot">.</span></h1>
+          <p>不翻卡片，看看哪些词已经真正属于你。</p>
+        </div>
+        <div class="heading-medal"><svg class="icon"><use href="#i-spark"/></svg><span>10 题 · 约 3 分钟</span></div>
+      </div>
+
+      <div class="quiz-shell reveal" style="--delay: 60ms">
+        <div id="quiz-setup">
+          <div class="quiz-intro">
+            <div>
+              <span class="eyebrow">WÄHLE EINEN MODUS</span>
+              <h2>你想怎么被考？</h2>
+              <p>每个模式都会从你的词库与今日主题中抽题。答错的词会进入重点复习。</p>
+            </div>
+            <div class="quiz-mascot" aria-hidden="true">
+              <span>?</span>
+              <i></i>
+            </div>
+          </div>
+          <div class="quiz-mode-grid" id="quiz-mode-grid">
+            <button class="quiz-mode is-selected" data-quiz-mode="de-zh">
+              <span class="mode-number">01</span>
+              <span class="mode-icon"><svg class="icon"><use href="#i-book"/></svg></span>
+              <strong>德语 → 中文</strong>
+              <small>看到单词，选出正确释义</small>
+              <span class="mode-check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+            <button class="quiz-mode" data-quiz-mode="zh-de">
+              <span class="mode-number">02</span>
+              <span class="mode-icon"><svg class="icon"><use href="#i-arrow-left"/></svg></span>
+              <strong>中文 → 德语</strong>
+              <small>从记忆里把单词找出来</small>
+              <span class="mode-check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+            <button class="quiz-mode" data-quiz-mode="article">
+              <span class="mode-number">03</span>
+              <span class="mode-icon"><svg class="icon"><use href="#i-layers"/></svg></span>
+              <strong>der / die / das</strong>
+              <small>专攻德语冠词与名词性别</small>
+              <span class="mode-check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+            <button class="quiz-mode" data-quiz-mode="listening">
+              <span class="mode-number">04</span>
+              <span class="mode-icon"><svg class="icon"><use href="#i-volume"/></svg></span>
+              <strong>听音辨词</strong>
+              <small>只听发音，选出对应的中文</small>
+              <span class="mode-check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+          </div>
+          <div class="quiz-config">
+            <div class="quiz-config-item">
+              <label for="quiz-level">词汇范围</label>
+              <select id="quiz-level">
+                <option value="all">全部等级</option>
+                <option value="A1">A1 · 入门</option>
+                <option value="A2">A2 · 基础</option>
+                <option value="B1">B1 · 进阶</option>
+                <option value="B2">B2 · 中高级</option>
+                <option value="C1">C1 / C2 · 高阶</option>
+              </select>
+            </div>
+            <div class="quiz-config-item">
+              <span>题目数量</span>
+              <strong>10 题</strong>
+            </div>
+            <button class="btn btn-primary" id="quiz-start">开始测验 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+          </div>
+        </div>
+
+        <div id="quiz-play" class="hidden">
+          <div class="quiz-play-top">
+            <button class="text-button" data-action="quit-quiz"><svg class="icon"><use href="#i-arrow-left"/></svg> 退出</button>
+            <div class="quiz-progress-wrap">
+              <span id="quiz-progress-label">1 / 10</span>
+              <div class="progress-track"><span id="quiz-progress-bar"></span></div>
+            </div>
+            <span class="quiz-score"><svg class="icon"><use href="#i-spark"/></svg><strong id="quiz-score">0</strong> 分</span>
+          </div>
+          <div class="quiz-question-card">
+            <div class="quiz-question-head">
+              <span class="eyebrow" id="quiz-prompt-label">WAS BEDEUTET DAS?</span>
+              <span class="level-chip" id="quiz-level-chip">A1</span>
+            </div>
+            <div class="quiz-prompt">
+              <h2 id="quiz-question">—</h2>
+              <button class="audio-button large" data-action="speak-quiz" aria-label="朗读题目">
+                <svg class="icon"><use href="#i-volume"/></svg>
+              </button>
+            </div>
+            <div class="quiz-options" id="quiz-options"></div>
+            <div class="quiz-feedback hidden" id="quiz-feedback">
+              <div class="feedback-mark" id="feedback-mark"><svg class="icon"><use href="#i-check"/></svg></div>
+              <div><strong id="feedback-title">Richtig!</strong><p id="feedback-copy"></p></div>
+            </div>
+            <div class="quiz-play-foot">
+              <span class="quiz-hint" id="quiz-hint">点击选项作答</span>
+              <button class="btn btn-primary" id="quiz-next" hidden>下一题 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+            </div>
+          </div>
+        </div>
+
+        <div id="quiz-result" class="hidden">
+          <div class="quiz-result-card">
+            <div class="result-ring-wrap">
+              <svg class="progress-ring" viewBox="0 0 120 120" aria-hidden="true">
+                <circle class="ring-track" cx="60" cy="60" r="51"/>
+                <circle class="ring-value result" id="result-ring" cx="60" cy="60" r="51"/>
+              </svg>
+              <div class="result-ring-label"><strong id="result-percent">0</strong><span>%</span></div>
+            </div>
+            <p class="eyebrow">QUIZ BEENDET</p>
+            <h2 id="result-title">Gut gemacht.</h2>
+            <p class="result-copy" id="result-copy"></p>
+            <div class="result-stats">
+              <div><strong id="result-correct">0</strong><span>答对</span></div>
+              <div><strong id="result-wrong">0</strong><span>答错</span></div>
+              <div><strong id="result-best">—</strong><span>最佳纪录</span></div>
+            </div>
+            <div class="result-review" id="result-review"></div>
+            <div class="summary-actions">
+              <button class="btn btn-primary" data-action="quiz-retry">再来一次 <svg class="icon"><use href="#i-refresh"/></svg></button>
+              <button class="btn btn-ghost" data-nav="quiz">换个模式</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────── 词库 ─────────────────────────── -->
+    <section class="view" id="view-library" data-view="library">
+      <div class="page-heading reveal">
+        <div>
+          <p class="eyebrow">DEIN WORTSCHATZ</p>
+          <h1>我的词库<span class="heading-dot">.</span></h1>
+          <p id="library-subline">70 个精心挑选的德语词，加上你自己添加的收藏。</p>
+        </div>
+        <div class="heading-actions">
+          <button class="btn btn-ghost" data-action="open-dictionary"><svg class="icon"><use href="#i-download"/></svg> 官方词表</button>
+          <button class="btn btn-primary" data-action="add-word"><svg class="icon"><use href="#i-plus"/></svg> 添加单词</button>
+        </div>
+      </div>
+
+      <div class="library-overview reveal" style="--delay: 40ms">
+        <div><span>全部词汇</span><strong id="library-total">7513</strong></div>
+        <div><span>已掌握</span><strong id="library-mastered">0</strong></div>
+        <div><span>学习中</span><strong id="library-learning">0</strong></div>
+        <div><span>等待见面</span><strong id="library-new">0</strong></div>
+      </div>
+
+      <div class="library-toolbar reveal" style="--delay: 70ms">
+        <label class="library-search">
+          <svg class="icon"><use href="#i-search"/></svg>
+          <input type="search" id="library-search" placeholder="搜索德语单词、中文释义或例句…" autocomplete="off">
+        </label>
+        <div class="filter-chips" id="level-filter" role="group" aria-label="按等级筛选">
+          <button class="chip is-active" data-level="all">全部</button>
+          <button class="chip" data-level="A1">A1</button>
+          <button class="chip" data-level="A2">A2</button>
+          <button class="chip" data-level="B1">B1</button>
+          <button class="chip" data-level="B2">B2</button>
+          <button class="chip" data-level="C1">C1/C2</button>
+        </div>
+        <div class="library-selects">
+          <label class="select-wrap"><span class="sr-only">学习状态</span>
+            <select id="status-filter">
+              <option value="all">全部状态</option>
+              <option value="new">新词</option>
+              <option value="learning">学习中</option>
+              <option value="mastered">已掌握</option>
+              <option value="due">今天到期</option>
+            </select>
+            <svg class="icon"><use href="#i-chevron"/></svg>
+          </label>
+          <label class="select-wrap"><span class="sr-only">排序方式</span>
+            <select id="sort-filter">
+              <option value="default">默认顺序</option>
+              <option value="level">按等级</option>
+              <option value="due">按复习时间</option>
+            </select>
+            <svg class="icon"><use href="#i-chevron"/></svg>
+          </label>
+        </div>
+      </div>
+
+      <div class="table-shell reveal" style="--delay: 100ms">
+        <table class="word-table">
+          <thead>
+            <tr>
+              <th>单词</th>
+              <th>释义</th>
+              <th>词性 / 复数</th>
+              <th>等级</th>
+              <th>状态</th>
+              <th>下次复习</th>
+              <th><span class="sr-only">操作</span></th>
+            </tr>
+          </thead>
+          <tbody id="library-body"></tbody>
+        </table>
+        <div class="library-empty hidden" id="library-empty">
+          <svg class="icon"><use href="#i-search"/></svg>
+          <h3>没有找到这个词</h3>
+          <p>试试更短的搜索词，或切换筛选条件。</p>
+          <button class="btn btn-ghost" data-action="clear-filters">清除筛选</button>
+        </div>
+      </div>
+      <div class="table-foot">
+        <span id="library-count">显示 0 个词</span>
+        <span class="table-foot-actions"><span>点击任意一行，查看完整词卡</span><button class="text-link" id="library-more" data-action="library-more">加载更多</button></span>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────── 语法 ─────────────────────────── -->
+    <section class="view" id="view-grammar" data-view="grammar">
+      <div class="page-heading reveal">
+        <div>
+          <p class="eyebrow">GRAMMATIK</p>
+          <h1>语法地图<span class="heading-dot">.</span></h1>
+          <p>把《新求精》A1 与初级2 的语法点拆成一张可以随时回来查的地图。</p>
+        </div>
+        <div class="grammar-progress-card">
+          <strong id="grammar-seen">0</strong>
+          <span>/ <span id="grammar-total">16</span> 主题</span>
+          <small>已读语法卡</small>
+        </div>
+      </div>
+
+      <div class="grammar-toolbar reveal" style="--delay: 40ms">
+        <div class="filter-chips" id="grammar-filter" role="group" aria-label="按等级筛选语法">
+          <button class="chip is-active" data-grammar-level="all">全部</button>
+          <button class="chip" data-grammar-level="A1">A1 基础</button>
+          <button class="chip" data-grammar-level="A2">初级2 进阶</button>
+        </div>
+        <span class="grammar-count" id="grammar-count">16 个主题 · 32 道小练习</span>
+      </div>
+
+      <section class="grammar-book-banner reveal" style="--delay: 55ms">
+        <div class="grammar-book-mark" aria-hidden="true">§</div>
+        <div class="grammar-book-copy">
+          <p class="eyebrow">VOLLSTÄNDIGE GRAMMATIK</p>
+          <h2>《德语语法总结》</h2>
+          <p id="grammar-book-meta">18 章 · 36 张表格 · 从发音、格变到从句的完整参考</p>
+        </div>
+        <button class="btn btn-cream" data-action="open-grammar-book">打开语法书 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+      </section>
+
+      <div class="grammar-grid" id="grammar-grid"></div>
+      <p class="local-note"><svg class="icon"><use href="#i-leaf"/></svg> 语法卡为原创整理，和教材课次主题对应；建议先读例句，再做小练习。</p>
+    </section>
+
+    <!-- ─────────────────────────── 进度 ─────────────────────────── -->
+    <section class="view" id="view-stats" data-view="stats">
+      <div class="page-heading reveal">
+        <div>
+          <p class="eyebrow">DEIN FORTSCHRITT</p>
+          <h1>学习进度<span class="heading-dot">.</span></h1>
+          <p>数据不会替你记忆，但它会告诉你，哪些努力正在生效。</p>
+        </div>
+        <div class="streak-hero">
+          <svg class="icon"><use href="#i-flame"/></svg>
+          <div><strong id="stats-streak">0</strong><span>天连续学习</span></div>
+        </div>
+      </div>
+
+      <div class="kpi-grid reveal" style="--delay: 40ms">
+        <div class="kpi-card"><span class="kpi-icon sage"><svg class="icon"><use href="#i-book"/></svg></span><div><span>词库总量</span><strong id="stats-total">0</strong><small>个德语词</small></div></div>
+        <div class="kpi-card"><span class="kpi-icon clay"><svg class="icon"><use href="#i-layers"/></svg></span><div><span>长期记忆</span><strong id="stats-mastered">0</strong><small>已掌握</small></div></div>
+        <div class="kpi-card"><span class="kpi-icon amber"><svg class="icon"><use href="#i-target"/></svg></span><div><span>累计复习</span><strong id="stats-reviews">0</strong><small>次评价</small></div></div>
+        <div class="kpi-card"><span class="kpi-icon blue"><svg class="icon"><use href="#i-check"/></svg></span><div><span>正确率</span><strong id="stats-accuracy">0<sup>%</sup></strong><small>记得 + 轻松</small></div></div>
+      </div>
+
+      <div class="stats-grid">
+        <section class="panel mastery-panel reveal" style="--delay: 80ms">
+          <div class="panel-heading">
+            <div><p class="eyebrow">GEDÄCHTNIS</p><h2>掌握分布</h2></div>
+            <span class="panel-pill" id="mastery-total-pill">70 Wörter</span>
+          </div>
+          <div class="mastery-content">
+            <div class="mastery-ring-wrap">
+              <svg class="progress-ring large" viewBox="0 0 140 140" aria-hidden="true">
+                <circle class="ring-track" cx="70" cy="70" r="59"/>
+                <circle class="ring-value" id="mastery-ring" cx="70" cy="70" r="59"/>
+              </svg>
+              <div class="mastery-ring-label"><strong id="mastery-percent">0%</strong><span>已掌握</span></div>
+            </div>
+            <div class="mastery-legend">
+              <div><i class="mastered"></i><span>已掌握</span><strong id="legend-mastered">0</strong></div>
+              <div><i class="learning"></i><span>学习中</span><strong id="legend-learning">0</strong></div>
+              <div><i class="new"></i><span>还没见面</span><strong id="legend-new">0</strong></div>
+              <div><i class="due"></i><span>今天到期</span><strong id="legend-due">0</strong></div>
+            </div>
+          </div>
+          <div class="mastery-levels" id="mastery-levels"></div>
+        </section>
+
+        <section class="panel forecast-panel reveal" style="--delay: 120ms">
+          <div class="panel-heading">
+            <div><p class="eyebrow">REVIEW-PLAN</p><h2>未来 7 天</h2></div>
+            <span class="panel-pill">复习预测</span>
+          </div>
+          <div class="forecast-chart" id="forecast-chart"></div>
+          <p class="forecast-note" id="forecast-note">把复习摊开，记忆会更轻松。</p>
+        </section>
+      </div>
+
+      <div class="stats-lower">
+        <section class="panel heatmap-panel reveal" style="--delay: 160ms">
+          <div class="panel-heading">
+            <div><p class="eyebrow">KONSISTENZ</p><h2>最近 8 周</h2></div>
+            <div class="heat-legend"><span>少</span><i></i><i></i><i></i><i></i><span>多</span></div>
+          </div>
+          <div class="heatmap" id="heatmap"></div>
+          <div class="heatmap-labels"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+          <p class="forecast-note">颜色越深，代表那一天复习的卡片越多。</p>
+        </section>
+
+        <section class="panel difficult-panel reveal" style="--delay: 200ms">
+          <div class="panel-heading">
+            <div><p class="eyebrow">BRAUCHT LIEBE</p><h2>需要多看几眼</h2></div>
+            <button class="text-link" data-action="start-weak">专门复习 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+          </div>
+          <div class="difficult-list" id="difficult-list"></div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="app-footer">
+      <span>Wortkarte · 为认真学德语的人做的小工具</span>
+      <span>Inspiriert von Open-Source-Sprachprojekten auf GitHub</span>
+    </footer>
+  </main>
+
+  <nav class="bottom-nav" aria-label="移动端导航">
+    <button class="is-active" data-nav="home"><svg class="icon"><use href="#i-home"/></svg><span>今日</span></button>
+    <button data-nav="library"><svg class="icon"><use href="#i-book"/></svg><span>词库</span></button>
+    <button data-nav="grammar"><svg class="icon"><use href="#i-grammar"/></svg><span>语法</span></button>
+    <button data-nav="quiz"><svg class="icon"><use href="#i-spark"/></svg><span>测验</span></button>
+    <button data-nav="stats"><svg class="icon"><use href="#i-chart"/></svg><span>进度</span></button>
+  </nav>
+
+  <div class="modal-layer" id="modal-root" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="dictionary-pack.js"></script>
+  <script src="textbook-pack.js"></script>
+  <script src="grammar.js"></script>
+  <script src="grammar-summary.js"></script>
+  <script src="app.js"></script>
+  <script id="pwa-register">
+    if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
+
