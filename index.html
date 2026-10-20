@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -7,6 +7,8 @@
   <meta name="description" content="Wortkarte – 用间隔重复记住德语单词。学习、复习、测验与进度追踪，全部保存在本地浏览器。">
   <title>Wortkarte · 德语词卡</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="icons/favicon-16.png" sizes="16x16" type="image/png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -71,6 +73,9 @@
       </button>
       <button class="side-link" data-nav="grammar">
         <svg class="icon"><use href="#i-grammar"/></svg><span>语法地图</span>
+      </button>
+      <button class="side-link" data-nav="culture">
+        <svg class="icon"><use href="#i-leaf"/></svg><span>德国文化</span>
       </button>
       <button class="side-link" data-nav="quiz">
         <svg class="icon"><use href="#i-spark"/></svg><span>小测验</span>
@@ -216,13 +221,39 @@
         </div>
       </div>
 
+      <section class="weekly-quiz-card reveal" id="weekly-quiz-card" style="--delay:150ms" hidden>
+        <div class="weekly-quiz-mark"><svg class="icon"><use href="#i-spark"/></svg></div>
+        <div class="weekly-quiz-copy">
+          <p class="eyebrow">WOCHENQUIZ</p>
+          <h2 id="weekly-quiz-title">本周小测</h2>
+          <p id="weekly-quiz-copy">从已背过的词里抽一组，看看这周留下了多少。</p>
+        </div>
+        <div class="weekly-quiz-actions">
+          <button class="btn btn-primary" id="weekly-quiz-start" data-action="start-weekly-quiz">开始小测</button>
+          <button class="text-link" id="weekly-quiz-skip" data-action="skip-weekly-quiz">本周不做</button>
+        </div>
+      </section>
+
+      <section class="repeat-card reveal" id="repeat-card" style="--delay:160ms" hidden>
+        <div class="repeat-mark"><svg class="icon"><use href="#i-refresh"/></svg></div>
+        <div class="repeat-copy">
+          <p class="eyebrow">TAGESRÜCKBLICK</p>
+          <h2>今日回顾</h2>
+          <p id="repeat-copy">当天学过的词，再快速看一遍。</p>
+        </div>
+        <button class="btn btn-ghost" id="repeat-start" data-action="start-repeat">开始回顾</button>
+      </section>
+
       <section class="section-block reveal" style="--delay: 170ms">
         <div class="section-heading">
           <div>
             <p class="eyebrow">DEINE SAMMLUNGEN</p>
             <h2>从一个主题开始</h2>
           </div>
-          <button class="text-link" data-nav="library" id="home-library-link">查看全部 70 词 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+          <div class="heading-actions">
+            <button class="text-link" data-nav="library" id="home-library-link">查看全部 70 词 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+            <button class="text-link culture-home-link" data-nav="culture">德国文化 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+          </div>
         </div>
         <div class="deck-grid" id="deck-grid"></div>
       </section>
@@ -571,7 +602,7 @@
       </div>
 
       <div class="library-overview reveal" style="--delay: 40ms">
-        <div><span>全部词汇</span><strong id="library-total">7508</strong></div>
+        <div><span>全部词汇</span><strong id="library-total">7507</strong></div>
         <div><span>已掌握</span><strong id="library-mastered">0</strong></div>
         <div><span>学习中</span><strong id="library-learning">0</strong></div>
         <div><span>等待见面</span><strong id="library-new">0</strong></div>
@@ -676,6 +707,36 @@
 
       <div class="grammar-grid" id="grammar-grid"></div>
       <p class="local-note"><svg class="icon"><use href="#i-leaf"/></svg> 语法卡为原创整理，和教材课次主题对应；建议先读例句，再做小练习。</p>
+    </section>
+
+    <!-- ─────────────────────────── 德国文化 ─────────────────────────── -->
+    <section class="view" id="view-culture" data-view="culture">
+      <div class="page-heading reveal">
+        <div>
+          <p class="eyebrow">LANDESKUNDE</p>
+          <h1>德国文化<span class="heading-dot">.</span></h1>
+          <p>历史、日常文化、十六个联邦州与人物。每条都保留来源，方便继续查证。</p>
+        </div>
+        <div class="culture-count-card">
+          <strong id="culture-count">0</strong>
+          <span>条文化卡片</span>
+          <small>只读内容</small>
+        </div>
+      </div>
+
+      <div class="grammar-toolbar reveal" style="--delay: 40ms">
+        <div class="filter-chips" id="culture-filter" role="group" aria-label="按类别筛选文化内容">
+          <button class="chip is-active" data-culture-category="all">全部</button>
+          <button class="chip" data-culture-category="history">历史</button>
+          <button class="chip" data-culture-category="culture">文化</button>
+          <button class="chip" data-culture-category="map">联邦州</button>
+          <button class="chip" data-culture-category="person">人物</button>
+        </div>
+        <span class="grammar-count" id="culture-meta">德国文化参考</span>
+      </div>
+
+      <div class="culture-grid" id="culture-grid"></div>
+      <p class="local-note"><svg class="icon"><use href="#i-leaf"/></svg> 文化条目为学习型摘要，来源链接保留在每张卡片底部；涉及历史解释时请以来源原文为准。</p>
     </section>
 
     <!-- ─────────────────────────── 进度 ─────────────────────────── -->
@@ -794,6 +855,17 @@
   <script src="grammar.js"></script>
   <script src="grammar-summary.js"></script>
   <script src="data-fixes.js"></script>
+  <script src="article-fixes.js"></script>
+  <script src="noun-fixes.js"></script>
+  <script src="guide-fixes.js"></script>
+  <script src="guide-examples.js"></script>
+  <script src="verbformen-fixes.js"></script>
+  <script src="glossar-fixes.js"></script>
+  <script src="wiktionary-fixes.js"></script>
+  <script src="tatoeba-examples.js"></script>
+  <script src="changelog.js"></script>
+  <script src="changelog-summary.js"></script>
+  <script src="culture.js"></script>
   <script src="app.js"></script>
   <script id="pwa-register">
     if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
@@ -804,5 +876,6 @@
   </script>
 </body>
 </html>
+
 
 

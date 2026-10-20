@@ -1,5 +1,5 @@
 /* Wortkarte service worker – app shell cache for mobile/offline use. */
-const CACHE_NAME = "wortkarte-shell-v5";
+const CACHE_NAME = "wortkarte-shell-v8";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -10,11 +10,26 @@ const APP_SHELL = [
   "./grammar.js",
   "./grammar-summary.js",
   "./data-fixes.js",
+  "./article-fixes.js",
+  "./noun-fixes.js",
+  "./guide-fixes.js",
+  "./guide-examples.js",
+  "./verbformen-fixes.js",
+  "./glossar-fixes.js",
+  "./wiktionary-fixes.js",
+  "./tatoeba-examples.js",
+  "./changelog.js",
+  "./changelog-summary.js",
+  "./culture.js",
   "./app.js",
   "./manifest.webmanifest",
   "./favicon.svg",
   "./icons/icon-192.png",
-  "./icons/icon-512.png"
+  "./icons/icon-512.png",
+  "./icons/icon-maskable-512.png",
+  "./icons/apple-touch-icon.png",
+  "./icons/favicon-32.png",
+  "./icons/favicon-16.png"
 ];
 
 const scope = self.registration.scope;
