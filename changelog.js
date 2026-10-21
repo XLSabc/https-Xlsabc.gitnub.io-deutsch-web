@@ -1296,6 +1296,20 @@ window.WORTKARTE_CHANGELOG = [
       "短语页取消独立场景筛选栏，场景标签直接显示在每条短语卡片内",
       "短语按最新添加排序；未补例句的短语显示“例句待补充”"
     ]
+  },
+  {
+    version: "1.1.2",
+    date: "2026-10-21",
+    type: "frontend",
+    summary: "PWA 独立模式外链跳转、按钮错误兜底与 SW 缓存升级",
+    scope: "PWA · 外链 · 稳定性",
+    items: [
+      "使用 display-mode: standalone 检测 PWA 独立运行状态",
+      "独立模式下外链改用 location.href 当前 webview 跳转，避免 target=_blank 被拦截",
+      "关键按钮统一 try/catch，失败时显示中文兜底提示",
+      "增加全局 error/unhandledrejection 兜底",
+      "Service Worker 缓存版本升级到 wortkarte-shell-v11"
+    ]
   }
 ];
 

@@ -1,5 +1,5 @@
 /* Wortkarte service worker – app shell cache for mobile/offline use. */
-const CACHE_NAME = "wortkarte-shell-v10";
+const CACHE_NAME = "wortkarte-shell-v11";
 const APP_SHELL = [
   "./",
   "./index.html",

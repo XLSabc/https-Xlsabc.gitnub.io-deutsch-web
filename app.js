@@ -1058,6 +1058,39 @@ function showToast(message) {
   toastTimer = setTimeout(() => toast.classList.remove("is-visible"), 2800);
 }
 
+function isStandaloneMode() {
+  try {
+    return Boolean(
+      window.matchMedia?.("(display-mode: standalone)").matches ||
+      window.navigator.standalone === true
+    );
+  } catch {
+    return false;
+  }
+}
+
+function openExternalLink(url) {
+  try {
+    const parsed = new URL(url);
+    if (!/^https?:$/.test(parsed.protocol)) throw new Error("unsupported protocol");
+    // 独立 PWA 中 target=_blank 可能被系统拦截，改为当前 webview 跳转。
+    location.href = parsed.href;
+  } catch (error) {
+    console.error("openExternalLink failed", error);
+    showToast("链接无法打开，请复制到浏览器重试。");
+  }
+}
+
+function runWithFallback(label, fn) {
+  try {
+    return fn();
+  } catch (error) {
+    console.error(label, error);
+    showToast(`${label}失败，请重试。`);
+    return null;
+  }
+}
+
 function openModal(html, className = "") {
   const root = $("#modal-root");
   root.innerHTML = `<div class="modal-dialog ${esc(className)}" role="document">${html}</div>`;
@@ -4416,6 +4449,13 @@ function handleAction(action, element) {
 
 function bindEvents() {
   document.addEventListener("click", event => {
+    const externalLink = event.target.closest('a[href^="http"]');
+    if (externalLink && isStandaloneMode()) {
+      event.preventDefault();
+      openExternalLink(externalLink.href);
+      return;
+    }
+
     const nav = event.target.closest("[data-nav]");
     if (nav) {
       event.preventDefault();
@@ -4426,7 +4466,7 @@ function bindEvents() {
     const actionEl = event.target.closest("[data-action]");
     if (actionEl) {
       event.preventDefault();
-      handleAction(actionEl.dataset.action, actionEl);
+      runWithFallback("操作", () => handleAction(actionEl.dataset.action, actionEl));
       return;
     }
 
@@ -4528,7 +4568,9 @@ function bindEvents() {
     flipCard();
   });
 
-  $("#hero-cta")?.addEventListener("click", () => startStudy({ mode: "daily", limit: Math.min(100, Math.max(5, Number(state.settings.dailyGoal) || 20)) }));
+  $("#hero-cta")?.addEventListener("click", () => {
+    runWithFallback("开始学习", () => startStudy({ mode: "daily", limit: Math.min(100, Math.max(5, Number(state.settings.dailyGoal) || 20)) }));
+  });
 
   $("#library-search")?.addEventListener("input", event => {
     libraryFilters.query = event.target.value;
@@ -4547,11 +4589,11 @@ function bindEvents() {
   });
 
   $("#bank-start")?.addEventListener("click", () => {
-    startBankQuiz(
+    runWithFallback("开始练习", () => startBankQuiz(
       $("#bank-category")?.value || "all",
       $("#bank-type")?.value || "mixed",
       $("#bank-level")?.value || "all"
-    );
+    ));
   });
 
   $("#global-search")?.addEventListener("input", event => {
@@ -4589,7 +4631,7 @@ function bindEvents() {
     renderLibrary();
   });
 
-  $("#quiz-start")?.addEventListener("click", startQuiz);
+  $("#quiz-start")?.addEventListener("click", () => runWithFallback("开始测验", startQuiz));
   $("#quiz-level")?.addEventListener("change", event => {
     quiz.level = event.target.value;
   });
@@ -4812,6 +4854,24 @@ function init() {
     const initialView = new URLSearchParams(location.search || "").get("view");
     if (initialView && VIEW_LABELS[initialView]) navigate(initialView);
   }
+  const standalone = isStandaloneMode();
+  document.documentElement.dataset.displayMode = standalone ? "standalone" : "browser";
+  try {
+    window.matchMedia?.("(display-mode: standalone)")?.addEventListener?.("change", event => {
+      document.documentElement.dataset.displayMode = event.matches ? "standalone" : "browser";
+    });
+  } catch {
+    /* matchMedia is optional in some embedded webviews */
+  }
+  window.addEventListener("error", event => {
+    if (!event?.error) return;
+    console.error("Unhandled app error", event.error);
+    showToast("操作失败，请重试。");
+  });
+  window.addEventListener("unhandledrejection", event => {
+    console.error("Unhandled promise rejection", event.reason);
+    showToast("操作失败，请重试。");
+  });
   startReminderLoop();
   const todayWeekday = new Date().getDay();
   if (todayWeekday === 1) {
