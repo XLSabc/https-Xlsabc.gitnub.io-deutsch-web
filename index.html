@@ -672,6 +672,22 @@
           <strong id="reading-count">0</strong><span>篇文章</span><small id="reading-read">已读 0 篇 · CEFR 自动分级</small>
         </div>
       </div>
+      <div class="phrase-toolbar reveal">
+        <label class="library-search">
+          <svg class="icon"><use href="#i-search"/></svg>
+          <input type="search" id="reading-search" placeholder="搜索文章标题、主题或来源…" autocomplete="off">
+        </label>
+        <div class="filter-chips" id="reading-level-filter" role="group" aria-label="按 CEFR 筛选文章">
+          <button class="chip is-active" data-reading-level="all">全部</button>
+          <button class="chip" data-reading-level="A1">A1</button>
+          <button class="chip" data-reading-level="A2">A2</button>
+          <button class="chip" data-reading-level="B1">B1</button>
+          <button class="chip" data-reading-level="B2">B2</button>
+          <button class="chip" data-reading-level="C1">C1</button>
+          <button class="chip" data-reading-level="C2">C2</button>
+        </div>
+      </div>
+      <p class="reading-note">按添加时间倒序排列；最近 OCR 新增的文章会出现在最前面。</p>
       <div class="reading-list" id="reading-list"></div>
       <article class="article-reader hidden" id="article-reader">
         <button class="text-button" data-action="close-article"><svg class="icon"><use href="#i-arrow-left"/></svg> 返回文章列表</button>
@@ -701,9 +717,6 @@
       </div>
       <div class="phrase-toolbar reveal">
         <label class="library-search"><svg class="icon"><use href="#i-search"/></svg><input type="search" id="phrase-search" placeholder="搜索德语短语或中文…" autocomplete="off"></label>
-        <div class="filter-chips" id="phrase-filter" role="group" aria-label="按场景筛选短语">
-          <button class="chip is-active" data-phrase-category="all">全部</button>
-        </div>
       </div>
       <div class="phrase-grid" id="phrase-grid"></div>
     </section>

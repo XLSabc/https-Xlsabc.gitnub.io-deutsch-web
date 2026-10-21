@@ -4367,6 +4367,21 @@ kbd {
 .reading-card:hover { border-color: var(--clay); transform: translateY(-1px); }
 .reading-card.is-read { background: linear-gradient(180deg, var(--surface), var(--sage-soft)); }
 .reading-card-top, .reading-card-foot, .phrase-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: var(--faint); font-size: 7.5px; text-transform: uppercase; letter-spacing: .06em; }
+.phrase-scene {
+  padding: 3px 7px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 8px;
+  white-space: nowrap;
+}
+.phrase-card blockquote.is-empty p { color: var(--muted); font-style: italic; }
+.reading-note {
+  margin: -2px 0 9px;
+  color: var(--faint);
+  font-size: 8.5px;
+  line-height: 1.5;
+}
 .reading-card h2 { margin: 2px 0 0; font-family: var(--display); font-size: 22px; font-weight: 500; }
 .reading-title-zh { color: var(--clay) !important; font-size: 10px !important; }
 .reading-card > p:not(.reading-title-zh) { margin: 0; color: var(--ink-2); font-size: 9.5px; line-height: 1.7; }

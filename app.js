@@ -479,8 +479,9 @@ let libraryVisibleLimit = 80;
 let grammarLevel = "all";
 let cultureCategory = "all";
 let readingArticleId = null;
+let readingQuery = "";
+let readingLevel = "all";
 let phraseQuery = "";
-let phraseCategory = "all";
 let calendarCursor = new Date();
 
 function fixWordData(word) {
@@ -2434,11 +2435,27 @@ function renderReading() {
   reader?.classList.add("hidden");
   list.classList.remove("hidden");
   $("#view-reading .page-heading")?.classList.remove("hidden");
-  $("#reading-count").textContent = allArticles().length;
+  const all = allArticles();
+  $("#reading-count").textContent = all.length;
   const readCount = Array.isArray(state.readArticles) ? state.readArticles.length : 0;
   const readLabel = $("#reading-read");
   if (readLabel) readLabel.textContent = `已读 ${readCount} 篇 · CEFR 自动分级`;
-  list.innerHTML = allArticles().map(article => {
+  $$("#reading-level-filter [data-reading-level]").forEach(chip => {
+    chip.classList.toggle("is-active", chip.dataset.readingLevel === readingLevel);
+  });
+  const readingSearch = $("#reading-search");
+  if (readingSearch && document.activeElement !== readingSearch) readingSearch.value = readingQuery;
+  const query = foldSearch(readingQuery.trim());
+  const articles = all.slice().reverse().filter(article => {
+    if (readingLevel !== "all" && gradeArticle(article).level !== readingLevel) return false;
+    if (!query) return true;
+    return foldSearch([article.titleDe, article.titleZh, article.summaryZh, article.source, ...(article.tags || [])].join(" ")).includes(query);
+  });
+  if (!articles.length) {
+    list.innerHTML = `<div class="library-empty"><h3>没有匹配的文章</h3><p>试试更短的关键词，或切换 CEFR 等级。</p></div>`;
+    return;
+  }
+  list.innerHTML = articles.map(article => {
     const grade = gradeArticle(article);
     const isRead = Array.isArray(state.readArticles) && state.readArticles.includes(article.id);
     return `
@@ -2520,27 +2537,22 @@ function renderPhrases() {
   const grid = $("#phrase-grid");
   if (!grid) return;
   $("#phrase-count").textContent = allPhrases().length;
-  const categories = [...new Set(allPhrases().map(item => item.category))];
-  const filter = $("#phrase-filter");
-  if (filter) {
-    filter.innerHTML = `<button class="chip ${phraseCategory === "all" ? "is-active" : ""}" data-phrase-category="all">全部</button>` +
-      categories.map(category => `<button class="chip ${phraseCategory === category ? "is-active" : ""}" data-phrase-category="${esc(category)}">${esc(category)}</button>`).join("");
-  }
   const query = foldSearch(phraseQuery.trim());
-  const items = allPhrases().filter(item => {
-    if (phraseCategory !== "all" && item.category !== phraseCategory) return false;
+  const items = allPhrases().slice().reverse().filter(item => {
     if (!query) return true;
     return foldSearch([item.de, item.zh, item.example, item.exampleZh, item.category].join(" ")).includes(query);
   });
   grid.innerHTML = items.length ? items.map(item => `
     <article class="phrase-card">
-      <div class="phrase-head"><span class="level-chip">${esc(item.level)}</span><span>${esc(item.category)}</span></div>
+      <div class="phrase-head"><span class="level-chip">${esc(item.level)}</span><span class="phrase-scene">${esc(item.category)}</span></div>
       <h2>${esc(item.de)}</h2>
       <p class="phrase-zh">${esc(item.zh)}</p>
-      <blockquote><p>${esc(item.example)}</p><footer>${esc(item.exampleZh)}</footer></blockquote>
+      ${item.example
+        ? `<blockquote><p>${esc(item.example)}</p><footer>${esc(item.exampleZh)}</footer></blockquote>`
+        : `<blockquote class="is-empty"><p>例句待补充</p></blockquote>`}
       <small>${esc(item.source)}</small>
     </article>
-  `).join("") : `<div class="library-empty"><h3>没有匹配的短语</h3><p>换一个关键词或场景。</p></div>`;
+  `).join("") : `<div class="library-empty"><h3>没有匹配的短语</h3><p>换一个关键词试试。</p></div>`;
 }
 
 function phraseQuestionBank(category = "all", level = "all", type = "mixed") {
@@ -4473,16 +4485,16 @@ function bindEvents() {
       return;
     }
 
-    const readingCard = event.target.closest("[data-article-id]");
-    if (readingCard && !event.target.closest("[data-action]")) {
-      openArticle(readingCard.dataset.articleId);
+    const readingLevelChip = event.target.closest("#reading-level-filter [data-reading-level]");
+    if (readingLevelChip) {
+      readingLevel = readingLevelChip.dataset.readingLevel;
+      renderReading();
       return;
     }
 
-    const phraseChip = event.target.closest("#phrase-filter [data-phrase-category]");
-    if (phraseChip) {
-      phraseCategory = phraseChip.dataset.phraseCategory;
-      renderPhrases();
+    const readingCard = event.target.closest("[data-article-id]");
+    if (readingCard && !event.target.closest("[data-action]")) {
+      openArticle(readingCard.dataset.articleId);
       return;
     }
 
@@ -4527,6 +4539,11 @@ function bindEvents() {
   $("#phrase-search")?.addEventListener("input", event => {
     phraseQuery = event.target.value;
     renderPhrases();
+  });
+
+  $("#reading-search")?.addEventListener("input", event => {
+    readingQuery = event.target.value;
+    renderReading();
   });
 
   $("#bank-start")?.addEventListener("click", () => {
