@@ -68,17 +68,27 @@
         <svg class="icon"><use href="#i-home"/></svg><span>今日学习</span>
         <span class="nav-badge" id="nav-due-badge" hidden>0</span>
       </button>
-      <button class="side-link" data-nav="library">
-        <svg class="icon"><use href="#i-book"/></svg><span>我的词库</span>
+      <button class="side-link" data-nav="culture">
+        <svg class="icon"><use href="#i-leaf"/></svg><span>德国历史与文化</span>
       </button>
+      <button class="side-link" data-nav="reading">
+        <svg class="icon"><use href="#i-book"/></svg><span>文章阅读</span>
+      </button>
+      <button class="side-link" data-nav="phrases">
+        <svg class="icon"><use href="#i-spark"/></svg><span>短语积累</span>
+      </button>
+      <button class="side-link" data-nav="words">
+        <svg class="icon"><use href="#i-layers"/></svg><span>单词积累</span>
+      </button>
+    </nav>
+
+    <div class="side-label side-label-spaced">学习工具</div>
+    <nav class="side-nav" aria-label="学习工具">
       <button class="side-link" data-nav="grammar">
         <svg class="icon"><use href="#i-grammar"/></svg><span>语法地图</span>
       </button>
-      <button class="side-link" data-nav="culture">
-        <svg class="icon"><use href="#i-leaf"/></svg><span>德国文化</span>
-      </button>
       <button class="side-link" data-nav="quiz">
-        <svg class="icon"><use href="#i-spark"/></svg><span>小测验</span>
+        <svg class="icon"><use href="#i-spark"/></svg><span>题库测验</span>
       </button>
       <button class="side-link" data-nav="stats">
         <svg class="icon"><use href="#i-chart"/></svg><span>学习进度</span>
@@ -247,15 +257,41 @@
       <section class="section-block reveal" style="--delay: 170ms">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">DEINE SAMMLUNGEN</p>
-            <h2>从一个主题开始</h2>
+            <p class="eyebrow">DEINE LERNBEREICHE</p>
+            <h2>今天想从哪里开始？</h2>
           </div>
-          <div class="heading-actions">
-            <button class="text-link" data-nav="library" id="home-library-link">查看全部 70 词 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
-            <button class="text-link culture-home-link" data-nav="culture">德国文化 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
-          </div>
+          <span class="section-note">四个学习入口</span>
         </div>
-        <div class="deck-grid" id="deck-grid"></div>
+        <div class="portal-grid">
+          <button class="portal-card portal-culture" data-nav="culture">
+            <span class="portal-number">01</span>
+            <span class="portal-icon"><svg class="icon"><use href="#i-leaf"/></svg></span>
+            <strong>德国历史与文化</strong>
+            <small>时间线 · 联邦州 · 人物</small>
+            <span class="portal-arrow"><svg class="icon"><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="portal-card portal-reading" data-nav="reading">
+            <span class="portal-number">02</span>
+            <span class="portal-icon"><svg class="icon"><use href="#i-book"/></svg></span>
+            <strong>文章阅读</strong>
+            <small>完整原文 · CEFR 分级 · 来源</small>
+            <span class="portal-arrow"><svg class="icon"><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="portal-card portal-phrases" data-nav="phrases">
+            <span class="portal-number">03</span>
+            <span class="portal-icon"><svg class="icon"><use href="#i-spark"/></svg></span>
+            <strong>短语积累</strong>
+            <small>问候 · 课堂 · 出行 · 交流</small>
+            <span class="portal-arrow"><svg class="icon"><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="portal-card portal-words" data-nav="words">
+            <span class="portal-number">04</span>
+            <span class="portal-icon"><svg class="icon"><use href="#i-layers"/></svg></span>
+            <strong>单词积累</strong>
+            <small>7507 词 · 搜索 · 复习 · 收藏</small>
+            <span class="portal-arrow"><svg class="icon"><use href="#i-arrow-right"/></svg></span>
+          </button>
+        </div>
       </section>
 
       <section class="pack-banner reveal" id="pack-banner" style="--delay:190ms" hidden>
@@ -526,6 +562,32 @@
             </div>
             <button class="btn btn-primary" id="quiz-start">开始测验 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
           </div>
+          <div class="bank-card">
+            <div>
+              <span class="eyebrow">FRAGENBANK</span>
+              <h3>题库练习</h3>
+              <p>按单词、短语、语法或文章组题；完成后显示答案、解析与得分。</p>
+            </div>
+            <div class="bank-controls">
+              <select id="bank-category" aria-label="题库内容">
+                <option value="all">全部内容</option>
+                <option value="words">单词</option>
+                <option value="phrases">短语</option>
+                <option value="grammar">语法</option>
+                <option value="articles">文章</option>
+              </select>
+              <select id="bank-type" aria-label="题型">
+                <option value="mixed">混合题型</option>
+                <option value="de-zh">德语 → 中文</option>
+                <option value="zh-de">中文 → 德语</option>
+              </select>
+              <select id="bank-level" aria-label="难度">
+                <option value="all">全部难度</option>
+                <option value="A1">A1</option><option value="A2">A2</option><option value="B1">B1</option><option value="B2">B2</option><option value="C1">C1</option><option value="C2">C2</option>
+              </select>
+              <button class="btn btn-cream" id="bank-start">开始练习 <svg class="icon"><use href="#i-arrow-right"/></svg></button>
+            </div>
+          </div>
         </div>
 
         <div id="quiz-play" class="hidden">
@@ -587,12 +649,60 @@
       </div>
     </section>
 
-    <!-- ─────────────────────────── 词库 ─────────────────────────── -->
-    <section class="view" id="view-library" data-view="library">
+    <!-- ─────────────────────────── 文章阅读 ─────────────────────────── -->
+    <section class="view" id="view-reading" data-view="reading">
+      <div class="page-heading reveal">
+        <div>
+          <p class="eyebrow">LESEN &amp; VERSTEHEN</p>
+          <h1>文章阅读<span class="heading-dot">.</span></h1>
+          <p>从童话到城市短文，按 CEFR 难度分级，保留完整原文与来源。</p>
+        </div>
+        <div class="reading-count-card">
+          <strong id="reading-count">0</strong><span>篇文章</span><small>CEFR 自动分级</small>
+        </div>
+      </div>
+      <div class="reading-list" id="reading-list"></div>
+      <article class="article-reader hidden" id="article-reader">
+        <button class="text-button" data-action="close-article"><svg class="icon"><use href="#i-arrow-left"/></svg> 返回文章列表</button>
+        <header class="article-reader-head">
+          <div class="article-level" id="article-level">A2</div>
+          <div>
+            <p class="eyebrow" id="article-kicker">LESETEXT</p>
+            <h1 id="article-title">—</h1>
+            <p class="article-subtitle" id="article-subtitle"></p>
+          </div>
+        </header>
+        <div class="article-meta" id="article-meta"></div>
+        <div class="article-body" id="article-body"></div>
+        <footer class="article-source" id="article-source"></footer>
+      </article>
+    </section>
+
+    <!-- ─────────────────────────── 短语积累 ─────────────────────────── -->
+    <section class="view" id="view-phrases" data-view="phrases">
+      <div class="page-heading reveal">
+        <div>
+          <p class="eyebrow">REDEMITTEL</p>
+          <h1>短语积累<span class="heading-dot">.</span></h1>
+          <p>问候、课堂、出行与交流中最常用的德语固定表达。</p>
+        </div>
+        <div class="reading-count-card"><strong id="phrase-count">0</strong><span>条短语</span><small>可搜索 / 可测验</small></div>
+      </div>
+      <div class="phrase-toolbar reveal">
+        <label class="library-search"><svg class="icon"><use href="#i-search"/></svg><input type="search" id="phrase-search" placeholder="搜索德语短语或中文…" autocomplete="off"></label>
+        <div class="filter-chips" id="phrase-filter" role="group" aria-label="按场景筛选短语">
+          <button class="chip is-active" data-phrase-category="all">全部</button>
+        </div>
+      </div>
+      <div class="phrase-grid" id="phrase-grid"></div>
+    </section>
+
+    <!-- ─────────────────────────── 单词积累 ─────────────────────────── -->
+    <section class="view" id="view-library" data-view="words">
       <div class="page-heading reveal">
         <div>
           <p class="eyebrow">DEIN WORTSCHATZ</p>
-          <h1>我的词库<span class="heading-dot">.</span></h1>
+          <h1>单词积累<span class="heading-dot">.</span></h1>
           <p id="library-subline">70 个精心挑选的德语词，加上你自己添加的收藏。</p>
         </div>
         <div class="heading-actions">
@@ -714,7 +824,7 @@
       <div class="page-heading reveal">
         <div>
           <p class="eyebrow">LANDESKUNDE</p>
-          <h1>德国文化<span class="heading-dot">.</span></h1>
+          <h1>德国历史与文化<span class="heading-dot">.</span></h1>
           <p>历史、日常文化、十六个联邦州与人物。每条都保留来源，方便继续查证。</p>
         </div>
         <div class="culture-count-card">
@@ -840,10 +950,10 @@
 
   <nav class="bottom-nav" aria-label="移动端导航">
     <button class="is-active" data-nav="home"><svg class="icon"><use href="#i-home"/></svg><span>今日</span></button>
-    <button data-nav="library"><svg class="icon"><use href="#i-book"/></svg><span>词库</span></button>
-    <button data-nav="grammar"><svg class="icon"><use href="#i-grammar"/></svg><span>语法</span></button>
-    <button data-nav="quiz"><svg class="icon"><use href="#i-spark"/></svg><span>测验</span></button>
-    <button data-nav="stats"><svg class="icon"><use href="#i-chart"/></svg><span>进度</span></button>
+    <button data-nav="culture"><svg class="icon"><use href="#i-leaf"/></svg><span>文化</span></button>
+    <button data-nav="reading"><svg class="icon"><use href="#i-book"/></svg><span>阅读</span></button>
+    <button data-nav="phrases"><svg class="icon"><use href="#i-spark"/></svg><span>短语</span></button>
+    <button data-nav="words"><svg class="icon"><use href="#i-layers"/></svg><span>单词</span></button>
   </nav>
 
   <div class="modal-layer" id="modal-root" hidden></div>
@@ -866,6 +976,12 @@
   <script src="changelog.js"></script>
   <script src="changelog-summary.js"></script>
   <script src="culture.js"></script>
+  <script src="articles.js"></script>
+  <script src="article-translations.js"></script>
+  <script src="article-questions.js"></script>
+  <script src="phrases.js"></script>
+  <script src="ocr-content.js"></script>
+  <script src="ocr-vocab-words.js"></script>
   <script src="app.js"></script>
   <script id="pwa-register">
     if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
@@ -876,6 +992,7 @@
   </script>
 </body>
 </html>
+
 
 
 

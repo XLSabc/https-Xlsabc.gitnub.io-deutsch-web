@@ -1718,6 +1718,41 @@ h2 {
   font-size: 10.5px;
 }
 
+.portal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 11px;
+}
+
+.portal-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-height: 145px;
+  padding: 15px 16px;
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 13px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.portal-card:hover { border-color: var(--clay); transform: translateY(-2px); }
+.portal-number { color: var(--faint); font-size: 7px; letter-spacing: .1em; }
+.portal-icon { display: grid; place-items: center; width: 30px; height: 30px; margin: 5px 0; border-radius: 50%; background: var(--clay-soft); color: var(--clay); }
+.portal-icon .icon { width: 15px; height: 15px; }
+.portal-card strong { font-family: var(--display); font-size: 16px; font-weight: 500; }
+.portal-card small { color: var(--muted); font-size: 8px; line-height: 1.5; }
+.portal-arrow { position: absolute; right: 13px; bottom: 13px; color: var(--faint); }
+.portal-arrow .icon { width: 13px; height: 13px; }
+.portal-reading .portal-icon { background: var(--blue-soft); color: var(--blue); }
+.portal-phrases .portal-icon { background: var(--amber-soft); color: var(--amber); }
+.portal-words .portal-icon { background: var(--sage-soft); color: var(--forest); }
+.section-note { color: var(--faint); font-size: 8px; }
+
 .deck-grid {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -3774,6 +3809,10 @@ kbd {
   font-size: 10px;
 }
 
+.result-wrong-row.is-correct {
+  background: var(--forest-soft);
+}
+
 .result-wrong-row .article {
   font-size: 11px;
 }
@@ -4177,6 +4216,83 @@ kbd {
   color: var(--faint);
   font-size: 9px;
 }
+
+.reading-count-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
+  padding: 12px 15px;
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+}
+
+.reading-count-card strong { color: var(--clay); font-family: var(--display); font-size: 29px; font-weight: 500; line-height: 1; }
+.reading-count-card span { color: var(--muted); font-size: 8px; }
+.reading-count-card small { color: var(--faint); font-size: 7px; }
+
+.reading-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.reading-card {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 18px 19px 14px;
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.reading-card:hover { border-color: var(--clay); transform: translateY(-1px); }
+.reading-card-top, .reading-card-foot, .phrase-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; color: var(--faint); font-size: 7.5px; text-transform: uppercase; letter-spacing: .06em; }
+.reading-card h2 { margin: 2px 0 0; font-family: var(--display); font-size: 22px; font-weight: 500; }
+.reading-title-zh { color: var(--clay) !important; font-size: 10px !important; }
+.reading-card > p:not(.reading-title-zh) { margin: 0; color: var(--ink-2); font-size: 9.5px; line-height: 1.7; }
+.reading-card-foot { margin-top: auto; padding-top: 8px; border-top: 1px solid var(--line-soft); text-transform: none; letter-spacing: 0; font-size: 7.5px; }
+
+.article-reader { padding-top: 4px; }
+.article-reader-head { display: flex; gap: 15px; align-items: flex-start; margin: 13px 0; }
+.article-level { display: grid; place-items: center; min-width: 48px; height: 48px; border-radius: 50%; background: var(--clay); color: #fff; font-family: var(--display); font-size: 19px; }
+.article-reader h1 { margin: 2px 0; font-family: var(--display); font-size: clamp(26px, 3.2vw, 40px); font-weight: 500; }
+.article-subtitle { margin: 0 !important; color: var(--clay) !important; font-family: var(--display); font-style: italic; }
+.article-meta { display: flex; flex-wrap: wrap; gap: 7px 16px; padding: 9px 0; border-top: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft); color: var(--muted); font-size: 8px; }
+.article-body { max-width: 760px; margin: 18px 0 0; }
+.article-body p { color: var(--ink-2); font-family: var(--display); font-size: 15px; line-height: 1.9; margin: 0 0 13px; }
+.example-de:empty::after { content: "例句待补充"; color: var(--muted); font-style: italic; }
+.article-translation { margin: 26px 0 8px; padding: 18px 20px; border: 1px solid var(--line-soft); border-left: 3px solid var(--forest-3); border-radius: 12px; background: var(--surface-2); }
+.article-translation-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--line-soft); }
+.article-translation-head strong { color: var(--forest-3); font-family: var(--sans); font-size: 11px; letter-spacing: .08em; }
+.article-translation-head span { color: var(--muted); font-size: 8px; }
+.article-translation p { font-family: var(--sans); font-size: 13px; line-height: 1.95; }
+.article-source { max-width: 760px; margin-top: 18px; padding: 12px 14px; background: var(--surface-2); border-left: 3px solid var(--clay); border-radius: 9px; color: var(--muted); font-size: 9px; line-height: 1.7; }
+.article-source a { color: var(--forest-3); text-decoration: underline; text-underline-offset: 2px; }
+.article-quiz-row { margin-top: 12px; }
+
+.phrase-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 13px; }
+.phrase-toolbar .library-search { flex: 1; min-width: 220px; }
+.phrase-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+.phrase-card { padding: 17px 18px 13px; background: var(--surface); border: 1px solid var(--line-soft); border-radius: 12px; }
+.phrase-card h2 { margin: 8px 0 2px; font-family: var(--display); font-size: 21px; font-weight: 500; }
+.phrase-zh { margin: 0 0 9px !important; color: var(--clay) !important; font-size: 10px !important; }
+.phrase-card blockquote { margin: 0; padding: 9px 11px; background: var(--surface-2); border-radius: 8px; }
+.phrase-card blockquote p { margin: 0; font-family: var(--display); font-size: 11px; line-height: 1.6; }
+.phrase-card blockquote footer { margin-top: 3px; color: var(--muted); font-size: 8.5px; }
+.phrase-card > small { display: block; margin-top: 9px; color: var(--faint); font-size: 7.5px; }
+
+.bank-card { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; margin-top: 18px; padding: 17px 18px; background: var(--forest); color: #f8f4e9; border-radius: 13px; }
+.bank-card h3 { margin: 3px 0; font-family: var(--display); font-size: 20px; font-weight: 500; }
+.bank-card p { margin: 0; color: rgba(248,244,233,.7); font-size: 9px; line-height: 1.6; }
+.bank-card .eyebrow { color: #d7c6a2; }
+.bank-controls { display: flex; flex-wrap: wrap; gap: 7px; justify-content: flex-end; }
+.bank-controls select { padding: 7px 8px; border: 1px solid rgba(255,255,255,.2); border-radius: 7px; background: rgba(255,255,255,.1); color: #fff; font-size: 9px; }
+.bank-controls select option { color: var(--ink); }
 
 .culture-count-card {
   display: flex;
@@ -6544,6 +6660,8 @@ kbd {
   .stat-item + .stat-item { border-top: 1px solid var(--line-soft); border-left: 0; }
   .stat-trend { display: inline; }
   .deck-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .portal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .portal-card { min-height: 128px; }
   .deck-card { min-height: 175px; }
   .pack-banner {
     align-items: flex-start;
@@ -6658,6 +6776,11 @@ kbd {
   .grammar-grid { grid-template-columns: 1fr; }
   .culture-grid { grid-template-columns: 1fr; }
   .culture-count-card { align-items: flex-start; }
+  .reading-list, .phrase-grid { grid-template-columns: 1fr; }
+  .reading-count-card { align-items: flex-start; }
+  .bank-card { grid-template-columns: 1fr; }
+  .bank-controls { justify-content: flex-start; }
+  .article-body p { font-size: 14px; }
   .grammar-option { min-width: 100%; }
   .grammar-book-banner { padding: 16px; }
   .grammar-book-mark { width: 40px; height: 40px; font-size: 24px; }

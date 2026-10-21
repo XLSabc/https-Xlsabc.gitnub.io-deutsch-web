@@ -25,7 +25,8 @@ const POS_LABELS = {
   verb: "动词",
   adj: "形容词",
   adv: "副词",
-  other: "其他"
+  other: "其他",
+  unknown: "词性待补充"
 };
 
 const RATING_SCORES = { again: 1, hard: 3, good: 4, easy: 5 };
@@ -52,6 +53,12 @@ const CHANGELOG_SUMMARY = Array.isArray(window.WORTKARTE_CHANGELOG_SUMMARY) ? wi
 const CULTURE_DATA = window.WORTKARTE_CULTURE && Array.isArray(window.WORTKARTE_CULTURE.items)
   ? window.WORTKARTE_CULTURE
   : { categories: [], items: [] };
+const ARTICLES = Array.isArray(window.WORTKARTE_ARTICLES) ? window.WORTKARTE_ARTICLES : [];
+const ARTICLE_QUESTIONS = window.WORTKARTE_ARTICLE_QUESTIONS || {};
+const ARTICLE_TRANSLATIONS = window.WORTKARTE_ARTICLE_TRANSLATIONS || {};
+const PHRASES = Array.isArray(window.WORTKARTE_PHRASES) ? window.WORTKARTE_PHRASES : [];
+const OCR_CONTENT = window.WORTKARTE_OCR_CONTENT || { articles: [], phrases: [], words: [] };
+const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GOETHE_WORDS = (() => {
   const pack = window.WORTKARTE_DICTIONARY;
   if (!pack || !pack.levels) return [];
@@ -193,15 +200,17 @@ function pluralLabel(word) {
 }
 
 function formsLine(word) {
-  if (word.pos === "noun") return `Nomen · ${pluralLabel(word)}`;
-  if (word.forms) return `${POS_LABELS[word.pos] || "词"} · ${word.forms}`;
-  return POS_LABELS[word.pos] || "词";
+  const uncertain = word.posUncertain ? "（待校对）" : "";
+  if (word.pos === "noun") return `名词 · ${word.plural ? pluralLabel(word) : "复数待补充"}`;
+  if (word.pos === "verb") return `动词${uncertain} · ${word.forms || "变位待补充"}`;
+  if (word.pos === "adj") return `形容词${uncertain} · ${word.forms || "比较级待补充"}`;
+  if (word.pos === "adv") return `副词 · ${word.forms || "无变形"}`;
+  if (!word.pos) return "词性待补充 · 变形待补充";
+  return `${POS_LABELS[word.pos] || "词"}${uncertain} · ${word.forms || "变形待补充"}`;
 }
 
 function morphLine(word) {
-  if (word.pos === "noun") return `Nomen · ${pluralLabel(word)}`;
-  if (word.forms) return `${POS_LABELS[word.pos] || "词"} · ${word.forms}`;
-  return POS_LABELS[word.pos] || "词";
+  return formsLine(word);
 }
 
 function applyTheme() {
@@ -242,6 +251,9 @@ function freshState() {
     settings: defaultSettings(),
     reviews: {},
     customWords: [],
+    customPhrases: [],
+    customArticles: [],
+    customGrammar: [],
     favorites: [],
     activity: {},
     stats: { reviews: 0, correct: 0 },
@@ -374,6 +386,9 @@ function normalizeState(raw) {
     settings: { ...base.settings, ...(raw.settings || {}) },
     reviews,
     customWords: Array.isArray(raw.customWords) ? raw.customWords : [],
+    customPhrases: Array.isArray(raw.customPhrases) ? raw.customPhrases : [],
+    customArticles: Array.isArray(raw.customArticles) ? raw.customArticles : [],
+    customGrammar: Array.isArray(raw.customGrammar) ? raw.customGrammar : [],
     favorites: Array.isArray(raw.favorites) ? raw.favorites : [],
     activity: raw.activity && typeof raw.activity === "object" ? raw.activity : {},
     stats: { ...base.stats, ...(raw.stats || {}) },
@@ -416,6 +431,7 @@ function loadState() {
 let state = loadState();
 let allWordList = [];
 let wordMap = new Map();
+let searchIndex = new Map();
 let session = null;
 let studyTimer = null;
 let reminderTimer = null;
@@ -443,6 +459,9 @@ const libraryFilters = {
 let libraryVisibleLimit = 80;
 let grammarLevel = "all";
 let cultureCategory = "all";
+let readingArticleId = null;
+let phraseQuery = "";
+let phraseCategory = "all";
 let calendarCursor = new Date();
 
 function fixWordData(word) {
@@ -581,7 +600,7 @@ function refreshWordIndex() {
   const seen = new Set();
   const keptByKey = new Map();
   allWordList = [];
-  for (const word of [...TEXTBOOK_WORDS, ...WORDS, ...GOETHE_WORDS, ...state.customWords]) {
+  for (const word of [...TEXTBOOK_WORDS, ...WORDS, ...GOETHE_WORDS, ...OCR_VOCAB, ...OCR_CONTENT.words, ...state.customWords]) {
     if (!word || !word.id || !word.word) continue;
     const originalKey = `${word.article || ""}|${word.word}`;
     const split = WORD_SPLITS.find(item => item.from === originalKey);
@@ -614,6 +633,84 @@ function refreshWordIndex() {
     allWordList.push(word);
   }
   wordMap = new Map(allWordList.map(word => [word.id, word]));
+  rebuildSearchIndex();
+}
+
+function foldSearch(value) {
+  return normalize(value)
+    .replace(/ue/g, "u")
+    .replace(/oe/g, "o")
+    .replace(/ae/g, "a")
+    .replace(/ss/g, "s");
+}
+
+function searchFormsFor(word) {
+  const forms = new Set();
+  const add = value => {
+    if (!value) return;
+    const text = String(value).trim();
+    if (!text) return;
+    forms.add(text);
+    const cleaned = text.replace(/^(der|die|das|sich)\s+/i, "");
+    forms.add(cleaned);
+    if (cleaned.length > 4) {
+      for (const suffix of ["ungen", "ung", "heiten", "heit", "keiten", "keit", "schaften", "schaft", "en", "er", "es", "em", "e", "n", "s", "st", "te", "ten", "t"]) {
+        if (cleaned.endsWith(suffix) && cleaned.length - suffix.length >= 3) {
+          forms.add(cleaned.slice(0, -suffix.length));
+          break;
+        }
+      }
+    }
+  };
+  add(word.word);
+  add(word.de);
+  add(word.translation);
+  add(word.article);
+  add(word.pluralForm || word.plural);
+  add(word.nounEnding);
+  add(word.separablePrefix);
+  String(word.forms || "").split(/[,;，；]/).forEach(add);
+  if (word.conj && typeof word.conj === "object") {
+    Object.values(word.conj).forEach(add);
+  }
+  add(word.pastTense);
+  add(word.participleII);
+  add(word.example);
+  add(word.exampleZh);
+  return [...forms].map(foldSearch).filter(Boolean);
+}
+
+function rebuildSearchIndex() {
+  searchIndex = new Map(allWordList.map(word => [word.id, searchFormsFor(word).join(" ")]));
+}
+
+function levenshtein(a, b) {
+  if (a === b) return 0;
+  if (!a.length || !b.length) return Math.max(a.length, b.length);
+  const previous = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i += 1) {
+    let current = [i];
+    for (let j = 1; j <= b.length; j += 1) {
+      current[j] = Math.min(current[j - 1] + 1, previous[j] + 1, previous[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    }
+    for (let j = 0; j < current.length; j += 1) previous[j] = current[j];
+  }
+  return previous[b.length];
+}
+
+function matchesWordSearch(word, rawQuery) {
+  const terms = foldSearch(rawQuery).split(/\s+/).filter(Boolean);
+  if (!terms.length) return true;
+  const haystack = searchIndex.get(word.id) || "";
+  const tokens = haystack.split(/\s+/);
+  return terms.every(term => {
+    if (haystack.includes(term)) return true;
+    return tokens.some(token => {
+      if (!token) return false;
+      if (token.startsWith(term) || term.startsWith(token)) return true;
+      return term.length >= 5 && token.length >= 5 && levenshtein(token, term) <= 1;
+    });
+  });
 }
 
 function allWords() {
@@ -836,10 +933,12 @@ function buildQueue(mode = "daily", topicId = null, limit = 12, wordId = null) {
 
 const VIEW_LABELS = {
   home: "今日学习",
-  library: "我的词库",
+  culture: "德国历史与文化",
+  reading: "文章阅读",
+  phrases: "短语积累",
+  words: "单词积累",
   grammar: "语法地图",
-  culture: "德国文化",
-  quiz: "小测验",
+  quiz: "题库测验",
   stats: "学习进度",
   study: "学习卡片"
 };
@@ -858,6 +957,7 @@ function setView(view) {
 }
 
 function navigate(view) {
+  if (view === "library") view = "words";
   if (!VIEW_LABELS[view] || view === "study") return;
   closeModal();
   stopStudyTimer();
@@ -868,7 +968,9 @@ function navigate(view) {
   setView(view);
 
   if (view === "home") renderHome();
-  if (view === "library") renderLibrary();
+  if (view === "words") renderLibrary();
+  if (view === "reading") renderReading();
+  if (view === "phrases") renderPhrases();
   if (view === "grammar") renderGrammar();
   if (view === "culture") renderCulture();
   if (view === "stats") renderStats();
@@ -1264,8 +1366,8 @@ function renderGrammar() {
   const topics = GRAMMAR_DATA.filter(topic => grammarLevel === "all" || topic.level === grammarLevel);
   const exerciseCount = topics.reduce((sum, topic) => sum + topic.exercises.length, 0);
   $("#grammar-seen").textContent = seen.size;
-  $("#grammar-total").textContent = GRAMMAR_DATA.length;
-  $("#grammar-count").textContent = `${topics.length} 个主题 · ${exerciseCount} 道小练习`;
+  $("#grammar-total").textContent = GRAMMAR_DATA.length + (OCR_CONTENT.grammar?.length || 0);
+  $("#grammar-count").textContent = `${topics.length} 个主题 · ${exerciseCount} 道小练习${OCR_CONTENT.grammar?.length ? ` · ${OCR_CONTENT.grammar.length} 张 OCR 卡` : ""}`;
   const bookMeta = $("#grammar-book-meta");
   if (bookMeta && GRAMMAR_SUMMARY_DATA) {
     bookMeta.textContent = `${GRAMMAR_SUMMARY_DATA.chapters.length} 章 · ${GRAMMAR_SUMMARY_DATA.tableCount} 张表格 · 从发音、格变到从句的完整参考`;
@@ -1294,6 +1396,25 @@ function renderGrammar() {
       </button>
     `;
   }).join("");
+  if (Array.isArray(state.customGrammar) && state.customGrammar.length) {
+    grid.innerHTML += state.customGrammar.map(item => `
+      <article class="grammar-card custom-grammar-card">
+        <span class="grammar-card-top"><span class="level-chip">导入</span></span>
+        <h3>${esc(item.title)}</h3>
+        <p class="grammar-summary">${esc(item.summary || "")}</p>
+      </article>
+    `).join("");
+  }
+  if (Array.isArray(OCR_CONTENT.grammar) && OCR_CONTENT.grammar.length) {
+    grid.innerHTML += OCR_CONTENT.grammar.map(item => `
+      <article class="grammar-card custom-grammar-card">
+        <span class="grammar-card-top"><span class="level-chip">OCR</span></span>
+        <h3>${esc(item.title)}</h3>
+        <p class="grammar-summary">${esc(item.summary || "")}</p>
+        <small>${esc(item.source || "")}</small>
+      </article>
+    `).join("");
+  }
 }
 
 function openGrammarModal(id) {
@@ -1832,8 +1953,10 @@ function renderStudyCard() {
 
   $("#back-word").textContent = word.word;
   $("#back-translation").textContent = word.translation;
-  $("#back-pos").textContent = POS_LABELS[word.pos] || "词";
-  $("#back-plural").textContent = word.pos === "noun" ? pluralLabel(word) : (word.forms || "—");
+  $("#back-pos").textContent = POS_LABELS[word.pos] || "词性待补充";
+  $("#back-plural").textContent = word.pos === "noun"
+    ? pluralLabel(word)
+    : word.forms || (word.pos === "adj" ? "比较级待补充" : word.pos === "verb" ? "变位待补充" : "变形待补充");
   $("#back-level-fact").textContent = word.level || "A1";
   const conjugation = buildConjugation(word);
   const conjugationBlock = $("#conjugation-block");
@@ -1843,12 +1966,12 @@ function renderStudyCard() {
     $("#conjugation-summary").textContent = word.pos === "verb" ? "现在时 / 过去式 / 完成时" : word.pos === "adj" ? "比较级 / 最高级" : "词形";
     $("#conjugation-content").innerHTML = conjugation;
   }
-  $("#back-example").textContent = word.example || "—";
-  $("#back-example-zh").textContent = word.exampleZh || "";
+  $("#back-example").textContent = word.example || "例句待补充";
+  $("#back-example-zh").textContent = word.exampleZh || (word.example ? "" : "该词暂未匹配到可靠例句，后续批次会继续补充。");
   $("#back-note").textContent = word.note || (word.pack || word.book
     ? "这是教材词表词条。试着用它造一个句子，再按 1–4 评价。"
     : "把这个词和你的生活连起来，它会更容易留下。");
-  $("#example-block").classList.toggle("hidden", !word.example);
+  $("#example-block").classList.remove("hidden");
   const sourceEl = $("#card-source");
   if (sourceEl) {
     sourceEl.classList.toggle("hidden", !word.source);
@@ -2126,7 +2249,195 @@ function exitStudy() {
   navigate("home");
 }
 
-/* ─────────────────────────── Library render ─────────────────────────── */
+/* ─────────────────────────── Reading / phrases ─────────────────────────── */
+
+const CEFR_ORDER = ["C2", "C1", "B2", "B1", "A2", "A1"];
+
+function allPhrases() {
+  return [...PHRASES, ...(OCR_CONTENT.phrases || []), ...(state.customPhrases || [])];
+}
+
+function allArticles() {
+  return [...ARTICLES, ...(OCR_CONTENT.articles || []), ...(state.customArticles || [])];
+}
+
+function articleLevelMap() {
+  const map = new Map();
+  for (const word of allWords()) {
+    const levels = Array.isArray(word.levels) ? word.levels : [word.level || "A1"];
+    const level = [...levels].sort((a, b) => CEFR_ORDER.indexOf(a) - CEFR_ORDER.indexOf(b))[0] || "A1";
+    const keys = new Set([word.word, word.de, ...(word.forms ? String(word.forms).split(/[,;，；]/) : [])]);
+    for (const key of keys) {
+      const normalized = foldSearch(String(key || "").replace(/^(der|die|das|sich)\s+/i, ""));
+      if (normalized && !map.has(normalized)) map.set(normalized, level);
+    }
+  }
+  return map;
+}
+
+function gradeArticle(article) {
+  const tokens = String(article.contentDe || "").match(/[A-Za-zÄÖÜäöüß-]{2,}/g) || [];
+  const map = articleLevelMap();
+  const counts = { A1: 0, A2: 0, B1: 0, B2: 0, C1: 0, C2: 0 };
+  let recognized = 0;
+  for (const raw of tokens) {
+    const token = foldSearch(raw);
+    let level = map.get(token);
+    if (!level && token.length > 5) {
+      for (const suffix of ["ungen", "ung", "en", "er", "e", "n", "s", "t"]) {
+        if (token.endsWith(suffix) && map.has(token.slice(0, -suffix.length))) {
+          level = map.get(token.slice(0, -suffix.length));
+          break;
+        }
+      }
+    }
+    if (!level) continue;
+    counts[level] = (counts[level] || 0) + 1;
+    recognized += 1;
+  }
+  const shares = {};
+  for (const level of Object.keys(counts)) shares[level] = recognized ? counts[level] / recognized : 0;
+  let level = article.levelHint || "A1";
+  for (const candidate of CEFR_ORDER) {
+    if ((shares[candidate] || 0) > 0.1) {
+      level = candidate;
+      break;
+    }
+  }
+  return { level, shares, recognized, total: tokens.length };
+}
+
+function renderReading() {
+  const list = $("#reading-list");
+  const reader = $("#article-reader");
+  if (!list) return;
+  reader?.classList.add("hidden");
+  list.classList.remove("hidden");
+  $("#reading-count").textContent = allArticles().length;
+  list.innerHTML = allArticles().map(article => {
+    const grade = gradeArticle(article);
+    return `
+      <button class="reading-card" data-article-id="${esc(article.id)}">
+        <div class="reading-card-top">
+          <span class="level-chip">${esc(grade.level)}</span>
+          <span>${esc(article.tags?.join(" · ") || "Lesetext")}</span>
+        </div>
+        <h2>${esc(article.titleDe)}</h2>
+        <p class="reading-title-zh">${esc(article.titleZh)}</p>
+        <p>${esc(article.summaryZh || "")}</p>
+        <div class="reading-card-foot"><span>${esc(article.source)}</span><span>${article.contentDe.split(/\s+/).length} 词</span></div>
+      </button>
+    `;
+  }).join("");
+}
+
+function openArticle(id) {
+  const article = allArticles().find(item => item.id === id);
+  if (!article) return;
+  readingArticleId = id;
+  const grade = gradeArticle(article);
+  $("#reading-list")?.classList.add("hidden");
+  const reader = $("#article-reader");
+  if (!reader) return;
+  reader.classList.remove("hidden");
+  $("#article-level").textContent = grade.level;
+  $("#article-kicker").textContent = `LESETEXT · ${grade.level} · ${Math.round(grade.shares[grade.level] * 100)}% ${grade.level}-Wortanteil`;
+  $("#article-title").textContent = article.titleDe;
+  $("#article-subtitle").textContent = `${article.titleZh} · ${article.tags?.join(" · ") || ""}`;
+  $("#article-meta").innerHTML = `<span>${esc(article.source)}</span><span>${article.contentDe.split(/\s+/).length} 词</span><span>${Math.round(grade.recognized / Math.max(1, grade.total) * 100)}% 词表覆盖</span>`;
+  const translationHtml = ARTICLE_TRANSLATIONS[article.id]
+    ? `<section class="article-translation">
+         <div class="article-translation-head"><strong>AI 中文译文</strong><span>仅供学习参考</span></div>
+         ${ARTICLE_TRANSLATIONS[article.id].split(/\n\n+/).map(paragraph => `<p>${esc(paragraph)}</p>`).join("")}
+       </section>`
+    : "";
+  $("#article-body").innerHTML = article.contentDe.split(/\n\n+/).map(paragraph => `<p>${esc(paragraph)}</p>`).join("") + translationHtml;
+  $$("#article-reader .article-quiz-row").forEach(row => row.remove());
+  $("#article-source").innerHTML = article.sourceUrl
+    ? `<strong>来源 / 出处</strong> <a href="${esc(article.sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(article.source)}</a>`
+    : `<strong>来源 / 出处</strong> ${esc(article.source)}`;
+  const questions = ARTICLE_QUESTIONS[article.id] || [];
+  const quizButton = questions.length
+    ? `<div class="article-quiz-row"><button class="btn btn-primary" data-action="article-quiz" data-article-id="${esc(article.id)}">读后练习 · ${questions.length} 题</button></div>`
+    : "";
+  $("#article-body").insertAdjacentHTML("afterend", quizButton);
+  window.scrollTo({ top: 0, behavior: "auto" });
+}
+
+function renderPhrases() {
+  const grid = $("#phrase-grid");
+  if (!grid) return;
+  $("#phrase-count").textContent = allPhrases().length;
+  const categories = [...new Set(allPhrases().map(item => item.category))];
+  const filter = $("#phrase-filter");
+  if (filter) {
+    filter.innerHTML = `<button class="chip ${phraseCategory === "all" ? "is-active" : ""}" data-phrase-category="all">全部</button>` +
+      categories.map(category => `<button class="chip ${phraseCategory === category ? "is-active" : ""}" data-phrase-category="${esc(category)}">${esc(category)}</button>`).join("");
+  }
+  const query = foldSearch(phraseQuery.trim());
+  const items = allPhrases().filter(item => {
+    if (phraseCategory !== "all" && item.category !== phraseCategory) return false;
+    if (!query) return true;
+    return foldSearch([item.de, item.zh, item.example, item.exampleZh, item.category].join(" ")).includes(query);
+  });
+  grid.innerHTML = items.length ? items.map(item => `
+    <article class="phrase-card">
+      <div class="phrase-head"><span class="level-chip">${esc(item.level)}</span><span>${esc(item.category)}</span></div>
+      <h2>${esc(item.de)}</h2>
+      <p class="phrase-zh">${esc(item.zh)}</p>
+      <blockquote><p>${esc(item.example)}</p><footer>${esc(item.exampleZh)}</footer></blockquote>
+      <small>${esc(item.source)}</small>
+    </article>
+  `).join("") : `<div class="library-empty"><h3>没有匹配的短语</h3><p>换一个关键词或场景。</p></div>`;
+}
+
+function phraseQuestionBank(category = "all", level = "all", type = "mixed") {
+  const pool = allPhrases().filter(item => (category === "all" || category === "phrases") && (level === "all" || item.level === level));
+  return pool.slice(0, 12).map((item, index) => {
+    const mode = type === "zh-de" || (type === "mixed" && index % 2) ? "zh-de" : "de-zh";
+    const others = shuffle(allPhrases().filter(other => other.id !== item.id)).slice(0, 3);
+    const options = shuffle([item, ...others]).map(other => ({ text: mode === "zh-de" ? other.de : other.zh, correct: other.id === item.id }));
+    return {
+      mode,
+      word: { id: item.id, word: mode === "zh-de" ? item.zh : item.de, translation: mode === "zh-de" ? item.de : item.zh, level: item.level, article: "" },
+      options,
+      correctIndex: options.findIndex(option => option.correct),
+      explanation: `${item.de} — ${item.zh}。例：${item.example}`
+    };
+  });
+}
+
+function articleQuestionBank(level = "all") {
+  return allArticles()
+    .filter(article => level === "all" || gradeArticle(article).level === level)
+    .flatMap(article => (ARTICLE_QUESTIONS[article.id] || []).map((question, index) => {
+      const options = shuffle(question.options.map((text, optionIndex) => ({ text, correct: optionIndex === question.answer })));
+      return {
+        mode: "de-zh",
+        word: { id: `${article.id}-q${index}`, word: question.q, translation: question.options[question.answer], level: gradeArticle(article).level, article: "" },
+        options,
+        correctIndex: options.findIndex(option => option.correct),
+        explanation: question.explain
+      };
+    }));
+}
+
+function grammarQuestionBank(level = "all", type = "mixed") {
+  const topics = (typeof GRAMMAR_TOPICS !== "undefined" ? GRAMMAR_TOPICS : [])
+    .filter(topic => level === "all" || topic.level === level);
+  return topics.flatMap(topic => (topic.exercises || []).map((exercise, index) => {
+    const options = shuffle(exercise.options.map((text, optionIndex) => ({ text, correct: optionIndex === exercise.answer })));
+    return {
+      mode: "de-zh",
+      word: { id: `${topic.id}-ex${index}`, word: exercise.q, translation: exercise.options[exercise.answer], level: topic.level, article: "" },
+      options,
+      correctIndex: options.findIndex(option => option.correct),
+      explanation: exercise.explain
+    };
+  }));
+}
+
+
 
 function currentStatus(word) {
   if (isDue(word)) return "due";
@@ -2134,22 +2445,12 @@ function currentStatus(word) {
 }
 
 function filteredWords() {
-  const query = normalize(libraryFilters.query.trim());
+  const query = libraryFilters.query.trim();
   let words = allWords().filter(word => {
     if (libraryFilters.level !== "all" && word.level !== libraryFilters.level) return false;
     if (libraryFilters.status !== "all" && currentStatus(word) !== libraryFilters.status) return false;
     if (!query) return true;
-    const haystack = normalize([
-      word.word,
-      word.translation,
-      word.example,
-      word.exampleZh,
-      word.note,
-      word.plural,
-      word.forms,
-      word.article
-    ].filter(Boolean).join(" "));
-    return haystack.includes(query);
+    return matchesWordSearch(word, query);
   });
 
   if (libraryFilters.sort === "level") {
@@ -2194,7 +2495,8 @@ function renderLibrary() {
   $("#library-count").textContent = `显示 ${words.length} / ${allFiltered.length} 个词`;
   const moreButton = $("#library-more");
   if (moreButton) moreButton.hidden = words.length >= allFiltered.length;
-  $("#home-library-link").innerHTML = `查看全部 ${metrics.total} 词 ${icon("arrow-right")}`;
+  const homeLink = $("#home-library-link");
+  if (homeLink) homeLink.innerHTML = `查看全部 ${metrics.total} 词 ${icon("arrow-right")}`;
   const packCount = state.customWords.filter(word => word.pack).length;
   const customCount = state.customWords.length - packCount;
   const textbookCount = TEXTBOOK_WORDS.length;
@@ -2204,6 +2506,7 @@ function renderLibrary() {
     : goetheCount
       ? `${metrics.total} 个德语词，其中 ${goetheCount} 个来自歌德分级词表${customCount ? `，${customCount} 个自定义收藏` : ""}。`
       : `${metrics.total} 个精心挑选的德语词，加上你自己添加的收藏。`;
+  $("#library-subline").textContent += " 词性、变形或例句缺失的词条会标为“待补充”，后续批次继续补齐。";
 
   if (!words.length) {
     body.innerHTML = "";
@@ -2931,9 +3234,50 @@ function buildQuizQuestion(target, pool, requestedMode = quiz.mode) {
   };
 }
 
+function startBankQuiz(category = "all", type = "mixed", level = "all") {
+  let questions = [];
+  const wants = key => category === "all" || category === key;
+
+  if (wants("words")) {
+    const pool = allWords().filter(word => level === "all" || word.level === level);
+    const targets = shuffle(pool).slice(0, category === "words" ? 12 : 5);
+    for (const target of targets) {
+      const mode = type === "zh-de" || (type === "mixed" && Math.random() > 0.55) ? "zh-de" : "de-zh";
+      questions.push(buildQuizQuestion(target, pool, mode));
+    }
+  }
+  if (wants("phrases")) questions.push(...phraseQuestionBank(category, level, type));
+  if (wants("grammar")) questions.push(...grammarQuestionBank(level, type));
+  if (wants("articles")) questions.push(...articleQuestionBank(level));
+
+  if (!questions.length) {
+    showToast("这个范围暂时没有可用题目，换一个内容或难度。");
+    return;
+  }
+  quiz.weekly = false;
+  quiz.weekId = "";
+  quiz.mode = "bank";
+  quiz.bankConfig = { category, type, level };
+  quiz.questions = shuffle(questions).slice(0, 12);
+  quiz.index = 0;
+  quiz.score = 0;
+  quiz.answers = [];
+  quiz.answered = false;
+  quiz.active = true;
+  quiz.startTime = Date.now();
+  $("#quiz-setup").classList.add("hidden");
+  $("#quiz-result").classList.add("hidden");
+  $("#quiz-play").classList.remove("hidden");
+  renderQuizQuestion();
+}
+
 function startQuiz() {
   quiz.weekly = false;
   quiz.weekId = "";
+  quiz.bankConfig = null;
+  if (!["de-zh", "zh-de", "article", "listening"].includes(quiz.mode)) {
+    quiz.mode = "de-zh";
+  }
   const level = $("#quiz-level")?.value || "all";
   quiz.level = level;
   let pool = allWords().filter(word => level === "all" || word.level === level);
@@ -3043,15 +3387,18 @@ function answerQuiz(index) {
   if (isCorrect) {
     quiz.score += 1;
   } else {
-    state.mistakes[question.word.id] = (state.mistakes[question.word.id] || 0) + 1;
-    state.mistakeTypes[question.word.id] = question.mode || quiz.mode || "quiz";
-    persist();
+    if (getWord(question.word.id)) {
+      state.mistakes[question.word.id] = (state.mistakes[question.word.id] || 0) + 1;
+      state.mistakeTypes[question.word.id] = question.mode || quiz.mode || "quiz";
+      persist();
+    }
   }
   quiz.answers.push({
     word: question.word,
     chosen: chosen.text,
     correct: isCorrect,
-    correctText: question.options[question.correctIndex].text
+    correctText: question.options[question.correctIndex].text,
+    explanation: question.explanation || ""
   });
 
   $$("#quiz-options .quiz-option").forEach((button, buttonIndex) => {
@@ -3071,8 +3418,8 @@ function answerQuiz(index) {
   mark.innerHTML = icon(isCorrect ? "check" : "close");
   $("#feedback-title").textContent = isCorrect ? "Richtig!" : "Fast!";
   $("#feedback-copy").textContent = isCorrect
-    ? `${wordDisplay(question.word)} — ${question.word.translation}。${question.word.exampleZh || ""}`
-    : `正确答案是「${question.options[question.correctIndex].text}」。${question.word.example || ""}`;
+    ? `${question.explanation || `${wordDisplay(question.word)} — ${question.word.translation}`} ${question.word.exampleZh || ""}`.trim()
+    : `${question.explanation || `正确答案是「${question.options[question.correctIndex].text}」。`} ${question.word.example || ""}`.trim();
 
   const next = $("#quiz-next");
   next.hidden = false;
@@ -3140,15 +3487,15 @@ function finishQuiz() {
   $("#result-title").textContent = title;
   $("#result-copy").textContent = copy;
 
-  $("#result-review").innerHTML = wrong.length
-    ? wrong.map(answer => `
-        <div class="result-wrong-row">
+  $("#result-review").innerHTML = quiz.answers.length
+    ? quiz.answers.map(answer => `
+        <div class="result-wrong-row ${answer.correct ? "is-correct" : ""}">
           <span class="article" data-art="${esc(answer.word.article || "none")}">${esc(answer.word.article || "·")}</span>
           <strong>${esc(answer.word.word)}</strong>
-          <span>${esc(answer.correctText)} · 你选了「${esc(answer.chosen)}」</span>
+          <span>${answer.correct ? "正确" : `正确答案：${esc(answer.correctText)} · 你选了「${esc(answer.chosen)}」`}${answer.explanation ? `<small>${esc(answer.explanation)}</small>` : ""}</span>
         </div>
       `).join("")
-    : `<p class="queue-empty" style="text-align:center">全部答对。今天的记忆状态很好。</p>`;
+    : `<p class="queue-empty" style="text-align:center">本轮没有答题记录。</p>`;
 }
 
 function quitQuiz() {
@@ -3443,6 +3790,10 @@ function openSettingsModal() {
         <button class="btn btn-ghost" data-modal-action="open-dictionary">管理词表</button>
       </div>
       <div class="settings-row">
+        <div><strong>导入学习内容</strong><small>文本 / JSON；失败自动重试 1 次后终止</small></div>
+        <button class="btn btn-ghost" data-modal-action="import-content">导入内容</button>
+      </div>
+      <div class="settings-row">
         <div><strong>个性化推荐</strong><small>根据正确率、错题与学习时段给出本地建议</small></div>
         <label class="switch">
           <input type="checkbox" id="setting-personalization" ${state.settings.personalization !== false ? "checked" : ""}>
@@ -3469,6 +3820,7 @@ function openSettingsModal() {
         <button class="btn btn-danger" data-modal-action="reset-progress">${icon("trash")} 重置进度</button>
       </div>
       <input type="file" id="import-file" accept="application/json,.json" hidden>
+      <input type="file" id="content-file" accept=".json,.txt,.md,application/json,text/plain" hidden>
     </div>
     <div class="modal-actions">
       <button class="btn btn-ghost" data-close>取消</button>
@@ -3521,6 +3873,110 @@ function addWordFromForm(form) {
   renderAll();
   navigate("library");
   showToast(`已添加 ${wordDisplay(custom)}。`);
+}
+
+async function extractContent(file) {
+  const text = await file.text();
+  const trimmed = text.trim();
+  if (!trimmed) throw new Error("empty");
+  if (trimmed.startsWith("{") || trimmed.startsWith("[")) {
+    const parsed = JSON.parse(trimmed);
+    return {
+      words: Array.isArray(parsed.words) ? parsed.words : [],
+      phrases: Array.isArray(parsed.phrases) ? parsed.phrases : [],
+      articles: Array.isArray(parsed.articles) ? parsed.articles : [],
+      grammar: Array.isArray(parsed.grammar) ? parsed.grammar : []
+    };
+  }
+  const result = { words: [], phrases: [], articles: [], grammar: [] };
+  let article = null;
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (line.startsWith("W|")) {
+      const [, word, translation, level = "A1", articleValue = ""] = line.split("|");
+      if (word && translation) result.words.push({ word: word.trim(), translation: translation.trim(), level, article: articleValue || null });
+    } else if (line.startsWith("P|")) {
+      const [, de, zh, example = "", exampleZh = "", level = "A1", category = "导入"] = line.split("|");
+      if (de && zh) result.phrases.push({ id: `custom-ph-${Date.now()}-${result.phrases.length}`, de, zh, example, exampleZh, level, category, source: file.name });
+    } else if (line.startsWith("A|")) {
+      const [, titleDe, titleZh = "", contentDe = "", source = ""] = line.split("|");
+      if (titleDe && contentDe) result.articles.push({ id: `custom-art-${Date.now()}-${result.articles.length}`, titleDe, titleZh, contentDe, source: source || file.name, sourceUrl: "", tags: ["导入"], summaryZh: "" });
+    } else if (line.startsWith("G|")) {
+      const [, title, summary = ""] = line.split("|");
+      if (title) result.grammar.push({ id: `custom-grammar-${Date.now()}-${result.grammar.length}`, title, summary });
+    }
+  }
+  if (!result.words.length && !result.phrases.length && !result.articles.length && !result.grammar.length) {
+    throw new Error("unsupported");
+  }
+  return result;
+}
+
+async function importContentFile(file) {
+  if (!file) return;
+  let lastError = null;
+  for (let attempt = 1; attempt <= 2; attempt += 1) {
+    try {
+      const content = await extractContent(file);
+      const stamp = Date.now();
+      if (content.words.length) {
+        state.customWords.push(...content.words.map((item, index) => ({
+          id: `custom-import-${stamp}-${index}`,
+          word: item.word,
+          article: item.article || null,
+          plural: item.plural || null,
+          forms: item.forms || "",
+          pos: item.pos || "noun",
+          translation: item.translation || "",
+          level: item.level || "A1",
+          topic: "imported",
+          example: item.example || "",
+          exampleZh: item.exampleZh || "",
+          source: file.name,
+          custom: true
+        })));
+      }
+      if (content.phrases.length) {
+        state.customPhrases.push(...content.phrases.map((item, index) => ({
+          id: item.id || `custom-ph-${stamp}-${index}`,
+          de: item.de || item.word || "",
+          zh: item.zh || item.translation || "",
+          example: item.example || "",
+          exampleZh: item.exampleZh || "",
+          level: item.level || "A1",
+          category: item.category || "导入",
+          source: item.source || file.name
+        })).filter(item => item.de && item.zh));
+      }
+      if (content.articles.length) {
+        state.customArticles.push(...content.articles.map((item, index) => ({
+          id: item.id || `custom-art-${stamp}-${index}`,
+          titleDe: item.titleDe || item.title || "",
+          titleZh: item.titleZh || "",
+          contentDe: item.contentDe || item.content || "",
+          source: item.source || file.name,
+          sourceUrl: item.sourceUrl || "",
+          tags: item.tags || ["导入"],
+          summaryZh: item.summaryZh || ""
+        })).filter(item => item.titleDe && item.contentDe));
+      }
+      if (content.grammar.length) state.customGrammar.push(...content.grammar);
+      refreshWordIndex();
+      persist();
+      renderAll();
+      closeModal();
+      showToast(`提取成功：单词 ${content.words.length}、短语 ${content.phrases.length}、文章 ${content.articles.length}、语法 ${content.grammar.length}。`);
+      return;
+    } catch (error) {
+      lastError = error;
+      if (attempt < 2) await new Promise(resolve => setTimeout(resolve, 250));
+    }
+  }
+  state.meta.extractionFailures = Array.isArray(state.meta.extractionFailures) ? state.meta.extractionFailures : [];
+  state.meta.extractionFailures.push({ file: file.name, attempts: 2, failedAt: new Date().toISOString(), reason: String(lastError?.message || "extract-error") });
+  persist();
+  showToast(`提取失败：${file.name} 已重试 1 次，任务终止。`);
 }
 
 function exportState() {
@@ -3619,6 +4075,15 @@ function handleAction(action, element) {
     case "open-grammar-book":
       openGrammarBook();
       break;
+    case "close-article":
+      renderReading();
+      break;
+    case "article-quiz": {
+      const article = allArticles().find(item => item.id === element.dataset.articleId);
+      const level = article ? gradeArticle(article).level : "all";
+      startBankQuiz("articles", "de-zh", level);
+      break;
+    }
     case "start-pack":
       startPackStudy();
       break;
@@ -3675,7 +4140,11 @@ function handleAction(action, element) {
       quitQuiz();
       break;
     case "quiz-retry":
-      startQuiz();
+      if (quiz.mode === "bank" && quiz.bankConfig) {
+        startBankQuiz(quiz.bankConfig.category, quiz.bankConfig.type, quiz.bankConfig.level);
+      } else {
+        startQuiz();
+      }
       break;
     case "start-weekly-quiz":
       startWeeklyQuiz();
@@ -3753,6 +4222,19 @@ function bindEvents() {
       return;
     }
 
+    const readingCard = event.target.closest("[data-article-id]");
+    if (readingCard && !event.target.closest("[data-action]")) {
+      openArticle(readingCard.dataset.articleId);
+      return;
+    }
+
+    const phraseChip = event.target.closest("#phrase-filter [data-phrase-category]");
+    if (phraseChip) {
+      phraseCategory = phraseChip.dataset.phraseCategory;
+      renderPhrases();
+      return;
+    }
+
     const grammarOption = event.target.closest("[data-grammar-option]");
     if (grammarOption && !grammarOption.disabled) {
       answerGrammar(grammarOption);
@@ -3789,6 +4271,19 @@ function bindEvents() {
     libraryFilters.query = event.target.value;
     libraryVisibleLimit = 80;
     renderLibrary();
+  });
+
+  $("#phrase-search")?.addEventListener("input", event => {
+    phraseQuery = event.target.value;
+    renderPhrases();
+  });
+
+  $("#bank-start")?.addEventListener("click", () => {
+    startBankQuiz(
+      $("#bank-category")?.value || "all",
+      $("#bank-type")?.value || "mixed",
+      $("#bank-level")?.value || "all"
+    );
   });
 
   $("#global-search")?.addEventListener("input", event => {
@@ -3914,6 +4409,8 @@ function bindEvents() {
       exportState();
     } else if (action === "import") {
       $("#import-file")?.click();
+    } else if (action === "import-content") {
+      $("#content-file")?.click();
     } else if (action === "open-changelog") {
       closeModal();
       setTimeout(openChangelogModal, 30);
@@ -3942,6 +4439,9 @@ function bindEvents() {
   modalRoot?.addEventListener("change", event => {
     if (event.target.id === "import-file") {
       importStateFile(event.target.files?.[0]);
+    }
+    if (event.target.id === "content-file") {
+      importContentFile(event.target.files?.[0]);
     }
   });
 
@@ -4045,5 +4545,6 @@ function init() {
 }
 
 init();
+
 
 
