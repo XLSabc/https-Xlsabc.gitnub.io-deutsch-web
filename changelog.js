@@ -878,6 +878,412 @@ window.WORTKARTE_CHANGELOG = [
       "第 50 批完成，按约定暂停并提醒用户",
       "文章 42 篇、短语 190 条、语法 57 张卡、单词 8838 个"
     ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 51：购物口语、für/gegen 与城市词汇",
+    scope: "OCR · 短语 · 语法 · 词汇",
+    items: [
+      "OCR 德语高级阅读教程、最新德语口语手册、新编德语语法 第2版",
+      "新增 5 条购物/问候短语",
+      "语法新增介词 für / gegen",
+      "新增 Stadtplan、Ansichtskarte、Ehepaar 词条",
+      "文章 42 篇、短语 181 条、语法 58 张卡、单词 8839 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 52：父母与人格阅读、购物口语与 an 介词",
+    scope: "OCR · 阅读 · 短语 · 语法 · 词汇",
+    items: [
+      "OCR 德语高级阅读教程、最新德语口语手册、新编德语语法 第2版",
+      "新增 Eltern – ein unentrinnbares Schicksal? 文章及 AI 译文",
+      "新增 5 条购物短语",
+      "语法新增介词 an",
+      "新增 Erbinformation、Umwelteinfluss、Vorbildfunktion 词条",
+      "文章 43 篇、短语 187 条、语法 59 张卡、单词 8841 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 53：校园暴力阅读、天气口语与 Ware 词族",
+    scope: "OCR · 阅读 · 短语 · 词汇",
+    items: [
+      "OCR 德语高级阅读教程、最新德语口语手册、德语词汇巧学妙记",
+      "新增 Schule: schlagen, schubsen, abziehen 文章及 AI 译文",
+      "新增 5 条天气短语",
+      "新增 Ware、Preis、schwarz、dunkel 词条",
+      "文章 44 篇、短语 193 条、语法 59 张卡、单词 8841 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 54：干洗口语与 kalt/Kälte 词族",
+    scope: "OCR · 短语 · 词汇",
+    items: [
+      "OCR 德语高级阅读教程、最新德语口语手册、德语词汇巧学妙记",
+      "新增 5 条干洗/取衣短语",
+      "新增 kalt、Kälte、Erkältung 词条",
+      "文章 44 篇、短语 199 条、语法 59 张卡、单词 8842 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 55：交通/娱乐口语与 Vorsicht 词族",
+    scope: "OCR · 短语 · 词汇",
+    items: [
+      "OCR 德语阅读教程 第1册、最新德语口语手册、德语词汇巧学妙记",
+      "新增 6 条交通/娱乐短语",
+      "新增 Vorsicht、Einfahrt、Ermäßigung 词条",
+      "文章 44 篇、短语 205 条、语法 59 张卡、单词 8843 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 56：可口可乐阅读、会议口语与 Vertrag 词族",
+    scope: "OCR · 阅读 · 短语 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、最新德语口语手册、德语词汇巧学妙记",
+      "新增 Coca-Cola 文章及 AI 译文",
+      "新增 5 条会议/邀请短语",
+      "新增 Vertrag、Teehaus、Gelände 词条",
+      "文章 45 篇、短语 211 条、语法 59 张卡、单词 8844 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 57：蹦极阅读练习、约会口语与 Bungee 词族",
+    scope: "OCR · 短语 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、最新德语口语手册、德语词汇巧学妙记",
+      "新增 5 条约会/邀请短语",
+      "新增 Bungee-Sprung、Todesangst、Ritual 词条",
+      "文章 45 篇、短语 213 条、语法 59 张卡、单词 8846 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 58：德国牧羊犬阅读、als ob 与不规则动词",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、德语词汇巧学妙记、新编德语语法 第2版",
+      "新增 Der deutsche Schäferhund 文章及 AI 译文",
+      "语法新增非现实比较 als ob",
+      "新增 leiden、reißen、schneiden、streiten 词条",
+      "文章 46 篇、短语 213 条、语法 60 张卡、单词 8847 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 59：神秘包裹阅读、wenn 从句与圣诞词汇",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、新编德语语法 第2版",
+      "新增 Das geheimnisvolle Paket 文章及 AI 译文",
+      "语法新增连词 wenn",
+      "新增 Paket、Einsamkeit、Karpfen 词条",
+      "文章 47 篇、短语 213 条、语法 61 张卡、单词 8849 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 60：车站告别阅读、nun 与旅行词汇",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、新编德语语法 第2版",
+      "新增 Abschied am Bahnhof 文章及 AI 译文",
+      "语法新增小品词 nun",
+      "新增 Gepäck、Abteil、Illustrierte 词条",
+      "文章 48 篇、短语 213 条、语法 62 张卡、单词 8849 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 61–62：欧元问答、安乐死阅读与 -ei 构词",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、新编德语语法 第2版",
+      "新增 Euthanasie? 文章及 AI 译文",
+      "语法新增感叹词、后缀 -ei 派生名词",
+      "新增 Euthanasie、Verzicht、Würde 词条",
+      "文章 49 篇、短语 213 条、语法 64 张卡、单词 8852 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 63–64：残疾儿童统计、不定式名词化与 durch",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、新编德语语法 第2版",
+      "新增 Behinderte Kinder in der Statistik 文章及 AI 译文",
+      "语法新增不定式名词化、介词 durch",
+      "补全 Behinderung、Statistik、Versorgung 词条",
+      "文章 50 篇、短语 213 条、语法 66 张卡、单词 8852 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 65–66：懒惰讽刺文、宾语从句与 soweit",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语阅读教程 中级、新编德语语法 第2版",
+      "新增 Faulheit 文章及 AI 译文",
+      "语法新增宾语从句、限制从句 soweit",
+      "补全 Faulheit、Erfindung、Zweck 词条",
+      "文章 51 篇、短语 213 条、语法 68 张卡、单词 8852 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 67–68：德国文化观察、关系从句与前场",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语中级阅读教程、新编德语语法 第2版",
+      "新增 Ein seltsames Land 文章及 AI 译文",
+      "语法新增关系从句、前场 Vorfeld",
+      "补全 Distanz、Vorschrift、Terminkalender 词条",
+      "文章 52 篇、短语 213 条、语法 70 张卡、单词 8852 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 69–70：老少合住、Love Parade 与替代词",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语中级阅读教程、新编德语语法 第2版",
+      "新增 Studenten wohnen mit Senioren、Die Love Parade 文章及 AI 译文",
+      "语法新增替代词与照应",
+      "新增 Mietvertrag、Wohngemeinschaft、Initiative、Lautstärke、Stahlkonstruktion 词条",
+      "文章 54 篇、短语 213 条、语法 71 张卡、单词 8854 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 71–72：第一次汽车旅行、复活节兔子与分词",
+    scope: "OCR · 阅读 · 语法 · 词汇",
+    items: [
+      "OCR 德语中级阅读教程、新编德语语法 第2版",
+      "新增 Die erste Autofahrt、Der Osterhase 文章及 AI 译文",
+      "语法新增 sein + 形容词/分词、分词作定语",
+      "新增 Steigung、Pferdestärke、Steuer、Fruchtbarkeit、Manufaktur、Verbreitung 词条",
+      "文章 56 篇、短语 213 条、语法 73 张卡、单词 8858 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 73–74：知足者衬衫、交通不体谅与情绪词汇",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 德语中级阅读教程",
+      "新增 Das Hemd eines zufriedenen Menschen、Rücksichtslosigkeit im Verkehr 文章及 AI 译文",
+      "补全 Zufriedenheit、Hemd、Sorge、Rücksichtslosigkeit、Vernunft 词条",
+      "文章 58 篇、短语 213 条、语法 73 张卡、单词 8860 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 75–76：德国大学开学体验与校园词汇",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 德语中级阅读教程",
+      "新增 Studium – eine neue Erfahrung 文章及 AI 译文",
+      "补全 Enttäuschung、Veranstaltung、Stundenplan 词条",
+      "文章 59 篇、短语 213 条、语法 73 张卡、单词 8861 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 77–78：数字鸿沟与媒体词汇",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 德语中级阅读教程",
+      "新增 Die digitale Spaltung 文章及 AI 译文",
+      "补全 spalten、Gebildete、Medium 词条",
+      "文章 60 篇、短语 213 条、语法 73 张卡、单词 8863 个"
+    ]
+  },
+  {
+    version: "1.1.0",
+    date: "2026-10-21",
+    type: "feature",
+    summary: "功能迭代：词形搜索、文章详情、CEFR 分级、五栏目导航、题库、难度进阶与数据保护",
+    scope: "搜索 · 阅读 · 导航 · 题库 · 存储 · 移动端",
+    items: [
+      "搜索支持名词格变化、复数、形容词词尾、动词变位与模糊拼写，并按匹配度排序",
+      "文章阅读支持详情深链与已读记录，文末固定展示来源/出处",
+      "文章难度按 CEFR 六级的词汇占比从 C2 向下判断，超过 10% 即采用该等级",
+      "主导航调整为历史与文化、文章阅读、短语积累、单词积累、语法学习五栏目",
+      "题库覆盖单词、短语、语法、文章；文章与 OCR 语法卡自动生成题目",
+      "单词积累支持 A1–C2 筛选与按难度背诵，按等级记录正确率并在超过 90% 时推荐进阶",
+      "移动端底部导航改为五个主栏目，文章、单词表与难度面板自适应小屏",
+      "localStorage 数据结构升级到 v4，新增旧数据迁移、导入前快照、导出/导入备份"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 79–80：世博会互动皮影戏与节日词汇",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 欧标德语阅读教程 B1、欧标德语阅读教程 A2",
+      "新增 Beweg dich für deine Stadt 文章及 AI 译文",
+      "补全 Geschenk、Geschwister、Stress 词条",
+      "文章 61 篇、短语 213 条、语法 73 张卡、单词 8863 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 81–82：住房危机、学校假期与农业词汇",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 欧标德语阅读教程 B1、欧标德语阅读教程 A2",
+      "新增 Unbezahlbare Neubauten、Ferien und Camping 文章及 AI 译文",
+      "补全 Molkerei、Landwirt、Ferien、Camping 词条",
+      "文章 63 篇、短语 213 条、语法 73 张卡、单词 8866 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 83–84：健康运动质量标志与认证词汇",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 欧标德语阅读教程 B1、欧标德语阅读教程 A2",
+      "新增 Sport pro Gesundheit 文章及 AI 译文",
+      "补全 Gütesiegel、Transparenz、Zertifikat 词条",
+      "文章 64 篇、短语 213 条、语法 73 张卡、单词 8867 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 85–86：德国协会生活与计算机史",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 新编大学德语阅读训练 3-4、科技德语阅读教程",
+      "新增 Vereine in Deutschland、Die Geschichte des Computers 文章及 AI 译文",
+      "补全 Verein、Mitglied、Transistor、Mikroprozessor、Heimcomputer 词条",
+      "文章 66 篇、短语 213 条、语法 73 张卡、单词 8870 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 87–88：人体器官系统与医学术语",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 新编大学德语阅读训练 3-4、科技德语阅读教程",
+      "新增 Organsysteme des Menschen 文章及 AI 译文",
+      "补全 Geschlechtsorgan、Harnröhre、Verdauungssystem、Nervensystem 词条",
+      "文章 67 篇、短语 213 条、语法 73 张卡、单词 8873 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 89–90：双胞胎故事与农场学校",
+    scope: "OCR · 阅读 · 词汇",
+    items: [
+      "OCR 德语阅读训练、大学德语阅读教程",
+      "新增 Zwillinge sind nie allein、Schule auf dem Bauernhof 文章及 AI 译文",
+      "补全 Zwilling、Frisur、Bauernhof、Erzeugnis 词条",
+      "文章 69 篇、短语 213 条、语法 73 张卡、单词 8875 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 93–94：问候、近况与旅行口语",
+    scope: "OCR · 短语",
+    items: [
+      "OCR 标准德语900句、跟我学德语口语100句",
+      "新增 5 条问候/交流/旅行短语",
+      "文章 71 篇、短语 217 条、语法 73 张卡、单词 8879 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 95–96：饮料与矿泉水词汇",
+    scope: "OCR · 词汇",
+    items: [
+      "OCR 德语词汇联想与速记",
+      "补全 Getränk、Mineralwasser、Kohlensäure、Saft、Limonade 词条",
+      "文章 71 篇、短语 217 条、语法 73 张卡、单词 8880 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 97–98：决定、建议与成年生活词汇",
+    scope: "OCR · 词汇",
+    items: [
+      "OCR 德语词汇联想与速记",
+      "补全 ankommen、entscheiden、sich entschließen、Rat、volljährig、Altenheim 词条",
+      "文章 71 篇、短语 217 条、语法 73 张卡、单词 8882 个"
+    ]
+  },
+  {
+    version: "1.0.0",
+    date: "2026-10-21",
+    type: "data",
+    summary: "OCR 批次 99–100：工作、休假与戏剧词汇；达成 100 批",
+    scope: "OCR · 词汇 · 检查",
+    items: [
+      "OCR 德语词汇联想与速记",
+      "补全 erledigen、Feierabend、Überstunde、Urlaub、Drama、Orchester 词条",
+      "完成第 100 批内容检查：文章译文、短语译文、单词字段和语法分类",
+      "文章 71 篇、短语 217 条、语法 73 张卡、单词 8882 个"
+    ]
   }
 ];
+
 

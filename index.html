@@ -80,13 +80,13 @@
       <button class="side-link" data-nav="words">
         <svg class="icon"><use href="#i-layers"/></svg><span>单词积累</span>
       </button>
+      <button class="side-link" data-nav="grammar">
+        <svg class="icon"><use href="#i-grammar"/></svg><span>语法学习</span>
+      </button>
     </nav>
 
     <div class="side-label side-label-spaced">学习工具</div>
     <nav class="side-nav" aria-label="学习工具">
-      <button class="side-link" data-nav="grammar">
-        <svg class="icon"><use href="#i-grammar"/></svg><span>语法地图</span>
-      </button>
       <button class="side-link" data-nav="quiz">
         <svg class="icon"><use href="#i-spark"/></svg><span>题库测验</span>
       </button>
@@ -125,6 +125,9 @@
       <span class="brand-type"><strong>WORTKARTE</strong></span>
     </button>
     <div class="mobile-header-actions">
+      <button class="icon-button" data-nav="quiz" aria-label="题库测验">
+        <svg class="icon"><use href="#i-spark"/></svg>
+      </button>
       <button class="streak-pill compact" data-nav="stats" aria-label="查看连续学习天数">
         <svg class="icon"><use href="#i-flame"/></svg><strong id="mobile-streak">0</strong>
       </button>
@@ -140,7 +143,7 @@
       <div class="top-actions">
         <label class="global-search" for="global-search">
           <svg class="icon"><use href="#i-search"/></svg>
-          <input id="global-search" type="search" placeholder="搜索单词或释义" autocomplete="off">
+          <input id="global-search" type="search" placeholder="搜索单词、变位、复数或释义" autocomplete="off">
           <kbd>Ctrl K</kbd>
         </label>
         <button class="streak-pill" data-nav="stats" title="连续学习天数">
@@ -260,7 +263,7 @@
             <p class="eyebrow">DEINE LERNBEREICHE</p>
             <h2>今天想从哪里开始？</h2>
           </div>
-          <span class="section-note">四个学习入口</span>
+          <span class="section-note">五个学习入口</span>
         </div>
         <div class="portal-grid">
           <button class="portal-card portal-culture" data-nav="culture">
@@ -288,7 +291,14 @@
             <span class="portal-number">04</span>
             <span class="portal-icon"><svg class="icon"><use href="#i-layers"/></svg></span>
             <strong>单词积累</strong>
-            <small>7507 词 · 搜索 · 复习 · 收藏</small>
+            <small>搜索 · 复习 · 收藏 · 难度进阶</small>
+            <span class="portal-arrow"><svg class="icon"><use href="#i-arrow-right"/></svg></span>
+          </button>
+          <button class="portal-card portal-grammar" data-nav="grammar">
+            <span class="portal-number">05</span>
+            <span class="portal-icon"><svg class="icon"><use href="#i-grammar"/></svg></span>
+            <strong>语法学习</strong>
+            <small>语法卡 · 练习 · 归类</small>
             <span class="portal-arrow"><svg class="icon"><use href="#i-arrow-right"/></svg></span>
           </button>
         </div>
@@ -553,7 +563,8 @@
                 <option value="A2">A2 · 基础</option>
                 <option value="B1">B1 · 进阶</option>
                 <option value="B2">B2 · 中高级</option>
-                <option value="C1">C1 / C2 · 高阶</option>
+                <option value="C1">C1 · 高级</option>
+                <option value="C2">C2 · 精通</option>
               </select>
             </div>
             <div class="quiz-config-item">
@@ -658,7 +669,7 @@
           <p>从童话到城市短文，按 CEFR 难度分级，保留完整原文与来源。</p>
         </div>
         <div class="reading-count-card">
-          <strong id="reading-count">0</strong><span>篇文章</span><small>CEFR 自动分级</small>
+          <strong id="reading-count">0</strong><span>篇文章</span><small id="reading-read">已读 0 篇 · CEFR 自动分级</small>
         </div>
       </div>
       <div class="reading-list" id="reading-list"></div>
@@ -718,10 +729,12 @@
         <div><span>等待见面</span><strong id="library-new">0</strong></div>
       </div>
 
+      <section class="level-progress reveal" id="level-progress" aria-label="各难度正确率" style="--delay: 55ms"></section>
+
       <div class="library-toolbar reveal" style="--delay: 70ms">
         <label class="library-search">
           <svg class="icon"><use href="#i-search"/></svg>
-          <input type="search" id="library-search" placeholder="搜索德语单词、中文释义或例句…" autocomplete="off">
+          <input type="search" id="library-search" placeholder="搜索原形、变位、复数、释义或例句…" autocomplete="off">
         </label>
         <div class="filter-chips" id="level-filter" role="group" aria-label="按等级筛选">
           <button class="chip is-active" data-level="all">全部</button>
@@ -729,8 +742,10 @@
           <button class="chip" data-level="A2">A2</button>
           <button class="chip" data-level="B1">B1</button>
           <button class="chip" data-level="B2">B2</button>
-          <button class="chip" data-level="C1">C1/C2</button>
+          <button class="chip" data-level="C1">C1</button>
+          <button class="chip" data-level="C2">C2</button>
         </div>
+        <button class="btn btn-cream" id="study-level-start" data-action="study-level">背诵此难度</button>
         <div class="library-selects">
           <label class="select-wrap"><span class="sr-only">学习状态</span>
             <select id="status-filter">
@@ -786,8 +801,8 @@
       <div class="page-heading reveal">
         <div>
           <p class="eyebrow">GRAMMATIK</p>
-          <h1>语法地图<span class="heading-dot">.</span></h1>
-          <p>把《新求精》A1 与初级2 的语法点拆成一张可以随时回来查的地图。</p>
+          <h1>语法学习<span class="heading-dot">.</span></h1>
+          <p>把教材语法点拆成可随时回来查的地图；按主题阅读、做练习，再回到文章里验证。</p>
         </div>
         <div class="grammar-progress-card">
           <strong id="grammar-seen">0</strong>
@@ -948,12 +963,12 @@
     </footer>
   </main>
 
-  <nav class="bottom-nav" aria-label="移动端导航">
-    <button class="is-active" data-nav="home"><svg class="icon"><use href="#i-home"/></svg><span>今日</span></button>
+  <nav class="bottom-nav" aria-label="移动端主导航">
     <button data-nav="culture"><svg class="icon"><use href="#i-leaf"/></svg><span>文化</span></button>
     <button data-nav="reading"><svg class="icon"><use href="#i-book"/></svg><span>阅读</span></button>
     <button data-nav="phrases"><svg class="icon"><use href="#i-spark"/></svg><span>短语</span></button>
     <button data-nav="words"><svg class="icon"><use href="#i-layers"/></svg><span>单词</span></button>
+    <button data-nav="grammar"><svg class="icon"><use href="#i-grammar"/></svg><span>语法</span></button>
   </nav>
 
   <div class="modal-layer" id="modal-root" hidden></div>

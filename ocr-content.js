@@ -659,6 +659,423 @@ Trotz dieser vielen Variationen und der großen Popularität gilt der Kriminalro
 Vor zwei Jahren kamen in Köln auf jeden ordentlich eingeschriebenen Alten zwei ältere Gasthörer, heute ist es umgekehrt, und dieser Trend ist im ganzen Land zu beobachten. 38 900 Gasthörer waren an deutschen Hochschulen im Wintersemester 2004–2005 gemeldet, ein Fünftel mehr als vor zehn Jahren, und knapp die Hälfte davon sind Senioren.
 
 Die Zahl der ordentlich eingeschriebenen Senioren aber hat sich fast halbiert, von 6 500 im Wintersemester 2002–2003 auf 3 600 im vergangenen Wintersemester. Und wenn eines Tages Studiengebühren für alle und überall eingeführt werden, dürfte diese Zahl weiter fallen. Bildung ist teuer, sie wird noch teurer werden.`
+    },
+    {
+      id: "ocr-eltern-schicksal",
+      titleDe: "Eltern – ein unentrinnbares Schicksal?",
+      titleZh: "父母——无法逃避的命运？",
+      levelHint: "B2",
+      source: "《德语高级阅读教程》OCR · Text 10",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "心理"],
+      summaryZh: "基因与环境各占一半？研究显示，父母并非人格形成的唯一决定因素，同龄人和老师同样重要。",
+      contentDe: `Aus großen Studien, zum Beispiel an getrennt aufwachsenden eineiigen Zwillingen, wissen die Fachleute, dass Persönlichkeits- wie Intelligenzunterschiede etwa zur Hälfte genetisch bedingt sind. Es muss also noch zahlreiche weitere, bis heute unbekannte Erbinformationen geben, die Verhaltensmerkmale mitbestimmen. Die andere Hälfte der Persönlichkeitsunterschiede lässt sich durch Umwelteinflüsse im weitesten Sinne erklären.
+
+Also sind in erster Linie doch die Eltern verantwortlich? Auf diese Frage antworten viele Experten inzwischen vorsichtig. Sie halten die elterliche Erziehung und ihre Vorbildfunktion nicht mehr für den am stärksten prägenden Umweltfaktor.
+
+„Nichts spricht dafür, dass Verhaltensunterschiede durch Ereignisse in der frühen Kindheit festgelegt würden“, erklärt Jens Asendorpf. Natürlich interagieren Babys und Kleinkinder intensiv mit ihren Eltern. Vater oder Mutter reagieren vielleicht positiv auf ein nach außen gewandtes Kind — und verstärken genau dieses Verhalten. Ganz ähnliche Vorgänge sind aber auch mit Gleichaltrigen, Erziehern, Lehrern und später mit Freunden, Partnern und Arbeitskollegen zu beobachten.
+
+Zahlreiche Studien zur Persönlichkeitsentwicklung bestätigen Asendorpf: Die Persönlichkeit ist die ganze Kindheit und Jugendzeit hindurch in Veränderung.`
+    },
+    {
+      id: "ocr-schule-gewalt",
+      titleDe: "Schule: schlagen, schubsen, abziehen",
+      titleZh: "学校：打人、推搡、勒索",
+      levelHint: "B2",
+      source: "《德语高级阅读教程》OCR · Text 13",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "校园暴力不仅伤害受害者，也影响旁观者、教师和整个班级；文章介绍反暴力项目。",
+      contentDe: `Die Auswirkungen der Gewaltbereitschaft haben jedoch besonders die Schulen zu tragen. Bei den Opfern — Schülern und Lehrern — reicht die Spannbreite von Ängstlichkeit bis zu Suizidgedanken. Die gesamte Persönlichkeit der Betroffenen wird von den Übergriffen in Mitleidenschaft gezogen. Neben körperlichen Verletzungen treten massive Schädigungen des Selbstbewusstseins auf. Da Untersuchungen zudem belegen, dass Opfer von Gewalt auch eher selbst zu Tätern werden, droht eine Spirale der Gewalt.
+
+Unbeteiligt ist schließlich niemand: Verstärkt erleben auch unbeteiligte Schüler deutliche Einschränkungen. Fortwährende Unterrichtsstörungen hemmen zunehmend Lehrer und Mitschüler. Motivation, also die Lern- und Lehrbereitschaft, sinkt ebenso wie die Konzentration und damit die Lernfähigkeit.
+
+Um solchen Tendenzen entgegenzuwirken, gibt es eine Reihe von Maßnahmen und Projekten, die sich in den vergangenen Jahren an den Schulen schon bewähren konnten. Je umfangreicher diese sind und je mehr Beteiligte — Lehrer, Eltern, Schüler, Polizei, eventuell sogar Vereine — mitwirken, desto Erfolg versprechender sind die Perspektiven.`
+    },
+    {
+      id: "ocr-coca-cola",
+      titleDe: "Coca-Cola",
+      titleZh: "可口可乐",
+      levelHint: "A2",
+      source: "《德语阅读教程 中级》OCR · Getränke",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "饮食"],
+      summaryZh: "可口可乐的发明、配方秘密、原料和全球生产，以及它如何成为世界最著名的饮料。",
+      contentDe: `Coca-Cola ist das bekannteste Erfrischungsgetränk der Welt. Entwickelt wurde es vor gut hundert Jahren von einem amerikanischen Apotheker. Er wollte eigentlich ein Mittel gegen Müdigkeit und Kopfschmerzen auf den Markt bringen.
+
+Woraus Coca-Cola genau besteht, ist immer noch ein Betriebsgeheimnis. Auf jeden Fall aber aus Wasser, dem ein Sirup beigemischt wird. Dieser besteht aus Zucker (50 Würfel pro Liter!) und dem Extrakt von Colanüssen. Colanüsse sind die Früchte des Colabaumes, der in Afrika wächst. Dazu kommen verschiedene Geschmacksstoffe und Koffein. Dieser Stoff, der munter macht und anregt, ist auch im Kaffee enthalten.
+
+Die braune Farbe entsteht, weil der verwendete Zucker teilweise karamellisiert wird. Die Firma Coca-Cola ist der größte Hersteller von Erfrischungsgetränken auf der ganzen Welt. Aus diesem Konzern kommen Coca-Cola, Fanta, Sprite, Mezzo Mix und Bonaga.`
+    },
+    {
+      id: "ocr-schaeferhund",
+      titleDe: "Der deutsche Schäferhund",
+      titleZh: "德国牧羊犬",
+      levelHint: "B2",
+      source: "《德语阅读教程 中级》OCR · Frankfurter Allgemeine Zeitung",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "动物"],
+      summaryZh: "德国牧羊犬的历史：从战争与集中营的使用，到战后成为约两百万只的流行犬种。",
+      contentDe: `Hitler, der seine Schäferhündin „Blondi“ lieber hatte als sein Volk, rekrutierte Tausende von Schäferhunden für den Krieg: als laufende Bombenpackungen und als Minenhunde. Die wenigsten überlebten. Deutsche Schäferhunde bewachten Konzentrationslager; Nazi-Verbrecher hetzten ihre Hunde auf wehrlose Juden. An der Seite von Sanitätern zogen Schäferhunde mit Rot-Kreuz-Binden in den Krieg. In der DDR wurden sie am deutsch-deutschen Todesstreifen auf Flüchtlinge losgelassen.
+
+In Deutschland gibt es etwa zwei Millionen Schäferhunde, von denen 500 000 beim Verein für deutsche Schäferhunde registriert sind, dessen Zentrale ihren Sitz in Augsburg hat. Etwa 3000 Dauerzüchter und 7000 Gelegenheitszüchter bringen jedes Jahr 30 000 Welpen auf den Markt, die zum Stückpreis von tausend Mark verkauft werden.`
+    },
+    {
+      id: "ocr-paket",
+      titleDe: "Das geheimnisvolle Paket",
+      titleZh: "神秘的包裹",
+      levelHint: "B1",
+      source: "《德语阅读教程 中级》OCR · Text 2",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "生活"],
+      summaryZh: "独居的老人每年给自己买圣诞礼物；今年，一个小男孩按响了门铃，问他圣诞老人是否来过。",
+      contentDe: `Ich lebe allein. Das hat gewisse Nachteile, aber auch Vorteile. So zwingt mich zum Beispiel niemand, Blumenkohlsuppe zu essen. Keiner macht mir zu Hause Unordnung, steckt seine Nase in meine Angelegenheiten, rumort in meinen Büchern und öffnet meine Briefe.
+
+Vor allem mit Weihnachten hatte ich anfangs Schwierigkeiten, bis ich mir die Reihenfolge eingeprägt hatte: Weihnachtsbaum, Kerzen, zwei Portionen Karpfen, Kartoffelsalat und ein Geschenk unter dem Weihnachtsbaum. Das kaufte ich mir immer selbst. Seit einigen Jahren aber mache ich das ganz anders. Ich gebe der Aufwartefrau Geld mit dem Auftrag, für mich ein Geschenk zu kaufen. Und seitdem ist alles anders geworden.
+
+Am Donnerstag brachte mir Frau Janousek auch wieder ein Weihnachtspaket mit einem echten Fichtenzweig oben darauf. Da läutete es. „Onkel, war nicht der Weihnachtsmann hier?“ fragte mich ein kleiner Junge. Er trägt einen matrosenblauen Wintermantel, eine Baskenmütze und hat vertrauensvolle Augen. „Ich habe doch an den Weihnachtsmann geschrieben, und man sagte, es gibt keinen mehr, und nun habe ich Angst.“`
+    },
+    {
+      id: "ocr-abschied-bahnhof",
+      titleDe: "Abschied am Bahnhof",
+      titleZh: "车站告别",
+      levelHint: "B1",
+      source: "《德语阅读教程 中级》OCR · Erzählung",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "情感"],
+      summaryZh: "Renate 在车站送别 Erich；火车开走后，她躲在画报后面哭，后悔没有说出真实生活。",
+      contentDe: `„Als Reisegepäck aufgegeben.“ „Natürlich, das ist bequemer“, sagte er.
+
+Wenn er jetzt ein Wort sagen würde, dachte sie, ich steige sofort wieder aus, sofort. Sie reichte ihm aus einem Abteil erster Klasse die Hand. „Auf Wiedersehen, Erich ... und weiterhin ... viel Glück.“ „Wie schön sie immer noch ist. Warum nur sagt sie kein Wort.“ „Danke, Renate. Hoffentlich hast du schönes Wetter.“ „Ach, das ist nicht so wichtig. Hauptsache ist das Faulenzen, das kann man auch bei Regen.“
+
+Der Zug ruckte an. Sie winkten nicht, sie sahen sich nur in die Augen, so lange dies möglich war. Als der Zug aus der Halle gefahren war, ging Renate in einen Wagen zweiter Klasse und setzte sich dort an ein Fenster. Sie weinte hinter einer ausgebreiteten Illustrierten.
+
+„Wie dumm von mir, ich hätte ihm sagen sollen, dass ich immer noch die kleine Verkäuferin bin. Ja, in einem anderen Laden, mit zweihundert Mark mehr als früher, aber ich verkaufe immer noch Herrenoberhemden, wie früher, und Socken und Unterwäsche. Alles für den Herrn. Ich hätte ihm das sagen sollen. Aber dann hätte er mich ausgelacht, jetzt, wo er ein Herr geworden ist.“`
+    },
+    {
+      id: "ocr-euthanasie",
+      titleDe: "Euthanasie?",
+      titleZh: "安乐死？",
+      levelHint: "C1",
+      source: "《德语阅读教程 中级》OCR · Text 4",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "伦理"],
+      summaryZh: "医学进步让人能延长生命，也带来是否应允许安乐死、何时放弃治疗的伦理争论。",
+      contentDe: `Der Mensch hat sein Schicksal immer mehr in die eigene Hand genommen. Alles treibt darauf zu, dass er auch die Entscheidungen über sein Leben eines Tages in die Hand nehmen wird. Wenn es im Prinzip möglich ist, das Leben beliebig lange, auch unter unwürdigsten Bedingungen, zu verlängern, wie soll man dann eine Diskussion über die Euthanasie vermeiden?
+
+Jeder Arzt wird auf den Eid des Hippokrates verpflichtet, wonach das Leben um jeden Preis zu erhalten ist. Hippokrates ist aber seit mehr als 2000 Jahren tot. Was ein Arzt der damaligen Zeit konnte, war, verglichen mit den heutigen Möglichkeiten, nicht sehr viel mehr als gutes Zureden. Die Gewalt über Leben und Tod war damals nicht wirklich in die Hand der Ärzte gegeben. Seit 20 Jahren ist sie es.
+
+Seitdem weichen wir der Entscheidung darüber aus, was ein Arzt mit dem Leben tun darf oder nicht tun darf. Der medizinische Fortschritt hat sein Stadium erreicht, in dem er sinnlos zu werden droht, wenn er nicht mit gleichzeitigem teilweisem Verzicht auf gewisse Möglichkeiten verbunden ist.`
+    },
+    {
+      id: "ocr-behinderte-statistik",
+      titleDe: "Behinderte Kinder in der Statistik",
+      titleZh: "统计中的残疾儿童",
+      levelHint: "B2",
+      source: "《德语阅读教程 中级》OCR · Familie",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "一位母亲填写家庭情况表时，看到残疾女儿被统计、被归类；她希望统计能带来更好的医疗与融合。",
+      contentDe: `Meinen mütterlichen Stoßseufzer überhörte er. Computer registrieren dergleichen nicht. Der Mann schien das zu wissen. Er radierte den Namen unserer Ältesten aus. Es tat mir weh. Zwanzig Jahre Familienzugehörigkeit wischte er mit seinem Radiergummi einfach vom Blatt. Aber er tat ja nur seine Pflicht.
+
+Dann nahm er das Blatt unserer jüngsten Tochter. Ich sah wieder Licht am Horizont. Hier könnte sich die Statistik segensreich auswirken. Wie schön, wenn man endlich mal herausfindet, wie viele behinderte Kinder es in der Bundesrepublik gibt, wie ihre ärztliche Versorgung funktioniert und welche Möglichkeiten sie haben, in die normale Gesellschaft integriert zu werden.
+
+Der Mangel an Lehrern hat sich herumgesprochen. Ob auch der Mangel an qualifizierten Ärzten bekannt ist?`
+    },
+    {
+      id: "ocr-faulheit",
+      titleDe: "Faulheit",
+      titleZh: "懒惰",
+      levelHint: "B1",
+      source: "《德语阅读教程 中级》OCR · Text 3",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "讽刺"],
+      summaryZh: "一篇讽刺短文：人类工作、发明、结婚，归根结底都是为了掩饰懒惰。",
+      contentDe: `Man sagt, dass Franzosen arbeiteten, um zu leben, während die Deutschen lebten, um zu arbeiten. Unsinn. In Wirklichkeit arbeitet der, der tatsächlich arbeitet, nur aus einem einzigen Grund: um seine Faulheit zu verbergen.
+
+Faulheit ist der Motor der Welt. Wozu erfand Edison den Phonographen? Wozu erfand Bull den Bulldozer? Wozu erfand Goebel die Glühlampe? Wozu heiraten die Leute? Nur zu einem einzigen Zweck: Wenn sie allein eingeladen sind, müssen sie aus Höflichkeit absagen.
+
+Der eine erfindet Maschinen, damit er nicht selbst arbeiten muss; der andere geht ins Büro, damit er zu Hause nicht putzen muss. Am Ende arbeitet alle Welt, um endlich faul sein zu können.`
+    },
+    {
+      id: "ocr-seltsames-land",
+      titleDe: "Ein seltsames Land",
+      titleZh: "一个奇怪的国家",
+      levelHint: "B1",
+      source: "《德语中级阅读教程》OCR · Claudia Thome",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "一个外国人对德国的观察：德国人看似冷淡，却认真对待友谊；规则多、预约多，地铁里没人说话。",
+      contentDe: `Es dauert länger, Deutsche gut kennen zu lernen. Erst wirken sie kalt und distanziert, aber dann habe ich gemerkt, dass sie Freundschaften sehr ernst nehmen. Wird man eingeladen, muss man unbedingt pünktlich kommen und nicht erst eine Stunde später wie bei uns. Aber so ein ganz spontaner Besuch ohne telefonische Voranmeldung bei Freunden — nein, das tut man hier nicht.
+
+Leider gibt es für alles Vorschriften und ungeschriebene Gesetze, die das Verhalten der Menschen bis ins Detail regeln. Vieles davon ist mir einfach zu kompliziert und übertrieben. Früher dachte ich, für einen Kaffee unter Freunden hat man immer Zeit! Wer will schon eine Freundschaft mit Terminkalender?
+
+Ich finde, in der U-Bahn sehen die Menschen so aus, als ob sie durch eine Prüfung gefallen wären. Sie reden nicht miteinander, sie schauen nur in ihre Zeitung. Niemand lacht laut, und niemand singt. Manchmal dachte ich, die Deutschen können keine Gefühle zeigen. Aber es gibt alle möglichen Vereine, wo man sich trifft. Da benehmen sie sich laut und lustig und fühlen sich wohl.`
+    },
+    {
+      id: "ocr-wohnen-senioren",
+      titleDe: "Studenten wohnen mit Senioren",
+      titleZh: "学生与老人同住",
+      levelHint: "B1",
+      source: "《德语中级阅读教程》OCR · Rheinischer Merkur",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "住房"],
+      summaryZh: "学生以每月为老人帮忙若干小时换取便宜房间；租赁合同规定双方义务。",
+      contentDe: `Lotte Kreikemeier überzeugt ältere Menschen davon, Studenten gegen Hilfe ein Zimmer zu überlassen. Der Mietvertrag regelt Art und Umfang der Pflichten für beide Seiten. Als Grundwert gilt, dass pro Quadratmeter Wohnraum eine Stunde im Monat gearbeitet werden soll.
+
+Eine Reihe gut laufender Mietverhältnisse zwischen Alt und Jung spricht für die Initiative, die weder auf staatliche Förderprogramme noch auf das elterliche Nest vertrauen. Die Studenten haben so eine günstige Bleibe, die Senioren Gesellschaft und praktische Hilfe im Alltag.`
+    },
+    {
+      id: "ocr-love-parade",
+      titleDe: "Die Love Parade",
+      titleZh: "爱情大游行",
+      levelHint: "B2",
+      source: "《德语中级阅读教程》OCR · Interview",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "城市"],
+      summaryZh: "一位参与 Love Parade 的工作人员讲述人潮、水枪、电子音乐与噪音的体验。",
+      contentDe: `„Zweieinhalb Kilometer in 12 Stunden, da bist du fix und groggy nachher. Das ist wahnsinnig anstrengend. Die Leute sind verrückt, sie spritzen mit Wasserpistolen in die Autos.“
+
+Janna: „Mögen Sie eigentlich die Musik, die auf der Love Parade gespielt wurde?“
+
+Herr Moor: „Nicht besonders. Ich höre lieber Oldies. Und das Schlimmste an der Technomusik ist die Lautstärke. Die Nacht nach der Party konnte ich kein Auge zutun! Es zischte und rauschte in den Ohren!“
+
+Janna: „Wollen Sie nächstes Jahr noch einmal Dienst machen?“
+
+Herr Moor: „Nein! Ich fahre lieber Stahlkonstruktionen quer durch Europa!“`
+    },
+    {
+      id: "ocr-erste-autofahrt",
+      titleDe: "Die erste Autofahrt",
+      titleZh: "第一次汽车旅行",
+      levelHint: "B1",
+      source: "《德语中级阅读教程》OCR · Thema Auto",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "技术"],
+      summaryZh: "Bertha Benz 与同伴推车爬上 Wiesloch 后的坡道，完成早期汽车的长途试驶。",
+      contentDe: `Der Start klappt. Doch die Steigungen hinter Wiesloch sind für eine magere PS zu viel. Richard geht ans Steuer. Bertha und Eugen schieben. Die Talfahrt überstehen die drei ohne Panne.
+
+Die erste längere Autofahrt der Welt führt von Mannheim nach Pforzheim. Unterwegs muss Benzin nachgefüllt werden; in der Apotheke kauft Bertha Benz Ligroin. Am Abend erreicht die Familie ihr Ziel. Die Fahrt beweist, dass das Automobil alltagstauglich ist.`
+    },
+    {
+      id: "ocr-osterhase",
+      titleDe: "Der Osterhase",
+      titleZh: "复活节兔子",
+      levelHint: "B1",
+      source: "《德语中级阅读教程》OCR · Ostern",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "兔子、彩蛋和羔羊是生育力的象征；复活节兔子的传说最早出现在莱茵河上游，19世纪随巧克力工厂和图画书流行。",
+      contentDe: `Hasen, Eier und Lämmer wurden zu allen Zeiten als Symbole der Fruchtbarkeit verehrt, geopfert oder verzehrt. Zunächst nur am Oberrhein, im Elsass und in der Pfalz glaubte man an den Eier bringenden Hasen.
+
+Den ältesten bekannten Fachaufsatz zum Thema Osterhase mit dem Titel „De ovis Paschabilus“ schrieb der Heidelberger Medizinprofessor Georgius Franck im Jahre 1682. Erst Mitte des 19. Jahrhunderts sollen die aufkommenden Schokoladenmanufakturen und ersten Hasen-Bilderbücher für die allgemeine Verbreitung der Mär vom Osterhasen gesorgt haben.`
+    },
+    {
+      id: "ocr-hemd-zufrieden",
+      titleDe: "Das Hemd eines zufriedenen Menschen",
+      titleZh: "一个知足者的衬衫",
+      levelHint: "B1",
+      source: "《德语中级阅读教程》OCR · Märchen",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "童话"],
+      summaryZh: "国王失眠，智者说只要穿上一个知足者的衬衫就能痊愈；使者走遍村庄，却找不到真正知足的人。",
+      contentDe: `Es war einmal ein reicher König; dem machte das Regieren so viele Sorgen, dass er darum die ganze Nacht nicht schlafen konnte. Das war ihm zuletzt so unerträglich, dass er seine Räte zusammenberief und ihnen sein Leid klagte.
+
+Es war aber darunter ein alter, erfahrener Mann; der erhob sich und sprach: „Es gibt nur ein Mittel, dass wieder Schlaf in des Königs Augen kommt; aber es wird schwer zu erlangen sein. So nämlich dem Könige das Hemd eines zufriedenen Menschen geschafft werden könnte und er das beständig auf seinem Leibe trüge, so halte ich dafür, dass ihm sicherlich geholfen wäre.“
+
+Da das der König vernahm, beschloss er, dem Rate des klugen Mannes zu folgen, und wählte eine Anzahl Boten, die sollten das Hemd eines zufriedenen Menschen suchen. Die Boten gingen von Haus zu Haus, von Hütte zu Hütte, sie kehrten bei Armen und Reichen ein; aber keinen fanden sie, der ganz zufrieden war.`
+    },
+    {
+      id: "ocr-ruecksichtslosigkeit",
+      titleDe: "Rücksichtslosigkeit im Verkehr",
+      titleZh: "交通中的不体谅",
+      levelHint: "B2",
+      source: "《德语中级阅读教程》OCR · Verkehr",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "作者批评司机的不体谅：只有奖励和惩罚才有效，而汽车让违规者轻易逃过惩罚。",
+      contentDe: `Nur Belohnung oder Strafe vermögen der Rücksichtslosigkeit etwas anzuhaben. Solange die Strafe der Tat auf dem Fuße folgen konnte, ging es ja noch einigermaßen.
+
+Aber dann kam die Erfindung des Automobils. Diese Erfindung verschaffte der Rücksichtslosigkeit einen ungeahnten Vorsprung, der immer größer wird, je schneller die Autos fahren können. Und eine Strafe, die der Tat auf dem Pneu folgt, ist selten.
+
+So wird an die Vernunft der Autorisierten appelliert. Dem „Fasse dich kurz“ folgt kein „Fahre langsam“. Wer rücksichtslos fährt, gefährdet nicht nur andere, sondern auch sich selbst.`
+    },
+    {
+      id: "ocr-studium-erfahrung",
+      titleDe: "Studium – eine neue Erfahrung",
+      titleZh: "大学学习——一种新体验",
+      levelHint: "B1",
+      source: "《德语中级阅读教程》OCR · Eliana Xhani",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "校园"],
+      summaryZh: "阿尔巴尼亚学生 Eliana 讲述在德国大学开学时的困惑：找不到课程表、不知道该从哪门课开始。",
+      contentDe: `Also, nichts wie hin: Ich ging zum Wiso-Foyer, wo das „schwarze Brett“ aushängt. Aus meinen Broschüren wusste ich, dass dort alle wichtigen Informationen und Termine bezüglich des Studiums zu finden sind. Aber dann kam gleich schon die erste Enttäuschung! Welche Veranstaltungen Studierende im ersten Semester BWL besuchen sollten, darüber fand ich nichts. Zwar waren die Termine aller Veranstaltungen aufgelistet, aber nicht in Form eines Stundenplans, wie ich es erwartet hatte.
+
+Womit sollte ich jetzt nur anfangen? Mit BWL A oder B, Statistik oder Recht? Ich hatte niemanden, den ich fragen konnte. Die anderen Studierenden sahen auch nicht so aus, als ob sie mehr wüssten.`
+    },
+    {
+      id: "ocr-digitale-spaltung",
+      titleDe: "Die digitale Spaltung",
+      titleZh: "数字鸿沟",
+      levelHint: "B2",
+      source: "《德语中级阅读教程》OCR · Die Welt",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "媒体"],
+      summaryZh: "只有四成人口熟悉电脑和网络，而且多是受教育者；专家担心社会因此进一步分裂。",
+      contentDe: `Bislang sind nur 40 Prozent der Menschen PC- und Internet-affin. Und das sind die Gebildeten. „Ich sehe die Gefahr, dass sich die Gesellschaft weiter spalten wird“, sagte Opaschowski. „Die Gebildeten nutzen neue Medien, um noch mehr zu wissen und zu lernen. Andere fallen weiter zurück.“
+
+Wer keinen Zugang zu digitalen Medien hat, verliert auch Chancen auf Bildung und Arbeit. Die digitale Spaltung verläuft daher nicht nur zwischen Arm und Reich, sondern auch zwischen Jung und Alt sowie zwischen Stadt und Land.`
+    },
+    {
+      id: "ocr-beweg-deine-stadt",
+      titleDe: "Beweg dich für deine Stadt",
+      titleZh: "为你的城市动起来",
+      levelHint: "B1",
+      source: "《欧标德语阅读教程 B1》OCR · Zhang Yue",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "上海世博会上的互动皮影戏：参观者用影子搭建虚拟城市，把中国传统文化与高科技结合。",
+      contentDe: `In einem interaktiven Schattenspiel bauen Besucher ihre eigene Mega-City. Unter der Leitung der Professoren Peter Russell und Jan Borchers von der Rheinisch-Westfälischen Technischen Hochschule Aachen arbeitete ein 20-köpfiges Team mehrere Monate an der Weltpremiere für die Expo 2010 in Shanghai.
+
+Prof. Borchers: Im Spiel können die Besucher gemeinsam eine virtuelle Stadt erschaffen, die anschließend im Internet sichtbar gemacht wird. Besonders interessant ist die virtuelle Gestaltung der Stadt. Wir haben versucht, die chinesische Tradition mit Hightech zu verbinden. Es sieht aus, als würde man mit seinem eigenen Schatten Gebäude, Bäume, Elektrizitäts- und Wasserleitungen erzeugen. Das in Gemeinschaftsarbeit gebaute Stadtviertel wird anschließend online gestellt.`
+    },
+    {
+      id: "ocr-unbezahlbare-neubauten",
+      titleDe: "Unbezahlbare Neubauten",
+      titleZh: "买不起的新建筑",
+      levelHint: "B2",
+      source: "《欧标德语阅读教程 B1》OCR · NDR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "住房"],
+      summaryZh: "德国城市房租飞涨，政界寄望私人投资者每年新建数十万套住房，但可负担住房仍然短缺。",
+      contentDe: `In den deutschen Städten explodieren die Mieten, fast überall fehlt es an bezahlbaren Wohnungen. Die einzige Lösung heißt: bauen, bauen, bauen. Die Bundesregierung geht davon aus, dass bis 2020 jährlich 350.000 bis 400.000 Wohnungen neu errichtet werden müssen.
+
+Bauen sollen sie private Renditejäger. „Wir sind angewiesen auf die freie Wohnungswirtschaft. Die brauchen wir auf jeden Fall“, sagte Bundesbauministerin Barbara Hendricks. Auch der bayerische Innenminister Joachim Herrmann setzt aufs große Kapital: „Ich fände es sehr gut, wenn Unternehmen, die Kapital anzulegen haben, wie zum Beispiel Banken und Versicherungen, sich wieder stärker im Wohnungsbau engagieren.“
+
+Private Investoren als Retter in der Wohnungskrise — das ist der Plan der Politik. Und er scheitert bislang grandios.`
+    },
+    {
+      id: "ocr-ferien-camping",
+      titleDe: "Ferien und Camping",
+      titleZh: "假期与露营",
+      levelHint: "A2",
+      source: "《欧标德语阅读教程 A2》OCR · Text 2",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "旅行"],
+      summaryZh: "德国学校假期如何安排，学生如何用假期工和铁路优惠旅行。",
+      contentDe: `Schüler erhalten in der Bundesrepublik in regelmäßigen Abständen Schulferien. Das Schuljahr beginnt nach den großen Sommerferien (sechs Wochen, die im Juni oder Juli beginnen). Um eine Überlastung der Straßen und Bundesautobahnen zu vermeiden, wechseln die Bundesländer sich bei einem frühen oder späten Ferienbeginn ab.
+
+Zusätzlich zu den langen Ferien im Sommer bekommen die Schüler Herbstferien (1–2 Wochen), Weihnachtsferien (2–3 Wochen) und Osterferien (2–3 Wochen). Hinzu kommen einzelne Feiertage. Schüler und Studenten verbringen längere Ferien oft damit, sogenannte Ferienjobs zu übernehmen, um sich etwas Geld für Reisen, Anschaffungen, aber auch für das Studium zu verdienen.
+
+Fahren Jugendliche nicht mehr mit ihren Eltern in Urlaub, so versuchen sie möglichst billig zu verreisen. Die Deutsche Bahn bietet spezielle Sonderangebote an, mit denen Jugendliche zu verbilligten Preisen in Deutschland und ganz Europa reisen können.`
+    },
+    {
+      id: "ocr-sport-gesundheit",
+      titleDe: "Sport pro Gesundheit",
+      titleZh: "有益健康的运动",
+      levelHint: "B1",
+      source: "《欧标德语阅读教程 A2》OCR · Sport und Gesundheit",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "健康"],
+      summaryZh: "“Sport pro Gesundheit”质量标志由德国奥林匹克体育联合会与联邦医师协会共同开发，帮助人们找到合适的健康课程。",
+      contentDe: `Allerorts springen einem die verschiedensten Güte-, Prüf- und Qualitätssiegel ins Auge. Doch nicht immer wird klar, nach welchen Gesichtspunkten das jeweilige Zertifikat vergeben wurde. Das Qualitätssiegel „Sport Gesundheit“ hingegen steht für Transparenz. Es hat klar definierte Ziele und Kriterien und schafft Orientierung im Dschungel der zahlreichen, mittlerweile auch von kommerziellen Einrichtungen angebotenen Programmen des Gesundheitssports.
+
+Das Qualitätssiegel „Sport pro Gesundheit“, welches gesundheitsorientierte Sportangebote auszeichnet, wurde vom DOSB gemeinsam mit der Bundesärztekammer entwickelt. Auch die Siegel „Pluspunkt Gesundheit DTB“ des Deutschen Turner-Bundes und „Gesund und fit im Wasser“ des Deutschen Schwimm-Verbandes gehören zur Dachmarke „Sport pro Gesundheit“.
+
+Es ist wissenschaftlich erwiesen, dass sich ein großer Prozentsatz der Gesundheitskosten durch Prävention vermeiden lässt. Zugleich ist unstrittig, dass Bewegung und Sport zentrale Bestandteile einer erfolgreichen Prävention sind.`
+    },
+    {
+      id: "ocr-vereine-deutschland",
+      titleDe: "Vereine in Deutschland",
+      titleZh: "德国的协会",
+      levelHint: "B1",
+      source: "《新编大学德语阅读训练 3-4》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "德国有约34.5万个协会、7000万会员；几乎每四个德国人中就有一个是体育协会成员。",
+      contentDe: `Mit rund 345 000 Vereinen und 70 Millionen Mitgliedern ist das deutsche Vereins- und Verbandsleben sehr vielfältig. Fast jeder vierte Deutsche ist Mitglied eines Sportvereins. Die Gesangvereine zählen über zwei Millionen Mitglieder. In Vereinen treffen sich Briefmarkensammler, Hundezüchter und Kleingärtner. Viele Angebote wenden sich speziell an Frauen oder Jugendliche.`
+    },
+    {
+      id: "ocr-computer-geschichte",
+      titleDe: "Die Geschichte des Computers",
+      titleZh: "计算机的历史",
+      levelHint: "B2",
+      source: "《科技德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "从晶体管、芯片到 Altair 8800，再到 Apple 和 Microsoft：个人电脑如何诞生并进入日常生活。",
+      contentDe: `Mitte der 50er Jahre wurden die bisher eingesetzten, schweren und Raum füllenden Relais und Röhren durch leichte und kleine Transistoren verdrängt. Ein Transistor ist ein elektronisches Halbleiterbauelement, das elektrische Impulse schaltet und steuert. Anfang der 70er Jahre überraschte die Firma Intel die Fachwelt mit der Sensation, ganze Reihen von Transistoren platzsparend auf einem Stück Silizium unterbringen zu können — der Chip, der Mikroprozessor, war geboren.
+
+1975 brachte der amerikanische Zahnarzt und Tüftler Ed Roberts einen Heimcomputer-Bausatz für 397 Dollar auf den Markt, den er auf den Namen Altair 8800 taufte. Der erste PC war ein Kopf ohne Arme und Beine: Er besaß keine Tastatur, keine Maus, und man konnte nicht einmal einen Monitor anschließen. Erst recht fehlte jede Art von Software oder Anwendungsprogramm.
+
+In einem der legendären Altair-Clubs lernten sich Steve Jobs und Steve Wozniak kennen; gemeinsam gründeten sie die Firma Apple. Microsoft-Gründer Bill Gates konnte Anfang der 80er Jahre vom Garagentüftler zum Multimilliardär aufsteigen, weil er für den PC die dringend benötigte Software entwarf und seine Betriebssysteme geschickt vermarktete.`
+    },
+    {
+      id: "ocr-organsysteme",
+      titleDe: "Organsysteme des Menschen",
+      titleZh: "人体器官系统",
+      levelHint: "B2",
+      source: "《科技德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "医学"],
+      summaryZh: "人体由多个器官系统组成：生殖系统、心血管系统、消化系统、神经系统和皮肤系统协同工作。",
+      contentDe: `Zu diesem System werden die männlichen oder die weiblichen Geschlechtsorgane zusammengefasst. Es werden dementsprechend äußere von inneren Geschlechtsorganen unterschieden. Bei männlichen Individuen kommt noch dazu, dass der Penis mit seiner Harnröhre ein Teil der ableitenden Harnwege ist.
+
+Das Herz-Kreislauf-System versorgt den Körper mit Blut und Sauerstoff. Das Verdauungssystem zerlegt die Nahrung in verwertbare Bestandteile. Das Nervensystem steuert und koordiniert die Organe, und die Haut schützt den Körper nach außen.`
+    },
+    {
+      id: "ocr-zwillinge",
+      titleDe: "Zwillinge sind nie allein",
+      titleZh: "双胞胎从不孤单",
+      levelHint: "A2",
+      source: "《德语阅读训练》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "生活"],
+      summaryZh: "Stefan 和 Chris 从小一起生病、穿同样的衣服、留同样的发型；现在他们喜欢上了同一个女孩。",
+      contentDe: `Als Babys haben Stefan und Chris immer zur selben Zeit die gleichen Krankheiten gehabt. Später machte es ihnen Spaß, das Gleiche anzuziehen und die gleiche Frisur zu haben. Doch jetzt gibt es Probleme, weil beiden dasselbe Mädchen gefällt.
+
+Die beiden sind eineiige Zwillinge. Sie sehen gleich aus, aber sie sind nicht dieselbe Person. Stefan spielt lieber Fußball, Chris liest lieber. Trotzdem verstehen sie sich ohne viele Worte.`
+    },
+    {
+      id: "ocr-schule-bauernhof",
+      titleDe: "Schule auf dem Bauernhof",
+      titleZh: "农场里的学校",
+      levelHint: "B1",
+      source: "《大学德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "教育"],
+      summaryZh: "巴登-符腾堡州的学生在农场进行两周实践，学习喂养、挤奶、田间劳动和农产品销售。",
+      contentDe: `Seit dem Schuljahr 1991/92 steht den Schülern in Baden-Württemberg ein Schul-Bauernhof zur Verfügung. Interessierte Klassen können in vierzehntägigen Kursen das bäuerliche Leben kennenlernen.
+
+Der Grund für diese Einrichtung ist: Die Schüler in den Städten wissen heute kaum etwas darüber, wie unsere tägliche Nahrung entsteht, woher sie kommt und wie ein landwirtschaftlicher Betrieb funktioniert. All dies kann zwar auch in einem Schulbuch erklärt werden, doch bleibt vieles dabei zu abstrakt und theoretisch. Günstiger ist es, wenn die Schüler praktische Erfahrungen machen.
+
+Um dies zu erreichen, werden Schüler auf dem Schulbauernhof in kleineren Gruppen von erfahrenen Landwirten dazu angeleitet, landwirtschaftliche Tätigkeiten zu tun. Sie lernen zum Beispiel die Großviehhaltung kennen, das heißt, sie müssen Kühe füttern und melken und den Stall sauber machen. Auch auf den Feldern arbeiten sie gemeinsam.`
+    },
+    {
+      id: "ocr-mann-aus-eis",
+      titleDe: "Der Mann aus dem Eis",
+      titleZh: "冰人",
+      levelHint: "A2",
+      source: "《德语阅读训练》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "游客在奥地利与意大利边境的雪山上发现一具5300年前的木乃伊，科学家称他“Ötzi”。",
+      contentDe: `Ein 5300 Jahre alter Mann erzählt über die Geschichte des Menschen. Wie das möglich ist? Auf einem Berg an der Grenze zwischen Österreich und Italien haben Touristen eine Mumie im Schnee gefunden.
+
+Wissenschaftler haben den „Mann aus dem Eis“ untersucht und haben festgestellt, dass „Ötzi“ — so nennen sie ihn — vor 5300 Jahren gelebt hat. Er war 1,60 Meter groß, 50 bis 55 Kilo schwer und hatte dunkle Haare.`
+    },
+    {
+      id: "ocr-satelliten",
+      titleDe: "Satelliten",
+      titleZh: "卫星",
+      levelHint: "B1",
+      source: "《大学德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "卫星是绕地球飞行的航天器，用于传输电话、电视和天气预报；其轨道由科学家计算。",
+      contentDe: `Unter Satelliten versteht man in der Raumfahrt Flugkörper, die die Erde umkreisen. Über manche Satelliten werden Telefongespräche und Fernsehsendungen von einem Erdteil zum anderen übertragen. Andere Satelliten können die Wettervorhersage machen. An Bord der Satelliten befinden sich viele Messinstrumente und Funkgeräte, die selbständig arbeiten.
+
+Der Bogen, auf dem sich die Satelliten und Raumschiffe um die Erde bewegen, ist die Umlaufbahn. Die Umlaufbahn wird von Wissenschaftlern ausgerechnet. Sie befindet sich so weit von der Erde entfernt, dass der Satellit sich dort in einem Gleichgewicht zwischen der Anziehungskraft und der Fliehkraft befindet.`
     }
   ],
   phrases: [
@@ -812,7 +1229,43 @@ Die Zahl der ordentlich eingeschriebenen Senioren aber hat sich fast halbiert, v
     { id: "ocr-ph-148", de: "Wo kann ich einen Stadtplan kaufen?", zh: "我在哪里可以买到市区地图？", example: "", exampleZh: "", level: "A2", category: "购物", source: "《最新德语口语手册》OCR" },
     { id: "ocr-ph-149", de: "Wo kann ich eine Tasche bekommen?", zh: "我在哪里可以买到包？", example: "", exampleZh: "", level: "A2", category: "购物", source: "《最新德语口语手册》OCR" },
     { id: "ocr-ph-150", de: "Haben Sie Briefmarken?", zh: "您有邮票吗？", example: "", exampleZh: "", level: "A1", category: "购物", source: "《最新德语口语手册》OCR" },
-    { id: "ocr-ph-151", de: "Haben Sie Ansichtskarten?", zh: "您有风景明信片吗？", example: "", exampleZh: "", level: "A1", category: "购物", source: "《最新德语口语手册》OCR" }
+    { id: "ocr-ph-151", de: "Haben Sie Ansichtskarten?", zh: "您有风景明信片吗？", example: "", exampleZh: "", level: "A1", category: "购物", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-152", de: "Werden Sie schon bedient?", zh: "有人接待您了吗？", example: "", exampleZh: "", level: "A2", category: "购物", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-153", de: "Womit kann ich Ihnen dienen?", zh: "我能为您做什么？", example: "", exampleZh: "", level: "B1", category: "购物", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-154", de: "Heute haben wir ... im Sonderangebot.", zh: "今天我们特价供应……", example: "", exampleZh: "", level: "A2", category: "购物", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-155", de: "Soll ich einpacken?", zh: "需要我包装吗？", example: "", exampleZh: "", level: "A2", category: "购物", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-156", de: "Kann ich mit Scheck bezahlen?", zh: "我可以用支票付款吗？", example: "", exampleZh: "", level: "B1", category: "购物", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-157", de: "Wie ist das Wetter heute?", zh: "今天天气怎么样？", example: "", exampleZh: "", level: "A1", category: "天气", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-158", de: "Was für ein Klima hat Nanjing?", zh: "南京是什么气候？", example: "", exampleZh: "", level: "A2", category: "天气", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-159", de: "Es ist klar und windig.", zh: "天气晴朗，有风。", example: "", exampleZh: "", level: "A2", category: "天气", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-160", de: "Es wird wohl regnen.", zh: "可能要下雨。", example: "", exampleZh: "", level: "A2", category: "天气", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-161", de: "Wir haben in Beijing ein Kontinentalklima.", zh: "北京是大陆性气候。", example: "", exampleZh: "", level: "B1", category: "天气", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-162", de: "Ich möchte diesen Anzug reinigen lassen.", zh: "我想把这套西装送去干洗。", example: "", exampleZh: "", level: "A2", category: "服务", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-163", de: "Wann kann ich ihn abholen?", zh: "我什么时候能来取？", example: "", exampleZh: "", level: "A2", category: "服务", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-164", de: "In zwei Tagen.", zh: "两天后。", example: "", exampleZh: "", level: "A1", category: "时间", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-165", de: "Diese zwei Kleider und einen Rock.", zh: "这两条连衣裙和一条裙子。", example: "", exampleZh: "", level: "A2", category: "服务", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-166", de: "Wann ist es fertig?", zh: "什么时候能好？", example: "", exampleZh: "", level: "A2", category: "服务", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-167", de: "Vorsicht!", zh: "小心！", example: "", exampleZh: "", level: "A1", category: "交通", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-168", de: "Keine Einfahrt!", zh: "禁止驶入！", example: "", exampleZh: "", level: "A1", category: "交通", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-169", de: "Was wird heute Abend gespielt?", zh: "今晚演什么？", example: "", exampleZh: "", level: "A2", category: "娱乐", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-170", de: "Was gibt es heute Abend im Kino?", zh: "今晚电影院放什么？", example: "", exampleZh: "", level: "A2", category: "娱乐", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-171", de: "Wo bekommt man Karten?", zh: "在哪里能买到票？", example: "", exampleZh: "", level: "A2", category: "娱乐", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-172", de: "Gibt es Ermäßigung für Studenten?", zh: "学生有优惠吗？", example: "", exampleZh: "", level: "A2", category: "娱乐", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-173", de: "Guten Morgen, meine Damen und Herren!", zh: "女士们、先生们，早上好！", example: "", exampleZh: "", level: "A2", category: "会议", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-174", de: "Wir gehen jetzt gemeinsam zum Abendessen.", zh: "我们现在一起去吃晚饭。", example: "", exampleZh: "", level: "A2", category: "会议", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-175", de: "Danach sind Sie alle zu einem Tischtennisspiel eingeladen.", zh: "之后邀请大家参加乒乓球比赛。", example: "", exampleZh: "", level: "B1", category: "会议", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-176", de: "Das wäre ausgezeichnet.", zh: "那就太好了。", example: "", exampleZh: "", level: "A2", category: "会议", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-177", de: "Wir sollten einen Vertrag schließen.", zh: "我们应该签一份合同。", example: "", exampleZh: "", level: "B1", category: "会议", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-178", de: "Wollen wir heute Abend zusammen essen?", zh: "我们今晚一起吃饭好吗？", example: "", exampleZh: "", level: "A2", category: "约会", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-179", de: "Ich möchte Sie zum Essen einladen.", zh: "我想请您吃饭。", example: "", exampleZh: "", level: "A2", category: "邀请", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-180", de: "Möchten Sie tanzen gehen?", zh: "您想去跳舞吗？", example: "", exampleZh: "", level: "A2", category: "约会", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-181", de: "Wann treffen wir uns?", zh: "我们什么时候见面？", example: "", exampleZh: "", level: "A1", category: "约会", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-182", de: "Ich hole Sie um acht Uhr ab.", zh: "我八点来接您。", example: "", exampleZh: "", level: "A2", category: "约会", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-ph-183", de: "Schön, euch hier zu treffen.", zh: "很高兴在这里遇到你们。", example: "", exampleZh: "", level: "A2", category: "问候", source: "《标准德语900句》OCR" },
+    { id: "ocr-ph-184", de: "Was haben Sie in den letzten Tagen gemacht?", zh: "您这几天做了什么？", example: "", exampleZh: "", level: "A2", category: "交流", source: "《标准德语900句》OCR" },
+    { id: "ocr-ph-185", de: "Wie gefällt es Ihnen hier?", zh: "您喜欢这里吗？", example: "", exampleZh: "", level: "A2", category: "交流", source: "《标准德语900句》OCR" },
+    { id: "ocr-ph-186", de: "Ich habe eine Reise ans Meer gemacht.", zh: "我去海边旅行了一趟。", example: "", exampleZh: "", level: "A2", category: "旅行", source: "《标准德语900句》OCR" },
+    { id: "ocr-ph-187", de: "Ich lerne Deutsch.", zh: "我在学德语。", example: "", exampleZh: "", level: "A1", category: "交流", source: "《标准德语900句》OCR" }
   ],
   grammar: [
     { id: "ocr-grammar-ch", title: "德语发音：ch 的两种读法", summary: "在 a/o/u/au 后，ch 读作 [x]（如 Buch、acht）；在其他元音后或词首、e/i 前，读作 [ç]（如 ich、Chemie）。", source: "《简明德语语法》OCR" },
@@ -856,7 +1309,22 @@ Die Zahl der ordentlich eingeschriebenen Senioren aber hat sich fast halbiert, v
     { id: "ocr-grammar-man", title: "不定代词 man", summary: "man 泛指“人们/有人”，只用于主语，动词按第三人称单数变位；可表示不确定的施动者、礼貌的一般行为规范，如 Man soll nicht rauchen。", source: "《新编德语语法 第2版》OCR" },
     { id: "ocr-grammar-irgend", title: "不定代词 irgend-", summary: "irgendjemand/irgendwer 表示“某人/任何人”，irgendetwas/irgendwas 表示“某物/任何东西”，irgendein 表示“某一个”，按不定冠词变格。", source: "《新编德语语法 第2版》OCR" },
     { id: "ocr-grammar-final", title: "目的从句 damit / um … zu", summary: "damit 引出目的从句，从句动词置于句末；主从句主语一致时常用 um … zu + 不定式。也可用 zu + 名词或“zum/zur + 名词化动词”表达目的。", source: "《新编德语语法 第2版》OCR" },
-    { id: "ocr-grammar-fuer-gegen", title: "介词 für / gegen", summary: "für + 第四格表示“为了、对于、交换、持续”等；gegen + 第四格表示方向“朝向”、对立“反对”或“对抗”。für 可构成 Tag für Tag 等逐一类表达。", source: "《新编德语语法 第2版》OCR" }
+    { id: "ocr-grammar-fuer-gegen", title: "介词 für / gegen", summary: "für + 第四格表示“为了、对于、交换、持续”等；gegen + 第四格表示方向“朝向”、对立“反对”或“对抗”。für 可构成 Tag für Tag 等逐一类表达。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-an", title: "介词 an", summary: "an + 第三格表示位置“在……旁/上”、时间“在……时”或程度“在……方面”；an + 第四格表示方向“到……旁/上”。固定搭配如 an einer Sache arbeiten、an die Arbeit gehen。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-als-ob", title: "非现实比较 als ob", summary: "als ob 引出非现实比较从句，动词常用第二虚拟式；也可省略 ob，把变位动词放在句首，如 Es kam mir vor, als wäre hier etwas passiert。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-wenn", title: "连词 wenn", summary: "wenn 引出时间从句（当……时、每当）、条件从句（如果）或愿望句（要是……多好）；从句动词置于句末，主句常以 dann/so 呼应。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-nun", title: "小品词 nun", summary: "nun 可表示“现在、这时”，也可在句首作话语标记，表示归纳、转折或引出重要话题；在疑问句中强调说话人想知道的信息。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-interjektion", title: "感叹词 Interjektion", summary: "感叹词表达声音、情绪或动作，如 hatschi（打喷嚏）、piff paff（枪声）、plumps（扑通）；由其他词引申来的叫非纯粹感叹词。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-ei", title: "后缀 -ei 的派生名词", summary: "-ei 派生名词多为阴性，重音在 -ei；与 -er 人称名词结合常表地点（Druckerei），与名词/动词结合常带贬义（Dieberei、Brüllerei）。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-infinitiv-nominal", title: "不定式名词化", summary: "动词不定式首字母大写可作中性名词（das Lesen、das Essen）；带扩展成分时须加 zu，如 das Buch zu lesen。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-durch", title: "介词 durch", summary: "durch + 第四格表示穿过、通过、借助（durch Gewalt、durch den Park）；也可表原因或方式。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-objektsatz", title: "宾语从句 Objektsatz", summary: "宾语从句充当主句谓语的宾语，可代替第四格、第三格或介词宾语；常用 dass、ob、疑问词或关系代词引出，必要时用 es/das 或代副词作相关词。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-soweit", title: "限制从句 soweit", summary: "soweit 引出限制从句，表示“就……而言、只要”；常与主句的 Aussage 相关，说明范围或条件。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-relativsatz", title: "关系从句 Relativsatz", summary: "关系代词（der/die/das、welcher 等）引出关系从句，修饰前面的名词；关系代词格由从句中的作用决定，动词置于句末。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-vorfeld", title: "前场 Vorfeld", summary: "陈述句的变位动词位于第二位，其前为前场；前场可放主语、时间/地点状语、宾语或带成分的短语，用于强调或承接上文。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-substitution", title: "替代词与照应", summary: "替代词（如 einige、welche、das）代替前面提到的泛指名词或名词词组，避免重复；与人称代词/指示代词的特指照应不同。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-sein-fuegung", title: "sein + 形容词/分词", summary: "sein 与形容词或第二分词构成谓语，表示状态或被动结果；可分写的组合如 fertig sein、da sein、beisammen sein 要分写。", source: "《新编德语语法 第2版》OCR" },
+    { id: "ocr-grammar-partizipial", title: "分词作定语", summary: "第一分词（-end）表主动、进行；第二分词表被动、完成。分词短语可扩展为关系从句，如 die steigende Zahl = die Zahl, die steigt。", source: "《新编德语语法 第2版》OCR" }
   ],
   words: [    { id: "ocr-word-1", word: "Tag", article: "der", pos: "noun", translation: "天；白天", level: "A1", plural: "die Tage", source: "《标准德语900句》OCR" },
     { id: "ocr-word-2", word: "Morgen", article: "der", pos: "noun", translation: "早晨", level: "A1", plural: "die Morgen", source: "《标准德语900句》OCR" },
@@ -902,6 +1370,113 @@ Die Zahl der ordentlich eingeschriebenen Senioren aber hat sich fast halbiert, v
     { id: "ocr-word-42", word: "verloren gehen", article: null, pos: "verb", translation: "丢失；遗失", level: "B1", forms: "geht verloren, ging verloren, ist verloren gegangen", example: "Mein Schlüssel ist verloren gegangen.", exampleZh: "我的钥匙丢了。", source: "《德语词汇说文解字》OCR" },
     { id: "ocr-word-43", word: "Stadtplan", article: "der", pos: "noun", translation: "市区地图", level: "A2", plural: "die Stadtpläne", example: "Wo kann ich einen Stadtplan kaufen?", exampleZh: "我在哪里可以买到市区地图？", source: "《最新德语口语手册》OCR" },
     { id: "ocr-word-44", word: "Ansichtskarte", article: "die", pos: "noun", translation: "风景明信片", level: "A2", plural: "die Ansichtskarten", example: "Haben Sie Ansichtskarten?", exampleZh: "您有风景明信片吗？", source: "《最新德语口语手册》OCR" },
-    { id: "ocr-word-45", word: "Ehepaar", article: "das", pos: "noun", translation: "夫妻", level: "A2", plural: "die Ehepaare", example: "Glückwünsche für das neue Ehepaar!", exampleZh: "祝这对新婚夫妇幸福！", source: "《最新德语口语手册》OCR" }
+    { id: "ocr-word-45", word: "Ehepaar", article: "das", pos: "noun", translation: "夫妻", level: "A2", plural: "die Ehepaare", example: "Glückwünsche für das neue Ehepaar!", exampleZh: "祝这对新婚夫妇幸福！", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-word-46", word: "Erbinformation", article: "die", pos: "noun", translation: "遗传信息", level: "B2", plural: "die Erbinformationen", example: "Erbinformationen bestimmen Verhaltensmerkmale mit.", exampleZh: "遗传信息共同决定行为特征。", source: "《德语高级阅读教程》OCR" },
+    { id: "ocr-word-47", word: "Umwelteinfluss", article: "der", pos: "noun", translation: "环境影响", level: "B1", plural: "die Umwelteinflüsse", example: "Umwelteinflüsse erklären die andere Hälfte der Unterschiede.", exampleZh: "环境因素解释了另一半差异。", source: "《德语高级阅读教程》OCR" },
+    { id: "ocr-word-48", word: "Vorbildfunktion", article: "die", pos: "noun", translation: "榜样作用", level: "B2", plural: "die Vorbildfunktionen", example: "Eltern haben eine wichtige Vorbildfunktion.", exampleZh: "父母具有重要的榜样作用。", source: "《德语高级阅读教程》OCR" },
+    { id: "ocr-word-49", word: "Ware", article: "die", pos: "noun", translation: "商品；货物", level: "A2", plural: "die Waren", example: "Die Ware ist heute im Sonderangebot.", exampleZh: "这件商品今天特价。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-50", word: "Preis", article: "der", pos: "noun", translation: "价格；奖项", level: "A1", plural: "die Preise", example: "Der Preis ist zu hoch.", exampleZh: "价格太高了。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-51", word: "schwarz", article: null, pos: "adj", translation: "黑色的", level: "A1", forms: "schwärzer, am schwärzesten", example: "Sie trägt eine schwarze Jacke.", exampleZh: "她穿着一件黑色外套。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-52", word: "dunkel", article: null, pos: "adj", translation: "暗的；深色的", level: "A1", forms: "dunkler, am dunkelsten", example: "Im Zimmer ist es zu dunkel.", exampleZh: "房间里太暗了。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-53", word: "kalt", article: null, pos: "adj", translation: "冷的", level: "A1", forms: "kälter, am kältesten", example: "Im Winter ist es hier sehr kalt.", exampleZh: "这里冬天很冷。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-54", word: "Kälte", article: "die", pos: "noun", translation: "寒冷", level: "A2", plural: "", example: "Die Kälte macht mir nichts aus.", exampleZh: "我不怕冷。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-55", word: "Erkältung", article: "die", pos: "noun", translation: "感冒", level: "A2", plural: "die Erkältungen", example: "Ich habe eine starke Erkältung.", exampleZh: "我得了重感冒。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-56", word: "Vorsicht", article: "die", pos: "noun", translation: "小心；谨慎", level: "A2", plural: "", example: "Vorsicht! Die Straße ist glatt.", exampleZh: "小心！路面很滑。", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-word-57", word: "Einfahrt", article: "die", pos: "noun", translation: "驶入；入口", level: "A2", plural: "die Einfahrten", example: "Keine Einfahrt!", exampleZh: "禁止驶入！", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-word-58", word: "Ermäßigung", article: "die", pos: "noun", translation: "优惠；减价", level: "A2", plural: "die Ermäßigungen", example: "Gibt es Ermäßigung für Studenten?", exampleZh: "学生有优惠吗？", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-word-59", word: "Vertrag", article: "der", pos: "noun", translation: "合同；条约", level: "B1", plural: "die Verträge", example: "Wir sollten einen Vertrag schließen.", exampleZh: "我们应该签一份合同。", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-word-60", word: "Teehaus", article: "das", pos: "noun", translation: "茶馆", level: "A2", plural: "die Teehäuser", example: "Das Teehaus ist am Wochenende geöffnet.", exampleZh: "茶馆周末营业。", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-word-61", word: "Gelände", article: "das", pos: "noun", translation: "场地；地带", level: "B1", plural: "die Gelände", example: "Das Gelände ist für das Teehaus vorgesehen.", exampleZh: "这块场地计划建茶馆。", source: "《最新德语口语手册》OCR" },
+    { id: "ocr-word-62", word: "Bungee-Sprung", article: "der", pos: "noun", translation: "蹦极", level: "B1", plural: "die Bungee-Sprünge", example: "Der Bungee-Sprung ist ein Extremsport.", exampleZh: "蹦极是一项极限运动。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-63", word: "Todesangst", article: "die", pos: "noun", translation: "极度恐惧；濒死恐惧", level: "B2", plural: "die Todesängste", example: "Beim Sprung hatte er Todesangst.", exampleZh: "跳跃时他极度恐惧。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-64", word: "Ritual", article: "das", pos: "noun", translation: "仪式；惯例", level: "B1", plural: "die Rituale", example: "Der Sprung war ursprünglich ein Ritual.", exampleZh: "蹦极最初是一种仪式。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-65", word: "leiden", article: null, pos: "verb", translation: "受苦；患病", level: "A2", forms: "leidet, litt, hat gelitten", example: "Er leidet an einer schweren Krankheit.", exampleZh: "他患重病。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-66", word: "reißen", article: null, pos: "verb", translation: "撕；扯破", level: "A2", forms: "reißt, riss, hat/ist gerissen", example: "Sie reißt das Papier in Stücke.", exampleZh: "她把纸撕成碎片。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-67", word: "schneiden", article: null, pos: "verb", translation: "切；剪", level: "A2", forms: "schneidet, schnitt, hat geschnitten", example: "Er schneidet das Brot.", exampleZh: "他切面包。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-68", word: "streiten", article: null, pos: "verb", translation: "争吵", level: "A2", forms: "streitet, stritt, hat gestritten", example: "Die Kinder streiten sich oft.", exampleZh: "孩子们常常争吵。", source: "《德语词汇巧学妙记》OCR" },
+    { id: "ocr-word-69", word: "Paket", article: "das", pos: "noun", translation: "包裹", level: "A2", plural: "die Pakete", example: "Das Paket liegt unter dem Weihnachtsbaum.", exampleZh: "包裹放在圣诞树下。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-70", word: "Einsamkeit", article: "die", pos: "noun", translation: "孤独", level: "B1", plural: "", example: "Die Einsamkeit kann schwer zu ertragen sein.", exampleZh: "孤独可能很难忍受。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-71", word: "Karpfen", article: "der", pos: "noun", translation: "鲤鱼", level: "A2", plural: "die Karpfen", example: "Zu Weihnachten gibt es Karpfen.", exampleZh: "圣诞节吃鲤鱼。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-72", word: "Gepäck", article: "das", pos: "noun", translation: "行李", level: "A2", plural: "", example: "Das Gepäck wurde als Reisegepäck aufgegeben.", exampleZh: "行李已作为托运行李交运。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-73", word: "Abteil", article: "das", pos: "noun", translation: "车厢隔间", level: "A2", plural: "die Abteile", example: "Sie saß in einem Abteil erster Klasse.", exampleZh: "她坐在头等车厢隔间里。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-74", word: "Illustrierte", article: "die", pos: "noun", translation: "画报", level: "B1", plural: "die Illustrierten", example: "Sie weinte hinter einer Illustrierten.", exampleZh: "她躲在画报后面哭。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-75", word: "Euthanasie", article: "die", pos: "noun", translation: "安乐死", level: "C1", plural: "", example: "Die Diskussion über Euthanasie ist schwierig.", exampleZh: "关于安乐死的讨论很困难。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-76", word: "Verzicht", article: "der", pos: "noun", translation: "放弃；舍弃", level: "B2", plural: "die Verzichte", example: "Der Verzicht auf bestimmte Möglichkeiten ist nötig.", exampleZh: "放弃某些可能性是必要的。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-77", word: "Würde", article: "die", pos: "noun", translation: "尊严", level: "B2", plural: "die Würden", example: "Der Mensch hat eine unantastbare Würde.", exampleZh: "人的尊严不可侵犯。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-78", word: "Behinderung", article: "die", pos: "noun", translation: "残疾；障碍", level: "B2", plural: "die Behinderungen", example: "Menschen mit Behinderung brauchen Unterstützung.", exampleZh: "残疾人需要支持。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-79", word: "Statistik", article: "die", pos: "noun", translation: "统计", level: "B1", plural: "die Statistiken", example: "Die Statistik erfasst behinderte Kinder.", exampleZh: "统计记录了残疾儿童。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-80", word: "Versorgung", article: "die", pos: "noun", translation: "供应；医疗照护", level: "B2", plural: "die Versorgungen", example: "Die ärztliche Versorgung muss besser werden.", exampleZh: "医疗照护必须改善。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-81", word: "Faulheit", article: "die", pos: "noun", translation: "懒惰", level: "A2", plural: "", example: "Faulheit ist der Motor der Welt.", exampleZh: "懒惰是世界运转的动力。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-82", word: "Erfindung", article: "die", pos: "noun", translation: "发明", level: "A2", plural: "die Erfindungen", example: "Die Erfindung der Glühlampe veränderte die Welt.", exampleZh: "电灯的发明改变了世界。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-83", word: "Zweck", article: "der", pos: "noun", translation: "目的；用途", level: "B1", plural: "die Zwecke", example: "Das hat nur einen einzigen Zweck.", exampleZh: "这只有一个目的。", source: "《德语阅读教程 中级》OCR" },
+    { id: "ocr-word-84", word: "Distanz", article: "die", pos: "noun", translation: "距离；疏远", level: "B1", plural: "die Distanzen", example: "Deutsche wirken oft kalt und distanziert.", exampleZh: "德国人常常显得冷淡而疏远。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-85", word: "Vorschrift", article: "die", pos: "noun", translation: "规定；规章", level: "B1", plural: "die Vorschriften", example: "Für alles gibt es Vorschriften.", exampleZh: "凡事都有规定。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-86", word: "Terminkalender", article: "der", pos: "noun", translation: "日程表", level: "A2", plural: "die Terminkalender", example: "Wer will schon eine Freundschaft mit Terminkalender?", exampleZh: "谁想要带日程表的友谊呢？", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-87", word: "Mietvertrag", article: "der", pos: "noun", translation: "租赁合同", level: "B1", plural: "die Mietverträge", example: "Der Mietvertrag regelt die Pflichten beider Seiten.", exampleZh: "租赁合同规定双方的义务。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-88", word: "Wohngemeinschaft", article: "die", pos: "noun", translation: "合租房；合住", level: "A2", plural: "die Wohngemeinschaften", example: "Viele Studenten leben in einer Wohngemeinschaft.", exampleZh: "许多学生住在合租房里。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-89", word: "Initiative", article: "die", pos: "noun", translation: "倡议；主动性", level: "B1", plural: "die Initiativen", example: "Die Initiative bringt Alt und Jung zusammen.", exampleZh: "这项倡议让老人和年轻人走到一起。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-90", word: "Lautstärke", article: "die", pos: "noun", translation: "音量；响度", level: "A2", plural: "die Lautstärken", example: "Das Schlimmste an der Technomusik ist die Lautstärke.", exampleZh: "电子音乐最糟的是音量。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-91", word: "Stahlkonstruktion", article: "die", pos: "noun", translation: "钢结构", level: "B2", plural: "die Stahlkonstruktionen", example: "Er fährt Stahlkonstruktionen quer durch Europa.", exampleZh: "他开着钢结构件横穿欧洲。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-92", word: "Steigung", article: "die", pos: "noun", translation: "上坡；坡度", level: "B1", plural: "die Steigungen", example: "Die Steigungen sind für den Motor zu viel.", exampleZh: "这些坡对发动机来说太陡了。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-93", word: "Pferdestärke", article: "die", pos: "noun", translation: "马力", level: "B1", plural: "die Pferdestärken", example: "Der Wagen hat nur wenige Pferdestärken.", exampleZh: "这辆车只有几马力。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-94", word: "Steuer", article: "das", pos: "noun", translation: "方向盘；舵", level: "A2", plural: "die Steuer", example: "Richard geht ans Steuer.", exampleZh: "Richard 坐到方向盘前。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-95", word: "Fruchtbarkeit", article: "die", pos: "noun", translation: "生育力；肥沃", level: "B2", plural: "", example: "Hasen gelten als Symbole der Fruchtbarkeit.", exampleZh: "兔子被视为生育力的象征。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-96", word: "Manufaktur", article: "die", pos: "noun", translation: "手工工场；制造厂", level: "B2", plural: "die Manufakturen", example: "Schokoladenmanufakturen verbreiteten den Osterhasen.", exampleZh: "巧克力工场让复活节兔子流传开来。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-97", word: "Verbreitung", article: "die", pos: "noun", translation: "传播；分布", level: "B1", plural: "", example: "Bilderbücher sorgten für die Verbreitung der Geschichte.", exampleZh: "图画书使这个故事传播开来。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-98", word: "Zufriedenheit", article: "die", pos: "noun", translation: "满足；满意", level: "B1", plural: "", example: "Er suchte einen Menschen voller Zufriedenheit.", exampleZh: "他在寻找一个完全知足的人。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-99", word: "Hemd", article: "das", pos: "noun", translation: "衬衫", level: "A1", plural: "die Hemden", example: "Er trug das Hemd eines zufriedenen Menschen.", exampleZh: "他穿着一个知足者的衬衫。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-100", word: "Sorge", article: "die", pos: "noun", translation: "担忧；操心", level: "A2", plural: "die Sorgen", example: "Das Regieren machte ihm viele Sorgen.", exampleZh: "治国让他操了很多心。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-101", word: "Rücksichtslosigkeit", article: "die", pos: "noun", translation: "不体谅；肆无忌惮", level: "B2", plural: "die Rücksichtslosigkeiten", example: "Rücksichtslosigkeit im Verkehr gefährdet alle.", exampleZh: "交通中的不体谅危及所有人。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-102", word: "Vernunft", article: "die", pos: "noun", translation: "理性；理智", level: "B2", plural: "", example: "Man appelliert an die Vernunft der Fahrer.", exampleZh: "人们呼吁司机的理性。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-103", word: "Enttäuschung", article: "die", pos: "noun", translation: "失望", level: "B1", plural: "die Enttäuschungen", example: "Dann kam gleich die erste Enttäuschung.", exampleZh: "接着就来了第一个失望。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-104", word: "Veranstaltung", article: "die", pos: "noun", translation: "活动；课程", level: "A2", plural: "die Veranstaltungen", example: "Welche Veranstaltungen soll ich besuchen?", exampleZh: "我该参加哪些课程？", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-105", word: "Stundenplan", article: "der", pos: "noun", translation: "课程表", level: "A1", plural: "die Stundenpläne", example: "Ich fand keinen Stundenplan.", exampleZh: "我没找到课程表。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-106", word: "spalten", article: null, pos: "verb", translation: "分裂；劈开", level: "B2", forms: "spaltet, spaltete, hat gespalten", example: "Die Gesellschaft könnte sich weiter spalten.", exampleZh: "社会可能进一步分裂。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-107", word: "Gebildete", article: "der", pos: "noun", translation: "受过教育的人", level: "B1", plural: "die Gebildeten", example: "Die Gebildeten nutzen neue Medien intensiver.", exampleZh: "受教育者更密集地使用新媒体。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-108", word: "Medium", article: "das", pos: "noun", translation: "媒体；媒介", level: "A2", plural: "die Medien", example: "Neue Medien verändern das Lernen.", exampleZh: "新媒体改变学习方式。", source: "《德语中级阅读教程》OCR" },
+    { id: "ocr-word-109", word: "Geschenk", article: "das", pos: "noun", translation: "礼物", level: "A1", plural: "die Geschenke", example: "Weihnachten ohne Geschenke ist auch schön.", exampleZh: "没有礼物的圣诞节也很好。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-110", word: "Geschwister", article: "die", pos: "noun", translation: "兄弟姐妹", level: "A1", plural: "die Geschwister", example: "Ich habe zwei Geschwister.", exampleZh: "我有两个兄弟姐妹。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-111", word: "Stress", article: "der", pos: "noun", translation: "压力", level: "A2", plural: "", example: "Weihnachten war für mich immer Stress.", exampleZh: "圣诞节对我来说一直很有压力。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-112", word: "Molkerei", article: "die", pos: "noun", translation: "乳品厂", level: "B1", plural: "die Molkereien", example: "Die Molkerei kauft Milch von den Bauern.", exampleZh: "乳品厂从农民那里收购牛奶。", source: "《欧标德语阅读教程 B1》OCR" },
+    { id: "ocr-word-113", word: "Landwirt", article: "der", pos: "noun", translation: "农民；农场主", level: "B1", plural: "die Landwirte", example: "Der Landwirt arbeitet auf dem Feld.", exampleZh: "农民在田里劳作。", source: "《欧标德语阅读教程 B1》OCR" },
+    { id: "ocr-word-114", word: "Ferien", article: "die", pos: "noun", translation: "假期", level: "A2", plural: "die Ferien", example: "Im Sommer haben die Schüler sechs Wochen Ferien.", exampleZh: "夏天学生有六周假期。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-115", word: "Camping", article: "das", pos: "noun", translation: "露营", level: "A2", plural: "", example: "Camping ist eine günstige Art zu reisen.", exampleZh: "露营是一种便宜的旅行方式。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-116", word: "Gütesiegel", article: "das", pos: "noun", translation: "质量标志", level: "B1", plural: "die Gütesiegel", example: "Das Gütesiegel steht für Transparenz.", exampleZh: "这个质量标志代表透明度。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-117", word: "Transparenz", article: "die", pos: "noun", translation: "透明度", level: "B2", plural: "", example: "Das Siegel schafft Transparenz.", exampleZh: "这个标志创造了透明度。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-118", word: "Zertifikat", article: "das", pos: "noun", translation: "证书；认证", level: "B1", plural: "die Zertifikate", example: "Das Zertifikat wird nach klaren Kriterien vergeben.", exampleZh: "证书按明确标准颁发。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-119", word: "Verein", article: "der", pos: "noun", translation: "协会；俱乐部", level: "A2", plural: "die Vereine", example: "Fast jeder vierte Deutsche ist Mitglied eines Sportvereins.", exampleZh: "几乎每四个德国人中就有一个是体育协会成员。", source: "《新编大学德语阅读训练 3-4》OCR" },
+    { id: "ocr-word-120", word: "Mitglied", article: "das", pos: "noun", translation: "成员；会员", level: "A2", plural: "die Mitglieder", example: "Der Verein hat über zwei Millionen Mitglieder.", exampleZh: "这个协会有两百多万会员。", source: "《新编大学德语阅读训练 3-4》OCR" },
+    { id: "ocr-word-121", word: "Transistor", article: "der", pos: "noun", translation: "晶体管", level: "B2", plural: "die Transistoren", example: "Transistoren ersetzten die schweren Röhren.", exampleZh: "晶体管取代了笨重的电子管。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-122", word: "Mikroprozessor", article: "der", pos: "noun", translation: "微处理器", level: "B2", plural: "die Mikroprozessoren", example: "Der Mikroprozessor ist das Herz des Computers.", exampleZh: "微处理器是计算机的心脏。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-123", word: "Heimcomputer", article: "der", pos: "noun", translation: "家用电脑", level: "B1", plural: "die Heimcomputer", example: "1975 kam der erste Heimcomputer-Bausatz auf den Markt.", exampleZh: "1975年第一套家用电脑套件上市。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-124", word: "Geschlechtsorgan", article: "das", pos: "noun", translation: "生殖器官", level: "B2", plural: "die Geschlechtsorgane", example: "Äußere und innere Geschlechtsorgane werden unterschieden.", exampleZh: "生殖器官分为外生殖器和内生殖器。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-125", word: "Harnröhre", article: "die", pos: "noun", translation: "尿道", level: "B2", plural: "die Harnröhren", example: "Die Harnröhre gehört zu den ableitenden Harnwegen.", exampleZh: "尿道属于排尿通道。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-126", word: "Verdauungssystem", article: "das", pos: "noun", translation: "消化系统", level: "B2", plural: "die Verdauungssysteme", example: "Das Verdauungssystem zerlegt die Nahrung.", exampleZh: "消化系统分解食物。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-127", word: "Nervensystem", article: "das", pos: "noun", translation: "神经系统", level: "B2", plural: "die Nervensysteme", example: "Das Nervensystem steuert die Organe.", exampleZh: "神经系统控制器官。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-128", word: "Zwilling", article: "der", pos: "noun", translation: "双胞胎之一", level: "A2", plural: "die Zwillinge", example: "Stefan und Chris sind eineiige Zwillinge.", exampleZh: "Stefan 和 Chris 是同卵双胞胎。", source: "《德语阅读训练》OCR" },
+    { id: "ocr-word-129", word: "Frisur", article: "die", pos: "noun", translation: "发型", level: "A2", plural: "die Frisuren", example: "Sie haben die gleiche Frisur.", exampleZh: "他们发型一样。", source: "《德语阅读训练》OCR" },
+    { id: "ocr-word-130", word: "Bauernhof", article: "der", pos: "noun", translation: "农场", level: "A2", plural: "die Bauernhöfe", example: "Die Klasse besucht einen Bauernhof.", exampleZh: "班级参观一个农场。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-131", word: "Erzeugnis", article: "das", pos: "noun", translation: "产品；农产品", level: "B2", plural: "die Erzeugnisse", example: "Die Schüler verkaufen die Erzeugnisse des Hofs.", exampleZh: "学生们出售农场的产品。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-132", word: "Mumie", article: "die", pos: "noun", translation: "木乃伊", level: "B1", plural: "die Mumien", example: "Touristen fanden eine Mumie im Schnee.", exampleZh: "游客在雪里发现了一具木乃伊。", source: "《德语阅读训练》OCR" },
+    { id: "ocr-word-133", word: "Wissenschaftler", article: "der", pos: "noun", translation: "科学家", level: "A2", plural: "die Wissenschaftler", example: "Wissenschaftler untersuchen die Mumie.", exampleZh: "科学家研究这具木乃伊。", source: "《德语阅读训练》OCR" },
+    { id: "ocr-word-134", word: "Satellit", article: "der", pos: "noun", translation: "卫星", level: "B1", plural: "die Satelliten", example: "Der Satellit umkreist die Erde.", exampleZh: "卫星绕地球飞行。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-135", word: "Umlaufbahn", article: "die", pos: "noun", translation: "轨道", level: "B2", plural: "die Umlaufbahnen", example: "Die Umlaufbahn wird von Wissenschaftlern berechnet.", exampleZh: "轨道由科学家计算。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-136", word: "Getränk", article: "das", pos: "noun", translation: "饮料", level: "A1", plural: "die Getränke", example: "Ein kaltes Getränk tut jetzt gut.", exampleZh: "现在喝杯冷饮很舒服。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-137", word: "Mineralwasser", article: "das", pos: "noun", translation: "矿泉水", level: "A2", plural: "die Mineralwasser", example: "Ich trinke ein Glas Mineralwasser.", exampleZh: "我喝一杯矿泉水。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-138", word: "Kohlensäure", article: "die", pos: "noun", translation: "碳酸", level: "B2", plural: "", example: "Mineralwasser mit oder ohne Kohlensäure?", exampleZh: "矿泉水要带气还是不带气？", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-139", word: "Saft", article: "der", pos: "noun", translation: "果汁", level: "A1", plural: "die Säfte", example: "Der Apfelsaft ist frisch gepresst.", exampleZh: "苹果汁是鲜榨的。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-140", word: "Limonade", article: "die", pos: "noun", translation: "汽水；柠檬水", level: "A2", plural: "die Limonaden", example: "Die Kinder trinken süße Limonade.", exampleZh: "孩子们喝甜汽水。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-141", word: "ankommen", article: null, pos: "verb", translation: "到达；取决于", level: "A2", forms: "kommt an, kam an, ist angekommen", example: "Der Zug kommt um acht Uhr an.", exampleZh: "火车八点到。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-142", word: "entscheiden", article: null, pos: "verb", translation: "决定", level: "A2", forms: "entscheidet, entschied, hat entschieden", example: "Wir müssen uns heute entscheiden.", exampleZh: "我们今天必须决定。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-143", word: "sich entschließen", article: null, pos: "verb", translation: "下决心", level: "B1", forms: "entschließt sich, entschloss sich, hat sich entschlossen", example: "Sie entschloss sich zu einem Studium.", exampleZh: "她下决心上大学。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-144", word: "Rat", article: "der", pos: "noun", translation: "建议；忠告", level: "A2", plural: "die Ratschläge", example: "Er fragt seinen Lehrer um Rat.", exampleZh: "他向老师请教。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-145", word: "volljährig", article: null, pos: "adj", translation: "成年的", level: "B1", forms: "", example: "Mit 18 Jahren ist man in Deutschland volljährig.", exampleZh: "在德国18岁成年。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-146", word: "Altenheim", article: "das", pos: "noun", translation: "养老院", level: "B1", plural: "die Altenheime", example: "Sie lebt in einem Altenheim.", exampleZh: "她住在养老院。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-147", word: "erledigen", article: null, pos: "verb", translation: "完成；处理", level: "A2", forms: "erledigt, erledigte, hat erledigt", example: "Ich muss heute noch zwei Aufgaben erledigen.", exampleZh: "我今天还得完成两项任务。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-148", word: "Feierabend", article: "der", pos: "noun", translation: "下班；收工", level: "A2", plural: "die Feierabende", example: "Um fünf Uhr ist Feierabend.", exampleZh: "五点下班。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-149", word: "Überstunde", article: "die", pos: "noun", translation: "加班小时", level: "B1", plural: "die Überstunden", example: "Er macht jede Woche Überstunden.", exampleZh: "他每周都加班。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-150", word: "Urlaub", article: "der", pos: "noun", translation: "假期；休假", level: "A1", plural: "die Urlaube", example: "Wir machen Urlaub in Spanien.", exampleZh: "我们在西班牙度假。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-151", word: "Drama", article: "das", pos: "noun", translation: "戏剧", level: "B1", plural: "die Dramen", example: "Das Drama wird im Theater aufgeführt.", exampleZh: "这部戏剧在剧院上演。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-152", word: "Orchester", article: "das", pos: "noun", translation: "管弦乐队", level: "B1", plural: "die Orchester", example: "Das Orchester spielt heute Abend.", exampleZh: "管弦乐队今晚演出。", source: "《德语词汇联想与速记》OCR" }
   ]
 };

@@ -247,7 +247,7 @@ function defaultSettings() {
 function freshState() {
   return {
     version: 2,
-    schemaVersion: 3,
+    schemaVersion: 4,
     settings: defaultSettings(),
     reviews: {},
     customWords: [],
@@ -261,6 +261,8 @@ function freshState() {
     mistakeTypes: {},
     quizBest: 0,
     grammar: { seen: [], correct: [] },
+    readArticles: [],
+    progressByLevel: { A1: { correct: 0, total: 0 }, A2: { correct: 0, total: 0 }, B1: { correct: 0, total: 0 }, B2: { correct: 0, total: 0 }, C1: { correct: 0, total: 0 }, C2: { correct: 0, total: 0 } },
     meta: { demo: false, createdAt: new Date().toISOString() }
   };
 }
@@ -382,7 +384,7 @@ function normalizeState(raw) {
   return {
     ...base,
     ...raw,
-    schemaVersion: 3,
+    schemaVersion: 4,
     settings: { ...base.settings, ...(raw.settings || {}) },
     reviews,
     customWords: Array.isArray(raw.customWords) ? raw.customWords : [],
@@ -397,6 +399,14 @@ function normalizeState(raw) {
     grammar: {
       ...base.grammar,
       ...(raw.grammar && typeof raw.grammar === "object" ? raw.grammar : {})
+    },
+    readArticles: Array.isArray(raw.readArticles) ? [...new Set(raw.readArticles.filter(Boolean))] : [],
+    progressByLevel: {
+      ...base.progressByLevel,
+      ...Object.fromEntries(Object.entries(raw.progressByLevel && typeof raw.progressByLevel === "object" ? raw.progressByLevel : {}).map(([level, value]) => [
+        level,
+        { correct: Number(value?.correct) || 0, total: Number(value?.total) || 0 }
+      ]))
     },
     meta: { ...base.meta, ...(raw.meta || {}) }
   };
@@ -415,14 +425,23 @@ function loadState() {
       return fresh;
     }
     const parsed = JSON.parse(saved);
-    if ((Number(parsed.schemaVersion) || 0) < 3) {
+    if ((Number(parsed.schemaVersion) || 0) < 4) {
       try {
         localStorage.setItem(`${STORAGE_KEY}.backup`, saved);
       } catch {
         /* backup is best effort */
       }
     }
-    return normalizeState(parsed);
+    const normalized = normalizeState(parsed);
+    // 结构升级后立即写回，旧字段迁移到 schemaVersion 4，原数据仍保留在 .backup。
+    if ((Number(parsed.schemaVersion) || 0) < 4) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized));
+      } catch {
+        /* storage quota: keep in-memory normalized state */
+      }
+    }
+    return normalized;
   } catch {
     return freshState();
   }
@@ -543,7 +562,8 @@ function normalizeWordRecord(word) {
   word.zh = word.zh || word.translation;
   word.exampleDe = word.exampleDe || word.example || "";
   word.exampleZh = word.exampleZh || "";
-  word.levels = Array.isArray(word.levels) ? word.levels : [word.level || "A1"];
+  word.level = normalizeCefrLevel(word.level);
+  word.levels = Array.isArray(word.levels) ? word.levels.map(normalizeCefrLevel) : [word.level || "A1"];
   if (word.confidence === undefined) {
     const source = String(word.source || word.book || "");
     word.confidence = source.includes("新求精") || source.includes("教材") ? 0.9 : source.includes("Goethe") || source.includes("歌德") ? 0.8 : 0.6;
@@ -677,6 +697,34 @@ function searchFormsFor(word) {
   add(word.participleII);
   add(word.example);
   add(word.exampleZh);
+
+  // 名词：补格变化与复数变体，便于用 dem/des/den 形式搜索。
+  const noun = String(word.word || word.de || "").replace(/^(der|die|das)\s+/i, "").trim();
+  if (word.pos === "noun" && noun) {
+    const plural = String(word.plural || word.pluralForm || "").replace(/^(der|die|das)\s+/i, "").trim();
+    const article = String(word.article || "").toLowerCase();
+    const genitive = /(s|ß|z|x|ch)$/i.test(noun) ? `${noun}es` : `${noun}s`;
+    forms.add(`${noun}es`);
+    forms.add(`${noun}s`);
+    forms.add(`${noun}e`);
+    forms.add(`${noun}en`);
+    forms.add(`${noun}n`);
+    if (plural) {
+      forms.add(plural);
+      forms.add(`${plural}n`);
+      forms.add(plural.replace(/e$/, "en"));
+    }
+    if (article === "der" || article === "das") forms.add(`des ${genitive}`);
+    if (article === "der") forms.add(`dem ${noun}`);
+    if (plural) forms.add(`den ${plural.replace(/n$/, "")}n`);
+  }
+
+  // 形容词：补 -er/-e/-es/-en/-em 词尾，支持“形容词 + 名词”片段检索。
+  if (word.pos === "adj") {
+    const stem = String(word.word || "").trim();
+    if (stem) for (const ending of ["e", "er", "es", "en", "em"]) forms.add(`${stem}${ending}`);
+  }
+
   return [...forms].map(foldSearch).filter(Boolean);
 }
 
@@ -698,19 +746,39 @@ function levenshtein(a, b) {
   return previous[b.length];
 }
 
-function matchesWordSearch(word, rawQuery) {
+/**
+ * 返回 0 表示不匹配；分数越高越接近用户意图。
+ * 精准词头 > 词头前缀 > 变形/复数 > 释义/例句 > 模糊拼写。
+ */
+function scoreWordSearch(word, rawQuery) {
   const terms = foldSearch(rawQuery).split(/\s+/).filter(Boolean);
-  if (!terms.length) return true;
+  if (!terms.length) return 1;
+  const headwords = [word.word, word.de]
+    .map(value => foldSearch(String(value || "").replace(/^(der|die|das|sich)\s+/i, "")))
+    .filter(Boolean);
   const haystack = searchIndex.get(word.id) || "";
-  const tokens = haystack.split(/\s+/);
-  return terms.every(term => {
-    if (haystack.includes(term)) return true;
-    return tokens.some(token => {
-      if (!token) return false;
-      if (token.startsWith(term) || term.startsWith(token)) return true;
-      return term.length >= 5 && token.length >= 5 && levenshtein(token, term) <= 1;
-    });
-  });
+  const tokens = haystack.split(/\s+/).filter(Boolean);
+  if (!haystack) return 0;
+
+  let score = 0;
+  for (const term of terms) {
+    let termScore = 0;
+    if (headwords.includes(term)) termScore = 130;
+    else if (tokens.includes(term)) termScore = 112;
+    else if (headwords.some(headword => headword.startsWith(term) || term.startsWith(headword))) termScore = 100;
+    else if (haystack.includes(term)) termScore = 60;
+    else if (term.length >= 4 && tokens.some(token => token.startsWith(term))) termScore = 55;
+    else if (term.length >= 5 && tokens.some(token => token.length >= 5 && levenshtein(token, term) <= 1)) termScore = 40;
+    else if (term.length >= 3 && tokens.some(token => token.length > term.length + 2 && token.includes(term))) termScore = 25;
+    if (!termScore) return 0;
+    score += termScore;
+  }
+  if (word.level) score += { A1: 6, A2: 5, B1: 4, B2: 3, C1: 2, C2: 1 }[word.level] || 0;
+  return score;
+}
+
+function matchesWordSearch(word, rawQuery) {
+  return scoreWordSearch(word, rawQuery) > 0;
 }
 
 function allWords() {
@@ -882,9 +950,10 @@ function sortByDue(a, b) {
   return (ra?.due ?? ra?.nextReviewDate ?? 0) - (rb?.due ?? rb?.nextReviewDate ?? 0);
 }
 
-function buildQueue(mode = "daily", topicId = null, limit = 12, wordId = null) {
+function buildQueue(mode = "daily", topicId = null, limit = 12, wordId = null, level = "all") {
   const now = Date.now();
   let pool = allWords();
+  if (level && level !== "all") pool = pool.filter(word => normalizeCefrLevel(word.level) === normalizeCefrLevel(level));
   if (topicId) pool = pool.filter(word => word.topic === topicId);
 
   if (wordId) {
@@ -937,7 +1006,7 @@ const VIEW_LABELS = {
   reading: "文章阅读",
   phrases: "短语积累",
   words: "单词积累",
-  grammar: "语法地图",
+  grammar: "语法学习",
   quiz: "题库测验",
   stats: "学习进度",
   study: "学习卡片"
@@ -1758,11 +1827,11 @@ function renderWordOfDay() {
 
 /* ─────────────────────────── Study session ─────────────────────────── */
 
-function startStudy({ mode = "daily", topicId = null, limit = null, wordId = null } = {}) {
+function startStudy({ mode = "daily", topicId = null, limit = null, wordId = null, level = "all" } = {}) {
   const dailyCap = Math.max(5, Math.min(100, Number(state.settings.dailyGoal) || 20));
   const requestedLimit = Number(limit) || 12;
   const effectiveLimit = wordId || mode === "repeat" ? requestedLimit : Math.min(requestedLimit, dailyCap);
-  const queue = buildQueue(mode, topicId, effectiveLimit, wordId);
+  const queue = buildQueue(mode, topicId, effectiveLimit, wordId, level);
   if (!queue.length) {
     if (mode === "new") showToast("所有词都学过了，去复习一组吧。");
     else if (mode === "review") showToast("今天没有到期卡片，试试新词。");
@@ -1784,6 +1853,7 @@ function startStudy({ mode = "daily", topicId = null, limit = null, wordId = nul
     start: Date.now(),
     mode,
     topicId,
+    level,
     limit: effectiveLimit,
     transitioning: false,
     finished: false,
@@ -1797,7 +1867,7 @@ function startStudy({ mode = "daily", topicId = null, limit = null, wordId = nul
     : topicId
       ? getTopic(topicId).name
       : mode === "new"
-        ? "认识新词"
+        ? (level && level !== "all" ? `${level} 新词` : "认识新词")
         : mode === "weak"
           ? "重点复习"
           : "今日复习";
@@ -2252,6 +2322,49 @@ function exitStudy() {
 /* ─────────────────────────── Reading / phrases ─────────────────────────── */
 
 const CEFR_ORDER = ["C2", "C1", "B2", "B1", "A2", "A1"];
+const CEFR_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
+
+function normalizeCefrLevel(level) {
+  const value = String(level || "").toUpperCase();
+  if (CEFR_LEVELS.includes(value)) return value;
+  if (/C1\s*\/\s*C2|C2/.test(value)) return "C2";
+  if (/C1/.test(value)) return "C1";
+  if (/B2/.test(value)) return "B2";
+  if (/B1/.test(value)) return "B1";
+  if (/A2/.test(value)) return "A2";
+  return "A1";
+}
+
+function levelStats(level) {
+  const key = normalizeCefrLevel(level);
+  const raw = state.progressByLevel?.[key] || {};
+  const correct = Math.max(0, Number(raw.correct) || 0);
+  const total = Math.max(0, Number(raw.total) || 0);
+  return { correct, total, accuracy: total ? Math.round((correct / total) * 100) : 0 };
+}
+
+function nextCefrLevel(level) {
+  const index = CEFR_LEVELS.indexOf(normalizeCefrLevel(level));
+  return index >= 0 && index < CEFR_LEVELS.length - 1 ? CEFR_LEVELS[index + 1] : "";
+}
+
+function recordLevelAnswer(level, isCorrect) {
+  const key = normalizeCefrLevel(level);
+  if (!state.progressByLevel || typeof state.progressByLevel !== "object") state.progressByLevel = {};
+  const current = state.progressByLevel[key] || { correct: 0, total: 0 };
+  state.progressByLevel[key] = {
+    correct: (Number(current.correct) || 0) + (isCorrect ? 1 : 0),
+    total: (Number(current.total) || 0) + 1
+  };
+}
+
+function levelRecommendation(level) {
+  const key = normalizeCefrLevel(level);
+  const stats = levelStats(key);
+  const next = nextCefrLevel(key);
+  if (!next || stats.total < 10 || stats.accuracy <= 90) return "";
+  return `你在 ${key} 的正确率是 ${stats.accuracy}%（${stats.correct}/${stats.total}），可以进入 ${next} 了。`;
+}
 
 function allPhrases() {
   return [...PHRASES, ...(OCR_CONTENT.phrases || []), ...(state.customPhrases || [])];
@@ -2297,14 +2410,21 @@ function gradeArticle(article) {
   }
   const shares = {};
   for (const level of Object.keys(counts)) shares[level] = recognized ? counts[level] / recognized : 0;
-  let level = article.levelHint || "A1";
+  const CEFR_THRESHOLD = 0.1;
+  let level = "A1";
+  let matchedShare = 0;
   for (const candidate of CEFR_ORDER) {
-    if ((shares[candidate] || 0) > 0.1) {
+    if ((shares[candidate] || 0) > CEFR_THRESHOLD) {
       level = candidate;
+      matchedShare = shares[candidate];
       break;
     }
   }
-  return { level, shares, recognized, total: tokens.length };
+  if (!recognized && article.levelHint) {
+    level = article.levelHint;
+    matchedShare = 0;
+  }
+  return { level, shares, recognized, total: tokens.length, unknown: tokens.length - recognized, matchedShare, threshold: CEFR_THRESHOLD };
 }
 
 function renderReading() {
@@ -2313,14 +2433,19 @@ function renderReading() {
   if (!list) return;
   reader?.classList.add("hidden");
   list.classList.remove("hidden");
+  $("#view-reading .page-heading")?.classList.remove("hidden");
   $("#reading-count").textContent = allArticles().length;
+  const readCount = Array.isArray(state.readArticles) ? state.readArticles.length : 0;
+  const readLabel = $("#reading-read");
+  if (readLabel) readLabel.textContent = `已读 ${readCount} 篇 · CEFR 自动分级`;
   list.innerHTML = allArticles().map(article => {
     const grade = gradeArticle(article);
+    const isRead = Array.isArray(state.readArticles) && state.readArticles.includes(article.id);
     return `
-      <button class="reading-card" data-article-id="${esc(article.id)}">
+      <button class="reading-card ${isRead ? "is-read" : ""}" data-article-id="${esc(article.id)}">
         <div class="reading-card-top">
           <span class="level-chip">${esc(grade.level)}</span>
-          <span>${esc(article.tags?.join(" · ") || "Lesetext")}</span>
+          <span>${esc(article.tags?.join(" · ") || "Lesetext")}${isRead ? " · 已读" : ""}</span>
         </div>
         <h2>${esc(article.titleDe)}</h2>
         <p class="reading-title-zh">${esc(article.titleZh)}</p>
@@ -2331,20 +2456,32 @@ function renderReading() {
   }).join("");
 }
 
+function markArticleRead(id) {
+  if (!Array.isArray(state.readArticles)) state.readArticles = [];
+  if (state.readArticles.includes(id)) return;
+  state.readArticles.push(id);
+  persist();
+  const readLabel = $("#reading-read");
+  if (readLabel) readLabel.textContent = `已读 ${state.readArticles.length} 篇 · CEFR 自动分级`;
+}
+
 function openArticle(id) {
   const article = allArticles().find(item => item.id === id);
   if (!article) return;
   readingArticleId = id;
+  markArticleRead(id);
   const grade = gradeArticle(article);
   $("#reading-list")?.classList.add("hidden");
+  $("#view-reading .page-heading")?.classList.add("hidden");
   const reader = $("#article-reader");
   if (!reader) return;
   reader.classList.remove("hidden");
   $("#article-level").textContent = grade.level;
-  $("#article-kicker").textContent = `LESETEXT · ${grade.level} · ${Math.round(grade.shares[grade.level] * 100)}% ${grade.level}-Wortanteil`;
+  const dominant = Math.round((grade.shares[grade.level] || 0) * 100);
+  $("#article-kicker").textContent = `LESETEXT · ${grade.level} · ${dominant}% ${grade.level}-Wortanteil`;
   $("#article-title").textContent = article.titleDe;
   $("#article-subtitle").textContent = `${article.titleZh} · ${article.tags?.join(" · ") || ""}`;
-  $("#article-meta").innerHTML = `<span>${esc(article.source)}</span><span>${article.contentDe.split(/\s+/).length} 词</span><span>${Math.round(grade.recognized / Math.max(1, grade.total) * 100)}% 词表覆盖</span>`;
+  $("#article-meta").innerHTML = `<span>${esc(article.source)}</span><span>${article.contentDe.split(/\s+/).length} 词</span><span>${Math.round(grade.recognized / Math.max(1, grade.total) * 100)}% 词表覆盖</span><span>${grade.total - grade.recognized} 个词未收录</span>`;
   const translationHtml = ARTICLE_TRANSLATIONS[article.id]
     ? `<section class="article-translation">
          <div class="article-translation-head"><strong>AI 中文译文</strong><span>仅供学习参考</span></div>
@@ -2361,7 +2498,22 @@ function openArticle(id) {
     ? `<div class="article-quiz-row"><button class="btn btn-primary" data-action="article-quiz" data-article-id="${esc(article.id)}">读后练习 · ${questions.length} 题</button></div>`
     : "";
   $("#article-body").insertAdjacentHTML("afterend", quizButton);
+  try {
+    history.replaceState(null, "", `#artikel/${encodeURIComponent(article.id)}`);
+  } catch {
+    /* file:// or embedded webview may reject history changes */
+  }
   window.scrollTo({ top: 0, behavior: "auto" });
+}
+
+function articleFromHash() {
+  const match = String(location.hash || "").match(/^#artikel\/(.+)$/);
+  if (!match) return "";
+  try {
+    return decodeURIComponent(match[1]);
+  } catch {
+    return "";
+  }
 }
 
 function renderPhrases() {
@@ -2408,24 +2560,42 @@ function phraseQuestionBank(category = "all", level = "all", type = "mixed") {
 }
 
 function articleQuestionBank(level = "all") {
-  return allArticles()
+  const articles = allArticles();
+  return articles
     .filter(article => level === "all" || gradeArticle(article).level === level)
-    .flatMap(article => (ARTICLE_QUESTIONS[article.id] || []).map((question, index) => {
-      const options = shuffle(question.options.map((text, optionIndex) => ({ text, correct: optionIndex === question.answer })));
-      return {
+    .flatMap(article => {
+      const specific = ARTICLE_QUESTIONS[article.id] || [];
+      if (specific.length) {
+        return specific.map((question, index) => {
+          const options = shuffle(question.options.map((text, optionIndex) => ({ text, correct: optionIndex === question.answer })));
+          return {
+            mode: "de-zh",
+            word: { id: `${article.id}-q${index}`, word: question.q, translation: question.options[question.answer], level: gradeArticle(article).level, article: "" },
+            options,
+            correctIndex: options.findIndex(option => option.correct),
+            explanation: question.explain
+          };
+        });
+      }
+      // 没有手工题的文章自动生成一道主旨题，保证每篇文章都能进入题库。
+      const distractors = shuffle(articles.filter(other => other.id !== article.id && other.titleZh))
+        .slice(0, 3)
+        .map(other => other.titleZh);
+      const options = shuffle([article.titleZh, ...distractors].map(text => ({ text, correct: text === article.titleZh })));
+      return [{
         mode: "de-zh",
-        word: { id: `${article.id}-q${index}`, word: question.q, translation: question.options[question.answer], level: gradeArticle(article).level, article: "" },
+        word: { id: `${article.id}-auto`, word: article.titleDe, translation: article.titleZh, level: gradeArticle(article).level, article: "" },
         options,
         correctIndex: options.findIndex(option => option.correct),
-        explanation: question.explain
-      };
-    }));
+        explanation: `《${article.titleDe}》的主题是「${article.titleZh}」。${article.summaryZh || ""}`
+      }];
+    });
 }
 
 function grammarQuestionBank(level = "all", type = "mixed") {
   const topics = (typeof GRAMMAR_TOPICS !== "undefined" ? GRAMMAR_TOPICS : [])
     .filter(topic => level === "all" || topic.level === level);
-  return topics.flatMap(topic => (topic.exercises || []).map((exercise, index) => {
+  const questions = topics.flatMap(topic => (topic.exercises || []).map((exercise, index) => {
     const options = shuffle(exercise.options.map((text, optionIndex) => ({ text, correct: optionIndex === exercise.answer })));
     return {
       mode: "de-zh",
@@ -2435,6 +2605,21 @@ function grammarQuestionBank(level = "all", type = "mixed") {
       explanation: exercise.explain
     };
   }));
+  // OCR 语法卡没有手写练习时，自动生成“标题—说明”匹配题。
+  const ocrCards = (OCR_CONTENT.grammar || []).filter(card => level === "all" || (card.level || "B1") === level);
+  for (const card of ocrCards) {
+    const others = shuffle((OCR_CONTENT.grammar || []).filter(other => other.id !== card.id && other.summary)).slice(0, 3);
+    if (!card.summary || others.length < 3) continue;
+    const options = shuffle([card, ...others].map(item => ({ text: item.summary, correct: item.id === card.id })));
+    questions.push({
+      mode: "de-zh",
+      word: { id: `${card.id}-auto`, word: card.title, translation: card.summary, level: card.level || "B1", article: "" },
+      options,
+      correctIndex: options.findIndex(option => option.correct),
+      explanation: `${card.title}：${card.summary}`
+    });
+  }
+  return questions;
 }
 
 
@@ -2446,15 +2631,20 @@ function currentStatus(word) {
 
 function filteredWords() {
   const query = libraryFilters.query.trim();
-  let words = allWords().filter(word => {
-    if (libraryFilters.level !== "all" && word.level !== libraryFilters.level) return false;
-    if (libraryFilters.status !== "all" && currentStatus(word) !== libraryFilters.status) return false;
-    if (!query) return true;
-    return matchesWordSearch(word, query);
-  });
+  let words = allWords()
+    .map(word => {
+      if (libraryFilters.level !== "all" && word.level !== libraryFilters.level) return null;
+      if (libraryFilters.status !== "all" && currentStatus(word) !== libraryFilters.status) return null;
+      const score = query ? scoreWordSearch(word, query) : 1;
+      if (!score) return null;
+      return { word, score };
+    })
+    .filter(Boolean)
+    .sort((a, b) => query ? b.score - a.score || a.word.word.localeCompare(b.word.word, "de") : 0)
+    .map(item => item.word);
 
   if (libraryFilters.sort === "level") {
-    const order = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5 };
+    const order = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
     words = words.slice().sort((a, b) => (order[a.level] || 9) - (order[b.level] || 9) || a.word.localeCompare(b.word, "de"));
   } else if (libraryFilters.sort === "due") {
     words = words.slice().sort((a, b) => {
@@ -2470,12 +2660,40 @@ function filteredWords() {
   return words;
 }
 
+function renderLevelProgress() {
+  const container = $("#level-progress");
+  if (!container) return;
+  const active = libraryFilters.level;
+  const rows = CEFR_LEVELS.map(level => {
+    const stats = levelStats(level);
+    const isActive = active === level;
+    return `
+      <button class="level-progress-row ${isActive ? "is-active" : ""}" data-progress-level="${level}" aria-label="查看 ${level} 单词">
+        <span class="level-progress-name">${level}</span>
+        <span class="level-progress-bar"><i style="width:${stats.total ? stats.accuracy : 0}%"></i></span>
+        <span class="level-progress-value">${stats.total ? `${stats.accuracy}%` : "—"}</span>
+        <small>${stats.total} 题</small>
+      </button>
+    `;
+  }).join("");
+  const recommendations = CEFR_LEVELS.map(levelRecommendation).filter(Boolean);
+  container.innerHTML = `
+    <div class="level-progress-head">
+      <div><strong>难度进阶</strong><span>作答正确率按等级独立记录；同一等级超过 90% 自动推荐下一级。</span></div>
+      <span class="level-progress-tip">${active === "all" ? "选择等级后可直接背诵" : `当前筛选：${active}`}</span>
+    </div>
+    <div class="level-progress-grid">${rows}</div>
+    ${recommendations.length ? `<p class="level-recommend">${icon("spark")} ${esc(recommendations[0])}</p>` : `<p class="level-recommend is-muted">先完成至少 10 题，系统会在这里给出进阶建议。</p>`}
+  `;
+}
+
 function renderLibrary() {
   const metrics = getMetrics();
   $("#library-total").textContent = metrics.total;
   $("#library-mastered").textContent = metrics.mastered;
   $("#library-learning").textContent = metrics.learning;
   $("#library-new").textContent = metrics.fresh;
+  renderLevelProgress();
 
   const searchInput = $("#library-search");
   if (searchInput && document.activeElement !== searchInput) searchInput.value = libraryFilters.query;
@@ -3384,15 +3602,16 @@ function answerQuiz(index) {
 
   quiz.answered = true;
   const isCorrect = Boolean(chosen.correct);
+  recordLevelAnswer(question.word.level, isCorrect);
   if (isCorrect) {
     quiz.score += 1;
   } else {
     if (getWord(question.word.id)) {
       state.mistakes[question.word.id] = (state.mistakes[question.word.id] || 0) + 1;
       state.mistakeTypes[question.word.id] = question.mode || quiz.mode || "quiz";
-      persist();
     }
   }
+  persist();
   quiz.answers.push({
     word: question.word,
     chosen: chosen.text,
@@ -3486,6 +3705,9 @@ function finishQuiz() {
         : "第一次测验只是起点。先记住错题里的画面，再来一次。";
   $("#result-title").textContent = title;
   $("#result-copy").textContent = copy;
+  const answeredLevels = [...new Set(quiz.answers.map(answer => normalizeCefrLevel(answer.word.level)))];
+  const recommendation = answeredLevels.map(levelRecommendation).find(Boolean);
+  if (recommendation) $("#result-copy").textContent = `${copy} ${recommendation}`;
 
   $("#result-review").innerHTML = quiz.answers.length
     ? quiz.answers.map(answer => `
@@ -3809,7 +4031,7 @@ function openSettingsModal() {
         <div><strong>图书馆德语资源</strong><small>同济大学图书馆官方德语资源入口</small></div>
         <button class="btn btn-ghost" data-modal-action="open-library-resources">查看</button>
       </div>
-      <p class="settings-local-note">数据仅保存在当前浏览器 localStorage，默认不上传；可在下方导出备份。</p>
+      <p class="settings-local-note">学习记录保存在当前浏览器 localStorage（数据结构 v${Number(state.schemaVersion) || 4}，约 ${Math.max(1, Math.round(JSON.stringify(state).length / 1024))} KB）；代码更新不会覆盖它。建议定期导出备份。</p>
     </div>
     <div class="settings-danger">
       <strong>备份与重置</strong>
@@ -3980,21 +4202,25 @@ async function importContentFile(file) {
 }
 
 function exportState() {
-  const payload = {
-    ...state,
-    exportedAt: new Date().toISOString(),
-    app: "Wortkarte"
-  };
-  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = `wortkarte-${dayKey()}.json`;
-  document.body.appendChild(link);
-  link.click();
-  link.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1200);
-  showToast("备份文件已开始下载。");
+  try {
+    const payload = {
+      ...state,
+      exportedAt: new Date().toISOString(),
+      app: "Wortkarte"
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `wortkarte-${dayKey()}.json`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1200);
+    showToast("备份文件已开始下载。");
+  } catch {
+    showToast("导出失败：浏览器不允许下载或存储空间不足。");
+  }
 }
 
 function importStateFile(file) {
@@ -4005,6 +4231,11 @@ function importStateFile(file) {
       const parsed = JSON.parse(String(reader.result));
       if (!parsed || typeof parsed !== "object" || !parsed.reviews || !parsed.settings) {
         throw new Error("invalid");
+      }
+      try {
+        localStorage.setItem(`${STORAGE_KEY}.pre-import`, JSON.stringify(state));
+      } catch {
+        /* 保留导入前快照是尽力而为；即使空间不足也继续导入。 */
       }
       state = normalizeState(parsed);
       refreshWordIndex();
@@ -4017,6 +4248,7 @@ function importStateFile(file) {
       showToast("无法读取这个备份文件，请检查格式。");
     }
   };
+  reader.onerror = () => showToast("读取备份文件失败，请重试。");
   reader.readAsText(file);
 }
 
@@ -4077,6 +4309,11 @@ function handleAction(action, element) {
       break;
     case "close-article":
       renderReading();
+      try {
+        history.replaceState(null, "", "#lesen");
+      } catch {
+        /* ignore embedded webview */
+      }
       break;
     case "article-quiz": {
       const article = allArticles().find(item => item.id === element.dataset.articleId);
@@ -4124,6 +4361,11 @@ function handleAction(action, element) {
     case "speak-quiz":
       if (quiz.questions[quiz.index]) speakText(wordDisplay(quiz.questions[quiz.index].word), element);
       break;
+    case "study-level": {
+      const level = libraryFilters.level === "all" ? "A1" : libraryFilters.level;
+      startStudy({ mode: "new", level, limit: 20 });
+      break;
+    }
     case "clear-filters":
       libraryFilters.query = "";
       libraryFilters.level = "all";
@@ -4197,6 +4439,15 @@ function bindEvents() {
     const quizOption = event.target.closest("[data-quiz-option]");
     if (quizOption && !quizOption.disabled) {
       answerQuiz(Number(quizOption.dataset.quizOption));
+      return;
+    }
+
+    const progressLevel = event.target.closest("[data-progress-level]");
+    if (progressLevel) {
+      const level = progressLevel.dataset.progressLevel;
+      libraryFilters.level = libraryFilters.level === level ? "all" : level;
+      libraryVisibleLimit = 80;
+      renderLibrary();
       return;
     }
 
@@ -4536,6 +4787,14 @@ function init() {
   bindEvents();
   renderAll();
   resetQuizSetup();
+  const deepArticle = articleFromHash();
+  if (deepArticle) {
+    navigate("reading");
+    openArticle(deepArticle);
+  } else {
+    const initialView = new URLSearchParams(location.search || "").get("view");
+    if (initialView && VIEW_LABELS[initialView]) navigate(initialView);
+  }
   startReminderLoop();
   const todayWeekday = new Date().getDay();
   if (todayWeekday === 1) {
