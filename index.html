@@ -167,6 +167,23 @@
         <div class="week-strip" id="week-strip" aria-label="本周学习记录"></div>
       </div>
 
+      <section class="home-level-picker reveal" style="--delay: 20ms" aria-label="选择每日单词难度">
+        <div class="home-level-copy">
+          <p class="eyebrow">TAGESNIVEAU</p>
+          <h2>今天练哪一档？</h2>
+          <p id="home-level-note">全部难度 · 新词 0 · 到期 0</p>
+        </div>
+        <div class="home-level-chips" id="home-level-picker" role="group" aria-label="每日单词难度">
+          <button class="level-choice" data-home-level="all">全部</button>
+          <button class="level-choice" data-home-level="A1">A1</button>
+          <button class="level-choice" data-home-level="A2">A2</button>
+          <button class="level-choice" data-home-level="B1">B1</button>
+          <button class="level-choice" data-home-level="B2">B2</button>
+          <button class="level-choice" data-home-level="C1">C1</button>
+          <button class="level-choice" data-home-level="C2">C2</button>
+        </div>
+      </section>
+
       <div class="hero-grid">
         <section class="hero-card reveal" style="--delay: 40ms">
           <div class="hero-copy">
@@ -378,6 +395,7 @@
               </div>
               <h2 class="exam-question" id="exam-question"></h2>
               <p class="exam-sub" id="exam-sub"></p>
+              <div class="exam-mastery-guide" id="exam-mastery-guide" aria-label="四档掌握度"></div>
               <div class="exam-options" id="exam-options"></div>
               <div class="exam-result hidden" id="exam-result">
                 <span class="exam-result-icon" id="exam-result-icon"></span>
@@ -436,20 +454,30 @@
                     </div>
                     <div class="card-source hidden" id="card-source"></div>
                   </div>
-                  <div class="card-hint"><span>你记得多牢？</span><span class="hint-keys"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd></span></div>
+                  <div class="card-hint"><span id="back-hint-label">已自动记录，无需自评</span><span class="hint-keys" id="back-hint-keys"><kbd>Enter</kbd></span></div>
                 </div>
               </article>
             </div>
 
-            <div class="rating-bar" id="rating-bar" aria-label="评价掌握程度">
-              <button class="rating again" data-rating="again"><span>忘记</span><small id="preview-again">1 天</small></button>
-              <button class="rating hard" data-rating="hard"><span>困难</span><small id="preview-hard">12 小时</small></button>
-              <button class="rating good" data-rating="good"><span>良好</span><small id="preview-good">1 天</small></button>
-              <button class="rating easy" data-rating="easy"><span>简单</span><small id="preview-easy">4 天</small></button>
+            <div class="rating-bar" id="rating-bar" aria-label="选择首次掌握程度">
+              <button class="rating again" data-rating="again"><span>忘记</span><small id="preview-again">10 分钟</small></button>
+              <button class="rating hard" data-rating="hard"><span>困难</span><small id="preview-hard">1 天</small></button>
+              <button class="rating good" data-rating="good"><span>良好</span><small id="preview-good">3 天</small></button>
+              <button class="rating easy" data-rating="easy"><span>简单</span><small id="preview-easy">14 天</small></button>
+            </div>
+
+            <div class="mastery-next-bar" id="mastery-next-bar">
+              <div class="mastery-next-copy">
+                <span class="mastery-next-label" id="mastery-next-label">等待作答</span>
+                <small id="mastery-next-note">答对或答错都会自动安排下一次复习。</small>
+              </div>
+              <button class="btn btn-primary" id="study-next" data-action="study-next">
+                下一个词 <svg class="icon"><use href="#i-arrow-right"/></svg>
+              </button>
             </div>
             <div class="study-keys">
-              <span><kbd>Space</kbd> 翻转</span>
-              <span><kbd>1</kbd>–<kbd>4</kbd> 评价</span>
+              <span><kbd>1</kbd>–<kbd>4</kbd> 选择</span>
+              <span><kbd>Enter</kbd> 查看词卡 / 下一个</span>
               <span><kbd>Esc</kbd> 结束</span>
             </div>
           </div>
@@ -736,10 +764,10 @@
       </div>
 
       <div class="library-overview reveal" style="--delay: 40ms">
-        <div><span>全部词汇</span><strong id="library-total">7507</strong></div>
-        <div><span>已掌握</span><strong id="library-mastered">0</strong></div>
-        <div><span>学习中</span><strong id="library-learning">0</strong></div>
-        <div><span>等待见面</span><strong id="library-new">0</strong></div>
+        <div><span>未掌握</span><strong id="library-unmastered">0</strong></div>
+        <div><span>遗忘</span><strong id="library-forgotten">0</strong></div>
+        <div><span>较生疏</span><strong id="library-shaky">0</strong></div>
+        <div><span>熟练</span><strong id="library-mastered">0</strong></div>
       </div>
 
       <section class="level-progress reveal" id="level-progress" aria-label="各难度正确率" style="--delay: 55ms"></section>
@@ -762,11 +790,11 @@
         <div class="library-selects">
           <label class="select-wrap"><span class="sr-only">学习状态</span>
             <select id="status-filter">
-              <option value="all">全部状态</option>
-              <option value="new">新词</option>
-              <option value="learning">学习中</option>
-              <option value="mastered">已掌握</option>
-              <option value="due">今天到期</option>
+              <option value="all">全部掌握度</option>
+              <option value="unmastered">未掌握</option>
+              <option value="forgotten">遗忘</option>
+              <option value="shaky">较生疏</option>
+              <option value="mastered">熟练</option>
             </select>
             <svg class="icon"><use href="#i-chevron"/></svg>
           </label>
@@ -913,11 +941,12 @@
               <div class="mastery-ring-label"><strong id="mastery-percent">0%</strong><span>已掌握</span></div>
             </div>
             <div class="mastery-legend">
-              <div><i class="mastered"></i><span>已掌握</span><strong id="legend-mastered">0</strong></div>
-              <div><i class="learning"></i><span>学习中</span><strong id="legend-learning">0</strong></div>
-              <div><i class="new"></i><span>还没见面</span><strong id="legend-new">0</strong></div>
-              <div><i class="due"></i><span>今天到期</span><strong id="legend-due">0</strong></div>
+              <div><i class="mastered"></i><span>熟练</span><strong id="legend-mastered">0</strong></div>
+              <div><i class="learning"></i><span>较生疏</span><strong id="legend-shaky">0</strong></div>
+              <div><i class="due"></i><span>遗忘</span><strong id="legend-forgotten">0</strong></div>
+              <div><i class="new"></i><span>未掌握</span><strong id="legend-unmastered">0</strong></div>
             </div>
+            <p class="mastery-legend-note">今天到期：<strong id="legend-due">0</strong> 个词</p>
           </div>
           <div class="mastery-levels" id="mastery-levels"></div>
         </section>

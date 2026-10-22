@@ -1076,6 +1076,1175 @@ Wissenschaftler haben den „Mann aus dem Eis“ untersucht und haben festgestel
       contentDe: `Unter Satelliten versteht man in der Raumfahrt Flugkörper, die die Erde umkreisen. Über manche Satelliten werden Telefongespräche und Fernsehsendungen von einem Erdteil zum anderen übertragen. Andere Satelliten können die Wettervorhersage machen. An Bord der Satelliten befinden sich viele Messinstrumente und Funkgeräte, die selbständig arbeiten.
 
 Der Bogen, auf dem sich die Satelliten und Raumschiffe um die Erde bewegen, ist die Umlaufbahn. Die Umlaufbahn wird von Wissenschaftlern ausgerechnet. Sie befindet sich so weit von der Erde entfernt, dass der Satellit sich dort in einem Gleichgewicht zwischen der Anziehungskraft und der Fliehkraft befindet.`
+    },
+    {
+      id: "ocr-ruegen-urlaub",
+      titleDe: "Urlaub auf Rügen",
+      titleZh: "吕根岛假期",
+      levelHint: "B1",
+      source: "《德语学习侦探故事 剧院之死》OCR · Kapitel 7",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "旅行"],
+      summaryZh: "Nathalie 和丈夫在德国最大岛屿吕根岛度假，看白垩岩、骑行、海滩野餐。",
+      contentDe: `Nathalie und ihr Mann verbringen vierzehn Tage auf der größten deutschen Insel, auf Rügen. Freunde haben von der Insel geschwärmt, besonders von dem Badeort Binz. Einer der Lieblingsmaler von Nathalie ist Caspar David Friedrich. Schon immer wollte sie in der Natur eines seiner bekanntesten Gemälde, den 119 m hohen Kreidefelsen, das markanteste Wahrzeichen der Insel, sehen.
+
+Giuseppe und Nathalie unternehmen lange Spaziergänge, fahren Fahrrad. Sie halten sich so lange wie möglich in der sauberen frischen Luft auf, machen Bootsfahrten, picknicken mittags am Strand, lesen, sprechen miteinander.`
+    },
+    {
+      id: "ocr-muenchen-besuch",
+      titleDe: "Ein Besuch in München",
+      titleZh: "慕尼黑之行",
+      levelHint: "A2",
+      source: "《德语学习侦探故事 最后一吻》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "城市"],
+      summaryZh: "Aysche 和 Philipp 在公园长椅上聊天，Philipp 邀请她去慕尼黑看叔叔的 Loft。",
+      contentDe: `Aysche und Philipp setzen sich auf eine Bank. „Kennst du München?“, fragt sie. „Ja. Ich bin schon mehrere Male da gewesen“, sagt Philipp. „Ein Onkel wohnt in der Nähe des Olympiastadions. Er besitzt in einem ehemaligen Fabrikgebäude im obersten Stockwerk ein Loft. Er hat einen herrlichen Blick über die Stadt. Aber was erzähle ich dir. Wir werden ihn besuchen.“
+
+Philipp macht eine kleine Pause. „Du kannst dir gar nicht vorstellen, wie sehr ich mich auf dich freue.“`
+    },
+    {
+      id: "ocr-patrick-ermittelt",
+      titleDe: "Patrick ermittelt",
+      titleZh: "帕特里克调查",
+      levelHint: "B1",
+      source: "《德语学习侦探故事 密月惊魂》OCR · Kapitel 8",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "侦探"],
+      summaryZh: "Patrick 与 Leo 通电话，汇报在货运公司的调查，并答应下班后再去一次。",
+      contentDe: `Das Telefon klingelt. Es ist Leo. Patrick stellt den Ton laut. „Patrick, wie geht es? Hast du etwas entdeckt?“
+
+„Leo, ich war gestern in der Spedition. Ich habe mit Lkw-Fahrern gesprochen. Sie wissen nichts. Ich habe mich auf dem Gelände umgeschaut. Ich konnte mich dort frei bewegen. Ich habe nichts Auffälliges entdeckt.“
+
+„Patrick, bitte, fahre trotzdem noch einmal zu der Spedition. Dieses Mal vielleicht später, nach Feierabend. Es ist wichtig.“`
+    },
+    {
+      id: "ocr-berlin-chamissoplatz",
+      titleDe: "Berlin am Chamissoplatz",
+      titleZh: "柏林沙米索广场",
+      levelHint: "B1",
+      source: "《德语学习侦探故事 投毒谋财案》OCR · Kapitel 8",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "城市"],
+      summaryZh: "Constanze 和 Patrick 喜欢柏林；他们住在沙米索广场一栋翻新老建筑的高顶公寓里。",
+      contentDe: `Constanze hat ihre Kindheit und Jugend in Berlin verbracht. Für Patrick ist jede Fahrt zum Büro und jeder Spaziergang eine Entdeckungsreise. Patrick hatte sich Berlin als eine laute Stadt mit hektischem Verkehr und ungeduldigen Menschen vorgestellt. Irrtum!
+
+Constanze und Patrick fühlen sich in Berlin wohl. Besonders angetan sind sie von ihrer Wohnung am Chamissoplatz. Sie liegt im zweiten Stock in einem sanierten Altbau. Die Wohnung verbindet den Charme großer hoher Räume mit dem Luxus moderner Technik.`
+    },
+    {
+      id: "ocr-brd-1949",
+      titleDe: "Die Bundesrepublik Deutschland 1949",
+      titleZh: "1949年的联邦德国",
+      levelHint: "B2",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "1949年联邦德国成立，采用社会市场经济与《基本法》；柏林封锁期间西方通过空运供应城市。",
+      contentDe: `Am 20. Juni 1948 wurde eine separate Währungsreform in der Trizone durchgeführt. Das nahmen die Sowjets zum Anlass für die Blockade West-Berlins. Bis zum 12. Mai 1949 wurde West-Berlin über eine alliierte Luftbrücke versorgt. Es landeten täglich etwa 900 Maschinen, um die Stadt zu versorgen.
+
+Während der planwirtschaftliche Zentralismus in der sowjetischen Besatzungszone ein Hindernis für Kreativität und Initiative darstellte, begann man in Westdeutschland ein Modell der sozialen Marktwirtschaft aufzubauen. Dieses Wirtschaftsziel wurde durch das Prinzip der Rechtsstaatlichkeit ergänzt. Es wurde eine Verfassung ausgearbeitet, die absichtlich als „Grundgesetz“ bezeichnet wurde, um ihren provisorischen Charakter zu unterstreichen.
+
+Am 7. September 1949 entstand die Bundesrepublik Deutschland. Der erste Bundespräsident war Theodor Heuss, und der erste Bundeskanzler wurde Konrad Adenauer.`
+    },
+    {
+      id: "ocr-aufklaerung",
+      titleDe: "Die Aufklärung in der deutschen Literatur",
+      titleZh: "德国文学中的启蒙运动",
+      levelHint: "B2",
+      source: "《德语文学导读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文学"],
+      summaryZh: "启蒙运动时期（1720–1800）的文学：克洛普施托克、维兰德与德国文学公共领域。",
+      contentDe: `In Klopstocks Lyrik zeigt sich seine Vorliebe für das Große und Erhabene. Klopstocks Oden und freie Rhythmen beeinflussen Goethe, Hölderlin, Rilke und die Lyrik des Expressionismus.
+
+Geschichte des Agathon von Wieland ist der erste deutsche Bildungsroman. Wieland gilt als bekanntester und meistgelesener Autor der Zeit. Seine Werke bilden den Höhepunkt der Empfindsamkeit. Die Aufklärung fordert den Gebrauch der eigenen Vernunft und wendet sich gegen Vorurteile und Autoritätsglauben.`
+    },
+    {
+      id: "ocr-hamburg-truemmer",
+      titleDe: "Hamburg in Trümmern",
+      titleZh: "废墟中的汉堡",
+      levelHint: "B2",
+      source: "《德国文学选读 4》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "二战后的汉堡：城市在夜间被放弃，街道笼罩在灰暗的烟雾中，熟人相遇如隔二十年。",
+      contentDe: `Als wir bei St. Annen um die Ecke bogen, sahen wir die rote Reihe der Kontorhäuser. Aber es ließ sich immer noch nicht sagen, ob es nicht vielleicht nur Fassaden waren. Plötzlich trafen wir den ersten Bekannten, einen Ingenieur der Lagerhäuser. Ich glaube, wir redeten Unsinn und überstürzten uns in unseren Worten.
+
+Es war, als kämen wir nach zwanzig Jahren in die Heimat zurück und träfen einen Gespielen unserer Kindheit wieder. Er erzählte uns, dass man Hamburg in der Nacht aufgegeben habe. Die Löschzüge seien am Abend mitten aus ihrer Arbeit abberufen worden und hätten die ganze Nacht untätig auf einer Ausfallstraße gestanden.`
+    },
+    {
+      id: "ocr-schreibwarengeschaeft",
+      titleDe: "Im Schreibwarengeschäft",
+      titleZh: "在文具店",
+      levelHint: "A2",
+      source: "《GRUNDKURS DEUTSCH 基础德语教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "购物"],
+      summaryZh: "游客在文具店买市区地图、明信片、圆珠笔和邮票的对话。",
+      contentDe: `T: Haben Sie Stadtpläne?
+V: Was für einen möchten Sie denn?
+T: Einen kleinen, praktischen. Mit U-Bahn und Buslinien, wenn's geht.
+V: Dieser hier ist ganz neu.
+T: Sind da auch die Außenbezirke drin?
+V: Nein. Dann brauchen Sie doch einen großen. Nehmen Sie diesen hier, da ist alles drin. Brauchen Sie sonst noch was?
+T: Eine Ansichtskarte und einen Kugelschreiber.
+V: Dieser kostet eine Mark fünfzig und dieser zwei Mark. Welchen möchten Sie?
+T: Ich nehme den für eine Mark fünfzig.
+V: Bitte. Die Ansichtskarten sind dahinten im Ständer.
+T: Haben Sie auch Briefmarken?
+V: Wir haben leider keine mehr.`
+    },
+    {
+      id: "ocr-hamburger",
+      titleDe: "Der Hamburger",
+      titleZh: "汉堡包",
+      levelHint: "B1",
+      source: "《德语阅读训练》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "饮食"],
+      summaryZh: "汉堡包在世界各地流行，甚至被 Sylvester Stallone 当作派对礼物；它比名声更健康。",
+      contentDe: `Inzwischen wird der Hamburger weltweit verkauft; allein in Deutschland werden rund 150 Stück über den Ladentisch gehen. Er wird nicht nur in Schnellrestaurants gegessen, sondern auch auf jeder besseren Party. Sogar Sylvester Stallone hielt ihn für schick genug und verschenkte bei der Eröffnung seines Restaurants mehr als 1000 Exemplare an seine Gäste.
+
+Böse Kritiker meinen immer wieder, dass Hamburger junge, gesunde Menschen dick machen. Das stimmt nicht! Der Hamburger hat nur 260 Kalorien und ist gesünder als sein Ruf. In ihm stecken nämlich weder Phosphate noch Farb- oder Aromastoffe.`
+    },
+    {
+      id: "ocr-maya-kalender",
+      titleDe: "Der Kalender der Maya",
+      titleZh: "玛雅历法",
+      levelHint: "B2",
+      source: "《科技德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "玛雅人用太阳历和祭祀历组织时间：18个月、每月20天，另有5个无名日。",
+      contentDe: `Der Haab-Kalender diente den Maya zu zivilen Zwecken. Mit diesem Kalender teilten die Maya ein Sonnenjahr in 18 Monate mit jeweils 20 Tagen auf. An das Ende setzten sie fünf namenlose Tage und kamen somit auf 365 Tage. Die Monate hatten Namen wie Sip, Sek, Xul oder Wayeb.
+
+Für rituelle Zwecke benutzten die Maya den Tzolkin-Kalender, bei dem jeder Tag durch eine Kombination einer Zahl von 1 bis 13 mit dem Namen einer von 20 Schutzgottheiten bezeichnet wird. Ein Tzolkin-Datum bezeichnet daher einen bestimmten Tag in einer Periode von 260 Tagen.`
+    },
+    {
+      id: "ocr-tschernobyl",
+      titleDe: "Der GAU in Tschernobyl",
+      titleZh: "切尔诺贝利核事故",
+      levelHint: "B2",
+      source: "《科技德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "1986年4月26日，切尔诺贝利核电站进行冷却系统实验，一系列错误导致反应堆灾难。",
+      contentDe: `26. April 1986: In der Nacht zum 26. April 1986 beginnen Techniker im sowjetischen Atomkraftwerk Tschernobyl mit einem Experiment am Kühlsystem, um die Frage zu klären, wie gut die Reaktoren für den Fall eines Stromausfalls gerüstet sind. Es ist ein unspektakulärer Test.
+
+Doch das Personal begeht eine Kette verhängnisvoller Fehler. Die Schnellabschaltung und die anschließende Explosion zerstören den Reaktor. Große Mengen radioaktiver Stoffe werden freigesetzt und verseuchen die Umgebung.`
+    },
+    {
+      id: "ocr-schlafdefizit",
+      titleDe: "Schlaf auf Vorrat?",
+      titleZh: "能提前补觉吗？",
+      levelHint: "B1",
+      source: "《新编大学德语阅读训练 3-4》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "健康"],
+      summaryZh: "睡眠不能像账户一样提前储存；周末多睡并不能抵消平日的睡眠不足。",
+      contentDe: `Man fragt oft, ob Schlafen auf Vorrat möglich ist. Die Antwort ist: Es gibt kein „Schlafkonto“, auf dem man Schlaf schon im Vorhinein aufbauen könnte, um dann davon zu zehren. Sie können nicht sagen: „Ich schlafe heute zehn oder zwölf Stunden, bin dafür morgen Nacht nur vier Stunden im Bett.“ Sie werden am Tag danach genauso müde sein, als hätten Sie heute Nacht nur acht Stunden geschlafen.
+
+Man kann allerdings ein Schlafdefizit abbauen, indem man über mehrere Nächte etwas länger schläft. Wichtig ist eine regelmäßige Schlafenszeit.`
+    },
+    {
+      id: "ocr-leben-mit-aids",
+      titleDe: "Leben mit AIDS",
+      titleZh: "与艾滋病共存",
+      levelHint: "B1",
+      source: "《德语阅读训练》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "感染者担心失去工作、被恐惧或同情包围，希望人们能正常对待他们。",
+      contentDe: `Wenn herauskommt, dass ich AIDS-infiziert bin, verliere ich vielleicht meinen Job. Die meisten haben Angst vor mir oder Mitleid. Ich möchte aber, dass die Leute normal mit mir umgehen.
+
+Toll finde ich eine Aktion der Berliner AIDS-Hilfe. An einem Freitag im Monat veranstaltet sie eine Party für Männer und Frauen, die AIDS haben. Auch gesunde Leute sind eingeladen, damit sie langsam ihre Angst vor uns verlieren lernen.`
+    },
+    {
+      id: "ocr-supraleitung",
+      titleDe: "Die Entdeckung der Supraleitung",
+      titleZh: "超导的发现",
+      levelHint: "B2",
+      source: "《科技德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "1911年昂内斯发现汞在极低温下无电阻导电；1986年高温超导材料带来突破。",
+      contentDe: `1911 beobachtete der niederländische Physiker Heike Kamerlingh Onnes, dass Quecksilber bei Temperaturen unterhalb von minus 269 Grad Celsius den elektrischen Strom völlig verlustfrei leitet. Er hatte die Supraleitung entdeckt. 1913 erhielt er für seine Forschung den Nobelpreis für Physik.
+
+In den folgenden Jahrzehnten fanden sich viele weitere Materialien, in denen sich diese Supraleitung ab einer bestimmten Sprungtemperatur einstellte. Lange Zeit schien es unmöglich, über die Sprungtemperatur von Niobgermanium hinauszugelangen. 1986 fanden Georg Bednorz und Alex Müller eine Verbindung, die bereits bei 46 Kelvin supraleitend wird.`
+    },
+    {
+      id: "ocr-koerpergroesse",
+      titleDe: "Die Körpergröße und die Umwelt",
+      titleZh: "身高与环境",
+      levelHint: "B2",
+      source: "《大学德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "身材高大长期被过度推崇；研究指出身高与社会评价、收入和资源消耗相关。",
+      contentDe: `Nach Meinung Samaras ist die Körpergröße von Menschen zu Unrecht lange verherrlicht worden. Eltern sind stolz, wenn die Kinder größer sind als sie selbst. Sie glauben, dass diese damit auch ein höheres soziales Ansehen erreichen. Tatsächlich gehören größere Menschen traditionell zu den besser Ausgebildeten. Eine US-Untersuchung stellt fest, dass diese Personen höhere Löhne bekommen.
+
+Bei diesen Wertungen spielen tierische Instinkte im Menschen eine Rolle. So wird zum Beispiel in der Tierwelt das größte und stärkste Tier jeweils Anführer im Rudel.`
+    },
+    {
+      id: "ocr-urknall",
+      titleDe: "Die Urknalltheorie",
+      titleZh: "大爆炸理论",
+      levelHint: "B2",
+      source: "《科技德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科学"],
+      summaryZh: "宇宙约140亿年前从极热极密状态诞生；大爆炸理论描述的是宇宙之后的膨胀与演化。",
+      contentDe: `Nach gängiger Theorie ist das Universum vor etwa 14 Milliarden Jahren aus einem sehr heißen und sehr dichten Zustand hervorgegangen: dem Urknall. Es war der Anfang aller Atome, Sterne und Galaxien. Bis heute wissen wir nicht, was es war.
+
+Der Urknall ist die wissenschaftlich theoretische Erklärung über die Entstehung des Universums. Der Urknall ist der Zustand, in dem sich das Universum aus einem unendlich kleinen Volumen mit unendlich hoher Energiekonzentration mit unendlich großer Geschwindigkeit ausbreitete.
+
+Diese Theorie beschreibt also nicht, wie das Universum entstand, sondern wie es sich seit der Entstehung entwickelt hat.`
+    },
+    {
+      id: "ocr-morgenstadt",
+      titleDe: "Die Morgenstadt",
+      titleZh: "明日之城",
+      levelHint: "B2",
+      source: "《欧标德语阅读教程 A2》OCR · Stadt und Land",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "城市"],
+      summaryZh: "“明日之城”把工作与生活放在附近：短途通勤、房屋自发电、电动车兼作储能。",
+      contentDe: `Kurze Wege zum Arbeitsplatz bedeuten weniger Verkehr, weniger Lärm, weniger Stau, weniger Energieverbrauch. Die „Morgenstadt“ besteht aus Quartieren, die Strom und Wärme selbst erzeugen, ihre Bewohner fahren Elektroautos, die zugleich als Stromspeicher dienen, und wohnen in intelligenten Häusern.
+
+Ziel ist, Stadt und Land nicht als Gegensatz zu verstehen, sondern Arbeit und Leben der Menschen zu vereinen.`
+    },
+    {
+      id: "ocr-chinesisch-lernen",
+      titleDe: "Chinesisch lernen in China",
+      titleZh: "在中国学中文",
+      levelHint: "B1",
+      source: "《欧标德语阅读教程 B1》OCR · Text 2",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "学习"],
+      summaryZh: "一位德国学生发现，住在校园外迫使自己每天说中文，是语言进步的关键决定。",
+      contentDe: `Eigentlich sprach ich nur Englisch, aber kein Chinesisch — zumindest außerhalb des Unterrichts. Deshalb war mir ziemlich schnell klar, dass ich auf keinen Fall auf dem Campus wohnen wollte. Die Entscheidung, außerhalb des Campus zu wohnen, war eine der insgesamt zwei Entscheidungen, die mein Chinesisch wirklich vorangebracht haben.`
+    },
+    {
+      id: "ocr-schulsystem",
+      titleDe: "Das deutsche Schulsystem",
+      titleZh: "德国学校体系",
+      levelHint: "B1",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "教育"],
+      summaryZh: "德国教育由各州负责，6至18岁实行义务教育，通常包括9年全日制和3年半日制。",
+      contentDe: `Das Grundrecht auf Ausbildung ist im Grundgesetz verbürgt. Fast 7 Prozent des Bruttosozialprodukts wird vom Bund jährlich in die Bildung investiert. Die Organisation der Schulen ist Sache der einzelnen Bundesländer.
+
+Schulpflicht besteht vom sechsten bis zum achtzehnten Lebensjahr, also 12 Jahre. Davon sind in der Regel 9 Vollzeitschuljahre und 3 Teilzeitschuljahre.`
+    },
+    {
+      id: "ocr-bremen",
+      titleDe: "Die Freie Hansestadt Bremen",
+      titleZh: "不来梅自由汉萨市",
+      levelHint: "A2",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "城市"],
+      summaryZh: "不来梅是德国最小的联邦州之一，面积400平方公里，人口约66.5万。",
+      contentDe: `Die Freie Hansestadt Bremen ist ein Bundesland im Nordwesten Deutschlands. Sie hat eine Fläche von 400 Quadratkilometern und etwa 665 000 Einwohner. Bremen ist bekannt für den Roland, das Bremer Rathaus und die Bremer Stadtmusikanten.
+
+In der Umgebung werden vor allem Roggen, Weizen, Kartoffeln, Zuckerrüben, Obst und Gemüse angebaut.`
+    },
+    {
+      id: "ocr-prinzessin",
+      titleDe: "Die schöne Prinzessin",
+      titleZh: "美丽的公主",
+      levelHint: "B1",
+      source: "《大学德语阅读教程》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "故事"],
+      summaryZh: "一位公主离婚后成为世界上被拍摄最多的女性，她把旧衣服拍卖所得用于帮助穷人和病人。",
+      contentDe: `Die Prinzessin konnte vor Kummer nicht mehr richtig essen. Und dann passierte etwas: Prinz und Prinzessin ließen sich scheiden. Nun wurde die Prinzessin zur meistfotografierten Frau der Welt. Ihre gebrauchten Kleider wurden noch wertvoller und teurer, und sie konnte noch mehr für die Armen und Kranken tun.
+
+Die ganze Welt wollte wissen: Was macht die schöne Prinzessin jetzt? Da verliebte sich die schöne, aber einsame Prinzessin in einen Millionär.`
+    },
+    {
+      id: "ocr-studienabbrecher",
+      titleDe: "Studienabbrecher in Deutschland",
+      titleZh: "德国辍学大学生",
+      levelHint: "B2",
+      source: "《德语高级阅读教程》OCR · Text 2",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "教育"],
+      summaryZh: "许多大学生很快离开大学，因为他们想立刻找到工作；辍学原因和后果各不相同。",
+      contentDe: `Die Studierenden verlassen die Universitäten sehr schnell, weil sie sofort einen Job finden wollen. Es wird nicht kontrolliert, ob man an den Veranstaltungen teilnimmt.
+
+Viele Studienabbrecher beginnen anschließend eine Ausbildung. Für die Wirtschaft können sie wertvoll sein, weil sie sowohl Studien- als auch Berufserfahrung mitbringen.`
+    },
+    {
+      id: "ocr-zimmerbeschreibung",
+      titleDe: "Zimmerbeschreibungen",
+      titleZh: "房间描述",
+      levelHint: "A2",
+      source: "《新编大学德语阅读训练 1-2》OCR · Einheit 6",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "住房"],
+      summaryZh: "用德语描述房间：家具、位置、光线和房间的用途。",
+      contentDe: `Mein Zimmer ist nicht groß, aber sehr gemütlich. An der Wand steht ein Bett, daneben ein kleiner Schreibtisch mit einer Lampe. Vor dem Fenster hängen helle Vorhänge.
+
+In der Ecke steht ein Regal mit Büchern und Fotos. Auf dem Boden liegt ein weicher Teppich. Ich benutze das Zimmer zum Schlafen, Lesen und Lernen.`
+    },
+    {
+      id: "ocr-thueringen",
+      titleDe: "Thüringen und seine Industrie",
+      titleZh: "图林根及其工业",
+      levelHint: "B1",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "经济"],
+      summaryZh: "图林根州有光学、玻璃、陶瓷和汽车工业；耶拿的蔡司工厂是重要代表。",
+      contentDe: `In Thüringen sind die Glas- und keramische Industrie zu Hause. Automobile werden in Eisenach produziert. Zu DDR-Zeiten waren es andere Betriebe, doch die industrielle Tradition reicht weit zurück.
+
+Die Zeisswerke in der Universitätsstadt Jena sind ein bekanntes Beispiel für optische Industrie. Bis heute prägen Technik und Forschung die Region.`
+    },
+    {
+      id: "ocr-oesterreich-kueche",
+      titleDe: "Die österreichische Küche",
+      titleZh: "奥地利饮食",
+      levelHint: "A2",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "饮食"],
+      summaryZh: "奥地利人早餐后吃“Jause”，午餐几乎少不了汤，还喜欢各种面食甜点。",
+      contentDe: `Nach einem nicht sehr ausgiebigen Frühstück kommt die Jause, auch Gabelfrühstück genannt. Man isst kaltes Fleisch, Käse, Pasteten und verschiedene Salate. Beim Mittagessen verzichtet kaum jemand auf die Suppe.
+
+Die Österreicher mögen, ähnlich wie wir, viele Mehlspeisen. Die Küche ist von Italien, Ungarn und Böhmen beeinflusst.`
+    },
+    {
+      id: "ocr-wiener-klassik",
+      titleDe: "Die Wiener Klassik",
+      titleZh: "维也纳古典乐派",
+      levelHint: "B1",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "音乐"],
+      summaryZh: "巴洛克音乐之后是维也纳古典乐派：海顿、莫扎特、贝多芬；当时欧洲音乐生活集中在维也纳。",
+      contentDe: `Nach der Barockmusik kam die Zeit der Wiener Klassik — Joseph Haydn, Wolfgang Amadeus Mozart und Ludwig van Beethoven. Damals konzentrierte sich das gesamte europäische Musikgeschehen in Wien.
+
+Auch Franz Schubert und Hugo Wolf gehören zur Musikgeschichte der Stadt. Wien blieb über Jahrhunderte ein Zentrum der europäischen Musik.`
+    },
+    {
+      id: "ocr-schweizer-landwirtschaft",
+      titleDe: "Landwirtschaft in der Schweiz",
+      titleZh: "瑞士农业",
+      levelHint: "B2",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "经济"],
+      summaryZh: "瑞士农业以畜牧业和牛奶生产为主，约四分之三的农业用地用于饲料种植。",
+      contentDe: `Die Tierhaltung und die Milchproduktion bilden etwa 75 Prozent des Rohertrags. Besonders die Berglandwirtschaft lebt hauptsächlich von der Tierhaltung und der Milchproduktion. Rund drei Viertel der landwirtschaftlichen Nutzflächen dienen dem Futteranbau.
+
+An den Südhängen des Genfer, Neuenburger und Bieler Sees werden Wein und Obst angebaut.`
+    },
+    {
+      id: "ocr-schweizer-kantone",
+      titleDe: "Freiburg, Neuenburg, Waadt und Jura",
+      titleZh: "弗里堡、纳沙泰尔、沃州与汝拉",
+      levelHint: "B1",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "地理"],
+      summaryZh: "瑞士西部四个法语州：弗里堡是法语 Freiburg，也是瑞士天主教的重要中心。",
+      contentDe: `Alle diese vier Kantone gehören zu den französischsprachigen Gebieten. Freiburg, französisch Fribourg, ist die Hauptstadt des gleichnamigen Kantons. Dieser Kanton ist Mittelpunkt des Katholizismus in der Schweiz.
+
+Die Region liegt am Übergang zwischen deutsch- und französischsprachiger Schweiz.`
+    },
+    {
+      id: "ocr-kochunterricht",
+      titleDe: "Kochunterricht für Kinder",
+      titleZh: "儿童烹饪课",
+      levelHint: "B2",
+      source: "《德语泛读教程 上》OCR · Lektion 1",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "健康"],
+      summaryZh: "德国约10–15%的学龄儿童超重；广告、快餐和忙碌的父母让孩子远离健康饮食。",
+      contentDe: `Zur Zeit haben etwa 10 bis 15 Prozent der Schulkinder in Deutschland Übergewicht, und dieser Anteil ist bei Jugendlichen noch wesentlich höher. Ungesunde, aber leckere Lebensmittel können Kinder nur schwer ablehnen. Darüber hinaus spielt die Werbung eine große Rolle, die ungesunde Lebensmittel als „vitaminhaltig“ darstellt und so die Eltern zum Kauf anregt.
+
+Berufstätige Mütter müssen oft ihre Kinder mit Fertiggerichten aus Supermärkten oder von Fastfood-Ketten zufrieden stellen. Dabei geht es nicht nur um die Nahrungsaufnahme: Übergewicht, Stoffwechselstörungen oder Diabetes in der Kindheit lassen sich auf eine ungesunde Lebensweise zurückführen.`
+    },
+    {
+      id: "ocr-silber-generation",
+      titleDe: "Die Silber-Generation",
+      titleZh: "银发一代",
+      levelHint: "B2",
+      source: "《德语泛读教程 中》OCR · Menschen im Alter",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "今天的老年人比二十年前更活跃、更自信、更长寿，也具有不容忽视的购买力。",
+      contentDe: `Der Anteil älterer Menschen in unserer Gesellschaft wird immer größer, aber das Altsein selbst hat sich in den letzten Jahrzehnten entscheidend verändert. Sehr viele der Älteren von heute sind in fast allen Lebensbereichen vital und mobil, selbstsicher und kommunikativ und verfügen über einen weiten Interessenhorizont.
+
+Die neuen Alten, auch „Silber-Generation“ genannt, haben eines gemeinsam: Sie halten sich fit, ob körperlich oder geistig. Darüber hinaus sind sie ein nicht zu unterschätzender Wirtschaftsfaktor. Denn ältere Menschen verfügen bereits heute über eine enorme Kaufkraft.`
+    },
+    {
+      id: "ocr-tierhandlung",
+      titleDe: "In einer Tierhandlung",
+      titleZh: "在宠物店",
+      levelHint: "A2",
+      source: "《德语轻松阅读：幽默小品文》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "幽默"],
+      summaryZh: "一位女士想给狗买生日项圈，却不肯量狗脖子，因为那样就没有惊喜了。",
+      contentDe: `Eine vornehme Dame erscheint in einer Tierhandlung, denn sie will ein Halsband für ihren Pudel kaufen. Der Verkäufer zeigt ihr das beste Stück und fragt nach der Größe.
+
+„Ich habe keine Ahnung“, antwortet die Kundin.
+„Dann sollen Sie lieber den Hals Ihres Hundes messen, meine Dame“, empfiehlt der Verkäufer höflich.
+„Das darf ich einfach nicht!“ ruft die Dame entsetzt. „Ich möchte ihm das Halsband zum Geburtstag schenken, und es soll natürlich eine Überraschung sein.“`
+    },
+    {
+      id: "ocr-kaspar-hauser",
+      titleDe: "Kaspar Hauser: Rätselhafter Tod in Ansbach",
+      titleZh: "卡斯帕·豪泽：安斯巴赫的神秘死亡",
+      levelHint: "B2",
+      source: "《德语泛读教程 下》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "1828年神秘出现在纽伦堡的卡斯帕·豪泽身世不明；巴登家族至今不开放档案。",
+      contentDe: `Kaspar Hauser tauchte am 26. Mai 1828 zum ersten Mal in Nürnberg auf. Er war ungefähr sechzehn Jahre alt und wirkte verwahrlost und geistig zurückgeblieben. In der Hand trug er einen Brief, der über seine Herkunft Aufschluss geben sollte. Dieser geheimnisvolle Findling erregte schnell Aufsehen.
+
+Gerüchten zufolge war Hauser der 1812 geborene Erbprinz von Baden. DNA-Analysen gaben den Gerüchten neue Nahrung, brachten aber keine lückenlosen Übereinstimmungen. Bis heute weigert sich das Haus Baden, seine Archive zu öffnen oder gar seine Familiengruft, in der die Überreste des Säuglings ruhen.`
+    },
+    {
+      id: "ocr-bankraub",
+      titleDe: "Bankräuberei — von Handwerk zu Hightech",
+      titleZh: "银行抢劫——从手艺到高科技",
+      levelHint: "B2",
+      source: "《德语泛读教程 上》OCR · Lektion 13",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "技术改变世界，也改变犯罪：传统银行劫匪正被高科技手段取代。",
+      contentDe: `Technologien verändern die Welt. Sie ändern auch die Lebensweisen der Menschen. Diese Veränderungen sind so groß, dass auch Verbrecher ihr Handwerk den neuen Technologien anpassen müssen und können.
+
+Genies, geachtete Männer der Unterwelt, werden oft von einem Hauch der Heldenhaftigkeit umweht, ebenso wie die traditionellen Bankräuber und Diebe in Filmen oder in der Literatur. Diese schwer erklärbare „Vorliebe“ für traditionelle „große“ Räuber ist wohl auf eine heimliche Bewunderung für deren Mut und Intelligenz zurückzuführen.`
+    },
+    {
+      id: "ocr-blitzroehren",
+      titleDe: "Wenn Blitze im Sand einschlagen",
+      titleZh: "闪电击中沙地时",
+      contentDe: `Tatsächlich sind es Sandröhren, die innen hohl sind. Sie entstehen, wenn Blitze im Sand einschlagen. Durch die Hitze des Blitzes wird der Sand im Inneren der Röhre herausgeschleudert und der geschmolzene Sand wird praktisch zu Rohglas.
+
+Das auffälligste Stück aus der Sammlung eines Blitzsammlers misst zwei Meter; leider sind nur Bruchstücke dieser Röhre vorhanden. Solche Funde zeigen, welche enormen Kräfte bei einem Gewitter wirken.`,
+      levelHint: "B2",
+      source: "《德语泛读教程 中》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "自然"],
+      summaryZh: "闪电击中沙地会形成中空的沙管，高温把沙熔成天然玻璃。"
+    },
+    {
+      id: "ocr-zoohandlung-ratten",
+      titleDe: "Unbeschädigte Rückgabe",
+      titleZh: "完好归还",
+      levelHint: "A2",
+      source: "《人人读德语》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "幽默"],
+      summaryZh: "男子退租前买十只老鼠，只为把公寓恢复成当初租下时的样子。",
+      contentDe: `Ein Mann kommt in eine Zoohandlung und verlangt zehn Ratten. „Wozu brauchen Sie die denn?“ wundert sich der Verkäufer.
+
+„Ich habe meine Wohnung gekündigt und muss sie so verlassen, wie ich sie bezogen habe“, sagt der Mann.`
+    },
+    {
+      id: "ocr-schneemann-spatz",
+      titleDe: "Der Schneemann und der Spatz",
+      titleZh: "雪人与麻雀",
+      contentDe: `Gestern haben die Buben nach der Schule einen Schneemann gebaut. Es ist ein großer, kugelrunder Herr mit zwei Reihen Knöpfen und einer langen Nase.
+
+Am Morgen wacht der Spatzenvater auf. Er kommt unter dem Dach hervor und sieht den Schneemann im Garten. „Was ist das für ein großer Vogel?“ fragt er seine Kinder. Die Spatzenkinder lachen. „Das ist kein Vogel, das ist ein Schneemann!“`,
+      levelHint: "A2",
+      source: "《德语轻松阅读：幽默小品文》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "故事"],
+      summaryZh: "孩子们堆了一个雪人，麻雀爸爸却把它当成一只巨大的鸟。"
+    },
+    {
+      id: "ocr-telefon-begleiter",
+      titleDe: "Das Telefon als ständiger Begleiter",
+      titleZh: "电话作为常伴之物",
+      levelHint: "B2",
+      source: "《今日德国》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "过去十年电话市场迅速变化：型号从40种增至480多种，电话成为随处携带的伴侣。",
+      contentDe: `Im letzten Jahrzehnt hat ein frischer Wind das Telefon und alles, was dazugehört, erfasst. Der Telefonmarkt bietet heute eine ständig wachsende Palette von Modellen, die sich in ausgefallenen Designs zu übertrumpfen suchen und mit allerhand nützlichen oder verspielten Zusatzfunktionen ausgerüstet sind.
+
+Auch der Umgang mit dem Telefon hat sich verändert. Das Telefon ist zu einem ständigen Begleiter geworden. Es gibt kaum noch einen Ort, an dem sich nicht telefonieren ließe: Im Auto werden Stau-Zeiten zur Absprache mit Geschäftspartnern genutzt, und vom Intercity aus geben wir unsere Ankunftszeit durch.`
+    },
+    {
+      id: "ocr-bahnhof-walser",
+      titleDe: "Am Bahnhof",
+      titleZh: "在火车站",
+      titleHint: "",
+      levelHint: "B2",
+      source: "《今日德国》OCR · Martin Walser",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文学"],
+      summaryZh: "Gottlieb 在慕尼黑火车站排队买票，被插队者威胁，感到年龄与世代的隔阂。",
+      contentDe: `Und schon war er im Bahnhof. Um 9 Uhr 53 ging sein Zug, aber vor allen Schaltern lange Schlangen. Er schwitzte, er war gerannt. Er musste raus aus München. Sofort. Jeder vor Gottlieb war sein Feind. München–Frankfurt, das war eine beispielhaft einfache Strecke.
+
+Als Gottlieb schon fast dran war, rannte ein Jüngerer an ihm und den anderen vorbei und drängte sich vor den Schalter. Gottlieb konnte nicht begreifen, dass sich die anderen Wartenden das gefallen ließen. Er sagte dem jungen Mann, dass er sich ruhig auch hätte anstellen können. Der drehte sich zu Gottlieb und sagte: „Ich hab nur ’ne Auskunft eingeholt, aber wenn Ihnen was nicht passt, kriegen Sie eine in die Fresse.“`
+    },
+    {
+      id: "ocr-hobbys",
+      titleDe: "Hobbys und Sprachen",
+      titleZh: "爱好与语言",
+      levelHint: "A2",
+      source: "《新大学德语阅读教程 1》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "日常生活"],
+      summaryZh: "用德语介绍姓名、职业、居住地、语言和爱好。",
+      contentDe: `Frau Nentwich kommt aus Luzern in der Schweiz. Sie ist Sekretärin und spricht Deutsch, Englisch und Italienisch. In ihrer Freizeit liest sie gern und macht Wanderungen in den Bergen.
+
+Herr Bauer wohnt in Berlin und arbeitet als Lehrer. Er spricht Deutsch und Spanisch. Sein Hobby ist Musik; er spielt seit vielen Jahren Gitarre.`
+    },
+    {
+      id: "ocr-nordkorea-botschaft",
+      titleDe: "Nordkorea: Deutschland soll Botschaft räumen",
+      titleZh: "朝鲜要求德国撤馆",
+      levelHint: "B2",
+      source: "《德语时事阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "时事"],
+      summaryZh: "朝鲜建议多国撤离驻平壤使馆，德国表示持续评估使馆安全，俄罗斯等国也在核实情况。",
+      contentDe: `Das Regime von Kim Jong Un provoziert erneut: Nordkorea hat mehreren Ländern nahegelegt, die Botschaften in Pjöngjang zu verlassen. Deutschland gehört dazu.
+
+Das Außenministerium in Nordkorea hat mehreren Ländern das Verlassen ihrer Botschaften empfohlen. Auch der Bundesregierung legte das Regime nahe, die Botschaft in der Hauptstadt zu räumen. Offiziell hieß es vom Auswärtigen Amt: „Die Sicherheit und Arbeitsmöglichkeit unserer Botschaft in Pjöngjang wird angesichts der Eskalation laufend überprüft.“
+
+Auch Russland, Großbritannien, Bulgarien und Tschechien haben entsprechende Schreiben erhalten. Russlands Außenminister Lawrow äußerte sich besorgt und kündigte an, die Einzelheiten zu klären.`
+    },
+    {
+      id: "ocr-martin-englisch",
+      titleDe: "Martin lernt Englisch",
+      titleZh: "马丁学英语",
+      levelHint: "A2",
+      source: "《德语快速阅读》OCR · Text B",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "学习"],
+      summaryZh: "音乐系学生马丁给父母写信，坦白自己的英语进步没有他们想象的那么大。",
+      contentDe: `Ich heiße Martin Krause und bin Student. Ich studiere Musik und lerne Englisch.
+
+Meine Eltern schreiben mir oft Briefe. Sie fragen: „Was machst du im Englischunterricht? Wie arbeitest du? Machst du Fortschritte?“ Heute schreibe ich endlich eine Antwort.
+
+Meine Eltern glauben, ich lese schon Bücher und Zeitungen und spreche sehr gut Englisch. Leider ist es nicht so. Ich spreche nur langsam Englisch und mache oft Fehler. Ich arbeite wirklich viel. Ich lerne Vokabeln und bilde Sätze. Ich arbeite viel im Sprachlabor. Dort lese ich Texte und mache Übungen. Ich mache Fortschritte, aber sie sind noch nicht groß.`
+    },
+    {
+      id: "ocr-zigarre-handwerk",
+      titleDe: "Eine Frage der Übung",
+      titleZh: "熟能生巧",
+      levelHint: "B2",
+      source: "《德语报刊阅读》OCR · Frankfurter Allgemeine",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "手工艺"],
+      summaryZh: "一位卷雪茄78年的工匠，凭手感精确控制每支雪茄的重量。",
+      contentDe: `Wenn Schmidt an einer Zigarre arbeitet, dann greift er in den Tabak, legt ihn auf das sogenannte Umblatt, beginnt den Rohling zu formen, fügt noch ein bisschen Tabak hinzu oder nimmt ein wenig davon weg. Der fertige Wickel hat dann im Falle einer Küper-Zigarre genau sechs Gramm, nicht fünfdreiviertel und nicht sechseinhalb.
+
+Eine Frage der Übung. Schmidt beherrscht diese Kunst, seit er zwölf Jahre alt ist, also seit 78 Jahren.`
+    },
+    {
+      id: "ocr-museen-deutschland",
+      titleDe: "Museen in der Bundesrepublik",
+      titleZh: "联邦德国的博物馆",
+      levelHint: "B1",
+      source: "《德语快速阅读与理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "德国约有2000座博物馆，每年接待约5500万参观者；慕尼黑德意志博物馆最受欢迎。",
+      contentDe: `In der Bundesrepublik gibt es zirka 2000 Museen. Sie haben viele Kunstgegenstände gesammelt, und sie sammeln immer noch mehr. Die großen Museen sind fast alle staatliche oder städtische Museen; vom Staat oder von der Stadt bekommen sie das Geld.
+
+Früher gingen nur wenige Leute ins Museum, oft Kunstverständige. Heute finden die Museen viele Besucher. Es kommen nicht nur Erwachsene, sondern auch viele Jugendliche. So ist es eine beliebte Freizeitbeschäftigung, ins Museum zu gehen. Jährlich kommen etwa 55 Millionen Menschen in die deutschen Museen.`
+    },
+    {
+      id: "ocr-konklave",
+      titleDe: "Das Konklave im Vatikan",
+      titleZh: "梵蒂冈教皇选举",
+      levelHint: "B2",
+      source: "《德语时事阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "宗教"],
+      summaryZh: "教皇辞职或去世后，枢机主教通常在15至20天内集会选举新教皇；每轮投票后烧选票，黑烟表示未选出。",
+      contentDe: `Normalerweise versammeln sich die Kardinäle 15 bis 20 Tage nach dem Tod oder nach dem Rücktritt eines Papstes. Benedikt XVI. hat die Regeln diesmal so geändert, dass das Konklave früher beginnen kann.
+
+Normalerweise gibt es am Nachmittag des ersten Konklave-Tages eine Wahl, an allen anderen Tagen werden in der Regel vormittags und nachmittags jeweils zwei Wahlen veranstaltet, also vier Wahlen am Tag. Nach jedem Wahlgang werden die Stimmzettel verbrannt. Steigt schwarzer Rauch über dem Vatikan auf, ist die Wahl noch nicht entschieden; weißer Rauch zeigt die Wahl des neuen Papstes an.`
+    },
+    {
+      id: "ocr-weiterbildung-aeltere",
+      titleDe: "Weiterbildung für Ältere",
+      titleZh: "老年人的继续教育",
+      levelHint: "B1",
+      source: "《德语时文阅读与理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "教育"],
+      summaryZh: "大学里的年长学生与年轻学生一起上课，用生活经验丰富讨论；年轻人也能从他们身上学习。",
+      contentDe: `Weißes Haar, meist korrekt gekleidet, sitzen ältere Semester neben den salopp daherkommenden 19- bis 23-jährigen Studenten. Wenn Themen diskutiert werden, mischen die älteren Semester munter mit. Oft genug können sie mit ihrer Lebenserfahrung die Gespräche bereichern.
+
+Der Soziologe Dr. Wolfgang Klehm, Mitarbeiter des Modellversuchs „Weiterbildung für Ältere“, sagt: „Wir legen großen Wert darauf, dass alt und jung zusammenkommen. Nicht allein die Alten lernen hier, die Jungen lernen auch von den Alten.“`
+    },
+    {
+      id: "ocr-revolutionaere-kalender",
+      titleDe: "Revolutionäre Kalender",
+      titleZh: "革命历法",
+      levelHint: "B2",
+      source: "《德语阅读入门》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "法国大革命和苏联都曾尝试新历法：每月三十天、年末加五天，但最终因国际交往不便而放弃。",
+      contentDe: `Es hat durchaus Bestrebungen gegeben, den Kalender zu „verweltlichen“. So während der Französischen Revolution, mit der Absicht, einen ganz neuen Kalender einzuführen, in dem jeder Monat dreißig Tage haben sollte, denen am Jahresende fünf Tage angehängt wurden. Die Monate sollten in drei Dekaden eingeteilt werden, deren jede wiederum zehn Untereinheiten anstelle der 24 Stunden bekommen sollte.
+
+Auch in der Sowjetunion wurde unter Josef Stalin für kurze Zeit ein revolutionärer Kalender eingeführt, der sich von dem christlichen unterschied — ehe man alsbald in Moskau erkannte, dass dies vor allem bei internationalen Kontakten und Geschäften nur Nachteile brachte.`
+    },
+    {
+      id: "ocr-titanic-niete",
+      titleDe: "Warum sank die Titanic?",
+      titleZh: "泰坦尼克号为何沉没？",
+      levelHint: "B2",
+      source: "《德语报刊阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "泰坦尼克号残骸的铆钉含渣量超标三倍，脆性增加，撞冰山后接缝裂开进水。",
+      contentDe: `Der Anteil an Schlacke in den Nieten der Titanic betrug 9,3 Prozent — das Dreifache der Norm. Schlacke, ein Restprodukt der Eisenerzschmelze, verleiht Stahl die nötige Stabilität. In zu hohen Mengen führt sie allerdings zu vermehrter Brüchigkeit.
+
+Die mikroskopische Analyse ergab außerdem, dass die Schlacke sehr grobkörnig und unregelmäßig verteilt war. Das bedingte eine erhöhte Anfälligkeit besonders an den gehämmerten Enden der Nieten. Bei der Kollision mit dem Eisberg waren sie offensichtlich abgesprengt worden, und das Wasser drang durch die aufgeplatzten Nähte in den Schiffsrumpf ein.`
+    },
+    {
+      id: "ocr-falsche-nummer",
+      titleDe: "Die falsche Nummer",
+      titleZh: "打错的电话",
+      levelHint: "A2",
+      source: "《德语快速阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "故事"],
+      summaryZh: "Lilli 接到打错的电话，却顺势把对方当成修箱子的顾客，最后才发现是旧号码。",
+      contentDe: `„Es ist furchtbar, fuuurchtbaaar!“ schreit sie. Vorsichtig frage ich: „Was, liebe Lilli, was ist …“ „Ich kann nicht mehr. Ich habe keine Ruhe mehr. Ach Eva, wer konnte das vorher wissen?“
+
+Da klingelt das Telefon. Lilli geht wie hypnotisiert zum Apparat, nimmt den Hörer ab und sagt: „Ja, ich bin auch sonntags geöffnet. Bringen Sie mir nur Ihren Koffer, ich repariere ihn bis morgen und lege ihn ins Wasser.“ Und mir sagt sie: „Ich habe die frühere Nummer einer Reparaturwerkstatt!“`
+    },
+    {
+      id: "ocr-erlebnisse-ausland",
+      titleDe: "Meine Erlebnisse im Ausland",
+      titleZh: "我的海外经历",
+      levelHint: "B1",
+      source: "《德语阅读理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "传记"],
+      summaryZh: "作者生于保加利亚，13岁随父去布拉格首次感受敌意，后在瑞士、莫斯科求学并定居柏林。",
+      contentDe: `Ich wurde in Bulgarien geboren. Mit 13 machte ich meine erste Auslandserfahrung, eine sehr schmerzliche: Ich ging mit meinem Vater 1968 nach Prag. Zum ersten Mal in meinem Leben habe ich dort richtigen Hass gespürt.
+
+Ein Jahr darauf musste mein Vater in Rom arbeiten, die Familie zog mit. Ich kam in ein Schweizer Gymnasium. Dort lernte ich nicht nur alle Schweizer Sprachen, sondern erlebte zum ersten Mal die Weite Europas. Später machte ich das Abitur und studierte fünf Jahre in Moskau. Nach dem Studium fuhren wir zurück nach Berlin und arbeiten seitdem in einer Schule.`
+    },
+    {
+      id: "ocr-heizen-holz",
+      titleDe: "Heizen mit Holz und Wärmepumpe",
+      titleZh: "用木柴和热泵取暖",
+      levelHint: "B2",
+      source: "《德语时文阅读与理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "能源"],
+      summaryZh: "Günter Wegner 1979年改用木柴加热与热泵，称比传统供暖便宜约80%。",
+      contentDe: `Günter Wegner hat die letzte Ölrechnung für die Heizung seines großen Hauses und der dazugehörigen Schwimmhalle 1979 bezahlt. Damals stellte er seinen „Baum“ auf. Er hat errechnet, dass diese Methode — trotz der Stromkosten für die Wärmepumpe — um 80 Prozent billiger ist als eine herkömmliche Heizung.
+
+Für ein Einfamilienhaus mit 120 Quadratmetern reicht ein kleiner Vorrat an Holz. Die Wärmepumpe bringt die Wärme auf Zimmertemperatur.`
+    },
+    {
+      id: "ocr-gastarbeiter",
+      titleDe: "Ein Gastarbeiter erzählt",
+      titleZh: "一位外籍劳工的讲述",
+      levelHint: "B1",
+      source: "《德语快速阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "外籍劳工讲述在德国的生活：德语进步了，朋友多是同乡，常想家，终于要坐火车回乡。",
+      contentDe: `Inzwischen habe ich ja ganz gut Deutsch gelernt. Das hören Sie ja. Und ich kenne mich jetzt auch ganz gut aus. Ob ich Freunde gefunden habe? Ja. Vor allem unter den anderen Gastarbeitern aus meiner Heimat. Deutsche habe ich nicht viele kennengelernt. Meine Arbeitskollegen waren immer sehr freundlich zu mir. Aber sonst? Sonst kenne ich niemanden.
+
+In der ersten Zeit hatte ich sehr viel Heimweh und habe immer an meine Familie denken müssen, an meine Frau und meine Kinder. Jetzt freue ich mich sehr, dass ich sie bald wiedersehen kann. Endlich kann ich nach Hause fahren.`
+    },
+    {
+      id: "ocr-ballonfahrt",
+      titleDe: "Mit dem Ballon um die Welt",
+      titleZh: "乘热气球环游世界",
+      levelHint: "B2",
+      source: "《德语阅读入门》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科技"],
+      summaryZh: "Piccard 改用更重的丙烷并减少乘员，驾驶 Breitling Orbiter 3 尝试不停顿环游世界。",
+      contentDe: `Rund 20 Versuche, die Welt in einem Ballon zu umrunden, waren bislang erfolglos geblieben. Auch Piccard, dessen Großvater Auguste Piccard 1931 als erster Mensch mit dem Ballon die Stratosphäre erreichte, war zweimal gescheitert.
+
+Diesmal hatte Piccard als Brennstoff das schwerere Propangas anstelle von Kerosin genommen, um die Leistungsfähigkeit des Ballons zu erhöhen. Dafür wurde die Besatzung von drei auf zwei reduziert. Bei dem Breitling Orbiter 3 handelt es sich um eine „Roziere“, einen mit Heißluft und Helium gefüllten Ballon, an dem eine 5,5 Meter lange und 2,5 Meter hohe Kapsel hängt.`
+    },
+    {
+      id: "ocr-osterbraeuche",
+      titleDe: "Osterbräuche",
+      titleZh: "复活节习俗",
+      levelHint: "A2",
+      source: "《德语阅读理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "节日"],
+      summaryZh: "复活节找彩蛋是德国传统；世界最大巧克力彩蛋高2.8米、重逾一吨。",
+      contentDe: `Die Kinder müssen die Ostereier suchen. Manche Osterhasen werden erst an Weihnachten gefunden, weil die Eltern das Versteck vergessen haben.
+
+Das größte Osterei der Welt legte ein Millionär aus Südafrika für seine Tochter ins Nest. Das Ei aus Schokolade und Marzipan war 2,80 Meter hoch und mehr als eine Tonne schwer. Ein Kunstwerk ist der Osterhase aus der Schokoladenfabrik meistens nicht; die selbst bemalten Ostereier sind schöner.`
+    },
+    {
+      id: "ocr-bundestag-besuch",
+      titleDe: "Im Bundestag",
+      titleZh: "在联邦议院",
+      levelHint: "B2",
+      source: "《基础德语读本》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "政治"],
+      summaryZh: "参观者旁听联邦议院：议员须面对政府与反对党的激烈辩论，议会休会时只能去咖啡馆。",
+      contentDe: `In diesem Saal müssen die Abgeordneten dem Parlament Rede und Antwort stehen. Dabei kommt es, wie Sie sich denken können, recht oft zu heißen Debatten zwischen Regierungskoalition und Opposition.
+
+Zur Zeit sind Parlamentsferien, und so können wir heute leider keiner Sitzung beiwohnen. Aber das Café des Bundeshauses ist natürlich geöffnet.“ Alle lachten und gingen, nachdem sie noch einige Fragen gestellt hatten, zum Café hinunter. Dort setzten sie sich auf die Terrasse und genossen bei einem erfrischenden Getränk den schönen Blick auf den Rhein.`
+    },
+    {
+      id: "ocr-teure-hobbys",
+      titleDe: "Teure Hobbys",
+      titleZh: "昂贵的爱好",
+      levelHint: "B1",
+      source: "《德语阅读理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "家庭"],
+      summaryZh: "孩子想换新爱好，父母质问旧装备怎么办；Simone 想用教法语换取网球课。",
+      contentDe: `„Gut, aber habt ihr schon einmal überlegt, was dann mit der Surfausrüstung geschieht, die wir erst letztes Jahr für teures Geld für euch angeschafft haben? Und die Reitklamotten und die ganze dazugehörige Ausrüstung vom Jahr davor, wollt ihr sie wohl auf dem Dachboden vergammeln lassen?“ Ja, daran hatten die Kinder offensichtlich nicht gedacht.
+
+„Darf ich auch etwas dazu sagen?“ meldet sich Vater zu Wort. „Wie habt ihr euch das mit den Kosten vorgestellt? So eine Ausrüstung ist teuer, dazu kommen Trainerstunden.“ Doch Simone hat schon eine Idee: „Maria hat mir vorgeschlagen, mir das Tennisspielen beizubringen, wenn ich ihr dafür Nachhilfe in Französisch gebe.“`
+    },
+    {
+      id: "ocr-radio-beim-besuch",
+      titleDe: "Radio beim Besuch",
+      titleZh: "做客时的收音机",
+      levelHint: "B2",
+      source: "《德语快速阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社交"],
+      summaryZh: "一位客人抱怨主人整晚开着收音机：他不反对现代音乐，但聊天时不该大声播放。",
+      contentDe: `„Ich will nicht von der Langeweile sprechen, sondern von einer Sache, die mich als Gast immer wieder stört. Das ist keine gute Sitte, den ganzen Abend das Radio spielen zu lassen. Ich habe nichts gegen moderne Musik, aber bei lebhafter Unterhaltung nicht! Rundfunkmusik — womöglich noch ziemlich laut — das ist zu viel!“
+
+Also, die Meinungen sind verschieden. Aber wer hat recht?`
+    },
+    {
+      id: "ocr-hausarbeit-konflikt",
+      titleDe: "Wer macht die Hausarbeit?",
+      titleZh: "谁来做家务？",
+      levelHint: "B1",
+      source: "《德语快速阅读与理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "家庭"],
+      summaryZh: "妻子下班后还要买菜、洗衣、打扫、做饭；丈夫和儿子偶尔帮忙，却更愿意看电视里的侦探片。",
+      contentDe: `Was Peter Bergner behagt, erbittert seine Frau. Wenn sie ihren Arbeitstag im Betrieb hinter sich hat, „dann geht’s ja erst mal richtig los“ — Einkäufe, Waschen, Putzen, Kochen — „was so anfällt“. Peter Bergner und der vierzehnjährige Sohn Dieter nehmen auch schon mal ein Geschirrtuch in die Hand, aber im Zweifelsfall ziehen sie den Krimi im Fernsehen vor.`
+    },
+    {
+      id: "ocr-jugend-olympia",
+      titleDe: "Jugend trainiert für Olympia",
+      titleZh: "青少年为奥运而练",
+      levelHint: "A2",
+      source: "《德语快速阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "体育"],
+      summaryZh: "西柏林每年春秋举办“青少年为奥运而练”，两三千名13至19岁学生代表学校争夺奖牌。",
+      contentDe: `Seit sechs Jahren findet in West-Berlin eine Sportaktion statt, die den stolzen Titel „Jugend trainiert für Olympia“ trägt. Jedes Jahr im Frühjahr und im Herbst kommen 2000 bis 3000 Jungen und Mädchen zwischen 13 und 19 Jahren in die Stadt an der Spree, um mit ihrer Schulmannschaft eine Medaille nach Hause zu holen.`
+    },
+    {
+      id: "ocr-urlaubsflirt",
+      titleDe: "Kein Urlaub ohne Urlaubsflirt",
+      titleZh: "度假少不了度假恋情",
+      levelHint: "B1",
+      source: "《新标准德语强化教程 阅读训练》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "旅行"],
+      summaryZh: "作者和女友各自度假：女友要行程满满，作者只想安静睡觉读侦探小说；假期恋情仅限假期。",
+      contentDe: `Meine Freundin und ich machen immer alleine Urlaub, weil jeder etwas anderes möchte. Sie braucht jeden Tag Programm: Museen und Kirchen besuchen, Sport, Sprachen lernen. Dazu habe ich keine Lust. Ich will im Urlaub meine Ruhe haben, lange schlafen, Krimis lesen. Ein Flirt ist erlaubt, aber natürlich nur im Urlaub. Danach muss Schluss sein.
+
+Im letzten Urlaub war ich in Griechenland auf einer Insel. Da habe ich eine tolle Frau kennengelernt. Eva war zehn Jahre älter als ich, aber sehr attraktiv. Sie hat ein Auto gemietet, und wir waren jeden Tag zusammen auf Entdeckungsreise.`
+    },
+    {
+      id: "ocr-erdbeben-italien",
+      titleDe: "Erdbeben in Italien",
+      titleZh: "意大利地震",
+      levelHint: "B2",
+      source: "《新编德语报刊阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "灾难"],
+      summaryZh: "意大利地震后，救援人员在废墟中搜救；教皇表达声援，总理取消行程，志愿者参与救援。",
+      contentDe: `Allmählich greifen die Sicherheitskräfte härter durch und lassen die Journalisten im Unglücksgebiet nicht mehr tiefer in den Ort. „Nur wer Verwandte drinnen vermutet, darf weiter vor“, sagt ein Polizist.
+
+Eine Gruppe junger Männer steht mit Zigaretten am Straßenrand, im Schatten einer zerborstenen Wand, hinter der gestern noch eine Bar war. Sie kommen aus dem Ort und helfen seit der Nacht, wo sie nur können. „So etwas habe ich noch nie live gesehen“, sagt Andrea. „Ich hätte mir nie vorstellen können, dass ich hier plötzlich einen kleinen weinenden Jungen im Arm habe.“ Es sei ein Irrtum anzunehmen, dass es auf Erden sichere Plätze gebe. „Die Erde bebt.“ Und sie tut es tatsächlich wieder, nur ganz kurz, aber für einen Moment ist Sicherheit wieder nur ein Traum.`
+    },
+    {
+      id: "ocr-auto-freude",
+      titleDe: "Bringt das Auto immer Freude?",
+      titleZh: "汽车总带来快乐吗？",
+      levelHint: "B1",
+      source: "《德语快速阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "生活"],
+      summaryZh: "私家车带来时间、自由和旅行乐趣，但抛锚、堵车和费用也让人烦恼。",
+      contentDe: `Ein eigenes Auto! Das ist wohl einer der größten Wünsche vieler Menschen. Wenn man einen Wagen hat, so gewinnt man viel Zeit. Die Entfernungen werden kleiner. Mit dem Auto kann man immer ins Grüne fahren: schöne Landschaften, stille Orte zum Ausruhen nach langer Fahrt. Das macht große Freude.
+
+Aber wie bekannt ist, hat jede Medaille zwei Seiten, und die Kraftfahrer wissen es wohl am besten. Nichts ist für sie so unangenehm wie eine Panne. Und die hat man leider gar nicht so selten.`
+    },
+    {
+      id: "ocr-freizeit-kleidung",
+      titleDe: "Freizeit und Kleidung",
+      titleZh: "休闲与服装",
+      levelHint: "B2",
+      source: "《德语阅读理解》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "日常服装与节日服装的界限消失；休闲舒适的衣服普及，休闲消费推动国民生产总值。",
+      contentDe: `Die Trennung zwischen Alltags- und Sonntagskleidung ist vorbei. Jedermann trägt in der Freizeit bequeme und praktische Kleidung, die früher den Arbeitern gegeben wurde, weil die Arbeit dreckig machte.
+
+Die 15 Prozent vom Einkommen, die Arbeitnehmer für Betätigungen in der Freizeit ausgeben, bewirken eine weitere Steigerung des Bruttosozialprodukts. Nicht nur die Bürger geben viel Geld für Freizeitvergnügungen aus, auch der Staat und die öffentlichen Institutionen finanzieren die „Freizeit-Industrie“ mit hohen Summen.`
+    },
+    {
+      id: "ocr-musiktherapie",
+      titleDe: "Musiktherapie",
+      titleZh: "音乐治疗",
+      levelHint: "B2",
+      source: "《德语报刊阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "健康"],
+      summaryZh: "音乐治疗分心理治疗、特殊教育和缓和治疗三个方向；核心始终是音乐演奏与聆听。",
+      contentDe: `Musiktherapie wird bei der Behandlung unterschiedlichster Krankheiten und Störungen eingesetzt. Grob können vor allem drei Richtungen unterschieden werden: die Musikpsychotherapie, die heilpädagogische Musiktherapie und die palliative Musiktherapie.
+
+Die Musikpsychotherapie wird vor allem bei Patienten mit psychischen Störungen und Erkrankungen eingesetzt. Die heilpädagogische Musiktherapie will behinderten Menschen helfen, ihre verbliebenen Möglichkeiten voll auszuschöpfen. Die palliative Musiktherapie unterstützt vor allem Menschen bei der Bewältigung von Krisensituationen.
+
+Im Zentrum der Therapie steht immer die Musik: Die Patienten spielen allein oder zusammen mit den Therapeuten oder hören sich Musikstücke an.`
+    },
+    {
+      id: "ocr-schauspielerin-interview",
+      titleDe: "Schauspielerin im Interview",
+      titleZh: "女演员访谈",
+      levelHint: "B2",
+      source: "《新编德语报刊阅读》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "女演员谈连续采访的疲惫、试镜的挣扎，以及为何坚持大学学业以保持另一种生活。",
+      contentDe: `„Moment, ich muss immer noch kämpfen, anklopfen, zu Castings gehen. Und ich kriege auch viele Rollen nicht.“
+
+„Gut, aber … wie lange geht eigentlich dieses Interview?“
+„Noch 20 Minuten.“
+„So lange haben Sie?“
+„Ja. Langweilig?“
+„Nein, nein. Es kostet nur viel Energie, so viele Interviews hintereinander, mich auf jeden richtig einzulassen.“
+
+„Mach ich, aber noch mal: wozu studieren?“
+„Damit ich nicht mein ganzes Leben nur auf die Schauspielerei fokussiere, sondern noch einen anderen Strang habe, damit ich mich in diesem Strudel nicht verliere.“`
+    },
+    {
+      id: "ocr-mauerfall-erinnerungen",
+      titleDe: "Erinnerungen an den Mauerfall",
+      titleZh: "柏林墙倒塌回忆",
+      levelHint: "B2",
+      source: "《德语学习背景知识 德国面面观》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "科尔与柏林市长莫姆佩尔回忆1989年11月9日：国宴上的消息、拥挤的边境检查站与狂喜的人群。",
+      contentDe: `Am 9. November 1989 fiel die Mauer. Wie erlebten die Deutschen diesen Tag? Helmut Kohl, Bundeskanzler von 1982 bis 1998, erinnert sich: „Am Abend erreichten mich vor und während des Staatsbanketts die ersten Gerüchte. Im Laufe der Stunden bestätigte sich, was sich in Berlin Dramatisches ereignete. Es war ohne Zweifel einer der dramatischsten Augenblicke der jüngsten Geschichte.“
+
+Walter Momper, Regierender Bürgermeister von Berlin, beschreibt den Grenzübergang: „Am Grenzübergang war alles schwarz vor Menschen. Ich hatte Sorge, es würde zu einem Blutbad kommen. Dann habe ich mir von der Westseite eine Flüstertüte kommen lassen und habe eine Ansprache gehalten. Diese ging jedoch in den Freudenlärm unter.“`
+    },
+    {
+      id: "ocr-advent",
+      titleDe: "Advent, Adventskalender und Adventskranz",
+      titleZh: "降临节、圣诞日历与花环",
+      levelHint: "B2",
+      source: "《文化视窗高级德语教程 2》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "降临节是圣诞节前四周的预备期；圣诞日历的24扇门源自19世纪家庭习俗。",
+      contentDe: `Advent, abgeleitet vom lateinischen „adventus“, steht für das Warten und die Vorbereitungszeit auf die „Ankunft“ Christi. Ähnlich wie in der Zeit vor Ostern wird in ihr gefastet. Der erste der vier Adventssonntage bezeichnet den Beginn des Kirchenjahres.
+
+Adventsnachmittage mit Kerzenschein, Kaffeetrinken und weihnachtlichen Leckereien sind erst nach dem Zweiten Weltkrieg allgemein üblich geworden. Der Adventskalender mit 24 Türchen entwickelte sich aus christlichen Hausbräuchen des 19. Jahrhunderts.`
+    },
+    {
+      id: "ocr-biergarten",
+      titleDe: "Der bayerische Biergarten",
+      titleZh: "巴伐利亚啤酒花园",
+      levelHint: "B1",
+      source: "《文化视窗高级德语教程 1》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "啤酒花园是巴伐利亚的特色露天餐饮：在大树荫下喝啤酒，主要在温暖季节营业。",
+      contentDe: `Als Biergarten bezeichnet man einen besonderen Typ einer Gartenwirtschaft. Der Ursprung dieser Einrichtungen ist in Bayern zu finden. Der typische bayerische Biergarten ist eine Gaststätte bzw. der im Freien gelegene Teil einer solchen, deren Betrieb im Wesentlichen auf Schönwetterperioden während der warmen Jahreszeit beschränkt ist.
+
+Das Erfordernis des Gartencharakters verlangt eine Situierung des Betriebs im Grünen, jedenfalls im Freien. Das Idealbild des Biergartens ermöglicht, unter großen Bäumen im Schatten zu sitzen.`
+    },
+    {
+      id: "ocr-reiseland-deutschland",
+      titleDe: "Deutschland als Reiseland",
+      titleZh: "德国作为旅游目的地",
+      levelHint: "B2",
+      source: "《文化视窗高级德语教程 2》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "德国人最喜欢的度假地是本国：超过30%的旅行在国内，历史城市、自然与文化吸引游客。",
+      contentDe: `Das beliebteste Urlaubsland der Deutschen ist nicht Spanien oder Italien, sondern ein Ziel, das nicht mit Palmenstränden punktet und ewig blauem Himmel, dafür aber mit Historie, mit spannenden Städten, klaren Seen, schroffen Bergen, urwüchsigen Festen und eigenwilligen Menschen, mit weltberühmten Kunst- und Kulturevents, Bauwerken, Burgen, Schlössern und Denkmälern.
+
+Deutschland, das beliebteste Urlaubsland der Deutschen mit einem Marktanteil von mehr als 30 Prozent an allen Reisen, ist ein Märchenland voller kleiner und großer Wunder, die es zu entdecken gilt.`
+    },
+    {
+      id: "ocr-flohmarkt",
+      titleDe: "Jäger und Sammler auf dem Flohmarkt",
+      titleZh: "跳蚤市场上的猎手与收藏者",
+      levelHint: "B2",
+      source: "《文化视窗高级德语教程 1》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "跳蚤市场清晨开市前，商贩和收藏者已打着手电筒翻找稀有物品，私下交易早已开始。",
+      contentDe: `Viele von den Markt-Profis sind schon am Vorabend angereist, haben im Auto oder Wohnmobil übernachtet, um die Ware auszupacken und ansprechend zu platzieren. Aber auch, um schon die allerersten Geschäfte — noch im Dunkeln — zu tätigen.
+
+Man geht los, nur mit einer Taschenlampe bewaffnet, um zu erkunden, was für Raritäten bei den „Nicht-Profis“ beim Auspacken zum Vorschein kommen. Da muss man schnell sein — auch die anderen sind schon auf der Jagd, Jäger und Sammler eben, uralte Instinkte werden wach. Offiziell ist der Markt noch nicht geöffnet, also darf zu diesem Zeitpunkt nichts gekauft oder verkauft werden.`
+    },
+    {
+      id: "ocr-tracht",
+      titleDe: "Lederhose und Dirndl",
+      titleZh: "皮裤与紧身连衣裙",
+      levelHint: "B1",
+      source: "《文化视窗高级德语教程 1》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "皮裤和紧身连衣裙是巴伐利亚与奥地利传统服饰，如今主要在啤酒节等民间节日穿着。",
+      contentDe: `Lederhose und Dirndl sind die bekanntesten Formen der bayerischen und österreichischen Tracht. Heute trägt man sie vor allem auf Volksfesten wie dem Oktoberfest. Ursprünglich waren sie Arbeits- und Alltagskleidung.
+
+Die „Kurze“ ist eine kurze, kniefreie Lederhose. Zum Dirndl gehören eine Bluse, ein Kleid und eine Schürze.`
+    },
+    {
+      id: "ocr-beethoven-briefe",
+      titleDe: "Beethoven in Briefen und Tagebüchern",
+      titleZh: "书信与日记中的贝多芬",
+      levelHint: "B2",
+      source: "《文化视窗高级德语教程 1》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "贝多芬书信不自我美化；他对利希诺夫斯基亲王说，亲王靠出身，他靠自己。",
+      contentDe: `Das meiste, was wir über Beethoven wissen, wissen wir aus Briefwechseln und seinem Tagebuch. Ganz anders als sein Zeitgenosse Goethe ist Beethoven jede Selbststilisierung fremd. In seinen Briefen schreibt er über die Schlechtigkeit der Leute und über die Standesschranken, die ihm den Kontakt mit angebeteten Damen verwehren.
+
+Als sein Bruder einmal ein Stück Land erwarb und mit „van Beethoven, Gutsbesitzer“ unterzeichnete, antwortete Ludwig: „van Beethoven, Hirnbesitzer“. Fürst Lichnowsky schrieb er: „Fürst, was Sie sind, sind Sie durch Zufall und Geburt, was ich bin, bin ich durch mich; Fürsten hat es und wird es noch Tausende geben; Beethoven gibt’s nur einen.“`
+    },
+    {
+      id: "ocr-kulturelle-dimensionen",
+      titleDe: "Kulturelle Dimensionen nach Hofstede",
+      titleZh: "霍夫斯泰德文化维度",
+      levelHint: "B2",
+      source: "《文化视窗高级德语教程 1》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "霍夫斯泰德用权力距离与个人主义/集体主义比较文化；德国权力距离较低，个人主义文化重视语言交流。",
+      contentDe: `Der Kulturforscher Geert Hofstede vergleicht Kulturen anhand von Dimensionen wie Machtdistanz und Individualismus/Kollektivismus. Deutschland weist mit einem MDI-Wert von 35 eine vergleichsweise geringe Machtdistanz auf.
+
+Der Individualismus-Index zeigt, in welchem Ausmaß Kulturen das Individuum, seine Eigenverantwortlichkeit und Autonomie gegenüber Gruppenzwängen wertschätzen. In individualistischen Kulturen spielt verbale Kommunikation eine bedeutende Rolle; Schweigen gilt eher als ungewöhnlich. In kollektivistischen Kulturen kann bloßes Zusammensein emotional ausreichen.`
+    },
+    {
+      id: "ocr-praktikum",
+      titleDe: "Praxis ist alles",
+      titleZh: "实践最重要",
+      contentDe: `„Haben Sie schon Berufserfahrung?“ Diese Frage hören viele Studenten, wenn sie nach dem Studium einen Arbeitsplatz suchen. In einigen Fachbereichen, zum Beispiel bei den Ingenieuren, gehören Praktika vor Beginn und während des Studiums dazu. Aber Studenten anderer Fachrichtungen lernen an den Unis vor allem graue Theorie.
+
+Mit einem Praktikum im Ausland kann man seine Jobchancen zusätzlich verbessern. Es gibt eine Menge von Programmen und Fördermöglichkeiten — vor allem innerhalb der EU. Aber Studenten und Berufsanfänger brauchen oft viel Zeit und Energie, um das passende Angebot zu finden.`,
+      levelHint: "B1",
+      source: "《德语国家国情文化 学生读本》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "学习"],
+      summaryZh: "找工作常被问有无工作经验；工程等专业把实习纳入学业，海外实习和欧盟项目能提高就业机会。"
+    },
+    {
+      id: "ocr-weihnachtsbaum",
+      titleDe: "Der Weihnachtsbaum",
+      titleZh: "圣诞树",
+      levelHint: "B1",
+      source: "《德语学习背景知识 德国面面观》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "95%的德国家庭不愿放弃圣诞树；装饰冷杉的传统可追溯到前基督教时代，约1500年开始点蜡烛。",
+      contentDe: `95 Prozent aller deutschen Familien mit Kindern mögen auf den Weihnachtsbaum nicht mehr verzichten. Mit Kerzen erstrahlt er überall: nicht nur in Wohnzimmern und Vorgärten, sondern auch auf Straßen.
+
+Der Weihnachtsbaum ist ein uraltes Symbol. Zur Mittwinterzeit schmückten die alten Germanen Wohnräume und Ställe mit Tannenzweigen, um den Winter zu verbannen und den Frühling heraufzubeschwören. Schon um 1500 wurde er in Wittenberg mit Kerzen geschmückt.`
+    },
+    {
+      id: "ocr-bevoelkerung",
+      titleDe: "Bevölkerung Deutschlands",
+      titleZh: "德国人口",
+      levelHint: "B1",
+      source: "《德语国家国情》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "国情"],
+      summaryZh: "德国8100万人口，其中690万外国人；人口密度每平方公里227人，出生率处于世界最低之列。",
+      contentDe: `In Deutschland leben heute 81 Millionen Menschen, darunter 6,9 Millionen Ausländer. Deutschland gehört zu den am dichtesten besiedelten Ländern Europas. 227 Menschen bewohnen einen Quadratkilometer.
+
+Die Bevölkerungszahl ist nach dem Zweiten Weltkrieg bis zum Jahre 1973 deutlich angestiegen und ist seither leicht rückläufig. Mit elf Geburten auf 1000 Einwohner pro Jahr zählt Deutschland trotzdem zu den Ländern mit der niedrigsten Geburtenrate der Welt.`
+    },
+    {
+      id: "ocr-max-planck",
+      titleDe: "Die Wiege der Nobelpreise",
+      titleZh: "诺贝尔奖的摇篮",
+      levelHint: "B2",
+      source: "《德语学习背景知识 德国面面观》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "科学"],
+      summaryZh: "马克斯·普朗克学会代表德国自由基础研究，其研究所诞生了众多诺贝尔奖得主。",
+      contentDe: `Der Name „Max-Planck-Institut“ ist weltbekannt. Was ist das „Max-Planck-Institut“? Es ist ein Forschungsinstitut, das der Max-Planck-Gesellschaft angehört. Seit einem Vierteljahrhundert verkörpert diese Gesellschaft die freie Grundlagenforschung in Deutschland.
+
+Anfang des 20. Jahrhunderts, während der Zeit des Kaisers Wilhelm II., wurde ein Verein „zur Förderung der Wissenschaft“ ins Leben gerufen, um die Position des Deutschen Reichs in den Naturwissenschaften international zu festigen. Man wollte ein „deutsches Oxford“ begründen.`
+    },
+    {
+      id: "ocr-hochschulwesen",
+      titleDe: "Das deutsche Hochschulwesen",
+      titleZh: "德国高校体系",
+      levelHint: "B2",
+      source: "《德语国家国情》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "教育"],
+      summaryZh: "德国高校以科研型大学为主，另有工大、医学、体育、艺术与神学等专门高校，可授予博士学位。",
+      contentDe: `Die stärkste Säule des Hochschulwesens in der Bundesrepublik Deutschland sind die wissenschaftlichen Hochschulen. Dazu gehören die Universitäten und Technischen Hochschulen bzw. Technischen Universitäten sowie einige andere auf einzelne Fachrichtungen spezialisierte Hochschulen, beispielsweise Hochschulen für Medizin und Tiermedizin, Sporthochschulen und Philosophisch-Theologische Hochschulen.
+
+Die Studenten bereiten sich hier auf ihre Diplomprüfung, Magisterprüfung oder auf das Staatsexamen vor. Die wissenschaftlichen Hochschulen haben vor allem zwei Aufgaben: die Pflege und Entwicklung von Wissenschaft und Kunst durch Forschung, Lehre und Studium sowie das Verleihen akademischer Grade bis zum Doktorgrad.`
+    },
+    {
+      id: "ocr-auto-umwelt",
+      titleDe: "Auto und Umwelt in Deutschland",
+      titleZh: "德国的汽车与环境",
+      levelHint: "B2",
+      source: "《德语学习背景知识 德国面面观》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "社会"],
+      summaryZh: "德国汽车产量高、车型多，但废气损害森林，限速与催化器成为争论焦点。",
+      contentDe: `Viele Deutsche hängen an ihrem Auto, aber sie sorgen sich auch um den Wald. Wegen der Abgase und anderer Luftverschmutzung wurde der Wald erneut geschädigt. In Deutschland wird heftig über die Vor- und Nachteile eines Tempolimits diskutiert.
+
+Befürworter sagen, ein Tempolimit würde die Schadstoffe in der Luft deutlich senken und dem Wald helfen. Gegner bezweifeln eine spürbare Wirkung. Allgemein anerkannt ist jedoch, dass die Umweltbelastung durch Autos schnell und wirksam reduziert werden muss. Neue Autos dürfen nur mit Katalysator fahren; Tankstellen müssen bleifreies Benzin anbieten.`
+    },
+    {
+      id: "ocr-wartburg",
+      titleDe: "Die Wartburg bei Eisenach",
+      titleZh: "艾森纳赫附近的瓦尔特堡",
+      levelHint: "B1",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "瓦尔特堡与路德翻译《圣经》、瓦格纳《唐豪瑟》和1817年学生集会相关。",
+      contentDe: `Auf der nahe gelegenen Wartburg soll im 13. Jahrhundert der Wettstreit der Minnesänger stattgefunden haben. Die Burg und ihr Sängersaal wurden zum Schauplatz der Oper „Tannhäuser“ von Richard Wagner.
+
+Hier übersetzte 1521–22 Martin Luther die Bibel ins Deutsche. Das bedeutete einen wichtigen Schritt in der Entwicklung der neuhochdeutschen Sprache. 1817 trafen sich auf der Wartburg Vertreter der deutschen Studenten.`
+    },
+    {
+      id: "ocr-presse",
+      titleDe: "Die deutsche Presselandschaft",
+      titleZh: "德国报刊业",
+      levelHint: "B2",
+      source: "《德语国家国情》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "媒体"],
+      summaryZh: "德国报业有300多年历史，9000多种杂志；《明镜》和《焦点》最具国际知名度。",
+      contentDe: `Eine besondere Stellung nimmt das Nachrichtenmagazin „Der Spiegel“ ein, das ohne Gegenstück in der Presselandschaft ist. Seine mitunter respektlose Kritik hat dem „Spiegel“ viele Feinde geschaffen, aber das Gespür, mit dem er wirklichen oder vermeintlichen Missständen nachgeht, lässt ihn unentbehrlich erscheinen.
+
+Das deutsche Zeitungswesen ist inzwischen mehr als 300 Jahre alt. In der Bundesrepublik Deutschland gibt es mehr als 9000 Zeitschriften. International bekannt sind der „Spiegel“ mit einer Auflage von über einer Million Exemplaren und das 1993 neu herausgebrachte Nachrichtenmagazin „Focus“.`
+    },
+    {
+      id: "ocr-kaffeehaus",
+      titleDe: "Das Wiener Kaffeehaus",
+      titleZh: "维也纳咖啡馆",
+      levelHint: "B1",
+      source: "《德语国家概况 德文版》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "维也纳咖啡馆是社会机构：喝咖啡、读报、写信、聊天、下棋，咖啡种类有黑咖啡、卡布奇诺等。",
+      contentDe: `Die Österreicher trinken sehr gern und viel Kaffee: den Schwarzen, den Braunen, den Kapuziner oder den Einspänner. Kaffee trinkt man in Kaffeehäusern, die zu gesellschaftlichen Institutionen geworden sind.
+
+Dort kann man nicht nur Zeitungen lesen, sondern auch seine persönliche Korrespondenz erledigen, sich unterhalten oder Schach spielen. Laut Statistiken trinken die Österreicher aber am liebsten Wein.`
+    },
+    {
+      id: "ocr-parteien",
+      titleDe: "Das deutsche Parteiensystem",
+      titleZh: "德国政党体系",
+      levelHint: "B2",
+      source: "《德语国家国情》OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "政治"],
+      summaryZh: "联邦议院有六个政党；5%门槛防止碎片化，联盟90/绿党源自转折运动，PDS 是 SED 后继党。",
+      contentDe: `Im Deutschen Bundestag sind heute sechs Parteien vertreten. Die Fünfprozentklausel soll eine Zersplitterung des Parlaments verhindern.
+
+Bündnis 90 ist eine Gruppierung, die 1989/90 bei der friedlichen Wende in der ehemaligen DDR mitgewirkt hat; 1994 gelang ihr zusammen mit den Grünen der Einzug in den Bundestag. Die PDS ist die Nachfolgerin der früheren Sozialistischen Einheitspartei Deutschlands (SED).`
+    },
+    {
+      id: "ocr-weimarer-republik",
+      titleDe: "Die Weimarer Republik",
+      titleZh: "魏玛共和国",
+      levelHint: "B2",
+      source: "《德语学习》30周年精选 文化卷 OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "历史"],
+      summaryZh: "1919年魏玛国民议会通过宪法，建立德国第一个全德共和国，艾伯特任总统，首都柏林。",
+      contentDe: `Die Weimarer Republik entstand 1919, als die Nationalversammlung in Weimar die Weimarer Verfassung verabschiedete; Hauptstadt war Berlin. Sie war die erste Republik auf gesamtdeutschem Gebiet.
+
+Die Nationalversammlung wählte den Sozialdemokraten Friedrich Ebert zum Reichspräsidenten; Philipp Scheidemann wurde Reichskanzler. Das Reich bestand aus 18 Ländern, die neben der Zentralregierung eigene Regierungen und Parlamente hatten.`
+    },
+    {
+      id: "ocr-wm-1982",
+      titleDe: "Die WM 1982 und die deutsche Nationalmannschaft",
+      titleZh: "1982 年世界杯与德国国家队",
+      levelHint: "B2",
+      source: "《德语学习》30周年精选 文化卷 OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "体育"],
+      summaryZh: "1982年世界杯，德国队首场1:2负于阿尔及利亚，半决赛点球淘汰法国，最终进入决赛。",
+      contentDe: `1982 fand die Weltmeisterschaft in Spanien statt. Die deutsche Nationalmannschaft verlor ihr erstes Gruppenspiel überraschend 1:2 gegen Algerien. Der Trainer hatte vorher behauptet, man könne Algerien „in die Tasche stecken“.
+
+Im Halbfinale lag Deutschland gegen Frankreich in der Verlängerung zeitweise 1:3 zurück. Der verletzte Rummenigge kam als Einwechselspieler und bereitete in kurzer Zeit ein Tor vor und erzielte eines selbst. Im Elfmeterschießen gewann Deutschland schließlich 8:7 und erreichte das Finale.`
+    },
+    {
+      id: "ocr-realismus",
+      titleDe: "Realismus in Literatur und Kunst",
+      titleZh: "文学与艺术中的现实主义",
+      levelHint: "B2",
+      source: "《德语学习》30周年精选 文化卷 OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "19世纪理想主义失去艺术生命力，现实进入文学与造型艺术；库尔贝、米勒、杜米埃以观察现实为起点。",
+      contentDe: `Im frühen 19. Jahrhundert verlor der Idealismus, der aus der Rückbesinnung auf vergangene Zeiten neue Lebensmaßstäbe gewinnen wollte, deutlich an Lebenskraft als Kunststil.
+
+Die Wirklichkeit begann, in Literatur und bildende Kunst einzuziehen. Maler wie Gustave Courbet, Jean-François Millet und Honoré Daumier nahmen die Realität und ihre genaue Beobachtung zum Ausgangspunkt ihrer künstlerischen Arbeit.`
+    },
+    {
+      id: "ocr-alltagsetikette",
+      titleDe: "Alltagsetikette in Deutschland",
+      titleZh: "德国日常礼仪",
+      levelHint: "B1",
+      source: "《德语学习》30周年精选 文化卷 OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "Fräulein 已过时；做客带小礼物但非义务；小费低调给，通常5%到10%。",
+      contentDe: `Die Anrede „Fräulein“ gilt heute als veraltet; Frauen werden mit „Frau“ angesprochen. Bei Einladungen ist ein Gastgeschenk üblich, aber nicht Pflicht – ein guter Witz und gute Laune genügen oft.
+
+Trinkgeld gibt man dezent und unauffällig, meist fünf bis zehn Prozent. „Mein Haus ist meine Burg“: Die eigene Wohnung gilt in Deutschland stark als Privatsphäre.`
+    },
+    {
+      id: "ocr-festkultur",
+      titleDe: "Die deutsche Festkultur",
+      titleZh: "德国节庆文化",
+      levelHint: "B1",
+      source: "《德语学习》30周年精选 文化卷 OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文化"],
+      summaryZh: "德国节庆名目繁多：54个带 Fest、37个带 Feier 的组合，从画室节到葡萄酒农节。",
+      contentDe: `Feierte man die Feste, wie sie fallen, und ließe man keinen Feieranlass aus, so bliebe einem wenig Zeit zu anderen Beschäftigungen. 54 Feste zählt ein Wörterbuch der Gegenwartssprache allein als Wortverbindungen unter dem Stichwort „Fest“ auf, 37 Feiern unter dem Stichwort „Feier“.
+
+Gefeiert werden die Einweihung, der Einzug, die Ernte, der Fasching, der Frieden, der Frühling, die Heimat, die Hochzeit, Neujahr, Ostern und Weihnachten. Es feiern Familien auf dem Familienfest, Kinder auf dem Kinderfest, Schützenvereine ihr Schützenfest, Sportler ihr Sportfest.`
+    },
+    {
+      id: "ocr-gebrauchslyrik",
+      titleDe: "Das Gedicht als Gebrauchsartikel",
+      titleZh: "作为“日用品”的诗歌",
+      levelHint: "C1",
+      source: "《德语学习》30周年精选 文化卷 OCR",
+      sourceUrl: "",
+      tags: ["OCR", "阅读", "文学"],
+      summaryZh: "现代诗被视为特殊的日用品：被使用却不会用旧；恩岑斯贝格与布莱希特都给诗集附使用说明。",
+      contentDe: `Das Gedicht ist eine Art Gegenstand, den Dritte „brauchen“, dessen sie bedürfen und dessen sie sich auch bedienen können. Man hat gesagt, das Gedicht sei ein Gebrauchsartikel wie jeder andere.
+
+Enzensberger legte seinem zweiten Lyrikband „Landessprache“ eine „Gebrauchsanweisung für unerschrockene Leser“ bei; Brecht hatte seine „Hauspostille“ schon 1927 mit einer „Anleitung zum Gebrauch der einzelnen Lektionen“ versehen. Das Gedicht wird gebraucht, aber es verbraucht sich nicht wie andere Gebrauchsartikel.`
     }
   ],
   phrases: [
@@ -1265,7 +2434,11 @@ Der Bogen, auf dem sich die Satelliten und Raumschiffe um die Erde bewegen, ist 
     { id: "ocr-ph-184", de: "Was haben Sie in den letzten Tagen gemacht?", zh: "您这几天做了什么？", example: "", exampleZh: "", level: "A2", category: "交流", source: "《标准德语900句》OCR" },
     { id: "ocr-ph-185", de: "Wie gefällt es Ihnen hier?", zh: "您喜欢这里吗？", example: "", exampleZh: "", level: "A2", category: "交流", source: "《标准德语900句》OCR" },
     { id: "ocr-ph-186", de: "Ich habe eine Reise ans Meer gemacht.", zh: "我去海边旅行了一趟。", example: "", exampleZh: "", level: "A2", category: "旅行", source: "《标准德语900句》OCR" },
-    { id: "ocr-ph-187", de: "Ich lerne Deutsch.", zh: "我在学德语。", example: "", exampleZh: "", level: "A1", category: "交流", source: "《标准德语900句》OCR" }
+    { id: "ocr-ph-187", de: "Ich lerne Deutsch.", zh: "我在学德语。", example: "", exampleZh: "", level: "A1", category: "交流", source: "《标准德语900句》OCR" },
+    { id: "ocr-ph-188", de: "Es blitzt ab und zu.", zh: "不时有闪电。", example: "", exampleZh: "", level: "A2", category: "天气", source: "《德英中对照 德语日常会话》OCR" },
+    { id: "ocr-ph-189", de: "Der Blitz hat eingeschlagen.", zh: "闪电击中了。", example: "", exampleZh: "", level: "B1", category: "天气", source: "《德英中对照 德语日常会话》OCR" },
+    { id: "ocr-ph-190", de: "Es hagelt.", zh: "下冰雹了。", example: "", exampleZh: "", level: "A2", category: "天气", source: "《德英中对照 德语日常会话》OCR" },
+    { id: "ocr-ph-191", de: "Es schneit nicht mehr.", zh: "雪停了。", example: "", exampleZh: "", level: "A1", category: "天气", source: "《德英中对照 德语日常会话》OCR" }
   ],
   grammar: [
     { id: "ocr-grammar-ch", title: "德语发音：ch 的两种读法", summary: "在 a/o/u/au 后，ch 读作 [x]（如 Buch、acht）；在其他元音后或词首、e/i 前，读作 [ç]（如 ich、Chemie）。", source: "《简明德语语法》OCR" },
@@ -1477,6 +2650,308 @@ Der Bogen, auf dem sich die Satelliten und Raumschiffe um die Erde bewegen, ist 
     { id: "ocr-word-149", word: "Überstunde", article: "die", pos: "noun", translation: "加班小时", level: "B1", plural: "die Überstunden", example: "Er macht jede Woche Überstunden.", exampleZh: "他每周都加班。", source: "《德语词汇联想与速记》OCR" },
     { id: "ocr-word-150", word: "Urlaub", article: "der", pos: "noun", translation: "假期；休假", level: "A1", plural: "die Urlaube", example: "Wir machen Urlaub in Spanien.", exampleZh: "我们在西班牙度假。", source: "《德语词汇联想与速记》OCR" },
     { id: "ocr-word-151", word: "Drama", article: "das", pos: "noun", translation: "戏剧", level: "B1", plural: "die Dramen", example: "Das Drama wird im Theater aufgeführt.", exampleZh: "这部戏剧在剧院上演。", source: "《德语词汇联想与速记》OCR" },
-    { id: "ocr-word-152", word: "Orchester", article: "das", pos: "noun", translation: "管弦乐队", level: "B1", plural: "die Orchester", example: "Das Orchester spielt heute Abend.", exampleZh: "管弦乐队今晚演出。", source: "《德语词汇联想与速记》OCR" }
+    { id: "ocr-word-152", word: "Orchester", article: "das", pos: "noun", translation: "管弦乐队", level: "B1", plural: "die Orchester", example: "Das Orchester spielt heute Abend.", exampleZh: "管弦乐队今晚演出。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-153", word: "Kreidefelsen", article: "der", pos: "noun", translation: "白垩岩", level: "B1", plural: "die Kreidefelsen", example: "Der Kreidefelsen ist das Wahrzeichen der Insel.", exampleZh: "白垩岩是这座岛的地标。", source: "《德语学习侦探故事 剧院之死》OCR" },
+    { id: "ocr-word-154", word: "Wahrzeichen", article: "das", pos: "noun", translation: "地标；标志", level: "B1", plural: "die Wahrzeichen", example: "Das Brandenburger Tor ist ein Wahrzeichen Berlins.", exampleZh: "勃兰登堡门是柏林的地标。", source: "《德语学习侦探故事 剧院之死》OCR" },
+    { id: "ocr-word-155", word: "Spedition", article: "die", pos: "noun", translation: "货运公司", level: "B1", plural: "die Speditionen", example: "Patrick fährt zur Spedition.", exampleZh: "帕特里克去货运公司。", source: "《德语学习侦探故事 密月惊魂》OCR" },
+    { id: "ocr-word-156", word: "Altbau", article: "der", pos: "noun", translation: "老建筑", level: "B1", plural: "die Altbauten", example: "Die Wohnung liegt in einem sanierten Altbau.", exampleZh: "这套公寓在一栋翻新的老建筑里。", source: "《德语学习侦探故事 投毒谋财案》OCR" },
+    { id: "ocr-word-157", word: "Charme", article: "der", pos: "noun", translation: "魅力", level: "B1", plural: "", example: "Die Wohnung hat einen besonderen Charme.", exampleZh: "这套公寓有特别的魅力。", source: "《德语学习侦探故事 投毒谋财案》OCR" },
+    { id: "ocr-word-158", word: "Loft", article: "das", pos: "noun", translation: "Loft；顶层大开间", level: "B2", plural: "die Lofts", example: "Sein Onkel wohnt in einem Loft.", exampleZh: "他叔叔住在一间 Loft 里。", source: "《德语学习侦探故事 最后一吻》OCR" },
+    { id: "ocr-word-159", word: "ermitteln", article: null, pos: "verb", translation: "调查；侦查", level: "B1", forms: "ermittelt, ermittelte, hat ermittelt", example: "Patrick ermittelt in dem Fall.", exampleZh: "帕特里克调查这个案子。", source: "《德语学习侦探故事 投毒谋财案》OCR" },
+    { id: "ocr-word-160", word: "Figur", article: "die", pos: "noun", translation: "人物；身材", level: "A2", plural: "die Figuren", example: "Die Figur im Roman ist sehr lebendig.", exampleZh: "小说里的人物很生动。", source: "《德语故事》OCR" },
+    { id: "ocr-word-161", word: "kichern", article: null, pos: "verb", translation: "咯咯笑；窃笑", level: "B1", forms: "kichert, kicherte, hat gekichert", example: "Die Kinder kichern leise.", exampleZh: "孩子们轻声咯咯笑。", source: "《德语故事》OCR" },
+    { id: "ocr-word-162", word: "Skizzenblock", article: "der", pos: "noun", translation: "速写本", level: "B1", plural: "die Skizzenblöcke", example: "Sie zeichnet in einem Skizzenblock.", exampleZh: "她在速写本上画画。", source: "《德语故事》OCR" },
+    { id: "ocr-word-163", word: "stottern", article: null, pos: "verb", translation: "结巴地说", level: "B1", forms: "stottert, stotterte, hat gestottert", example: "Er stottert, wenn er nervös ist.", exampleZh: "他紧张时说话结巴。", source: "《德语故事》OCR" },
+    { id: "ocr-word-164", word: "Trümmer", article: "die", pos: "noun", translation: "废墟；瓦砾", level: "B2", plural: "die Trümmer", example: "Nach dem Krieg lag die Stadt in Trümmern.", exampleZh: "战后城市变成一片废墟。", source: "《德国文学选读 4》OCR" },
+    { id: "ocr-word-165", word: "Luftbrücke", article: "die", pos: "noun", translation: "空运；空中桥梁", level: "B2", plural: "die Luftbrücken", example: "West-Berlin wurde über eine Luftbrücke versorgt.", exampleZh: "西柏林通过空运获得补给。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-166", word: "Abdruck", article: "der", pos: "noun", translation: "印痕；副本", level: "B2", plural: "die Abdrücke", example: "Der Abdruck im Schnee war deutlich.", exampleZh: "雪地里的印痕很清楚。", source: "《实用旅游德语》OCR" },
+    { id: "ocr-word-167", word: "Konsum", article: "der", pos: "noun", translation: "消费", level: "B2", plural: "", example: "Der Konsum von Zucker ist gestiegen.", exampleZh: "糖的消费增加了。", source: "《实用旅游德语》OCR" },
+    { id: "ocr-word-168", word: "abreißen", article: null, pos: "verb", translation: "撕下；拆除", level: "B1", forms: "reißt ab, riss ab, hat abgerissen", example: "Er reißt das Plakat von der Wand ab.", exampleZh: "他把海报从墙上撕下来。", source: "《实用旅游德语》OCR" },
+    { id: "ocr-word-169", word: "Safe", article: "der", pos: "noun", translation: "保险箱", level: "A2", plural: "die Safes", example: "Die Wertsachen liegen im Safe.", exampleZh: "贵重物品放在保险箱里。", source: "《实用旅游德语》OCR" },
+    { id: "ocr-word-170", word: "Batterie", article: "die", pos: "noun", translation: "电池", level: "A2", plural: "die Batterien", example: "Die Batterie ist leer.", exampleZh: "电池没电了。", source: "《实用旅游德语》OCR" },
+    { id: "ocr-word-171", word: "Fachhochschule", article: "die", pos: "noun", translation: "应用科学大学；高等专科学校", level: "B1", plural: "die Fachhochschulen", example: "In Deutschland gibt es etwa 150 Fachhochschulen.", exampleZh: "德国约有150所应用科学大学。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-172", word: "praxisorientiert", article: null, pos: "adj", translation: "注重实践的", level: "B2", forms: "praxisorientierter, am praxisorientiertesten", example: "Das Studium ist praxisorientiert.", exampleZh: "这个专业注重实践。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-173", word: "Kalender", article: "der", pos: "noun", translation: "日历；历法", level: "A2", plural: "die Kalender", example: "Der Kalender der Maya ist berühmt.", exampleZh: "玛雅历法很有名。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-174", word: "Schutzgottheit", article: "die", pos: "noun", translation: "守护神", level: "B2", plural: "die Schutzgottheiten", example: "Jeder Tag hatte den Namen einer Schutzgottheit.", exampleZh: "每一天都有一个守护神的名字。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-175", word: "Reaktor", article: "der", pos: "noun", translation: "反应堆", level: "B2", plural: "die Reaktoren", example: "Die Explosion zerstörte den Reaktor.", exampleZh: "爆炸摧毁了反应堆。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-176", word: "Schlafdefizit", article: "das", pos: "noun", translation: "睡眠不足", level: "B1", plural: "die Schlafdefizite", example: "Ein Schlafdefizit kann man nicht einfach nachholen.", exampleZh: "睡眠不足不能简单补回来。", source: "《新编大学德语阅读训练 3-4》OCR" },
+    { id: "ocr-word-177", word: "Supraleitung", article: "die", pos: "noun", translation: "超导", level: "B2", plural: "", example: "Onnes entdeckte die Supraleitung.", exampleZh: "昂内斯发现了超导。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-178", word: "Quecksilber", article: "das", pos: "noun", translation: "汞；水银", level: "B2", plural: "", example: "Quecksilber leitet bei tiefer Temperatur verlustfrei.", exampleZh: "汞在低温下无损耗导电。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-179", word: "Sprungtemperatur", article: "die", pos: "noun", translation: "转变温度；临界温度", level: "B2", plural: "die Sprungtemperaturen", example: "Die Sprungtemperatur liegt bei 46 Kelvin.", exampleZh: "临界温度是46开尔文。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-180", word: "Urknall", article: "der", pos: "noun", translation: "宇宙大爆炸", level: "B2", plural: "die Urknalle", example: "Der Urknall war der Anfang des Universums.", exampleZh: "大爆炸是宇宙的开端。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-181", word: "Singularität", article: "die", pos: "noun", translation: "奇点", level: "C1", plural: "die Singularitäten", example: "Am Anfang stand eine Singularität.", exampleZh: "起初是一个奇点。", source: "《科技德语阅读教程》OCR" },
+    { id: "ocr-word-182", word: "Anbaufläche", article: "die", pos: "noun", translation: "种植面积", level: "B2", plural: "die Anbauflächen", example: "Die Anbaufläche wächst jedes Jahr.", exampleZh: "种植面积每年都在扩大。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-183", word: "Kohlenmonoxid", article: "das", pos: "noun", translation: "一氧化碳", level: "B2", plural: "", example: "Der Ausstoß von Kohlenmonoxid steigt.", exampleZh: "一氧化碳排放量上升。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-184", word: "Stau", article: "der", pos: "noun", translation: "堵车；拥堵", level: "A2", plural: "die Staus", example: "Auf der Autobahn gibt es einen langen Stau.", exampleZh: "高速公路上堵了很长的车。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-185", word: "Energieverbrauch", article: "der", pos: "noun", translation: "能源消耗", level: "B1", plural: "", example: "Kurze Wege senken den Energieverbrauch.", exampleZh: "短途通勤降低能源消耗。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-186", word: "Stromspeicher", article: "der", pos: "noun", translation: "储能设备；电池", level: "B2", plural: "die Stromspeicher", example: "Elektroautos dienen als Stromspeicher.", exampleZh: "电动车可兼作储能设备。", source: "《欧标德语阅读教程 A2》OCR" },
+    { id: "ocr-word-187", word: "Schulpflicht", article: "die", pos: "noun", translation: "义务教育", level: "B1", plural: "", example: "In Deutschland gilt die Schulpflicht bis 18.", exampleZh: "德国义务教育到18岁。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-188", word: "Bruttosozialprodukt", article: "das", pos: "noun", translation: "国民生产总值", level: "B2", plural: "die Bruttosozialprodukte", example: "Fast 7 Prozent des Bruttosozialprodukts fließen in Bildung.", exampleZh: "国民生产总值的近7%投入教育。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-189", word: "Kummer", article: "der", pos: "noun", translation: "忧愁；苦恼", level: "B1", plural: "", example: "Sie konnte vor Kummer nicht essen.", exampleZh: "她愁得吃不下饭。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-190", word: "Millionär", article: "der", pos: "noun", translation: "百万富翁", level: "A2", plural: "die Millionäre", example: "Sie verliebte sich in einen Millionär.", exampleZh: "她爱上了一个百万富翁。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-191", word: "Roggen", article: "der", pos: "noun", translation: "黑麦", level: "B1", plural: "", example: "In der Region wird Roggen angebaut.", exampleZh: "该地区种植黑麦。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-192", word: "Studienabbrecher", article: "der", pos: "noun", translation: "辍学大学生", level: "B2", plural: "die Studienabbrecher", example: "Viele Studienabbrecher beginnen eine Ausbildung.", exampleZh: "许多辍学者开始职业培训。", source: "《德语高级阅读教程》OCR" },
+    { id: "ocr-word-193", word: "Zimmer", article: "das", pos: "noun", translation: "房间", level: "A1", plural: "die Zimmer", example: "Mein Zimmer ist klein, aber gemütlich.", exampleZh: "我的房间小但很舒服。", source: "《新编大学德语阅读训练 1-2》OCR" },
+    { id: "ocr-word-194", word: "Möbel", article: "das", pos: "noun", translation: "家具", level: "A2", plural: "die Möbel", example: "Die Möbel sind aus Holz.", exampleZh: "家具是木制的。", source: "《新编大学德语阅读训练 1-2》OCR" },
+    { id: "ocr-word-195", word: "Thüringen", article: "das", pos: "noun", translation: "图林根州", level: "B1", plural: "", example: "Thüringen liegt in Mitteldeutschland.", exampleZh: "图林根位于德国中部。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-196", word: "Automobil", article: "das", pos: "noun", translation: "汽车", level: "A2", plural: "die Automobile", example: "In Eisenach werden Automobile produziert.", exampleZh: "艾森纳赫生产汽车。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-197", word: "Keramik", article: "die", pos: "noun", translation: "陶瓷", level: "B1", plural: "die Keramiken", example: "Die Keramik aus Thüringen ist bekannt.", exampleZh: "图林根的陶瓷很有名。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-198", word: "Mörder", article: "der", pos: "noun", translation: "凶手；杀人犯", level: "B1", plural: "die Mörder", example: "Der Mörder wurde gefunden.", exampleZh: "凶手被找到了。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-199", word: "Aktentasche", article: "die", pos: "noun", translation: "公文包", level: "A2", plural: "die Aktentaschen", example: "Er trägt eine schwarze Aktentasche.", exampleZh: "他拿着一个黑色公文包。", source: "《大学德语阅读教程》OCR" },
+    { id: "ocr-word-200", word: "Jause", article: "die", pos: "noun", translation: "奥地利式加餐", level: "B1", plural: "die Jausen", example: "Nach dem Frühstück kommt die Jause.", exampleZh: "早餐之后是加餐。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-201", word: "Mehlspeise", article: "die", pos: "noun", translation: "面食甜点", level: "B1", plural: "die Mehlspeisen", example: "Österreicher mögen Mehlspeisen.", exampleZh: "奥地利人喜欢面食甜点。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-202", word: "Komponist", article: "der", pos: "noun", translation: "作曲家", level: "A2", plural: "die Komponisten", example: "Mozart war ein berühmter Komponist.", exampleZh: "莫扎特是著名作曲家。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-203", word: "Rohertrag", article: "der", pos: "noun", translation: "毛收益", level: "B2", plural: "die Roherträge", example: "Die Milchproduktion bildet 75 Prozent des Rohertrags.", exampleZh: "牛奶生产占毛收益的75%。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-204", word: "Tierhaltung", article: "die", pos: "noun", translation: "畜牧业；动物饲养", level: "B1", plural: "", example: "Die Berglandwirtschaft lebt von der Tierhaltung.", exampleZh: "山地农业依靠畜牧业。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-205", word: "Milchproduktion", article: "die", pos: "noun", translation: "牛奶生产", level: "B1", plural: "", example: "Die Milchproduktion ist wichtig.", exampleZh: "牛奶生产很重要。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-206", word: "Kanton", article: "der", pos: "noun", translation: "州（瑞士）", level: "A2", plural: "die Kantone", example: "Die Schweiz hat 26 Kantone.", exampleZh: "瑞士有26个州。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-207", word: "Katholizismus", article: "der", pos: "noun", translation: "天主教", level: "B2", plural: "", example: "Der Kanton ist Zentrum des Katholizismus.", exampleZh: "这个州是天主教中心。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-208", word: "innen", article: null, pos: "adv", translation: "在内部；在里面", level: "A2", forms: "", example: "Innen ist es warm und gemütlich.", exampleZh: "里面温暖舒适。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-209", word: "innerhalb", article: null, pos: "prep", translation: "在……之内", level: "B1", forms: "innerhalb der Stadt / des Landes", example: "Innerhalb der Stadt fährt man mit der U-Bahn.", exampleZh: "在城里人们乘地铁。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-210", word: "draußen", article: null, pos: "adv", translation: "在外面；户外", level: "A2", forms: "", example: "Die Kinder spielen draußen.", exampleZh: "孩子们在外面玩。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-211", word: "Lage", article: "die", pos: "noun", translation: "位置；处境", level: "B1", plural: "die Lagen", example: "Die Wohnung hat eine ruhige Lage.", exampleZh: "这套公寓位置安静。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-212", word: "betrachten", article: null, pos: "verb", translation: "观看；观察", level: "B1", forms: "betrachtet, betrachtete, hat betrachtet", example: "Er betrachtet das Bild lange.", exampleZh: "他久久地看着这幅画。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-213", word: "außerhalb", article: null, pos: "prep", translation: "在……之外", level: "B1", forms: "außerhalb der Stadt", example: "Wir wohnen außerhalb der Stadt.", exampleZh: "我们住在城外。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-214", word: "gegenüber", article: null, pos: "prep", translation: "在……对面", level: "A2", forms: "gegenüber dem Bahnhof", example: "Das Hotel liegt gegenüber dem Bahnhof.", exampleZh: "旅馆在火车站对面。", source: "《德语词汇联想与速记》OCR" },
+    { id: "ocr-word-215", word: "Vorwort", article: "das", pos: "noun", translation: "前言；序言", level: "B1", plural: "die Vorworte", example: "Im Vorwort erklärt der Autor sein Ziel.", exampleZh: "作者在前言中说明了他的目标。", source: "《德语泛读教程》OCR" },
+    { id: "ocr-word-216", word: "Inhalt", article: "der", pos: "noun", translation: "内容；目录", level: "A2", plural: "die Inhalte", example: "Der Inhalt des Buches ist vielfältig.", exampleZh: "这本书的内容很丰富。", source: "《德语泛读教程》OCR" },
+    { id: "ocr-word-217", word: "Kapitel", article: "das", pos: "noun", translation: "章节", level: "A2", plural: "die Kapitel", example: "Das erste Kapitel ist kurz.", exampleZh: "第一章很短。", source: "《德语泛读教程》OCR" },
+    { id: "ocr-word-218", word: "Übung", article: "die", pos: "noun", translation: "练习", level: "A1", plural: "die Übungen", example: "Die Übung ist nicht schwer.", exampleZh: "这个练习不难。", source: "《德语泛读教程》OCR" },
+    { id: "ocr-word-219", word: "Lektion", article: "die", pos: "noun", translation: "课；单元", level: "A1", plural: "die Lektionen", example: "Heute lernen wir Lektion fünf.", exampleZh: "今天我们学第五课。", source: "《德语泛读教程》OCR" },
+    { id: "ocr-word-220", word: "Übergewicht", article: "das", pos: "noun", translation: "超重；肥胖", level: "B1", plural: "", example: "Viele Kinder haben Übergewicht.", exampleZh: "许多儿童超重。", source: "《德语泛读教程 上》OCR" },
+    { id: "ocr-word-221", word: "Fertiggericht", article: "das", pos: "noun", translation: "速食；预制菜", level: "B1", plural: "die Fertiggerichte", example: "Fertiggerichte sind oft ungesund.", exampleZh: "速食常常不健康。", source: "《德语泛读教程 上》OCR" },
+    { id: "ocr-word-222", word: "Mikrowelle", article: "die", pos: "noun", translation: "微波炉", level: "A2", plural: "die Mikrowellen", example: "Er wärmt das Essen in der Mikrowelle.", exampleZh: "他用微波炉热饭。", source: "《德语泛读教程 上》OCR" },
+    { id: "ocr-word-223", word: "Stoffwechselstörung", article: "die", pos: "noun", translation: "代谢紊乱", level: "B2", plural: "die Stoffwechselstörungen", example: "Übergewicht kann Stoffwechselstörungen verursachen.", exampleZh: "超重可能引起代谢紊乱。", source: "《德语泛读教程 上》OCR" },
+    { id: "ocr-word-224", word: "Kaufkraft", article: "die", pos: "noun", translation: "购买力", level: "B2", plural: "die Kaufkräfte", example: "Ältere Menschen haben große Kaufkraft.", exampleZh: "老年人有很强的购买力。", source: "《德语泛读教程 中》OCR" },
+    { id: "ocr-word-225", word: "Halsband", article: "das", pos: "noun", translation: "项圈", level: "A2", plural: "die Halsbänder", example: "Sie kauft ein Halsband für ihren Hund.", exampleZh: "她给狗买了一个项圈。", source: "《德语轻松阅读》OCR" },
+    { id: "ocr-word-226", word: "Tierhandlung", article: "die", pos: "noun", translation: "宠物店", level: "B1", plural: "die Tierhandlungen", example: "Die Dame geht in eine Tierhandlung.", exampleZh: "这位女士走进一家宠物店。", source: "《德语轻松阅读》OCR" },
+    { id: "ocr-word-227", word: "Pudel", article: "der", pos: "noun", translation: "贵宾犬", level: "A2", plural: "die Pudel", example: "Ihr Pudel braucht ein neues Halsband.", exampleZh: "她的贵宾犬需要一个新项圈。", source: "《德语轻松阅读》OCR" },
+    { id: "ocr-word-228", word: "Archiv", article: "das", pos: "noun", translation: "档案馆；档案", level: "B1", plural: "die Archive", example: "Das Haus Baden öffnet seine Archive nicht.", exampleZh: "巴登家族不开放档案。", source: "《德语泛读教程 下》OCR" },
+    { id: "ocr-word-229", word: "Familiengruft", article: "die", pos: "noun", translation: "家族墓室", level: "B2", plural: "die Familiengrüfte", example: "Die Familiengruft ist verschlossen.", exampleZh: "家族墓室封闭着。", source: "《德语泛读教程 下》OCR" },
+    { id: "ocr-word-230", word: "Überreste", article: "die", pos: "noun", translation: "遗骸；残余", level: "B2", plural: "die Überreste", example: "Die Überreste des Säuglings ruhen dort.", exampleZh: "婴儿的遗骸安放在那里。", source: "《德语泛读教程 下》OCR" },
+    { id: "ocr-word-231", word: "Erbprinz", article: "der", pos: "noun", translation: "王储；世子", level: "B2", plural: "die Erbprinzen", example: "Er soll der Erbprinz von Baden gewesen sein.", exampleZh: "据说他是巴登王储。", source: "《德语泛读教程 下》OCR" },
+    { id: "ocr-word-232", word: "Hofangestellte", article: "die", pos: "noun", translation: "宫廷雇员", level: "B2", plural: "die Hofangestellten", example: "Das Kind einer Hofangestellten wurde untergeschoben.", exampleZh: "一名宫廷雇员的孩子被调包。", source: "《德语泛读教程 下》OCR" },
+    { id: "ocr-word-233", word: "Eindringling", article: "der", pos: "noun", translation: "入侵者", level: "B1", plural: "die Eindringlinge", example: "Die Eindringlinge zogen sich zurück.", exampleZh: "入侵者撤退了。", source: "《德语轻松阅读》OCR" },
+    { id: "ocr-word-234", word: "Rückzug", article: "der", pos: "noun", translation: "撤退", level: "B1", plural: "die Rückzüge", example: "Die Truppe war auf dem Rückzug.", exampleZh: "部队正在撤退。", source: "《德语轻松阅读》OCR" },
+    { id: "ocr-word-235", word: "Bankräuber", article: "der", pos: "noun", translation: "银行劫匪", level: "B1", plural: "die Bankräuber", example: "Die Bankräuber flohen mit dem Geld.", exampleZh: "银行劫匪带着钱逃走了。", source: "《德语泛读教程 上》OCR" },
+    { id: "ocr-word-236", word: "Hightech", article: "das", pos: "noun", translation: "高科技", level: "B1", plural: "", example: "Bankraub ist heute oft Hightech.", exampleZh: "今天的银行抢劫常常是高技术。", source: "《德语泛读教程 上》OCR" },
+    { id: "ocr-word-237", word: "Sandröhre", article: "die", pos: "noun", translation: "沙管", level: "B2", plural: "die Sandröhren", example: "Blitze erzeugen Sandröhren im Boden.", exampleZh: "闪电在地里形成沙管。", source: "《德语泛读教程 中》OCR" },
+    { id: "ocr-word-238", word: "Blitz", article: "der", pos: "noun", translation: "闪电", level: "A2", plural: "die Blitze", example: "Ein Blitz schlug in den Baum ein.", exampleZh: "一道闪电击中了树。", source: "《德语泛读教程 中》OCR" },
+    { id: "ocr-word-239", word: "Zoohandlung", article: "die", pos: "noun", translation: "宠物店", level: "A2", plural: "die Zoohandlungen", example: "Er kauft zehn Ratten in der Zoohandlung.", exampleZh: "他在宠物店买了十只老鼠。", source: "《人人读德语》OCR" },
+    { id: "ocr-word-240", word: "Ratte", article: "die", pos: "noun", translation: "老鼠", level: "A2", plural: "die Ratten", example: "Die Ratten leben in der Wohnung.", exampleZh: "老鼠住在公寓里。", source: "《人人读德语》OCR" },
+    { id: "ocr-word-241", word: "Schneemann", article: "der", pos: "noun", translation: "雪人", level: "A1", plural: "die Schneemänner", example: "Die Kinder bauen einen Schneemann.", exampleZh: "孩子们堆雪人。", source: "《德语轻松阅读》OCR" },
+    { id: "ocr-word-242", word: "Spatz", article: "der", pos: "noun", translation: "麻雀", level: "B1", plural: "die Spatzen", example: "Der Spatz sitzt auf dem Dach.", exampleZh: "麻雀坐在屋顶上。", source: "《德语轻松阅读》OCR" },
+    { id: "ocr-word-243", word: "Telefonmarkt", article: "der", pos: "noun", translation: "电话市场", level: "B1", plural: "die Telefonmärkte", example: "Der Telefonmarkt bietet viele Modelle.", exampleZh: "电话市场提供许多型号。", source: "《今日德国》OCR" },
+    { id: "ocr-word-244", word: "Palette", article: "die", pos: "noun", translation: "种类；调色板", level: "B2", plural: "die Paletten", example: "Es gibt eine breite Palette von Modellen.", exampleZh: "有种类繁多的型号。", source: "《今日德国》OCR" },
+    { id: "ocr-word-245", word: "Begleiter", article: "der", pos: "noun", translation: "伴侣；同伴", level: "B1", plural: "die Begleiter", example: "Das Telefon ist ein ständiger Begleiter.", exampleZh: "电话是常伴之物。", source: "《今日德国》OCR" },
+    { id: "ocr-word-246", word: "Telefonzelle", article: "die", pos: "noun", translation: "电话亭", level: "A2", plural: "die Telefonzellen", example: "Die Telefonzelle ist kaputt.", exampleZh: "电话亭坏了。", source: "《今日德国》OCR" },
+    { id: "ocr-word-247", word: "Schalter", article: "der", pos: "noun", translation: "柜台；开关", level: "A2", plural: "die Schalter", example: "Vor dem Schalter stehen lange Schlangen.", exampleZh: "柜台前排着长队。", source: "《今日德国》OCR" },
+    { id: "ocr-word-248", word: "Schlange", article: "die", pos: "noun", translation: "队伍；蛇", level: "A2", plural: "die Schlangen", example: "Die Schlange am Bahnhof ist lang.", exampleZh: "火车站的队伍很长。", source: "《今日德国》OCR" },
+    { id: "ocr-word-249", word: "Auskunft", article: "die", pos: "noun", translation: "问询；信息", level: "B1", plural: "die Auskünfte", example: "Er holt eine Auskunft am Schalter.", exampleZh: "他在柜台问信息。", source: "《今日德国》OCR" },
+    { id: "ocr-word-250", word: "Altersunterschied", article: "der", pos: "noun", translation: "年龄差异", level: "B1", plural: "die Altersunterschiede", example: "Zwischen Menschen gibt es Altersunterschiede.", exampleZh: "人与人之间存在年龄差异。", source: "《今日德国》OCR" },
+    { id: "ocr-word-251", word: "Hobby", article: "das", pos: "noun", translation: "爱好", level: "A1", plural: "die Hobbys", example: "Mein Hobby ist Musik.", exampleZh: "我的爱好是音乐。", source: "《新大学德语阅读教程 1》OCR" },
+    { id: "ocr-word-252", word: "Sekretärin", article: "die", pos: "noun", translation: "女秘书", level: "A2", plural: "die Sekretärinnen", example: "Frau Nentwich ist Sekretärin.", exampleZh: "内特维希女士是秘书。", source: "《新大学德语阅读教程 1》OCR" },
+    { id: "ocr-word-253", word: "Taler", article: "der", pos: "noun", translation: "塔勒（旧银币）", level: "B1", plural: "die Taler", example: "Die Sterne wurden zu blanken Talern.", exampleZh: "星星变成了闪亮的银币。", source: "《德语趣味阅读》OCR" },
+    { id: "ocr-word-254", word: "Botschaft", article: "die", pos: "noun", translation: "大使馆；消息", level: "A2", plural: "die Botschaften", example: "Die Botschaft liegt im Zentrum der Stadt.", exampleZh: "大使馆位于市中心。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-255", word: "Außenministerium", article: "das", pos: "noun", translation: "外交部", level: "B1", plural: "die Außenministerien", example: "Das Außenministerium prüft die Lage.", exampleZh: "外交部正在评估局势。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-256", word: "Regime", article: "das", pos: "noun", translation: "政权；体制", level: "B2", plural: "die Regime", example: "Das Regime provoziert erneut.", exampleZh: "该政权再次挑衅。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-257", word: "Eskalation", article: "die", pos: "noun", translation: "升级；恶化", level: "B2", plural: "die Eskalationen", example: "Angesichts der Eskalation wird die Lage geprüft.", exampleZh: "鉴于局势升级，正在评估情况。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-258", word: "Sprachlabor", article: "das", pos: "noun", translation: "语言实验室", level: "A2", plural: "die Sprachlabore", example: "Ich arbeite viel im Sprachlabor.", exampleZh: "我在语言实验室里学习很多。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-259", word: "Fortschritt", article: "der", pos: "noun", translation: "进步", level: "A2", plural: "die Fortschritte", example: "Ich mache langsam Fortschritte.", exampleZh: "我慢慢有了进步。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-260", word: "Vokabel", article: "die", pos: "noun", translation: "单词", level: "A1", plural: "die Vokabeln", example: "Ich lerne jeden Tag Vokabeln.", exampleZh: "我每天学单词。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-261", word: "Fehler", article: "der", pos: "noun", translation: "错误", level: "A1", plural: "die Fehler", example: "Ich mache oft Fehler.", exampleZh: "我经常犯错。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-262", word: "Museum", article: "das", pos: "noun", translation: "博物馆", level: "A2", plural: "die Museen", example: "Wir gehen am Wochenende ins Museum.", exampleZh: "我们周末去博物馆。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-263", word: "Kunstwerk", article: "das", pos: "noun", translation: "艺术品", level: "B1", plural: "die Kunstwerke", example: "Das Museum kauft alte Kunstwerke.", exampleZh: "博物馆购买古老艺术品。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-264", word: "Sammlung", article: "die", pos: "noun", translation: "收藏；藏品", level: "B1", plural: "die Sammlungen", example: "Die Sammlung umfasst 400 Bilder.", exampleZh: "藏品包括400幅画。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-265", word: "Besucher", article: "der", pos: "noun", translation: "参观者；访客", level: "A2", plural: "die Besucher", example: "Das Museum hat viele Besucher.", exampleZh: "博物馆有很多参观者。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-266", word: "Zigarre", article: "die", pos: "noun", translation: "雪茄", level: "B1", plural: "die Zigarren", example: "Er rollt eine Zigarre von sechs Gramm.", exampleZh: "他卷一支六克的雪茄。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-267", word: "Tabak", article: "der", pos: "noun", translation: "烟草", level: "B1", plural: "", example: "Der Tabak kommt aus verschiedenen Ländern.", exampleZh: "烟草来自不同国家。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-268", word: "Vitrine", article: "die", pos: "noun", translation: "玻璃展柜", level: "B2", plural: "die Vitrinen", example: "Die Zigarre liegt in einer Vitrine.", exampleZh: "雪茄放在玻璃展柜里。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-269", word: "Konklave", article: "das", pos: "noun", translation: "教皇选举会议", level: "C1", plural: "die Konklaven", example: "Das Konklave beginnt im Vatikan.", exampleZh: "教皇选举会议在梵蒂冈开始。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-270", word: "Kardinal", article: "der", pos: "noun", translation: "枢机主教", level: "B2", plural: "die Kardinäle", example: "Die Kardinäle versammeln sich in Rom.", exampleZh: "枢机主教们在罗马集会。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-271", word: "Papst", article: "der", pos: "noun", translation: "教皇", level: "A2", plural: "die Päpste", example: "Der Papst tritt zurück.", exampleZh: "教皇辞职。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-272", word: "Stimmzettel", article: "der", pos: "noun", translation: "选票", level: "B1", plural: "die Stimmzettel", example: "Nach jeder Wahl werden die Stimmzettel verbrannt.", exampleZh: "每轮投票后选票都会被烧掉。", source: "《德语时事阅读》OCR" },
+    { id: "ocr-word-273", word: "Weiterbildung", article: "die", pos: "noun", translation: "继续教育；进修", level: "B1", plural: "die Weiterbildungen", example: "Weiterbildung für Ältere ist ein Modellversuch.", exampleZh: "老年人继续教育是一个试点项目。", source: "《德语时文阅读与理解》OCR" },
+    { id: "ocr-word-274", word: "Semester", article: "das", pos: "noun", translation: "学期", level: "A2", plural: "die Semester", example: "Ältere Semester sitzen neben jungen Studenten.", exampleZh: "年长的学生坐在年轻学生旁边。", source: "《德语时文阅读与理解》OCR" },
+    { id: "ocr-word-275", word: "Lebenserfahrung", article: "die", pos: "noun", translation: "生活经验", level: "B1", plural: "", example: "Sie bereichern die Gespräche mit ihrer Lebenserfahrung.", exampleZh: "他们用生活经验丰富谈话。", source: "《德语时文阅读与理解》OCR" },
+    { id: "ocr-word-276", word: "Modellversuch", article: "der", pos: "noun", translation: "试点项目", level: "B2", plural: "die Modellversuche", example: "Der Modellversuch läuft seit zwei Jahren.", exampleZh: "试点项目已运行两年。", source: "《德语时文阅读与理解》OCR" },
+    { id: "ocr-word-277", word: "Kalender", article: "der", pos: "noun", translation: "日历；历法", level: "A2", plural: "die Kalender", example: "Der Kalender hat zwölf Monate.", exampleZh: "日历有十二个月。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-278", word: "Revolution", article: "die", pos: "noun", translation: "革命", level: "B1", plural: "die Revolutionen", example: "Die Französische Revolution begann 1789.", exampleZh: "法国大革命始于1789年。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-279", word: "Dekade", article: "die", pos: "noun", translation: "十年；旬", level: "B2", plural: "die Dekaden", example: "Die Monate wurden in drei Dekaden geteilt.", exampleZh: "每个月被分成三旬。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-280", word: "Arbeitszeit", article: "die", pos: "noun", translation: "工作时间", level: "A2", plural: "die Arbeitszeiten", example: "Die Arbeitszeit beträgt 38 Stunden pro Woche.", exampleZh: "每周工作38小时。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-281", word: "Zeitdruck", article: "der", pos: "noun", translation: "时间压力", level: "B1", plural: "", example: "Viele Menschen stehen unter Zeitdruck.", exampleZh: "许多人面临时间压力。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-282", word: "Freizeit", article: "die", pos: "noun", translation: "业余时间", level: "A1", plural: "", example: "In meiner Freizeit lese ich.", exampleZh: "业余时间我读书。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-283", word: "Statistik", article: "die", pos: "noun", translation: "统计", level: "B1", plural: "die Statistiken", example: "Die Statistik zeigt einen klaren Trend.", exampleZh: "统计显示出明显趋势。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-284", word: "Durchschnitt", article: "der", pos: "noun", translation: "平均", level: "B1", plural: "die Durchschnitte", example: "Im Durchschnitt arbeiten wir 40 Stunden.", exampleZh: "我们平均工作40小时。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-285", word: "Titanic", article: "die", pos: "noun", translation: "泰坦尼克号", level: "B1", plural: "", example: "Die Titanic sank 1912.", exampleZh: "泰坦尼克号于1912年沉没。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-286", word: "Wrack", article: "das", pos: "noun", translation: "残骸；沉船", level: "B2", plural: "die Wracks", example: "Das Wrack liegt im Schlamm.", exampleZh: "残骸躺在淤泥里。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-287", word: "Niete", article: "die", pos: "noun", translation: "铆钉", level: "B2", plural: "die Nieten", example: "Die Nieten hielten den Schiffsrumpf zusammen.", exampleZh: "铆钉把船体固定在一起。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-288", word: "Schlacke", article: "die", pos: "noun", translation: "炉渣；矿渣", level: "B2", plural: "die Schlacken", example: "Zu viel Schlacke macht Stahl brüchig.", exampleZh: "炉渣过多会使钢变脆。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-289", word: "Koffer", article: "der", pos: "noun", translation: "行李箱", level: "A1", plural: "die Koffer", example: "Bringen Sie mir Ihren Koffer.", exampleZh: "请把您的行李箱带来。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-290", word: "Reparatur", article: "die", pos: "noun", translation: "修理", level: "A2", plural: "die Reparaturen", example: "Die Reparatur dauert bis morgen.", exampleZh: "修理要持续到明天。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-291", word: "Auslandserfahrung", article: "die", pos: "noun", translation: "海外经历", level: "B1", plural: "die Auslandserfahrungen", example: "Sie sammelt Auslandserfahrung in Prag.", exampleZh: "她在布拉格积累海外经历。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-292", word: "Gymnasium", article: "das", pos: "noun", translation: "文理中学", level: "A2", plural: "die Gymnasien", example: "Er geht auf ein Schweizer Gymnasium.", exampleZh: "他上瑞士的文理中学。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-293", word: "Wärmepumpe", article: "die", pos: "noun", translation: "热泵", level: "B2", plural: "die Wärmepumpen", example: "Die Wärmepumpe bringt die Wärme auf Zimmertemperatur.", exampleZh: "热泵把热量提升到室温。", source: "《德语时文阅读与理解》OCR" },
+    { id: "ocr-word-294", word: "Heizung", article: "die", pos: "noun", translation: "供暖；暖气", level: "A2", plural: "die Heizungen", example: "Die Heizung ist im Winter an.", exampleZh: "冬天暖气开着。", source: "《德语时文阅读与理解》OCR" },
+    { id: "ocr-word-295", word: "Gastarbeiter", article: "der", pos: "noun", translation: "外籍劳工", level: "B1", plural: "die Gastarbeiter", example: "Viele Gastarbeiter lebten in Deutschland.", exampleZh: "许多外籍劳工生活在德国。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-296", word: "Heimweh", article: "das", pos: "noun", translation: "思乡", level: "B1", plural: "", example: "In der ersten Zeit hatte ich Heimweh.", exampleZh: "起初我很想家。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-297", word: "Ballon", article: "der", pos: "noun", translation: "气球；热气球", level: "A2", plural: "die Ballons", example: "Der Ballon fliegt um die Welt.", exampleZh: "热气球环游世界。", source: "《德语阅读入门》OCR" },
+    { id: "ocr-word-298", word: "Osterei", article: "das", pos: "noun", translation: "复活节彩蛋", level: "A1", plural: "die Ostereier", example: "Die Kinder suchen die Ostereier.", exampleZh: "孩子们寻找复活节彩蛋。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-299", word: "Marzipan", article: "das", pos: "noun", translation: "杏仁糖膏", level: "B1", plural: "", example: "Das Ei besteht aus Schokolade und Marzipan.", exampleZh: "这个蛋由巧克力和杏仁糖膏制成。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-300", word: "Bundestag", article: "der", pos: "noun", translation: "联邦议院", level: "B1", plural: "", example: "Der Bundestag tagt in Berlin.", exampleZh: "联邦议院在柏林开会。", source: "《基础德语读本》OCR" },
+    { id: "ocr-word-301", word: "Abgeordnete", article: "der", pos: "noun", translation: "议员", level: "B1", plural: "die Abgeordneten", example: "Die Abgeordneten debattieren im Plenarsaal.", exampleZh: "议员们在全体会议厅辩论。", source: "《基础德语读本》OCR" },
+    { id: "ocr-word-302", word: "Opposition", article: "die", pos: "noun", translation: "反对派", level: "B2", plural: "die Oppositionen", example: "Die Opposition kritisiert den Vorschlag.", exampleZh: "反对派批评这项提议。", source: "《基础德语读本》OCR" },
+    { id: "ocr-word-303", word: "Debatte", article: "die", pos: "noun", translation: "辩论", level: "B1", plural: "die Debatten", example: "Es kommt zu einer heißen Debatte.", exampleZh: "爆发了激烈的辩论。", source: "《基础德语读本》OCR" },
+    { id: "ocr-word-304", word: "Ausrüstung", article: "die", pos: "noun", translation: "装备", level: "B1", plural: "die Ausrüstungen", example: "Die Ausrüstung für den Sport ist teuer.", exampleZh: "运动装备很贵。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-305", word: "Trainerstunde", article: "die", pos: "noun", translation: "教练课", level: "A2", plural: "die Trainerstunden", example: "Trainerstunden kosten zusätzlich Geld.", exampleZh: "教练课还要额外花钱。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-306", word: "Nachhilfe", article: "die", pos: "noun", translation: "课外辅导", level: "B1", plural: "die Nachhilfen", example: "Sie gibt Nachhilfe in Französisch.", exampleZh: "她辅导法语。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-307", word: "Dachboden", article: "der", pos: "noun", translation: "阁楼", level: "A2", plural: "die Dachböden", example: "Die alten Sachen liegen auf dem Dachboden.", exampleZh: "旧东西放在阁楼上。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-308", word: "Radio", article: "das", pos: "noun", translation: "收音机；广播", level: "A1", plural: "die Radios", example: "Das Radio läuft den ganzen Abend.", exampleZh: "收音机整晚开着。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-309", word: "Unterhaltung", article: "die", pos: "noun", translation: "谈话；娱乐", level: "B1", plural: "die Unterhaltungen", example: "Bei lebhafter Unterhaltung stört die Musik.", exampleZh: "热烈交谈时音乐很碍事。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-310", word: "Sitte", article: "die", pos: "noun", translation: "风俗；礼节", level: "B2", plural: "die Sitten", example: "Das ist keine gute Sitte.", exampleZh: "这不是好习惯。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-311", word: "Hausarbeit", article: "die", pos: "noun", translation: "家务", level: "A2", plural: "die Hausarbeiten", example: "Die Hausarbeit bleibt oft an der Frau hängen.", exampleZh: "家务常常落在妻子身上。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-312", word: "Geschirr", article: "das", pos: "noun", translation: "餐具", level: "A2", plural: "die Geschirre", example: "Er nimmt ein Geschirrtuch in die Hand.", exampleZh: "他拿起一块擦碗布。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-313", word: "Einkauf", article: "der", pos: "noun", translation: "购物", level: "A1", plural: "die Einkäufe", example: "Nach der Arbeit macht sie die Einkäufe.", exampleZh: "下班后她去购物。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-314", word: "Wäsche", article: "die", pos: "noun", translation: "衣物；洗衣", level: "A2", plural: "die Wäschen", example: "Am Wochenende wasche ich die Wäsche.", exampleZh: "周末我洗衣服。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-315", word: "Krimi", article: "der", pos: "noun", translation: "侦探片；侦探小说", level: "B1", plural: "die Krimis", example: "Sie sehen lieber einen Krimi.", exampleZh: "他们更愿意看侦探片。", source: "《德语快速阅读与理解》OCR" },
+    { id: "ocr-word-316", word: "Olympia", article: "das", pos: "noun", translation: "奥运会", level: "A2", plural: "", example: "Jugend trainiert für Olympia.", exampleZh: "青少年为奥运而训练。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-317", word: "Medaille", article: "die", pos: "noun", translation: "奖牌", level: "A2", plural: "die Medaillen", example: "Die Mannschaft holt eine Medaille.", exampleZh: "队伍赢得一枚奖牌。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-318", word: "Schulmannschaft", article: "die", pos: "noun", translation: "校队", level: "B1", plural: "die Schulmannschaften", example: "Er spielt in der Schulmannschaft.", exampleZh: "他在校队踢球。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-319", word: "Urlaub", article: "der", pos: "noun", translation: "假期；休假", level: "A1", plural: "die Urlaube", example: "Im Urlaub will ich meine Ruhe haben.", exampleZh: "度假时我想安静。", source: "《新标准德语强化教程 阅读训练》OCR" },
+    { id: "ocr-word-320", word: "Flirt", article: "der", pos: "noun", translation: "调情；短暂恋情", level: "B1", plural: "die Flirts", example: "Ein Flirt ist nur im Urlaub erlaubt.", exampleZh: "调情只在假期允许。", source: "《新标准德语强化教程 阅读训练》OCR" },
+    { id: "ocr-word-321", word: "Freundin", article: "die", pos: "noun", translation: "女朋友；女性朋友", level: "A1", plural: "die Freundinnen", example: "Meine Freundin reist gern allein.", exampleZh: "我女朋友喜欢独自旅行。", source: "《新标准德语强化教程 阅读训练》OCR" },
+    { id: "ocr-word-322", word: "Strand", article: "der", pos: "noun", translation: "海滩", level: "A2", plural: "die Strände", example: "Wir waren die ganze Nacht am Strand.", exampleZh: "我们整夜待在海滩。", source: "《新标准德语强化教程 阅读训练》OCR" },
+    { id: "ocr-word-323", word: "Entdeckungsreise", article: "die", pos: "noun", translation: "探索之旅", level: "B1", plural: "die Entdeckungsreisen", example: "Wir waren auf Entdeckungsreise.", exampleZh: "我们在探索旅行。", source: "《新标准德语强化教程 阅读训练》OCR" },
+    { id: "ocr-word-324", word: "Erdbeben", article: "das", pos: "noun", translation: "地震", level: "A2", plural: "die Erdbeben", example: "Das Erdbeben zerstörte viele Häuser.", exampleZh: "地震摧毁了许多房屋。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-325", word: "Trümmer", article: "die", pos: "noun", translation: "废墟", level: "B1", plural: "die Trümmer", example: "Sie wurde aus den Trümmern geborgen.", exampleZh: "她被从废墟中救出。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-326", word: "Sicherheitskräfte", article: "die", pos: "noun", translation: "安全部队", level: "B2", plural: "die Sicherheitskräfte", example: "Die Sicherheitskräfte sperren das Gebiet.", exampleZh: "安全部队封锁了地区。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-327", word: "Unglücksgebiet", article: "das", pos: "noun", translation: "灾区", level: "B2", plural: "die Unglücksgebiete", example: "Journalisten dürfen nicht ins Unglücksgebiet.", exampleZh: "记者不得进入灾区。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-328", word: "Zivilschutz", article: "der", pos: "noun", translation: "民防", level: "B2", plural: "", example: "Zivilschutz und Freiwillige retten Leben.", exampleZh: "民防和志愿者在救人。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-329", word: "Freiwillige", article: "der", pos: "noun", translation: "志愿者", level: "B1", plural: "die Freiwilligen", example: "Viele Freiwillige helfen beim Aufbau.", exampleZh: "许多志愿者参与重建。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-330", word: "Solidarität", article: "die", pos: "noun", translation: "团结；声援", level: "B2", plural: "", example: "Der Papst drückt seine Solidarität aus.", exampleZh: "教皇表达声援。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-331", word: "Panne", article: "die", pos: "noun", translation: "故障；抛锚", level: "A2", plural: "die Pannen", example: "Das Auto hatte eine Panne.", exampleZh: "汽车抛锚了。", source: "《德语快速阅读》OCR" },
+    { id: "ocr-word-332", word: "Freizeitkleidung", article: "die", pos: "noun", translation: "休闲服装", level: "B1", plural: "", example: "Freizeitkleidung ist bequem und praktisch.", exampleZh: "休闲服装舒适实用。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-333", word: "Sonntagskleidung", article: "die", pos: "noun", translation: "节日服装", level: "B1", plural: "", example: "Die Trennung von Alltags- und Sonntagskleidung ist vorbei.", exampleZh: "日常服装与节日服装的界限已消失。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-334", word: "Musiktherapie", article: "die", pos: "noun", translation: "音乐治疗", level: "B2", plural: "die Musiktherapien", example: "Musiktherapie hilft bei vielen Krankheiten.", exampleZh: "音乐治疗对许多疾病有帮助。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-335", word: "Patient", article: "der", pos: "noun", translation: "病人", level: "A2", plural: "die Patienten", example: "Der Patient hört Musik.", exampleZh: "病人在听音乐。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-336", word: "Therapie", article: "die", pos: "noun", translation: "治疗", level: "B1", plural: "die Therapien", example: "Die Therapie dauert mehrere Wochen.", exampleZh: "治疗持续数周。", source: "《德语报刊阅读》OCR" },
+    { id: "ocr-word-337", word: "Steuergeld", article: "das", pos: "noun", translation: "税款", level: "B2", plural: "die Steuergelder", example: "Über zwei Milliarden DM Steuergelder werden ausgegeben.", exampleZh: "支出超过二十亿马克税款。", source: "《德语阅读理解》OCR" },
+    { id: "ocr-word-338", word: "Schauspielerin", article: "die", pos: "noun", translation: "女演员", level: "A2", plural: "die Schauspielerinnen", example: "Die Schauspielerin gibt ein Interview.", exampleZh: "女演员接受采访。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-339", word: "Casting", article: "das", pos: "noun", translation: "试镜；选角", level: "B1", plural: "die Castings", example: "Sie geht zu vielen Castings.", exampleZh: "她参加许多试镜。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-340", word: "Rolle", article: "die", pos: "noun", translation: "角色", level: "A2", plural: "die Rollen", example: "Sie bekommt viele Rollen nicht.", exampleZh: "她拿不到许多角色。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-341", word: "Interview", article: "das", pos: "noun", translation: "采访", level: "A2", plural: "die Interviews", example: "Das Interview dauert noch 20 Minuten.", exampleZh: "采访还有20分钟。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-342", word: "Aufnahmegerät", article: "das", pos: "noun", translation: "录音设备", level: "B1", plural: "die Aufnahmegeräte", example: "Er nimmt das Aufnahmegerät in die Hand.", exampleZh: "他拿起录音设备。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-343", word: "Energie", article: "die", pos: "noun", translation: "能量；精力", level: "A2", plural: "die Energien", example: "Viele Interviews kosten viel Energie.", exampleZh: "许多采访耗费很多精力。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-344", word: "Studium", article: "das", pos: "noun", translation: "大学学业", level: "A2", plural: "die Studien", example: "Sie beginnt ein Studium.", exampleZh: "她开始大学学业。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-345", word: "entspannen", article: null, pos: "verb", translation: "放松", level: "A2", forms: "entspannt, entspannte, hat entspannt", example: "Ich kann mich auch mal entspannen.", exampleZh: "我也可以放松一下。", source: "《新编德语报刊阅读》OCR" },
+    { id: "ocr-word-346", word: "Mauerfall", article: "der", pos: "noun", translation: "柏林墙倒塌", level: "B1", plural: "", example: "Der Mauerfall jährt sich 2024 zum 35. Mal.", exampleZh: "2024年是柏林墙倒塌35周年。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-347", word: "Zeitzeuge", article: "der", pos: "noun", translation: "历史见证人", level: "B2", plural: "die Zeitzeugen", example: "Drei Zeitzeugen erinnern sich an den Mauerfall.", exampleZh: "三位历史见证人回忆柏林墙倒塌。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-348", word: "Grenzübergang", article: "der", pos: "noun", translation: "边境检查站", level: "B1", plural: "die Grenzübergänge", example: "Am Grenzübergang standen Tausende Menschen.", exampleZh: "边境检查站站着数千人。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-349", word: "Staatsbankett", article: "das", pos: "noun", translation: "国宴", level: "B2", plural: "die Staatsbankette", example: "Während des Staatsbanketts erreichten ihn die ersten Gerüchte.", exampleZh: "国宴期间他收到了最初的消息。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-350", word: "Advent", article: "der", pos: "noun", translation: "降临节", level: "A2", plural: "", example: "Der Advent beginnt vier Wochen vor Weihnachten.", exampleZh: "降临节在圣诞节前四周开始。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-351", word: "Adventskalender", article: "der", pos: "noun", translation: "圣诞日历", level: "A2", plural: "die Adventskalender", example: "Der Adventskalender hat 24 Türchen.", exampleZh: "圣诞日历有24扇小门。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-352", word: "Adventskranz", article: "der", pos: "noun", translation: "降临节花环", level: "A2", plural: "die Adventskränze", example: "Auf dem Adventskranz brennen vier Kerzen.", exampleZh: "降临节花环上点着四支蜡烛。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-353", word: "Karneval", article: "der", pos: "noun", translation: "狂欢节", level: "A2", plural: "die Karnevale", example: "Karneval wird im Rheinland groß gefeiert.", exampleZh: "莱茵地区隆重庆祝狂欢节。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-354", word: "Oktoberfest", article: "das", pos: "noun", translation: "慕尼黑啤酒节", level: "A2", plural: "", example: "Das Oktoberfest findet in München statt.", exampleZh: "慕尼黑啤酒节在慕尼黑举行。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-355", word: "Biergarten", article: "der", pos: "noun", translation: "啤酒花园", level: "A2", plural: "die Biergärten", example: "Im Biergarten sitzt man unter großen Bäumen.", exampleZh: "人们在啤酒花园的大树下坐着。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-356", word: "Gartenwirtschaft", article: "die", pos: "noun", translation: "露天餐饮店", level: "B2", plural: "die Gartenwirtschaften", example: "Der Biergarten ist eine Gartenwirtschaft.", exampleZh: "啤酒花园是一种露天餐饮店。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-357", word: "Mietvertrag", article: "der", pos: "noun", translation: "租赁合同", level: "B1", plural: "die Mietverträge", example: "Der Mietvertrag kann schriftlich abgeschlossen werden.", exampleZh: "租赁合同可以书面签订。", source: "《初到德国》OCR" },
+    { id: "ocr-word-358", word: "Vermieter", article: "der", pos: "noun", translation: "房东；出租人", level: "A2", plural: "die Vermieter", example: "Der Vermieter bezahlt die Nebenkosten.", exampleZh: "房东支付附加费用。", source: "《初到德国》OCR" },
+    { id: "ocr-word-359", word: "Reiseland", article: "das", pos: "noun", translation: "旅游目的地", level: "B1", plural: "die Reiseländer", example: "Deutschland ist das beliebteste Reiseland der Deutschen.", exampleZh: "德国是德国人最喜欢的旅游目的地。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-360", word: "Marktanteil", article: "der", pos: "noun", translation: "市场份额", level: "B2", plural: "die Marktanteile", example: "Der Marktanteil liegt bei über 30 Prozent.", exampleZh: "市场份额超过30%。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-361", word: "Automobilindustrie", article: "die", pos: "noun", translation: "汽车工业", level: "B1", plural: "die Automobilindustrien", example: "Die Automobilindustrie ist wichtig für Deutschland.", exampleZh: "汽车工业对德国很重要。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-362", word: "Marke", article: "die", pos: "noun", translation: "品牌", level: "A2", plural: "die Marken", example: "VW, BMW und Porsche sind bekannte Marken.", exampleZh: "大众、宝马和保时捷是著名品牌。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-363", word: "Flohmarkt", article: "der", pos: "noun", translation: "跳蚤市场", level: "A2", plural: "die Flohmärkte", example: "Am Sonntag gehen wir auf den Flohmarkt.", exampleZh: "周日我们去跳蚤市场。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-364", word: "Wahlsystem", article: "das", pos: "noun", translation: "选举制度", level: "B1", plural: "die Wahlsysteme", example: "Das deutsche Wahlsystem ist eine Mischung aus Direkt- und Listenwahl.", exampleZh: "德国选举制度是直选与名单选举的混合。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-365", word: "Erststimme", article: "die", pos: "noun", translation: "第一票", level: "B2", plural: "die Erststimmen", example: "Mit der Erststimme wählt man einen Direktkandidaten.", exampleZh: "第一票选举直选候选人。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-366", word: "Zweitstimme", article: "die", pos: "noun", translation: "第二票", level: "B2", plural: "die Zweitstimmen", example: "Mit der Zweitstimme wählt man die Partei.", exampleZh: "第二票投给政党。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-367", word: "Lederhose", article: "die", pos: "noun", translation: "皮裤", level: "A2", plural: "die Lederhosen", example: "Auf dem Oktoberfest trägt man oft eine Lederhose.", exampleZh: "在啤酒节上人们常穿皮裤。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-368", word: "Dirndl", article: "das", pos: "noun", translation: "紧身连衣裙", level: "A2", plural: "die Dirndl", example: "Zum Dirndl gehören Bluse, Kleid und Schürze.", exampleZh: "紧身连衣裙包括衬衫、裙子和围裙。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-369", word: "Tracht", article: "die", pos: "noun", translation: "传统服饰", level: "B1", plural: "die Trachten", example: "Die Tracht wird heute vor allem auf Volksfesten getragen.", exampleZh: "如今传统服饰主要在民间节日穿着。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-370", word: "Architektur", article: "die", pos: "noun", translation: "建筑；建筑学", level: "A2", plural: "die Architekturen", example: "Die Architektur erzählt von der Geschichte.", exampleZh: "建筑讲述历史。", source: "《文化视窗高级德语教程 2》OCR" },
+    { id: "ocr-word-371", word: "Mittelstand", article: "der", pos: "noun", translation: "中小企业；中产阶层", level: "B2", plural: "", example: "Der Mittelstand prägt die deutsche Wirtschaft.", exampleZh: "中小企业塑造德国经济。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-372", word: "Wettbewerb", article: "der", pos: "noun", translation: "竞争；比赛", level: "B1", plural: "die Wettbewerbe", example: "Freier Wettbewerb gehört zur sozialen Marktwirtschaft.", exampleZh: "自由竞争属于社会市场经济。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-373", word: "Sozialstaat", article: "der", pos: "noun", translation: "社会福利国家", level: "B2", plural: "die Sozialstaaten", example: "Deutschland ist ein Sozialstaat.", exampleZh: "德国是社会福利国家。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-374", word: "Infrastruktur", article: "die", pos: "noun", translation: "基础设施", level: "B2", plural: "die Infrastrukturen", example: "Der Staat investiert in die Infrastruktur.", exampleZh: "国家投资基础设施。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-375", word: "Briefwechsel", article: "der", pos: "noun", translation: "书信往来", level: "B2", plural: "die Briefwechsel", example: "Wir kennen Beethoven aus seinen Briefwechseln.", exampleZh: "我们通过书信往来了解贝多芬。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-376", word: "Tagebuch", article: "das", pos: "noun", translation: "日记", level: "A2", plural: "die Tagebücher", example: "Er schreibt jeden Abend ins Tagebuch.", exampleZh: "他每晚写日记。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-377", word: "Selbststilisierung", article: "die", pos: "noun", translation: "自我美化；自我塑造", level: "C1", plural: "die Selbststilisierungen", example: "Beethoven war jede Selbststilisierung fremd.", exampleZh: "贝多芬不习惯任何自我美化。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-378", word: "Gönner", article: "der", pos: "noun", translation: "赞助人；恩主", level: "B2", plural: "die Gönner", example: "Fürst Lichnowsky war ein Gönner Beethovens.", exampleZh: "利希诺夫斯基亲王是贝多芬的赞助人。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-379", word: "Ausbildung", article: "die", pos: "noun", translation: "职业培训；教育", level: "A2", plural: "die Ausbildungen", example: "Die duale Ausbildung verbindet Betrieb und Schule.", exampleZh: "双元制培训把企业和学校结合起来。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-380", word: "Berufsakademie", article: "die", pos: "noun", translation: "职业学院", level: "B2", plural: "die Berufsakademien", example: "An Berufsakademien wechseln Studium und Ausbildung.", exampleZh: "在职业学院，学习与培训交替进行。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-381", word: "Musikhochschule", article: "die", pos: "noun", translation: "音乐学院", level: "B1", plural: "die Musikhochschulen", example: "Die Leipziger Musikhochschule wurde 1843 gegründet.", exampleZh: "莱比锡音乐学院创建于1843年。", source: "《德语国家国情1000题》OCR" },
+    { id: "ocr-word-382", word: "Berufsschule", article: "die", pos: "noun", translation: "职业学校", level: "A2", plural: "die Berufsschulen", example: "Azubis gehen einmal pro Woche zur Berufsschule.", exampleZh: "学徒每周去一次职业学校。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-383", word: "Machtdistanz", article: "die", pos: "noun", translation: "权力距离", level: "C1", plural: "die Machtdistanzen", example: "Deutschland hat eine geringe Machtdistanz.", exampleZh: "德国权力距离较低。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-384", word: "Individualismus", article: "der", pos: "noun", translation: "个人主义", level: "B2", plural: "", example: "Individualismus betont die Eigenverantwortung.", exampleZh: "个人主义强调个人责任。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-385", word: "Kollektivismus", article: "der", pos: "noun", translation: "集体主义", level: "B2", plural: "", example: "Kollektivismus betont die Gruppe.", exampleZh: "集体主义强调群体。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-386", word: "Kulturvergleich", article: "der", pos: "noun", translation: "文化比较", level: "B1", plural: "die Kulturvergleiche", example: "Hofstede arbeitet mit Kulturvergleichen.", exampleZh: "霍夫斯泰德从事文化比较。", source: "《文化视窗高级德语教程 1》OCR" },
+    { id: "ocr-word-387", word: "Jugendherberge", article: "die", pos: "noun", translation: "青年旅舍", level: "A2", plural: "die Jugendherbergen", example: "Wir übernachten in einer Jugendherberge.", exampleZh: "我们住在青年旅舍。", source: "《德语国家国情文化 练习册》OCR" },
+    { id: "ocr-word-388", word: "Feiertag", article: "der", pos: "noun", translation: "节日；假日", level: "A1", plural: "die Feiertage", example: "Der 3. Oktober ist ein Feiertag.", exampleZh: "10月3日是节日。", source: "《初到德国》OCR" },
+    { id: "ocr-word-389", word: "Heiligabend", article: "der", pos: "noun", translation: "平安夜", level: "A1", plural: "", example: "Heiligabend ist am 24. Dezember.", exampleZh: "平安夜是12月24日。", source: "《初到德国》OCR" },
+    { id: "ocr-word-390", word: "Klassenfahrt", article: "die", pos: "noun", translation: "班级郊游", level: "A2", plural: "die Klassenfahrten", example: "Die Klasse macht eine Klassenfahrt.", exampleZh: "班级组织一次郊游。", source: "《德语国家国情文化 练习册》OCR" },
+    { id: "ocr-word-391", word: "Praktikum", article: "das", pos: "noun", translation: "实习", level: "A2", plural: "die Praktika", example: "Ein Praktikum im Ausland verbessert die Jobchancen.", exampleZh: "海外实习提高就业机会。", source: "《德语国家国情文化 学生读本》OCR" },
+    { id: "ocr-word-392", word: "Berufserfahrung", article: "die", pos: "noun", translation: "工作经验", level: "B1", plural: "", example: "Haben Sie schon Berufserfahrung?", exampleZh: "您有工作经验吗？", source: "《德语国家国情文化 学生读本》OCR" },
+    { id: "ocr-word-393", word: "Finanzplatz", article: "der", pos: "noun", translation: "金融中心", level: "B2", plural: "die Finanzplätze", example: "Frankfurt ist der wichtigste Finanzplatz Deutschlands.", exampleZh: "法兰克福是德国最重要的金融中心。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-394", word: "Börse", article: "die", pos: "noun", translation: "交易所；股市", level: "B1", plural: "die Börsen", example: "Die Deutsche Börse sitzt in Frankfurt.", exampleZh: "德意志交易所位于法兰克福。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-395", word: "Nachkriegsliteratur", article: "die", pos: "noun", translation: "战后文学", level: "B2", plural: "", example: "Böll prägte die Nachkriegsliteratur.", exampleZh: "伯尔影响了战后文学。", source: "《德语国家国情文化 学生读本》OCR" },
+    { id: "ocr-word-396", word: "Weihnachtsbaum", article: "der", pos: "noun", translation: "圣诞树", level: "A2", plural: "die Weihnachtsbäume", example: "Der Weihnachtsbaum ist mit Kerzen geschmückt.", exampleZh: "圣诞树用蜡烛装饰。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-397", word: "Weihnachtsmann", article: "der", pos: "noun", translation: "圣诞老人", level: "A1", plural: "die Weihnachtsmänner", example: "Der Weihnachtsmann kommt am 6. Dezember.", exampleZh: "圣诞老人12月6日来。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-398", word: "Christkind", article: "das", pos: "noun", translation: "圣婴（圣诞送礼者）", level: "A2", plural: "", example: "In Süddeutschland bringt das Christkind die Geschenke.", exampleZh: "在德国南部，圣婴送来礼物。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-399", word: "Bevölkerung", article: "die", pos: "noun", translation: "人口；居民", level: "A2", plural: "die Bevölkerungen", example: "Deutschland hat 81 Millionen Einwohner.", exampleZh: "德国有8100万居民。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-400", word: "Geburtenrate", article: "die", pos: "noun", translation: "出生率", level: "B2", plural: "die Geburtenraten", example: "Die Geburtenrate ist niedrig.", exampleZh: "出生率很低。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-401", word: "Industriegebiet", article: "das", pos: "noun", translation: "工业区", level: "B1", plural: "die Industriegebiete", example: "Das Rheinisch-Westfälische Industriegebiet ist bekannt.", exampleZh: "莱茵-威斯特法伦工业区很有名。", source: "《德语时文 德意志联邦共和国部分》OCR" },
+    { id: "ocr-word-402", word: "Standort", article: "der", pos: "noun", translation: "所在地；区位", level: "B2", plural: "die Standorte", example: "Die Infrastruktur beeinflusst die Standortwahl.", exampleZh: "基础设施影响区位选择。", source: "《德语时文 德意志联邦共和国部分》OCR" },
+    { id: "ocr-word-403", word: "Grundlagenforschung", article: "die", pos: "noun", translation: "基础研究", level: "B2", plural: "", example: "Die Max-Planck-Gesellschaft betreibt Grundlagenforschung.", exampleZh: "马克斯·普朗克学会从事基础研究。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-404", word: "Wissenschaftsförderung", article: "die", pos: "noun", translation: "科学资助", level: "C1", plural: "", example: "Der Verein diente der Wissenschaftsförderung.", exampleZh: "该协会服务于科学资助。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-405", word: "Wiederaufbau", article: "der", pos: "noun", translation: "重建", level: "B1", plural: "", example: "Der Wiederaufbau prägte die Nachkriegszeit.", exampleZh: "重建塑造了战后时期。", source: "《德语国家社会与文化》OCR" },
+    { id: "ocr-word-406", word: "Selbstverständnis", article: "das", pos: "noun", translation: "自我理解；自我定位", level: "C1", plural: "", example: "Die Neutralität prägte das Selbstverständnis.", exampleZh: "中立塑造了自我理解。", source: "《德语国家社会与文化》OCR" },
+    { id: "ocr-word-407", word: "Hochschulwesen", article: "das", pos: "noun", translation: "高校体系", level: "B2", plural: "", example: "Die wissenschaftlichen Hochschulen sind die stärkste Säule.", exampleZh: "科研型高校是最坚实的支柱。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-408", word: "Grundschule", article: "die", pos: "noun", translation: "小学", level: "A1", plural: "die Grundschulen", example: "Mit sechs Jahren kommen alle Kinder in die Grundschule.", exampleZh: "所有儿童六岁进入小学。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-409", word: "Schulbuch", article: "das", pos: "noun", translation: "教科书", level: "A2", plural: "die Schulbücher", example: "Die Schulbücher werden zum Teil kostenlos überlassen.", exampleZh: "部分教科书免费提供。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-410", word: "Hochschule", article: "die", pos: "noun", translation: "高校", level: "A2", plural: "die Hochschulen", example: "In den letzten Jahren wurden viele Hochschulen neu errichtet.", exampleZh: "近年来新建了许多高校。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-411", word: "Verkehrssicherheit", article: "die", pos: "noun", translation: "交通安全", level: "B2", plural: "", example: "Die Verkehrssicherheit soll erhöht werden.", exampleZh: "应提高交通安全。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-412", word: "Abgas", article: "das", pos: "noun", translation: "废气", level: "B1", plural: "die Abgase", example: "Abgase schädigen den Wald.", exampleZh: "废气损害森林。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-413", word: "Katalysator", article: "der", pos: "noun", translation: "催化转化器", level: "B2", plural: "die Katalysatoren", example: "Neue Autos brauchen einen Katalysator.", exampleZh: "新车需要催化转化器。", source: "《德语学习背景知识 德国面面观》OCR" },
+    { id: "ocr-word-414", word: "Stadtfreiheit", article: "die", pos: "noun", translation: "城市自由", level: "C1", plural: "", example: "Die Rolandsäule ist ein Symbol der Stadtfreiheit.", exampleZh: "罗兰柱是城市自由的象征。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-415", word: "Dienstleistungsgesellschaft", article: "die", pos: "noun", translation: "服务业社会", level: "C1", plural: "die Dienstleistungsgesellschaften", example: "Deutschland entwickelt sich zur Dienstleistungsgesellschaft.", exampleZh: "德国正发展为服务业社会。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-416", word: "Wirtschaftsbereich", article: "der", pos: "noun", translation: "经济部门", level: "B2", plural: "die Wirtschaftsbereiche", example: "Der tertiäre Wirtschaftsbereich wächst.", exampleZh: "第三产业在增长。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-417", word: "Wartburg", article: "die", pos: "noun", translation: "瓦尔特堡", level: "B1", plural: "", example: "Luther übersetzte die Bibel auf der Wartburg.", exampleZh: "路德在瓦尔特堡翻译《圣经》。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-418", word: "Bibelübersetzung", article: "die", pos: "noun", translation: "《圣经》翻译", level: "B2", plural: "die Bibelübersetzungen", example: "Die Bibelübersetzung prägte die deutsche Sprache.", exampleZh: "《圣经》翻译塑造了德语。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-419", word: "Nachrichtenmagazin", article: "das", pos: "noun", translation: "新闻杂志", level: "B1", plural: "die Nachrichtenmagazine", example: "Der Spiegel ist ein bekanntes Nachrichtenmagazin.", exampleZh: "《明镜》是著名新闻杂志。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-420", word: "Muttersprache", article: "die", pos: "noun", translation: "母语", level: "A2", plural: "die Muttersprachen", example: "Deutsch ist ihre Muttersprache.", exampleZh: "德语是她的母语。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-421", word: "Auflagenzahl", article: "die", pos: "noun", translation: "发行量", level: "C1", plural: "die Auflagenzahlen", example: "Die Auflagenzahl liegt über einer Million.", exampleZh: "发行量超过一百万。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-422", word: "Presselandschaft", article: "die", pos: "noun", translation: "报刊业；媒体格局", level: "C1", plural: "die Presselandschaften", example: "Der Spiegel hat eine Sonderstellung in der Presselandschaft.", exampleZh: "《明镜》在报刊业中有特殊地位。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-423", word: "Tafelspitz", article: "der", pos: "noun", translation: "维也纳煮牛肉", level: "C1", plural: "", example: "Tafelspitz ist eine Wiener Spezialität.", exampleZh: "煮牛肉是维也纳特色菜。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-424", word: "Schach", article: "das", pos: "noun", translation: "国际象棋", level: "A2", plural: "", example: "Im Kaffeehaus kann man Schach spielen.", exampleZh: "在咖啡馆可以下棋。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-425", word: "Kaffeehauskultur", article: "die", pos: "noun", translation: "咖啡馆文化", level: "B2", plural: "", example: "Die Kaffeehauskultur ist in Wien eine Institution.", exampleZh: "咖啡馆文化在维也纳是一种制度。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-426", word: "Korrespondenz", article: "die", pos: "noun", translation: "通信；信件往来", level: "B2", plural: "die Korrespondenzen", example: "Man erledigt dort seine Korrespondenz.", exampleZh: "人们在那里处理信件。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-427", word: "Fünfprozentklausel", article: "die", pos: "noun", translation: "百分之五门槛", level: "C1", plural: "die Fünfprozentklauseln", example: "Die Fünfprozentklausel verhindert eine Zersplitterung.", exampleZh: "5%门槛防止碎片化。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-428", word: "Parteiensystem", article: "das", pos: "noun", translation: "政党体系", level: "B2", plural: "die Parteiensysteme", example: "Das deutsche Parteiensystem hat sechs Parteien.", exampleZh: "德国政党体系有六个政党。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-429", word: "Zwölftonmusik", article: "die", pos: "noun", translation: "十二音音乐", level: "C1", plural: "", example: "Schönberg entwickelte die Zwölftonmusik.", exampleZh: "勋伯格发展了十二音音乐。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-430", word: "Operette", article: "die", pos: "noun", translation: "轻歌剧", level: "B2", plural: "die Operetten", example: "Die Operette erlebte eine silberne Ära.", exampleZh: "轻歌剧经历了白银时代。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-431", word: "Weimarer Republik", article: "die", pos: "noun", translation: "魏玛共和国", level: "B1", plural: "", example: "Die Weimarer Republik entstand 1919.", exampleZh: "魏玛共和国成立于1919年。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-432", word: "Nationalversammlung", article: "die", pos: "noun", translation: "国民议会", level: "B2", plural: "die Nationalversammlungen", example: "Die Nationalversammlung verabschiedete die Verfassung.", exampleZh: "国民议会通过了宪法。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-433", word: "Verfassung", article: "die", pos: "noun", translation: "宪法", level: "B1", plural: "die Verfassungen", example: "Die Weimarer Verfassung trat 1919 in Kraft.", exampleZh: "魏玛宪法于1919年生效。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-434", word: "Gewerkschaftsbewegung", article: "die", pos: "noun", translation: "工会运动", level: "C1", plural: "die Gewerkschaftsbewegungen", example: "Die Gewerkschaftsbewegung entstand im 19. Jahrhundert.", exampleZh: "工会运动产生于19世纪。", source: "《德语国家国情》OCR" },
+    { id: "ocr-word-435", word: "Altstadt", article: "die", pos: "noun", translation: "老城", level: "A2", plural: "die Altstädte", example: "Die Altstadt ist von einer Mauer umgeben.", exampleZh: "老城被城墙围绕。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-436", word: "Uhrenforschung", article: "die", pos: "noun", translation: "钟表研究", level: "C1", plural: "", example: "Neuchâtel hat ein Labor für Uhrenforschung.", exampleZh: "纳沙泰尔有钟表研究实验室。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-437", word: "Stadtmauer", article: "die", pos: "noun", translation: "城墙", level: "B1", plural: "die Stadtmauern", example: "Die Stadtmauer stammt aus dem Mittelalter.", exampleZh: "城墙建于中世纪。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-438", word: "Ringmauer", article: "die", pos: "noun", translation: "环形城墙", level: "B2", plural: "die Ringmauern", example: "Die Ringmauer umgibt die Altstadt.", exampleZh: "环形城墙围绕老城。", source: "《德语国家概况 德文版》OCR" },
+    { id: "ocr-word-439", word: "Realismus", article: "der", pos: "noun", translation: "现实主义", level: "B1", plural: "die Realismen", example: "Der Realismus gewann im 19. Jahrhundert an Bedeutung.", exampleZh: "现实主义在19世纪变得重要。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-440", word: "Wirklichkeit", article: "die", pos: "noun", translation: "现实", level: "B1", plural: "die Wirklichkeiten", example: "Die Wirklichkeit zog in die Kunst ein.", exampleZh: "现实进入艺术。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-441", word: "Idealismus", article: "der", pos: "noun", translation: "理想主义；唯心主义", level: "B2", plural: "die Idealismen", example: "Der Idealismus verlor als Kunststil an Kraft.", exampleZh: "理想主义作为艺术风格失去力量。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-442", word: "Darstellung", article: "die", pos: "noun", translation: "表现；描述", level: "B2", plural: "die Darstellungen", example: "Die Darstellung der Wirklichkeit wurde wichtiger.", exampleZh: "对现实的表现变得更重要。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-443", word: "Etikette", article: "die", pos: "noun", translation: "礼仪；礼节", level: "B1", plural: "die Etiketten", example: "Die Etikette schreibt ein Gastgeschenk vor.", exampleZh: "礼仪规定要带礼物。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-444", word: "Trinkgeld", article: "das", pos: "noun", translation: "小费", level: "A2", plural: "die Trinkgelder", example: "Man gibt fünf bis zehn Prozent Trinkgeld.", exampleZh: "人们给5%到10%的小费。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-445", word: "Gastgeschenk", article: "das", pos: "noun", translation: "做客礼物", level: "A2", plural: "die Gastgeschenke", example: "Ein Gastgeschenk ist üblich, aber nicht Pflicht.", exampleZh: "做客礼物很常见，但不是义务。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-446", word: "Umgangsform", article: "die", pos: "noun", translation: "社交礼节；行为方式", level: "B2", plural: "die Umgangsformen", example: "Höfliche Umgangsformen sind wichtig.", exampleZh: "礼貌的社交举止很重要。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-447", word: "Festkultur", article: "die", pos: "noun", translation: "节庆文化", level: "B1", plural: "die Festkulturen", example: "Deutschland hat eine reiche Festkultur.", exampleZh: "德国有丰富的节庆文化。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-448", word: "Festtag", article: "der", pos: "noun", translation: "节日；庆典日", level: "A2", plural: "die Festtage", example: "Der Festtag wird mit der Familie gefeiert.", exampleZh: "节日与家人一起庆祝。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-449", word: "Schützenfest", article: "das", pos: "noun", translation: "射击节", level: "B2", plural: "die Schützenfeste", example: "Der Schützenverein feiert sein Schützenfest.", exampleZh: "射击协会庆祝射击节。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-450", word: "Winzer", article: "der", pos: "noun", translation: "葡萄酒农", level: "B1", plural: "die Winzer", example: "Der Winzer feiert sein Winzerfest.", exampleZh: "葡萄酒农庆祝葡萄酒农节。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-451", word: "Gebrauchsartikel", article: "der", pos: "noun", translation: "日用品", level: "B2", plural: "die Gebrauchsartikel", example: "Das Gedicht ist ein besonderer Gebrauchsartikel.", exampleZh: "诗是一种特殊的日用品。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-452", word: "Assoziation", article: "die", pos: "noun", translation: "联想", level: "B2", plural: "die Assoziationen", example: "Neue Assoziationen wachsen dem Gedicht zu.", exampleZh: "新的联想不断融入诗中。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-453", word: "Lyrikband", article: "der", pos: "noun", translation: "诗集", level: "B2", plural: "die Lyrikbände", example: "Enzensberger veröffentlichte einen Lyrikband.", exampleZh: "恩岑斯贝格出版了一部诗集。", source: "《德语学习》30周年精选 文化卷 OCR" },
+    { id: "ocr-word-454", word: "Leserschaft", article: "die", pos: "noun", translation: "读者群", level: "C1", plural: "die Leserschaften", example: "Die Leserschaft reagierte unterschiedlich.", exampleZh: "读者群反应不一。", source: "《德语学习》30周年精选 文化卷 OCR" }
   ]
 };

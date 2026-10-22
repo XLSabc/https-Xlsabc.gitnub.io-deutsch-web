@@ -1,4 +1,4 @@
-﻿# 部署到 GitHub Pages
+# 部署到 GitHub Pages
 
 这个目录是一份纯静态站点，不需要 Node.js、构建步骤或后端服务。上传后 GitHub Pages 会直接托管 `index.html`。
 
@@ -39,13 +39,31 @@ git push -u origin main
 
 ## 更新版本与缓存
 
-站点使用 Service Worker 做离线缓存。当前缓存版本是 `wortkarte-shell-v9`。更新网页文件后，建议同时修改 `sw.js` 顶部的：
+站点使用 Service Worker 做离线缓存。当前缓存版本是 `wortkarte-shell-v12`。更新网页文件后，建议同时修改 `sw.js` 顶部的：
 
 ```js
-const CACHE_NAME = "wortkarte-shell-v10";
+const CACHE_NAME = "wortkarte-shell-v13";
 ```
 
 把版本号加一，已安装到手机主屏幕的旧版本才会主动换用新缓存。否则可能需要刷新两次或清除站点数据。
+
+缓存更新只会替换页面文件，不会删除 `localStorage` 里的学习记录。
+
+## 学习记录不会被部署覆盖
+
+- 学习记录保存在浏览器的 `localStorage`，仓库里的 `index.html`、`app.js` 等静态文件不包含你的个人进度。
+- 重新上传 GitHub Pages 只会替换页面代码，不会读写浏览器的 `localStorage`。
+- 同一个网址（同一个 origin）下更新版本，记录会继续沿用；只有换域名或换浏览器才会出现“记录为空”。
+- 应用在读取旧版本数据前会先做带时间戳的备份；如果旧数据损坏，会保留原字符串并暂停写入，避免被新页面覆盖。
+- 备份键：
+
+```text
+wortkarte.v2.backup.<时间戳>-schema-<版本>
+wortkarte.v2.backup.<时间戳>-corrupt
+wortkarte.v2.last-good
+```
+
+- 更新前建议在“设置 → 导出”里另存一份 JSON 备份。
 
 ## 说明
 

@@ -29,12 +29,27 @@ const POS_LABELS = {
   unknown: "词性待补充"
 };
 
-const RATING_SCORES = { again: 1, hard: 3, good: 4, easy: 5 };
+const MASTERY_ORDER = ["unmastered", "forgotten", "shaky", "mastered"];
+
+// 首次出现仍由学习者自由选择；之后才进入四选一考察。
+const FIRST_RATING_MASTERY = {
+  again: "unmastered",
+  hard: "forgotten",
+  good: "shaky",
+  easy: "mastered"
+};
+
+// 四档掌握度。前三档会以不同间隔重新推送，并优先出易混词辨析题。
+const MASTERY_META = {
+  unmastered: { label: "未掌握", short: "未掌握", cls: "status-new", days: 10 / 1440, hint: "10 分钟后重推" },
+  forgotten: { label: "遗忘", short: "遗忘", cls: "status-learning", days: 1, hint: "1 天后重推" },
+  shaky: { label: "较生疏", short: "较生疏", cls: "status-due", days: 3, hint: "3 天后重推" },
+  mastered: { label: "熟练", short: "熟练", cls: "status-mastered", days: 14, hint: "14 天后复习" }
+};
 
 const STATUS_META = {
-  new: { label: "新词", cls: "status-new" },
-  learning: { label: "学习中", cls: "status-learning" },
-  mastered: { label: "已掌握", cls: "status-mastered" },
+  ...MASTERY_META,
+  new: { label: "未学习", cls: "status-new" },
   due: { label: "今天到期", cls: "status-due" }
 };
 
@@ -75,6 +90,97 @@ const WIKTIONARY_FIXES = window.WORTKARTE_WIKTIONARY_FIXES || {};
 const TATOEBA_EXAMPLES = window.WORTKARTE_TATOEBA_EXAMPLES || {};
 const WORD_SPLITS = window.WORTKARTE_SPLITS || [];
 const WORD_BLACKLIST = new Set(window.WORTKARTE_BLACKLIST || []);
+const SKIP_KEYS = new Set(["die|Möbel"]);
+
+const WORD_REPAIRS = {
+  "Gehsteig (D": "Gehsteig",
+  "Glace Glacé": "Glace",
+  "Streichholz; Zündholz": "Streichholz",
+  "Kommilitone Kommilitonin": "Kommilitone",
+  "Psychologe Psychologin": "Psychologe",
+  "Schlafexperte Schlafexpertin": "Schlafexperte"
+};
+
+const PLURAL_FIXES = {
+  "Land": "die Länder",
+  "Mann": "die Männer",
+  "Mädchen": "die Mädchen",
+  "Test": "die Tests",
+  "Praxis": "die Praxen",
+  "Balkon": "die Balkone",
+  "Thema": "die Themen",
+  "Wasser": "die Wässer",
+  "Schadenersatz": "无复数",
+  "Turnen": "无复数",
+  "Leichtathletik": "无复数",
+  "Milch": "无复数",
+  "Hunger": "无复数",
+  "Durst": "无复数",
+  "Obst": "无复数",
+  "Fleisch": "无复数",
+  "Butter": "无复数",
+  "Internet": "无复数"
+};
+
+// 清理 OCR 合并词条：不是名词的短语/形容词/残片不再计入“名词缺阴阳性”。
+const POS_RECLASSIFY = {
+  "Lieblings": "other",
+  "Rad fahren": "verb",
+  "Geburts- (jahr": "other",
+  "mittel": "adj",
+  "renoviert": "adj",
+  "wie wie viel": "other",
+  "monee": "other",
+  "P paar": "other",
+  "Schwieger": "other",
+  "Sonder": "other",
+  "zuverlässig das der Zvieri Znüni": "other",
+  "Bewunderer Bewunderin der die": "other",
+  "Einwanderer Einwanderin der die": "other",
+  "FaD": "other",
+  "Hähnchen Hühnchen; A": "other",
+  "Hähnchen Hühnchen; CH": "other",
+  "Jura (Sg": "other",
+  "Stadtentwicklung und Bauwesen": "other",
+  "Kind und Kegel": "other",
+  "Kriminal": "adj"
+};
+
+// 明确的阴阳性补全；歧义或纯复数条目仍保留待校对。
+const NOUN_ARTICLE_FIXES = {
+  "Bekannte": "der",
+  "Jugendliche": "der",
+  "Bub": "der",
+  "Ferien": "die",
+  "Früchte": "die",
+  "Gehsteig": "der",
+  "Glace": "das",
+  "Hähnchen": "das",
+  "Poulet": "das",
+  "Spezial": "das",
+  "Streichholz": "das",
+  "Betracht": "der",
+  "Jura": "das",
+  "Kommilitone": "der",
+  "Psychologe": "der",
+  "Road Movie": "der",
+  "Schlafexperte": "der",
+  "Sprachwissenschaftler": "der",
+  "COPD": "die",
+  "Großbritannien": "das",
+  "Inemuri": "der",
+  "Institut für Gesellschaftsforschung": "das",
+  "IT-Experte": "der",
+  "Mittelamerika": "das",
+  "Niedersachsen": "das",
+  "Südamerika": "das",
+  "Ägypten": "das",
+  "Bewunderer": "der",
+  "Einwanderer": "der",
+  "fossile Brennstoffe": "die",
+  "gesundheitliche Folgen": "die",
+  "soziologische Studien": "die"
+};
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
@@ -240,14 +346,15 @@ function defaultSettings() {
     quizDifficulty: "standard",
     weeklyQuizEnabled: true,
     repeatIntervalMin: 30,
-    personalization: true
+    personalization: true,
+    dailyLevel: "all"
   };
 }
 
 function freshState() {
   return {
     version: 2,
-    schemaVersion: 4,
+    schemaVersion: 5,
     settings: defaultSettings(),
     reviews: {},
     customWords: [],
@@ -267,7 +374,8 @@ function freshState() {
   };
 }
 
-function makeReview({ reps, interval, ease, lapses, due, last, status }) {
+function makeReview({ reps, interval, ease, lapses, due, last, status, mastery, correctStreak }) {
+  const level = mastery || (status === "mastered" ? "mastered" : status === "learning" ? "forgotten" : "unmastered");
   return {
     reps,
     repetition: reps,
@@ -278,7 +386,9 @@ function makeReview({ reps, interval, ease, lapses, due, last, status }) {
     due,
     nextReviewDate: due,
     last,
-    status
+    status: level,
+    mastery: level,
+    correctStreak: Number(correctStreak) || 0
   };
 }
 
@@ -367,24 +477,33 @@ function normalizeState(raw) {
     const reps = Number(review.reps ?? review.repetition) || 0;
     const ease = Number(review.ease ?? review.easiness) || 2.5;
     const due = Number(review.due ?? review.nextReviewDate) || 0;
+    const interval = Number(review.interval) || 0;
+    let mastery = review.mastery || review.status;
+    if (!MASTERY_ORDER.includes(mastery)) {
+      if (review.status === "mastered" || (interval >= 21 && reps >= 4)) mastery = "mastered";
+      else if (review.status === "learning") mastery = interval >= 3 || reps >= 2 ? "shaky" : "forgotten";
+      else mastery = "unmastered";
+    }
     reviews[id] = {
       ...review,
       reps,
       repetition: reps,
-      interval: Number(review.interval) || 0,
+      interval,
       ease,
       easiness: ease,
       lapses: Number(review.lapses) || 0,
       due,
       nextReviewDate: due,
       last: Number(review.last) || 0,
-      status: review.status || (review.interval >= 21 && reps >= 4 ? "mastered" : "learning")
+      status: mastery,
+      mastery,
+      correctStreak: Number(review.correctStreak) || 0
     };
   }
   return {
     ...base,
     ...raw,
-    schemaVersion: 4,
+    schemaVersion: 5,
     settings: { ...base.settings, ...(raw.settings || {}) },
     reviews,
     customWords: Array.isArray(raw.customWords) ? raw.customWords : [],
@@ -412,39 +531,90 @@ function normalizeState(raw) {
   };
 }
 
-function loadState() {
+const STORAGE_BACKUP_PREFIX = `${STORAGE_KEY}.backup.`;
+const STORAGE_LAST_GOOD = `${STORAGE_KEY}.last-good`;
+
+function backupLocalState(raw, reason = "manual") {
+  if (!raw) return false;
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
   try {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (!saved) {
-      const fresh = freshState();
-      try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh));
-      } catch {
-        /* storage can be unavailable; app still works in memory */
-      }
-      return fresh;
+    localStorage.setItem(`${STORAGE_BACKUP_PREFIX}${stamp}-${reason}`, raw);
+    localStorage.setItem(STORAGE_LAST_GOOD, raw);
+  } catch {
+    return false;
+  }
+  try {
+    const keys = [];
+    for (let index = 0; index < localStorage.length; index += 1) {
+      const key = localStorage.key(index);
+      if (key && key.startsWith(STORAGE_BACKUP_PREFIX)) keys.push(key);
     }
-    const parsed = JSON.parse(saved);
-    if ((Number(parsed.schemaVersion) || 0) < 4) {
-      try {
-        localStorage.setItem(`${STORAGE_KEY}.backup`, saved);
-      } catch {
-        /* backup is best effort */
-      }
+    keys.sort();
+    for (const key of keys.slice(0, Math.max(0, keys.length - 2))) {
+      localStorage.removeItem(key);
     }
-    const normalized = normalizeState(parsed);
-    // 结构升级后立即写回，旧字段迁移到 schemaVersion 4，原数据仍保留在 .backup。
-    if ((Number(parsed.schemaVersion) || 0) < 4) {
-      try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized));
-      } catch {
-        /* storage quota: keep in-memory normalized state */
-      }
-    }
-    return normalized;
+  } catch {
+    /* pruning is best effort */
+  }
+  return true;
+}
+
+let storageRecoveryMode = false;
+let storageRecoveredFromBackup = false;
+
+function loadState() {
+  let saved = null;
+  try {
+    saved = localStorage.getItem(STORAGE_KEY);
   } catch {
     return freshState();
   }
+  if (!saved) {
+    const fresh = freshState();
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh));
+    } catch {
+      /* storage can be unavailable; app still works in memory */
+    }
+    return fresh;
+  }
+
+  let parsed;
+  try {
+    parsed = JSON.parse(saved);
+  } catch {
+    // 页面更新不应该清空学习记录：先保留原始字符串，再以空状态启动，绝不覆盖损坏数据。
+    const backedUp = backupLocalState(saved, "corrupt");
+    if (backedUp) {
+      storageRecoveredFromBackup = true;
+      try {
+        localStorage.removeItem(STORAGE_KEY);
+      } catch {
+        storageRecoveryMode = true;
+      }
+    } else {
+      storageRecoveryMode = true;
+    }
+    return freshState();
+  }
+
+  const schema = Number(parsed.schemaVersion) || 0;
+  try {
+    if (schema < 5) backupLocalState(saved, `schema-${schema}`);
+    else if (!localStorage.getItem(STORAGE_LAST_GOOD)) backupLocalState(saved, "initial");
+  } catch {
+    /* backup is best effort */
+  }
+  const normalized = normalizeState(parsed);
+  // 结构升级后写回，但原始字符串已保存在带时间戳的 backup 中。
+  if (schema < 5) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized));
+    } catch {
+      /* storage quota: keep in-memory normalized state */
+    }
+  }
+  return normalized;
 }
 
 let state = loadState();
@@ -557,9 +727,40 @@ function inferPluralType(word, pluralForm) {
   return "∅";
 }
 
+function inferFemininePlural(word) {
+  const value = String(word.word || "").trim();
+  if (!value || word.article !== "die" || word.plural) return "";
+  const rules = [
+    ["ung", "ungen"], ["heit", "heiten"], ["keit", "keiten"], ["schaft", "schaften"],
+    ["tion", "tionen"], ["sion", "sionen"], ["tät", "täten"]
+  ];
+  for (const [suffix, ending] of rules) {
+    if (value.endsWith(suffix) && value.length > suffix.length + 2) {
+      return `die ${value.slice(0, -suffix.length)}${ending}`;
+    }
+  }
+  return "";
+}
+
 function normalizeWordRecord(word) {
   if (!word) return word;
+  if (WORD_REPAIRS[word.word]) {
+    const originalWord = word.word;
+    word.word = WORD_REPAIRS[originalWord];
+    if (word.de === originalWord) word.de = word.word;
+  }
+  if (POS_RECLASSIFY[word.word]) word.pos = POS_RECLASSIFY[word.word];
+  if (word.pos === "noun" && !word.article && NOUN_ARTICLE_FIXES[word.word]) {
+    word.article = NOUN_ARTICLE_FIXES[word.word];
+  }
+  // 语料中的性别连写（如 „Unternehmer in“）被 OCR 拆开，统一还原为原形。
+  if (word.pos === "noun" && /\s+in$/i.test(String(word.word || ""))) {
+    word.word = String(word.word).replace(/\s+in$/i, "").trim();
+  }
   word.de = word.de || word.word;
+  if (word.pos === "noun" && /\s+in$/i.test(String(word.de || ""))) {
+    word.de = String(word.de).replace(/\s+in$/i, "").trim();
+  }
   word.zh = word.zh || word.translation;
   word.exampleDe = word.exampleDe || word.example || "";
   word.exampleZh = word.exampleZh || "";
@@ -574,6 +775,17 @@ function normalizeWordRecord(word) {
   const forms = String(word.forms || "").trim();
   const parts = forms ? forms.split(/[,;，；]/).map(part => part.trim()).filter(Boolean) : [];
   if (word.pos === "noun") {
+    if (!word.plural && PLURAL_FIXES[word.word]) {
+      word.plural = PLURAL_FIXES[word.word];
+      word.pluralNoPlural = word.plural === "无复数";
+    }
+    if (!word.plural && word.article === "die") {
+      const inferred = inferFemininePlural(word);
+      if (inferred) {
+        word.plural = inferred;
+        word.pluralInferred = true;
+      }
+    }
     word.pluralForm = word.pluralForm || word.plural || "";
     word.pluralType = word.pluralType || inferPluralType(word, word.pluralForm);
     word.nounEnding = word.nounEnding || (word.word.match(/(ung|heit|keit|schaft|ei|ie|chen|lein|er|en|e|s)$/i)?.[1] || "");
@@ -617,8 +829,27 @@ function splitWordEntries(word, split) {
   }));
 }
 
+function uniqueWordId(word, usedIds) {
+  const base = String(word.id || "word");
+  if (!usedIds.has(base)) {
+    usedIds.add(base);
+    return base;
+  }
+  const slug = String(`${word.article || ""}-${word.word || ""}`)
+    .toLowerCase()
+    .replace(/[^a-z0-9äöüß]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "entry";
+  let candidate = `${base}--${slug}`;
+  let index = 2;
+  while (usedIds.has(candidate)) candidate = `${base}--${slug}-${index++}`;
+  usedIds.add(candidate);
+  word.id = candidate;
+  return candidate;
+}
+
 function refreshWordIndex() {
   const seen = new Set();
+  const usedIds = new Set();
   const keptByKey = new Map();
   allWordList = [];
   for (const word of [...TEXTBOOK_WORDS, ...WORDS, ...GOETHE_WORDS, ...OCR_VOCAB, ...OCR_CONTENT.words, ...state.customWords]) {
@@ -631,6 +862,7 @@ function refreshWordIndex() {
         const key = `${String(entry.word).trim().toLocaleLowerCase("de")}|${entry.article || ""}`;
         if (seen.has(key)) continue;
         seen.add(key);
+        uniqueWordId(entry, usedIds);
         keptByKey.set(key, entry);
         allWordList.push(entry);
       }
@@ -638,7 +870,7 @@ function refreshWordIndex() {
     }
     fixWordData(word);
     normalizeWordRecord(word);
-    if (WORD_BLACKLIST.has(`${word.article || ""}|${word.word}`)) continue;
+    if (WORD_BLACKLIST.has(`${word.article || ""}|${word.word}`) || SKIP_KEYS.has(`${word.article || ""}|${word.word}`)) continue;
     const key = `${String(word.word).trim().toLocaleLowerCase("de")}|${word.article || ""}`;
     if (seen.has(key)) {
       const kept = keptByKey.get(key);
@@ -650,9 +882,11 @@ function refreshWordIndex() {
       continue;
     }
     seen.add(key);
+    uniqueWordId(word, usedIds);
     keptByKey.set(key, word);
     allWordList.push(word);
   }
+  for (const word of allWordList) normalizeWordRecord(word);
   wordMap = new Map(allWordList.map(word => [word.id, word]));
   rebuildSearchIndex();
 }
@@ -798,11 +1032,15 @@ function reviewFor(id) {
   return state.reviews[id] || null;
 }
 
-function statusFor(word) {
+function masteryFor(word) {
   const review = reviewFor(word.id);
-  if (!review) return "new";
-  if (review.status === "mastered" && (review.reps ?? review.repetition) >= 3) return "mastered";
-  return "learning";
+  if (!review) return "unmastered";
+  const value = review.mastery || review.status;
+  return MASTERY_ORDER.includes(value) ? value : "unmastered";
+}
+
+function statusFor(word) {
+  return masteryFor(word);
 }
 
 function isDue(word, now = Date.now()) {
@@ -822,9 +1060,12 @@ function getMetrics() {
   const now = Date.now();
   const today = dayKey(now);
   const reviews = Object.values(state.reviews);
-  const mastered = words.filter(word => statusFor(word) === "mastered").length;
-  const learning = words.filter(word => statusFor(word) === "learning").length;
-  const fresh = words.length - mastered - learning;
+  const mastered = words.filter(word => masteryFor(word) === "mastered").length;
+  const learning = words.filter(word => ["forgotten", "shaky"].includes(masteryFor(word)) && reviewFor(word.id)).length;
+  const fresh = words.filter(word => !reviewFor(word.id)).length;
+  const unmastered = words.filter(word => masteryFor(word) === "unmastered").length;
+  const forgotten = words.filter(word => masteryFor(word) === "forgotten" && reviewFor(word.id)).length;
+  const shaky = words.filter(word => masteryFor(word) === "shaky" && reviewFor(word.id)).length;
   const dueToday = words.filter(word => isDue(word, now));
   const dueNow = words.filter(word => isDueNow(word, now));
   const todayCount = state.activity[today] || 0;
@@ -837,6 +1078,9 @@ function getMetrics() {
     mastered,
     learning,
     fresh,
+    unmastered,
+    forgotten,
+    shaky,
     dueToday,
     dueNow,
     todayCount,
@@ -866,6 +1110,10 @@ function calculateStreak(now = Date.now()) {
 }
 
 function persist() {
+  if (storageRecoveryMode) {
+    showToast("检测到旧学习记录异常，已停止写入以保护原数据。请先导出或清理浏览器存储。");
+    return;
+  }
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     localStorage.setItem("settings_v2", JSON.stringify(state.settings || {}));
@@ -878,69 +1126,71 @@ function persist() {
 
 /* ─────────────────────────── Spaced repetition ─────────────────────────── */
 
-function scheduleReview(previous, rating, now = Date.now()) {
+function scheduleAnswer(previous, correct, now = Date.now()) {
   const base = previous
     ? {
         reps: Number(previous.reps ?? previous.repetition) || 0,
         interval: Number(previous.interval) || 0,
         ease: Number(previous.ease ?? previous.easiness) || 2.5,
-        lapses: Number(previous.lapses) || 0
+        lapses: Number(previous.lapses) || 0,
+        mastery: MASTERY_ORDER.includes(previous.mastery) ? previous.mastery : "unmastered",
+        correctStreak: Number(previous.correctStreak) || 0
       }
-    : { reps: 0, interval: 0, ease: 2.5, lapses: 0 };
+    : { reps: 0, interval: 0, ease: 2.5, lapses: 0, mastery: "unmastered", correctStreak: 0 };
 
-  let { reps, interval, ease, lapses } = base;
-
-  if (rating === "again") {
-    reps = 0;
-    lapses += 1;
-    ease = Math.max(1.3, ease - 0.2);
-    interval = 1;
-  } else if (rating === "hard") {
-    reps += 1;
-    ease = Math.max(1.3, ease - 0.12);
-    interval = base.reps === 0 ? 0.5 : Math.max(0.5, base.interval * 1.2);
-  } else if (rating === "good") {
-    if (base.reps === 0) {
-      interval = 1;
-    } else if (base.reps === 1) {
-      interval = 3;
-    } else {
-      interval = Math.max(1, base.interval * Math.max(1.3, ease));
-    }
-    reps += 1;
+  let mastery;
+  if (correct) {
+    const index = MASTERY_ORDER.indexOf(base.mastery);
+    mastery = MASTERY_ORDER[Math.min(MASTERY_ORDER.length - 1, index + 1)];
+    // 第一次答对不直接算“熟练”，先进入遗忘档，一天后重推。
+    if (!previous) mastery = "forgotten";
   } else {
-    if (base.reps === 0) {
-      interval = 4;
-    } else {
-      interval = Math.max(4, base.interval * Math.max(1.3, ease) * 1.3);
-    }
-    reps += 1;
-    ease = Math.min(3.2, ease + 0.12);
+    mastery = base.mastery === "mastered" || base.mastery === "shaky" ? "forgotten" : "unmastered";
   }
 
+  let interval = MASTERY_META[mastery].days;
+  if (mastery === "mastered" && base.mastery === "mastered") {
+    interval = Math.max(30, base.interval * 1.7);
+  }
+  const reps = base.reps + 1;
+  const lapses = base.lapses + (correct ? 0 : 1);
+  const correctStreak = correct ? base.correctStreak + 1 : 0;
+  const ease = correct
+    ? Math.min(3.2, base.ease + (mastery === "mastered" ? 0.08 : 0.02))
+    : Math.max(1.3, base.ease - 0.18);
   const due = now + Math.round(interval * DAY_MS);
-  const status = interval >= 21 && reps >= 4 ? "mastered" : "learning";
 
-  return {
+  return makeReview({
     reps,
-    repetition: reps,
     interval: round(interval, 4),
     ease: round(ease, 2),
-    easiness: round(ease, 2),
     lapses,
     due,
-    nextReviewDate: due,
     last: now,
-    grade: RATING_SCORES[rating] || 0,
-    status
-  };
+    status: mastery,
+    mastery,
+    correctStreak
+  });
 }
 
-function previewInterval(rating) {
-  if (!session) return 1;
-  const word = session.queue[session.index];
-  if (!word) return 1;
-  return scheduleReview(reviewFor(word.id), rating).interval;
+function previewAnswerInterval(word) {
+  return scheduleAnswer(reviewFor(word.id), true).interval;
+}
+
+function scheduleFirstRating(rating, now = Date.now()) {
+  const mastery = FIRST_RATING_MASTERY[rating] || "forgotten";
+  const interval = MASTERY_META[mastery].days;
+  return makeReview({
+    reps: 1,
+    interval: round(interval, 4),
+    ease: rating === "easy" ? 2.7 : rating === "good" ? 2.5 : rating === "hard" ? 2.3 : 1.9,
+    lapses: rating === "again" ? 1 : 0,
+    due: now + Math.round(interval * DAY_MS),
+    last: now,
+    status: mastery,
+    mastery,
+    correctStreak: rating === "good" || rating === "easy" ? 1 : 0
+  });
 }
 
 /* ─────────────────────────── Queue building ─────────────────────────── */
@@ -951,10 +1201,23 @@ function sortByDue(a, b) {
   return (ra?.due ?? ra?.nextReviewDate ?? 0) - (rb?.due ?? rb?.nextReviewDate ?? 0);
 }
 
+function selectedDailyLevel() {
+  const level = String(state.settings?.dailyLevel || "all").toUpperCase();
+  return CEFR_LEVELS.includes(level) ? level : "all";
+}
+
+function dailyPool(level = selectedDailyLevel()) {
+  return level === "all"
+    ? allWords()
+    : allWords().filter(word => normalizeCefrLevel(word.level) === level);
+}
+
 function buildQueue(mode = "daily", topicId = null, limit = 12, wordId = null, level = "all") {
   const now = Date.now();
-  let pool = allWords();
-  if (level && level !== "all") pool = pool.filter(word => normalizeCefrLevel(word.level) === normalizeCefrLevel(level));
+  const activeLevel = level && level !== "all"
+    ? normalizeCefrLevel(level)
+    : (["daily", "new", "review", "weak"].includes(mode) ? selectedDailyLevel() : "all");
+  let pool = activeLevel === "all" ? allWords() : allWords().filter(word => normalizeCefrLevel(word.level) === activeLevel);
   if (topicId) pool = pool.filter(word => word.topic === topicId);
 
   if (wordId) {
@@ -962,7 +1225,12 @@ function buildQueue(mode = "daily", topicId = null, limit = 12, wordId = null, l
     return chosen ? [chosen] : [];
   }
 
-  const due = shuffle(pool.filter(word => isDue(word, now)).sort(sortByDue));
+  const masteryRank = { unmastered: 0, forgotten: 1, shaky: 2, mastered: 3 };
+  const due = shuffle(pool.filter(word => isDue(word, now)).sort((a, b) => {
+    const ma = masteryRank[masteryFor(a)] ?? 9;
+    const mb = masteryRank[masteryFor(b)] ?? 9;
+    return ma - mb || sortByDue(a, b);
+  }));
   const fresh = shuffle(pool.filter(word => !reviewFor(word.id)));
   const later = pool
     .filter(word => reviewFor(word.id) && !isDue(word, now))
@@ -1194,6 +1462,25 @@ function renderChrome() {
   });
 }
 
+function renderHomeLevelPicker(activeLevel) {
+  const picker = $("#home-level-picker");
+  if (!picker) return;
+  $$("[data-home-level]", picker).forEach(button => {
+    const isActive = button.dataset.homeLevel === activeLevel;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
+  const pool = dailyPool(activeLevel);
+  const newCount = pool.filter(word => !reviewFor(word.id)).length;
+  const dueCount = pool.filter(word => isDue(word)).length;
+  const note = $("#home-level-note");
+  if (note) {
+    note.textContent = activeLevel === "all"
+      ? `全部难度 · 新词 ${newCount} · 到期 ${dueCount}`
+      : `${activeLevel} · 新词 ${newCount} · 到期 ${dueCount} · 每日只推送这一档`;
+  }
+}
+
 function renderHome() {
   const metrics = getMetrics();
   const now = Date.now();
@@ -1204,16 +1491,18 @@ function renderHome() {
   $("#home-date").textContent = `${WEEKDAYS_DE[date.getDay()].toUpperCase()} · ${date.getDate()}. ${MONTHS_DE[date.getMonth()].toUpperCase()}`;
   $("#home-greeting").textContent = greeting;
 
-  const due = metrics.dueToday.length;
-  const fresh = metrics.fresh;
+  const activeLevel = selectedDailyLevel();
+  const pool = dailyPool(activeLevel);
+  const due = pool.filter(word => isDue(word)).length;
+  const fresh = pool.filter(word => !reviewFor(word.id)).length;
   const dailyQueue = buildQueue("daily", null, 12);
   const dueInQueue = dailyQueue.filter(word => isDue(word)).length;
   const minutes = Math.max(1, Math.ceil(dailyQueue.length * 0.65));
 
   let subline = "今天也让德语靠近一点。";
-  if (metrics.totalReviews === 0 && due === 0) subline = "词库已初始化：从《新求精》的 12 个新词开始。";
-  else if (due > 0) subline = `今天有 ${due} 张卡片到期，先复习，再认识几个新词。`;
-  else if (fresh > 0) subline = `到期卡片都清空了。今天适合认识新词。`;
+  if (metrics.totalReviews === 0 && due === 0) subline = `词库已初始化：今天从 ${activeLevel === "all" ? "全部难度" : activeLevel} 的新词开始。`;
+  else if (due > 0) subline = `${activeLevel === "all" ? "全部难度" : activeLevel} 有 ${due} 张卡片到期，先复习，再认识几个新词。`;
+  else if (fresh > 0) subline = `到期卡片都清空了。今天适合认识 ${activeLevel === "all" ? "各难度" : activeLevel} 新词。`;
   else subline = "所有卡片都安排好了。休息也是一种学习。";
   $("#home-subline").textContent = subline;
 
@@ -1256,11 +1545,12 @@ function renderHome() {
   $("#stat-today").textContent = metrics.todayCount;
   $("#stat-today-note").textContent = `目标 ${metrics.goal}`;
   $("#stat-accuracy").textContent = metrics.accuracy;
-  $("#stat-accuracy-note").textContent = `共 ${metrics.totalReviews} 次评价`;
+  $("#stat-accuracy-note").textContent = `共 ${metrics.totalReviews} 次作答`;
 
   renderWeekStrip(metrics);
   renderDecks(metrics);
   renderPackBanner();
+  renderHomeLevelPicker(activeLevel);
   renderWeekChart();
   renderDueList(metrics);
   renderWordOfDay();
@@ -1697,9 +1987,9 @@ function renderCulture() {
   const grid = $("#culture-grid");
   if (!grid) return;
   const labels = Object.fromEntries((CULTURE_DATA.categories || []).map(item => [item.id, item.label]));
-  const items = CULTURE_DATA.items.filter(item => cultureCategory === "all" || item.category === cultureCategory);
+  const items = CULTURE_DATA.items.filter(item => cultureCategory === "all" || item.category === cultureCategory).slice().reverse();
   $("#culture-count").textContent = CULTURE_DATA.items.length;
-  $("#culture-meta").textContent = `${items.length} 条 · ${labels[cultureCategory] || "全部"}`;
+  $("#culture-meta").textContent = `${items.length} 条 · ${labels[cultureCategory] || "全部"} · 最近补充优先`;
   $$("#culture-filter [data-culture-category]").forEach(chip => {
     chip.classList.toggle("is-active", chip.dataset.cultureCategory === cultureCategory);
   });
@@ -1720,6 +2010,7 @@ function renderCulture() {
         <summary>德语原文</summary>
         <p>${esc(item.contentDe)}</p>
       </details>
+      ${item.bookSource ? `<p class="culture-book-source">依据：${esc(item.bookSource)}</p>` : ""}
       <div class="culture-sources">
         ${(item.sources || []).map(source => `<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.title)}</a>`).join("")}
         <span>${Math.round((Number(item.confidence) || 0.8) * 100)}% 可信度</span>
@@ -1865,11 +2156,14 @@ function startStudy({ mode = "daily", topicId = null, limit = null, wordId = nul
   const dailyCap = Math.max(5, Math.min(100, Number(state.settings.dailyGoal) || 20));
   const requestedLimit = Number(limit) || 12;
   const effectiveLimit = wordId || mode === "repeat" ? requestedLimit : Math.min(requestedLimit, dailyCap);
+  const activeLevel = level && level !== "all"
+    ? normalizeCefrLevel(level)
+    : (["daily", "new", "review", "weak"].includes(mode) ? selectedDailyLevel() : "all");
   const queue = buildQueue(mode, topicId, effectiveLimit, wordId, level);
   if (!queue.length) {
-    if (mode === "new") showToast("所有词都学过了，去复习一组吧。");
-    else if (mode === "review") showToast("今天没有到期卡片，试试新词。");
-    else showToast("暂时没有可学习的卡片。");
+    if (mode === "new") showToast("这一难度下所有词都学过了，去复习一组吧。");
+    else if (mode === "review") showToast("这一难度今天没有到期卡片，试试新词。");
+    else showToast("这一难度暂时没有可学习的卡片。");
     return;
   }
 
@@ -1887,7 +2181,7 @@ function startStudy({ mode = "daily", topicId = null, limit = null, wordId = nul
     start: Date.now(),
     mode,
     topicId,
-    level,
+    level: activeLevel,
     limit: effectiveLimit,
     transitioning: false,
     finished: false,
@@ -1901,10 +2195,12 @@ function startStudy({ mode = "daily", topicId = null, limit = null, wordId = nul
     : topicId
       ? getTopic(topicId).name
       : mode === "new"
-        ? (level && level !== "all" ? `${level} 新词` : "认识新词")
+        ? (activeLevel && activeLevel !== "all" ? `${activeLevel} 新词` : "认识新词")
         : mode === "weak"
           ? "重点复习"
-          : "今日复习";
+          : activeLevel && activeLevel !== "all"
+            ? `${activeLevel} · 今日复习`
+            : "今日复习";
   $("#study-topic-label").textContent = topicLabel;
   $("#study-timer").textContent = "00:00";
   setView("study");
@@ -2014,10 +2310,13 @@ function renderStudyCard() {
   const word = session.queue[session.index];
   const topic = getTopic(word.topic);
   const review = reviewFor(word.id);
+  const firstEncounter = !review && session.mode !== "repeat";
+  session.firstEncounter = firstEncounter;
   const view = $("#view-study");
   const flashcard = $("#flashcard");
   session.transitioning = false;
 
+  view.classList.toggle("is-first-encounter", firstEncounter);
   view.classList.remove("is-revealed");
   flashcard.classList.remove("is-flipped", "is-leaving");
   flashcard.classList.remove("is-entering");
@@ -2073,7 +2372,7 @@ function renderStudyCard() {
   $("#back-example").textContent = word.example || "例句待补充";
   $("#back-example-zh").textContent = word.exampleZh || (word.example ? "" : "该词暂未匹配到可靠例句，后续批次会继续补充。");
   $("#back-note").textContent = word.note || (word.pack || word.book
-    ? "这是教材词表词条。试着用它造一个句子，再按 1–4 评价。"
+    ? "这是教材词表词条。试着用它造一个句子；系统会按你的答题对错自动安排复习。"
     : "把这个词和你的生活连起来，它会更容易留下。");
   $("#example-block").classList.remove("hidden");
   const sourceEl = $("#card-source");
@@ -2091,10 +2390,35 @@ function renderStudyCard() {
   $("#session-done").textContent = session.done;
   $("#session-left").textContent = total - session.done;
 
-  $("#preview-again").textContent = formatInterval(previewInterval("again"));
-  $("#preview-hard").textContent = formatInterval(previewInterval("hard"));
-  $("#preview-good").textContent = formatInterval(previewInterval("good"));
-  $("#preview-easy").textContent = formatInterval(previewInterval("easy"));
+  const mastery = masteryFor(word);
+  const masteryMeta = MASTERY_META[mastery];
+  const reviewCount = review ? (review.reps + review.lapses) : 0;
+  $("#session-note").textContent = firstEncounter
+    ? "第一次见面。先翻开词卡，再按自己的感觉选择掌握程度。"
+    : review
+      ? `这个词你已作答 ${reviewCount} 次，当前「${masteryMeta.label}」。这次只看对错，系统会自动安排下一次。`
+      : "第一次见面。先凭直觉选，选错也会立刻看到词卡。";
+  const backHint = $("#back-hint-label");
+  const backKeys = $("#back-hint-keys");
+  if (backHint) backHint.textContent = firstEncounter ? "选择你对这个词的掌握程度" : "已自动记录，无需自评";
+  if (backKeys) backKeys.innerHTML = firstEncounter ? "<kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd>" : "<kbd>Enter</kbd>";
+  const nextLabel = $("#mastery-next-label");
+  if (nextLabel) nextLabel.textContent = firstEncounter ? "首次学习" : "等待作答";
+  const nextNote = $("#mastery-next-note");
+  if (nextNote) nextNote.textContent = firstEncounter
+    ? "先自由选择一次；第二次出现时再进入四选一考察。"
+    : "答对或答错都会自动安排下一次复习，不需要自评。";
+  ["again", "hard", "good", "easy"].forEach(rating => {
+    const preview = $(`#preview-${rating}`);
+    if (preview) preview.textContent = formatInterval(scheduleFirstRating(rating).interval);
+  });
+  $("#study-timer").textContent = formatClock(Date.now() - session.start);
+
+  $("#study-stage").classList.remove("exam-active");
+  $("#exam-panel").classList.add("hidden");
+  session.phase = "card";
+  session.exam = null;
+  if (!firstEncounter) beginExam(word);
 
   const upcoming = session.queue.slice(session.index + 1, session.index + 4);
   $("#queue-count").textContent = `${Math.max(0, total - session.index - 1)} 张`;
@@ -2107,42 +2431,36 @@ function renderStudyCard() {
         </div>
       `).join("")
     : `<p class="queue-empty">这是最后一张了。</p>`;
+}
 
-  $("#session-note").textContent = review
-    ? `这个词你已经见过 ${review.reps + review.lapses} 次。现在，试着不看提示说出它的意思。`
-    : "第一次见面。别急着背，先读一遍例句，让声音留下来。";
-  $("#study-timer").textContent = formatClock(Date.now() - session.start);
-
-  $("#study-stage").classList.remove("exam-active");
-  $("#exam-panel").classList.add("hidden");
-  session.phase = "card";
-  session.exam = null;
-  if (review && session.mode !== "new") {
-    beginExam(word);
-  }
+function confusionCandidates(word, count = 3) {
+  const pool = allWords().filter(candidate =>
+    candidate.id !== word.id &&
+    candidate.translation &&
+    candidate.translation !== word.translation
+  );
+  const scored = pool.map(candidate => {
+    let score = 0;
+    if (candidate.pos === word.pos) score += 30;
+    if (candidate.article && candidate.article === word.article) score += 12;
+    if (candidate.topic === word.topic) score += 10;
+    if (candidate.level === word.level) score += 8;
+    const distance = levenshtein(String(candidate.word).toLowerCase(), String(word.word).toLowerCase());
+    score += Math.max(0, 10 - distance) * 2;
+    if (candidate.word.slice(0, 3).toLowerCase() === word.word.slice(0, 3).toLowerCase()) score += 6;
+    if (String(candidate.translation).slice(0, 2) === String(word.translation).slice(0, 2)) score += 4;
+    return { candidate, score };
+  }).sort((a, b) => b.score - a.score);
+  return scored.slice(0, Math.max(count * 3, 8)).map(item => item.candidate);
 }
 
 function beginExam(word) {
   if (!session) return;
-  const direction = Math.random() < 0.5 ? "de-zh" : "zh-de";
-  const pool = allWords().filter(candidate =>
-    candidate.id !== word.id &&
-    candidate.translation &&
-    candidate.translation !== word.translation &&
-    candidate.pos === word.pos &&
-    candidate.level === word.level
-  );
-  let candidates = shuffle(pool).slice(0, 3);
-  if (candidates.length < 3) {
-    const fallback = allWords().filter(candidate =>
-      candidate.id !== word.id &&
-      candidate.translation &&
-      candidate.translation !== word.translation &&
-      !candidates.some(item => item.id === candidate.id)
-    );
-    candidates = candidates.concat(shuffle(fallback).slice(0, 3 - candidates.length));
-  }
-  const options = shuffle([word, ...candidates]).map(candidate => ({
+  const mastery = masteryFor(word);
+  const isConfusion = mastery !== "mastered";
+  const direction = isConfusion && Math.random() < 0.65 ? "zh-de" : (Math.random() < 0.5 ? "de-zh" : "zh-de");
+  const candidates = confusionCandidates(word, 3);
+  const options = shuffle([word, ...candidates.slice(0, 3)]).map(candidate => ({
     word: candidate,
     label: direction === "de-zh" ? candidate.translation : wordDisplay(candidate)
   }));
@@ -2151,7 +2469,10 @@ function beginExam(word) {
     options,
     correct: options.findIndex(option => option.word.id === word.id),
     answered: false,
-    chosen: null
+    chosen: null,
+    mastery,
+    isConfusion,
+    next: null
   };
   session.phase = "exam";
   session.examStats.total += 1;
@@ -2161,11 +2482,21 @@ function beginExam(word) {
 function renderExam(word) {
   const exam = session?.exam;
   if (!exam) return;
+  const masteryMeta = MASTERY_META[exam.mastery] || MASTERY_META.unmastered;
   $("#study-stage").classList.add("exam-active");
   $("#exam-panel").classList.remove("hidden");
-  $("#exam-progress").textContent = `${session.index + 1} / ${session.queue.length} · 到期复查`;
+  $("#exam-progress").textContent = `${session.index + 1} / ${session.queue.length} · ${masteryMeta.label} · ${exam.isConfusion ? "易混词辨析" : "熟练度复查"}`;
   $("#exam-question").textContent = exam.direction === "de-zh" ? wordDisplay(word) : word.translation;
-  $("#exam-sub").textContent = exam.direction === "de-zh" ? "这个词是什么意思？" : "选出对应的德语词";
+  $("#exam-sub").textContent = exam.direction === "de-zh"
+    ? (exam.isConfusion ? "选出正确释义，注意近形近义词" : "这个词是什么意思？")
+    : (exam.isConfusion ? "选出正确的德语词，注意易混词" : "选出对应的德语词");
+  const guide = $("#exam-mastery-guide");
+  if (guide) {
+    guide.innerHTML = MASTERY_ORDER.map(key => {
+      const meta = MASTERY_META[key];
+      return `<span class="exam-mastery-step ${key === exam.mastery ? "is-active" : ""}"><i></i>${meta.label}<small>${meta.hint}</small></span>`;
+    }).join("");
+  }
   $("#exam-options").innerHTML = exam.options.map((option, index) => `
     <button class="exam-option" data-exam-option="${index}">
       <span class="exam-index">${index + 1}</span>
@@ -2184,8 +2515,31 @@ function answerExam(index) {
   if (!Number.isInteger(chosen) || chosen < 0 || chosen >= exam.options.length) return;
   exam.answered = true;
   exam.chosen = chosen;
+  const word = currentSessionWord();
+  if (!word) return;
   const correct = chosen === exam.correct;
   if (correct) session.examStats.correct += 1;
+
+  const previous = reviewFor(word.id);
+  const next = session.mode === "repeat" ? null : scheduleAnswer(previous, correct);
+  if (next) {
+    state.reviews[word.id] = next;
+    exam.next = next;
+    state.activity[dayKey()] = (state.activity[dayKey()] || 0) + 1;
+    state.stats.reviews = (Number(state.stats.reviews) || 0) + 1;
+    if (correct) {
+      state.stats.correct = (Number(state.stats.correct) || 0) + 1;
+      delete state.mistakes[word.id];
+      delete state.mistakeTypes[word.id];
+    } else {
+      state.mistakes[word.id] = (state.mistakes[word.id] || 0) + 1;
+      state.mistakeTypes[word.id] = "review";
+    }
+  }
+  session.ratings.push({ id: word.id, correct, score: correct ? 1 : 0 });
+  session.done += 1;
+  persist();
+
   $$("[data-exam-option]").forEach((button, optionIndex) => {
     button.disabled = true;
     if (optionIndex === exam.correct) button.classList.add("is-correct");
@@ -2197,10 +2551,15 @@ function answerExam(index) {
   result.classList.toggle("is-wrong", !correct);
   $("#exam-result-icon").textContent = correct ? "✓" : "!";
   $("#exam-result-title").textContent = correct ? "Richtig." : "Noch nicht.";
-  $("#exam-result-copy").textContent = correct
-    ? "回忆命中了。现在查看完整词卡，再评估这次记得有多牢。"
-    : `正确答案是「${exam.options[exam.correct].label}」。看过词卡后，把它标成「忘记」或「困难」都可以。`;
+  const nextMeta = next ? MASTERY_META[next.mastery] : null;
+  $("#exam-result-copy").textContent = nextMeta
+    ? `${correct ? "答对了" : `正确答案是「${exam.options[exam.correct].label}」`} · 已自动归入「${nextMeta.label}」，${formatInterval(next.interval)}后重推${exam.isConfusion ? "，并继续出易混词辨析" : ""}。`
+    : `${correct ? "答对了" : `正确答案是「${exam.options[exam.correct].label}」`} · 今日回顾只记录对错，不改变长期复习安排。`;
   $("#exam-panel").classList.add("is-answered");
+  const label = $("#mastery-next-label");
+  if (label && nextMeta) label.textContent = `当前掌握度：${nextMeta.label}`;
+  const note = $("#mastery-next-note");
+  if (note && nextMeta) note.textContent = `下次复习：${formatInterval(next.interval)}后 · 自动安排`;
   $("#exam-reveal").focus({ preventScroll: true });
 }
 
@@ -2215,6 +2574,26 @@ function revealExamCard() {
   $("#view-study").classList.add("is-revealed");
 }
 
+function advanceStudy() {
+  if (!session || session.finished || session.transitioning) return;
+  if (session.phase === "exam") {
+    if (!session.exam?.answered) return;
+    revealExamCard();
+    return;
+  }
+  if (!session.exam?.answered) return;
+  session.transitioning = true;
+  $("#view-study").classList.remove("is-revealed");
+  $("#flashcard").classList.add("is-leaving");
+  setTimeout(() => {
+    if (!session) return;
+    session.transitioning = false;
+    session.index += 1;
+    if (session.index >= session.queue.length) finishSession();
+    else renderStudyCard();
+  }, 240);
+}
+
 function flipCard() {
   if (!session || session.transitioning || session.finished) return;
   if (session.phase === "exam") return;
@@ -2227,37 +2606,14 @@ function flipCard() {
 
 function rateCard(rating) {
   if (!session || session.transitioning || session.finished) return;
-  if (session.phase === "exam") return;
+  if (!session.firstEncounter || session.phase === "exam") return;
   if (!$("#view-study").classList.contains("is-revealed")) return;
+  if (!FIRST_RATING_MASTERY[rating]) return;
   const word = currentSessionWord();
   if (!word) return;
 
-  if (session.mode === "repeat") {
-    session.transitioning = true;
-    if (rating === "again" || rating === "hard") {
-      state.mistakes[word.id] = (state.mistakes[word.id] || 0) + 1;
-      state.mistakeTypes[word.id] = "repeat";
-    }
-    session.ratings.push({ id: word.id, rating, score: RATING_SCORES[rating] || 0 });
-    session.done += 1;
-    persist();
-    $("#session-done").textContent = session.done;
-    $("#session-left").textContent = Math.max(0, session.queue.length - session.done);
-    $("#study-progress-bar").style.width = `${(session.done / session.queue.length) * 100}%`;
-    $("#view-study").classList.remove("is-revealed");
-    $("#flashcard").classList.add("is-leaving");
-    setTimeout(() => {
-      if (!session) return;
-      session.index += 1;
-      if (session.index >= session.queue.length) finishSession();
-      else renderStudyCard();
-    }, 240);
-    return;
-  }
-
   session.transitioning = true;
-  const previous = reviewFor(word.id);
-  const next = scheduleReview(previous, rating);
+  const next = scheduleFirstRating(rating);
   state.reviews[word.id] = next;
   state.activity[dayKey()] = (state.activity[dayKey()] || 0) + 1;
   state.stats.reviews = (Number(state.stats.reviews) || 0) + 1;
@@ -2267,9 +2623,9 @@ function rateCard(rating) {
     delete state.mistakeTypes[word.id];
   } else {
     state.mistakes[word.id] = (state.mistakes[word.id] || 0) + 1;
-    state.mistakeTypes[word.id] = "review";
+    state.mistakeTypes[word.id] = "first-rating";
   }
-  session.ratings.push({ id: word.id, rating, score: RATING_SCORES[rating] || 0 });
+  session.ratings.push({ id: word.id, correct: rating === "good" || rating === "easy", score: 1 });
   session.done += 1;
   persist();
 
@@ -2281,12 +2637,10 @@ function rateCard(rating) {
 
   setTimeout(() => {
     if (!session) return;
+    session.transitioning = false;
     session.index += 1;
-    if (session.index >= session.queue.length) {
-      finishSession();
-    } else {
-      renderStudyCard();
-    }
+    if (session.index >= session.queue.length) finishSession();
+    else renderStudyCard();
   }, 240);
 }
 
@@ -2296,7 +2650,7 @@ function finishSession() {
   stopStudyTimer();
   if (session.mode === "repeat") logRepeatReview();
   const total = session.queue.length;
-  const strong = session.ratings.filter(item => item.rating === "good" || item.rating === "easy").length;
+  const strong = session.ratings.filter(item => item.correct).length;
   const rate = total ? Math.round((strong / total) * 100) : 0;
   const elapsed = Date.now() - session.start;
 
@@ -2670,8 +3024,7 @@ function grammarQuestionBank(level = "all", type = "mixed") {
 
 
 function currentStatus(word) {
-  if (isDue(word)) return "due";
-  return statusFor(word);
+  return masteryFor(word);
 }
 
 function filteredWords() {
@@ -2734,10 +3087,12 @@ function renderLevelProgress() {
 
 function renderLibrary() {
   const metrics = getMetrics();
-  $("#library-total").textContent = metrics.total;
+  const totalEl = $("#library-total");
+  if (totalEl) totalEl.textContent = metrics.total;
+  $("#library-unmastered").textContent = metrics.unmastered;
+  $("#library-forgotten").textContent = metrics.forgotten;
+  $("#library-shaky").textContent = metrics.shaky;
   $("#library-mastered").textContent = metrics.mastered;
-  $("#library-learning").textContent = metrics.learning;
-  $("#library-new").textContent = metrics.fresh;
   renderLevelProgress();
 
   const searchInput = $("#library-search");
@@ -2780,7 +3135,7 @@ function renderLibrary() {
 
   body.innerHTML = words.map(word => {
     const status = currentStatus(word);
-    const statusMeta = STATUS_META[status] || STATUS_META.learning;
+    const statusMeta = STATUS_META[status] || STATUS_META.unmastered;
     const review = reviewFor(word.id);
     const dueText = !review ? "—" : formatDue(review.due);
     const favorite = state.favorites.includes(word.id);
@@ -2819,8 +3174,9 @@ function renderStats() {
   $("#mastery-ring").style.strokeDashoffset = String(RING_LARGE * (1 - percent / 100));
   $("#mastery-total-pill").textContent = `${metrics.total} Wörter`;
   $("#legend-mastered").textContent = metrics.mastered;
-  $("#legend-learning").textContent = metrics.learning;
-  $("#legend-new").textContent = metrics.fresh;
+  $("#legend-shaky").textContent = metrics.shaky;
+  $("#legend-forgotten").textContent = metrics.forgotten;
+  $("#legend-unmastered").textContent = metrics.unmastered;
   $("#legend-due").textContent = metrics.dueToday.length;
 
   const levelOrder = ["A1", "A2", "B1", "B2", "C1"];
@@ -2985,15 +3341,15 @@ function openReminderModal(dueCount) {
       <div>
         <p class="eyebrow">ZEIT ZUM WIEDERHOLEN</p>
         <h2>该复习了。</h2>
-        <p>今天还有 ${dueCount} 个词到期。先用考察模式过一遍，再决定记得多牢。</p>
+        <p>今天还有 ${dueCount} 个词到期。先用考察模式过一遍，答完选择题再看完整词卡。</p>
       </div>
       <button class="modal-close" data-close aria-label="关闭">${icon("close")}</button>
     </div>
     <div class="dict-intro">
       <span class="dict-intro-icon">${icon("clock")}</span>
       <div>
-        <strong>先抽查，再自评</strong>
-        <p>到期词会随机出现，答完选择题再看完整词卡。评「忘记」的词明天会再次出现。</p>
+        <strong>只看对错，自动安排</strong>
+        <p>到期词会随机出现，答完选择题再看完整词卡；系统按四档掌握度自动安排下次复习。</p>
       </div>
     </div>
     <div class="modal-actions">
@@ -3187,7 +3543,7 @@ function startRepeatReview() {
 function logRepeatReview() {
   if (!session || session.mode !== "repeat") return;
   const log = readRepeatLog();
-  const correct = session.ratings.filter(item => item.rating === "good" || item.rating === "easy").length;
+  const correct = session.ratings.filter(item => item.correct).length;
   log.push({
     date: dayKey(),
     count: session.queue.length,
@@ -3778,7 +4134,7 @@ function openWordModal(id) {
   if (!word) return;
   const topic = getTopic(word.topic);
   const status = currentStatus(word);
-  const statusMeta = STATUS_META[status] || STATUS_META.learning;
+  const statusMeta = STATUS_META[status] || STATUS_META.unmastered;
   const review = reviewFor(word.id);
   const favorite = state.favorites.includes(word.id);
   const article = word.article || "";
@@ -4076,7 +4432,7 @@ function openSettingsModal() {
         <div><strong>图书馆德语资源</strong><small>同济大学图书馆官方德语资源入口</small></div>
         <button class="btn btn-ghost" data-modal-action="open-library-resources">查看</button>
       </div>
-      <p class="settings-local-note">学习记录保存在当前浏览器 localStorage（数据结构 v${Number(state.schemaVersion) || 4}，约 ${Math.max(1, Math.round(JSON.stringify(state).length / 1024))} KB）；代码更新不会覆盖它。建议定期导出备份。</p>
+      <p class="settings-local-note">学习记录保存在当前浏览器 localStorage（数据结构 v${Number(state.schemaVersion) || 5}，约 ${Math.max(1, Math.round(JSON.stringify(state).length / 1024))} KB）；代码更新不会覆盖它。建议定期导出备份。</p>
     </div>
     <div class="settings-danger">
       <strong>备份与重置</strong>
@@ -4385,6 +4741,9 @@ function handleAction(action, element) {
     case "exam-reveal":
       revealExamCard();
       break;
+    case "study-next":
+      advanceStudy();
+      break;
     case "calendar-prev":
       calendarCursor = new Date(calendarCursor.getFullYear(), calendarCursor.getMonth() - 1, 1);
       renderCalendar();
@@ -4500,6 +4859,15 @@ function bindEvents() {
       libraryFilters.level = libraryFilters.level === level ? "all" : level;
       libraryVisibleLimit = 80;
       renderLibrary();
+      return;
+    }
+
+    const homeLevel = event.target.closest("[data-home-level]");
+    if (homeLevel) {
+      state.settings.dailyLevel = homeLevel.dataset.homeLevel;
+      persist();
+      renderHome();
+      showToast(homeLevel.dataset.homeLevel === "all" ? "每日单词：全部难度" : `每日单词已切换到 ${homeLevel.dataset.homeLevel}`);
       return;
     }
 
@@ -4791,6 +5159,18 @@ function bindEvents() {
     if (!modalRoot.hidden || typing) return;
 
     if ($("#view-study").classList.contains("is-active") && session) {
+      if (session.firstEncounter && session.phase === "card") {
+        if (event.code === "Space") {
+          event.preventDefault();
+          flipCard();
+          return;
+        }
+        if (["1", "2", "3", "4"].includes(event.key)) {
+          event.preventDefault();
+          rateCard({ 1: "again", 2: "hard", 3: "good", 4: "easy" }[event.key]);
+          return;
+        }
+      }
       if (session.phase === "exam") {
         if (!session.exam?.answered && ["1", "2", "3", "4"].includes(event.key)) {
           event.preventDefault();
@@ -4803,18 +5183,9 @@ function bindEvents() {
         }
         return;
       }
-      if (event.code === "Space") {
-        const flipped = $("#flashcard").classList.contains("is-flipped");
-        if (!flipped) {
-          event.preventDefault();
-          flipCard();
-        }
-        return;
-      }
-      if (["1", "2", "3", "4"].includes(event.key)) {
-        const map = { 1: "again", 2: "hard", 3: "good", 4: "easy" };
+      if (event.key === "Enter" && session.exam?.answered) {
         event.preventDefault();
-        rateCard(map[event.key]);
+        advanceStudy();
         return;
       }
     }
@@ -4877,6 +5248,11 @@ function init() {
   if (todayWeekday === 1) {
     // A tiny Monday greeting; harmless if the element is absent.
     document.documentElement.dataset.weekday = "monday";
+  }
+  if (storageRecoveryMode) {
+    setTimeout(() => showToast("旧学习记录未能读取，原始数据已保留；为避免覆盖，已暂停写入。"), 600);
+  } else if (storageRecoveredFromBackup) {
+    setTimeout(() => showToast("旧学习记录格式异常，已保留备份并以新状态启动。"), 600);
   }
 }
 
