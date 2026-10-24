@@ -29,5 +29,11 @@ window.WORTKARTE_PHRASES = [
   { id: "ph-27", de: "Ich bin mir nicht sicher.", zh: "我不太确定。", example: "Ich bin mir nicht sicher, ob das richtig ist.", exampleZh: "我不太确定这是否正确。", level: "B1", category: "交流", source: "Wortkarte 常用短语库" },
   { id: "ph-28", de: "Das macht nichts.", zh: "没关系。", example: "Du kommst etwas später? Das macht nichts.", exampleZh: "你晚点到？没关系。", level: "A2", category: "礼貌", source: "Wortkarte 常用短语库" },
   { id: "ph-29", de: "Ich freue mich darauf.", zh: "我很期待。", example: "Ich freue mich darauf, dich wiederzusehen.", exampleZh: "我很期待再次见到你。", level: "B1", category: "交流", source: "Wortkarte 常用短语库" },
-  { id: "ph-30", de: "Bis später!", zh: "待会儿见！", example: "Bis später, wir sehen uns im Kurs.", exampleZh: "待会儿见，我们课上见。", level: "A1", category: "告别", source: "Wortkarte 常用短语库" }
+  { id: "ph-30", de: "Bis später!", zh: "待会儿见！", example: "Bis später, wir sehen uns im Kurs.", exampleZh: "待会儿见，我们课上见。", level: "A1", category: "告别", source: "Wortkarte 常用短语库" },
+  { id: "ph-31", de: "ein edler Wein", zh: "上等葡萄酒", example: "Zu diesem Essen passt ein edler Wein.", exampleZh: "这道菜适合配上等葡萄酒。", level: "B2", category: "形容词搭配", source: "《德语形容词变位宝典9文档集》" },
+  { id: "ph-32", de: "eine dunkle Straße", zh: "一条黑暗的街道", example: "Die dunkle Straße ist abends leer.", exampleZh: "这条黑暗的街道晚上很空。", level: "A2", category: "形容词搭配", source: "《德语形容词变位宝典9文档集》" },
+  { id: "ph-33", de: "ein hohes Gebäude", zh: "一栋高楼", example: "Neben dem Bahnhof steht ein hohes Gebäude.", exampleZh: "火车站旁有一栋高楼。", level: "A2", category: "形容词搭配", source: "《德语形容词变位宝典9文档集》" },
+  { id: "ph-34", de: "ein teures Auto", zh: "一辆昂贵的汽车", example: "Ein teures Auto braucht viel Pflege.", exampleZh: "昂贵的汽车需要精心保养。", level: "A2", category: "形容词搭配", source: "《德语形容词变位宝典9文档集》" },
+  { id: "ph-35", de: "ein kariertes Hemd", zh: "一件格子衬衫", example: "Im Sommer trägt er gern ein kariertes Hemd.", exampleZh: "夏天他喜欢穿格子衬衫。", level: "A2", category: "形容词搭配", source: "《德语形容词变位宝典9文档集》" },
+  { id: "ph-36", de: "eine zuverlässige Kollegin", zh: "一位可靠的同事", example: "Eine zuverlässige Kollegin entlastet das ganze Team.", exampleZh: "一位可靠的同事能减轻整个团队的负担。", level: "B1", category: "形容词搭配", source: "《德语形容词变位宝典9文档集》" }
 ];

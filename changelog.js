@@ -2099,6 +2099,1230 @@ window.WORTKARTE_CHANGELOG = [
       "README 增补 GitHub Pages 记录保护说明与备份键名",
       "验证：旧 schema 迁移保留 reviews；损坏数据生成 corrupt 备份"
     ]
+  },
+  {
+    version: "1.7.0",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 501–508：月份词源与狮子亨利",
+    scope: "历史 · 文化 · 语言 · OCR",
+    items: [
+      "开始 OCR 批次 501–600，继续优先历史、文化、国情类 PDF",
+      "文化/历史页新增德语月份名称来源、狮子亨利，共 99 条",
+      "新增 Woher die deutschen Monatsnamen kommen 文章及 AI 译文",
+      "补全 Monatsname、Etymologie、römisch、Kalendermonat 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9041 个"
+    ]
+  },
+  {
+    version: "1.7.1",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 509–516：战争文学与席勒传统",
+    scope: "文学 · 历史 · 文化 · OCR",
+    items: [
+      "优先 OCR 德语学习文学卷、当代外国文学纪事下卷、20世纪短篇小说编年下卷、德语国家中篇小说选",
+      "文化/历史页新增战后战争文学、席勒与代际冲突，共 101 条",
+      "补全 Kriegsliteratur、Nachkriegszeit、Traditionspflege、Generationenkonflikt 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9045 个"
+    ]
+  },
+  {
+    version: "1.7.2",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 517–524：卡夫卡与工业劳动代价",
+    scope: "文学 · 社会史 · 文化 · OCR",
+    items: [
+      "优先 OCR 联邦共和国的贫困、历史潮流不可抗拒、跨文化管理、文学纪事、短篇小说编年、中篇小说选、卡夫卡研究、瑞士德语文学",
+      "文化/历史页新增弗朗茨·卡夫卡、工业劳动及其代价，共 103 条",
+      "补全 Vaterkonflikt、Industrialisierung、Arbeitsunfall、Fabrikarbeit 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9049 个"
+    ]
+  },
+  {
+    version: "1.7.3",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 525–532：卡夫卡之梦与跨文化合作",
+    scope: "文学 · 跨文化 · 文化 · OCR",
+    items: [
+      "优先 OCR 联邦共和国的贫困、历史潮流不可抗拒、跨文化管理、卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年、文学纪事",
+      "文化/历史页新增卡夫卡与梦、跨文化合作，共 105 条",
+      "补全 Traumdeutung、Selbstverwaltung、Führungsstil、Kulturaustausch 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9053 个"
+    ]
+  },
+  {
+    version: "1.7.4",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 533–540：经济危机与赫尔曼·黑塞",
+    scope: "经济史 · 文学 · 文化 · OCR",
+    items: [
+      "优先 OCR 联邦共和国的贫困、跨文化管理、卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷、文学纪事",
+      "文化/历史页新增经济危机与短时工作、赫尔曼·黑塞，共 107 条",
+      "补全 Kurzarbeit、Entlassung、Kriegsgegner、Weltkrieg 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9057 个"
+    ]
+  },
+  {
+    version: "1.7.5",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 541–548：马克斯·弗里施与犹太身份",
+    scope: "文学 · 身份 · 社会 · OCR",
+    items: [
+      "优先 OCR 联邦共和国的贫困、跨文化管理、卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷、文学纪事",
+      "文化/历史页新增马克斯·弗里施、卡夫卡与犹太身份，共 109 条",
+      "补全 Selbstsuche、Bildungsungleichheit、Judentum、Selbstbild 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9060 个"
+    ]
+  },
+  {
+    version: "1.7.6",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 549–556：住房短缺与迪伦马特",
+    scope: "社会史 · 文学 · 文化 · OCR",
+    items: [
+      "优先 OCR 联邦共和国的贫困、跨文化管理、卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷、文学纪事",
+      "文化/历史页新增联邦德国住房短缺、弗里德里希·迪伦马特，共 111 条",
+      "补全 Wohnungsnot、Sanierung、Utopie、Gerechtigkeit 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9063 个"
+    ]
+  },
+  {
+    version: "1.7.7",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 557–564：君特·格拉斯与穆施格",
+    scope: "文学 · 文化 · OCR",
+    items: [
+      "优先 OCR 联邦共和国的贫困、跨文化管理、卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷、文学纪事",
+      "文化/历史页新增君特·格拉斯、阿道夫·穆施格，共 113 条",
+      "补全 Blechtrommel、Schriftsteller、Literaturpreis、Erzähler 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9066 个"
+    ]
+  },
+  {
+    version: "1.7.8",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 565–572：布莱希特与比克塞尔",
+    scope: "戏剧 · 文学 · 文化 · OCR",
+    items: [
+      "优先 OCR 联邦共和国的贫困、跨文化管理、卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷、文学纪事",
+      "文化/历史页新增贝托尔特·布莱希特、彼得·比克塞尔，共 115 条",
+      "补全 Dramatiker、Sprachlosigkeit、Annäherung、Missverständnis 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9070 个"
+    ]
+  },
+  {
+    version: "1.7.9",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 573–580：体育暴力与媒体政治",
+    scope: "戏剧 · 媒体 · 文化 · OCR",
+    items: [
+      "优先 OCR 文学纪事下卷、卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷、跨文化管理",
+      "文化/历史页新增体育、身体与暴力、政治作为媒体表演，共 117 条",
+      "补全 Inszenierung、Wahlkampf、Körperkultur、Medienpolitik 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9074 个"
+    ]
+  },
+  {
+    version: "1.8.0",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 581–588：德语中篇小说与贝尔福斯",
+    scope: "文学 · 戏剧 · 文化 · OCR",
+    items: [
+      "优先 OCR 卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷、文学纪事下卷、跨文化管理",
+      "文化/历史页新增德语中篇小说、卢卡斯·贝尔福斯，共 119 条",
+      "补全 Novelle、Dramaturgie、Erzählung、Prosa 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9077 个"
+    ]
+  },
+  {
+    version: "1.8.1",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 589–596：歌德故居北京厅与席勒",
+    scope: "文学 · 建筑 · 文化 · OCR",
+    items: [
+      "优先 OCR 卡夫卡研究、瑞士德语文学、中篇小说选、短篇小说编年上下卷",
+      "文化/历史页新增歌德故居与北京厅、弗里德里希·席勒，共 121 条",
+      "补全 Chinoiserie、Barock、Wohnhaus、Innenraum 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9081 个"
+    ]
+  },
+  {
+    version: "1.8.2",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 597–600 与第 600 批检查：施蒂夫特与航空文学",
+    scope: "文学 · 技术 · 文化 · 检查",
+    items: [
+      "完成 OCR 批次 501–600，优先历史、文化、国情与文学类 PDF",
+      "文化/历史页新增阿达尔贝特·施蒂夫特、航空与科技热情，共 123 条",
+      "补全 Aviatik、Technikbegeisterung、Naturerfahrung、Erzählkunst 词条",
+      "第 600 批检查：文章 160/160 有译文，短语 221/221 有中文",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9085 个",
+      "OCR 已暂停，下次从第 601 批开始；检查点 600，下次检查点 650"
+    ]
+  },
+  {
+    version: "1.9.0",
+    date: "2026-10-24",
+    type: "data",
+    summary: "OCR 批次 601–608：法兰克王国与东亚研究",
+    scope: "历史 · 文化 · 国情 · OCR",
+    items: [
+      "开始 OCR 批次 601–700，继续优先历史、文化、国情类 PDF",
+      "文化/历史页新增法兰克王国与基督教化、德国东亚研究，共 125 条",
+      "补全 Christianisierung、Frankenreich、Missionar、Kaisertum 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9089 个"
+    ]
+  },
+  {
+    version: "1.9.1",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 609–616：梅尔塞堡咒语与阴阳",
+    scope: "古代文化 · 哲学 · 国情 · OCR",
+    items: [
+      "优先 OCR 德语与德国文化、德语文学与文化、文化记忆、经典中篇小说、音乐教育、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增梅尔塞堡咒语、阴阳作为世界模型，共 127 条",
+      "补全 Zauberspruch、germanisch、Harmonie、Polarität 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9093 个"
+    ]
+  },
+  {
+    version: "1.9.2",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 617–624：帕尔西法尔与家庭计划",
+    scope: "中世纪 · 国情 · 文化 · OCR",
+    items: [
+      "优先 OCR 德语与德国文化、文学与文化、文化记忆、经典中篇小说、音乐教育、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增帕尔西法尔与圣杯、独生子女政策与家庭计划，共 129 条",
+      "补全 Gral、Familienplanung、Einkindpolitik、Geburtenkontrolle 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9097 个"
+    ]
+  },
+  {
+    version: "1.9.3",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 625–632：路德圣经与文化记忆",
+    scope: "宗教史 · 语言史 · 文化 · OCR",
+    items: [
+      "优先 OCR 德语与德国文化、文学与文化、文化记忆、经典中篇小说、音乐教育、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增路德圣经翻译、文化记忆，共 131 条",
+      "补全 Kirchengeschichte、Sprachgeschichte、Schriftkultur、Reformation 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9101 个"
+    ]
+  },
+  {
+    version: "1.9.4",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 633–640：法国大革命与电话依赖",
+    scope: "革命史 · 媒介 · 文化 · OCR",
+    items: [
+      "优先 OCR 德语与德国文化、文学与文化、文化记忆、经典中篇小说、音乐教育、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增法国大革命与德国文学、电话作为脐带，共 133 条",
+      "补全 Revolutionsepoche、Nabelschnur、Erreichbarkeit、Geschäftsessen 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9105 个"
+    ]
+  },
+  {
+    version: "1.9.5",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 641–648：海涅与多元文化社会",
+    scope: "文学 · 社会 · 文化 · OCR",
+    items: [
+      "优先 OCR 德语与德国文化、文学与文化、文化记忆、经典中篇小说、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增海因里希·海涅、多元文化社会，共 135 条",
+      "补全 Hymne、Multikultur、Fremdenfeindlichkeit、Anderssein 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9109 个"
+    ]
+  },
+  {
+    version: "1.9.6",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 649–656：奥地利德语与物的诗学",
+    scope: "语言文化 · 文学 · 文化 · OCR",
+    items: [
+      "优先 OCR 德语与德国文化、文学与文化、文化记忆、经典中篇小说、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增奥地利德语、格拉斯与物的诗学，共 137 条",
+      "补全 Standarddeutsch、Sprachpolitik、Mundart、Dingbedeutung 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9113 个"
+    ]
+  },
+  {
+    version: "1.9.7",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 657–664：歌德《塔索》与跨文化能力",
+    scope: "古典文学 · 跨文化 · 文化 · OCR",
+    items: [
+      "优先 OCR 文学与文化、文化记忆、经典中篇小说、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增歌德《塔索》、跨文化能力，共 139 条",
+      "补全 interkulturell、Pünktlichkeit、Effizienz、Terminplanung 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9116 个"
+    ]
+  },
+  {
+    version: "1.9.8",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 665–672：茨威格《象棋的故事》与青年旅舍",
+    scope: "文学 · 青年文化 · 文化 · OCR",
+    items: [
+      "优先 OCR 文化记忆、经典中篇小说、东亚研究、今日德国、外国人看中国文化",
+      "文化/历史页新增茨威格《象棋的故事》、青年旅舍与班级旅行，共 141 条",
+      "补全 Schachnovelle、Schachfigur、Herberge、Klassenreise 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9120 个"
+    ]
+  },
+  {
+    version: "1.9.9",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 673–680：巴赫曼与边境交通",
+    scope: "女性文学 · 旅行 · 文化 · OCR",
+    items: [
+      "优先 OCR 文化记忆、经典中篇小说、东亚研究、今日德国、外国人看中国文化、文学与文化",
+      "文化/历史页新增英格博格·巴赫曼、边境交通与度假旅行，共 143 条",
+      "补全 Geschlechterrolle、Grenzverkehr、Urlaubsreise、Warteschlange 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9124 个"
+    ]
+  },
+  {
+    version: "1.9.10",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 681–688：中国与外国人、技术伦理",
+    scope: "跨文化 · 技术伦理 · 文化 · OCR",
+    items: [
+      "优先 OCR 文化记忆、东亚研究、今日德国、外国人看中国文化、文学与文化",
+      "文化/历史页新增中国与外国人、技术伦理与未来责任，共 145 条",
+      "补全 Fremde、Verantwortungsethik、Technikfolgen、Zukunftsverantwortung 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9128 个"
+    ]
+  },
+  {
+    version: "1.9.11",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 689–696：德语语言区与德国地貌",
+    scope: "国情 · 地理 · 文化 · OCR",
+    items: [
+      "优先 OCR 德国面面观、国情1000题、社会与文化、国情文化学生读本与练习册、文化视窗1/2、德语国家概况",
+      "文化/历史页新增德语语言区、德国地貌，共 147 条",
+      "补全 Sprachraum、Mittelgebirge、Küstenlandschaft、Alpen 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9132 个"
+    ]
+  },
+  {
+    version: "2.0.0",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 697–700 与第 700 批检查：马歇尔计划与柏林空运",
+    scope: "国情 · 战后史 · 文化 · 检查",
+    items: [
+      "完成 OCR 批次 601–700，优先历史、文化、国情与文学类 PDF",
+      "文化/历史页新增德国饮料消费、马歇尔计划与柏林空运，共 149 条",
+      "补全 Getränkekonsum、Marshallplan、Blockade、Währungsreform 词条",
+      "第 700 批检查：文章 160/160 有译文，短语 221/221 有中文",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9136 个",
+      "OCR 已暂停，下次从第 701 批开始；检查点 700，下次检查点 750"
+    ]
+  },
+  {
+    version: "2.0.1",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展开始：OCR 批次 701–708",
+    scope: "历史 · 社会 · 国情 · 语言 · OCR",
+    items: [
+      "开启 701–800 均衡计划：历史、文化、国情、社会、文学、语言、日常与地理交替推进",
+      "文化/历史页新增奥地利1938与“德奥合并”、德国常见名字，共 151 条",
+      "补全 Vornamensstatistik、Studienwahl、Berufseinstieg、Praktikumsplatz 词条",
+      "文章 160 篇、短语 221 条、语法 73 张卡、单词 9140 个"
+    ]
+  },
+  {
+    version: "2.0.2",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 709–716",
+    scope: "抵抗史 · 文学 · 社会 · OCR",
+    items: [
+      "历史线：新增反抗希特勒与1944年7月20日刺杀",
+      "文学线：新增海因里希·伯尔与“四七社”、战后文学",
+      "补全 Widerstand、Attentat、Trümmerliteratur、Vergangenheitsbewältigung 词条",
+      "文化/历史页共 153 条；文章 160 篇、短语 221 条、语法 73 张卡、单词 9143 个"
+    ]
+  },
+  {
+    version: "2.0.3",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 717–724",
+    scope: "语言哲学 · 古典 · 地理 · OCR",
+    items: [
+      "语言线：新增维特根斯坦与“语言游戏”",
+      "文学/文化线：新增魏玛古典主义，文章 Weimar als Zentrum der Klassik 及译文",
+      "地理线：补充冰川木乃伊与阿尔卑斯相关词汇",
+      "补全 Sprachspiel、Sprachphilosophie、Klassik、Gletschermumie 词条",
+      "文化/历史 155 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9147 个"
+    ]
+  },
+  {
+    version: "2.0.4",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 725–732",
+    scope: "建筑 · 音乐 · 语言 · OCR",
+    items: [
+      "历史/建筑线：新增勃兰登堡门与柏林记忆",
+      "音乐线：新增维也纳古典乐派（海顿、莫扎特、贝多芬）",
+      "语言线：补充奥地利德语语法、句调与指小形式",
+      "补全 Brandenburger Tor、Satzmelodie、Musikgeschichte、Verkleinerung 词条",
+      "文化/历史 157 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9151 个"
+    ]
+  },
+  {
+    version: "2.0.5",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 733–740",
+    scope: "文学 · 饮食文化 · OCR",
+    items: [
+      "文学线：新增海因里希·曼《臣仆》与威廉时代讽刺",
+      "日常线：新增奥地利葡萄酒、Heuriger 与啤酒文化",
+      "补全 Untertan、Heuriger、Weinstube、Satire 词条",
+      "文化/历史 159 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9155 个"
+    ]
+  },
+  {
+    version: "2.0.6",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 741–748",
+    scope: "教育 · 音乐 · 阅读 · OCR",
+    items: [
+      "教育/社会线：新增高中毕业后的专业选择、间隔年与职业咨询",
+      "音乐线：新增第二维也纳乐派与十二音技法",
+      "阅读线：加入德语故事与趣味阅读材料",
+      "补全 Zwischenjahr、Berufsberatung、Aushilfe、Zwölftontechnik 词条",
+      "文化/历史 161 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9157 个"
+    ]
+  },
+  {
+    version: "2.0.7",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 749–756",
+    scope: "交通 · 语法 · 国情 · OCR",
+    items: [
+      "地理/交通线：新增瑞士交通网、圣哥达隧道与 SBB",
+      "语言线：新增情态动词的客观与主观用法",
+      "补全 Gotthard、Verkehrsnetz、Motorisierung、Strassennetz 词条",
+      "文化/历史 163 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9161 个"
+    ]
+  },
+  {
+    version: "2.0.8",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 757–764",
+    scope: "体育 · 钟表 · 阅读 · OCR",
+    items: [
+      "社会/体育线：新增潮流运动、刺激与风险",
+      "地理/产业线：新增瑞士钟表业、纳沙泰尔与汝拉",
+      "阅读线：加入德语故事、趣味阅读与泛读教程",
+      "补全 Trendsport、Uhrenindustrie、Uhrwerk、Feinmechanik 词条",
+      "文化/历史 165 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9165 个"
+    ]
+  },
+  {
+    version: "2.0.9",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 765–772",
+    scope: "休闲史 · 东德转型 · 阅读 · OCR",
+    items: [
+      "社会/文化线：新增休闲与工作的分离、1897年上海《消闲报》",
+      "历史线：新增1990年后东德的经济与社会转型",
+      "阅读线：加入泛读教程上/中/下与故事、趣味阅读",
+      "补全 Transformation、Ostdeutschland、Bahnhofskiosk、Wahlergebnis 词条",
+      "文化/历史 167 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9169 个"
+    ]
+  },
+  {
+    version: "2.0.10",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 773–780",
+    scope: "老龄社会 · 经济 · 阅读 · OCR",
+    items: [
+      "社会线：新增“银发一代”、购买力与老龄市场",
+      "经济线：新增“肘部社会”、市场竞争与公平问题",
+      "阅读线：继续泛读教程与故事、趣味阅读",
+      "补全 Silbergeneration、Wirtschaftsfaktor、Marktwirtschaft、Ellenbogengesellschaft 词条",
+      "文化/历史 169 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9173 个"
+    ]
+  },
+  {
+    version: "2.0.11",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 781–788",
+    scope: "体育 · 历史谜案 · 阅读 · OCR",
+    items: [
+      "社会/体育线：新增业余足球、家乡俱乐部与志愿服务",
+      "历史线：新增卡斯帕·豪泽之谜",
+      "阅读线：加入轻松阅读、快速阅读与阅读理解材料",
+      "补全 Heimatverein、Amateurfußball、Vereinsleben、Findling 词条",
+      "文化/历史 171 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9177 个"
+    ]
+  },
+  {
+    version: "2.0.12",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 789–796",
+    scope: "音乐治疗 · 媒介 · 阅读 · OCR",
+    items: [
+      "社会/健康线：新增德国音乐治疗培训与职业路径",
+      "媒介线：新增短消息、Twitter 与公开交流",
+      "趣味线：加入香蕉贴纸收藏与轻松阅读材料",
+      "补全 Tweet、Kurzmitteilung、Sammelleidenschaft、Bananenaufkleber 词条",
+      "文化/历史 173 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9181 个"
+    ]
+  },
+  {
+    version: "2.1.0",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 797–800 与第 800 批检查：步行街与儿童未来愿望",
+    scope: "城市 · 社会 · 阅读 · 检查",
+    items: [
+      "完成均衡计划 OCR 批次 701–800",
+      "文化/历史页新增步行街与交通舒缓、儿童的未来愿望，共 175 条",
+      "补全 Fußgängerzone、Verkehrsberuhigung、Ozonschicht、Zukunftswunsch 词条",
+      "第 800 批检查：文章 161/161 有译文，短语 221/221 有中文",
+      "文章 161 篇、短语 221 条、语法 73 张卡、单词 9185 个",
+      "OCR 已暂停，下次从第 801 批开始；检查点 800，下次检查点 850"
+    ]
+  },
+  {
+    version: "2.2.0",
+    date: "2026-10-25",
+    type: "feature",
+    summary: "文化页检索、文章例句匹配与 OCR 批次 801–808",
+    scope: "检索 · 例句 · 阅读 · OCR",
+    items: [
+      "德国历史与文化页新增检索框，可按中文、德语、年份或标签筛选",
+      "单词缺少例句时，从文章中匹配难度相近的完整句子，并标注文章来源与等级",
+      "文化/历史页新增柏林魔鬼山、转折后时期，共 177 条",
+      "补全 Teufelsberg、Trümmerschutt、Nachwendezeit、Zeitachse 词条",
+      "文章 161 篇、短语 221 条、语法 73 张卡、单词 9189 个"
+    ]
+  },
+  {
+    version: "2.2.1",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 809–816",
+    scope: "教育 · 国际组织 · 阅读 · OCR",
+    items: [
+      "社会/教育线：新增老年人上大学与“老年助手”试点",
+      "国情线：新增维也纳联合国城与国际形象",
+      "补全 Altenhelfer、UNO-City、Erdstoß、Senior 词条",
+      "文化/历史 179 条；文章 161 篇、短语 221 条、语法 73 张卡、单词 9192 个"
+    ]
+  },
+  {
+    version: "2.2.2",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 817–824",
+    scope: "消费 · 马术 · 阅读 · OCR",
+    items: [
+      "社会/消费线：新增品牌殿堂与购物体验",
+      "国情线：新增北威州马匹与霍赫莫尔动物医院",
+      "阅读线：新增文章 Markentempel statt Modehaus 及译文",
+      "补全 Markentempel、Einkaufserlebnis、Pferdeklinik、Reiten 词条",
+      "文化/历史 181 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9196 个"
+    ]
+  },
+  {
+    version: "2.2.3",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 825–832",
+    scope: "电影 · 医学伦理 · 阅读 · OCR",
+    items: [
+      "文化线：新增表演界与“正常生活”的张力",
+      "科技/伦理线：新增疫苗研发、动物实验与组织培养",
+      "补全 Schauspielwelt、Impfstoffentwicklung、Tierversuch、Gewebekultur 词条",
+      "文化/历史 183 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9200 个"
+    ]
+  },
+  {
+    version: "2.2.4",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 833–840",
+    scope: "能源 · 航空 · 阅读 · OCR",
+    items: [
+      "科技/能源线：新增“能源树”与利用温差供热",
+      "探索线：新增皮卡尔环球气球飞行与急流",
+      "补全 Energiebaum、Wärmegewinnung、Ballonfahrt、Jetstream 词条",
+      "文化/历史 185 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9204 个"
+    ]
+  },
+  {
+    version: "2.2.5",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 841–848",
+    scope: "数字生活 · 音乐交流 · 阅读 · OCR",
+    items: [
+      "语言/数字线：新增登录、退出、上传、转发等数字动词",
+      "文化线：新增国际音乐节与寄宿家庭交流",
+      "补全 einloggen、weiterleiten、Gastfamilie、Musikeraustausch 词条",
+      "文化/历史 187 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9208 个"
+    ]
+  },
+  {
+    version: "2.2.6",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 849–856",
+    scope: "媒介 · 社会参与 · 阅读 · OCR",
+    items: [
+      "媒介线：新增以事实、人物、观点为中心的三种访谈形式",
+      "人物线：新增鲁尔区埃尔温神父与废铁救助",
+      "补全 sachzentriert、Schrott、Lepra、Seelsorger 词条",
+      "文化/历史 189 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9212 个"
+    ]
+  },
+  {
+    version: "2.2.7",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 857–864",
+    scope: "欧债危机 · 健康 · 阅读 · OCR",
+    items: [
+      "历史/经济线：新增从银行危机到国家债务危机、欧元区改革压力",
+      "健康线：新增缺铁、造血与铁的饮食来源",
+      "补全 Staatsschuldenkrise、Wettbewerbsfähigkeit、Eisenmangel、Blutbildung 词条",
+      "文化/历史 191 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9216 个"
+    ]
+  },
+  {
+    version: "2.2.8",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 865–872",
+    scope: "魏玛史 · 跨文化 · 阅读 · OCR",
+    items: [
+      "历史线：新增魏玛共和国、1919年国民议会与旧精英",
+      "跨文化线：新增西方媒体中的俄罗斯形象与偏见",
+      "补全 Russlandbild、Vorurteil、Reichswehr、Nationalversammlung 词条",
+      "文化/历史 193 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9219 个"
+    ]
+  },
+  {
+    version: "2.2.9",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 873–880",
+    scope: "城市环境 · 企业创新 · 阅读 · OCR",
+    items: [
+      "城市/环境线：新增特内里费口香糖污染与清理成本",
+      "经济线：新增大众汽车创意管理与员工奖励",
+      "补全 Kaugummi、Ideenmanagement、Verbesserungsvorschlag、Betriebsrat 词条",
+      "文化/历史 195 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9222 个"
+    ]
+  },
+  {
+    version: "2.2.10",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 881–888",
+    scope: "发明 · 艺术史 · 阅读 · OCR",
+    items: [
+      "科技线：新增1946年硬性隐形眼镜与自我试验",
+      "艺术线：新增米勒、杜米埃与法国现实主义",
+      "补全 Sehhilfe、Karikatur、Holzschnitt、Lithographie 词条",
+      "文化/历史 197 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9226 个"
+    ]
+  },
+  {
+    version: "2.2.11",
+    date: "2026-10-25",
+    type: "data",
+    summary: "均衡扩展：OCR 批次 889–896",
+    scope: "文学奖 · 中篇小说 · 阅读 · OCR",
+    items: [
+      "文学线：新增保罗·海泽、1910年诺贝尔文学奖与“猎鹰理论”",
+      "文学史线：新增德语文学诺贝尔奖得主概览",
+      "补全 Falkentheorie、Literaturnobelpreis、Novellentheorie、Übersetzer 词条",
+      "文化/历史 199 条；文章 162 篇、短语 221 条、语法 73 张卡、单词 9230 个"
+    ]
+  },
+  {
+    version: "2.3.0",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 897–900 与第 900 批检查：英格林与翻译批评",
+    scope: "文学 · 翻译 · 阅读 · 检查",
+    items: [
+      "完成 OCR 批次 801–900，共 100 批",
+      "文化/历史页新增迈因拉德·英格林、直译与翻译批评，共 201 条",
+      "补全 Fasnacht、Wörtlichkeit、Übersetzungskritik、Ausgangstext 词条",
+      "第 900 批检查：文章 162/162 有译文，短语 221/221 有中文",
+      "文章 162 篇、短语 221 条、语法 73 张卡、单词 9234 个",
+      "OCR 已暂停，下次从第 901 批开始；检查点 900，下次检查点 950"
+    ]
+  },
+  {
+    version: "2.3.1",
+    date: "2026-10-25",
+    type: "feature",
+    summary: "历史时间轴检索与形容词变位资料整合",
+    scope: "检索 · 时间轴 · 语法 · 单词 · 短语 · 文章",
+    items: [
+      "历史与文化页新增历史时间轴，按古代、中世纪、近代早期、19世纪、战争与危机、分裂与冷战、当代筛选",
+      "历史分类固定按年份升序排列，并显示时间轴节点与年份",
+      "文化检索可与历史时期筛选组合使用",
+      "重写“形容词词尾”语法卡：弱变化、混合变化、强变化、特殊词形与 6 道练习",
+      "新增 edel、eitel、kariert、zuverlässig、großzügig、hilfsbereit 词条",
+      "新增 6 条形容词搭配短语",
+      "新增文章 Warum der rote Pullover rot bleibt 及译文",
+      "文化/历史 199 条、文章 163 篇、短语 227 条、语法 73 张卡、单词 9238 个"
+    ]
+  },
+  {
+    version: "2.3.2",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 901–908：短篇小说世纪选集与家庭意识形态",
+    scope: "文学 · 社会 · 阅读 · OCR",
+    items: [
+      "开启 OCR 批次 901–1000",
+      "文化/历史页新增20世纪短篇小说编年、家庭作为教育机器，共 201 条",
+      "补全 Kurzgeschichte、Anthologie、Erziehungsapparat、Produktionsprozess 词条",
+      "文化/历史 201 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9242 个"
+    ]
+  },
+  {
+    version: "2.3.3",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 909–916：诗歌、内心独白与功能化",
+    scope: "文学 · 叙事技巧 · 阅读 · OCR",
+    items: [
+      "文学线：新增诗歌作为抵抗功能化的“魔法物件”",
+      "叙事线：新增内心独白、恐惧与不确定视角",
+      "补全 Funktionalisierung、Erzählstimme、Innerer Monolog、Gegenstand 词条",
+      "文化/历史 203 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9245 个"
+    ]
+  },
+  {
+    version: "2.3.4",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 917–924：里尔克与1900年前后的学校",
+    scope: "文学 · 教育史 · 阅读 · OCR",
+    items: [
+      "人物线：新增里尔克与早期短篇《体操课》",
+      "社会线：新增1900年前后学校日常、纪律与服从",
+      "补全 Turnstunde、Erziehung、Schulbank、Disziplin 词条",
+      "文化/历史 205 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9248 个"
+    ]
+  },
+  {
+    version: "2.3.5",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 925–932：鲁迅论外语学习",
+    scope: "人物 · 语言学习 · 阅读 · OCR",
+    items: [
+      "人物线：新增鲁迅学习日语、德语与翻译实践",
+      "学习法线：新增不间断学习、每日生词与阅读积累",
+      "补全 Beharrlichkeit、Sprachlernen、Fremdsprachenunterricht、Wortschatz 词条",
+      "文化/历史 207 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9251 个"
+    ]
+  },
+  {
+    version: "2.3.6",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 933–940：狮子亨利传说与百货商店",
+    scope: "传说 · 城市消费 · 阅读 · OCR",
+    items: [
+      "传说线：新增狮子亨利与忠实狮子、布伦瑞克狮子",
+      "社会线：新增百货商店、橱窗与顾客群",
+      "补全 Löwe、Warenhaus、Schaufenster、Kundschaft 词条",
+      "文化/历史 209 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9254 个"
+    ]
+  },
+  {
+    version: "2.3.7",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 941–948：吕贝克面包传说与日常面包文化",
+    scope: "传说 · 饮食文化 · 阅读 · OCR",
+    items: [
+      "传说线：新增吕贝克面包传说、浪费面包的警告",
+      "日常线：新增面包、长面包、酸面团与日常饮食文化",
+      "补全 Sage、Brotverschwendung、Brotlaib、Warnung 词条",
+      "文化/历史 211 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9256 个"
+    ]
+  },
+  {
+    version: "2.3.8",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 949–956：父子继承与 Ende/Schluss",
+    scope: "家庭 · 词义辨析 · 阅读 · OCR",
+    items: [
+      "文学线：新增父子冲突、生意继承与遗产负担",
+      "语言线：新增 Ende 与 Schluss 的语义差别",
+      "补全 Erbe、Nachfolge、Vaterfigur、Schluss 词条",
+      "文化/历史 213 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9259 个"
+    ]
+  },
+  {
+    version: "2.3.9",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 957–964：家族小说与 schaffen/erreichen",
+    scope: "文学类型 · 动词辨析 · 阅读 · OCR",
+    items: [
+      "文学线：新增家族小说、数代人与社会变迁",
+      "语言线：新增 schaffen 与 erreichen 的语义差别",
+      "补全 Familienroman、Familiensaga、Niedergang、Erbfolge 词条",
+      "文化/历史 215 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9263 个"
+    ]
+  },
+  {
+    version: "2.3.10",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 965–972：大城市贫困与身体惯用语",
+    scope: "社会 · 惯用语 · 阅读 · OCR",
+    items: [
+      "社会线：新增大城市贫困、低工资、房租与食物压力",
+      "语言线：新增含身体部位的德语惯用语",
+      "补全 Redewendung、Körperteil、Elend、Nahrung 词条",
+      "文化/历史 217 条；文章 163 篇、短语 227 条、语法 73 张卡、单词 9267 个"
+    ]
+  },
+  {
+    version: "2.3.11",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 973–980：战争夜岗与不定式结构",
+    scope: "战争文学 · 语法 · 阅读 · OCR",
+    items: [
+      "文学线：新增战争夜岗、死亡鸟预兆与持续恐惧",
+      "语法线：新增 hören/sehen/lassen/kommen + 不定式结构",
+      "新增文章 Wenn ein Verb noch ein Verb mitbringt 及译文",
+      "补全 Nachtwache、Todesvogel、Infinitiv、Kriegsnacht 词条",
+      "文化/历史 219 条；文章 164 篇、短语 227 条、语法 73 张卡、单词 9271 个"
+    ]
+  },
+  {
+    version: "2.3.12",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 981–988：城市轨道与介词表达",
+    scope: "城市文学 · 语法 · 阅读 · OCR",
+    items: [
+      "文学线：新增大城市轨道、工地、暮色与出发意象",
+      "语言线：新增时间/地点/原因介词与雪天交通事故表达",
+      "补全 Dämmerung、Schneeglätte、Schleudern、Verkehrsunfall 词条",
+      "文化/历史 221 条；文章 164 篇、短语 227 条、语法 73 张卡、单词 9275 个"
+    ]
+  },
+  {
+    version: "2.4.0",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 989–1000 与第 1000 批检查：高空飞行与《丹东之死》",
+    scope: "文学 · 戏剧 · 阅读 · 检查",
+    items: [
+      "完成 OCR 批次 901–1000，共 100 批",
+      "文化/历史页新增高空飞行与缺氧体验、毕希纳与《丹东之死》，共 223 条",
+      "补全 Höhenflug、Sauerstoffmangel、Tragödie、Jakobiner 词条",
+      "第 1000 批检查：文章 164/164 有译文，短语 227/227 有中文",
+      "文章 164 篇、短语 227 条、语法 73 张卡、单词 9279 个",
+      "OCR 已暂停，下次从第 1001 批开始；检查点 1000，下次检查点 1050"
+    ]
+  },
+  {
+    version: "2.5.0",
+    date: "2026-10-25",
+    type: "feature",
+    summary: "形容词词尾总表、词书变位/复数/例句与学习记录保护",
+    scope: "语法 · 词书 · 例句 · 存储 · OCR",
+    items: [
+      "新增“形容词词尾总表”语法卡：弱/混合/强变化对照与 4 道练习",
+      "从词书补充 Jude、Pfarrer、Bibel、Engel、Islam、Kloster 等名词及复数",
+      "补充 beten 变位、herbstlich/schmerzlich/einzigartig 等形容词",
+      "新增词书例句替换：仅替换文章例句或编号混乱的例句，并标注书名",
+      "新增 schema 5 原样保留测试：主存储逐字不变，reviews/favorites/readArticles 保留",
+      "开启 OCR 批次 1001–1008，优先词书类 PDF",
+      "单词 9295、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.5.1",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1009–1016：犯罪词书复数、变位与例句",
+    scope: "词书 · 名词复数 · 动词变位 · OCR",
+    items: [
+      "继续优先词书类 PDF：超简单德语单词书、7000词、单词串串烧、词汇分类学习手册等",
+      "新增 Anschlag、Terrorist、Vorgehen、Zugriff 等名词及复数",
+      "新增 verhaften 变位（verhaftet, verhaftete, hat verhaftet）",
+      "新增词书例句并标注来源：Anschlag auf den Politiker、Vorgehen der Polizei 等",
+      "单词 9299、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.5.2",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1017–1024：职业与活动词书复数/例句",
+    scope: "词书 · 名词复数 · OCR",
+    items: [
+      "新增 Tätigkeit、Besonderheit、Teilnahme、Helfer 及复数",
+      "例句标注词书来源：Veranstaltung、freiwillige Helfer、Teilnahme 等",
+      "单词 9301、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.5.3",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1025–1032：政治词书复数与例句",
+    scope: "词书 · 政治词汇 · OCR",
+    items: [
+      "新增 Politiker、Präsident、Staat、Abstimmung 及复数",
+      "例句标注词书来源：demokratischer Staat、Präsident zu Besuch、Abstimmung 等",
+      "单词 9302、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.5.4",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1033–1040：工具词书复数",
+    scope: "词书 · 工具词汇 · OCR",
+    items: [
+      "新增 Bohrer、Feile、Hobel、Klemme 及复数",
+      "继续使用词书中 `(m, -)`、`(f, -n)` 的复数标注方式",
+      "单词 9305、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.5.5",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1041–1048：饮料词书复数",
+    scope: "词书 · 饮食词汇 · OCR",
+    items: [
+      "新增 Schnaps、Weinbrand 及复数",
+      "按词书标注 `der Schnaps, ¨e`、`der Weinbrand, ¨e` 补入复数",
+      "单词 9305、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.5.6",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1049–1056：命令与指示词书复数/变位",
+    scope: "词书 · 交际词汇 · OCR",
+    items: [
+      "新增 Anordnung、Anweisung、Aufforderung 及复数",
+      "新增 beauftragen 变位（beauftragt, beauftragte, hat beauftragt）",
+      "单词 9306、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.0",
+    date: "2026-10-25",
+    type: "feature",
+    summary: "词性细分：其他拆为介词、连词、代词、副词、短语等",
+    scope: "词库 · 词性筛选 · 数据质量",
+    items: [
+      "“其他”不再是大类：新增介词、连词、代词、数词、语气词、感叹词、短语细分",
+      "能确认的形容词、动词、副词从“其他”迁出，按词形、词表与后缀判断",
+      "单词库新增按词性筛选，可与等级、掌握度、搜索组合",
+      "词条详情与表格显示细分词性",
+      "其他/待细分从 1421 条降至 557 条",
+      "新增词性筛选自动测试：介词 33 条全部匹配"
+    ]
+  },
+  {
+    version: "2.6.1",
+    date: "2026-10-25",
+    type: "data",
+    summary: "新增 100 轮启动与 OCR 1057–1064：丧葬词书复数",
+    scope: "词书 · 名词复数 · OCR",
+    items: [
+      "新增 100 轮：批次 1057–1156，第 1156 批检查后暂停",
+      "新增 Sarg、Beerdigung、Testament 及复数",
+      "单词 9309、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.2",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1065–1072：工作与休闲词书形容词/变位",
+    scope: "词书 · 形容词 · 动词 · OCR",
+    items: [
+      "新增 ehrgeizig、anstrengend 及比较级",
+      "新增 pressieren 变位（pressiert, pressierte, hat pressiert）",
+      "单词 9310、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.3",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1073–1080：时间与评价形容词",
+    scope: "词书 · 形容词 · OCR",
+    items: [
+      "新增 zeitig、frühzeitig、verspätet、beständig、vornehm、schmackhaft",
+      "补充比较级并标注词书来源",
+      "单词 9316、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.4",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1081–1088：距离与长度词书补充",
+    scope: "词书 · 名词 · OCR",
+    items: [
+      "新增 Länge 并核对 Fundbüro、Zeichen、Entfernung、Strecke 等既有词条",
+      "继续以词书页面为主，跳过纯目录/前言页",
+      "单词 9316、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.5",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1089–1096：动词变位与名词复数",
+    scope: "词书 · 动词 · 名词 · OCR",
+    items: [
+      "新增 verbrennen、anstecken 变位",
+      "新增 Anstalt、Anstand 及复数/无复数标注",
+      "新增 anständig、anstatt",
+      "单词 9322、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.6",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1097–1104：flüchten/flüstern 变位",
+    scope: "词书 · 动词 · OCR",
+    items: [
+      "新增 flüchten（flüchtet, flüchtete, ist geflüchtet）",
+      "新增 flüstern（flüstert, flüsterte, hat geflüstert）",
+      "单词 9323、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.7",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1105–1112：词典式名词复数",
+    scope: "词书 · 名词 · OCR",
+    items: [
+      "新增 Attest（das; -, -e → die Atteste）",
+      "核对 Ehe、Ehepaar、ledig、geschieden、scheiden 等婚姻词汇",
+      "单词 9324、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.8",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1113–1120：Besen 复数与 besiegen 变位",
+    scope: "词书 · 名词 · 动词 · OCR",
+    items: [
+      "新增 Besen（der; -s, - → die Besen）",
+      "新增 besiegen（besiegt, besiegte, hat besiegt）",
+      "新增 Besitz（der; -es, o. Pl. → 无复数）",
+      "单词 9326、文化/历史 223、文章 164、短语 227、语法 74"
+    ]
+  },
+  {
+    version: "2.6.9",
+    date: "2026-10-25",
+    type: "data",
+    summary: "辞书相关内容统计：派生词、反义词与固定搭配",
+    scope: "辞书 · 相关词 · 统计",
+    items: [
+      "为词书词条新增 related 字段：派生词、近反义词、固定搭配、用法",
+      "已录入 9 个词条的相关内容，共 12 项",
+      "module-gaps 新增辞书相关内容统计：来源词条 1832、词书例句 44",
+      "说明：related 覆盖率仍低，后续每批继续补"
+    ]
+  },
+  {
+    version: "2.6.10",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1121–1128：durchschauen/unerreichbar 与相关词",
+    scope: "辞书 · 动词 · 形容词 · 相关词",
+    items: [
+      "新增 durchschauen（durchschaut, durchschaute, hat durchschaut）",
+      "新增 unerreichbar 及反义词 erreichbar",
+      "辞书相关内容增至 11 个词条、15 项",
+      "单词 9328、辞书来源 1834、词书例句 46"
+    ]
+  },
+  {
+    version: "2.6.11",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1129–1136：Ertrag/erwachen 与搭配",
+    scope: "辞书 · 名词 · 动词 · 相关词",
+    items: [
+      "新增 Ertrag（die Erträge）与搭配 hohe Erträge erzielen",
+      "新增 erwachen（erwacht, erwachte, ist erwacht）",
+      "辞书相关内容增至 13 个词条、18 项",
+      "单词 9330、辞书来源 1836、词书例句 48"
+    ]
+  },
+  {
+    version: "2.6.12",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1137–1144：gehorchen/Geige/Geisel",
+    scope: "辞书 · 动词 · 名词 · 相关词",
+    items: [
+      "新增 gehorchen（gehorcht, gehorchte, hat gehorcht）",
+      "新增 gehörig、gehorsam 及搭配 sich gehörig entschuldigen",
+      "新增 Geige、Geisel 及复数",
+      "辞书相关内容增至 14 个词条、19 项",
+      "单词 9333、辞书来源 1839、词书例句 51"
+    ]
+  },
+  {
+    version: "2.6.13",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1145–1152：Holzbau/homogen/Honorar/horchen",
+    scope: "辞书 · 名词 · 形容词 · 动词",
+    items: [
+      "新增 Holzbau、Homosexualität、Honorar 及复数",
+      "新增 homogen（homogener, am homogensten）",
+      "新增 horchen（horcht, horchte, hat gehorcht）与搭配",
+      "辞书相关内容增至 16 个词条、22 项",
+      "单词 9338、辞书来源 1844、词书例句 56"
+    ]
+  },
+  {
+    version: "2.6.14",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1153–1160：korrupt/Kosmonaut/Kost",
+    scope: "辞书 · 形容词 · 名词 · 相关词",
+    items: [
+      "新增 korrupt 及派生词 Korruption",
+      "新增 Kosmonaut（die Kosmonauten）、Kosmos",
+      "新增 Kost 及搭配 jmdn. in Kost nehmen",
+      "辞书相关内容增至 18 个词条、25 项",
+      "单词 9342、辞书来源 1848、词书例句 60"
+    ]
+  },
+  {
+    version: "2.6.15",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1161–1168：plaudern/pleite/plombieren",
+    scope: "辞书 · 动词 · 形容词 · 名词",
+    items: [
+      "新增 plaudern（plaudert, plauderte, hat geplaudert）",
+      "新增 pleite 与派生 Pleite（die Pleiten）",
+      "新增 plombieren（plombiert, plombierte, hat plombiert）",
+      "新增 plus 及例句 Fünf plus drei ist acht",
+      "辞书相关内容增至 22 个词条、31 项",
+      "单词 9347、辞书来源 1853、词书例句 65"
+    ]
+  },
+  {
+    version: "2.6.16",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1169–1176：大学学习相关名词",
+    scope: "辞书 · 名词 · 相关词",
+    items: [
+      "新增 Studentenheim、Studienjahr、Studienplatz 及复数",
+      "新增搭配 sich um einen Studienplatz bewerben",
+      "辞书相关内容增至 23 个词条、32 项",
+      "单词 9350、辞书来源 1856、词书例句 68"
+    ]
+  },
+  {
+    version: "2.6.17",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1177–1184：Wurm/Wurzel/zäh",
+    scope: "辞书 · 名词 · 形容词 · 相关词",
+    items: [
+      "新增 Wurm（die Würmer）、Wurzel（die Wurzeln）",
+      "新增 zäh（zäher, am zähsten）及搭配 zäher Widerstand",
+      "辞书相关内容增至 24 个词条、34 项",
+      "单词 9352、辞书来源 1858、词书例句 70"
+    ]
+  },
+  {
+    version: "2.6.18",
+    date: "2026-10-25",
+    type: "data",
+    summary: "OCR 批次 1185–1192：Vorwand/wachen",
+    scope: "辞书 · 名词 · 动词 · 相关词",
+    items: [
+      "新增 Vorwand（die Vorwände）与搭配 unter einem Vorwand",
+      "新增 wachen（wacht, wachte, hat gewacht）",
+      "辞书相关内容增至 26 个词条、38 项",
+      "单词 9354、辞书来源 1860、词书例句 72"
+    ]
+  },
+  {
+    version: "2.7.0",
+    date: "2026-10-25",
+    type: "data",
+    summary: "完成 OCR 1200 批与第 1200 批检查",
+    scope: "OCR · 辞书 · 检查 · 暂停",
+    items: [
+      "完成 OCR 批次 1073–1200，累计 1200 批",
+      "词书路线贯穿 1073–1200，补齐复数、变位、例句与相关词",
+      "辞书相关内容 26 个词条、38 项；词书例句 72",
+      "第 1200 批检查：文章 164/164、短语 227/227、OCR 词条 3283 释义 0 缺失",
+      "单词 9354、文化/历史 223、语法 74",
+      "已暂停，继续时从第 1201 批开始"
+    ]
   }
 ];
 

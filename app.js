@@ -29,6 +29,61 @@ const POS_LABELS = {
   unknown: "词性待补充"
 };
 
+// “其他”不再是一大桶：能确认的功能词、形容词、动词和短语分到更细的词性。
+const FINE_POS_LABELS = {
+  noun: "名词",
+  verb: "动词",
+  adj: "形容词",
+  adv: "副词",
+  prep: "介词",
+  conj: "连词",
+  pron: "代词",
+  num: "数词",
+  particle: "语气词",
+  interj: "感叹词",
+  phrase: "短语",
+  other: "其他/待细分"
+};
+
+const FINE_POS_ORDER = ["all", "noun", "verb", "adj", "adv", "prep", "conj", "pron", "num", "particle", "interj", "phrase", "other"];
+
+const FINE_PRONOUNS = new Set("ich du er sie es wir ihr mein dein sein unser euer sich mich dich uns euch mir dir ihm ihn ihnen dieser diese dieses jener jene jenes welcher welche welches wer was wem wen man jemand niemand etwas nichts alle alles beide einige mehrere manche jeder jede jedes jed welch dies ander aller beid einig manch".split(" "));
+const FINE_PREPOSITIONS = new Set("an auf aus bei mit nach von zu in über unter vor hinter neben zwischen durch für gegen ohne um bis seit während wegen trotz statt außer ab entlang gegenüber innerhalb außerhalb diesseits jenseits laut gemäß dank mithilfe anhand aufgrund zugunsten pro".split(" "));
+const FINE_CONJUNCTIONS = new Set("und oder aber sondern denn weil dass ob wenn als wie damit obwohl bevor nachdem seitdem sobald falls sofern indem sodass sowohl weder noch entweder".split(" "));
+const FINE_PARTICLES = new Set("ja nein nicht mal eben halt wohl doch denn eigentlich überhaupt bitte danke".split(" "));
+const FINE_NUMERALS = new Set("null eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf hundert tausend million millionen milliarde erste zweite dritte vierte fünfte sechste siebte achte neunte zehnte".split(" "));
+const FINE_INTERJECTIONS = new Set("hallo tschüss tschüs danke bitte oh ah au hurra mist entschuldigung prost gesundheit".split(" "));
+const FINE_ADJECTIVES = new Set("alt arm bekannt bequem berühmt bewölkt blond blöd bunt dick direkt dumm dunkel echt egal eigen eng faul fett falsch frei fremd froh früh ganz genau gesund gleich groß günstig gut hart heiß hoch intelligent interessant international jung kalt kaputt klar klug kühl lang laut leer leicht lieb nett neu nass nervös online preiswert privat reich rund sauber sauer schade scharf schlecht schlimm schwach schwanger schwer sicher stark streng süß super teuer tief toll tot total verheiratet wach wahr warm weich weit wichtig wild zufrieden".split(" "));
+const FINE_VERBS = new Set("ausmachen bedanken beeilen begrüßen beschweren besuchen bewerben brauchen buchen duschen erreichen erinnern freuen informieren interessieren kochen kümmern lachen rauchen riechen schneiden sprechen streiten suchen treffen tun unterhalten untersuchen verbieten vergleichen verletzen verlieben versuchen waschen wünschen ärgern".split(" "));
+const FINE_ADVERBS = new Set("bald besonders damals danach dort draußen drinnen früher gerade geradeaus gern gleich heute hier immer jetzt lange leider manchmal meistens mindestens nirgends oft rechts so sofort später überall vorbei vorher vorn vorwärts wieder zuerst zuletzt zurück zurzeit".split(" "));
+
+function classifyFinePos(word) {
+  const base = String(word.pos || "").toLowerCase();
+  if (base && base !== "other" && base !== "unknown") return base;
+  if (word.article) return "noun";
+  const value = String(word.word || "").trim();
+  if (!value) return "other";
+  if (/\s/.test(value)) return "phrase";
+  const lower = value.toLowerCase();
+  const forms = String(word.forms || "");
+  if (/\b(hat|ist|sind|haben)\b/i.test(forms) || /,\s*\w+te\b/.test(forms)) return "verb";
+  if (/^am\s+\S+(sten|esten)$/i.test(forms)) return "adj";
+  if (FINE_PRONOUNS.has(lower)) return "pron";
+  if (FINE_PREPOSITIONS.has(lower)) return "prep";
+  if (FINE_CONJUNCTIONS.has(lower)) return "conj";
+  if (FINE_PARTICLES.has(lower)) return "particle";
+  if (FINE_NUMERALS.has(lower)) return "num";
+  if (FINE_INTERJECTIONS.has(lower)) return "interj";
+  if (FINE_ADJECTIVES.has(lower)) return "adj";
+  if (FINE_VERBS.has(lower)) return "verb";
+  if (FINE_ADVERBS.has(lower)) return "adv";
+  if (/-ieren$/.test(lower)) return "verb";
+  if (/^[a-zäöüß].*(en|ern|eln)$/.test(lower)) return "verb";
+  if (/^[A-ZÄÖÜ]/.test(value)) return "noun";
+  if (/(lich|ig|isch|bar|sam|los|voll|haft|al|ell|iv|ant|ent)$/.test(lower)) return "adj";
+  return "other";
+}
+
 const MASTERY_ORDER = ["unmastered", "forgotten", "shaky", "mastered"];
 
 // 首次出现仍由学习者自由选择；之后才进入四选一考察。
@@ -68,6 +123,76 @@ const CHANGELOG_SUMMARY = Array.isArray(window.WORTKARTE_CHANGELOG_SUMMARY) ? wi
 const CULTURE_DATA = window.WORTKARTE_CULTURE && Array.isArray(window.WORTKARTE_CULTURE.items)
   ? window.WORTKARTE_CULTURE
   : { categories: [], items: [] };
+
+// 词汇书中的确认例句：仅在原例句来自文章时替换，已有可靠例句保持不动。
+const WORDBOOK_EXAMPLES = {
+  Gott: { example: "Viele Menschen, die an Gott glauben, gehen am Sonntag in die Kirche.", exampleZh: "许多信神的人周日去教堂。", source: "《德语基础词汇分类学习手册》" },
+  heilig: { example: "In Indien gilt die Kuh als heiliges Tier.", exampleZh: "在印度，牛被视为神圣的动物。", source: "《德语基础词汇分类学习手册》" },
+  katholisch: { example: "Er ist Mitglied der katholischen Kirche.", exampleZh: "他是天主教会的成员。", source: "《德语基础词汇分类学习手册》" },
+  Schicksal: { example: "Sie nahm ihr Schicksal an und vertraute auf Gott.", exampleZh: "她接受了自己的命运，并信靠上帝。", source: "《德语基础词汇分类学习手册》" },
+  Glaube: { example: "Mein Glaube hilft mir in schwierigen Situationen.", exampleZh: "我的信仰在困难时帮助我。", source: "《德语基础词汇分类学习手册》" }
+};
+
+const HISTORY_YEAR_BY_ID = {  "history-800": 800,
+  "history-962": 962,
+  "history-1517": 1517,
+  "history-1648": 1648,
+  "history-1848": 1848,
+  "history-1871": 1871,
+  "history-weimar": 1919,
+  "history-weimarer-republik": 1919,
+  "history-1933": 1933,
+  "history-1949": 1949,
+  "history-1961": 1961,
+  "history-1989": 1989,
+  "history-1990": 1990,
+  "history-heinrich-loewe": 1150,
+  "history-wirtschaftskrise-1970er": 1973,
+  "history-wohnungsnot": 1950,
+  "history-frankenreich": 500,
+  "history-marshallplan-luftbruecke": 1948,
+  "history-oesterreich-1938": 1938,
+  "history-widerstand-1944": 1944,
+  "history-ostdeutschland-transformation": 1990,
+  "history-kaspar-hauser": 1828,
+  "culture-industriearbeit": 1850,
+  "culture-lutherbibel": 1522,
+  "culture-franzoesische-revolution": 1789,
+  "culture-brandenburger-tor": 1791,
+  "culture-nachwendezeit": 1990,
+  "culture-euro-krise": 2010
+};
+
+const CULTURE_ERAS = [
+  { id: "all", label: "全部", range: "公元前–今天" },
+  { id: "ancient", label: "古代", range: "–500" },
+  { id: "medieval", label: "中世纪", range: "500–1500" },
+  { id: "earlymodern", label: "近代早期", range: "1500–1800" },
+  { id: "nineteenth", label: "19世纪", range: "1800–1900" },
+  { id: "wars", label: "战争与危机", range: "1900–1945" },
+  { id: "divided", label: "分裂与冷战", range: "1945–1990" },
+  { id: "contemporary", label: "当代", range: "1990至今" },
+  { id: "undated", label: "待定", range: "暂无年份" }
+];
+
+function cultureYear(item) {
+  if (!item) return null;
+  if (Number.isFinite(Number(item.sortYear))) return Number(item.sortYear);
+  const parsed = String(item.year || "").match(/\d{3,4}/);
+  if (parsed) return Number(parsed[0]);
+  return HISTORY_YEAR_BY_ID[item.id] ?? null;
+}
+
+function cultureEraForYear(year) {
+  if (!Number.isFinite(year)) return "undated";
+  if (year <= 500) return "ancient";
+  if (year <= 1500) return "medieval";
+  if (year <= 1800) return "earlymodern";
+  if (year <= 1900) return "nineteenth";
+  if (year <= 1945) return "wars";
+  if (year <= 1990) return "divided";
+  return "contemporary";
+}
 const ARTICLES = Array.isArray(window.WORTKARTE_ARTICLES) ? window.WORTKARTE_ARTICLES : [];
 const ARTICLE_QUESTIONS = window.WORTKARTE_ARTICLE_QUESTIONS || {};
 const ARTICLE_TRANSLATIONS = window.WORTKARTE_ARTICLE_TRANSLATIONS || {};
@@ -307,12 +432,15 @@ function pluralLabel(word) {
 
 function formsLine(word) {
   const uncertain = word.posUncertain ? "（待校对）" : "";
-  if (word.pos === "noun") return `名词 · ${word.plural ? pluralLabel(word) : "复数待补充"}`;
-  if (word.pos === "verb") return `动词${uncertain} · ${word.forms || "变位待补充"}`;
-  if (word.pos === "adj") return `形容词${uncertain} · ${word.forms || "比较级待补充"}`;
-  if (word.pos === "adv") return `副词 · ${word.forms || "无变形"}`;
-  if (!word.pos) return "词性待补充 · 变形待补充";
-  return `${POS_LABELS[word.pos] || "词"}${uncertain} · ${word.forms || "变形待补充"}`;
+  const fine = word.finePos || word.pos || "";
+  if (fine === "noun") return `名词 · ${word.plural ? pluralLabel(word) : "复数待补充"}`;
+  if (fine === "verb") return `动词${uncertain} · ${word.forms || "变位待补充"}`;
+  if (fine === "adj") return `形容词${uncertain} · ${word.forms || "比较级待补充"}`;
+  if (fine === "adv") return `副词 · ${word.forms || "无变形"}`;
+  if (fine === "phrase") return "短语 · 固定表达";
+  if (fine === "other") return "其他/待细分 · 变形待补充";
+  if (!word.pos && fine !== "other") return "词性待补充 · 变形待补充";
+  return `${FINE_POS_LABELS[fine] || POS_LABELS[word.pos] || "词"}${uncertain} · ${word.forms || "无变形"}`;
 }
 
 function morphLine(word) {
@@ -643,11 +771,14 @@ const libraryFilters = {
   query: "",
   level: "all",
   status: "all",
+  pos: "all",
   sort: "default"
 };
 let libraryVisibleLimit = 80;
 let grammarLevel = "all";
 let cultureCategory = "all";
+let cultureQuery = "";
+let cultureEra = "all";
 let readingArticleId = null;
 let readingQuery = "";
 let readingLevel = "all";
@@ -742,6 +873,105 @@ function inferFemininePlural(word) {
   return "";
 }
 
+const ARTICLE_EXAMPLE_INDEX = { built: false, byToken: new Map(), sentences: [] };
+const ARTICLE_EXAMPLE_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
+
+function articleExampleKey(value) {
+  return String(value || "")
+    .toLocaleLowerCase("de")
+    .replace(/^(der|die|das|sich)\s+/i, "")
+    .replace(/[^a-z0-9äöüß\s-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function buildArticleExampleIndex() {
+  if (ARTICLE_EXAMPLE_INDEX.built) return ARTICLE_EXAMPLE_INDEX;
+  ARTICLE_EXAMPLE_INDEX.built = true;
+  const articles = [...ARTICLES, ...(OCR_CONTENT.articles || [])];
+  for (const article of articles) {
+    const content = String(article.contentDe || "").replace(/\s+/g, " ").trim();
+    if (!content) continue;
+    const level = ARTICLE_EXAMPLE_LEVELS.includes(article.levelHint) ? article.levelHint : "B1";
+    for (const raw of content.match(/[^.!?]+[.!?]+/g) || []) {
+      const text = raw.trim().replace(/^["'„“»«\s]+|["'“”«»\s]+$/g, "");
+      const tokens = text.match(/[A-Za-zÄÖÜäöüß-]+/g) || [];
+      if (tokens.length < 7 || tokens.length > 32) continue;
+      if (text.length < 38 || text.length > 230) continue;
+      if (!/[a-zäöüß]/.test(text)) continue;
+      if (tokens.filter(token => /^[A-ZÄÖÜ]/.test(token)).length > tokens.length * 0.62) continue;
+      const sentence = {
+        text,
+        level,
+        wordCount: tokens.length,
+        articleId: article.id,
+        titleZh: article.titleZh || article.titleDe || "文章"
+      };
+      ARTICLE_EXAMPLE_INDEX.sentences.push(sentence);
+      const seen = new Set();
+      for (const token of tokens) {
+        const key = articleExampleKey(token);
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+        if (!ARTICLE_EXAMPLE_INDEX.byToken.has(key)) ARTICLE_EXAMPLE_INDEX.byToken.set(key, []);
+        const bucket = ARTICLE_EXAMPLE_INDEX.byToken.get(key);
+        if (bucket[bucket.length - 1] !== sentence) bucket.push(sentence);
+      }
+    }
+  }
+  return ARTICLE_EXAMPLE_INDEX;
+}
+
+function articleExampleFor(word) {
+  if (!word || !word.word) return null;
+  const index = buildArticleExampleIndex();
+  const level = ARTICLE_EXAMPLE_LEVELS.includes(word.level) ? word.level : "B1";
+  const target = ARTICLE_EXAMPLE_LEVELS.indexOf(level);
+  const keys = new Set();
+  const STOPWORD_KEYS = new Set(["der", "die", "das", "sich", "und", "ist", "ich", "ein", "eine", "den", "dem", "des"]);
+  const addKey = value => {
+    const key = articleExampleKey(value);
+    if (!key || key.length < 3 || key.length > 42 || key.includes(".") || STOPWORD_KEYS.has(key)) return;
+    keys.add(key);
+  };
+  addKey(word.word);
+  addKey(word.de);
+  addKey(word.pluralForm || word.plural);
+  String(word.forms || "").split(/[,;，；]/).forEach(addKey);
+  if (word.conj && typeof word.conj === "object") Object.values(word.conj).forEach(addKey);
+  addKey(word.pastTense);
+  addKey(word.participleII);
+  if (word.pos === "verb") {
+    const stem = articleExampleKey(word.word).replace(/(en|ern|eln|e|n)$/, "");
+    if (stem.length >= 4) keys.add(stem);
+  }
+  const candidates = new Set();
+  for (const key of keys) {
+    for (const sentence of index.byToken.get(key) || []) candidates.add(sentence);
+    if (key.includes(" ")) {
+      for (const sentence of index.sentences) {
+        if (sentence.text.toLocaleLowerCase("de").includes(key)) candidates.add(sentence);
+      }
+    }
+  }
+  let best = null;
+  let bestScore = Infinity;
+  for (const sentence of candidates) {
+    const sentenceLevel = ARTICLE_EXAMPLE_LEVELS.indexOf(sentence.level);
+    const distance = Math.abs(sentenceLevel - target);
+    if (distance > 2) continue;
+    const score = distance * 100
+      + Math.abs(sentence.wordCount - 15) * 2
+      + (distance ? 14 : 0)
+      + (sentence.text.length > 185 ? 6 : 0);
+    if (score < bestScore) {
+      bestScore = score;
+      best = sentence;
+    }
+  }
+  return best;
+}
+
 function normalizeWordRecord(word) {
   if (!word) return word;
   if (WORD_REPAIRS[word.word]) {
@@ -750,6 +980,7 @@ function normalizeWordRecord(word) {
     if (word.de === originalWord) word.de = word.word;
   }
   if (POS_RECLASSIFY[word.word]) word.pos = POS_RECLASSIFY[word.word];
+  word.finePos = classifyFinePos(word);
   if (word.pos === "noun" && !word.article && NOUN_ARTICLE_FIXES[word.word]) {
     word.article = NOUN_ARTICLE_FIXES[word.word];
   }
@@ -804,6 +1035,30 @@ function normalizeWordRecord(word) {
     word.auxiliary = word.auxiliary || (parts[2] || "").match(/^(hat|ist)\b/i)?.[1]?.toLowerCase() || "";
     word.separablePrefix = word.separablePrefix || (/^(ab|an|auf|aus|bei|ein|mit|nach|vor|weg|zu|zurück|zusammen)/i.test(word.word) ? word.word.match(/^(ab|an|auf|aus|bei|ein|mit|nach|vor|weg|zu|zurück|zusammen)/i)[1] : false);
   }
+  const wordbookExample = WORDBOOK_EXAMPLES[word.word];
+  if (wordbookExample && (!word.example || word.exampleSource === "article" || /^\s*\d+\./.test(word.example))) {
+    word.example = wordbookExample.example;
+    word.exampleDe = wordbookExample.example;
+    word.exampleZh = wordbookExample.exampleZh;
+    word.exampleSource = "wordbook";
+    word.exampleBook = wordbookExample.source;
+    delete word.exampleArticleId;
+    delete word.exampleArticleTitle;
+    delete word.exampleLevel;
+  }
+  if (!word.example) {
+    const articleExample = articleExampleFor(word);
+    if (articleExample) {
+      word.example = articleExample.text;
+      word.exampleDe = articleExample.text;
+      word.exampleZh = "";
+      word.exampleSource = "article";
+      word.exampleArticleId = articleExample.articleId;
+      word.exampleArticleTitle = articleExample.titleZh;
+      word.exampleLevel = articleExample.level;
+    }
+  }
+  word.finePos = classifyFinePos(word);
   return word;
 }
 
@@ -1983,25 +2238,106 @@ function openGrammarBook() {
   `, "reader-dialog");
 }
 
+function renderCultureTimeline(historyItems) {
+  const timeline = $("#culture-timeline");
+  const track = $("#culture-timeline-track");
+  if (!timeline || !track) return;
+  timeline.hidden = cultureCategory !== "history";
+  if (timeline.hidden) return;
+  const counts = new Map(CULTURE_ERAS.map(era => [era.id, 0]));
+  for (const item of historyItems) {
+    const key = cultureEraForYear(cultureYear(item));
+    counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  counts.set("all", historyItems.length);
+  track.innerHTML = CULTURE_ERAS.map(era => {
+    const count = counts.get(era.id) || 0;
+    if (era.id !== "all" && !count) return "";
+    return `
+      <button class="culture-era ${cultureEra === era.id ? "is-active" : ""}" data-culture-era="${era.id}" aria-pressed="${cultureEra === era.id}">
+        <strong>${esc(era.label)}${count ? ` · ${count}` : ""}</strong>
+        <span>${esc(era.range)}</span>
+      </button>
+    `;
+  }).join("");
+  const years = historyItems.map(cultureYear).filter(Number.isFinite).sort((a, b) => a - b);
+  $("#culture-timeline-meta").textContent = years.length
+    ? `${years[0]}–${years[years.length - 1]} · 按时间升序`
+    : "暂无可排序年份";
+}
+
 function renderCulture() {
   const grid = $("#culture-grid");
   if (!grid) return;
   const labels = Object.fromEntries((CULTURE_DATA.categories || []).map(item => [item.id, item.label]));
-  const items = CULTURE_DATA.items.filter(item => cultureCategory === "all" || item.category === cultureCategory).slice().reverse();
+  const query = cultureQuery.trim();
+  const foldedQuery = foldSearch(query);
+  const baseItems = CULTURE_DATA.items
+    .filter(item => cultureCategory === "all" || item.category === cultureCategory)
+    .filter(item => {
+      if (!foldedQuery) return true;
+      const haystack = [
+        item.titleDe,
+        item.titleZh,
+        item.contentDe,
+        item.contentZh,
+        item.bookSource,
+        item.year,
+        ...(item.tags || []),
+        ...(item.sources || []).map(source => source.title)
+      ].join(" ");
+      return foldSearch(haystack).includes(foldedQuery);
+    });
+  const isHistory = cultureCategory === "history";
+  const historyItems = baseItems.filter(item => item.category === "history");
+  let items = baseItems.slice();
+  if (isHistory) {
+    if (cultureEra !== "all") {
+      items = items.filter(item => cultureEraForYear(cultureYear(item)) === cultureEra);
+    }
+    items.sort((a, b) => {
+      const yearA = cultureYear(a);
+      const yearB = cultureYear(b);
+      if (yearA === null && yearB === null) return String(a.titleZh).localeCompare(String(b.titleZh), "zh");
+      if (yearA === null) return 1;
+      if (yearB === null) return -1;
+      return yearA - yearB;
+    });
+  } else {
+    items.reverse();
+  }
+  renderCultureTimeline(historyItems);
+  const searchInput = $("#culture-search");
+  if (searchInput && searchInput.value !== cultureQuery) searchInput.value = cultureQuery;
   $("#culture-count").textContent = CULTURE_DATA.items.length;
-  $("#culture-meta").textContent = `${items.length} 条 · ${labels[cultureCategory] || "全部"} · 最近补充优先`;
+  const eraLabel = CULTURE_ERAS.find(era => era.id === cultureEra)?.label || "全部";
+  $("#culture-meta").textContent = query
+    ? `${items.length} 条 · 搜索“${query}”${isHistory ? ` · ${eraLabel}` : ""}`
+    : isHistory
+      ? `${items.length} 条 · 历史 · ${eraLabel} · 按时间升序`
+      : `${items.length} 条 · ${labels[cultureCategory] || "全部"} · 最近补充优先`;
+  const hint = $("#culture-search-hint");
+  if (hint) hint.textContent = query ? `匹配 ${items.length} 条` : "可按中文、德语或标签检索";
+  $(".culture-search")?.classList.toggle("is-searching", Boolean(query));
   $$("#culture-filter [data-culture-category]").forEach(chip => {
     chip.classList.toggle("is-active", chip.dataset.cultureCategory === cultureCategory);
   });
   if (!items.length) {
-    grid.innerHTML = `<div class="library-empty"><h3>这个分类还没有内容</h3><p>换一个分类看看。</p></div>`;
+    grid.innerHTML = query
+      ? `<div class="culture-empty"><h3>没有找到“${esc(query)}”</h3><p>试试人物名、地名、年份，或换一个更短的关键词。</p></div>`
+      : isHistory && cultureEra !== "all"
+        ? `<div class="culture-empty"><h3>这个时期还没有条目</h3><p>切回“全部”查看完整时间轴。</p></div>`
+        : `<div class="culture-empty"><h3>这个分类还没有内容</h3><p>换一个分类看看。</p></div>`;
     return;
   }
-  grid.innerHTML = items.map(item => `
-    <article class="culture-card ${esc(item.category)}">
+  grid.innerHTML = items.map(item => {
+    const year = cultureYear(item);
+    const yearLabel = item.year || (year ? String(year) : "");
+    return `
+    <article class="culture-card ${esc(item.category)} ${isHistory ? "is-timeline" : ""}">
       <div class="culture-kicker">
         <span>${esc(labels[item.category] || item.category)}</span>
-        ${item.year ? `<strong>${esc(item.year)}</strong>` : ""}
+        ${yearLabel ? `<strong>${esc(yearLabel)}</strong>` : ""}
       </div>
       <h2>${esc(item.titleZh)}</h2>
       <p class="culture-title-de">${esc(item.titleDe)}</p>
@@ -2016,7 +2352,8 @@ function renderCulture() {
         <span>${Math.round((Number(item.confidence) || 0.8) * 100)}% 可信度</span>
       </div>
     </article>
-  `).join("");
+  `;
+  }).join("");
 }
 
 function renderWeekStrip(metrics) {
@@ -2356,7 +2693,7 @@ function renderStudyCard() {
 
   $("#back-word").textContent = word.word;
   $("#back-translation").textContent = word.translation;
-  $("#back-pos").textContent = POS_LABELS[word.pos] || "词性待补充";
+  $("#back-pos").textContent = FINE_POS_LABELS[word.finePos] || POS_LABELS[word.pos] || "词性待补充";
   $("#back-plural").textContent = word.pos === "noun"
     ? pluralLabel(word)
     : word.forms || (word.pos === "adj" ? "比较级待补充" : word.pos === "verb" ? "变位待补充" : "变形待补充");
@@ -2371,6 +2708,14 @@ function renderStudyCard() {
   }
   $("#back-example").textContent = word.example || "例句待补充";
   $("#back-example-zh").textContent = word.exampleZh || (word.example ? "" : "该词暂未匹配到可靠例句，后续批次会继续补充。");
+  const exampleSource = $("#back-example-source");
+  if (exampleSource) {
+    exampleSource.textContent = word.exampleSource === "article"
+      ? `文章例句 · 《${word.exampleArticleTitle || "文章"}》 · ${word.exampleLevel || word.level || "B1"}`
+      : word.exampleSource === "wordbook"
+        ? `词汇书例句 · ${word.exampleBook || "词表"}`
+        : "";
+  }
   $("#back-note").textContent = word.note || (word.pack || word.book
     ? "这是教材词表词条。试着用它造一个句子；系统会按你的答题对错自动安排复习。"
     : "把这个词和你的生活连起来，它会更容易留下。");
@@ -3033,6 +3378,7 @@ function filteredWords() {
     .map(word => {
       if (libraryFilters.level !== "all" && word.level !== libraryFilters.level) return null;
       if (libraryFilters.status !== "all" && currentStatus(word) !== libraryFilters.status) return null;
+      if (libraryFilters.pos !== "all" && (word.finePos || "other") !== libraryFilters.pos) return null;
       const score = query ? scoreWordSearch(word, query) : 1;
       if (!score) return null;
       return { word, score };
@@ -3103,6 +3449,8 @@ function renderLibrary() {
   });
   const statusFilter = $("#status-filter");
   if (statusFilter) statusFilter.value = libraryFilters.status;
+  const posFilter = $("#pos-filter");
+  if (posFilter) posFilter.value = libraryFilters.pos;
   const sortFilter = $("#sort-filter");
   if (sortFilter) sortFilter.value = libraryFilters.sort;
 
@@ -4158,7 +4506,7 @@ function openWordModal(id) {
       </div>
     </div>
     <div class="modal-facts">
-      <div><span>词性</span><strong>${esc(POS_LABELS[word.pos] || "词")}</strong></div>
+      <div><span>词性</span><strong>${esc(FINE_POS_LABELS[word.finePos] || POS_LABELS[word.pos] || "词")}</strong></div>
       <div><span>${word.pos === "noun" ? "复数" : "变位"}</span><strong>${esc(word.pos === "noun" ? pluralLabel(word) : (word.forms || "—"))}</strong></div>
       <div><span>等级</span><strong>${esc(word.level)}</strong></div>
     </div>
@@ -4166,6 +4514,8 @@ function openWordModal(id) {
       <div class="modal-example">
         <p>${esc(word.example)}</p>
         ${word.exampleZh ? `<p>${esc(word.exampleZh)}</p>` : ""}
+        ${word.exampleSource === "article" ? `<p class="example-source">文章例句 · 《${esc(word.exampleArticleTitle || "文章")}》 · ${esc(word.exampleLevel || word.level || "B1")}</p>` : ""}
+        ${word.exampleSource === "wordbook" ? `<p class="example-source">词汇书例句 · ${esc(word.exampleBook || "词表")}</p>` : ""}
       </div>
     ` : ""}
     ${word.note ? `<p class="modal-note"><strong style="color:var(--forest-3)">记忆钩子 · </strong>${esc(word.note)}</p>` : ""}
@@ -4493,6 +4843,7 @@ function addWordFromForm(form) {
   libraryFilters.query = "";
   libraryFilters.level = "all";
   libraryFilters.status = "all";
+  libraryFilters.pos = "all";
   renderAll();
   navigate("library");
   showToast(`已添加 ${wordDisplay(custom)}。`);
@@ -4774,6 +5125,7 @@ function handleAction(action, element) {
       libraryFilters.query = "";
       libraryFilters.level = "all";
       libraryFilters.status = "all";
+      libraryFilters.pos = "all";
       libraryFilters.sort = "default";
       libraryVisibleLimit = 80;
       renderLibrary();
@@ -4889,6 +5241,14 @@ function bindEvents() {
     const cultureChip = event.target.closest("#culture-filter [data-culture-category]");
     if (cultureChip) {
       cultureCategory = cultureChip.dataset.cultureCategory;
+      cultureEra = "all";
+      renderCulture();
+      return;
+    }
+
+    const cultureEraButton = event.target.closest("[data-culture-era]");
+    if (cultureEraButton) {
+      cultureEra = cultureEraButton.dataset.cultureEra;
       renderCulture();
       return;
     }
@@ -4951,6 +5311,11 @@ function bindEvents() {
     renderPhrases();
   });
 
+  $("#culture-search")?.addEventListener("input", event => {
+    cultureQuery = event.target.value;
+    renderCulture();
+  });
+
   $("#reading-search")?.addEventListener("input", event => {
     readingQuery = event.target.value;
     renderReading();
@@ -4989,6 +5354,12 @@ function bindEvents() {
 
   $("#status-filter")?.addEventListener("change", event => {
     libraryFilters.status = event.target.value;
+    libraryVisibleLimit = 80;
+    renderLibrary();
+  });
+
+  $("#pos-filter")?.addEventListener("change", event => {
+    libraryFilters.pos = event.target.value;
     libraryVisibleLimit = 80;
     renderLibrary();
   });

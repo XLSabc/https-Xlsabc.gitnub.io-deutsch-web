@@ -915,5 +915,31 @@ Gottlieb 快到窗口时，一个年轻人从他和别人身边跑过，挤到�
 
   "ocr-gebrauchslyrik": `诗是一种第三者“需要”的物品，他们依赖它，也可以使用它。有人说，诗和别的日用品一样。
 
-恩岑斯贝格给第二部诗集《国语》附上“给无畏读者的使用说明”；布莱希特早在1927年就给《家庭祈祷书》加了“各课使用指南”。诗被使用，却不像其他日用品那样用旧。`
+恩岑斯贝格给第二部诗集《国语》附上“给无畏读者的使用说明”；布莱希特早在1927年就给《家庭祈祷书》加了“各课使用指南”。诗被使用，却不像其他日用品那样用旧。`,
+
+  "ocr-monatsnamen": `许多德语月份名来自罗马神祇和节日。Februar 来自 Februarius，即罗马的净化与赎罪节。März 以战神 Mars 命名。
+
+April 来自 Aprilis，可能表示“开花”或“开启”。Mai 让人想起掌管春天与生命的女神 Maius。`,
+
+  "ocr-weimar-klassik": `约1800年，魏玛成为德国文化的精神中心。维兰德和赫尔德在此生活，尤其是歌德，他一生大部分时间在魏玛度过。
+
+1787至1789年以及1799至1805年，席勒也在魏玛生活和写作。这座城市至今被视为魏玛古典主义的象征。`,
+
+  "ocr-markentempel": `在许多内城，“服装店”已经变成品牌殿堂。过去商店首先看重位置；今天看重创意、价格和品牌。
+
+品牌提供身份认同与归属感。旗舰店把购物布置得像展览，商店要传递一种感觉，而不只是卖商品。`,
+
+  "ocr-adjektivdeklination-alltag": `橱窗里挂着一件红色毛衣，旁边放着一件格子衬衫。这两个句子已经展示了问题：形容词的词尾会变化，取决于名词前是什么词。
+
+在 der、die、das 后面很简单：der rote Pullover、die rote Jacke、das rote Tuch。只有单数主格形容词以 -e 结尾；其他情况大多是 -en：Ich kaufe den roten Pullover。
+
+在 ein、kein 或 mein 后面，形容词要承担更多信息：ein roter Pullover、ein rotes Tuch、eine rote Jacke。没有冠词时，形容词承担全部信息：roter Pullover、rotes Tuch、rote Jacke。
+
+把这三组分开，就不必逐词死记。只需问：前面是定冠词、不定冠词，还是没有冠词？`,
+
+  "ocr-infinitiv-konstruktionen": `有些动词可以再带一个不定式。Ich höre ihn kommen（我听见他来）。Ich sehe sie gehen（我看见她走）。听起来简单，但学习者常不习惯。
+
+hören 和 sehen 后面的人用第四格：Ich höre ihn kommen。完成时中不定式保持不变：Ich habe ihn kommen hören。因此不必说“Ich hörte, dass er kommt”，而可以更简洁地说“Ich höre ihn kommen”。
+
+lassen 可以表示“允许”或“让人做”：Die Großen lasst man laufen。kommen 可以邀请对方做某事：Kommst du noch ein Glas Wein trinken?`
 };

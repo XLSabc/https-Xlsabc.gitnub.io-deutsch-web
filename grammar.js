@@ -449,28 +449,119 @@ const GRAMMAR_TOPICS = [
     level: "A2",
     title: "形容词词尾",
     de: "Adjektivdeklination",
-    summary: "形容词词尾取决于它前面有没有冠词、冠词类型，以及名词的性、数、格。",
+    summary: "先判断前面有没有冠词，再看性、数、格：定冠词后弱变化，ein/mein/kein 后混合变化，无冠词时强变化。",
     sections: [
       {
-        heading: "定冠词后",
-        body: "定冠词后，形容词通常用 -e 或 -en：主格单数 der gute Mann / die gute Frau / das gute Buch；宾格阳性 den guten Mann；与格 dem guten Mann。",
+        heading: "三种变化怎么选",
+        body: "形容词修饰名词时才变尾。前面是 der/die/das 或 diese、jede、welche 等定冠词类词，用弱变化；前面是 ein、kein、mein 等不定冠词类词，用混合变化；前面没有冠词，或只有 viele、wenige、mehrere、zwei 等数量词，用强变化。",
         examples: [
-          { de: "der kleine Hund", zh: "那只小狗（主格）" },
-          { de: "Ich sehe den kleinen Hund.", zh: "我看见那只小狗（宾格）" }
+          { de: "der gute Mann · ein guter Mann · guter Wein", zh: "弱变化 · 混合变化 · 强变化" },
+          { de: "die schöne Frau · eine schöne Frau · schöne Milch", zh: "同一个形容词，冠词决定词尾" }
         ]
       },
       {
-        heading: "不定冠词与零冠词",
-        body: "不定冠词后，形容词要同时承担一部分冠词信息：ein neues Auto（中性主格）、einen neuen Computer（阳性宾格）。没有冠词时，形容词词尾更强：guter Wein、frische Milch。",
+        heading: "弱变化：定冠词后",
+        body: "定冠词已经给出性、数、格，形容词只负责“补位”，因此词尾以 -e 和 -en 为主。口诀：单数主格三性都用 -e；其余大多是 -en。",
         examples: [
-          { de: "Ein neues Auto steht draußen.", zh: "一辆新车停在外面。" },
-          { de: "Ich trinke frische Milch.", zh: "我喝新鲜牛奶。" }
+          { de: "m: N -e | G -en | D -en | A -en", zh: "der gute Mann · des guten Mannes · dem guten Mann · den guten Mann" },
+          { de: "f: N -e | G -en | D -en | A -e", zh: "die gute Frau · der guten Frau · der guten Frau · die gute Frau" },
+          { de: "n: N -e | G -en | D -en | A -e", zh: "das gute Buch · des guten Buches · dem guten Buch · das gute Buch" },
+          { de: "Pl: N -en | G -en | D -en | A -en", zh: "die guten Bücher（复数全部 -en）" }
+        ]
+      },
+      {
+        heading: "混合变化：ein / mein / kein 后",
+        body: "不定冠词只在一、四格单数体现部分性别，二、三格和复数不体现，所以形容词要补上 -er、-es、-e 等信息；一旦冠词已经体现，形容词就退回 -en。",
+        examples: [
+          { de: "m: N -er | G -en | D -en | A -en", zh: "ein guter Mann · eines guten Mannes · einem guten Mann · einen guten Mann" },
+          { de: "n: N -es | G -en | D -en | A -es", zh: "ein gutes Buch · eines guten Buches · einem guten Buch · ein gutes Buch" },
+          { de: "f: N -e | G -en | D -en | A -e", zh: "eine gute Frau · einer guten Frau · einer guten Frau · eine gute Frau" },
+          { de: "Pl: N -en | G -en | D -en | A -en", zh: "keine guten Bücher（复数全部 -en）" }
+        ]
+      },
+      {
+        heading: "强变化：无冠词或数量词后",
+        body: "没有冠词时，形容词词尾必须独立承担性、数、格信息，所以词尾最“强”。viele、wenige、mehrere、einige 以及 zwei 以上的数词后，也按强变化。",
+        examples: [
+          { de: "m: N -er | G -en | D -em | A -en", zh: "guter Wein · guten Weines · gutem Wein · guten Wein" },
+          { de: "n: N -es | G -en | D -em | A -es", zh: "gutes Bier · guten Bieres · gutem Bier · gutes Bier" },
+          { de: "f: N -e | G -er | D -er | A -e", zh: "gute Milch · guter Milch · guter Milch · gute Milch" },
+          { de: "Pl: N -e | G -er | D -en | A -e", zh: "gute Bücher · guter Bücher · guten Büchern · gute Bücher" }
+        ]
+      },
+      {
+        heading: "特殊词形与易错点",
+        body: "以 -el 结尾的形容词去掉 e：dunkel → die dunkle Straße，edel → ein edler Wein。以 -er 结尾的形容词视情况保留或去掉 e：teuer → ein teures Auto，sauer → der saure Apfel，但 bitter → ein bitterer Geschmack。hoch 变 hoch- 时去掉 c：ein hohes Gebäude。",
+        examples: [
+          { de: "die dunkle Straße · ein edler Wein", zh: "-el 结尾：去掉 e" },
+          { de: "ein teures Auto · ein bitterer Geschmack", zh: "-er 结尾：注意保留情况" },
+          { de: "ein hohes Gebäude · hohe Kosten", zh: "hoch → hohes / hohe" },
+          { de: "ein kariertes Hemd · eine zuverlässige Kollegin", zh: "常见搭配" }
         ]
       }
     ],
     exercises: [
-      { q: "Ich sehe den klein___ Hund.", options: ["e", "en", "em"], answer: 1, explain: "定冠词 den + 阳性宾格，形容词词尾 -en。" },
-      { q: "Ein neu___ Auto steht draußen.", options: ["e", "es", "en"], answer: 1, explain: "ein + 中性主格，形容词词尾 -es。" }
+      { q: "Ich sehe den klein___ Hund.", options: ["e", "en", "em"], answer: 1, explain: "定冠词 den + 阳性宾格，弱变化 -en。" },
+      { q: "Ein neu___ Auto steht draußen.", options: ["e", "es", "en"], answer: 1, explain: "ein + 中性主格，混合变化 -es。" },
+      { q: "Ich trinke gern gut___ Wein.", options: ["e", "en", "er"], answer: 2, explain: "无冠词、阳性主格，强变化 -er。" },
+      { q: "Wir helfen dem alt___ Mann.", options: ["e", "en", "em"], answer: 1, explain: "定冠词 dem + 第三格，弱变化 -en。" },
+      { q: "Das ist ein hoch___ Gebäude.", options: ["es", "e", "en"], answer: 0, explain: "hoch 去 c：hohes；ein + 中性主格用 -es。" },
+      { q: "Die dunkl___ Straße ist leer.", options: ["e", "en", "er"], answer: 0, explain: "dunkel 去掉 e，定冠词 die + 阴性主格用 -e。" }
+    ]
+  },
+  {
+    id: "adjektiv-endungen-tabelle",
+    level: "A2",
+    title: "形容词词尾总表",
+    de: "Adjektivendungen: Übersicht",
+    summary: "把弱变化、混合变化、强变化放在一张表里对照；先看冠词，再按格选词尾。",
+    sections: [
+      {
+        heading: "弱变化：der / die / das 后",
+        body: "定冠词已标明性数格，形容词只需 -e 或 -en。单数主格三性都用 -e；其余通常 -en。",
+        examples: [
+          { de: "m: N -e | G -en | D -en | A -en", zh: "der gute Mann · des guten Mannes · dem guten Mann · den guten Mann" },
+          { de: "f: N -e | G -en | D -en | A -e", zh: "die gute Frau · der guten Frau · der guten Frau · die gute Frau" },
+          { de: "n: N -e | G -en | D -en | A -e", zh: "das gute Buch · des guten Buches · dem guten Buch · das gute Buch" },
+          { de: "Pl: -en", zh: "die guten Bücher（复数各格均 -en）" }
+        ]
+      },
+      {
+        heading: "混合变化：ein / kein / mein 后",
+        body: "不定冠词只在一、四格单数体现部分性别；二、三格与复数由形容词补 -en。",
+        examples: [
+          { de: "m: N -er | G -en | D -en | A -en", zh: "ein guter Mann · eines guten Mannes · einem guten Mann · einen guten Mann" },
+          { de: "n: N -es | G -en | D -en | A -es", zh: "ein gutes Buch · eines guten Buches · einem guten Buch · ein gutes Buch" },
+          { de: "f: N -e | G -en | D -en | A -e", zh: "eine gute Frau · einer guten Frau · einer guten Frau · eine gute Frau" },
+          { de: "Pl: -en", zh: "keine guten Bücher" }
+        ]
+      },
+      {
+        heading: "强变化：无冠词或数量词后",
+        body: "没有冠词时，形容词独立承担性数格；viele、wenige、mehrere、zwei 以上数词后也用这一组。",
+        examples: [
+          { de: "m: N -er | G -en | D -em | A -en", zh: "guter Wein · guten Weines · gutem Wein · guten Wein" },
+          { de: "n: N -es | G -en | D -em | A -es", zh: "gutes Bier · guten Bieres · gutem Bier · gutes Bier" },
+          { de: "f: N -e | G -er | D -er | A -e", zh: "gute Milch · guter Milch · guter Milch · gute Milch" },
+          { de: "Pl: N -e | G -er | D -en | A -e", zh: "gute Bücher · guter Bücher · guten Büchern · gute Bücher" }
+        ]
+      },
+      {
+        heading: "三步判断",
+        body: "第一步看前面：定冠词类、不定冠词类、还是无冠词。第二步看名词的性、数。第三步看格。三步确定后，词尾只有 -e、-en、-er、-es、-em 五种。",
+        examples: [
+          { de: "der neu___ Hut → der neue Hut", zh: "定冠词 + 阳性主格 → -e" },
+          { de: "ein neu___ Hut → ein neuer Hut", zh: "不定冠词 + 阳性主格 → -er" },
+          { de: "neu___ Hut → neuer Hut", zh: "无冠词 + 阳性主格 → -er" },
+          { de: "mit dem neu___ Hut → mit dem neuen Hut", zh: "定冠词 + 阳性第三格 → -en" }
+        ]
+      }
+    ],
+    exercises: [
+      { q: "Das ist der neu___ Hut.", options: ["e", "er", "en"], answer: 0, explain: "定冠词 der + 阳性主格，弱变化 -e。" },
+      { q: "Das ist ein neu___ Hut.", options: ["e", "er", "es"], answer: 1, explain: "ein + 阳性主格，混合变化 -er。" },
+      { q: "Ich trinke gut___ Wein.", options: ["e", "en", "er"], answer: 2, explain: "无冠词 + 阳性主格，强变化 -er。" },
+      { q: "Wir sprechen mit dem neu___ Lehrer.", options: ["e", "en", "em"], answer: 1, explain: "定冠词 dem + 第三格，弱变化 -en。" }
     ]
   },
   {

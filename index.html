@@ -447,6 +447,7 @@
                       <span class="eyebrow">BEISPIEL</span>
                       <p class="example-de" id="back-example"></p>
                       <p class="example-zh" id="back-example-zh"></p>
+                      <p class="example-source" id="back-example-source"></p>
                     </div>
                     <div class="memory-tip">
                       <span class="memory-icon"><svg class="icon"><use href="#i-spark"/></svg></span>
@@ -788,6 +789,24 @@
         </div>
         <button class="btn btn-cream" id="study-level-start" data-action="study-level">背诵此难度</button>
         <div class="library-selects">
+          <label class="select-wrap"><span class="sr-only">词性</span>
+            <select id="pos-filter">
+              <option value="all">全部词性</option>
+              <option value="noun">名词</option>
+              <option value="verb">动词</option>
+              <option value="adj">形容词</option>
+              <option value="adv">副词</option>
+              <option value="prep">介词</option>
+              <option value="conj">连词</option>
+              <option value="pron">代词</option>
+              <option value="num">数词</option>
+              <option value="particle">语气词</option>
+              <option value="interj">感叹词</option>
+              <option value="phrase">短语</option>
+              <option value="other">其他/待细分</option>
+            </select>
+            <svg class="icon"><use href="#i-chevron"/></svg>
+          </label>
           <label class="select-wrap"><span class="sr-only">学习状态</span>
             <select id="status-filter">
               <option value="all">全部掌握度</option>
@@ -888,6 +907,20 @@
           <span>条文化卡片</span>
           <small>只读内容</small>
         </div>
+      </div>
+
+      <div class="culture-search reveal" role="search">
+        <svg class="icon"><use href="#i-search"/></svg>
+        <input id="culture-search" type="search" placeholder="搜索历史、人物、地名、关键词…" autocomplete="off" aria-label="搜索德国历史与文化">
+        <span id="culture-search-hint">可按中文、德语或标签检索</span>
+      </div>
+
+      <div class="culture-timeline reveal" id="culture-timeline" hidden>
+        <div class="culture-timeline-head">
+          <span>历史时间轴</span>
+          <small id="culture-timeline-meta"></small>
+        </div>
+        <div class="culture-timeline-track" id="culture-timeline-track" role="group" aria-label="按历史时期筛选"></div>
       </div>
 
       <div class="grammar-toolbar reveal" style="--delay: 40ms">
