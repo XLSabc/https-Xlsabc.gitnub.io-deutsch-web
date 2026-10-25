@@ -4690,7 +4690,8 @@ kbd {
 .culture-map-legend i.is-city { background: #b05a36; border-color: #fff; border-radius: 50%; }
 
 .culture-map-canvas {
-  overflow-x: auto;
+  position: relative;
+  overflow: hidden;
   border: 1px solid var(--line-soft);
   border-radius: 11px;
   background:
@@ -4698,12 +4699,61 @@ kbd {
     #f3f6f0;
 }
 
+.map-zoom-controls {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--line-soft);
+  border-radius: 9px;
+  box-shadow: 0 2px 8px rgba(30, 50, 35, 0.08);
+  backdrop-filter: blur(4px);
+}
+
+.map-zoom-controls button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: var(--ink-2);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.map-zoom-controls button:hover,
+.map-zoom-controls button:focus-visible {
+  color: var(--clay);
+  background: var(--surface-2);
+}
+
+.map-zoom-controls #map-zoom-level {
+  min-width: 31px;
+  color: var(--faint);
+  font-size: 8px;
+  text-align: center;
+}
+
 #culture-map-svg {
   display: block;
   width: 100%;
   min-width: 620px;
   height: auto;
+  cursor: default;
+  touch-action: pan-y;
 }
+
+#culture-map-svg.is-zoomed { cursor: grab; touch-action: none; }
+#culture-map-svg.is-panning { cursor: grabbing; user-select: none; }
+#culture-map-svg.is-panning * { cursor: grabbing; }
 
 .map-country {
   fill: #e9eee7;
@@ -5099,7 +5149,7 @@ kbd {
   .culture-map-head { flex-direction: column; gap: 8px; }
   .culture-map-panel { padding: 12px; }
   .culture-map-legend { order: 2; }
-  #culture-map-svg { min-width: 560px; }
+  #culture-map-svg { min-width: 0; }
   .culture-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
@@ -5186,8 +5236,10 @@ kbd {
   padding: 4px 0 2px;
   cursor: grab;
   scrollbar-width: thin;
+  scroll-behavior: auto;
+  -webkit-overflow-scrolling: touch;
   overscroll-behavior-x: contain;
-  touch-action: pan-y;
+  touch-action: pan-x pan-y;
 }
 
 .culture-timeline-shell.is-dragging {

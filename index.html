@@ -932,7 +932,7 @@
           <div>
             <p class="eyebrow">DEUTSCHLAND UND NACHBARN</p>
             <h2>德国与周边地图</h2>
-            <p>点击地图上的城市查看简介；下方按联邦州与德国地理分组浏览。</p>
+            <p>点击城市查看简介；滚轮、双击或右上角按钮缩放，拖动平移。</p>
           </div>
           <div class="culture-map-legend" aria-hidden="true">
             <span><i class="is-germany"></i>德国</span>
@@ -942,6 +942,12 @@
         </div>
         <div class="culture-map-canvas" id="culture-map-canvas">
           <svg id="culture-map-svg" viewBox="0 0 920 298" role="img" aria-label="德国及周边国家地图，标注主要城市"></svg>
+          <div class="map-zoom-controls" role="group" aria-label="地图缩放">
+            <button type="button" data-map-zoom="in" aria-label="放大地图" title="放大">+</button>
+            <button type="button" data-map-zoom="out" aria-label="缩小地图" title="缩小">−</button>
+            <button type="button" data-map-zoom="reset" aria-label="重置地图缩放" title="重置">↺</button>
+            <span id="map-zoom-level" aria-live="polite">100%</span>
+          </div>
         </div>
         <p class="culture-map-credit">地图数据：Natural Earth 110m（公有领域），仅作学习示意；城市简介为学习型摘要。</p>
         <div class="city-detail" id="city-detail" aria-live="polite">
@@ -1135,6 +1141,7 @@
   </script>
 </body>
 </html>
+
 
 
 

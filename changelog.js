@@ -780,5 +780,20 @@ window.WORTKARTE_CHANGELOG = [
       "短语新增“Das ist eine Frechheit!”",
       "阅读新增 B1 短文《Bürgerinitiativen in Deutschland》及中文译文"
     ]
+  },
+  {
+    version: "3.40.0",
+    date: "2026-10-25",
+    type: "feature",
+    summary: "时间线惯性滑动与地图缩放",
+    scope: "历史/人物时间轴 · 地图 · 交互",
+    items: [
+      "时间线鼠标拖动加入惯性滑动，松手后平滑减速",
+      "触摸端改用原生横向滚动，保留页面纵向滚动",
+      "地图支持滚轮、双击与按钮放大缩小，最高 450%",
+      "放大地图后可拖动平移，支持重置视图",
+      "移动端地图自适应宽度，不再强制横向溢出",
+      "新增地图缩放快捷键深链：?mapzoom=2.2"
+    ]
   }
 ];

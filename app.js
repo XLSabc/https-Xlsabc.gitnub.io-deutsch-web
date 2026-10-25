@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    Wortkarte · application logic
    Vanilla JS, no build step, all progress stored locally.
    ========================================================= */
@@ -3069,11 +3069,23 @@ function bindCultureTimelineDrag() {
   let startScroll = 0;
   let suppressClick = false;
   let lastDragMoved = false;
+  let lastX = 0;
+  let lastTime = 0;
+  let velocity = 0;
+  let momentumFrame = 0;
+  const stopMomentum = () => {
+    if (momentumFrame) cancelAnimationFrame(momentumFrame);
+    momentumFrame = 0;
+  };
   shell.addEventListener("pointerdown", event => {
-    if (event.button !== 0) return;
+    if (event.pointerType === "touch" || event.button !== 0) return;
+    stopMomentum();
     dragging = true;
     moved = false;
     startX = event.clientX;
+    lastX = event.clientX;
+    lastTime = performance.now();
+    velocity = 0;
     startScroll = shell.scrollLeft;
     shell.classList.add("is-dragging");
     shell.setPointerCapture?.(event.pointerId);
@@ -3083,6 +3095,11 @@ function bindCultureTimelineDrag() {
     const delta = event.clientX - startX;
     if (Math.abs(delta) > 4) moved = true;
     shell.scrollLeft = startScroll - delta;
+    const now = performance.now();
+    const dt = Math.max(1, now - lastTime);
+    velocity = clampNumber(-(event.clientX - lastX) / dt, -2.6, 2.6);
+    lastX = event.clientX;
+    lastTime = now;
     if (moved) event.preventDefault();
   });
   const finish = event => {
@@ -3093,12 +3110,28 @@ function bindCultureTimelineDrag() {
     lastDragMoved = moved;
     if (moved) {
       suppressClick = true;
-      setTimeout(() => { suppressClick = false; }, 0);
+      setTimeout(() => {
+        suppressClick = false;
+        lastDragMoved = false;
+      }, 250);
+      let step = velocity * 16;
+      if (Math.abs(step) > 1.2) {
+        const glide = () => {
+          const before = shell.scrollLeft;
+          shell.scrollLeft += step;
+          step *= 0.94;
+          if (shell.scrollLeft === before || Math.abs(step) < 0.4) {
+            momentumFrame = 0;
+            return;
+          }
+          momentumFrame = requestAnimationFrame(glide);
+        };
+        momentumFrame = requestAnimationFrame(glide);
+      }
     }
   };
   shell.addEventListener("pointerup", finish);
   shell.addEventListener("pointercancel", finish);
-  shell.addEventListener("pointerleave", finish);
   line.addEventListener("click", event => {
     if (suppressClick || lastDragMoved) {
       suppressClick = false;
@@ -3119,6 +3152,7 @@ function bindCultureTimelineDrag() {
   shell.addEventListener("wheel", event => {
     if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
     if (!event.shiftKey) return;
+    stopMomentum();
     shell.scrollLeft += event.deltaY;
     event.preventDefault();
   }, { passive: false });
@@ -3247,6 +3281,144 @@ function jumpToFestivalCulture(cultureId) {
   });
 }
 
+const mapView = { baseW: 0, baseH: 0, x: 0, y: 0, w: 0, h: 0 };
+
+function clampNumber(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function mapApplyView() {
+  const svg = $("#culture-map-svg");
+  if (!svg || !mapView.baseW) return;
+  svg.setAttribute("viewBox", `${mapView.x} ${mapView.y} ${mapView.w} ${mapView.h}`);
+  svg.classList.toggle("is-zoomed", mapView.w < mapView.baseW - 0.01);
+  const level = $("#map-zoom-level");
+  if (level) level.textContent = `${Math.round((mapView.baseW / mapView.w) * 100)}%`;
+}
+
+function mapPointFromClient(svg, clientX, clientY) {
+  const matrix = svg.getScreenCTM();
+  if (!matrix) return null;
+  const point = svg.createSVGPoint();
+  point.x = clientX;
+  point.y = clientY;
+  return point.matrixTransform(matrix.inverse());
+}
+
+function mapZoomAt(factor, clientX, clientY) {
+  const svg = $("#culture-map-svg");
+  if (!svg || !mapView.baseW) return;
+  const point = mapPointFromClient(svg, clientX, clientY);
+  if (!point) return;
+  const nextW = clampNumber(mapView.w / factor, mapView.baseW / 4.5, mapView.baseW);
+  const ratio = nextW / mapView.w;
+  const nextH = mapView.baseH * (nextW / mapView.baseW);
+  mapView.x = clampNumber(point.x - (point.x - mapView.x) * ratio, 0, mapView.baseW - nextW);
+  mapView.y = clampNumber(point.y - (point.y - mapView.y) * ratio, 0, mapView.baseH - nextH);
+  mapView.w = nextW;
+  mapView.h = nextH;
+  mapApplyView();
+}
+
+function mapResetView() {
+  const svg = $("#culture-map-svg");
+  if (!svg || !mapView.baseW) return;
+  mapView.x = 0;
+  mapView.y = 0;
+  mapView.w = mapView.baseW;
+  mapView.h = mapView.baseH;
+  mapApplyView();
+}
+
+function bindCultureMapZoom() {
+  const svg = $("#culture-map-svg");
+  const canvas = $("#culture-map-canvas");
+  if (!svg || !canvas || svg.dataset.zoomBound) return;
+  svg.dataset.zoomBound = "1";
+  let panning = false;
+  let moved = false;
+  let suppressClick = false;
+  let startPoint = null;
+  let startView = null;
+
+  const zoomFromCenter = factor => {
+    const rect = svg.getBoundingClientRect();
+    mapZoomAt(factor, rect.left + rect.width / 2, rect.top + rect.height / 2);
+  };
+
+  const zoomButtons = canvas.querySelectorAll ? Array.from(canvas.querySelectorAll("[data-map-zoom]")) : [];
+  zoomButtons.forEach(button => {
+    button.addEventListener("click", event => {
+      event.preventDefault();
+      const action = button.dataset.mapZoom;
+      if (action === "in") zoomFromCenter(1.45);
+      else if (action === "out") zoomFromCenter(1 / 1.45);
+      else mapResetView();
+    });
+  });
+
+  svg.addEventListener("wheel", event => {
+    const zoomingIn = event.deltaY < 0;
+    if (zoomingIn && mapView.w <= mapView.baseW / 4.5) return;
+    if (!zoomingIn && mapView.w >= mapView.baseW - 0.01) return;
+    event.preventDefault();
+    mapZoomAt(Math.exp(-event.deltaY * 0.0013), event.clientX, event.clientY);
+  }, { passive: false });
+
+  svg.addEventListener("dblclick", event => {
+    event.preventDefault();
+    mapZoomAt(1.7, event.clientX, event.clientY);
+  });
+
+  svg.addEventListener("pointerdown", event => {
+    if (event.button !== 0) return;
+    if (mapView.w >= mapView.baseW - 0.01) return;
+    const point = mapPointFromClient(svg, event.clientX, event.clientY);
+    if (!point) return;
+    panning = true;
+    moved = false;
+    startPoint = point;
+    startView = { x: mapView.x, y: mapView.y };
+    svg.classList.add("is-panning");
+    svg.setPointerCapture?.(event.pointerId);
+  });
+
+  svg.addEventListener("pointermove", event => {
+    if (!panning || !startPoint || !startView) return;
+    const point = mapPointFromClient(svg, event.clientX, event.clientY);
+    if (!point) return;
+    const dx = point.x - startPoint.x;
+    const dy = point.y - startPoint.y;
+    if (Math.abs(dx) + Math.abs(dy) > 2) moved = true;
+    mapView.x = clampNumber(startView.x - dx, 0, mapView.baseW - mapView.w);
+    mapView.y = clampNumber(startView.y - dy, 0, mapView.baseH - mapView.h);
+    mapApplyView();
+    if (moved) event.preventDefault();
+  });
+
+  const finishPan = event => {
+    if (!panning) return;
+    panning = false;
+    startPoint = null;
+    startView = null;
+    svg.classList.remove("is-panning");
+    svg.releasePointerCapture?.(event.pointerId);
+    if (moved) {
+      suppressClick = true;
+      setTimeout(() => { suppressClick = false; }, 0);
+    }
+  };
+  svg.addEventListener("pointerup", finishPan);
+  svg.addEventListener("pointercancel", finishPan);
+
+  svg.addEventListener("click", event => {
+    if (!suppressClick) return;
+    suppressClick = false;
+    event.preventDefault();
+    event.stopPropagation();
+  }, true);
+}
+
 function renderCultureMap() {
   const panel = $("#culture-map-panel");
   const svg = $("#culture-map-svg");
@@ -3277,6 +3449,16 @@ function renderCultureMap() {
   }).join("");
   svg.innerHTML = `<g class="map-countries">${countryPaths}</g>${countryLabels}<g class="map-cities">${cityMarks}</g>`;
   svg.dataset.rendered = "1";
+  if (!mapView.baseW) {
+    mapView.baseW = width;
+    mapView.baseH = height;
+    mapView.x = 0;
+    mapView.y = 0;
+    mapView.w = width;
+    mapView.h = height;
+    mapApplyView();
+  }
+  bindCultureMapZoom();
 }
 
 function renderCityDetail(cityId) {
@@ -6718,6 +6900,14 @@ function init() {
     }
     const initialCity = new URLSearchParams(location.search || "").get("city");
     if (initialCity) renderCityDetail(initialCity);
+    const initialMapZoom = Number(new URLSearchParams(location.search || "").get("mapzoom"));
+    if (Number.isFinite(initialMapZoom) && initialMapZoom > 1 && cultureCategory === "map") {
+      const svg = $("#culture-map-svg");
+      if (svg) {
+        const rect = svg.getBoundingClientRect();
+        mapZoomAt(clampNumber(initialMapZoom, 1, 4.5), rect.left + rect.width / 2, rect.top + rect.height / 2);
+      }
+    }
     const initialTheme = new URLSearchParams(location.search || "").get("theme");
     if (initialTheme) {
       cultureTheme = initialTheme;
