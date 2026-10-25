@@ -239,11 +239,11 @@
           <div><span class="stat-label">长期记忆</span><strong><span id="stat-mastered">0</span> <small>词</small></strong></div>
           <span class="stat-trend" id="stat-mastered-note">稳定掌握</span>
         </div>
-        <div class="stat-item">
+        <button class="stat-item is-clickable" data-action="show-today-words" type="button" aria-label="查看今日已学单词">
           <span class="stat-icon clay"><svg class="icon"><use href="#i-target"/></svg></span>
           <div><span class="stat-label">今日已学</span><strong><span id="stat-today">0</span> <small>词</small></strong></div>
           <span class="stat-trend" id="stat-today-note">目标 20</span>
-        </div>
+        </button>
         <div class="stat-item">
           <span class="stat-icon amber"><svg class="icon"><use href="#i-flame"/></svg></span>
           <div><span class="stat-label">复习正确率</span><strong><span id="stat-accuracy">0</span><small>%</small></strong></div>
@@ -792,10 +792,10 @@
       </div>
 
       <div class="library-overview reveal" style="--delay: 40ms">
-        <div><span>未掌握</span><strong id="library-unmastered">0</strong></div>
-        <div><span>遗忘</span><strong id="library-forgotten">0</strong></div>
-        <div><span>较生疏</span><strong id="library-shaky">0</strong></div>
-        <div><span>熟练</span><strong id="library-mastered">0</strong></div>
+        <button type="button" data-library-status="unmastered"><span>未掌握</span><strong id="library-unmastered">0</strong></button>
+        <button type="button" data-library-status="forgotten"><span>遗忘</span><strong id="library-forgotten">0</strong></button>
+        <button type="button" data-library-status="shaky"><span>较生疏</span><strong id="library-shaky">0</strong></button>
+        <button type="button" data-library-status="mastered"><span>熟练</span><strong id="library-mastered">0</strong></button>
       </div>
 
       <section class="level-progress reveal" id="level-progress" aria-label="各难度正确率" style="--delay: 55ms"></section>
@@ -815,6 +815,7 @@
           <button class="chip" data-level="C2">C2</button>
         </div>
         <button class="btn btn-cream" id="study-level-start" data-action="study-level">背诵此难度</button>
+        <button class="btn btn-ghost" data-action="recite-words">背诵本组</button>
         <div class="library-selects">
           <label class="select-wrap"><span class="sr-only">词性</span>
             <select id="pos-filter">
@@ -1168,6 +1169,45 @@
     </section>
   </div>
 
+  <div class="phrase-recite-layer" id="word-recite-modal" hidden>
+    <div class="phrase-recite-backdrop" data-word-recite-close></div>
+    <section class="phrase-recite-panel" role="dialog" aria-modal="true" aria-labelledby="word-recite-title">
+      <header class="phrase-recite-head">
+        <div>
+          <p class="eyebrow" id="word-recite-title">WORTTRAINING</p>
+          <strong id="word-recite-label">本组 · 0 词</strong>
+        </div>
+        <div class="phrase-recite-head-actions">
+          <span class="phrase-recite-progress" id="word-recite-progress">1 / 1</span>
+          <button class="phrase-recite-close" data-word-action="close" aria-label="关闭单词背诵">×</button>
+        </div>
+      </header>
+      <div class="phrase-recite-tabs word-recite-tabs" role="group" aria-label="选择单词状态">
+        <button data-word-recite-status="group">本组</button>
+        <button data-word-recite-status="unmastered">未掌握</button>
+        <button data-word-recite-status="forgotten">遗忘</button>
+        <button data-word-recite-status="shaky">较生疏</button>
+        <button data-word-recite-status="mastered">熟练</button>
+      </div>
+      <div class="phrase-recite-stage">
+        <p class="phrase-recite-category" id="word-recite-meta"></p>
+        <h2 class="word-recite-headword"><span class="word-recite-article" id="word-recite-article"></span><span id="word-recite-de"></span></h2>
+        <div class="phrase-recite-answer" id="word-recite-answer" hidden>
+          <p class="phrase-recite-zh" id="word-recite-zh"></p>
+          <p class="phrase-recite-example" id="word-recite-morph"></p>
+          <p class="phrase-recite-example" id="word-recite-example"></p>
+        </div>
+        <button class="btn btn-cream phrase-recite-reveal" data-word-action="reveal" id="word-recite-reveal">显示释义</button>
+      </div>
+      <div class="phrase-recite-bar" aria-hidden="true"><span id="word-recite-bar"></span></div>
+      <footer class="phrase-recite-controls">
+        <button class="btn btn-ghost" data-word-action="prev">上一个</button>
+        <button class="btn btn-ghost" data-word-action="shuffle">随机一个</button>
+        <button class="btn btn-primary" data-word-action="next">下一个</button>
+      </footer>
+    </section>
+  </div>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="data.js"></script>
@@ -1186,15 +1226,18 @@
   <script src="vocab-calibration.js"></script>
   <script src="tatoeba-examples.js"></script>
   <script src="changelog.js"></script>
+  <script src="ocr-changelog.js"></script>
   <script src="changelog-summary.js"></script>
   <script src="map-data.js"></script>
   <script src="festival-data.js"></script>
   <script src="culture.js"></script>
+  <script src="culture-content-4500.js"></script>
   <script src="articles.js"></script>
   <script src="article-translations.js"></script>
   <script src="article-questions.js"></script>
   <script src="phrases.js"></script>
   <script src="ocr-content.js"></script>
+  <script src="ocr-content-4500.js"></script>
   <script src="ocr-vocab-words.js"></script>
   <script src="app.js"></script>
   <script id="pwa-register">

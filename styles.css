@@ -8371,3 +8371,89 @@ body.phrase-recite-open { overflow: hidden; }
   .phrase-recite-controls .btn:last-child { grid-column: span 2; }
 }
 
+/* ── Today learned / word recitation ─────────────────────── */
+.stat-item.is-clickable {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s var(--ease);
+}
+
+.stat-item.is-clickable:hover { background: var(--surface-2); }
+
+.today-word-list {
+  display: grid;
+  gap: 6px;
+  max-height: min(62vh, 560px);
+  margin-top: 14px;
+  overflow: auto;
+}
+
+.today-word-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: 11px;
+  background: var(--surface-2);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.today-word-row:hover { border-color: var(--sage); background: var(--surface-3); }
+
+.today-word-main { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
+.today-word-main strong { font-size: 14px; }
+.today-word-main .level-chip { font-size: 9px; }
+.today-word-zh { color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 220px; }
+.today-word-empty { padding: 24px 8px; color: var(--muted); text-align: center; font-size: 13px; }
+
+.library-overview > button {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 15px 21px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s var(--ease);
+}
+
+.library-overview > button + button { border-left: 1px solid var(--line-soft); }
+.library-overview > button:hover { background: var(--surface-2); }
+.library-overview > button.is-active { background: var(--sage-soft); }
+.library-overview > button span { color: var(--muted); font-size: 9px; }
+.library-overview > button strong {
+  margin-left: auto;
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.word-recite-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.word-recite-tabs button { padding: 9px 6px; font-size: 12px; }
+.word-recite-headword { display: flex; align-items: baseline; gap: 10px; }
+.word-recite-article { font-family: var(--sans); font-size: 17px; font-weight: 500; color: var(--clay); }
+.word-recite-article[data-art="die"] { color: var(--rose); }
+.word-recite-article[data-art="das"] { color: var(--blue); }
+.word-recite-article[data-art="none"] { color: var(--faint); }
+
+@media (max-width: 640px) {
+  .today-word-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .today-word-zh { display: none; }
+  .word-recite-tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; }
+  .word-recite-tabs button { padding: 8px 2px; font-size: 10px; }
+}
+
+

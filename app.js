@@ -118,11 +118,20 @@ const GRAMMAR_DATA = (typeof GRAMMAR_TOPICS !== "undefined" && Array.isArray(GRA
 const GRAMMAR_SUMMARY_DATA = (window.GRAMMAR_SUMMARY && Array.isArray(window.GRAMMAR_SUMMARY.chapters))
   ? window.GRAMMAR_SUMMARY
   : null;
-const CHANGELOG_DATA = Array.isArray(window.WORTKARTE_CHANGELOG) ? window.WORTKARTE_CHANGELOG : [];
+const BASE_CHANGELOG = Array.isArray(window.WORTKARTE_CHANGELOG) ? window.WORTKARTE_CHANGELOG : [];
+const OCR_CHANGELOG = Array.isArray(window.WORTKARTE_OCR_CHANGELOG) ? window.WORTKARTE_OCR_CHANGELOG : [];
+const CHANGELOG_DATA = [...BASE_CHANGELOG, ...OCR_CHANGELOG];
 const CHANGELOG_SUMMARY = Array.isArray(window.WORTKARTE_CHANGELOG_SUMMARY) ? window.WORTKARTE_CHANGELOG_SUMMARY : [];
-const CULTURE_DATA = window.WORTKARTE_CULTURE && Array.isArray(window.WORTKARTE_CULTURE.items)
+const CULTURE_BASE = window.WORTKARTE_CULTURE && Array.isArray(window.WORTKARTE_CULTURE.items)
   ? window.WORTKARTE_CULTURE
   : { categories: [], items: [] };
+const CULTURE_EXTRA = window.WORTKARTE_CULTURE_4500 && Array.isArray(window.WORTKARTE_CULTURE_4500.items)
+  ? window.WORTKARTE_CULTURE_4500
+  : { items: [] };
+const CULTURE_DATA = {
+  ...CULTURE_BASE,
+  items: [...(CULTURE_BASE.items || []), ...(CULTURE_EXTRA.items || [])]
+};
 const MAP_DATA = window.WORTKARTE_MAP && Array.isArray(window.WORTKARTE_MAP.countries)
   ? window.WORTKARTE_MAP
   : null;
@@ -888,7 +897,15 @@ const ARTICLES = Array.isArray(window.WORTKARTE_ARTICLES) ? window.WORTKARTE_ART
 const ARTICLE_QUESTIONS = window.WORTKARTE_ARTICLE_QUESTIONS || {};
 const ARTICLE_TRANSLATIONS = window.WORTKARTE_ARTICLE_TRANSLATIONS || {};
 const PHRASES = Array.isArray(window.WORTKARTE_PHRASES) ? window.WORTKARTE_PHRASES : [];
-const OCR_CONTENT = window.WORTKARTE_OCR_CONTENT || { articles: [], phrases: [], words: [] };
+const OCR_CONTENT_BASE = window.WORTKARTE_OCR_CONTENT || { articles: [], phrases: [], words: [], grammar: [] };
+const OCR_CONTENT_EXTRA = window.WORTKARTE_OCR_CONTENT_4500 || { articles: [], phrases: [], words: [], grammar: [] };
+const OCR_CONTENT = {
+  ...OCR_CONTENT_BASE,
+  words: [...(OCR_CONTENT_BASE.words || []), ...(OCR_CONTENT_EXTRA.words || [])],
+  phrases: [...(OCR_CONTENT_BASE.phrases || []), ...(OCR_CONTENT_EXTRA.phrases || [])],
+  articles: [...(OCR_CONTENT_BASE.articles || []), ...(OCR_CONTENT_EXTRA.articles || [])],
+  grammar: [...(OCR_CONTENT_BASE.grammar || []), ...(OCR_CONTENT_EXTRA.grammar || [])]
+};
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GOETHE_WORDS = (() => {
   const pack = window.WORTKARTE_DICTIONARY;
@@ -2101,6 +2118,50 @@ function calculateStreak(now = Date.now()) {
     }
   }
   return streak;
+}
+
+function todayLearnedWords() {
+  const today = dayKey(Date.now());
+  return allWords()
+    .filter(word => {
+      const review = reviewFor(word.id);
+      return Boolean(review && review.last && dayKey(review.last) === today);
+    })
+    .sort((a, b) =>
+      MASTERY_ORDER.indexOf(masteryFor(a)) - MASTERY_ORDER.indexOf(masteryFor(b)) ||
+      String(a.word || "").localeCompare(String(b.word || ""), "de")
+    );
+}
+
+function openTodayWordsModal() {
+  const words = todayLearnedWords();
+  const rows = words.length
+    ? words.map(word => {
+      const meta = MASTERY_META[masteryFor(word)] || MASTERY_META.unmastered;
+      return `
+        <button class="today-word-row" data-word-row="${esc(word.id)}" type="button">
+          <span class="today-word-main">
+            <span class="article" data-art="${esc(word.article || "none")}">${esc(word.article || "·")}</span>
+            <strong>${esc(word.word)}</strong>
+            <span class="level-chip">${esc(word.level)}</span>
+          </span>
+          <span class="today-word-zh">${esc(word.translation || "释义待补充")}</span>
+          <span class="status-badge ${meta.cls}"><i></i>${meta.label}</span>
+        </button>
+      `;
+    }).join("")
+    : `<div class="today-word-empty">今天还没有学习记录。先完成一组新词或复习，再回来查看。</div>`;
+  openModal(`
+    <div class="modal-head">
+      <div>
+        <p class="eyebrow">HEUTE GELERNT</p>
+        <h2>今日已学</h2>
+        <p>${words.length ? `今天学过的 ${words.length} 个词，按掌握度排序。` : "今天还没有学习记录。"}</p>
+      </div>
+      <button class="modal-close" data-action="close-today-words" aria-label="关闭">${icon("close")}</button>
+    </div>
+    <div class="today-word-list">${rows}</div>
+  `, "today-words-dialog");
 }
 
 function persist() {
@@ -4535,6 +4596,147 @@ function shufflePhraseRecite() {
   renderPhraseRecite();
 }
 
+const wordRecite = {
+  open: false,
+  mode: "group",
+  index: 0,
+  revealed: false,
+  list: [],
+  groupList: [],
+  groupTotal: 0,
+  total: 0
+};
+
+const WORD_RECITE_LIMIT = 200;
+
+function sortReciteWords(words) {
+  return words.slice().sort((a, b) =>
+    CEFR_ORDER.indexOf(a.level) - CEFR_ORDER.indexOf(b.level) ||
+    String(a.word || "").localeCompare(String(b.word || ""), "de")
+  );
+}
+
+function openWordRecite() {
+  const all = sortReciteWords(filteredWords());
+  if (!all.length) {
+    showToast("当前筛选没有可背诵的单词。");
+    return;
+  }
+  const activeStatus = libraryFilters.status;
+  wordRecite.groupTotal = all.length;
+  wordRecite.groupList = all.slice(0, WORD_RECITE_LIMIT);
+  wordRecite.mode = activeStatus === "all" ? "group" : activeStatus;
+  if (wordRecite.mode === "group") {
+    wordRecite.list = wordRecite.groupList;
+    wordRecite.total = wordRecite.groupTotal;
+  } else {
+    const pool = sortReciteWords(allWords().filter(word => masteryFor(word) === wordRecite.mode));
+    wordRecite.list = pool.slice(0, WORD_RECITE_LIMIT);
+    wordRecite.total = pool.length;
+  }
+  wordRecite.index = 0;
+  wordRecite.revealed = false;
+  wordRecite.open = true;
+  const layer = $("#word-recite-modal");
+  if (!layer) return;
+  layer.hidden = false;
+  layer.setAttribute("aria-hidden", "false");
+  document.body.classList.add("phrase-recite-open");
+  renderWordRecite();
+}
+
+function closeWordRecite() {
+  const layer = $("#word-recite-modal");
+  if (!layer) return;
+  wordRecite.open = false;
+  layer.hidden = true;
+  layer.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("phrase-recite-open");
+}
+
+function setWordReciteMode(mode) {
+  if (mode === "group") {
+    wordRecite.mode = "group";
+    wordRecite.list = wordRecite.groupList;
+    wordRecite.total = wordRecite.groupTotal;
+  } else {
+    const pool = sortReciteWords(allWords().filter(word => masteryFor(word) === mode));
+    wordRecite.mode = mode;
+    wordRecite.list = pool.slice(0, WORD_RECITE_LIMIT);
+    wordRecite.total = pool.length;
+  }
+  wordRecite.index = 0;
+  wordRecite.revealed = false;
+  renderWordRecite();
+}
+
+function renderWordRecite() {
+  const item = wordRecite.list[wordRecite.index];
+  const meta = item ? MASTERY_META[wordRecite.mode] : null;
+  const label = $("#word-recite-label");
+  if (label) {
+    const shown = wordRecite.total > wordRecite.list.length
+      ? `${wordRecite.list.length} / ${wordRecite.total}`
+      : `${wordRecite.list.length}`;
+    label.textContent = wordRecite.mode === "group"
+      ? `本组 · ${shown} 词`
+      : `${meta ? meta.label : wordRecite.mode} · ${shown} 词`;
+  }
+  $$("#word-recite-modal [data-word-recite-status]").forEach(button => {
+    button.classList.toggle("is-active", button.dataset.wordReciteStatus === wordRecite.mode);
+  });
+  const progress = $("#word-recite-progress");
+  if (progress) progress.textContent = wordRecite.list.length ? `${wordRecite.index + 1} / ${wordRecite.list.length}` : "0 / 0";
+  const bar = $("#word-recite-bar");
+  if (bar) bar.style.width = wordRecite.list.length ? `${((wordRecite.index + 1) / wordRecite.list.length) * 100}%` : "0%";
+  if (!item) {
+    if ($("#word-recite-de")) $("#word-recite-de").textContent = "这一组还没有单词。";
+    if ($("#word-recite-answer")) $("#word-recite-answer").hidden = true;
+    return;
+  }
+  if ($("#word-recite-meta")) {
+    $("#word-recite-meta").textContent = [item.level, item.finePos || item.pos || "词"].filter(Boolean).join(" · ");
+  }
+  if ($("#word-recite-article")) {
+    $("#word-recite-article").textContent = item.article || "·";
+    $("#word-recite-article").dataset.art = item.article || "none";
+  }
+  if ($("#word-recite-de")) $("#word-recite-de").textContent = item.word;
+  if ($("#word-recite-zh")) $("#word-recite-zh").textContent = item.translation || "释义待补充";
+  if ($("#word-recite-morph")) $("#word-recite-morph").textContent = morphLine(item);
+  if ($("#word-recite-example")) {
+    $("#word-recite-example").textContent = item.example
+      ? `${item.example}${item.exampleZh ? ` — ${item.exampleZh}` : ""}`
+      : "";
+    $("#word-recite-example").hidden = !item.example;
+  }
+  if ($("#word-recite-answer")) $("#word-recite-answer").hidden = !wordRecite.revealed;
+  if ($("#word-recite-reveal")) $("#word-recite-reveal").textContent = wordRecite.revealed ? "隐藏释义" : "显示释义";
+}
+
+function moveWordRecite(delta) {
+  if (!wordRecite.list.length) return;
+  wordRecite.index = (wordRecite.index + delta + wordRecite.list.length) % wordRecite.list.length;
+  wordRecite.revealed = false;
+  renderWordRecite();
+}
+
+function toggleWordReciteAnswer() {
+  wordRecite.revealed = !wordRecite.revealed;
+  renderWordRecite();
+}
+
+function shuffleWordRecite() {
+  if (!wordRecite.list.length) return;
+  if (wordRecite.list.length > 1) {
+    let next = wordRecite.index;
+    while (next === wordRecite.index) next = Math.floor(Math.random() * wordRecite.list.length);
+    wordRecite.index = next;
+  }
+  wordRecite.revealed = false;
+  renderWordRecite();
+}
+
 function allArticles() {
   return [...ARTICLES, ...(OCR_CONTENT.articles || []), ...(state.customArticles || [])];
 }
@@ -4871,6 +5073,9 @@ function renderLibrary() {
   $("#library-forgotten").textContent = metrics.forgotten;
   $("#library-shaky").textContent = metrics.shaky;
   $("#library-mastered").textContent = metrics.mastered;
+  $$("[data-library-status]").forEach(button => {
+    button.classList.toggle("is-active", button.dataset.libraryStatus === libraryFilters.status);
+  });
   renderLevelProgress();
 
   const searchInput = $("#library-search");
@@ -6553,6 +6758,15 @@ function handleAction(action, element) {
       startStudy({ mode: "new", level, limit: 20 });
       break;
     }
+    case "show-today-words":
+      openTodayWordsModal();
+      break;
+    case "close-today-words":
+      closeModal();
+      break;
+    case "recite-words":
+      openWordRecite();
+      break;
     case "clear-filters":
       libraryFilters.query = "";
       libraryFilters.level = "all";
@@ -6659,6 +6873,41 @@ function bindEvents() {
     const phraseClose = event.target.closest("[data-phrase-close]");
     if (phraseClose) {
       closePhraseRecite();
+      return;
+    }
+
+    const wordReciteStatus = event.target.closest("[data-word-recite-status]");
+    if (wordReciteStatus) {
+      event.preventDefault();
+      setWordReciteMode(wordReciteStatus.dataset.wordReciteStatus);
+      return;
+    }
+
+    const wordAction = event.target.closest("[data-word-action]");
+    if (wordAction) {
+      event.preventDefault();
+      const action = wordAction.dataset.wordAction;
+      if (action === "close") closeWordRecite();
+      else if (action === "prev") moveWordRecite(-1);
+      else if (action === "next") moveWordRecite(1);
+      else if (action === "reveal") toggleWordReciteAnswer();
+      else if (action === "shuffle") shuffleWordRecite();
+      return;
+    }
+
+    const wordReciteClose = event.target.closest("[data-word-recite-close]");
+    if (wordReciteClose) {
+      closeWordRecite();
+      return;
+    }
+
+    const libraryStatus = event.target.closest("[data-library-status]");
+    if (libraryStatus) {
+      const status = libraryStatus.dataset.libraryStatus;
+      libraryFilters.status = libraryFilters.status === status ? "all" : status;
+      libraryVisibleLimit = 80;
+      renderLibrary();
+      $("#library-body")?.closest("table")?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
 
@@ -7002,6 +7251,30 @@ function bindEvents() {
         event.preventDefault();
         if (event.key === "Enter" && phraseRecite.revealed) movePhraseRecite(1);
         else togglePhraseReciteAnswer();
+        return;
+      }
+    }
+
+    if (wordRecite.open) {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeWordRecite();
+        return;
+      }
+      if (!typing && event.key === "ArrowRight") {
+        event.preventDefault();
+        moveWordRecite(1);
+        return;
+      }
+      if (!typing && event.key === "ArrowLeft") {
+        event.preventDefault();
+        moveWordRecite(-1);
+        return;
+      }
+      if (!typing && (event.key === " " || event.key === "Enter")) {
+        event.preventDefault();
+        if (event.key === "Enter" && wordRecite.revealed) moveWordRecite(1);
+        else toggleWordReciteAnswer();
         return;
       }
     }
