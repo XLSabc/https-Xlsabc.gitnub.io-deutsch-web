@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -69,7 +69,7 @@
         <span class="nav-badge" id="nav-due-badge" hidden>0</span>
       </button>
       <button class="side-link" data-nav="culture">
-        <svg class="icon"><use href="#i-leaf"/></svg><span>德国历史与文化</span>
+        <svg class="icon"><use href="#i-leaf"/></svg><span>历史与文化</span>
       </button>
       <button class="side-link" data-nav="reading">
         <svg class="icon"><use href="#i-book"/></svg><span>文章阅读</span>
@@ -286,8 +286,8 @@
           <button class="portal-card portal-culture" data-nav="culture">
             <span class="portal-number">01</span>
             <span class="portal-icon"><svg class="icon"><use href="#i-leaf"/></svg></span>
-            <strong>德国历史与文化</strong>
-            <small>时间线 · 联邦州 · 人物</small>
+            <strong>历史与文化</strong>
+            <small>时间线 · 地图 · 人物</small>
             <span class="portal-arrow"><svg class="icon"><use href="#i-arrow-right"/></svg></span>
           </button>
           <button class="portal-card portal-reading" data-nav="reading">
@@ -875,9 +875,9 @@
         <div class="filter-chips" id="grammar-filter" role="group" aria-label="按等级筛选语法">
           <button class="chip is-active" data-grammar-level="all">全部</button>
           <button class="chip" data-grammar-level="A1">A1 基础</button>
-          <button class="chip" data-grammar-level="A2">初级2 进阶</button>
+          <button class="chip" data-grammar-level="A2">A2 进阶</button>
         </div>
-        <span class="grammar-count" id="grammar-count">16 个主题 · 32 道小练习</span>
+        <span class="grammar-count" id="grammar-count">17 个主题 · 268 道小练习 · 57 张 OCR 卡</span>
       </div>
 
       <section class="grammar-book-banner reveal" style="--delay: 55ms">
@@ -899,40 +899,91 @@
       <div class="page-heading reveal">
         <div>
           <p class="eyebrow">LANDESKUNDE</p>
-          <h1>德国历史与文化<span class="heading-dot">.</span></h1>
-          <p>历史、日常文化、十六个联邦州与人物。每条都保留来源，方便继续查证。</p>
+          <h1>历史与文化<span class="heading-dot">.</span></h1>
+          <p>历史、日常文化、德国与周边地图、十六个联邦州与人物。每条都保留来源，方便继续查证。</p>
         </div>
         <div class="culture-count-card">
           <strong id="culture-count">0</strong>
-          <span>条文化卡片</span>
+          <span>条历史与文化卡片</span>
           <small>只读内容</small>
         </div>
       </div>
 
       <div class="culture-search reveal" role="search">
         <svg class="icon"><use href="#i-search"/></svg>
-        <input id="culture-search" type="search" placeholder="搜索历史、人物、地名、关键词…" autocomplete="off" aria-label="搜索德国历史与文化">
+        <input id="culture-search" type="search" placeholder="搜索历史、人物、地名、关键词…" autocomplete="off" aria-label="搜索历史与文化">
         <span id="culture-search-hint">可按中文、德语或标签检索</span>
       </div>
 
       <div class="culture-timeline reveal" id="culture-timeline" hidden>
         <div class="culture-timeline-head">
-          <span>历史时间轴</span>
+          <span id="culture-timeline-title">历史时间轴</span>
           <small id="culture-timeline-meta"></small>
         </div>
+        <div class="culture-timeline-shell" id="culture-timeline-shell">
+          <div class="culture-timeline-line" id="culture-timeline-line"></div>
+        </div>
+        <p class="culture-timeline-hint" id="culture-timeline-hint">左右拖动时间线浏览 · 点击年份可跳到对应条目</p>
         <div class="culture-timeline-track" id="culture-timeline-track" role="group" aria-label="按历史时期筛选"></div>
       </div>
 
+      <div class="culture-map-panel" id="culture-map-panel" hidden>
+        <div class="culture-map-head">
+          <div>
+            <p class="eyebrow">DEUTSCHLAND UND NACHBARN</p>
+            <h2>德国与周边地图</h2>
+            <p>点击地图上的城市查看简介；下方按联邦州与德国地理分组浏览。</p>
+          </div>
+          <div class="culture-map-legend" aria-hidden="true">
+            <span><i class="is-germany"></i>德国</span>
+            <span><i></i>周边国家</span>
+            <span><i class="is-city"></i>城市</span>
+          </div>
+        </div>
+        <div class="culture-map-canvas" id="culture-map-canvas">
+          <svg id="culture-map-svg" viewBox="0 0 920 298" role="img" aria-label="德国及周边国家地图，标注主要城市"></svg>
+        </div>
+        <p class="culture-map-credit">地图数据：Natural Earth 110m（公有领域），仅作学习示意；城市简介为学习型摘要。</p>
+        <div class="city-detail" id="city-detail" aria-live="polite">
+          <p class="city-detail-empty">选择一座城市查看简介。</p>
+        </div>
+      </div>
+
+      <div class="festival-panel" id="festival-panel" hidden>
+        <div class="festival-head">
+          <div>
+            <p class="eyebrow">FESTKALENDER</p>
+            <h2>节日年历</h2>
+            <p>从一月到十二月，按时间浏览德国的固定节日、每年浮动节日与地区性习俗。</p>
+          </div>
+          <div class="festival-head-meta">
+            <strong id="festival-count">18</strong>
+            <span>个年度节点</span>
+          </div>
+        </div>
+        <div class="festival-legend" aria-hidden="true">
+          <span><i class="is-fixed"></i>固定日期</span>
+          <span><i class="is-movable"></i>每年浮动</span>
+          <span><i class="is-regional"></i>地区性</span>
+        </div>
+        <div class="festival-timeline" id="festival-timeline"></div>
+        <div class="festival-detail" id="festival-detail" aria-live="polite">
+          <p class="festival-detail-empty">选择节日查看日期与习俗说明。</p>
+        </div>
+      </div>
+
       <div class="grammar-toolbar reveal" style="--delay: 40ms">
-        <div class="filter-chips" id="culture-filter" role="group" aria-label="按类别筛选文化内容">
+        <div class="filter-chips" id="culture-filter" role="group" aria-label="按类别筛选文化与地图内容">
           <button class="chip is-active" data-culture-category="all">全部</button>
           <button class="chip" data-culture-category="history">历史</button>
           <button class="chip" data-culture-category="culture">文化</button>
-          <button class="chip" data-culture-category="map">联邦州</button>
+          <button class="chip" data-culture-category="map">地图</button>
           <button class="chip" data-culture-category="person">人物</button>
         </div>
-        <span class="grammar-count" id="culture-meta">德国文化参考</span>
+        <span class="grammar-count" id="culture-meta">历史与文化参考</span>
       </div>
+
+      <div class="culture-theme-filter" id="culture-theme-filter" role="group" aria-label="按文化主题筛选" hidden></div>
 
       <div class="culture-grid" id="culture-grid"></div>
       <p class="local-note"><svg class="icon"><use href="#i-leaf"/></svg> 文化条目为学习型摘要，来源链接保留在每张卡片底部；涉及历史解释时请以来源原文为准。</p>
@@ -1039,7 +1090,7 @@
   </main>
 
   <nav class="bottom-nav" aria-label="移动端主导航">
-    <button data-nav="culture"><svg class="icon"><use href="#i-leaf"/></svg><span>文化</span></button>
+    <button data-nav="culture"><svg class="icon"><use href="#i-leaf"/></svg><span>文史</span></button>
     <button data-nav="reading"><svg class="icon"><use href="#i-book"/></svg><span>阅读</span></button>
     <button data-nav="phrases"><svg class="icon"><use href="#i-spark"/></svg><span>短语</span></button>
     <button data-nav="words"><svg class="icon"><use href="#i-layers"/></svg><span>单词</span></button>
@@ -1065,6 +1116,8 @@
   <script src="tatoeba-examples.js"></script>
   <script src="changelog.js"></script>
   <script src="changelog-summary.js"></script>
+  <script src="map-data.js"></script>
+  <script src="festival-data.js"></script>
   <script src="culture.js"></script>
   <script src="articles.js"></script>
   <script src="article-translations.js"></script>
@@ -1082,6 +1135,11 @@
   </script>
 </body>
 </html>
+
+
+
+
+
 
 
 

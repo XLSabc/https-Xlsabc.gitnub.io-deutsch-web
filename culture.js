@@ -16,6 +16,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "奥托一世称帝",
       contentDe: "Otto I. wurde in Rom zum Kaiser gekrönt. Das ostfränkisch-deutsche Reich wurde damit zum Kern des späteren Heiligen Römischen Reiches.",
       contentZh: "奥托一世在罗马加冕为皇帝，东法兰克—德意志王国由此成为后来神圣罗马帝国的核心。",
+      bookSource: "《德语国家国情》OCR",
       sources: [
         { title: "Britannica: Otto I", url: "https://www.britannica.com/biography/Otto-I" },
         { title: "Bundesregierung: Deutsche Geschichte", url: "https://www.bundesregierung.de/breg-de/service/geschichte" }
@@ -31,6 +32,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "宗教改革",
       contentDe: "Martin Luther veröffentlichte seine 95 Thesen. Die Reformation veränderte Religion, Sprache und Politik in Europa nachhaltig.",
       contentZh: "马丁·路德发表《九十五条论纲》，宗教改革深刻改变了欧洲的宗教、语言与政治。",
+      bookSource: "《德语国家国情》OCR",
       sources: [
         { title: "Britannica: Reformation", url: "https://www.britannica.com/event/Reformation" },
         { title: "DW: Martin Luther", url: "https://www.dw.com/de/martin-luther/t-17463495" }
@@ -46,6 +48,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "德意志帝国成立",
       contentDe: "Nach dem Deutsch-Französischen Krieg wurde Wilhelm I. in Versailles zum Deutschen Kaiser proklamiert. Der Nationalstaat war gegründet.",
       contentZh: "普法战争后，威廉一世在凡尔赛宫被宣布为德意志皇帝，德意志民族国家正式建立。",
+      bookSource: "《德语国家国情》OCR",
       sources: [
         { title: "Britannica: German Empire", url: "https://www.britannica.com/place/German-Empire" },
         { title: "Bundesarchiv: Reichsgründung", url: "https://www.bundesarchiv.de/" }
@@ -61,6 +64,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "纳粹时期",
       contentDe: "Die Nationalsozialisten errichteten eine Diktatur, verfolgten und ermordeten Millionen Menschen. Der Zweite Weltkrieg endete 1945 mit der Befreiung.",
       contentZh: "纳粹建立独裁统治，迫害并杀害了数百万人；第二次世界大战于 1945 年以解放告终。",
+      bookSource: "《德语国家国情》OCR",
       sources: [
         { title: "USHMM: Nazi Rule", url: "https://encyclopedia.ushmm.org/content/en/article/nazi-rule" },
         { title: "Britannica: Third Reich", url: "https://www.britannica.com/place/Third-Reich" }
@@ -76,6 +80,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "德国分裂",
       contentDe: "Aus den Besatzungszonen entstanden die Bundesrepublik Deutschland und die DDR. Berlin blieb ein geteilter Sonderfall.",
       contentZh: "占领区分别成立德意志联邦共和国与德意志民主共和国，柏林成为分裂的特殊地区。",
+      bookSource: "《德语国家国情》OCR",
       sources: [
         { title: "Bundesregierung: Teilung", url: "https://www.bundesregierung.de/breg-de/service/geschichte" },
         { title: "Britannica: Germany since 1945", url: "https://www.britannica.com/place/Germany" }
@@ -91,6 +96,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "两德统一",
       contentDe: "Am 3. Oktober 1990 trat die DDR der Bundesrepublik bei. Der 3. Oktober ist der deutsche Nationalfeiertag.",
       contentZh: "1990 年 10 月 3 日，民主德国加入联邦德国；10 月 3 日成为德国国庆日。",
+      bookSource: "《德语国家国情》OCR",
       sources: [
         { title: "Bundesregierung: Tag der Deutschen Einheit", url: "https://www.bundesregierung.de/breg-de/service/tag-der-deutschen-einheit" },
         { title: "Britannica: German reunification", url: "https://www.britannica.com/event/German-reunification" }
@@ -99,12 +105,1903 @@ window.WORTKARTE_CULTURE = {
       tags: ["Einheit", "Nationalfeiertag"]
     },
     {
+      id: "history-1918-frauenwahlrecht",
+      category: "history",
+      year: "1918",
+      titleDe: "Frauenwahlrecht",
+      titleZh: "妇女选举权",
+      contentDe: "Am 12. November 1918 erhielten Frauen in Deutschland das aktive und passive Wahlrecht. Bei der Wahl zur Nationalversammlung 1919 konnten sie es erstmals ausüben.",
+      contentZh: "1918 年 11 月 12 日，德国女性获得选举权与被选举权；1919 年国民议会选举中首次行使。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundestag: Frauenwahlrecht", url: "https://www.bundestag.de/dokumente/textarchiv/2018/kw46-frauenwahlrecht-579292" },
+        { title: "Wikipedia: Frauenwahlrecht", url: "https://de.wikipedia.org/wiki/Frauenwahlrecht" }
+      ],
+      confidence: 0.95,
+      tags: ["Geschichte", "Demokratie", "Frauen"]
+    },
+    {
+      id: "history-1955-anwerbeabkommen",
+      category: "history",
+      year: "1955",
+      titleDe: "Erstes Anwerbeabkommen",
+      titleZh: "首个招募劳工协定",
+      contentDe: "1955 schloss die Bundesrepublik mit Italien das erste Anwerbeabkommen. Weitere Abkommen folgten, um Arbeitskräfte für die Industrie zu gewinnen.",
+      contentZh: "1955 年联邦德国与意大利签订首个招募劳工协定，此后又与多国签约，为工业招募劳动力。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "bpb: Anwerbeabkommen", url: "https://www.bpb.de/shop/zeitschriften/apuz/212383/anwerbeabkommen/" },
+        { title: "Wikipedia: Anwerbeabkommen", url: "https://de.wikipedia.org/wiki/Anwerbeabkommen" }
+      ],
+      confidence: 0.9,
+      tags: ["Geschichte", "Migration", "Wirtschaft"]
+    },
+    {
+      id: "history-1970-ostpolitik",
+      category: "history",
+      year: "1970",
+      titleDe: "Neue Ostpolitik",
+      titleZh: "新东方政策",
+      contentDe: "1970 unterzeichneten Bundesrepublik und Sowjetunion den Moskauer Vertrag. Die Neue Ostpolitik unter Willy Brandt setzte auf Ausgleich und die Anerkennung der Nachkriegsgrenzen.",
+      contentZh: "1970 年联邦德国与苏联签署《莫斯科条约》；勃兰特的“新东方政策”主张缓和并承认战后边界。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeskanzler: Willy Brandt", url: "https://www.bundeskanzler.de/bk-de/kanzleramt/bundeskanzler-seit-1949/willy-brandt" },
+        { title: "Wikipedia: Moskauer Vertrag", url: "https://de.wikipedia.org/wiki/Moskauer_Vertrag_(1970)" }
+      ],
+      confidence: 0.9,
+      tags: ["Geschichte", "Ostpolitik", "Kalter Krieg"]
+    },
+    {
+      id: "history-1963-elysee",
+      category: "history",
+      year: "1963",
+      titleDe: "Élysée-Vertrag",
+      titleZh: "爱丽舍条约",
+      contentDe: "Am 22. Januar 1963 unterzeichneten Konrad Adenauer und Charles de Gaulle den Élysée-Vertrag. Er verpflichtete beide Länder zu regelmäßigen Konsultationen und wurde zur Grundlage der deutsch-französischen Freundschaft.",
+      contentZh: "1963 年 1 月 22 日，阿登纳与戴高乐签署《爱丽舍条约》，规定两国定期磋商，成为德法友好的基础。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundesregierung: Élysée-Vertrag", url: "https://www.bundesregierung.de/breg-de/service/geschichte/elysee-vertrag" },
+        { title: "Wikipedia: Élysée-Vertrag", url: "https://de.wikipedia.org/wiki/%C3%89lys%C3%A9e-Vertrag" }
+      ],
+      confidence: 0.95,
+      tags: ["Geschichte", "Deutschland", "Frankreich", "Europa"]
+    },
+    {
+      id: "history-1979-europawahl",
+      category: "history",
+      year: "1979",
+      titleDe: "Erste Europawahl",
+      titleZh: "首次欧洲议会直选",
+      contentDe: "Vom 7. bis 10. Juni 1979 wählten die Bürger der Europäischen Gemeinschaft erstmals das Europäische Parlament direkt. Die Wahl stärkte die demokratische Legitimation der Gemeinschaft und machte europäische Politik zu einem gemeinsamen Wahlakt.",
+      contentZh: "1979 年 6 月 7–10 日，欧共体公民首次直接选举欧洲议会，增强了共同体的民主合法性，也使欧洲政治成为共同的选举行为。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Europäisches Parlament: Europawahl 1979", url: "https://www.europarl.europa.eu/election-results-2019/de/" },
+        { title: "Wikipedia: Europawahl 1979", url: "https://de.wikipedia.org/wiki/Europawahl_1979" }
+      ],
+      confidence: 0.9,
+      tags: ["Geschichte", "Europa", "Demokratie", "Wahl"]
+    },
+    {
+      id: "history-1948-waehrungsreform",
+      category: "history",
+      year: "1948",
+      titleDe: "Währungsreform",
+      titleZh: "货币改革",
+      contentDe: "Am 20. Juni 1948 ersetzte die Deutsche Mark in den westlichen Besatzungszonen die Reichsmark. Die Reform beendete die Geldentwertung, hob viele Preisbindungen auf und schuf eine wichtige Grundlage für den wirtschaftlichen Aufstieg der Bundesrepublik.",
+      contentZh: "1948 年 6 月 20 日，西占区以德国马克取代帝国马克。改革结束了货币贬值，取消了许多价格管制，为联邦德国的经济起飞奠定重要基础。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Währungsreform", url: "https://www.bpb.de/themen/deutsche-geschichte/wirtschaftsgeschichte/" },
+        { title: "Wikipedia: Währungsreform 1948", url: "https://de.wikipedia.org/wiki/W%C3%A4hrungsreform_1948" }
+      ],
+      confidence: 0.92,
+      tags: ["Geschichte", "Wirtschaft", "Nachkriegszeit", "Geld"]
+    },
+    {
+      id: "history-1955-nato",
+      category: "history",
+      year: "1955",
+      titleDe: "NATO-Beitritt",
+      titleZh: "加入北约",
+      contentDe: "Am 9. Mai 1955 trat die Bundesrepublik Deutschland der NATO bei. Im selben Jahr wurde die Bundeswehr gegründet. Der Schritt besiegelte die westliche Einbindung Westdeutschlands; die DDR trat daraufhin dem Warschauer Pakt bei.",
+      contentZh: "1955 年 5 月 9 日，联邦德国加入北约，同年成立联邦国防军。这一举措确定了西德的西方阵营归属；民主德国随后加入华沙条约组织。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "NATO: Germany and NATO", url: "https://www.nato.int/cps/en/natohq/declassified_185912.htm" },
+        { title: "Wikipedia: NATO-Beitritt Deutschlands", url: "https://de.wikipedia.org/wiki/NATO-Beitritt_Deutschlands" }
+      ],
+      confidence: 0.92,
+      tags: ["Geschichte", "NATO", "Kalter Krieg", "Bundeswehr"]
+    },
+    {
+      id: "history-1972-grundlagenvertrag",
+      category: "history",
+      year: "1972",
+      titleDe: "Grundlagenvertrag",
+      titleZh: "基础条约",
+      contentDe: "Am 21. Dezember 1972 unterzeichneten Bundesrepublik und DDR den Grundlagenvertrag. Er regelte die gegenseitigen Beziehungen, ohne die Frage der Staatsbürgerschaft endgültig zu lösen. 1973 wurden beide Staaten Mitglieder der Vereinten Nationen.",
+      contentZh: "1972 年 12 月 21 日，联邦德国与民主德国签署《基础条约》，规范相互关系，但未最终解决国籍问题；1973 年两国加入联合国。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Grundlagenvertrag", url: "https://www.bpb.de/themen/deutsche-geschichte/deutschland-1945-bis-1990/" },
+        { title: "Wikipedia: Grundlagenvertrag", url: "https://de.wikipedia.org/wiki/Grundlagenvertrag" }
+      ],
+      confidence: 0.9,
+      tags: ["Geschichte", "DDR", "Ostpolitik", "Vereinte Nationen"]
+    },
+    {
+      id: "history-1968-apo",
+      category: "history",
+      year: "1968",
+      titleDe: "Studentenbewegung und APO",
+      titleZh: "学生运动与议会外反对派",
+      contentDe: "1968 protestierten Studierende in vielen westdeutschen Städten gegen den Vietnamkrieg, die Notstandsgesetze und autoritäre Strukturen. Die Außerparlamentarische Opposition (APO) veränderte Debatten über Demokratie, Bildung und Geschlechterrollen nachhaltig.",
+      contentZh: "1968 年，西德许多城市的学生抗议越南战争、紧急状态法和权威结构。议会外反对派（APO）深刻改变了关于民主、教育与性别角色的讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: 1968", url: "https://www.bpb.de/themen/deutsche-geschichte/1968/" },
+        { title: "Wikipedia: Außerparlamentarische Opposition", url: "https://de.wikipedia.org/wiki/Au%C3%9Ferparlamentarische_Opposition" }
+      ],
+      confidence: 0.9,
+      tags: ["Geschichte", "1968", "Protest", "Demokratie"]
+    },
+    {
+      id: "history-1989-montagsdemonstrationen",
+      category: "history",
+      year: "1989",
+      titleDe: "Montagsdemonstrationen",
+      titleZh: "周一示威",
+      contentDe: "Ab September 1989 gingen in Leipzig und anderen Städten der DDR jeden Montag Tausende auf die Straße. Am 9. Oktober 1989 blieb die befürchtete Gewalt aus; die Parole „Wir sind das Volk“ wurde zum Symbol der friedlichen Revolution.",
+      contentZh: "1989 年 9 月起，莱比锡等东德城市每周一有数千人上街。10 月 9 日担心的暴力没有发生，“我们就是人民”成为和平革命的象征。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Montagsdemonstrationen", url: "https://www.bpb.de/themen/deutsche-geschichte/friedliche-revolution/" },
+        { title: "Wikipedia: Montagsdemonstrationen 1989", url: "https://de.wikipedia.org/wiki/Montagsdemonstrationen_1989" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "DDR", "1989", "Friedliche Revolution"]
+    },
+    {
+      id: "history-2002-euro",
+      category: "history",
+      year: "2002",
+      titleDe: "Euro-Bargeld",
+      titleZh: "欧元现金",
+      contentDe: "Am 1. Januar 2002 wurde in zwölf Ländern der Europäischen Union der Euro als Bargeld eingeführt. In Deutschland ersetzte er die D-Mark. Die gemeinsame Währung erleichterte Reisen und Handel, wurde aber auch wegen Preissteigerungen und nationaler Souveränität diskutiert.",
+      contentZh: "2002 年 1 月 1 日，欧元在欧盟十二国作为现金启用，在德国取代德国马克。共同货币便利了旅行与贸易，也因物价上涨与主权问题引发讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Europäische Zentralbank: Euro-Bargeld", url: "https://www.ecb.europa.eu/euro/intro/html/index.de.html" },
+        { title: "Wikipedia: Euro", url: "https://de.wikipedia.org/wiki/Euro" }
+      ],
+      confidence: 0.95,
+      tags: ["Geschichte", "Europa", "Währung", "Wirtschaft"]
+    },
+    {
+      id: "history-1999-euro",
+      category: "history",
+      year: "1999",
+      titleDe: "Euro als Buchgeld",
+      titleZh: "欧元作为记账货币",
+      contentDe: "Am 1. Januar 1999 wurde der Euro in elf Ländern der Europäischen Union als Buchgeld eingeführt. Banken und Börsen rechneten ab diesem Zeitpunkt in Euro, während Bargeld erst 2002 folgte. Die Europäische Zentralbank übernahm die Geldpolitik.",
+      contentZh: "1999 年 1 月 1 日，欧元在欧盟十一国作为记账货币启用。银行与交易所开始以欧元结算，现金直到 2002 年才跟进；欧洲中央银行接管货币政策。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Europäische Zentralbank: Euro 1999", url: "https://www.ecb.europa.eu/euro/intro/html/index.de.html" },
+        { title: "Wikipedia: Euro", url: "https://de.wikipedia.org/wiki/Euro" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Europa", "Währung", "EZB"]
+    },
+    {
+      id: "history-2005-merkel",
+      category: "history",
+      year: "2005",
+      titleDe: "Erste Bundeskanzlerin",
+      titleZh: "首位女联邦总理",
+      contentDe: "Am 22. November 2005 wurde Angela Merkel zur ersten Bundeskanzlerin Deutschlands gewählt. Die CDU-Politikerin führte zunächst eine große Koalition und regierte bis 2021. Ihre Amtszeit umfasste Finanzkrise, Energiewende, Euro-Krise und die Flüchtlingspolitik 2015.",
+      contentZh: "2005 年 11 月 22 日，安格拉·默克尔当选德国首位女联邦总理。她先领导大联合政府，执政至 2021 年，经历金融危机、能源转型、欧元危机与 2015 年难民政策。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundestag: Wahl der Bundeskanzlerin", url: "https://www.bundestag.de/" },
+        { title: "Wikipedia: Angela Merkel", url: "https://de.wikipedia.org/wiki/Angela_Merkel" }
+      ],
+      confidence: 0.95,
+      tags: ["Geschichte", "Politik", "CDU", "21. Jahrhundert"]
+    },
+    {
+      id: "history-2015-fluechtlinge",
+      category: "history",
+      year: "2015",
+      titleDe: "Flüchtlingskrise",
+      titleZh: "难民危机",
+      contentDe: "2015 erreichten Hunderttausende Schutzsuchende Deutschland, viele über die Balkanroute. Die Bundesregierung öffnete zeitweise die Grenzen; Angela Merkel prägte den Satz „Wir schaffen das“. Kommunen, Vereine und Freiwillige organisierten Unterkünfte und Integration. Das Thema polarisierte Politik und Gesellschaft.",
+      contentZh: "2015 年，数十万寻求庇护者抵达德国，许多人经巴尔干路线。联邦政府一度开放边境，默克尔说出“我们能做到”。地方政府、协会与志愿者组织住宿和融入；该议题使政治与社会高度分化。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Flucht und Asyl", url: "https://www.bpb.de/themen/migration-integration/" },
+        { title: "Wikipedia: Flüchtlingskrise in Deutschland 2015/2016", url: "https://de.wikipedia.org/wiki/Fl%C3%BCchtlingskrise_in_Deutschland_2015/2016" }
+      ],
+      confidence: 0.9,
+      tags: ["Geschichte", "Migration", "2015", "Gesellschaft"]
+    },
+    {
+      id: "history-2011-atomausstieg",
+      category: "history",
+      year: "2011",
+      titleDe: "Atomausstieg",
+      titleZh: "退出核电",
+      contentDe: "Nach der Reaktorkatastrophe von Fukushima beschloss der Bundestag 2011 den Ausstieg aus der Kernenergie. Acht Reaktoren wurden sofort abgeschaltet, die übrigen sollten bis 2022 folgen. Der Beschluss beschleunigte den Ausbau erneuerbarer Energien.",
+      contentZh: "福岛核事故后，联邦议院于2011年决定退出核能。八座反应堆立即关闭，其余应在2022年前关闭。该决定加速了可再生能源发展。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundesregierung: Atomausstieg", url: "https://www.bundesregierung.de/breg-de/service/energiewende" },
+        { title: "Wikipedia: Atomausstieg", url: "https://de.wikipedia.org/wiki/Atomausstieg" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Energie", "Umwelt", "2011"]
+    },
+    {
+      id: "history-2008-finanzkrise",
+      category: "history",
+      year: "2008",
+      titleDe: "Finanzkrise",
+      titleZh: "金融危机",
+      contentDe: "2008 geriet das globale Finanzsystem nach dem Zusammenbruch der US-Investmentbank Lehman Brothers in eine schwere Krise. In Deutschland rettete der Staat Banken und stützte die Konjunktur mit Konjunkturpaketen. Die Krise verstärkte Debatten über Regulierung und soziale Ungleichheit.",
+      contentZh: "2008 年美国投行雷曼兄弟倒闭后，全球金融体系陷入严重危机。德国政府救助银行，并用经济刺激计划支撑经济；危机加剧了关于监管与社会不平等的讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Finanzkrise", url: "https://www.bpb.de/themen/wirtschaft/finanzkrise/" },
+        { title: "Wikipedia: Finanzkrise ab 2007", url: "https://de.wikipedia.org/wiki/Finanzkrise_ab_2007" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Wirtschaft", "2008", "Banken"]
+    },
+    {
+      id: "history-2017-ehe-fuer-alle",
+      category: "history",
+      year: "2017",
+      titleDe: "Ehe für alle",
+      titleZh: "婚姻平权",
+      contentDe: "Am 30. Juni 2017 stimmte der Bundestag für die Öffnung der Ehe für gleichgeschlechtliche Paare. Seit dem 1. Oktober 2017 können sie in Deutschland heiraten und gemeinsam Kinder adoptieren. Die Entscheidung war ein wichtiger Schritt in der Gleichstellungspolitik.",
+      contentZh: "2017 年 6 月 30 日，联邦议院通过同性伴侣婚姻合法化。自 2017 年 10 月 1 日起，同性伴侣可在德国结婚并共同收养孩子，这是平权政策的重要一步。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundestag: Ehe für alle", url: "https://www.bundestag.de/" },
+        { title: "Wikipedia: Ehe für alle", url: "https://de.wikipedia.org/wiki/Ehe_f%C3%BCr_alle" }
+      ],
+      confidence: 0.95,
+      tags: ["Geschichte", "Gleichstellung", "2017", "Familie"]
+    },
+    {
+      id: "history-2019-klimapaket",
+      category: "history",
+      year: "2019",
+      titleDe: "Klimapaket",
+      titleZh: "气候一揽子计划",
+      contentDe: "Im September 2019 beschloss die Bundesregierung ein Klimapaket, um die deutschen Klimaziele bis 2030 zu erreichen. Es enthielt einen CO2-Preis, Förderung für Gebäudesanierung und den Ausbau erneuerbarer Energien. Kritiker hielten die Maßnahmen für zu schwach.",
+      contentZh: "2019 年 9 月，联邦政府通过气候一揽子计划，以实现 2030 年气候目标。措施包括二氧化碳定价、建筑节能改造补贴和可再生能源扩建；批评者认为力度不足。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundesregierung: Klimapaket", url: "https://www.bundesregierung.de/breg-de/service/klimapaket" },
+        { title: "Wikipedia: Klimapaket", url: "https://de.wikipedia.org/wiki/Klimapaket" }
+      ],
+      confidence: 0.92,
+      tags: ["Geschichte", "Klima", "2019", "Politik"]
+    },
+    {
+      id: "history-2020-corona",
+      category: "history",
+      year: "2020",
+      titleDe: "Corona-Pandemie",
+      titleZh: "新冠疫情",
+      contentDe: "Im März 2020 erreichte die Corona-Pandemie Deutschland. Schulen, Geschäfte und Gastronomie wurden zeitweise geschlossen; Kontaktbeschränkungen und Maskenpflicht prägten den Alltag. Impfungen ab Dezember 2020 und Tests ermöglichten schrittweise Lockerungen. Die Pandemie verstärkte Debatten über Gesundheit, Freiheit und soziale Ungleichheit.",
+      contentZh: "2020 年 3 月，新冠疫情抵达德国。学校、商店和餐饮一度关闭；接触限制与口罩义务塑造日常。2020 年 12 月起疫苗与检测使逐步放开成为可能；疫情加剧了健康、自由与社会不平等的讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Corona", url: "https://www.bpb.de/themen/corona/" },
+        { title: "Wikipedia: COVID-19-Pandemie in Deutschland", url: "https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland" }
+      ],
+      confidence: 0.94,
+      tags: ["Geschichte", "Gesundheit", "2020", "Gesellschaft"]
+    },
+    {
+      id: "history-2022-zeitenwende",
+      category: "history",
+      year: "2022",
+      titleDe: "Zeitenwende",
+      titleZh: "时代转折",
+      contentDe: "Nach dem russischen Angriff auf die Ukraine im Februar 2022 sprach Bundeskanzler Olaf Scholz von einer „Zeitenwende“. Deutschland erhöhte die Verteidigungsausgaben, lieferte Waffen und baute die Abhängigkeit von russischem Gas ab. Die Energiepreise stiegen stark.",
+      contentZh: "2022 年 2 月俄罗斯进攻乌克兰后，总理朔尔茨称其为“时代转折”。德国提高国防开支、提供武器并减少对俄罗斯天然气的依赖；能源价格大幅上涨。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundesregierung: Zeitenwende", url: "https://www.bundesregierung.de/" },
+        { title: "Wikipedia: Zeitenwende", url: "https://de.wikipedia.org/wiki/Zeitenwende" }
+      ],
+      confidence: 0.9,
+      tags: ["Geschichte", "Ukraine", "Energie", "2022"]
+    },
+    {
+      id: "history-2023-deutschlandticket",
+      category: "history",
+      year: "2023",
+      titleDe: "Deutschlandticket",
+      titleZh: "德国通票",
+      contentDe: "Im Mai 2023 wurde das Deutschlandticket eingeführt. Für 49 Euro im Monat können Fahrgäste alle Nahverkehrszüge, Busse und Straßenbahnen in Deutschland nutzen. Das Ticket soll den öffentlichen Verkehr attraktiver machen und das Klima schützen; die Finanzierung bleibt zwischen Bund und Ländern umstritten.",
+      contentZh: "2023 年 5 月德国通票启用。每月 49 欧可乘坐德国所有区域列车、公交和有轨电车。该票旨在提升公共交通吸引力并保护气候；联邦与各州的分摊仍存争议。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschlandticket: offizielle Informationen", url: "https://www.deutschlandticket.de/" },
+        { title: "Wikipedia: Deutschlandticket", url: "https://de.wikipedia.org/wiki/Deutschlandticket" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Verkehr", "2023", "Klima"]
+    },
+    {
+      id: "history-2024-bauernproteste",
+      category: "history",
+      year: "2024",
+      titleDe: "Bauernproteste",
+      titleZh: "农民抗议",
+      contentDe: "Anfang 2024 protestierten Landwirte in ganz Deutschland gegen geplante Kürzungen bei Agrardiesel und Kfz-Steuer. Traktoren blockierten Straßen und Innenstädte. Die Regierung milderte einige Maßnahmen ab, hielt aber an Einsparungen fest. Die Proteste zeigten Konflikte zwischen Klimapolitik, Landwirtschaft und sozialer Belastung.",
+      contentZh: "2024 年初，德国各地农民抗议取消农业柴油与车辆税优惠。拖拉机堵塞道路和市中心。政府放宽部分措施，但坚持节约；抗议凸显气候政策、农业与社会负担之间的冲突。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Tagesschau: Bauernproteste", url: "https://www.tagesschau.de/" },
+        { title: "Wikipedia: Bauernproteste in Deutschland 2024", url: "https://de.wikipedia.org/wiki/Bauernproteste_in_Deutschland_2024" }
+      ],
+      confidence: 0.88,
+      tags: ["Geschichte", "Landwirtschaft", "2024", "Protest"]
+    },
+    {
+      id: "history-2024-europawahl",
+      category: "history",
+      year: "2024",
+      titleDe: "Europawahl 2024",
+      titleZh: "2024 欧洲议会选举",
+      contentDe: "Vom 6. bis 9. Juni 2024 wählten die Bürger der Europäischen Union ein neues Parlament. In Deutschland gewann die AfD deutlich hinzu, während die Regierungsparteien Verluste erlitten. Die Wahl zeigte eine Verschiebung nach rechts und eine wachsende Skepsis gegenüber der EU.",
+      contentZh: "2024 年 6 月 6–9 日，欧盟公民选举新议会。德国选择党明显得票增加，执政党失利。选举显示政治向右移动，以及对欧盟的怀疑上升。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Europäisches Parlament: Wahlergebnisse 2024", url: "https://results.elections.europa.eu/" },
+        { title: "Wikipedia: Europawahl 2024", url: "https://de.wikipedia.org/wiki/Europawahl_2024" }
+      ],
+      confidence: 0.92,
+      tags: ["Geschichte", "Europa", "Wahl", "2024"]
+    },
+    {
+      id: "history-2025-bundestagswahl",
+      category: "history",
+      year: "2025",
+      titleDe: "Bundestagswahl 2025",
+      titleZh: "2025 联邦议院选举",
+      contentDe: "Am 23. Februar 2025 wählte Deutschland einen neuen Bundestag. Die CDU/CSU wurde stärkste Kraft, die AfD erreichte ihren bisher höchsten Stimmenanteil, SPD und Grüne verloren. Anschließend bildeten CDU/CSU und SPD eine Koalition unter Friedrich Merz.",
+      contentZh: "2025 年 2 月 23 日德国选举新联邦议院。联盟党成为最强力量，选择党取得迄今最高得票，社民党与绿党失利。此后联盟党与社民党组成由默茨领导的联合政府。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeswahlleiterin: Bundestagswahl 2025", url: "https://www.bundeswahlleiterin.de/" },
+        { title: "Wikipedia: Bundestagswahl 2025", url: "https://de.wikipedia.org/wiki/Bundestagswahl_2025" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Wahl", "2025", "Politik"]
+    },
+    {
+      id: "history-2021-flutkatastrophe",
+      category: "history",
+      year: "2021",
+      titleDe: "Flutkatastrophe im Ahrtal",
+      titleZh: "阿尔河谷洪灾",
+      contentDe: "Im Juli 2021 führten starke Regenfälle zu verheerenden Überschwemmungen, besonders im Ahrtal in Rheinland-Pfalz und in Nordrhein-Westfalen. Mehr als 180 Menschen starben. Der Katastrophenschutz und die Warnsysteme wurden daraufhin grundlegend diskutiert und reformiert.",
+      contentZh: "2021 年 7 月强降雨导致严重洪灾，莱茵兰-普法尔茨的阿尔河谷与北威州受灾最重，180 多人死亡。此后灾害防护与预警系统被彻底讨论和改革。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Flutkatastrophe", url: "https://www.bpb.de/" },
+        { title: "Wikipedia: Flutkatastrophe 2021", url: "https://de.wikipedia.org/wiki/Flutkatastrophe_in_Westeuropa_2021" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Katastrophe", "Klima", "2021"]
+    },
+    {
+      id: "history-2018-dieselfahrverbote",
+      category: "history",
+      year: "2018",
+      titleDe: "Dieselfahrverbote",
+      titleZh: "柴油车禁行",
+      contentDe: "2018 entschied das Bundesverwaltungsgericht, dass Städte Diesel-Fahrverbote verhängen dürfen, um Grenzwerte für Stickstoffdioxid einzuhalten. Hamburg führte erste Sperrungen ein, andere Städte folgten. Die Maßnahmen waren umstritten, weil sie Pendler und Gewerbe trafen.",
+      contentZh: "2018 年联邦行政法院裁定，城市可为遵守二氧化氮限值实施柴油车禁行。汉堡率先封路，其他城市跟进。措施因影响通勤者与商业而争议很大。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Umweltbundesamt: Diesel-Fahrverbote", url: "https://www.umweltbundesamt.de/" },
+        { title: "Wikipedia: Dieselfahrverbot", url: "https://de.wikipedia.org/wiki/Dieselfahrverbot" }
+      ],
+      confidence: 0.92,
+      tags: ["Geschichte", "Umwelt", "Verkehr", "2018"]
+    },
+    {
+      id: "history-2016-brexit",
+      category: "history",
+      year: "2016",
+      titleDe: "Brexit-Referendum",
+      titleZh: "英国脱欧公投",
+      contentDe: "Am 23. Juni 2016 stimmten die Bürger des Vereinigten Königreichs mit knapper Mehrheit für den Austritt aus der Europäischen Union. Der Brexit belastete die EU und die deutsch-britischen Beziehungen. Deutschland verlor einen wichtigen Partner in der Union.",
+      contentZh: "2016 年 6 月 23 日，英国公民以微弱多数投票脱离欧盟。脱欧冲击欧盟与德英关系，德国在欧盟中失去一个重要伙伴。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Brexit", url: "https://www.bpb.de/" },
+        { title: "Wikipedia: Brexit", url: "https://de.wikipedia.org/wiki/Brexit" }
+      ],
+      confidence: 0.95,
+      tags: ["Geschichte", "Europa", "Großbritannien", "2016"]
+    },
+    {
+      id: "history-2015-griechenlandkrise",
+      category: "history",
+      year: "2015",
+      titleDe: "Griechenlandkrise",
+      titleZh: "希腊债务危机",
+      contentDe: "2015 drohte Griechenland aus der Eurozone auszutreten. Nach wochenlangen Verhandlungen einigten sich die Euroländer und Griechenland auf ein drittes Hilfspaket mit Reformauflagen. Die Krise belastete den Euro und die europäische Solidarität.",
+      contentZh: "2015 年希腊一度面临退出欧元区。经过数周谈判，欧元区国家与希腊达成第三轮救助计划，附带改革条件。危机冲击欧元与欧洲团结。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Griechenlandkrise", url: "https://www.bpb.de/" },
+        { title: "Wikipedia: Griechische Staatsschuldenkrise", url: "https://de.wikipedia.org/wiki/Griechische_Staatsschuldenkrise" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Europa", "Euro", "2015"]
+    },
+    {
+      id: "history-2014-wm",
+      category: "history",
+      year: "2014",
+      titleDe: "WM-Titel 2014",
+      titleZh: "2014 世界杯冠军",
+      contentDe: "Am 13. Juli 2014 gewann die deutsche Nationalmannschaft in Rio de Janeiro die Fußball-Weltmeisterschaft. Mario Götze erzielte in der Verlängerung das entscheidende Tor gegen Argentinien. Das „Sommermärchen“ von 2006 und der Titel 2014 prägten das positive Bild Deutschlands im Ausland.",
+      contentZh: "2014 年 7 月 13 日，德国国家队在里约热内卢赢得世界杯。格策在加时赛对阿根廷打入制胜球。2006 年“夏日童话”与 2014 年冠军塑造了德国在国外的积极形象。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "DFB: WM 2014", url: "https://www.dfb.de/" },
+        { title: "Wikipedia: Fußball-Weltmeisterschaft 2014", url: "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2014" }
+      ],
+      confidence: 0.96,
+      tags: ["Geschichte", "Fußball", "Sport", "2014"]
+    },
+    {
+      id: "history-2013-nsa",
+      category: "history",
+      year: "2013",
+      titleDe: "NSA-Affäre",
+      titleZh: "NSA 监听丑闻",
+      contentDe: "2013 wurde bekannt, dass der US-Geheimdienst NSA auch in Deutschland umfangreich Daten sammelte, darunter das Handy von Bundeskanzlerin Merkel. Der Bundestag richtete einen Untersuchungsausschuss ein. Die Affäre belastete das deutsch-amerikanische Verhältnis und verstärkte die Debatte über Datenschutz.",
+      contentZh: "2013 年曝出美国国家安全局在德国大规模收集数据，包括默克尔总理的手机。联邦议院设立调查委员会。丑闻冲击德美关系，加剧数据保护讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundestag: NSA-Untersuchungsausschuss", url: "https://www.bundestag.de/" },
+        { title: "Wikipedia: NSA-Affäre", url: "https://de.wikipedia.org/wiki/NSA-Aff%C3%A4re" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Datenschutz", "USA", "2013"]
+    },
+    {
+      id: "history-2010-stuttgart21",
+      category: "history",
+      year: "2010",
+      titleDe: "Stuttgart 21",
+      titleZh: "斯图加特 21",
+      contentDe: "2010 protestierten in Stuttgart Zehntausende gegen den Umbau des Hauptbahnhofs zu einem unterirdischen Durchgangsbahnhof. Bei einer Räumung wurden Demonstranten verletzt; der Widerstand wuchs. 2011 stimmte die Bevölkerung in einem Volksentscheid knapp für das Projekt.",
+      contentZh: "2010 年斯图加特数万人抗议将中央车站改建为地下贯通车站。清场中示威者受伤，反对声扩大。2011 年公投以微弱多数支持项目。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Stuttgart 21", url: "https://www.bpb.de/" },
+        { title: "Wikipedia: Stuttgart 21", url: "https://de.wikipedia.org/wiki/Stuttgart_21" }
+      ],
+      confidence: 0.92,
+      tags: ["Geschichte", "Protest", "Verkehr", "2010"]
+    },
+    {
+      id: "history-2006-wm",
+      category: "history",
+      year: "2006",
+      titleDe: "Sommermärchen 2006",
+      titleZh: "2006 夏日童话",
+      contentDe: "Die Fußball-Weltmeisterschaft 2006 in Deutschland wurde als „Sommermärchen“ bekannt. Millionen Gäste aus aller Welt feierten gemeinsam, und die Stimmung veränderte das Bild Deutschlands im Ausland. Die WM gilt als Wendepunkt für den öffentlichen Umgang mit Patriotismus.",
+      contentZh: "2006 年德国世界杯被称为“夏日童话”。数百万外国客人共同庆祝，氛围改变了德国在国外的形象。这届世界杯被视为公众对待爱国主义态度的转折点。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "DFB: WM 2006", url: "https://www.dfb.de/" },
+        { title: "Wikipedia: Fußball-Weltmeisterschaft 2006", url: "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2006" }
+      ],
+      confidence: 0.94,
+      tags: ["Geschichte", "Fußball", "2006", "Deutschlandbild"]
+    },
+    {
+      id: "history-2005-hartz4",
+      category: "history",
+      year: "2005",
+      titleDe: "Hartz-IV-Reform",
+      titleZh: "哈茨四改革",
+      contentDe: "2005 trat die Hartz-IV-Reform in Kraft. Sie führte das Arbeitslosengeld II ein und fasste Sozial- und Arbeitslosenhilfe zusammen. Die Reform sollte Arbeitsanreize schaffen, wurde aber wegen Sanktionen und niedriger Regelsätze stark kritisiert.",
+      contentZh: "2005 年哈茨四改革生效，引入失业金二，把社会救助与失业救济合并。改革旨在激励就业，但因制裁与低标准引发强烈批评。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Hartz IV", url: "https://www.bpb.de/" },
+        { title: "Wikipedia: Hartz-Konzept", url: "https://de.wikipedia.org/wiki/Hartz-Konzept" }
+      ],
+      confidence: 0.93,
+      tags: ["Geschichte", "Sozialpolitik", "2005", "Arbeit"]
+    },
+    {
+      id: "history-2015-vw",
+      category: "history",
+      year: "2015",
+      titleDe: "VW-Abgasaffäre",
+      titleZh: "大众尾气丑闻",
+      contentDe: "2015 gab Volkswagen zu, bei Dieselfahrzeugen Software eingesetzt zu haben, die Abgastests manipuliert. Der Skandal kostete Milliarden und beschädigte das Vertrauen in die deutsche Autoindustrie. Er beschleunigte die Debatte über Verkehrswende und Elektromobilität.",
+      contentZh: "2015 年大众承认在柴油车中使用操纵尾气检测的软件。丑闻造成数十亿损失，损害德国汽车业信任，并加速交通转型与电动车讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Abgasskandal", url: "https://de.wikipedia.org/wiki/Abgasskandal" }
+      ],
+      confidence: 0.94,
+      tags: ["Geschichte", "Wirtschaft", "Auto", "2015"]
+    },
+    {
+      id: "history-2010-eurorettung",
+      category: "history",
+      year: "2010",
+      titleDe: "Euro-Rettungsschirm",
+      titleZh: "欧元救助基金",
+      contentDe: "2010 beschlossen die Euroländer und der IWF einen Rettungsschirm für hoch verschuldete Mitgliedstaaten. Deutschland beteiligte sich mit Milliardenkrediten. Die Maßnahme sollte den Euro stabilisieren, war aber politisch umstritten.",
+      contentZh: "2010 年欧元区国家与国际货币基金组织为高负债成员国设立救助基金，德国提供数十亿贷款。措施旨在稳定欧元，但政治上争议很大。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Europäischer Stabilitätsmechanismus", url: "https://de.wikipedia.org/wiki/Europ%C3%A4ischer_Stabilit%C3%A4tsmechanismus" }],
+      confidence: 0.92,
+      tags: ["Geschichte", "Euro", "Europa", "2010"]
+    },
+    {
+      id: "history-2012-ber",
+      category: "history",
+      year: "2012",
+      titleDe: "Berliner Flughafen BER",
+      titleZh: "柏林机场 BER",
+      contentDe: "Der neue Flughafen Berlin Brandenburg sollte 2012 eröffnen, wurde aber wegen Baumängeln und Planungsfehlern mehrfach verschoben. Erst 2020 ging er in Betrieb. Der Fall wurde zum Symbol für Probleme großer öffentlicher Bauprojekte in Deutschland.",
+      contentZh: "柏林勃兰登堡新机场原定2012年启用，但因建筑缺陷与规划失误多次推迟，直到2020年才投入运营。该事件成为德国大型公共工程问题的象征。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Flughafen Berlin Brandenburg", url: "https://de.wikipedia.org/wiki/Flughafen_Berlin_Brandenburg" }],
+      confidence: 0.94,
+      tags: ["Geschichte", "Infrastruktur", "Berlin", "2012"]
+    },
+    {
+      id: "history-2018-handelsstreit",
+      category: "history",
+      year: "2018",
+      titleDe: "Handelsstreit",
+      titleZh: "贸易争端",
+      contentDe: "2018 verhängten die USA unter Präsident Trump Strafzölle auf Stahl und Aluminium aus der EU. Die EU antwortete mit Gegenzöllen. Der Konflikt belastete die exportorientierte deutsche Wirtschaft und verstärkte Debatten über Freihandel und Protektionismus.",
+      contentZh: "2018 年美国特朗普政府对欧盟钢铁和铝加征关税，欧盟以反制关税回应。冲突冲击出口导向的德国经济，加剧自由贸易与保护主义讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Handelskonflikt zwischen den USA und der EU", url: "https://de.wikipedia.org/wiki/Handelskonflikt_zwischen_den_USA_und_der_EU" }],
+      confidence: 0.92,
+      tags: ["Geschichte", "Wirtschaft", "USA", "2018"]
+    },
+    {
+      id: "history-2017-g20",
+      category: "history",
+      year: "2017",
+      titleDe: "G20-Gipfel in Hamburg",
+      titleZh: "汉堡 G20 峰会",
+      contentDe: "Im Juli 2017 fand der G20-Gipfel in Hamburg statt. Zehntausende protestierten gegen globale Ungleichheit und Klimapolitik; es kam zu schweren Ausschreitungen. Der Gipfel zeigte Konflikte zwischen Globalisierung, Sicherheit und zivilgesellschaftlichem Protest.",
+      contentZh: "2017 年 7 月 G20 峰会在汉堡举行。数万人抗议全球不平等与气候政策，并发生严重骚乱。峰会凸显全球化、安全与公民抗议之间的冲突。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: G20-Gipfel 2017", url: "https://de.wikipedia.org/wiki/G20-Gipfel_in_Hamburg_2017" }],
+      confidence: 0.93,
+      tags: ["Geschichte", "Protest", "Hamburg", "2017"]
+    },
+    {
+      id: "history-2019-klimastreik",
+      category: "history",
+      year: "2019",
+      titleDe: "Klimastreiks",
+      titleZh: "气候罢工",
+      contentDe: "2019 gingen bei Fridays for Future in Deutschland Hunderttausende Schüler und Studenten auf die Straße. Sie forderten eine schnellere Klimapolitik und den Ausstieg aus fossilen Energien. Die Bewegung veränderte die öffentliche Debatte und beeinflusste Parteien und Wahlen.",
+      contentZh: "2019 年德国“星期五为未来”数十万学生上街，要求更快的气候政策与退出化石能源。运动改变公共讨论，并影响政党与选举。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Fridays for Future Deutschland", url: "https://fridaysforfuture.de/" }],
+      confidence: 0.92,
+      tags: ["Geschichte", "Klima", "Protest", "2019"]
+    },
+    {
+      id: "history-2021-bundestagswahl",
+      category: "history",
+      year: "2021",
+      titleDe: "Bundestagswahl 2021",
+      titleZh: "2021 联邦议院选举",
+      contentDe: "Am 26. September 2021 wählte Deutschland einen neuen Bundestag. Die SPD wurde stärkste Kraft, die Union verlor deutlich. Nach Koalitionsverhandlungen bildeten SPD, Grüne und FDP die erste „Ampel“-Koalition unter Olaf Scholz.",
+      contentZh: "2021 年 9 月 26 日德国选举新联邦议院。社民党成为最强力量，联盟党明显失利。谈判后社民党、绿党和自民党组成首个“交通灯”联盟，朔尔茨任总理。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Bundeswahlleiterin: Bundestagswahl 2021", url: "https://www.bundeswahlleiterin.de/" }],
+      confidence: 0.94,
+      tags: ["Geschichte", "Wahl", "2021", "Politik"]
+    },
+    {
+      id: "culture-digitalisierung",
+      category: "culture",
+      titleDe: "Digitalisierung im Alltag",
+      titleZh: "日常数字化",
+      contentDe: "Digitalisierung prägt den deutschen Alltag: Online-Banking, Behördentermine, E-Rezepte und Streaming. Ältere Menschen fühlen sich manchmal ausgeschlossen, während Jüngere neue Medien selbstverständlich nutzen. Medienkompetenz wird deshalb als Bildungsziel wichtiger.",
+      contentZh: "数字化塑造德国日常：网上银行、政府预约、电子处方和流媒体。老年人有时感到被排除，年轻人则自然使用新媒体。媒体素养因此成为更重要的教育目标。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutschland.de: Digitalisierung", url: "https://www.deutschland.de/de/topic/leben/digitalisierung" }],
+      confidence: 0.85,
+      tags: ["Digital", "Alltag", "Bildung", "Gesellschaft"]
+    },
+    {
+      id: "history-2022-gaspreisbremse",
+      category: "history",
+      year: "2022",
+      titleDe: "Gaspreisbremse",
+      titleZh: "天然气价格刹车",
+      contentDe: "Wegen der Energiekrise nach dem russischen Angriff auf die Ukraine beschloss die Bundesregierung 2022 eine Gaspreisbremse. Sie sollte Haushalte und Unternehmen vor extremen Rechnungen schützen. Kritiker bemängelten hohe Kosten und ungerechte Verteilung.",
+      contentZh: "2022 年俄乌战争引发能源危机，联邦政府决定实施天然气价格刹车，保护家庭与企业免受极高账单冲击。批评者指出成本高、分配不公。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Bundesregierung: Gaspreisbremse", url: "https://www.bundesregierung.de/" }],
+      confidence: 0.92,
+      tags: ["Geschichte", "Energie", "2022", "Sozialpolitik"]
+    },
+    {
+      id: "history-2023-haushaltskrise",
+      category: "history",
+      year: "2023",
+      titleDe: "Haushaltskrise",
+      titleZh: "预算危机",
+      contentDe: "Im November 2023 erklärte das Bundesverfassungsgericht die Umwidmung von Corona-Krediten für verfassungswidrig. Damit fehlten Milliarden im Bundeshaushalt. Die Regierung musste sparen und Projekte verschieben; die Ampel-Koalition geriet unter Druck.",
+      contentZh: "2023 年 11 月联邦宪法法院裁定将新冠贷款转用违宪，联邦预算缺口达数十亿。政府被迫节约、推迟项目，交通灯联盟承压。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Bundesverfassungsgericht: Haushalt", url: "https://www.bundesverfassungsgericht.de/" }],
+      confidence: 0.92,
+      tags: ["Geschichte", "Haushalt", "2023", "Politik"]
+    },
+    {
+      id: "history-2024-hochwasser",
+      category: "history",
+      year: "2024",
+      titleDe: "Hochwasser in Süddeutschland",
+      titleZh: "南德洪灾",
+      contentDe: "Im Juni 2024 führten starke Regenfälle in Bayern und Baden-Württemberg zu schweren Überschwemmungen. Mehrere Menschen starben, Dämme brachen, und der Katastrophenschutz war im Einsatz. Die Ereignisse verstärkten die Debatte über Klimaanpassung.",
+      contentZh: "2024 年 6 月强降雨在巴伐利亚和巴登-符腾堡造成严重洪灾，多人死亡、堤坝决口，灾害防护力量投入救援。事件加剧气候适应讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Hochwasser in Süddeutschland 2024", url: "https://de.wikipedia.org/wiki/Hochwasser_in_S%C3%BCddeutschland_2024" }],
+      confidence: 0.92,
+      tags: ["Geschichte", "Katastrophe", "Klima", "2024"]
+    },
+    {
+      id: "culture-kaffeekultur",
+      category: "culture",
+      titleDe: "Kaffeekultur",
+      titleZh: "咖啡文化",
+      contentDe: "Kaffee ist das beliebteste Getränk der Deutschen. Man trinkt ihn zu Hause, im Büro und im Café; „Kaffee und Kuchen“ gehört zum Sonntag. Die Kaffeekultur ist regional verschieden und reicht von Filterkaffee bis zum Latte.",
+      contentZh: "咖啡是德国人最喜爱的饮料。家里、办公室、咖啡馆都喝；“咖啡与蛋糕”属于周日。咖啡文化因地区而异，从滤泡咖啡到拿铁。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutscher Kaffeeverband", url: "https://www.kaffeeverband.de/" }],
+      confidence: 0.85,
+      tags: ["Kaffee", "Alltag", "Café", "Sonntag"]
+    },
+    {
+      id: "person-reich-ranicki",
+      category: "person",
+      titleDe: "Marcel Reich-Ranicki",
+      titleZh: "马塞尔·赖希-拉尼茨基",
+      contentDe: "1920–2013. Literaturkritiker, überlebte das Warschauer Ghetto und prägte mit „Das literarische Quartett“ die öffentliche Literaturdebatte in Deutschland.",
+      contentZh: "1920–2013，文学批评家，经历华沙隔都，以《文学四重奏》塑造德国公共文学讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Marcel Reich-Ranicki", url: "https://de.wikipedia.org/wiki/Marcel_Reich-Ranicki" }],
+      confidence: 0.96,
+      tags: ["Literatur", "Kritik", "20. Jahrhundert", "Fernsehen"]
+    },
+    {
+      id: "history-2024-thueringen",
+      category: "history",
+      year: "2024",
+      titleDe: "Landtagswahl in Thüringen",
+      titleZh: "图林根州选举",
+      contentDe: "Bei der Landtagswahl in Thüringen im September 2024 wurde die AfD stärkste Kraft, die neue Partei BSW kam ebenfalls in den Landtag. Die Regierungsbildung war schwierig, weil andere Parteien eine Zusammenarbeit mit der AfD ausschlossen.",
+      contentZh: "2024 年 9 月图林根州选举中，选择党成为最强力量，新党 BSW 也进入州议会。由于其他政党拒绝与选择党合作，组阁困难。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Landtagswahl in Thüringen 2024", url: "https://de.wikipedia.org/wiki/Landtagswahl_in_Th%C3%BCringen_2024" }],
+      confidence: 0.93,
+      tags: ["Geschichte", "Wahl", "Thüringen", "2024"]
+    },
+    {
+      id: "history-2024-sachsen",
+      category: "history",
+      year: "2024",
+      titleDe: "Landtagswahl in Sachsen",
+      titleZh: "萨克森州选举",
+      contentDe: "Bei der Landtagswahl in Sachsen im September 2024 wurde die CDU knapp stärkste Kraft, die AfD und das BSW gewannen deutlich. Die Bildung einer stabilen Regierung war schwierig; die Parteien schlossen Kooperationen mit der AfD aus.",
+      contentZh: "2024 年 9 月萨克森州选举中，基民盟以微弱优势成为最强力量，选择党与 BSW 明显得票增加。组建稳定政府困难，各党排除与选择党合作。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Landtagswahl in Sachsen 2024", url: "https://de.wikipedia.org/wiki/Landtagswahl_in_Sachsen_2024" }],
+      confidence: 0.92,
+      tags: ["Geschichte", "Wahl", "Sachsen", "2024"]
+    },
+    {
+      id: "culture-buchpreis",
+      category: "culture",
+      titleDe: "Deutscher Buchpreis",
+      titleZh: "德国图书奖",
+      contentDe: "Der Deutsche Buchpreis wird jedes Jahr für den besten deutschsprachigen Roman vergeben. Eine Jury wählt zunächst eine Shortlist, dann den Sieger. Der Preis macht Literatur sichtbar und steigert die Verkäufe.",
+      contentZh: "德国图书奖每年授予最佳德语小说。评委会先选出短名单，再定获奖者。奖项提升文学可见度并带动销量。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutscher Buchpreis", url: "https://www.deutscher-buchpreis.de/" }],
+      confidence: 0.88,
+      tags: ["Literatur", "Preis", "Roman", "Buchmarkt"]
+    },
+    {
+      id: "person-klaus-mann",
+      category: "person",
+      titleDe: "Klaus Mann",
+      titleZh: "克劳斯·曼",
+      contentDe: "1906–1949. Schriftsteller und Sohn Thomas Manns. Sein Roman „Mephisto“ kritisiert Anpassung an das NS-Regime; er lebte im Exil und starb in Cannes.",
+      contentZh: "1906–1949，作家，托马斯·曼之子。小说《梅菲斯特》批判对纳粹政权的迎合；他流亡海外，在戛纳去世。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Klaus Mann", url: "https://de.wikipedia.org/wiki/Klaus_Mann" }],
+      confidence: 0.96,
+      tags: ["Literatur", "Exil", "20. Jahrhundert", "Roman"]
+    },
+    {
+      id: "culture-nibelungen",
+      category: "culture",
+      titleDe: "Nibelungenlied",
+      titleZh: "尼伯龙根之歌",
+      contentDe: "Das Nibelungenlied ist ein mittelalterliches Heldenepos. Es erzählt von Siegfried, Kriemhild und dem Untergang der Burgunden. Die Handschriften und die Rezeption sind eng mit Worms und dem Rhein verbunden.",
+      contentZh: "《尼伯龙根之歌》是中世纪英雄史诗，讲述齐格弗里德、克里姆希尔德与勃艮第人的覆灭。手稿与接受史与沃尔姆斯和莱茵河紧密相关。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Nibelungenlied", url: "https://de.wikipedia.org/wiki/Nibelungenlied" }],
+      confidence: 0.9,
+      tags: ["Literatur", "Mittelalter", "Sage", "Worms"]
+    },
+    {
+      id: "culture-lesefoerderung",
+      category: "culture",
+      titleDe: "Leseförderung",
+      titleZh: "阅读促进",
+      contentDe: "Leseförderung beginnt in der Familie und setzt sich in Schule und Bibliothek fort. Vorlesen, Leseclubs und Wettbewerbe sollen Kinder für Bücher begeistern. Studien zeigen, dass regelmäßiges Lesen Wortschatz und Konzentration stärkt.",
+      contentZh: "阅读促进从家庭开始，在学校和图书馆延续。朗读、读书会和比赛旨在让孩子爱上书。研究显示，规律阅读能增强词汇与专注力。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Stiftung Lesen", url: "https://www.stiftunglesen.de/" }],
+      confidence: 0.87,
+      tags: ["Lesen", "Bildung", "Familie", "Bibliothek"]
+    },
+    {
+      id: "person-erika-mann",
+      category: "person",
+      titleDe: "Erika Mann",
+      titleZh: "埃里卡·曼",
+      contentDe: "1905–1969. Schriftstellerin, Schauspielerin und politische Aktivistin. Sie leitete das Kabarett „Die Pfeffermühle“ im Exil und kämpfte gegen den Nationalsozialismus.",
+      contentZh: "1905–1969，作家、演员与政治活动家。流亡期间领导“胡椒磨”卡巴莱，反对纳粹主义。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Erika Mann", url: "https://de.wikipedia.org/wiki/Erika_Mann" }],
+      confidence: 0.96,
+      tags: ["Literatur", "Exil", "Kabarett", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-buchmesse",
+      category: "culture",
+      titleDe: "Buchmesse",
+      titleZh: "书展",
+      contentDe: "Die Frankfurter Buchmesse ist die größte Buchmesse der Welt. Verlage, Autorinnen und Leser treffen sich im Oktober, um neue Bücher vorzustellen und Rechte zu verkaufen. Ein Gastland präsentiert jedes Jahr seine Literatur.",
+      contentZh: "法兰克福书展是世界最大书展。十月，出版社、作者与读者相聚，展示新书、交易版权。每年有一个主宾国展示其文学。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Frankfurter Buchmesse", url: "https://www.buchmesse.de/" }],
+      confidence: 0.88,
+      tags: ["Buch", "Literatur", "Messe", "Frankfurt"]
+    },
+    {
+      id: "person-siegfried-lenz",
+      category: "person",
+      titleDe: "Siegfried Lenz",
+      titleZh: "西格弗里德·伦茨",
+      contentDe: "1926–2014. Schriftsteller, bekannt für Romane wie „Deutschstunde“ und „Die Heimatmuseum“. Seine Werke behandeln Pflicht, Schuld und Erinnerung.",
+      contentZh: "1926–2014，作家，代表作《德语课》《家乡博物馆》，作品探讨义务、罪责与记忆。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Siegfried Lenz", url: "https://de.wikipedia.org/wiki/Siegfried_Lenz" }],
+      confidence: 0.96,
+      tags: ["Literatur", "Nachkrieg", "20. Jahrhundert", "Roman"]
+    },
+    {
+      id: "culture-bibliothek",
+      category: "culture",
+      titleDe: "Bibliothekskultur",
+      titleZh: "图书馆文化",
+      contentDe: "Öffentliche Bibliotheken sind in Deutschland mehr als Ausleihstellen. Sie bieten Arbeitsplätze, Lesungen, Kurse und digitale Angebote. Viele sind kostenlos und werden von Städten finanziert; sie gelten als „Wohnzimmer der Stadt“.",
+      contentZh: "德国公共图书馆不只是借书处，还提供工作位、朗读会、课程与数字服务。许多免费并由城市资助，被视为“城市客厅”。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutscher Bibliotheksverband", url: "https://www.bibliotheksverband.de/" }],
+      confidence: 0.86,
+      tags: ["Bildung", "Stadt", "Lesen", "Alltag"]
+    },
+    {
+      id: "culture-erinnerungskultur",
+      category: "culture",
+      titleDe: "Erinnerungskultur",
+      titleZh: "记忆文化",
+      contentDe: "Erinnerungskultur bedeutet, wie eine Gesellschaft an Geschichte erinnert. In Deutschland gehören Gedenkstätten, Stolpersteine, Museen und Gedenktage dazu. Besonders die NS-Zeit wird als Verantwortung und Mahnung erinnert.",
+      contentZh: "记忆文化指社会如何纪念历史。在德国，包括纪念馆、绊脚石、博物馆与纪念日，尤其把纳粹时期作为责任与警示来记忆。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Bundeszentrale für politische Bildung: Erinnerungskultur", url: "https://www.bpb.de/" }],
+      confidence: 0.87,
+      tags: ["Erinnerung", "Geschichte", "Museum", "Gesellschaft"]
+    },
+    {
+      id: "person-max-planck",
+      category: "person",
+      titleDe: "Max Planck",
+      titleZh: "马克斯·普朗克",
+      contentDe: "1858–1947. Physiker und Begründer der Quantentheorie. Für seine Arbeit erhielt er 1918 den Nobelpreis für Physik; die Max-Planck-Gesellschaft trägt seinen Namen.",
+      contentZh: "1858–1947，物理学家、量子理论奠基人。1918 年获诺贝尔物理学奖；马克斯·普朗克学会以他命名。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Max Planck", url: "https://de.wikipedia.org/wiki/Max_Planck" }],
+      confidence: 0.96,
+      tags: ["Physik", "Quantentheorie", "Nobelpreis", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-technikmuseum",
+      category: "culture",
+      titleDe: "Technikmuseum",
+      titleZh: "技术博物馆",
+      contentDe: "Technikmuseen zeigen, wie Maschinen, Verkehr und Kommunikation die Welt verändert haben. Das Deutsche Museum in München ist eines der größten Wissenschafts- und Technikmuseen der Welt. Besucher können vieles ausprobieren.",
+      contentZh: "技术博物馆展示机器、交通与通信如何改变世界。慕尼黑德意志博物馆是世界最大的科技博物馆之一，参观者可以动手体验。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutsches Museum", url: "https://www.deutsches-museum.de/" }],
+      confidence: 0.86,
+      tags: ["Technik", "Museum", "Bildung", "München"]
+    },
+    {
+      id: "person-konrad-zuse",
+      category: "person",
+      titleDe: "Konrad Zuse",
+      titleZh: "康拉德·楚泽",
+      contentDe: "1910–1995. Ingenieur und Computerpionier. Er baute 1941 mit der Z3 einen der ersten programmierbaren Rechner und entwickelte die Programmiersprache Plankalkül.",
+      contentZh: "1910–1995，工程师与计算机先驱。1941 年建造可编程计算机 Z3 之一，并开发 Plankalkül 编程语言。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Konrad Zuse", url: "https://de.wikipedia.org/wiki/Konrad_Zuse" }],
+      confidence: 0.96,
+      tags: ["Technik", "Computer", "20. Jahrhundert", "Erfindung"]
+    },
+    {
+      id: "culture-buergerinitiative",
+      category: "culture",
+      titleDe: "Bürgerinitiative",
+      titleZh: "公民倡议",
+      contentDe: "Bürgerinitiativen sind Zusammenschlüsse von Menschen, die ein lokales oder politisches Ziel verfolgen, etwa den Erhalt eines Parks oder eine bessere Verkehrsplanung. Sie organisieren Unterschriften, Informationsabende und Proteste und sind ein wichtiger Teil der deutschen Zivilgesellschaft.",
+      contentZh: "公民倡议是人们为地方或政治目标组成的团体，如保护公园或改善交通规划。它们组织签名、信息晚会与抗议，是德国公民社会的重要部分。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Bürgerinitiative", url: "https://de.wikipedia.org/wiki/B%C3%BCrgerinitiative" }],
+      confidence: 0.87,
+      tags: ["Gesellschaft", "Demokratie", "Protest", "Alltag"]
+    },
+    {
+      id: "person-ulrich-beck",
+      category: "person",
+      titleDe: "Ulrich Beck",
+      titleZh: "乌尔里希·贝克",
+      contentDe: "1944–2015. Soziologe, bekannt für den Begriff der „Risikogesellschaft“. Er beschrieb, wie moderne Gesellschaften Risiken erzeugen, die sie selbst nicht vollständig kontrollieren können.",
+      contentZh: "1944–2015，社会学家，以“风险社会”概念闻名，描述现代社会如何制造自身无法完全控制的风险。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Ulrich Beck", url: "https://de.wikipedia.org/wiki/Ulrich_Beck" }],
+      confidence: 0.95,
+      tags: ["Soziologie", "Risiko", "20. Jahrhundert", "Gesellschaft"]
+    },
+    {
+      id: "culture-musikverein",
+      category: "culture",
+      titleDe: "Musikverein und Laienmusik",
+      titleZh: "音乐协会与业余音乐",
+      contentDe: "In Deutschland musizieren Millionen Menschen in Vereinen, Chören und Musikschulen. Blasorchester, Gesangsvereine und Jugendensembles prägen das Dorf- und Stadtleben. Viele Vereine treten bei Festen auf und bieten Kindern preiswerten Unterricht.",
+      contentZh: "德国数百万人在协会、合唱团和音乐学校演奏。管乐团、歌唱协会和青年乐团塑造城乡生活。许多协会在节庆演出，并为儿童提供低价课程。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutscher Musikrat", url: "https://www.musikrat.de/" }],
+      confidence: 0.85,
+      tags: ["Musik", "Verein", "Bildung", "Alltag"]
+    },
+    {
+      id: "person-paula-modersohn-becker",
+      category: "person",
+      titleDe: "Paula Modersohn-Becker",
+      titleZh: "保拉·莫德松-贝克尔",
+      contentDe: "1876–1907. Malerin der frühen Moderne, bekannt für Porträts, Selbstbildnisse und Bilder von Frauen und Kindern. Sie lebte in Worpswede und Paris und starb mit 31 Jahren.",
+      contentZh: "1876–1907，早期现代主义画家，以肖像、自画像及妇女儿童题材闻名。她生活在沃尔普斯韦德与巴黎，31岁去世。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Paula Modersohn-Becker", url: "https://de.wikipedia.org/wiki/Paula_Modersohn-Becker" }],
+      confidence: 0.95,
+      tags: ["Kunst", "Moderne", "20. Jahrhundert", "Malerei"]
+    },
+    {
+      id: "culture-museen",
+      category: "culture",
+      titleDe: "Museumslandschaft",
+      titleZh: "博物馆景观",
+      contentDe: "Deutschland hat über 6.000 Museen, von Kunst- und Geschichtsmuseen bis zu Technik- und Heimatmuseen. Viele sind öffentlich finanziert und bieten Bildung für Schulen und Familien. Die Museumsinsel in Berlin ist Weltkulturerbe.",
+      contentZh: "德国有6000多座博物馆，从艺术、历史到技术与乡土博物馆。许多由公共资助，为学校和家庭提供教育。柏林博物馆岛是世界文化遗产。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutscher Museumsbund", url: "https://www.museumsbund.de/" }],
+      confidence: 0.87,
+      tags: ["Museum", "Kultur", "Bildung", "Stadt"]
+    },
+    {
+      id: "person-anselm-kiefer",
+      category: "person",
+      titleDe: "Anselm Kiefer",
+      titleZh: "安塞尔姆·基弗",
+      contentDe: "1945 geboren. Maler und Bildhauer, bekannt für großformatige Werke über deutsche Geschichte, Mythologie und Erinnerung. Seine Kunst setzt sich mit der NS-Zeit und der Last der Vergangenheit auseinander.",
+      contentZh: "1945 年出生，画家与雕塑家，以关于德国历史、神话与记忆的大幅作品闻名。其艺术直面纳粹时期与历史负担。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Anselm Kiefer", url: "https://de.wikipedia.org/wiki/Anselm_Kiefer" }],
+      confidence: 0.95,
+      tags: ["Kunst", "Erinnerung", "20. Jahrhundert", "Malerei"]
+    },
+    {
+      id: "culture-theater",
+      category: "culture",
+      titleDe: "Theaterkultur",
+      titleZh: "戏剧文化",
+      contentDe: "Deutschland hat eine dichte Theaterlandschaft: Stadt- und Staatstheater, freie Gruppen und Opernhäuser. Viele Bühnen werden öffentlich gefördert und bieten feste Ensembles. Theater ist hier nicht nur Unterhaltung, sondern auch gesellschaftliche Debatte.",
+      contentZh: "德国戏剧场景密集：市立与国家剧院、自由团体和歌剧院。许多舞台获公共资助并有固定剧团。戏剧不仅是娱乐，也是社会讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Deutscher Bühnenverein", url: "https://www.buehnenverein.de/" }],
+      confidence: 0.86,
+      tags: ["Theater", "Kultur", "Stadt", "Gesellschaft"]
+    },
+    {
+      id: "person-lessing",
+      category: "person",
+      titleDe: "Gotthold Ephraim Lessing",
+      titleZh: "莱辛",
+      contentDe: "1729–1781. Schriftsteller und Kritiker der Aufklärung. Mit „Nathan der Weise“ und „Emilia Galotti“ prägte er das deutsche Drama und setzte sich für Toleranz und Vernunft ein.",
+      contentZh: "1729–1781，启蒙作家与批评家。《智者纳坦》《艾米莉亚·迦洛蒂》塑造德国戏剧，倡导宽容与理性。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [{ title: "Wikipedia: Gotthold Ephraim Lessing", url: "https://de.wikipedia.org/wiki/Gotthold_Ephraim_Lessing" }],
+      confidence: 0.96,
+      tags: ["Literatur", "Aufklärung", "Drama", "18. Jahrhundert"]
+    },
+    {
+      id: "culture-filmkultur",
+      category: "culture",
+      titleDe: "Filmkultur und Kino",
+      titleZh: "电影文化与影院",
+      contentDe: "Kino hat in Deutschland eine lange Tradition. Städte haben Programmkinos, Multiplexe und Filmfestivals; die Berlinale ist international bekannt. Deutsche Filme und Serien gewinnen auch auf Streaming-Plattformen an Bedeutung.",
+      contentZh: "影院在德国有悠久传统。城市有艺术影院、多厅影院和电影节；柏林电影节国际知名。德国电影与剧集在流媒体平台上也越来越重要。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Berlinale", url: "https://www.berlinale.de/" },
+        { title: "Wikipedia: Kino in Deutschland", url: "https://de.wikipedia.org/wiki/Kino_in_Deutschland" }
+      ],
+      confidence: 0.85,
+      tags: ["Film", "Kino", "Kultur", "Stadt"]
+    },
+    {
+      id: "person-fatih-akin",
+      category: "person",
+      titleDe: "Fatih Akin",
+      titleZh: "法提赫·阿金",
+      contentDe: "1973 in Hamburg geboren. Regisseur und Drehbuchautor, bekannt für Filme wie „Gegen die Wand“ und „Aus dem Nichts“. Seine Werke erzählen von Migration, Familie und Gewalt und wurden mehrfach ausgezeichnet.",
+      contentZh: "1973 年生于汉堡，导演与编剧，代表作《勇往直前》《凭空而来》。作品讲述移民、家庭与暴力，多次获奖。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Fatih Akin", url: "https://de.wikipedia.org/wiki/Fatih_Akin" }
+      ],
+      confidence: 0.95,
+      tags: ["Film", "Migration", "Hamburg", "21. Jahrhundert"]
+    },
+    {
+      id: "culture-kartenspiel",
+      category: "culture",
+      titleDe: "Kartenspiel und Skat",
+      titleZh: "纸牌与斯卡特",
+      contentDe: "Kartenspiele haben in Deutschland eine lange Tradition. Skat ist besonders in Sachsen, Thüringen und Brandenburg verbreitet; gespielt wird zu dritt mit 32 Karten. In Kneipen, Vereinen und Familien gehört eine Runde Karten oft zum Abend.",
+      contentZh: "纸牌在德国有悠久传统。斯卡特尤其在萨克森、图林根和勃兰登堡流行，三人用32张牌。酒馆、协会和家庭里，一局牌常是晚间活动。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutscher Skatverband", url: "https://www.dskv.de/" },
+        { title: "Wikipedia: Skat", url: "https://de.wikipedia.org/wiki/Skat" }
+      ],
+      confidence: 0.86,
+      tags: ["Spiel", "Geselligkeit", "Regionen", "Alltag"]
+    },
+    {
+      id: "person-hape-kerkeling",
+      category: "person",
+      titleDe: "Hape Kerkeling",
+      titleZh: "哈佩·克尔克林",
+      contentDe: "1964 geboren. Komiker, Schauspieler und Autor. Bekannt wurde er mit Figuren wie Horst Schlämmer und Sendungen wie „Total normal“. Sein Buch „Ich bin dann mal weg“ über den Jakobsweg wurde ein Bestseller.",
+      contentZh: "1964 年出生，喜剧演员、演员与作家。以 Horst Schlämmer 等角色和《Total normal》等节目闻名。关于圣地亚哥朝圣之路的《我出去一下》成为畅销书。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Hape Kerkeling", url: "https://de.wikipedia.org/wiki/Hape_Kerkeling" }
+      ],
+      confidence: 0.94,
+      tags: ["Comedy", "Fernsehen", "Literatur", "21. Jahrhundert"]
+    },
+    {
+      id: "culture-public-viewing",
+      category: "culture",
+      titleDe: "Public Viewing",
+      titleZh: "公共观赛",
+      contentDe: "Bei großen Turnieren treffen sich in Deutschland Millionen Menschen zum Public Viewing. In Parks, auf Plätzen und in Biergärten werden Spiele auf großen Leinwänden gezeigt. Fans bringen Decken, Fahnen und Essen mit; für viele ist das gemeinsame Schauen wichtiger als das Ergebnis.",
+      contentZh: "大型赛事期间，数百万德国人参加公共观赛。公园、广场和啤酒花园用大屏幕转播比赛。球迷带毯子、旗帜和食物；对许多人来说，一起看球比结果更重要。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Public Viewing", url: "https://www.deutschland.de/de/topic/leben/public-viewing" },
+        { title: "Wikipedia: Public Viewing", url: "https://de.wikipedia.org/wiki/Public_Viewing" }
+      ],
+      confidence: 0.87,
+      tags: ["Fußball", "Fans", "Sommer", "Stadt"]
+    },
+    {
+      id: "person-mesut-oezil",
+      category: "person",
+      titleDe: "Mesut Özil",
+      titleZh: "梅苏特·厄齐尔",
+      contentDe: "1988 geboren. Fußballspieler, Sohn türkischer Einwanderer, wurde 2014 mit Deutschland Weltmeister. Seine Karriere und sein Rücktritt 2018 lösten Debatten über Migration, Identität und Rassismus aus.",
+      contentZh: "1988 年出生，足球运动员，土耳其移民之子，2014 年随德国队夺得世界杯。他的职业生涯与 2018 年退出国家队引发关于移民、身份与种族主义的讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Mesut Özil", url: "https://de.wikipedia.org/wiki/Mesut_%C3%96zil" },
+        { title: "DFB: Mesut Özil", url: "https://www.dfb.de/" }
+      ],
+      confidence: 0.94,
+      tags: ["Fußball", "Migration", "Weltmeister", "21. Jahrhundert"]
+    },
+    {
+      id: "culture-osterfeuer",
+      category: "culture",
+      titleDe: "Osterfeuer",
+      titleZh: "复活节篝火",
+      contentDe: "In vielen Regionen Deutschlands werden am Osterwochenende Osterfeuer entzündet. Der Brauch geht auf vorchristliche Frühlingsfeste zurück und markiert das Ende des Winters. Heute sind die Feuer oft Gemeinschaftsfeste mit Musik, Essen und Kirchgang.",
+      contentZh: "德国许多地区在复活节周末点燃篝火。习俗源于前基督教春季节庆，标志冬天结束。如今篝火常是社区活动，配音乐、食物和教堂礼拜。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Osterfeuer", url: "https://www.deutschland.de/de/topic/leben/osterfeuer" },
+        { title: "Wikipedia: Osterfeuer", url: "https://de.wikipedia.org/wiki/Osterfeuer" }
+      ],
+      confidence: 0.86,
+      tags: ["Ostern", "Brauchtum", "Feuer", "Regionen"]
+    },
+    {
+      id: "person-jurgen-klopp",
+      category: "person",
+      titleDe: "Jürgen Klopp",
+      titleZh: "尤尔根·克洛普",
+      contentDe: "1967 geboren. Fußballtrainer, bekannt für seine Zeit beim 1. FSV Mainz 05, Borussia Dortmund und FC Liverpool. Er prägt den modernen Pressing-Fußball und gilt als emotionaler Motivator.",
+      contentZh: "1967 年出生，足球教练，曾执教美因茨、多特蒙德与利物浦。他塑造现代压迫式足球，被视为情绪型激励者。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Jürgen Klopp", url: "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp" },
+        { title: "Liverpool FC: Jürgen Klopp", url: "https://www.liverpoolfc.com/" }
+      ],
+      confidence: 0.95,
+      tags: ["Fußball", "Trainer", "21. Jahrhundert", "Dortmund"]
+    },
+    {
+      id: "culture-schwarzwald",
+      category: "culture",
+      titleDe: "Schwarzwald",
+      titleZh: "黑森林",
+      contentDe: "Der Schwarzwald ist eine Mittelgebirgslandschaft im Südwesten Deutschlands. Bekannt ist er für dichte Wälder, Kuckucksuhren, Kirschtorte und traditionelle Höfe. Wandern, Wintersport und Kurorte prägen die Region; zugleich ist der Tourismus eine wichtige Einnahmequelle.",
+      contentZh: "黑森林是德国西南部的低山地区，以密林、布谷鸟钟、黑森林蛋糕和传统农庄闻名。徒步、冬季运动与疗养地塑造该地区，旅游业也是重要收入来源。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Schwarzwald Tourismus", url: "https://www.schwarzwald-tourismus.info/" },
+        { title: "Wikipedia: Schwarzwald", url: "https://de.wikipedia.org/wiki/Schwarzwald" }
+      ],
+      confidence: 0.86,
+      tags: ["Region", "Natur", "Tourismus", "Brauchtum"]
+    },
+    {
+      id: "person-hildegard-von-bingen",
+      category: "person",
+      titleDe: "Hildegard von Bingen",
+      titleZh: "宾根的希尔德加德",
+      contentDe: "1098–1179. Äbtissin, Mystikerin, Komponistin und Naturheilkundlerin. Sie schrieb über Religion, Medizin und Musik und gründete ein Kloster. Sie gilt als eine der bedeutendsten Frauen des Mittelalters.",
+      contentZh: "1098–1179，女修道院长、神秘主义者、作曲家与自然疗法家。她写作宗教、医学与音乐，并创建修道院，被视为中世纪最重要的女性之一。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Hildegard von Bingen", url: "https://de.wikipedia.org/wiki/Hildegard_von_Bingen" },
+        { title: "Benediktinerinnen: Hildegard", url: "https://www.abtei-st-hildegard.de/" }
+      ],
+      confidence: 0.95,
+      tags: ["Mittelalter", "Musik", "Medizin", "Religion"]
+    },
+    {
+      id: "culture-fussballkultur",
+      category: "culture",
+      titleDe: "Fußballkultur",
+      titleZh: "足球文化",
+      contentDe: "Fußball ist in Deutschland mehr als ein Sport. Millionen Menschen sind Mitglied in Vereinen, gehen ins Stadion oder verfolgen die Bundesliga. Fankurven, Vereinslieder und Rituale schaffen Identität. Gleichzeitig diskutiert der Sport über Kommerzialisierung, Gewalt und Vielfalt.",
+      contentZh: "足球在德国不只是运动。数百万人加入协会、去球场或关注德甲。球迷看台、队歌与仪式创造认同。与此同时，足球也讨论商业化、暴力与多样性。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "DFB: Fußballkultur", url: "https://www.dfb.de/" },
+        { title: "Wikipedia: Fußball in Deutschland", url: "https://de.wikipedia.org/wiki/Fu%C3%9Fball_in_Deutschland" }
+      ],
+      confidence: 0.88,
+      tags: ["Sport", "Verein", "Fans", "Gesellschaft"]
+    },
+    {
+      id: "person-franz-beckenbauer",
+      category: "person",
+      titleDe: "Franz Beckenbauer",
+      titleZh: "弗朗茨·贝肯鲍尔",
+      contentDe: "1945–2024. Fußballspieler, Trainer und Funktionär. Er wurde als Spieler 1974 Weltmeister und als Trainer 1990. Als „Kaiser“ prägte er den deutschen Fußball und war an der Bewerbung für die WM 2006 beteiligt.",
+      contentZh: "1945–2024，球员、教练与官员。1974 年作为球员、1990 年作为教练赢得世界杯。作为“皇帝”塑造德国足球，并参与 2006 年世界杯申办。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "DFB: Franz Beckenbauer", url: "https://www.dfb.de/" },
+        { title: "Wikipedia: Franz Beckenbauer", url: "https://de.wikipedia.org/wiki/Franz_Beckenbauer" }
+      ],
+      confidence: 0.97,
+      tags: ["Fußball", "Weltmeister", "20. Jahrhundert", "Trainer"]
+    },
+    {
+      id: "culture-bierkultur",
+      category: "culture",
+      titleDe: "Bierkultur",
+      titleZh: "啤酒文化",
+      contentDe: "Deutschland ist bekannt für seine Biervielfalt. Über 1.500 Brauereien brauen Pils, Weizen, Kölsch, Alt und viele regionale Sorten. Das Reinheitsgebot von 1516 gilt als älteste Lebensmittelvorschrift. Biergärten, Brauhäuser und Volksfeste machen Bier zum Teil der Alltagskultur.",
+      contentZh: "德国以啤酒多样性闻名。1500多家啤酒厂酿造皮尔森、小麦啤、科隆啤酒、老啤和许多地方品种。1516年《纯净法》被视为最古老食品法规。啤酒花园、啤酒馆和民俗节让啤酒成为日常文化。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutscher Brauer-Bund", url: "https://www.brauer-bund.de/" },
+        { title: "Wikipedia: Bier in Deutschland", url: "https://de.wikipedia.org/wiki/Bier_in_Deutschland" }
+      ],
+      confidence: 0.89,
+      tags: ["Bier", "Brauerei", "Regionen", "Brauchtum"]
+    },
+    {
+      id: "person-wim-wenders",
+      category: "person",
+      titleDe: "Wim Wenders",
+      titleZh: "维姆·文德斯",
+      contentDe: "1945 geboren. Regisseur, Fotograf und Mitbegründer des Neuen Deutschen Films. Filme wie „Der Himmel über Berlin“ und „Paris, Texas“ verbinden Roadmovie, Melancholie und Bilder von Städten.",
+      contentZh: "1945 年出生，导演、摄影师，新德国电影代表人物。《柏林苍穹下》《德州巴黎》把公路电影、忧郁与城市影像结合起来。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Wim Wenders", url: "https://de.wikipedia.org/wiki/Wim_Wenders" },
+        { title: "Wim Wenders Stiftung", url: "https://www.wimwendersstiftung.de/" }
+      ],
+      confidence: 0.95,
+      tags: ["Film", "Neuer Deutscher Film", "Fotografie", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-feuerwehr",
+      category: "culture",
+      titleDe: "Freiwillige Feuerwehr",
+      titleZh: "志愿消防队",
+      contentDe: "In vielen deutschen Orten ist die Feuerwehr freiwillig organisiert. Die Mitglieder haben normale Berufe und werden im Notfall alarmiert. Sie retten Menschen, löschen Brände und helfen bei Unfällen. Ohne dieses Ehrenamt wäre der Brandschutz im ländlichen Raum kaum möglich.",
+      contentZh: "德国许多地方的消防队是志愿组织。成员有普通职业，紧急时被召来，救人、灭火、处理事故。没有这份志愿工作，乡村消防几乎无法维持。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutscher Feuerwehrverband", url: "https://www.feuerwehrverband.de/" },
+        { title: "Wikipedia: Freiwillige Feuerwehr", url: "https://de.wikipedia.org/wiki/Freiwillige_Feuerwehr" }
+      ],
+      confidence: 0.9,
+      tags: ["Ehrenamt", "Sicherheit", "Dorf", "Gesellschaft"]
+    },
+    {
+      id: "person-werner-herzog",
+      category: "person",
+      titleDe: "Werner Herzog",
+      titleZh: "维尔纳·赫尔佐格",
+      contentDe: "1942 geboren. Filmregisseur, Produzent und Autor, Mitbegründer des Neuen Deutschen Films. Filme wie „Aguirre“ und „Fitzcarraldo“ sind für extreme Drehorte und Grenzerfahrungen bekannt.",
+      contentZh: "1942 年出生，导演、制片人与作家，新德国电影代表人物。作品《阿基尔》《陆上行舟》以极端拍摄地和极限体验闻名。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Werner Herzog", url: "https://de.wikipedia.org/wiki/Werner_Herzog" },
+        { title: "Werner Herzog Film", url: "https://www.wernerherzog.com/" }
+      ],
+      confidence: 0.96,
+      tags: ["Film", "Neuer Deutscher Film", "20. Jahrhundert", "Regie"]
+    },
+    {
+      id: "culture-freibad",
+      category: "culture",
+      titleDe: "Freibadkultur",
+      titleZh: "露天泳池文化",
+      contentDe: "Freibäder sind in Deutschland im Sommer wichtige Treffpunkte. Es gibt Becken, Liegewiesen, Spielplätze und Imbisse. Viele Freibäder sind kommunal, manche haben lange Traditionen. Der Besuch ist oft günstig, und für Familien ist das Freibad ein Stück Sommer.",
+      contentZh: "夏天露天泳池是德国重要聚会场所。有泳池、草坪、儿童游乐场和小吃摊。许多泳池由市政运营，有的历史悠久。门票通常便宜，对家庭来说泳池就是夏天的一部分。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Freibad", url: "https://www.deutschland.de/de/topic/leben/freibad" },
+        { title: "Wikipedia: Freibad", url: "https://de.wikipedia.org/wiki/Freibad" }
+      ],
+      confidence: 0.84,
+      tags: ["Sommer", "Alltag", "Familie", "Stadt"]
+    },
+    {
+      id: "person-joseph-beuys",
+      category: "person",
+      titleDe: "Joseph Beuys",
+      titleZh: "约瑟夫·博伊斯",
+      contentDe: "1921–1986. Künstler und Professor. Er erweiterte den Kunstbegriff auf soziale Prozesse: „Jeder Mensch ist ein Künstler“. Seine Aktionen, Objekte und Lehre prägen die deutsche Kunst nach 1945.",
+      contentZh: "1921–1986，艺术家与教授。他把艺术概念扩展到社会过程：“每个人都是艺术家”。其行动、物件与教学深刻影响1945年后的德国艺术。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Joseph Beuys", url: "https://de.wikipedia.org/wiki/Joseph_Beuys" },
+        { title: "Tate: Joseph Beuys", url: "https://www.tate.org.uk/art/artists/joseph-beuys-747" }
+      ],
+      confidence: 0.95,
+      tags: ["Kunst", "Aktionismus", "20. Jahrhundert", "Pädagogik"]
+    },
+    {
+      id: "culture-imbisskultur",
+      category: "culture",
+      titleDe: "Imbisskultur",
+      titleZh: "小吃摊文化",
+      contentDe: "In Deutschland gehören Imbissbuden zum Stadtbild. Currywurst, Döner, Pommes und Bratwurst sind schnell, günstig und überall verfügbar. Die Currywurst gilt als Berliner Klassiker, der Döner wurde durch türkische Einwanderer populär. Imbisse sind auch Treffpunkte nach der Arbeit oder nach dem Ausgehen.",
+      contentZh: "小吃摊是德国城市风景的一部分。咖喱香肠、烤肉夹饼、薯条和烤香肠快捷便宜、随处可见。咖喱香肠是柏林经典，Döner 因土耳其移民而流行。小吃摊也是下班后或夜生活后的聚会点。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Imbisskultur", url: "https://www.deutschland.de/de/topic/leben/imbisskultur" },
+        { title: "Wikipedia: Currywurst", url: "https://de.wikipedia.org/wiki/Currywurst" }
+      ],
+      confidence: 0.86,
+      tags: ["Essen", "Stadt", "Migration", "Alltag"]
+    },
+    {
+      id: "person-gerhard-richter",
+      category: "person",
+      titleDe: "Gerhard Richter",
+      titleZh: "格哈德·里希特",
+      contentDe: "1932 geboren. Maler, geboren in Dresden, 1961 in den Westen gegangen. Er arbeitet zwischen Fotomalerei, abstrakter Kunst und Glasfenstern, etwa im Kölner Dom. Er gilt als einer der wichtigsten zeitgenössischen Künstler.",
+      contentZh: "1932 年生于德累斯顿，1961 年前往西德。创作介于照片绘画、抽象艺术与玻璃窗之间，如科隆大教堂玻璃窗；被视为最重要的当代艺术家之一。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Gerhard Richter: offizielle Website", url: "https://www.gerhard-richter.com/" },
+        { title: "Wikipedia: Gerhard Richter", url: "https://de.wikipedia.org/wiki/Gerhard_Richter" }
+      ],
+      confidence: 0.95,
+      tags: ["Kunst", "Malerei", "21. Jahrhundert", "Dresden"]
+    },
+    {
+      id: "culture-weinkultur",
+      category: "culture",
+      titleDe: "Weinkultur in Deutschland",
+      titleZh: "德国葡萄酒文化",
+      contentDe: "Deutschland hat 13 Weinbaugebiete, darunter Mosel, Rheingau und Pfalz. Riesling gilt als wichtigste Rebsorte; an steilen Hängen wird oft Handarbeit geleistet. Weinfeste, Winzerhöfe und Straußwirtschaften machen die Weinkultur im Alltag sichtbar.",
+      contentZh: "德国有13个葡萄酒产区，包括摩泽尔、莱茵高和普法尔茨。雷司令是最重要品种，陡坡上常需手工劳作。葡萄酒节、酒农庄和乡村酒馆让酒文化融入日常。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutsches Weininstitut", url: "https://www.deutscheweine.de/" },
+        { title: "Wikipedia: Weinbau in Deutschland", url: "https://de.wikipedia.org/wiki/Weinbau_in_Deutschland" }
+      ],
+      confidence: 0.88,
+      tags: ["Wein", "Landwirtschaft", "Regionen", "Brauchtum"]
+    },
+    {
+      id: "person-hannah-hoech",
+      category: "person",
+      titleDe: "Hannah Höch",
+      titleZh: "汉娜·赫希",
+      contentDe: "1889–1978. Malerin und Fotomonteurin der Dada-Bewegung. Sie zerlegte Bilder aus Zeitschriften und setzte sie neu zusammen, um Geschlechterrollen und Weimarer Gesellschaft zu kritisieren. Lange wurde ihr Werk weniger beachtet als das ihrer männlichen Kollegen.",
+      contentZh: "1889–1978，达达运动画家与照片蒙太奇艺术家。她剪碎杂志图片重新组合，批判性别角色与魏玛社会。其作品长期不如男性同行受重视。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Berlinische Galerie: Hannah Höch", url: "https://berlinischegalerie.de/" },
+        { title: "Wikipedia: Hannah Höch", url: "https://de.wikipedia.org/wiki/Hannah_H%C3%B6ch" }
+      ],
+      confidence: 0.94,
+      tags: ["Kunst", "Dada", "Weimarer Republik", "Fotomontege"]
+    },
+    {
+      id: "culture-strassenfest",
+      category: "culture",
+      titleDe: "Straßenfest und Nachbarschaftsfest",
+      titleZh: "街道节与邻里节",
+      contentDe: "Straßenfeste und Nachbarschaftsfeste bringen Menschen zusammen, die sonst nur nebeneinander wohnen. Straßen werden für Autos gesperrt, Vereine und Geschäfte bauen Stände auf, Kinder spielen, Musiker treten auf. Oft organisiert eine Initiative aus Anwohnern das Fest.",
+      contentZh: "街道节与邻里节让平时只是相邻而居的人聚在一起。街道封车，协会和商店搭摊，孩子玩耍，音乐人演出。常由一个居民倡议组织。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Straßenfest", url: "https://www.deutschland.de/de/topic/leben/strassenfest" },
+        { title: "Wikipedia: Straßenfest", url: "https://de.wikipedia.org/wiki/Stra%C3%9Fenfest" }
+      ],
+      confidence: 0.83,
+      tags: ["Fest", "Nachbarschaft", "Stadt", "Alltag"]
+    },
+    {
+      id: "person-niklas-luhmann",
+      category: "person",
+      titleDe: "Niklas Luhmann",
+      titleZh: "尼克拉斯·卢曼",
+      contentDe: "1927–1998. Soziologe und Begründer der Systemtheorie. Sein Werk beschreibt Gesellschaft als Systeme, die nach eigener Logik operieren, etwa Recht, Wirtschaft, Politik und Wissenschaft. Er gilt als einer der einflussreichsten Sozialtheoretiker des 20. Jahrhunderts.",
+      contentZh: "1927–1998，社会学家、系统论奠基人。其著作把社会描述为按自身逻辑运作的系统，如法律、经济、政治与科学；被视为20世纪最有影响的社会理论家之一。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Wikipedia: Niklas Luhmann", url: "https://de.wikipedia.org/wiki/Niklas_Luhmann" },
+        { title: "Stanford Encyclopedia: Luhmann", url: "https://plato.stanford.edu/entries/luhmann/" }
+      ],
+      confidence: 0.95,
+      tags: ["Soziologie", "Systemtheorie", "20. Jahrhundert", "Gesellschaft"]
+    },
+    {
+      id: "culture-sonntagsbraten",
+      category: "culture",
+      titleDe: "Sonntagsbraten",
+      titleZh: "周日烤肉",
+      contentDe: "Der Sonntagsbraten ist in Deutschland ein traditionelles Familienessen. Braten, Klöße, Rotkohl und Soße stehen oft auf dem Tisch, besonders an Feiertagen. Der Brauch ist weniger häufig geworden, gilt aber weiter als Symbol für gemeinsame Zeit und gutes Essen.",
+      contentZh: "周日烤肉是德国家庭传统餐。烤肉、团子、红甘蓝和酱汁常上桌，节日尤甚。这一习惯已不那么常见，但仍象征共同时间与美食。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Sonntagsbraten", url: "https://www.deutschland.de/de/topic/leben/sonntagsbraten" },
+        { title: "Wikipedia: Braten", url: "https://de.wikipedia.org/wiki/Braten" }
+      ],
+      confidence: 0.84,
+      tags: ["Essen", "Familie", "Sonntag", "Brauchtum"]
+    },
+    {
+      id: "person-max-weber",
+      category: "person",
+      titleDe: "Max Weber",
+      titleZh: "马克斯·韦伯",
+      contentDe: "1864–1920. Soziologe, Nationalökonom und Jurist. Sein Werk „Die protestantische Ethik und der Geist des Kapitalismus“ und seine Theorien über Bürokratie und Herrschaft prägen die Soziologie bis heute.",
+      contentZh: "1864–1920，社会学家、国民经济学家与法学家。《新教伦理与资本主义精神》及官僚制、支配理论至今影响社会学。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Stanford Encyclopedia: Max Weber", url: "https://plato.stanford.edu/entries/weber/" },
+        { title: "Wikipedia: Max Weber", url: "https://de.wikipedia.org/wiki/Max_Weber" }
+      ],
+      confidence: 0.96,
+      tags: ["Soziologie", "19. Jahrhundert", "Kapitalismus", "Herrschaft"]
+    },
+    {
+      id: "culture-abendbrot",
+      category: "culture",
+      titleDe: "Abendbrot",
+      titleZh: "德式晚餐面包",
+      contentDe: "Abendbrot ist in Deutschland eine kalte Mahlzeit am Abend: Brot, Butter, Käse, Wurst, Gurken und Tee. In vielen Familien wird sie zwischen 18 und 19 Uhr gegessen. Der Brauch gilt als typisch deutsch, obwohl heute viele Menschen warm zu Abend essen.",
+      contentZh: "Abendbrot 是德国晚上的冷餐：面包、黄油、奶酪、香肠、黄瓜和茶。许多家庭在18–19点吃。这个习惯被视为典型德国式，尽管如今很多人晚餐吃热食。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Abendbrot", url: "https://www.deutschland.de/de/topic/leben/abendbrot" },
+        { title: "Wikipedia: Abendbrot", url: "https://de.wikipedia.org/wiki/Abendbrot" }
+      ],
+      confidence: 0.84,
+      tags: ["Essen", "Alltag", "Familie", "Brauchtum"]
+    },
+    {
+      id: "person-olaf-scholz",
+      category: "person",
+      titleDe: "Olaf Scholz",
+      titleZh: "奥拉夫·朔尔茨",
+      contentDe: "1958 geboren. SPD-Politiker und seit Dezember 2021 Bundeskanzler. Er war zuvor Bürgermeister von Hamburg und Bundesfinanzminister. Seine Amtszeit ist von der Corona-Pandemie, der Zeitenwende und der Energiekrise geprägt.",
+      contentZh: "1958 年出生，社民党政治家，2021 年 12 月起任联邦总理。曾任汉堡市长与联邦财政部长；任期内经历疫情、时代转折与能源危机。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeskanzler: Olaf Scholz", url: "https://www.bundeskanzler.de/bk-de/kanzleramt/bundeskanzler-seit-1949/olaf-scholz" },
+        { title: "Wikipedia: Olaf Scholz", url: "https://de.wikipedia.org/wiki/Olaf_Scholz" }
+      ],
+      confidence: 0.95,
+      tags: ["Politik", "SPD", "Bundeskanzler", "21. Jahrhundert"]
+    },
+    {
+      id: "culture-mehrweg",
+      category: "culture",
+      titleDe: "Mehrweg und Einweg",
+      titleZh: "可回收与一次性包装",
+      contentDe: "In Deutschland gibt es für viele Getränke ein Pfandsystem. Mehrwegflaschen aus Glas oder Kunststoff werden gereinigt und wieder befüllt; Einwegflaschen und Dosen werden gesammelt und recycelt. Das Pfand soll Anreize schaffen, Verpackungen zurückzugeben.",
+      contentZh: "德国许多饮料有押金系统。玻璃或塑料可回收瓶会清洗再灌装；一次性瓶罐被收集回收。押金旨在鼓励归还包装。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Umweltbundesamt: Pfand", url: "https://www.umweltbundesamt.de/" },
+        { title: "Wikipedia: Pfand", url: "https://de.wikipedia.org/wiki/Pfand" }
+      ],
+      confidence: 0.87,
+      tags: ["Umwelt", "Alltag", "Recycling", "Pfand"]
+    },
+    {
+      id: "person-robert-habeck",
+      category: "person",
+      titleDe: "Robert Habeck",
+      titleZh: "罗伯特·哈贝克",
+      contentDe: "1969 geboren. Politiker von Bündnis 90/Die Grünen, seit 2021 Bundesminister für Wirtschaft und Klimaschutz. In der Energiekrise 2022 leitete er den Ausbau erneuerbarer Energien und den Aufbau von LNG-Terminals.",
+      contentZh: "1969 年出生，绿党政治家，2021 年起任联邦经济与气候保护部长。2022 年能源危机中推动可再生能源扩建与液化天然气接收站建设。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "BMWK: Robert Habeck", url: "https://www.bmwk.de/" },
+        { title: "Wikipedia: Robert Habeck", url: "https://de.wikipedia.org/wiki/Robert_Habeck" }
+      ],
+      confidence: 0.93,
+      tags: ["Politik", "Grüne", "Energie", "21. Jahrhundert"]
+    },
+    {
+      id: "culture-nachbarschaftshilfe",
+      category: "culture",
+      titleDe: "Nachbarschaftshilfe",
+      titleZh: "邻里互助",
+      contentDe: "Nachbarschaftshilfe ist in Deutschland ein wichtiger Teil des Alltags. In der Corona-Pandemie organisierten viele Straßen Einkaufsdienste für ältere Menschen, boten Kinderbetreuung an oder verteilten Essenspakete. Auch außerhalb von Krisen helfen Nachbarn beim Umzug, gießen Pflanzen oder nehmen Pakete an.",
+      contentZh: "邻里互助是德国日常的重要部分。疫情期间，许多街道为老人组织代购、提供托儿或分发食品包。危机之外，邻居也会帮忙搬家、浇花或收包裹。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Nachbarschaft", url: "https://www.deutschland.de/de/topic/leben/nachbarschaftshilfe" },
+        { title: "Wikipedia: Nachbarschaftshilfe", url: "https://de.wikipedia.org/wiki/Nachbarschaftshilfe" }
+      ],
+      confidence: 0.85,
+      tags: ["Alltag", "Gesellschaft", "Corona", "Nachbarschaft"]
+    },
+    {
+      id: "person-christian-drosten",
+      category: "person",
+      titleDe: "Christian Drosten",
+      titleZh: "克里斯蒂安·德罗斯滕",
+      contentDe: "1972 geboren. Virologe und Professor an der Charité in Berlin. Während der Corona-Pandemie wurde er durch Podcasts und Interviews einer breiten Öffentlichkeit bekannt. Seine Einschätzungen prägten die deutsche Debatte über Tests, Masken und Impfungen.",
+      contentZh: "1972 年出生，病毒学家，柏林夏里特医学院教授。疫情期间通过播客和采访被公众熟知；他对检测、口罩与疫苗的判断影响了德国讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Charité: Christian Drosten", url: "https://virologie-ccm.charite.de/" },
+        { title: "Wikipedia: Christian Drosten", url: "https://de.wikipedia.org/wiki/Christian_Drosten" }
+      ],
+      confidence: 0.93,
+      tags: ["Wissenschaft", "Virologie", "Corona", "21. Jahrhundert"]
+    },
+    {
+      id: "culture-wandern",
+      category: "culture",
+      titleDe: "Wandern und Sonntagsausflug",
+      titleZh: "徒步与周日郊游",
+      contentDe: "Wandern ist in Deutschland ein beliebtes Freizeitvergnügen. Am Wochenende fahren viele Familien in die Berge, an Seen oder in den Wald; markierte Wege und Wandervereine prägen die Infrastruktur. Der Sonntagsausflug verbindet Bewegung, Natur und gemeinsames Essen.",
+      contentZh: "徒步是德国受欢迎的休闲活动。周末许多家庭去山里、湖边或森林；标识步道和徒步协会构成基础设施。周日郊游把运动、自然与共同用餐结合起来。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Wandern", url: "https://www.deutschland.de/de/topic/leben/wandern-in-deutschland" },
+        { title: "Wikipedia: Wandern", url: "https://de.wikipedia.org/wiki/Wandern" }
+      ],
+      confidence: 0.87,
+      tags: ["Alltag", "Natur", "Sport", "Familie"]
+    },
+    {
+      id: "person-luisa-neubauer",
+      category: "person",
+      titleDe: "Luisa Neubauer",
+      titleZh: "路易莎·诺伊鲍尔",
+      contentDe: "1996 geboren. Klimaaktivistin und Mitorganisatorin von Fridays for Future in Deutschland. Sie studiert Geographie und fordert eine schnellere Klimapolitik. Ihr Auftreten hat die öffentliche Debatte über Klimaschutz und Generationengerechtigkeit verändert.",
+      contentZh: "1996 年出生，气候活动家，德国“星期五为未来”共同组织者。她学习地理，要求更积极的气候政策；她的行动改变了关于气候保护与代际公平的公共讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Fridays for Future Deutschland", url: "https://fridaysforfuture.de/" },
+        { title: "Wikipedia: Luisa Neubauer", url: "https://de.wikipedia.org/wiki/Luisa_Neubauer" }
+      ],
+      confidence: 0.9,
+      tags: ["Klima", "Protest", "21. Jahrhundert", "Generation"]
+    },
+    {
+      id: "culture-lebkuchen",
+      category: "culture",
+      titleDe: "Lebkuchen und Glühwein",
+      titleZh: "姜饼与热红酒",
+      contentDe: "In der Adventszeit gehören Lebkuchen und Glühwein zu den Weihnachtsmärkten. Lebkuchen wird aus Honig, Gewürzen und Nüssen gebacken; Glühwein wird mit Rotwein, Zimt, Nelken und Orangenschale erhitzt. Beides ist nicht nur Essen, sondern auch ein Stück Winterstimmung.",
+      contentZh: "降临节期间，姜饼和热红酒是圣诞集市的标配。姜饼用蜂蜜、香料和坚果烘烤；热红酒用红葡萄酒加肉桂、丁香和橙皮加热。两者不仅是食物，也是冬日氛围的一部分。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Weihnachtsmarkt", url: "https://www.deutschland.de/de/topic/leben/weihnachtsmarkt" },
+        { title: "Wikipedia: Lebkuchen", url: "https://de.wikipedia.org/wiki/Lebkuchen" }
+      ],
+      confidence: 0.86,
+      tags: ["Essen", "Weihnachten", "Brauchtum", "Winter"]
+    },
+    {
+      id: "person-friedrich-nietzsche",
+      category: "person",
+      titleDe: "Friedrich Nietzsche",
+      titleZh: "弗里德里希·尼采",
+      contentDe: "1844–1900. Philosoph, Philologe und Kulturkritiker. Werke wie „Also sprach Zarathustra“ und „Zur Genealogie der Moral“ stellten Moral, Religion und Wahrheit radikal in Frage. Sein Einfluss auf Literatur und Philosophie ist bis heute groß.",
+      contentZh: "1844–1900，哲学家、语文学家与文化批评家。《查拉图斯特拉如是说》《道德谱系学》等作品彻底质疑道德、宗教与真理，对文学和哲学影响深远。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Stanford Encyclopedia: Nietzsche", url: "https://plato.stanford.edu/entries/nietzsche/" },
+        { title: "Wikipedia: Friedrich Nietzsche", url: "https://de.wikipedia.org/wiki/Friedrich_Nietzsche" }
+      ],
+      confidence: 0.96,
+      tags: ["Philosophie", "19. Jahrhundert", "Moral", "Literatur"]
+    },
+    {
+      id: "culture-weihnachtsgans",
+      category: "culture",
+      titleDe: "Weihnachtsgans und Festessen",
+      titleZh: "圣诞鹅与节日大餐",
+      contentDe: "In vielen deutschen Familien gehört eine Weihnachtsgans zum Festessen. Sie wird oft mit Rotkohl, Klößen oder Kartoffeln serviert. Nicht alle essen Gans: Manche wählen Ente, Karpfen oder vegetarische Gerichte. Das gemeinsame Essen ist wichtiger als das Rezept.",
+      contentZh: "在许多德国家庭，圣诞鹅是节日大餐。常配红甘蓝、团子或土豆。并非所有人都吃鹅：有人选鸭、鲤鱼或素食。共同吃饭比具体食谱更重要。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Weihnachtsgans", url: "https://www.deutschland.de/de/topic/leben/weihnachtsgans" },
+        { title: "Wikipedia: Weihnachtsgans", url: "https://de.wikipedia.org/wiki/Weihnachtsgans" }
+      ],
+      confidence: 0.85,
+      tags: ["Essen", "Weihnachten", "Familie", "Brauchtum"]
+    },
+    {
+      id: "person-helmut-kohl",
+      category: "person",
+      titleDe: "Helmut Kohl",
+      titleZh: "赫尔穆特·科尔",
+      contentDe: "1930–2017. CDU-Politiker und Bundeskanzler von 1982 bis 1998. Er prägte die deutsche Einheit 1990 und die europäische Integration. Seine Amtszeit war die längste eines Bundeskanzlers.",
+      contentZh: "1930–2017，基民盟政治家，1982–1998 年任联邦总理。他主导 1990 年德国统一与欧洲一体化，是任期最长的联邦总理。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeskanzler: Helmut Kohl", url: "https://www.bundeskanzler.de/bk-de/kanzleramt/bundeskanzler-seit-1949/helmut-kohl" },
+        { title: "Wikipedia: Helmut Kohl", url: "https://de.wikipedia.org/wiki/Helmut_Kohl" }
+      ],
+      confidence: 0.96,
+      tags: ["Politik", "CDU", "Deutsche Einheit", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-brezel",
+      category: "culture",
+      titleDe: "Brezel und Laugengebäck",
+      titleZh: "碱水结与碱水面包",
+      contentDe: "Die Brezel ist ein bekanntes Laugengebäck, besonders in Süddeutschland. Sie wird aus Hefeteig geformt, kurz in Lauge getaucht und gebacken; dadurch entsteht die braune Kruste. In Bayern gehört sie zu Brotzeit und Oktoberfest, in Schwaben auch zu vielen Festen.",
+      contentZh: "碱水结是著名的碱水面包，尤其在南德。它由酵母面团塑形，短时间浸碱水后烘烤，形成棕色脆皮。在巴伐利亚常见于面包餐和啤酒节，在施瓦本也出现在许多节庆。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Brezel", url: "https://www.deutschland.de/de/topic/leben/brezel" },
+        { title: "Wikipedia: Brezel", url: "https://de.wikipedia.org/wiki/Brezel" }
+      ],
+      confidence: 0.86,
+      tags: ["Essen", "Bayern", "Bäckerei", "Brauchtum"]
+    },
+    {
+      id: "person-werner-heisenberg",
+      category: "person",
+      titleDe: "Werner Heisenberg",
+      titleZh: "维尔纳·海森堡",
+      contentDe: "1901–1976. Physiker und Nobelpreisträger für Physik 1932. Seine Unschärferelation veränderte die Quantenmechanik. Im Zweiten Weltkrieg war er an der deutschen Kernforschung beteiligt; sein Verhalten bleibt historisch umstritten.",
+      contentZh: "1901–1976，物理学家，1932年获诺贝尔物理学奖。不确定性原理改变了量子力学；二战期间参与德国核研究，其行为在历史上仍有争议。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Nobel Prize: Werner Heisenberg", url: "https://www.nobelprize.org/prizes/physics/1932/heisenberg/facts/" },
+        { title: "Wikipedia: Werner Heisenberg", url: "https://de.wikipedia.org/wiki/Werner_Heisenberg" }
+      ],
+      confidence: 0.95,
+      tags: ["Physik", "Quantenmechanik", "Nobelpreis", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-jahrmarkt",
+      category: "culture",
+      titleDe: "Jahrmarkt und Kirmes",
+      titleZh: "年市与教区集市",
+      contentDe: "Jahrmarkt und Kirmes sind temporäre Volksfeste mit Fahrgeschäften, Imbissständen, Losbuden und Musik. Sie finden meist zwischen Frühling und Herbst statt; Kirmes ist oft an eine Kirchweih gebunden. In kleineren Orten sind Vereine und Schützenfeste wichtige Treffpunkte.",
+      contentZh: "年市与教区集市是临时性民俗节庆，有游乐设施、小吃摊、抽奖摊和音乐，多在春至秋季举行；Kirmes 常与教堂落成纪念有关。在小地方，协会与射击节是重要聚会。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Jahrmarkt", url: "https://www.deutschland.de/de/topic/leben/jahrmarkt-und-kirmes" },
+        { title: "Wikipedia: Jahrmarkt", url: "https://de.wikipedia.org/wiki/Jahrmarkt" }
+      ],
+      confidence: 0.86,
+      tags: ["Fest", "Brauchtum", "Dorf", "Stadt"]
+    },
+    {
+      id: "person-herta-mueller",
+      category: "person",
+      titleDe: "Herta Müller",
+      titleZh: "赫塔·米勒",
+      contentDe: "1953 geboren. Schriftstellerin, aufgewachsen im rumänischen Banat. Sie schrieb über Diktatur, Angst und Exil und emigrierte 1987 nach Deutschland. 2009 erhielt sie den Nobelpreis für Literatur.",
+      contentZh: "1953 年出生，作家，在罗马尼亚巴纳特地区长大。她书写独裁、恐惧与流亡，1987 年移居德国；2009 年获诺贝尔文学奖。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Nobel Prize: Herta Müller", url: "https://www.nobelprize.org/prizes/literature/2009/mueller/facts/" },
+        { title: "Wikipedia: Herta Müller", url: "https://de.wikipedia.org/wiki/Herta_M%C3%BCller" }
+      ],
+      confidence: 0.96,
+      tags: ["Literatur", "Nobelpreis", "Exil", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-spargelzeit",
+      category: "culture",
+      titleDe: "Spargelzeit",
+      titleZh: "芦笋季",
+      contentDe: "Von April bis Juni ist in Deutschland Spargelzeit. Weißer Spargel gilt als Saisonprodukt und wird mit Schinken, Kartoffeln oder Sauce Hollandaise gegessen. Viele Restaurants bieten eigene Spargelkarten, und an Straßenrändern verkaufen Höfe frischen Spargel.",
+      contentZh: "四月到六月是德国芦笋季。白芦笋被视为时令产品，常配火腿、土豆或荷兰酱。许多餐馆有芦笋菜单，路边农场也直接售卖新鲜芦笋。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Spargelzeit", url: "https://www.deutschland.de/de/topic/leben/spargelzeit" },
+        { title: "Wikipedia: Spargel", url: "https://de.wikipedia.org/wiki/Spargel" }
+      ],
+      confidence: 0.86,
+      tags: ["Essen", "Saison", "Landwirtschaft", "Alltag"]
+    },
+    {
+      id: "person-juergen-habermas",
+      category: "person",
+      titleDe: "Jürgen Habermas",
+      titleZh: "尤尔根·哈贝马斯",
+      contentDe: "1929 geboren. Philosoph und Sozialtheoretiker der Frankfurter Schule. Sein Werk über kommunikatives Handeln und die öffentliche Sphäre prägt Debatten über Demokratie, Medien und rationalen Konsens.",
+      contentZh: "1929 年出生，法兰克福学派哲学家与社会理论家。关于交往行为与公共领域的著作深刻影响民主、媒体与理性共识的讨论。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Suhrkamp: Jürgen Habermas", url: "https://www.suhrkamp.de/person/juergen-habermas-p-1155" },
+        { title: "Wikipedia: Jürgen Habermas", url: "https://de.wikipedia.org/wiki/J%C3%BCrgen_Habermas" }
+      ],
+      confidence: 0.95,
+      tags: ["Philosophie", "Frankfurter Schule", "Demokratie", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-erntedankfest",
+      category: "culture",
+      titleDe: "Erntedankfest",
+      titleZh: "丰收感恩节",
+      contentDe: "Das Erntedankfest wird in Deutschland meist am ersten Sonntag im Oktober gefeiert. Kirchen schmücken Altäre mit Getreide, Obst und Gemüse; auf dem Land gibt es Prozessionen und Märkte. Der Brauch erinnert daran, dass Nahrung nicht selbstverständlich ist.",
+      contentZh: "德国丰收感恩节多在十月第一个周日庆祝。教堂用谷物、水果和蔬菜装饰祭坛；乡村有游行和集市。这一习俗提醒人们粮食并非理所当然。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Erntedank", url: "https://www.deutschland.de/de/topic/leben/erntedankfest" },
+        { title: "Wikipedia: Erntedankfest", url: "https://de.wikipedia.org/wiki/Erntedankfest" }
+      ],
+      confidence: 0.88,
+      tags: ["Fest", "Landwirtschaft", "Religion", "Brauchtum"]
+    },
+    {
+      id: "person-nelly-sachs",
+      category: "person",
+      titleDe: "Nelly Sachs",
+      titleZh: "内莉·萨克斯",
+      contentDe: "1891–1970. Lyrikerin und Dramatikerin. Sie floh 1940 aus Nazi-Deutschland nach Schweden und schrieb über Verfolgung, Trauer und jüdische Identität. 1966 erhielt sie den Nobelpreis für Literatur.",
+      contentZh: "1891–1970，诗人与剧作家。1940 年从纳粹德国逃往瑞典，书写迫害、哀悼与犹太身份；1966 年获诺贝尔文学奖。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Nobel Prize: Nelly Sachs", url: "https://www.nobelprize.org/prizes/literature/1966/sachs/facts/" },
+        { title: "Wikipedia: Nelly Sachs", url: "https://de.wikipedia.org/wiki/Nelly_Sachs" }
+      ],
+      confidence: 0.96,
+      tags: ["Literatur", "Exil", "Nobelpreis", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-silvester",
+      category: "culture",
+      titleDe: "Silvester in Deutschland",
+      titleZh: "德国的跨年夜",
+      contentDe: "Silvester am 31. Dezember ist in Deutschland ein festlicher, aber auch lauter Abend. Viele Menschen treffen sich mit Freunden, essen Raclette oder Fondue und stoßen um Mitternacht mit Sekt an. Feuerwerk und Böller sind verbreitet, werden aber wegen Lärm, Unfällen und Umweltbelastung zunehmend eingeschränkt.",
+      contentZh: "12 月 31 日跨年夜在德国既热闹又喧闹。许多人与朋友相聚，吃烤奶酪或火锅，午夜举杯香槟。烟花和爆竹很常见，但因噪音、事故与环境污染日益受到限制。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Silvester", url: "https://www.deutschland.de/de/topic/leben/silvester-in-deutschland" },
+        { title: "Wikipedia: Silvester", url: "https://de.wikipedia.org/wiki/Silvester" }
+      ],
+      confidence: 0.86,
+      tags: ["Fest", "Brauchtum", "Feuerwerk", "Jahreswechsel"]
+    },
+    {
+      id: "person-johannes-gutenberg",
+      category: "person",
+      titleDe: "Johannes Gutenberg",
+      titleZh: "约翰内斯·古腾堡",
+      contentDe: "um 1400–1468. Goldschmied und Erfinder des Buchdrucks mit beweglichen Metalllettern in Europa. Seine Bibel von etwa 1455 machte Texte schneller und billiger verfügbar und gilt als Media Revolution.",
+      contentZh: "约1400–1468，金匠，欧洲活字印刷术的发明者。约1455年的《古腾堡圣经》使文本更快、更便宜地传播，被视为媒介革命。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Gutenberg-Museum Mainz", url: "https://www.gutenberg-museum.de/" },
+        { title: "Wikipedia: Johannes Gutenberg", url: "https://de.wikipedia.org/wiki/Johannes_Gutenberg" }
+      ],
+      confidence: 0.95,
+      tags: ["Buchdruck", "Medien", "15. Jahrhundert", "Mainz"]
+    },
+    {
+      id: "culture-kaffee-und-kuchen",
+      category: "culture",
+      titleDe: "Kaffee und Kuchen",
+      titleZh: "咖啡与蛋糕",
+      contentDe: "„Kaffee und Kuchen“ ist in Deutschland ein festes Ritual am Nachmittag, besonders am Sonntag. Man trifft sich mit Familie oder Freunden, trinkt Kaffee oder Tee und isst ein Stück Torte oder Kuchen. Der Brauch ist nicht nur Essen, sondern auch ein sozialer Anlass.",
+      contentZh: "“Kaffee und Kuchen”是德国下午的固定习惯，尤其在周日。人们与家人朋友相聚，喝咖啡或茶，吃一块蛋糕。它不仅是饮食，也是社交场合。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Kaffee und Kuchen", url: "https://www.deutschland.de/de/topic/leben/kaffee-und-kuchen" },
+        { title: "Wikipedia: Kaffee und Kuchen", url: "https://de.wikipedia.org/wiki/Kaffee_und_Kuchen" }
+      ],
+      confidence: 0.85,
+      tags: ["Alltag", "Essen", "Familie", "Sonntag"]
+    },
+    {
+      id: "person-angela-merkel",
+      category: "person",
+      titleDe: "Angela Merkel",
+      titleZh: "安格拉·默克尔",
+      contentDe: "1954 in Hamburg geboren, wuchs sie in der DDR auf und promovierte in Physik. Von 2005 bis 2021 war sie Bundeskanzlerin und prägte die deutsche Politik in der Finanzkrise, der Euro-Krise und der Flüchtlingspolitik 2015.",
+      contentZh: "1954 年生于汉堡，在东德长大，物理学博士。2005–2021 年任联邦总理，经历金融危机、欧元危机与 2015 年难民政策。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeskanzlerin: Angela Merkel", url: "https://www.bundeskanzler.de/bk-de/kanzleramt/bundeskanzler-seit-1949/angela-merkel" },
+        { title: "Wikipedia: Angela Merkel", url: "https://de.wikipedia.org/wiki/Angela_Merkel" }
+      ],
+      confidence: 0.97,
+      tags: ["Politik", "CDU", "Bundeskanzlerin", "21. Jahrhundert"]
+    },
+    {
+      id: "culture-schrebergarten",
+      category: "culture",
+      titleDe: "Schrebergärten und Kleingärten",
+      titleZh: "施雷贝尔花园与小块菜园",
+      contentDe: "Schrebergärten sind kleine Pachtgärten am Stadtrand. Sie entstanden im 19. Jahrhundert als Garten für Arbeiterfamilien und bieten heute Erholung, Gemüseanbau und gemeinschaftliches Leben. Viele Anlagen haben Vereine, Wege, Lauben und strenge Regeln zu Hecken, Ruhezeiten und Bepflanzung.",
+      contentZh: "施雷贝尔花园是城市边缘的小块租赁菜园，19 世纪作为工人家庭的花园出现，如今提供休憩、种菜与社区生活。许多园区有协会、步道、小屋，以及对树篱、安静时间和种植的严格规定。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundesverband Deutscher Gartenfreunde", url: "https://www.kleingarten.de/" },
+        { title: "Wikipedia: Schrebergarten", url: "https://de.wikipedia.org/wiki/Schrebergarten" }
+      ],
+      confidence: 0.88,
+      tags: ["Alltag", "Stadt", "Garten", "Verein"]
+    },
+    {
+      id: "person-marlene-dietrich",
+      category: "person",
+      titleDe: "Marlene Dietrich",
+      titleZh: "玛琳·黛德丽",
+      contentDe: "1901–1992. Schauspielerin und Sängerin. Mit „Der blaue Engel“ wurde sie weltberühmt; später arbeitete sie in Hollywood. Während des Zweiten Weltkriegs engagierte sie sich gegen das NS-Regime und trat für alliierte Truppen auf.",
+      contentZh: "1901–1992，演员与歌手。凭借《蓝天使》成名，后赴好莱坞发展；二战期间公开反对纳粹政权，并为盟军演出。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutsche Welle: Marlene Dietrich", url: "https://www.dw.com/de/marlene-dietrich/t-18992437" },
+        { title: "Wikipedia: Marlene Dietrich", url: "https://de.wikipedia.org/wiki/Marlene_Dietrich" }
+      ],
+      confidence: 0.95,
+      tags: ["Film", "Musik", "Exil", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-fahrradkultur",
+      category: "culture",
+      titleDe: "Fahrradkultur und Fahrradwege",
+      titleZh: "自行车文化与自行车道",
+      contentDe: "Fahrradfahren ist in Deutschland Alltag, Sport und Urlaub zugleich. In vielen Städten gibt es ausgewiesene Radwege, Fahrradstraßen und Abstellanlagen; an Bahnhöfen und Universitäten sind Fahrräder ein vertrautes Bild. Gleichzeitig diskutieren Städte über Sicherheit, Platzverteilung und die Verbindung von Rad, Bus und Bahn.",
+      contentZh: "骑自行车在德国既是日常，也是运动与度假方式。许多城市设有自行车道、自行车街和停放设施；火车站与大学附近常见自行车。与此同时，城市也在讨论安全、路权分配以及自行车与公交、铁路的衔接。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Fahrradland", url: "https://www.deutschland.de/de/topic/leben/fahrradfahren-in-deutschland" },
+        { title: "Wikipedia: Fahrradverkehr", url: "https://de.wikipedia.org/wiki/Fahrradverkehr" }
+      ],
+      confidence: 0.86,
+      tags: ["Alltag", "Mobilität", "Umwelt", "Stadt"]
+    },
+    {
+      id: "person-kaethe-kollwitz",
+      category: "person",
+      titleDe: "Käthe Kollwitz",
+      titleZh: "凯绥·珂勒惠支",
+      contentDe: "1867–1945. Grafikerin, Malerin und Bildhauerin. Ihre Werke zeigen Armut, Krieg, Trauer und den Alltag der Arbeiterklasse. Sie lebte lange in Berlin und schuf mit „Mutter mit totem Sohn“ ein zentrales Werk der Kriegstrauer.",
+      contentZh: "1867–1945，版画家、画家与雕塑家。作品表现贫困、战争、哀悼与工人日常；长期住在柏林，《母亲与死去的儿子》是战争哀悼的重要作品。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Käthe Kollwitz Museum Köln", url: "https://www.kollwitz.de/" },
+        { title: "Wikipedia: Käthe Kollwitz", url: "https://de.wikipedia.org/wiki/K%C3%A4the_Kollwitz" }
+      ],
+      confidence: 0.95,
+      tags: ["Kunst", "Grafik", "20. Jahrhundert", "Krieg"]
+    },
+    {
+      id: "culture-trinkgeld",
+      category: "culture",
+      titleDe: "Trinkgeld in Deutschland",
+      titleZh: "德国的小费",
+      contentDe: "In Restaurants und Cafés ist ein Trinkgeld von etwa fünf bis zehn Prozent üblich, aber nicht gesetzlich vorgeschrieben. Man gibt es oft direkt beim Bezahlen und sagt „stimmt so“. In Taxis und Friseursalons sind kleinere Beträge üblich; in Supermärkten erwartet niemand Trinkgeld.",
+      contentZh: "餐馆和咖啡馆通常给 5%–10% 小费，但并非法律规定。常在结账时直接给，并说“stimmt so”。出租车和理发店给较小金额；超市则不需要小费。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Trinkgeld", url: "https://www.deutschland.de/de/topic/leben/trinkgeld-in-deutschland" },
+        { title: "Wikipedia: Trinkgeld", url: "https://de.wikipedia.org/wiki/Trinkgeld" }
+      ],
+      confidence: 0.88,
+      tags: ["Alltag", "Gastronomie", "Geld", "Gesellschaft"]
+    },
+    {
+      id: "person-thomas-mann",
+      category: "person",
+      titleDe: "Thomas Mann",
+      titleZh: "托马斯·曼",
+      contentDe: "1875–1955. Schriftsteller und Nobelpreisträger für Literatur 1929. Zu seinen Hauptwerken gehören „Buddenbrooks“, „Der Zauberberg“ und „Doktor Faustus“. 1933 emigrierte er aus Deutschland und lebte später in den USA und in der Schweiz.",
+      contentZh: "1875–1955，作家，1929 年获诺贝尔文学奖。代表作有《布登勃洛克一家》《魔山》《浮士德博士》；1933 年离开德国，后居美国与瑞士。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Nobel Prize: Thomas Mann", url: "https://www.nobelprize.org/prizes/literature/1929/mann/facts/" },
+        { title: "Wikipedia: Thomas Mann", url: "https://de.wikipedia.org/wiki/Thomas_Mann" }
+      ],
+      confidence: 0.97,
+      tags: ["Literatur", "Nobelpreis", "Exil", "20. Jahrhundert"]
+    },
+    {
+      id: "culture-puenktlichkeit",
+      category: "culture",
+      titleDe: "Pünktlichkeit und Termine",
+      titleZh: "守时与预约",
+      contentDe: "Pünktlichkeit gilt in Deutschland als Zeichen von Respekt. Termine werden oft schriftlich vereinbart, und wer zu spät kommt, sagt Bescheid. Gleichzeitig ist die Regel nicht absolut: Bei privaten Einladungen gibt es Spielraum, und das „akademische Viertel“ ist an Universitäten bekannt.",
+      contentZh: "守时在德国被视为尊重的表现。预约常以书面确认，迟到要提前告知。但规则并非绝对：私人邀约有一定弹性，大学里也有“学术一刻钟”的说法。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Pünktlichkeit", url: "https://www.deutschland.de/de/topic/leben/puenktlichkeit-in-deutschland" },
+        { title: "Wikipedia: Pünktlichkeit", url: "https://de.wikipedia.org/wiki/P%C3%BCnktlichkeit" }
+      ],
+      confidence: 0.85,
+      tags: ["Alltag", "Arbeit", "Kommunikation", "Gesellschaft"]
+    },
+    {
+      id: "person-albert-einstein",
+      category: "person",
+      titleDe: "Albert Einstein",
+      titleZh: "阿尔伯特·爱因斯坦",
+      contentDe: "1879–1955. Physiker und Nobelpreisträger für Physik 1921. Seine Relativitätstheorie veränderte das Verständnis von Raum, Zeit und Gravitation. 1933 emigrierte er aus Deutschland und lehrte später in Princeton.",
+      contentZh: "1879–1955，物理学家，1921 年获诺贝尔物理学奖。相对论改变了人们对空间、时间与引力的理解；1933 年离开德国，后任教于普林斯顿。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Nobel Prize: Albert Einstein", url: "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/" },
+        { title: "Wikipedia: Albert Einstein", url: "https://de.wikipedia.org/wiki/Albert_Einstein" }
+      ],
+      confidence: 0.98,
+      tags: ["Physik", "Wissenschaft", "20. Jahrhundert", "Nobelpreis"]
+    },
+    {
+      id: "culture-ostern",
+      category: "culture",
+      titleDe: "Ostern und Osterbräuche",
+      titleZh: "复活节与复活节习俗",
+      contentDe: "Ostern ist das wichtigste Fest der christlichen Kirchen und markiert die Auferstehung Jesu. Im säkularen Alltag sind Osterhase, Ostereier und das gemeinsame Frühstück verbreitet; Karfreitag und Ostermontag sind gesetzliche Feiertage.",
+      contentZh: "复活节是基督教会最重要的节日，纪念耶稣复活。在世俗生活中，复活节兔子、彩蛋和家庭早餐很常见；耶稣受难日与复活节星期一为法定假日。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Ostern", url: "https://www.deutschland.de/de/topic/leben/ostern-in-deutschland" },
+        { title: "Wikipedia: Ostern", url: "https://de.wikipedia.org/wiki/Ostern" }
+      ],
+      confidence: 0.9,
+      tags: ["Fest", "Religion", "Brauchtum", "Familie"]
+    },
+    {
+      id: "person-clara-schumann",
+      category: "person",
+      titleDe: "Clara Schumann",
+      titleZh: "克拉拉·舒曼",
+      contentDe: "1819–1896. Pianistin, Komponistin und Klavierlehrerin. Sie heiratete Robert Schumann, konzertierte europaweit und prägte das Klavierspiel des 19. Jahrhunderts; ihre Freundschaft mit Johannes Brahms ist gut dokumentiert.",
+      contentZh: "1819–1896，钢琴家、作曲家与钢琴教师。她与罗伯特·舒曼结婚，在欧洲巡演，深刻影响19世纪钢琴演奏；与勃拉姆斯的友谊留下大量记载。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Clara Schumann", url: "https://www.deutschland.de/de/topic/kultur/clara-schumann" },
+        { title: "Wikipedia: Clara Schumann", url: "https://de.wikipedia.org/wiki/Clara_Schumann" }
+      ],
+      confidence: 0.95,
+      tags: ["Musik", "Klavier", "19. Jahrhundert", "Komponistin"]
+    },
+    {
+      id: "culture-feierabend",
+      category: "culture",
+      titleDe: "Feierabend und Sonntagsruhe",
+      titleZh: "下班时间与周日安静",
+      contentDe: "Der „Feierabend“ markiert den Übergang von der Arbeit zur Freizeit. In Deutschland gelten zudem Ladenschlusszeiten und die Sonntagsruhe: Sonntage sind grundsätzlich arbeitsfrei, und laute Arbeiten im Freien sind eingeschränkt.",
+      contentZh: "“Feierabend”标志从工作转入休闲。德国还有商店关门时间与周日安静规定：周日原则上不工作，户外噪音作业也受限制。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Deutschland.de: Sonntagsruhe", url: "https://www.deutschland.de/de/topic/leben/arbeitszeiten-und-sonntagsruhe" },
+        { title: "Wikipedia: Feierabend", url: "https://de.wikipedia.org/wiki/Feierabend" }
+      ],
+      confidence: 0.88,
+      tags: ["Alltag", "Arbeit", "Sonntag", "Gesellschaft"]
+    },
+    {
+      id: "person-sophie-scholl",
+      category: "person",
+      titleDe: "Sophie Scholl",
+      titleZh: "索菲·绍尔",
+      contentDe: "1921–1943. Studentin und Mitglied der Widerstandsgruppe „Weiße Rose“. Sie verteilte 1943 Flugblätter gegen das NS-Regime und wurde mit ihrem Bruder Hans Scholl hingerichtet. Ihr Zivilcourage gilt heute als wichtiges Erinnerungszeichen.",
+      contentZh: "1921–1943，学生、“白玫瑰”抵抗组织成员。1943 年散发反纳粹传单，与哥哥汉斯·绍尔一同被处决；她的公民勇气成为重要记忆符号。",
+      bookSource: "Wortkarte 原创摘要",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung: Weiße Rose", url: "https://www.bpb.de/themen/deutsche-geschichte/weisse-rose/" },
+        { title: "Wikipedia: Sophie Scholl", url: "https://de.wikipedia.org/wiki/Sophie_Scholl" }
+      ],
+      confidence: 0.95,
+      tags: ["Widerstand", "Weiße Rose", "Nationalsozialismus", "Zivilcourage"]
+    },
+    {
       id: "culture-brot",
       category: "culture",
       titleDe: "Deutsche Brotkultur",
       titleZh: "德国面包文化",
       contentDe: "Deutschland ist für seine große Brotvielfalt bekannt. Traditionelle Bäckereien und regionale Rezepte prägen den Alltag.",
       contentZh: "德国以面包种类丰富著称，传统面包房与地方配方构成了日常生活的一部分。",
+      bookSource: "《德语学习》30周年精选 文化卷 OCR",
       sources: [
         { title: "Deutschland.de: Brotkultur", url: "https://www.deutschland.de/de/topic/leben/essen-trinken" },
         { title: "DW: German bread", url: "https://www.dw.com/de/themen/brot/s-12345" }
@@ -119,6 +2016,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "啤酒纯净法",
       contentDe: "Das bayerische Reinheitsgebot von 1516 schreibt für Bier im Kern Wasser, Malz, Hopfen und Hefe vor.",
       contentZh: "1516 年巴伐利亚《啤酒纯净法》规定啤酒的核心原料为水、麦芽、啤酒花和酵母。",
+      bookSource: "《德语学习》30周年精选 文化卷 OCR",
       sources: [
         { title: "Britannica: Reinheitsgebot", url: "https://www.britannica.com/topic/Reinheitsgebot" },
         { title: "Deutscher Brauer-Bund", url: "https://www.brauer-bund.de/" }
@@ -133,6 +2031,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "入学糖果袋",
       contentDe: "Zur Einschulung bekommen viele Kinder eine Schultüte mit Süßigkeiten und kleinen Geschenken.",
       contentZh: "许多德国孩子入学第一天会收到装有糖果和小礼物的入学糖果袋。",
+      bookSource: "《德语学习》30周年精选 文化卷 OCR",
       sources: [
         { title: "DW: Schultüte", url: "https://www.dw.com/de/themen/schult%C3%BCte/s-12345" },
         { title: "Deutschland.de: Einschulung", url: "https://www.deutschland.de/de/topic/leben/bildung" }
@@ -147,6 +2046,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "饮料瓶押金",
       contentDe: "Für viele Getränkeflaschen wird ein Pfand erhoben. Wer die Flasche zurückgibt, bekommt das Geld zurück.",
       contentZh: "许多饮料瓶需要支付押金，退回空瓶即可取回押金。",
+      bookSource: "《德语学习》30周年精选 文化卷 OCR",
       sources: [
         { title: "Umweltbundesamt: Pfand", url: "https://www.umweltbundesamt.de/" },
         { title: "Deutschland.de: Pfand", url: "https://www.deutschland.de/de/topic/leben" }
@@ -161,6 +2061,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "学术一刻钟",
       contentDe: "Vorlesungen beginnen an vielen Universitäten „c.t.“, also eine Viertelstunde nach der angegebenen Zeit.",
       contentZh: "许多德国大学的课程按“c.t.”开始，即比公布时间晚一刻钟。",
+      bookSource: "《德语学习》30周年精选 文化卷 OCR",
       sources: [
         { title: "DW: Akademisches Viertel", url: "https://www.dw.com/de/themen/studium/s-12345" },
         { title: "HRK: Studium", url: "https://www.hrk.de/" }
@@ -175,6 +2076,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "天体文化",
       contentDe: "Freikörperkultur hat in Deutschland eine lange Tradition, besonders an Ostsee- und Nordseestränden.",
       contentZh: "天体文化在德国有较长传统，尤其在波罗的海和北海海滩。",
+      bookSource: "《德语学习》30周年精选 文化卷 OCR",
       sources: [
         { title: "Britannica: Naturism", url: "https://www.britannica.com/topic/naturism" },
         { title: "DW: FKK", url: "https://www.dw.com/de/themen/fkk/s-12345" }
@@ -189,6 +2091,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "巴登-符腾堡",
       contentDe: "Landeshauptstadt: Stuttgart. Fläche: ca. 35.751 km². Einwohner: ca. 11,3 Millionen.",
       contentZh: "首府：斯图加特；面积约 35,751 平方公里；人口约 1130 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -203,6 +2106,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "巴伐利亚",
       contentDe: "Landeshauptstadt: München. Fläche: ca. 70.550 km². Einwohner: ca. 13,2 Millionen.",
       contentZh: "首府：慕尼黑；面积约 70,550 平方公里；人口约 1320 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -217,6 +2121,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "柏林",
       contentDe: "Stadtstaat und Hauptstadt. Fläche: ca. 891 km². Einwohner: ca. 3,9 Millionen.",
       contentZh: "城市州兼首都；面积约 891 平方公里；人口约 390 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Berlin", url: "https://de.wikipedia.org/wiki/Berlin" },
         { title: "Statista: Berlin", url: "https://de.statista.com/" }
@@ -231,6 +2136,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "勃兰登堡",
       contentDe: "Landeshauptstadt: Potsdam. Fläche: ca. 29.654 km². Einwohner: ca. 2,6 Millionen.",
       contentZh: "首府：波茨坦；面积约 29,654 平方公里；人口约 260 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -245,6 +2151,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "不来梅",
       contentDe: "Stadtstaat mit den Städten Bremen und Bremerhaven. Fläche: ca. 419 km². Einwohner: ca. 0,7 Millionen.",
       contentZh: "由不来梅与不来梅港组成的城市州；面积约 419 平方公里；人口约 70 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bremen", url: "https://de.wikipedia.org/wiki/Bremen" },
         { title: "Statista: Bremen", url: "https://de.statista.com/" }
@@ -259,6 +2166,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "汉堡",
       contentDe: "Stadtstaat und wichtiger Hafen. Fläche: ca. 755 km². Einwohner: ca. 1,9 Millionen.",
       contentZh: "城市州和重要港口；面积约 755 平方公里；人口约 190 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Hamburg", url: "https://de.wikipedia.org/wiki/Hamburg" },
         { title: "Statista: Hamburg", url: "https://de.statista.com/" }
@@ -273,6 +2181,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "黑森",
       contentDe: "Landeshauptstadt: Wiesbaden. Fläche: ca. 21.115 km². Einwohner: ca. 6,4 Millionen.",
       contentZh: "首府：威斯巴登；面积约 21,115 平方公里；人口约 640 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -287,6 +2196,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "梅克伦堡-前波美拉尼亚",
       contentDe: "Landeshauptstadt: Schwerin. Fläche: ca. 23.214 km². Einwohner: ca. 1,6 Millionen.",
       contentZh: "首府：什未林；面积约 23,214 平方公里；人口约 160 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -301,6 +2211,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "下萨克森",
       contentDe: "Landeshauptstadt: Hannover. Fläche: ca. 47.614 km². Einwohner: ca. 8,2 Millionen.",
       contentZh: "首府：汉诺威；面积约 47,614 平方公里；人口约 820 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -315,6 +2226,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "北莱茵-威斯特法伦",
       contentDe: "Landeshauptstadt: Düsseldorf. Fläche: ca. 34.112 km². Einwohner: ca. 18,2 Millionen.",
       contentZh: "首府：杜塞尔多夫；面积约 34,112 平方公里；人口约 1820 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -329,6 +2241,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "莱茵兰-普法尔茨",
       contentDe: "Landeshauptstadt: Mainz. Fläche: ca. 19.853 km². Einwohner: ca. 4,2 Millionen.",
       contentZh: "首府：美因茨；面积约 19,853 平方公里；人口约 420 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -343,6 +2256,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "萨尔兰",
       contentDe: "Landeshauptstadt: Saarbrücken. Fläche: ca. 2.570 km². Einwohner: ca. 1,0 Millionen.",
       contentZh: "首府：萨尔布吕肯；面积约 2,570 平方公里；人口约 100 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -357,6 +2271,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "萨克森",
       contentDe: "Landeshauptstadt: Dresden. Fläche: ca. 18.416 km². Einwohner: ca. 4,1 Millionen.",
       contentZh: "首府：德累斯顿；面积约 18,416 平方公里；人口约 410 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -371,6 +2286,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "萨克森-安哈尔特",
       contentDe: "Landeshauptstadt: Magdeburg. Fläche: ca. 20.452 km². Einwohner: ca. 2,2 Millionen.",
       contentZh: "首府：马格德堡；面积约 20,452 平方公里；人口约 220 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -385,6 +2301,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "石勒苏益格-荷尔斯泰因",
       contentDe: "Landeshauptstadt: Kiel. Fläche: ca. 15.804 km². Einwohner: ca. 3,0 Millionen.",
       contentZh: "首府：基尔；面积约 15,804 平方公里；人口约 300 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -399,6 +2316,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "图林根",
       contentDe: "Landeshauptstadt: Erfurt. Fläche: ca. 16.172 km². Einwohner: ca. 2,1 Millionen.",
       contentZh: "首府：埃尔福特；面积约 16,172 平方公里；人口约 210 万。",
+      bookSource: "《德语国家国情1000题》OCR",
       sources: [
         { title: "Wikipedia: Bundesländer", url: "https://de.wikipedia.org/wiki/Land_(Deutschland)" },
         { title: "Statista: Bundesländer", url: "https://de.statista.com/" }
@@ -413,6 +2331,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "歌德",
       contentDe: "1749–1832. Dichter, Dramatiker und Naturforscher; bekannt für „Faust“ und „Die Leiden des jungen Werthers“.",
       contentZh: "1749–1832，诗人、剧作家与自然研究者；代表作《浮士德》《少年维特之烦恼》。",
+      bookSource: "《德语文学史》OCR",
       sources: [
         { title: "Britannica: Goethe", url: "https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe" },
         { title: "Deutsches Literaturarchiv", url: "https://www.dla-marbach.de/" }
@@ -427,6 +2346,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "贝多芬",
       contentDe: "1770–1827. Komponist zwischen Klassik und Romantik; zentrale Werke sind die neun Sinfonien.",
       contentZh: "1770–1827，跨越古典与浪漫时期的作曲家；核心作品包括九部交响曲。",
+      bookSource: "《德语文学史》OCR",
       sources: [
         { title: "Britannica: Beethoven", url: "https://www.britannica.com/biography/Ludwig-van-Beethoven" },
         { title: "Beethoven-Haus Bonn", url: "https://www.beethoven.de/" }
@@ -441,6 +2361,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "康德",
       contentDe: "1724–1804. Philosoph der Aufklärung; „Kritik der reinen Vernunft“ und der kategorische Imperativ prägen die Ethik.",
       contentZh: "1724–1804，启蒙哲学家；《纯粹理性批判》与绝对命令深刻影响伦理学。",
+      bookSource: "《德语文学史》OCR",
       sources: [
         { title: "Britannica: Kant", url: "https://www.britannica.com/biography/Immanuel-Kant" },
         { title: "Stanford Encyclopedia: Kant", url: "https://plato.stanford.edu/entries/kant/" }
@@ -455,6 +2376,7 @@ window.WORTKARTE_CULTURE = {
       titleZh: "汉娜·阿伦特",
       contentDe: "1906–1975. Politische Denkerin; bekannt für „Elemente und Ursprünge totaler Herrschaft“ und den Begriff der Banalität des Bösen.",
       contentZh: "1906–1975，政治思想家；代表作《极权主义的起源》，并提出“平庸之恶”概念。",
+      bookSource: "《德语文学史》OCR",
       sources: [
         { title: "Britannica: Hannah Arendt", url: "https://www.britannica.com/biography/Hannah-Arendt" },
         { title: "Hannah-Arendt-Institut", url: "https://www.hait.tu-dresden.de/" }
@@ -3333,6 +5255,349 @@ window.WORTKARTE_CULTURE = {
       ],
       confidence: 0.9,
       tags: ["Büchner", "Drama"]
+    },
+    {
+      id: "culture-bevoelkerungsentwicklung",
+      category: "history",
+      year: "1990",
+      titleDe: "Bevölkerung und Wanderung nach 1945",
+      titleZh: "1945年之后的人口与迁徙",
+      contentDe: "Nach dem Zweiten Weltkrieg stieg die Bevölkerungszahl bis 1973 deutlich an und ging danach leicht zurück. Neben dem Geburtenüberschuss wirkte der Zuzug: Rund 13 Millionen deutsche Vertriebene und Flüchtlinge kamen aus den früheren deutschen Ostprovinzen und aus Osteuropa. Seit 1990 wuchs die Bevölkerung in den alten Bundesländern wieder leicht; zugleich gehörte Deutschland mit elf Geburten auf 1000 Einwohner zu den Ländern mit der niedrigsten Geburtenrate.",
+      contentZh: "二战后人口到1973年明显增长，之后略有回落。除出生盈余外，迁入也起作用：约1300万德国被驱逐者和难民从旧德国东部省份及东欧来到今天的德国。1990年以来旧联邦州人口又略有增长；同时德国每千人11个出生，属于出生率最低的国家之一。",
+      bookSource: "《德语国家国情》OCR",
+      sources: [
+        { title: "Statistisches Bundesamt", url: "https://www.destatis.de/" },
+        { title: "Bundeszentrale für politische Bildung", url: "https://www.bpb.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Bevölkerung", "Migration", "Nachkriegszeit"]
+    },
+    {
+      id: "culture-sprache-kultur",
+      category: "culture",
+      titleDe: "Sprache lernen heißt Kultur lernen",
+      titleZh: "学语言也是学文化",
+      contentDe: "Wer eine Fremdsprache lernt, lernt immer auch kulturelle Muster: Anreden, Höflichkeitsformen, Essen, Familie und Alltag. Ein Beispiel ist die Anrede: „Teacher Han“ klingt im Englischen falsch, weil „Teacher“ kein Titel vor dem Namen ist; im Deutschen gilt Ähnliches für „Lehrer Müller“. Sprachunterricht trennt Sprache und Kultur daher nicht wirklich.",
+      contentZh: "学外语时总会学到文化模式：称呼、礼貌形式、饮食、家庭与日常。称呼就是一例：英语里“Teacher Han”听起来不对，因为 teacher 不能像 Mr/Miss 那样放在姓名前；德语里“Lehrer Müller”也类似。语言教学其实无法真正把语言与文化分开。",
+      bookSource: "《德语与德国文化》OCR",
+      sources: [
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" },
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Sprache", "Kultur", "Anrede"]
+    },
+    {
+      id: "history-bildungsexpansion",
+      category: "history",
+      year: "1970",
+      titleDe: "Ausbau der Hochschulen",
+      titleZh: "高校扩建",
+      contentDe: "In der zweiten Hälfte des 20. Jahrhunderts wurden Studiengänge inhaltlich und organisatorisch umgestaltet, neue Lehr- und Arbeitsmethoden eingeführt und die Berufspraxis stärker berücksichtigt. Bund und Länder investierten erheblich in Aus- und Neubau: Mehr als 20 Universitäten wurden neu errichtet, dazu kamen zahlreiche Fachhochschulen. Abschlüsse waren Diplom, Magister oder Staatsexamen; danach war eine Promotion möglich.",
+      contentZh: "20世纪后半叶，专业设置在内容和组织上被重构，新的教学方法被引入，职业实践更受重视。联邦与各州大力投资新建和扩建：新建了20多所大学，还增设了许多应用技术大学。学位包括文凭、硕士或国家考试，之后可以攻读博士。",
+      bookSource: "《德语国家国情》OCR",
+      sources: [
+        { title: "Bundesministerium für Bildung und Forschung", url: "https://www.bmbf.de/" },
+        { title: "Bundeszentrale für politische Bildung", url: "https://www.bpb.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Bildung", "Hochschule", "Nachkriegszeit"]
+    },
+    {
+      id: "culture-gruppe-47",
+      category: "culture",
+      titleDe: "Gruppe 47 und Nachkriegsliteratur",
+      titleZh: "四七社与战后文学",
+      contentDe: "Nach 1945 war die „Gruppe 47“ ein wichtiger Treffpunkt für Schriftstellerinnen und Schriftsteller. Heinrich Böll und Ingeborg Bachmann gehörten dazu. Böll schrieb über Kriegserfahrungen und die Probleme der Zeit nach 1945; seine Herkunft aus Köln und dem Rheinland sowie der dort verbreitete Katholizismus spielten eine wichtige Rolle.",
+      contentZh: "1945年后，“四七社”是作家的重要聚会场所，海因里希·伯尔和英格博格·巴赫曼都属于其中。伯尔书写战争经历和1945年之后的问题；他来自科隆和莱茵兰，当地的天主教传统也起重要作用。",
+      bookSource: "《德语国家国情文化 学生读本》OCR",
+      sources: [
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" },
+        { title: "Deutsches Literaturarchiv", url: "https://www.dla-marbach.de/" }
+      ],
+      confidence: 0.9,
+      tags: ["Literatur", "Nachkriegszeit", "Gruppe 47"]
+    },
+    {
+      id: "culture-rheinland-kunst",
+      category: "culture",
+      titleDe: "Kunst und Neuanfang im Rheinland",
+      titleZh: "莱茵兰的艺术与新开端",
+      contentDe: "Nach dem Zweiten Weltkrieg standen Literatur und bildende Kunst vor einem Neuanfang: Viele Künstler waren im Exil geblieben oder im Krieg umgekommen. Im Rheinland wurde Düsseldorf zu einem Zentrum der Kunst; Joseph Beuys verband bildende Kunst mit theatralischen und gesellschaftskritischen Elementen.",
+      contentZh: "二战后，文学与造型艺术面临新的开端：许多艺术家流亡未归或在战争中去世。在莱茵兰，杜塞尔多夫成为艺术中心；约瑟夫·博伊斯把造型艺术与戏剧性、社会批判元素结合。",
+      bookSource: "《德语国家国情文化 学生读本》OCR",
+      sources: [
+        { title: "Kunstsammlung NRW", url: "https://www.kunstsammlung.de/" },
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Kunst", "Rheinland", "Nachkriegszeit"]
+    },
+    {
+      id: "history-altdeutsch",
+      category: "history",
+      year: "911",
+      titleDe: "Von der fränkischen zur deutschen Geschichte",
+      titleZh: "从法兰克到德意志",
+      contentDe: "Mit der Wahl Konrads I. im Jahr 911 beginnt die Geschichte des ostfränkischen Reiches als eigenständiges deutsches Reich; er gilt als erster deutscher König. Das Althochdeutsche entstand früher als das deutsche Reich, blieb aber lange ohne offiziellen Status: Kirche, Urkunden und Gelehrsamkeit verwendeten Latein. Die Merseburger Zaubersprüche, 1841 in der Merseburger Dombibliothek entdeckt, sind seltene Zeugnisse althochdeutscher Dichtung.",
+      contentZh: "911年康拉德一世当选，东法兰克王国开始作为独立的德意志王国发展，他被视为第一位德意志国王。古高地德语早于德意志国家形成，但长期没有官方地位：教会、文书和学术使用拉丁语。1841年在梅尔塞堡大教堂图书馆发现的《梅尔塞堡咒语》是古高地德语诗歌的罕见见证。",
+      bookSource: "《德语与德国文化》OCR",
+      sources: [
+        { title: "Deutsches Historisches Museum", url: "https://www.dhm.de/" },
+        { title: "Bundeszentrale für politische Bildung", url: "https://www.bpb.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Althochdeutsch", "Konrad I.", "Merseburg"]
+    },
+    {
+      id: "culture-presse",
+      category: "culture",
+      titleDe: "Zeitungen und Magazine",
+      titleZh: "报纸与杂志",
+      contentDe: "Die deutsche Zeitungslandschaft ist über 300 Jahre alt. Überregionale Abonnementzeitungen sind unter anderem „Die Welt“ und die „Frankfurter Allgemeine“; die Wochenzeitung „Die Zeit“ bietet Hintergründe und Überblick. Eine Sonderstellung hat das Nachrichtenmagazin „Der Spiegel“, bekannt für seine kritischen Recherchen. Daneben gibt es Tausende Zeitschriften, darunter Programm-, Frauen- und Special-Interest-Titel.",
+      contentZh: "德国报业已有300多年历史。跨地区订阅报纸包括《世界报》和《法兰克福汇报》；周报《时代》提供背景与综述。新闻杂志《明镜》地位特殊，以批判性调查著称。此外还有数千种杂志，包括节目杂志、女性杂志和兴趣专刊。",
+      bookSource: "《德语国家国情》OCR",
+      sources: [
+        { title: "Deutscher Presserat", url: "https://www.presserat.de/" },
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Presse", "Medien", "Zeitung"]
+    },
+    {
+      id: "history-wiener-moderne",
+      category: "history",
+      year: "1900",
+      titleDe: "Wiener Moderne",
+      titleZh: "维也纳现代派",
+      contentDe: "Um 1900 wurde Wien zu einem Zentrum der literarischen Moderne. Arthur Schnitzler (1862–1931), Arzt und Schriftsteller, verband psychologische Beobachtung mit Literatur; man nannte ihn Freuds „Doppelgänger“ in der Dichtung. Seine Werke zeigen die brüchige Welt des Adels und Bürgertums, Ehe, Liebe und die Nähe von Realität und Illusion. Schnitzler gilt als früher Vertreter des inneren Monologs und der Bewusstseinsströmung.",
+      contentZh: "1900年前后，维也纳成为文学现代派中心。阿图尔·施尼茨勒（1862–1931）既是医生又是作家，把心理观察与文学结合，被称为弗洛伊德在文学上的“双影人”。他的作品展示贵族与市民世界的裂痕、婚姻、爱情以及现实与幻觉的接近，被视为内心独白和意识流的早期代表。",
+      bookSource: "《20世纪奥地利 瑞士德语文学史》OCR",
+      sources: [
+        { title: "Österreichische Nationalbibliothek", url: "https://www.onb.ac.at/" },
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Wien", "Moderne", "Schnitzler"]
+    },
+    {
+      id: "history-canetti",
+      category: "history",
+      year: "1935",
+      titleDe: "Elias Canetti und „Die Blendung“",
+      titleZh: "埃利亚斯·卡内蒂与《迷惘》",
+      contentDe: "Elias Canetti (1905–1994) veröffentlichte 1935 den Roman „Die Blendung“. Im Mittelpunkt steht der Wiener Sinologe Peter Kien, der ganz in seinen Büchern lebt und die soziale Wirklichkeit verliert. Nach der Zerstörung seiner Bibliothek verbrennt er sich mit 25.000 Büchern. Der Roman zeigt den Rückzug des Intellektuellen aus einer Welt, in der sich der Faschismus bereits ankündigt.",
+      contentZh: "埃利亚斯·卡内蒂（1905–1994）1935年发表小说《迷惘》。主人公维也纳汉学家彼得·基恩完全生活在书里，失去对现实的把握。图书馆被毁后，他与25000册书一同自焚。小说表现知识分子在法西斯主义逐渐抬头时的退避。",
+      bookSource: "《20世纪奥地利 瑞士德语文学史》OCR",
+      sources: [
+        { title: "Österreichische Nationalbibliothek", url: "https://www.onb.ac.at/" },
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Canetti", "Roman", "Wien"]
+    },
+    {
+      id: "history-spitteler-neutralitaet",
+      category: "history",
+      year: "1914",
+      titleDe: "Carl Spitteler und die Schweizer Neutralität",
+      titleZh: "卡尔·施皮特勒与瑞士中立",
+      contentDe: "Carl Spitteler (1845–1924) hielt im Dezember 1914 in Zürich die Rede „Unser Schweizer Standpunkt“. Angesichts des Ersten Weltkriegs warnte er davor, sich politisch mit dem kriegführenden Nachbarn zu identifizieren, und sprach sich für Neutralität aus. Die Rede wurde zum Orientierungspunkt der Schweizer Neutralität; 1920 erhielt Spitteler den Nobelpreis für Literatur.",
+      contentZh: "卡尔·施皮特勒（1845–1924）1914年12月在苏黎世发表演讲《我们瑞士的立场》。面对一战，他警告不要政治上认同参战邻国，主张中立。这篇演讲成为瑞士中立的指针；1920年施皮特勒获诺贝尔文学奖。",
+      bookSource: "《20世纪奥地利 瑞士德语文学史》OCR",
+      sources: [
+        { title: "Schweizerische Nationalbibliothek", url: "https://www.nb.admin.ch/" },
+        { title: "Nobel Prize", url: "https://www.nobelprize.org/" }
+      ],
+      confidence: 0.85,
+      tags: ["Spitteler", "Neutralität", "Schweiz"]
+    },
+    {
+      id: "culture-austriazismen",
+      category: "culture",
+      titleDe: "Österreichisches Deutsch",
+      titleZh: "奥地利德语",
+      contentDe: "Österreich war lange ein Vielvölkerstaat; seine Sprache nahm daher viele Einflüsse auf. Typisch österreichische Wörter und Wendungen heißen Austriazismen: Erdäpfel statt Kartoffeln, Paradeiser statt Tomaten, Obers statt Sahne, Advokat statt Rechtsanwalt. Nach 1945 betonte Österreich mit der „donauösterreichischen Schriftsprache“ seine kulturelle Eigenständigkeit.",
+      contentZh: "奥地利长期是多民族国家，语言因此吸收许多影响。典型的奥地利词语和表达称为 Austriazismen：Erdäpfel 代替 Kartoffeln，Paradeiser 代替 Tomaten，Obers 代替 Sahne，Advokat 代替 Rechtsanwalt。1945年后，奥地利以“多瑙河奥地利书面语”强调文化自主。",
+      bookSource: "《德语与德国文化》OCR",
+      sources: [
+        { title: "Österreichisches Sprachdiplom", url: "https://www.osd.at/" },
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Österreich", "Varietät", "Wortschatz"]
+    },
+    {
+      id: "history-frauenliteratur",
+      category: "history",
+      year: "1975",
+      titleDe: "Der Aufstieg der Schriftstellerinnen",
+      titleZh: "女作家的崛起",
+      contentDe: "Seit Mitte der 1970er Jahre traten in der deutschsprachigen Literatur vermehrt Schriftstellerinnen hervor. Viele waren in den 1930er Jahren geboren und veröffentlichten um das vierzigste Lebensjahr ihre ersten Bücher. Sie brachten weibliche Erfahrungen, Körper, Familie und Gesellschaftskritik in die Literatur ein und veränderten den literarischen Betrieb.",
+      contentZh: "自20世纪70年代中期起，德语文学中涌现出越来越多女作家。许多人出生于1930年代，在40岁左右发表处女作。她们把女性经验、身体、家庭与社会批判带入文学，改变了文学生态。",
+      bookSource: "《20世纪奥地利 瑞士德语文学史》OCR",
+      sources: [
+        { title: "Österreichische Nationalbibliothek", url: "https://www.onb.ac.at/" },
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Literatur", "Frauen", "1970er"]
+    },
+    {
+      id: "history-tschernobyl-literatur",
+      category: "history",
+      year: "1986",
+      titleDe: "Tschernobyl und die Literatur",
+      titleZh: "切尔诺贝利与文学",
+      contentDe: "Die Reaktorkatastrophe von Tschernobyl 1986 veränderte die Wahrnehmung von Technik und Fortschritt. Schriftstellerinnen und Schriftsteller beschrieben Angst vor unsichtbarer Strahlung, Ohnmacht gegenüber technischen Systemen und die Frage, ob der Mensch seine eigene Entwicklung noch steuern kann. Die Katastrophe wurde zu einem Bezugspunkt ökologischer Literatur.",
+      contentZh: "1986年切尔诺贝利反应堆灾难改变了人们对技术与进步的感知。作家描写对看不见的辐射的恐惧、面对技术系统的无力，以及人是否还能控制自身发展的问题。这场灾难成为生态文学的重要参照。",
+      bookSource: "《20世纪奥地利 瑞士德语文学史》OCR",
+      sources: [
+        { title: "Bundeszentrale für politische Bildung", url: "https://www.bpb.de/" },
+        { title: "Umweltbundesamt", url: "https://www.umweltbundesamt.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Tschernobyl", "Ökologie", "Literatur"]
+    },
+    {
+      id: "culture-oesterreich-zahlen",
+      category: "culture",
+      titleDe: "Österreich in Zahlen",
+      titleZh: "奥地利数据",
+      contentDe: "Österreich hat etwa 8,4 Millionen Einwohner; das Durchschnittsalter liegt bei 42,2 Jahren, die durchschnittliche Lebenserwartung bei 79 Jahren. Frauen überleben Männer statistisch um fast sechs Jahre. Die Geburtenrate liegt bei 1,4 Kindern pro Frau; Prognosen erwarten bis 2030 etwa neun Millionen Einwohner, auch durch Zuwanderung. Der Ausländeranteil liegt bei mehr als zehn Prozent.",
+      contentZh: "奥地利约有840万人口，平均年龄42.2岁，平均预期寿命79岁。女性统计上比男性多活近六年。出生率为每名女性1.4个孩子；预测到2030年约900万人口，部分来自移民。外国人比例超过10%。",
+      bookSource: "《德语国家国情文化 练习册》OCR",
+      sources: [
+        { title: "Statistik Austria", url: "https://www.statistik.at/" },
+        { title: "Österreichisches Sprachdiplom", url: "https://www.osd.at/" }
+      ],
+      confidence: 0.85,
+      tags: ["Österreich", "Bevölkerung", "Zahlen"]
+    },
+    {
+      id: "culture-zugspitze",
+      category: "culture",
+      titleDe: "Die Zugspitze",
+      titleZh: "楚格峰",
+      contentDe: "Die Zugspitze ist mit 2963 Metern der höchste Berg Deutschlands. Sie liegt an der Grenze zu Österreich und ist ein beliebtes Ziel für Wanderer, Skifahrer und Touristen. Mit der Zahnradbahn oder der Seilbahn lässt sich der Gipfel erreichen; bei klarem Wetter reicht der Blick weit über die Alpen.",
+      contentZh: "楚格峰海拔2963米，是德国最高峰。它位于德国与奥地利边境，是徒步者、滑雪者和游客喜爱的目的地。可以乘齿轨铁路或缆车登顶；天气晴朗时视野可越过阿尔卑斯山。",
+      bookSource: "《德语国家国情1000题》OCR",
+      sources: [
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" },
+        { title: "Zugspitze", url: "https://www.zugspitze.de/" }
+      ],
+      confidence: 0.9,
+      tags: ["Zugspitze", "Alpen", "Geographie"]
+    },
+    {
+      id: "culture-hannover-messe",
+      category: "culture",
+      titleDe: "Die Hannover Messe",
+      titleZh: "汉诺威工业博览会",
+      contentDe: "Die Hannover Messe ist eine der größten Industriemessen der Welt. Sie findet jährlich in Hannover statt und zeigt Technik, Automatisierung, Energie und industrielle Zukunftsthemen. Für Unternehmen ist sie ein wichtiger Ort, um Kontakte zu knüpfen und neue Produkte vorzustellen.",
+      contentZh: "汉诺威工业博览会是世界最大的工业展会之一，每年在汉诺威举行，展示技术、自动化、能源和工业未来主题。对企业来说，它是建立联系和展示新产品的重要场所。",
+      bookSource: "《德语国家国情1000题》OCR",
+      sources: [
+        { title: "Hannover Messe", url: "https://www.hannovermesse.de/" },
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" }
+      ],
+      confidence: 0.9,
+      tags: ["Messe", "Industrie", "Hannover"]
+    },
+    {
+      id: "history-duerer",
+      category: "history",
+      year: "1500",
+      titleDe: "Albrecht Dürer und die Renaissance",
+      titleZh: "阿尔布雷希特·丢勒与文艺复兴",
+      contentDe: "Albrecht Dürer (1471–1528) war Maler, Grafiker und Kunsttheoretiker der deutschen Renaissance. Er verbesserte Holzschnitt und Kupferstich und machte sie zu eigenständigen Kunstformen. Seine Selbstporträts, Apokalypse-Holzschnitte und theoretischen Schriften verbinden italienische Perspektive mit deutscher Druckgrafik.",
+      contentZh: "阿尔布雷希特·丢勒（1471–1528）是德国文艺复兴的画家、版画家和艺术理论家。他改进木刻与铜版画技术，使其成为独立艺术形式。他的自画像、《启示录》木刻和理论著作把意大利透视法与德国版画传统结合。",
+      bookSource: "《德语国家国情1000题》OCR",
+      sources: [
+        { title: "Germanisches Nationalmuseum", url: "https://www.gnm.de/" },
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" }
+      ],
+      confidence: 0.9,
+      tags: ["Dürer", "Renaissance", "Kunst"]
+    },
+    {
+      id: "history-beethoven-neunte",
+      category: "history",
+      year: "1824",
+      titleDe: "Beethovens Neunte",
+      titleZh: "贝多芬第九交响曲",
+      contentDe: "Ludwig van Beethoven (1770–1827) vollendete seine Neunte Sinfonie 1824. Im letzten Satz vertont er Schillers „An die Freude“; der Chor bricht mit der rein instrumentalen Tradition. Die Aufführung wurde zum Symbol für Freiheit und Zusammengehörigkeit und ist heute die Europahymne.",
+      contentZh: "路德维希·凡·贝多芬（1770–1827）1824年完成第九交响曲。末乐章为席勒《欢乐颂》谱曲，合唱打破了纯器乐传统。演出成为自由与团结的象征，今天也是欧盟盟歌。",
+      bookSource: "《德语国家国情1000题》OCR",
+      sources: [
+        { title: "Beethoven-Haus Bonn", url: "https://www.beethoven.de/" },
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" }
+      ],
+      confidence: 0.9,
+      tags: ["Beethoven", "Musik", "Schiller"]
+    },
+    {
+      id: "culture-gotik",
+      category: "culture",
+      titleDe: "Gotische Architektur",
+      titleZh: "哥特式建筑",
+      contentDe: "Gotische Kirchen streben nach oben: Spitztürme, Spitzbögen, hohe Fenster und farbige Glasfenster mit biblischen Szenen prägen den Stil. Der Kölner Dom ist das bekannteste deutsche Beispiel; auch Notre-Dame in Paris und der Mailänder Dom gehören zur europäischen Gotik.",
+      contentZh: "哥特式教堂向上延伸：尖塔、尖拱、高窗和绘有圣经故事的彩色玻璃构成风格。科隆大教堂是德国最著名例子；巴黎圣母院和米兰大教堂也属于欧洲哥特式。",
+      bookSource: "《德语国家国情1000题》OCR",
+      sources: [
+        { title: "Kölner Dom", url: "https://www.koelner-dom.de/" },
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" }
+      ],
+      confidence: 0.9,
+      tags: ["Gotik", "Architektur", "Köln"]
+    },
+    {
+      id: "culture-leipzig-musikhochschule",
+      category: "culture",
+      titleDe: "Leipzig und die Musikausbildung",
+      titleZh: "莱比锡与音乐教育",
+      contentDe: "1843 gründete Felix Mendelssohn Bartholdy in Leipzig eine Musikschule, aus der das heutige Hochschulinstitut hervorging; sie gilt als erste Musikhochschule Deutschlands. Leipzig war mit Gewandhaus, Thomanerchor und Musikverlagen ein Zentrum des Musiklebens.",
+      contentZh: "1843年费利克斯·门德尔松·巴托尔迪在莱比锡创办音乐学校，后来的音乐学院由此发展，被视为德国第一所音乐学院。莱比锡凭借布商大厦乐团、托马斯合唱团和音乐出版社成为音乐生活中心。",
+      bookSource: "《德语国家国情1000题》OCR",
+      sources: [
+        { title: "HMT Leipzig", url: "https://www.hmt-leipzig.de/" },
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Leipzig", "Musik", "Mendelssohn"]
+    },
+    {
+      id: "history-waldsterben",
+      category: "history",
+      year: "1980",
+      titleDe: "Waldsterben und saurer Regen",
+      titleZh: "森林死亡与酸雨",
+      contentDe: "In den 1980er Jahren wurde das „Waldsterben“ zu einem großen Umweltthema. Geschädigte Nadeln und Laubbäume, saurer Regen und Schadstoffe aus Industrie und Verkehr wurden diskutiert; der Wald galt als „grüne Lunge“ des Landes. Die Debatte trieb Umweltpolitik, Filteranlagen und grenzüberschreitende Luftreinhaltung voran.",
+      contentZh: "1980年代，“森林死亡”成为重大环境议题。受损的针叶与阔叶树、酸雨以及工业和交通污染物引发讨论；森林被视为国家的“绿肺”。这场争论推动了环境政策、过滤设备和跨境空气治理。",
+      bookSource: "《德语时文 德意志联邦共和国部分》OCR",
+      sources: [
+        { title: "Umweltbundesamt", url: "https://www.umweltbundesamt.de/" },
+        { title: "Bundeszentrale für politische Bildung", url: "https://www.bpb.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Umwelt", "Waldsterben", "1980er"]
+    },
+    {
+      id: "culture-rosenmontag",
+      category: "culture",
+      titleDe: "Rosenmontag und Karneval",
+      titleZh: "玫瑰星期一与狂欢节",
+      contentDe: "Der Rosenmontag ist der Höhepunkt des rheinischen Karnevals, am Montag vor Aschermittwoch. In Köln, Düsseldorf und Mainz ziehen große Umzüge durch die Städte; Kostüme, Wagen und Büttenreden prägen den Tag. Der Reformationstag am 31. Oktober erinnert dagegen an Luthers Thesen von 1517.",
+      contentZh: "玫瑰星期一是莱茵地区狂欢节的高潮，在圣灰星期三前的星期一。科隆、杜塞尔多夫和美因茨有大型游行；服装、花车和讽刺演讲构成节日。10月31日宗教改革纪念日则纪念1517年路德的论纲。",
+      bookSource: "《德语时文 德意志联邦共和国部分》OCR",
+      sources: [
+        { title: "Deutschland.de", url: "https://www.deutschland.de/" },
+        { title: "Goethe-Institut", url: "https://www.goethe.de/" }
+      ],
+      confidence: 0.85,
+      tags: ["Karneval", "Rosenmontag", "Reformationstag"]
     }
   ]
 };
+
+

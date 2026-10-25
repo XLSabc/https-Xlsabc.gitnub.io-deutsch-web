@@ -3,26 +3,23 @@ window.WORTKARTE_CHANGELOG_SUMMARY = [
   {
     "runId": "run-2026-10-20",
     "version": "1.0.0",
-    "generatedAt": "2026-10-24T19:12:31.440Z",
+    "generatedAt": "2026-10-25T06:43:21.318Z",
     "window": {
       "from": "2026-10-20",
       "to": "2026-10-25"
     },
-    "totalChanges": 248,
+    "totalChanges": 54,
     "byType": {
-      "data": 230,
-      "feature": 12,
-      "add": 2,
-      "frontend": 4
+      "feature": 54
     },
     "affectedIds": [],
     "rollbackCount": 0,
     "reviewQueue": 0,
     "costDelta": 0,
     "highlights": [
-      "OCR 批次 1177–1184：Wurm/Wurzel/zäh",
-      "OCR 批次 1185–1192：Vorwand/wachen",
-      "完成 OCR 1200 批与第 1200 批检查"
+      "均衡扩充第三十三轮：BER、博物馆与吕讷堡",
+      "均衡扩充第三十四轮：贸易争端、音乐协会与包岑",
+      "均衡扩充第三十五轮：G20、公民倡议与哈默尔恩"
     ]
   }
 ];

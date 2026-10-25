@@ -1,4 +1,4 @@
-/* =========================================================
+﻿/* =========================================================
    Wortkarte · application logic
    Vanilla JS, no build step, all progress stored locally.
    ========================================================= */
@@ -123,9 +123,694 @@ const CHANGELOG_SUMMARY = Array.isArray(window.WORTKARTE_CHANGELOG_SUMMARY) ? wi
 const CULTURE_DATA = window.WORTKARTE_CULTURE && Array.isArray(window.WORTKARTE_CULTURE.items)
   ? window.WORTKARTE_CULTURE
   : { categories: [], items: [] };
+const MAP_DATA = window.WORTKARTE_MAP && Array.isArray(window.WORTKARTE_MAP.countries)
+  ? window.WORTKARTE_MAP
+  : null;
+const FESTIVAL_DATA = window.WORTKARTE_FESTIVALS && Array.isArray(window.WORTKARTE_FESTIVALS.items)
+  ? window.WORTKARTE_FESTIVALS
+  : { months: [], items: [] };
 
 // 词汇书中的确认例句：仅在原例句来自文章时替换，已有可靠例句保持不动。
 const WORDBOOK_EXAMPLES = {
+  Flughafen: { example: "Der Flughafen liegt außerhalb der Stadt.", exampleZh: "机场在城市外。", source: "Wortkarte 原创例句" },
+  Zoll: { example: "Am Zoll müssen Sie den Koffer öffnen.", exampleZh: "在海关您必须打开箱子。", source: "Wortkarte 原创例句" },
+  heißen: { example: "Wie heißen Sie?", exampleZh: "您叫什么名字？", source: "Wortkarte 原创例句" },
+  kommen: { example: "Ich komme aus China.", exampleZh: "我来自中国。", source: "Wortkarte 原创例句" },
+  Koffer: { example: "Mein Koffer ist zu schwer.", exampleZh: "我的箱子太重了。", source: "Wortkarte 原创例句" },
+  gut: { example: "Das Essen ist sehr gut.", exampleZh: "饭菜很好。", source: "Wortkarte 原创例句" },
+  Pass: { example: "Bitte zeigen Sie Ihren Pass.", exampleZh: "请出示您的护照。", source: "Wortkarte 原创例句" },
+  Vorname: { example: "Mein Vorname ist Li.", exampleZh: "我的名字是李。", source: "Wortkarte 原创例句" },
+  Familienname: { example: "Mein Familienname ist Wang.", exampleZh: "我姓王。", source: "Wortkarte 原创例句" },
+  Entschuldigung: { example: "Entschuldigung, wo ist der Bahnhof?", exampleZh: "打扰一下，火车站在哪里？", source: "Wortkarte 原创例句" },
+  wie: { example: "Wie geht es dir?", exampleZh: "你好吗？", source: "Wortkarte 原创例句" },
+  Kleidung: { example: "Diese Kleidung ist bequem.", exampleZh: "这件衣服很舒服。", source: "Wortkarte 原创例句" },
+  Buch: { example: "Das Buch ist interessant.", exampleZh: "这本书很有趣。", source: "Wortkarte 原创例句" },
+  Anrede: { example: "Die Anrede „Sie“ ist höflich.", exampleZh: "“Sie”这个称呼很礼貌。", source: "Wortkarte 原创例句" },
+  Frau: { example: "Die Frau liest ein Buch.", exampleZh: "这位女士在读书。", source: "Wortkarte 原创例句" },
+  lernen: { example: "Ich lerne jeden Tag Deutsch.", exampleZh: "我每天学德语。", source: "Wortkarte 原创例句" },
+  öffnen: { example: "Bitte öffnen Sie das Fenster.", exampleZh: "请打开窗户。", source: "Wortkarte 原创例句" },
+  wissen: { example: "Ich weiß die Antwort nicht.", exampleZh: "我不知道答案。", source: "Wortkarte 原创例句" },
+  werden: { example: "Es wird kalt.", exampleZh: "天变冷了。", source: "Wortkarte 原创例句" },
+  Land: { example: "Deutschland ist ein Land in Europa.", exampleZh: "德国是欧洲的一个国家。", source: "Wortkarte 原创例句" },
+  Mutter: { example: "Meine Mutter kocht heute.", exampleZh: "我妈妈今天做饭。", source: "Wortkarte 原创例句" },
+  Opa: { example: "Mein Opa ist achtzig Jahre alt.", exampleZh: "我爷爷八十岁。", source: "Wortkarte 原创例句" },
+  Oma: { example: "Meine Oma wohnt in Beijing.", exampleZh: "我奶奶住在北京。", source: "Wortkarte 原创例句" },
+  Name: { example: "Mein Name ist Anna.", exampleZh: "我叫安娜。", source: "Wortkarte 原创例句" },
+  jetzt: { example: "Ich muss jetzt gehen.", exampleZh: "我现在得走了。", source: "Wortkarte 原创例句" },
+  fahren: { example: "Wir fahren morgen nach Berlin.", exampleZh: "我们明天去柏林。", source: "Wortkarte 原创例句" },
+  Lehrer: { example: "Der Lehrer erklärt die Grammatik.", exampleZh: "老师在讲语法。", source: "Wortkarte 原创例句" },
+  schon: { example: "Ich habe schon gegessen.", exampleZh: "我已经吃过了。", source: "Wortkarte 原创例句" },
+  lesen: { example: "Sie liest gern Romane.", exampleZh: "她喜欢读小说。", source: "Wortkarte 原创例句" },
+  sehen: { example: "Ich sehe einen Vogel.", exampleZh: "我看见一只鸟。", source: "Wortkarte 原创例句" },
+  sprechen: { example: "Sprechen Sie Deutsch?", exampleZh: "您说德语吗？", source: "Wortkarte 原创例句" },
+  Zeitung: { example: "Er liest jeden Morgen die Zeitung.", exampleZh: "他每天早上读报。", source: "Wortkarte 原创例句" },
+  lange: { example: "Ich warte schon lange.", exampleZh: "我等了很久。", source: "Wortkarte 原创例句" },
+  Sofa: { example: "Das Sofa ist sehr bequem.", exampleZh: "沙发很舒服。", source: "Wortkarte 原创例句" },
+  Foto: { example: "Das Foto zeigt meine Familie.", exampleZh: "这张照片是我家人。", source: "Wortkarte 原创例句" },
+  Flugzeug: { example: "Das Flugzeug landet um acht Uhr.", exampleZh: "飞机八点降落。", source: "Wortkarte 原创例句" },
+  richtig: { example: "Die Antwort ist richtig.", exampleZh: "答案正确。", source: "Wortkarte 原创例句" },
+  noch: { example: "Ich habe noch Zeit.", exampleZh: "我还有时间。", source: "Wortkarte 原创例句" },
+  nicht: { example: "Das ist nicht mein Buch.", exampleZh: "这不是我的书。", source: "Wortkarte 原创例句" },
+  Herr: { example: "Herr Müller ist mein Lehrer.", exampleZh: "米勒先生是我的老师。", source: "Wortkarte 原创例句" },
+  trinken: { example: "Ich trinke gern Tee.", exampleZh: "我喜欢喝茶。", source: "Wortkarte 原创例句" },
+  essen: { example: "Wir essen um sieben Uhr.", exampleZh: "我们七点吃饭。", source: "Wortkarte 原创例句" },
+  gehen: { example: "Ich gehe jetzt nach Hause.", exampleZh: "我现在回家。", source: "Wortkarte 原创例句" },
+  wohnen: { example: "Sie wohnt in Berlin.", exampleZh: "她住在柏林。", source: "Wortkarte 原创例句" },
+  arbeiten: { example: "Er arbeitet bei einer Bank.", exampleZh: "他在银行工作。", source: "Wortkarte 原创例句" },
+  spielen: { example: "Die Kinder spielen im Garten.", exampleZh: "孩子们在花园玩。", source: "Wortkarte 原创例句" },
+  kaufen: { example: "Ich kaufe Milch und Brot.", exampleZh: "我买牛奶和面包。", source: "Wortkarte 原创例句" },
+  bezahlen: { example: "Wir möchten getrennt bezahlen.", exampleZh: "我们想分开付。", source: "Wortkarte 原创例句" },
+  verstehen: { example: "Ich verstehe die Frage nicht.", exampleZh: "我不懂这个问题。", source: "Wortkarte 原创例句" },
+  gefallen: { example: "Das Buch gefällt mir.", exampleZh: "我喜欢这本书。", source: "Wortkarte 原创例句" },
+  brauchen: { example: "Wir brauchen mehr Zeit.", exampleZh: "我们需要更多时间。", source: "Wortkarte 原创例句" },
+  finden: { example: "Ich finde den Weg nicht.", exampleZh: "我找不到路。", source: "Wortkarte 原创例句" },
+  sagen: { example: "Was hast du gesagt?", exampleZh: "你说了什么？", source: "Wortkarte 原创例句" },
+  fragen: { example: "Darf ich dich etwas fragen?", exampleZh: "我可以问你一件事吗？", source: "Wortkarte 原创例句" },
+  antworten: { example: "Er antwortet nicht.", exampleZh: "他不回答。", source: "Wortkarte 原创例句" },
+  bleiben: { example: "Wir bleiben heute zu Hause.", exampleZh: "我们今天待在家里。", source: "Wortkarte 原创例句" },
+  bekommen: { example: "Sie bekommt einen Brief.", exampleZh: "她收到一封信。", source: "Wortkarte 原创例句" },
+  bringen: { example: "Bring mir bitte Wasser.", exampleZh: "请给我拿水。", source: "Wortkarte 原创例句" },
+  denken: { example: "Ich denke an dich.", exampleZh: "我在想你。", source: "Wortkarte 原创例句" },
+  groß: { example: "Berlin ist eine große Stadt.", exampleZh: "柏林是一座大城市。", source: "Wortkarte 原创例句" },
+  alt: { example: "Mein Fahrrad ist schon alt.", exampleZh: "我的自行车很旧了。", source: "Wortkarte 原创例句" },
+  jung: { example: "Sie ist noch jung.", exampleZh: "她还年轻。", source: "Wortkarte 原创例句" },
+  neu: { example: "Ich habe ein neues Handy.", exampleZh: "我有一部新手机。", source: "Wortkarte 原创例句" },
+  schön: { example: "Der Garten ist sehr schön.", exampleZh: "花园很美。", source: "Wortkarte 原创例句" },
+  langsam: { example: "Bitte sprechen Sie langsam.", exampleZh: "请说慢一点。", source: "Wortkarte 原创例句" },
+  kalt: { example: "Im Winter ist es kalt.", exampleZh: "冬天很冷。", source: "Wortkarte 原创例句" },
+  teuer: { example: "Das Hotel ist zu teuer.", exampleZh: "这家酒店太贵了。", source: "Wortkarte 原创例句" },
+  leise: { example: "Sprich bitte leise.", exampleZh: "请轻声说话。", source: "Wortkarte 原创例句" },
+  dunkel: { example: "Im Zimmer ist es dunkel.", exampleZh: "房间里很暗。", source: "Wortkarte 原创例句" },
+  Dorf: { example: "Das Dorf liegt am Fluss.", exampleZh: "村庄在河边。", source: "Wortkarte 原创例句" },
+  Straße: { example: "Die Straße ist sehr breit.", exampleZh: "这条街很宽。", source: "Wortkarte 原创例句" },
+  Zimmer: { example: "Mein Zimmer ist klein.", exampleZh: "我的房间很小。", source: "Wortkarte 原创例句" },
+  Küche: { example: "In der Küche riecht es gut.", exampleZh: "厨房里很香。", source: "Wortkarte 原创例句" },
+  Garten: { example: "Im Garten wachsen Blumen.", exampleZh: "花园里长着花。", source: "Wortkarte 原创例句" },
+  Balkon: { example: "Wir frühstücken auf dem Balkon.", exampleZh: "我们在阳台上吃早饭。", source: "Wortkarte 原创例句" },
+  Bett: { example: "Das Bett ist bequem.", exampleZh: "床很舒服。", source: "Wortkarte 原创例句" },
+  Tisch: { example: "Das Buch liegt auf dem Tisch.", exampleZh: "书在桌上。", source: "Wortkarte 原创例句" },
+  Unterricht: { example: "Der Unterricht beginnt um acht Uhr.", exampleZh: "课程八点开始。", source: "Wortkarte 原创例句" },
+  Bruder: { example: "Mein Bruder studiert in Berlin.", exampleZh: "我哥哥在柏林学习。", source: "Wortkarte 原创例句" },
+  Schwester: { example: "Meine Schwester ist Ärztin.", exampleZh: "我姐姐是医生。", source: "Wortkarte 原创例句" },
+  Beruf: { example: "Was ist Ihr Beruf?", exampleZh: "您的职业是什么？", source: "Wortkarte 原创例句" },
+  Mann: { example: "Der Mann wartet vor der Tür.", exampleZh: "那个男人在门口等。", source: "Wortkarte 原创例句" },
+  Arzt: { example: "Ich muss zum Arzt gehen.", exampleZh: "我得去看医生。", source: "Wortkarte 原创例句" },
+  Verkäufer: { example: "Der Verkäufer berät die Kundin.", exampleZh: "售货员给顾客建议。", source: "Wortkarte 原创例句" },
+  Student: { example: "Der Student lernt jeden Tag.", exampleZh: "这个大学生每天学习。", source: "Wortkarte 原创例句" },
+  ledig: { example: "Sie ist noch ledig.", exampleZh: "她还没结婚。", source: "Wortkarte 原创例句" },
+  Partner: { example: "Mein Partner kocht gern.", exampleZh: "我的伴侣喜欢做饭。", source: "Wortkarte 原创例句" },
+  Wasser: { example: "Ich trinke viel Wasser.", exampleZh: "我喝很多水。", source: "Wortkarte 原创例句" },
+  Vater: { example: "Mein Vater arbeitet im Büro.", exampleZh: "我爸爸在办公室工作。", source: "Wortkarte 原创例句" },
+  suchen: { example: "Ich suche meinen Schlüssel.", exampleZh: "我在找钥匙。", source: "Wortkarte 原创例句" },
+  Mädchen: { example: "Das Mädchen spielt im Park.", exampleZh: "小女孩在公园玩。", source: "Wortkarte 原创例句" },
+  lieben: { example: "Ich liebe meine Familie.", exampleZh: "我爱我的家人。", source: "Wortkarte 原创例句" },
+  Fahrrad: { example: "Mein Fahrrad ist neu.", exampleZh: "我的自行车是新的。", source: "Wortkarte 原创例句" },
+  Auto: { example: "Das Auto steht vor dem Haus.", exampleZh: "车停在房子前。", source: "Wortkarte 原创例句" },
+  Bleistift: { example: "Ich schreibe mit einem Bleistift.", exampleZh: "我用铅笔写。", source: "Wortkarte 原创例句" },
+  Uhr: { example: "Die Uhr zeigt drei Uhr.", exampleZh: "钟显示三点。", source: "Wortkarte 原创例句" },
+  holen: { example: "Ich hole schnell Brot.", exampleZh: "我快去拿面包。", source: "Wortkarte 原创例句" },
+  Schule: { example: "Die Schule beginnt um acht Uhr.", exampleZh: "学校八点开始上课。", source: "Wortkarte 原创例句" },
+  Kugelschreiber: { example: "Kann ich deinen Kugelschreiber benutzen?", exampleZh: "我能用你的圆珠笔吗？", source: "Wortkarte 原创例句" },
+  Hausaufgabe: { example: "Ich mache meine Hausaufgaben.", exampleZh: "我在做作业。", source: "Wortkarte 原创例句" },
+  schreiben: { example: "Ich schreibe einen Brief.", exampleZh: "我在写信。", source: "Wortkarte 原创例句" },
+  Satz: { example: "Der Satz ist zu lang.", exampleZh: "这个句子太长了。", source: "Wortkarte 原创例句" },
+  Schüler: { example: "Die Schüler warten auf den Lehrer.", exampleZh: "学生们在等老师。", source: "Wortkarte 原创例句" },
+  liegen: { example: "Das Buch liegt auf dem Tisch.", exampleZh: "书在桌上。", source: "Wortkarte 原创例句" },
+  Tasche: { example: "Meine Tasche ist schwer.", exampleZh: "我的包很重。", source: "Wortkarte 原创例句" },
+  Million: { example: "Die Stadt hat eine Million Einwohner.", exampleZh: "这座城市有一百万居民。", source: "Wortkarte 原创例句" },
+  Bier: { example: "Er trinkt ein Bier.", exampleZh: "他喝一杯啤酒。", source: "Wortkarte 原创例句" },
+  Milch: { example: "Ich kaufe eine Flasche Milch.", exampleZh: "我买一瓶牛奶。", source: "Wortkarte 原创例句" },
+  Flasche: { example: "Die Flasche ist leer.", exampleZh: "瓶子空了。", source: "Wortkarte 原创例句" },
+  Geld: { example: "Ich habe kein Geld dabei.", exampleZh: "我没带钱。", source: "Wortkarte 原创例句" },
+  Hunger: { example: "Ich habe großen Hunger.", exampleZh: "我很饿。", source: "Wortkarte 原创例句" },
+  Durst: { example: "Hast du Durst?", exampleZh: "你渴吗？", source: "Wortkarte 原创例句" },
+  gleich: { example: "Ich komme gleich.", exampleZh: "我马上来。", source: "Wortkarte 原创例句" },
+  vielleicht: { example: "Vielleicht kommt er später.", exampleZh: "他也许晚点来。", source: "Wortkarte 原创例句" },
+  kaputt: { example: "Mein Handy ist kaputt.", exampleZh: "我的手机坏了。", source: "Wortkarte 原创例句" },
+  erzählen: { example: "Erzähl mir eine Geschichte.", exampleZh: "给我讲个故事。", source: "Wortkarte 原创例句" },
+  tot: { example: "Die Pflanze ist tot.", exampleZh: "这株植物死了。", source: "Wortkarte 原创例句" },
+  oft: { example: "Er kommt oft zu spät.", exampleZh: "他经常迟到。", source: "Wortkarte 原创例句" },
+  sehr: { example: "Das ist sehr wichtig.", exampleZh: "这很重要。", source: "Wortkarte 原创例句" },
+  Großmutter: { example: "Meine Großmutter wohnt auf dem Land.", exampleZh: "我祖母住在乡下。", source: "Wortkarte 原创例句" },
+  Großvater: { example: "Mein Großvater erzählt gern.", exampleZh: "我祖父喜欢讲故事。", source: "Wortkarte 原创例句" },
+  Ehemann: { example: "Ihr Ehemann arbeitet in Hamburg.", exampleZh: "她丈夫在汉堡工作。", source: "Wortkarte 原创例句" },
+  Ehefrau: { example: "Seine Ehefrau ist Lehrerin.", exampleZh: "他妻子是老师。", source: "Wortkarte 原创例句" },
+  Hausfrau: { example: "Sie ist Hausfrau und Mutter.", exampleZh: "她是家庭主妇和母亲。", source: "Wortkarte 原创例句" },
+  Samstag: { example: "Am Samstag gehen wir einkaufen.", exampleZh: "周六我们去购物。", source: "Wortkarte 原创例句" },
+  Obst: { example: "Ich esse jeden Tag Obst.", exampleZh: "我每天吃水果。", source: "Wortkarte 原创例句" },
+  wieder: { example: "Er kommt morgen wieder.", exampleZh: "他明天再来。", source: "Wortkarte 原创例句" },
+  Gemüse: { example: "Ich kaufe frisches Gemüse.", exampleZh: "我买新鲜蔬菜。", source: "Wortkarte 原创例句" },
+  Fleisch: { example: "Er isst kein Fleisch.", exampleZh: "他不吃肉。", source: "Wortkarte 原创例句" },
+  Kartoffel: { example: "Die Kartoffeln sind noch heiß.", exampleZh: "土豆还很烫。", source: "Wortkarte 原创例句" },
+  Salz: { example: "Gib mir bitte das Salz.", exampleZh: "请把盐给我。", source: "Wortkarte 原创例句" },
+  Kuchen: { example: "Der Kuchen schmeckt gut.", exampleZh: "蛋糕很好吃。", source: "Wortkarte 原创例句" },
+  Tee: { example: "Möchtest du Tee oder Kaffee?", exampleZh: "你想喝茶还是咖啡？", source: "Wortkarte 原创例句" },
+  Reis: { example: "Wir essen Reis mit Gemüse.", exampleZh: "我们吃米饭配蔬菜。", source: "Wortkarte 原创例句" },
+  Kaffee: { example: "Ich trinke morgens Kaffee.", exampleZh: "我早上喝咖啡。", source: "Wortkarte 原创例句" },
+  Saft: { example: "Der Saft ist frisch gepresst.", exampleZh: "果汁是鲜榨的。", source: "Wortkarte 原创例句" },
+  Apfel: { example: "Sie isst einen Apfel.", exampleZh: "她吃一个苹果。", source: "Wortkarte 原创例句" },
+  Pfund: { example: "Ich kaufe ein Pfund Tomaten.", exampleZh: "我买一磅西红柿。", source: "Wortkarte 原创例句" },
+  klar: { example: "Die Antwort ist klar.", exampleZh: "答案很清楚。", source: "Wortkarte 原创例句" },
+  Butter: { example: "Die Butter ist im Kühlschrank.", exampleZh: "黄油在冰箱里。", source: "Wortkarte 原创例句" },
+  Tomate: { example: "Die Tomaten sind rot.", exampleZh: "西红柿是红的。", source: "Wortkarte 原创例句" },
+  Ei: { example: "Ich esse ein Ei zum Frühstück.", exampleZh: "我早餐吃一个鸡蛋。", source: "Wortkarte 原创例句" },
+  Fisch: { example: "Der Fisch ist frisch.", exampleZh: "鱼很新鲜。", source: "Wortkarte 原创例句" },
+  Brot: { example: "Ich kaufe Brot beim Bäcker.", exampleZh: "我在面包店买面包。", source: "Wortkarte 原创例句" },
+  Getränk: { example: "Welches Getränk möchten Sie?", exampleZh: "您想要什么饮料？", source: "Wortkarte 原创例句" },
+  Glas: { example: "Ein Glas Wasser, bitte.", exampleZh: "请来一杯水。", source: "Wortkarte 原创例句" },
+  Gramm: { example: "Das Fleisch wiegt 500 Gramm.", exampleZh: "肉重500克。", source: "Wortkarte 原创例句" },
+  Papier: { example: "Ich brauche ein Blatt Papier.", exampleZh: "我需要一张纸。", source: "Wortkarte 原创例句" },
+  Frage: { example: "Ich habe eine Frage.", exampleZh: "我有一个问题。", source: "Wortkarte 原创例句" },
+  leider: { example: "Leider habe ich keine Zeit.", exampleZh: "很遗憾我没时间。", source: "Wortkarte 原创例句" },
+  billig: { example: "Das ist zu billig.", exampleZh: "这太便宜了。", source: "Wortkarte 原创例句" },
+  zusammen: { example: "Wir lernen zusammen.", exampleZh: "我们一起学习。", source: "Wortkarte 原创例句" },
+  gerade: { example: "Ich bin gerade angekommen.", exampleZh: "我刚到。", source: "Wortkarte 原创例句" },
+  Kasse: { example: "Bitte zahlen Sie an der Kasse.", exampleZh: "请在收银台付款。", source: "Wortkarte 原创例句" },
+  wollen: { example: "Wir wollen ins Kino gehen.", exampleZh: "我们想去看电影。", source: "Wortkarte 原创例句" },
+  Plan: { example: "Was ist der Plan für heute?", exampleZh: "今天的计划是什么？", source: "Wortkarte 原创例句" },
+  müssen: { example: "Ich muss jetzt gehen.", exampleZh: "我现在得走了。", source: "Wortkarte 原创例句" },
+  dürfen: { example: "Darf ich hereinkommen?", exampleZh: "我可以进来吗？", source: "Wortkarte 原创例句" },
+  können: { example: "Kannst du schwimmen?", exampleZh: "你会游泳吗？", source: "Wortkarte 原创例句" },
+  sollen: { example: "Du sollst mehr schlafen.", exampleZh: "你应该多睡觉。", source: "Wortkarte 原创例句" },
+  rauchen: { example: "Hier darf man nicht rauchen.", exampleZh: "这里禁止吸烟。", source: "Wortkarte 原创例句" },
+  anrufen: { example: "Ich rufe dich später an.", exampleZh: "我晚点给你打电话。", source: "Wortkarte 原创例句" },
+  kochen: { example: "Sie kocht heute Suppe.", exampleZh: "她今天煮汤。", source: "Wortkarte 原创例句" },
+  Zigarette: { example: "Er raucht eine Zigarette.", exampleZh: "他抽一支烟。", source: "Wortkarte 原创例句" },
+  viel: { example: "Ich habe viel Arbeit.", exampleZh: "我有很多工作。", source: "Wortkarte 原创例句" },
+  Klasse: { example: "Die Klasse hat 25 Schüler.", exampleZh: "这个班有25名学生。", source: "Wortkarte 原创例句" },
+  Mensch: { example: "Der Mensch braucht Schlaf.", exampleZh: "人需要睡眠。", source: "Wortkarte 原创例句" },
+  Nachmittag: { example: "Am Nachmittag habe ich einen Termin.", exampleZh: "下午我有个约会。", source: "Wortkarte 原创例句" },
+  Praxis: { example: "Die Praxis öffnet um acht Uhr.", exampleZh: "诊所八点开门。", source: "Wortkarte 原创例句" },
+  telefonieren: { example: "Ich telefoniere mit meiner Mutter.", exampleZh: "我在和我妈妈打电话。", source: "Wortkarte 原创例句" },
+  Donnerstag: { example: "Am Donnerstag fahre ich nach Berlin.", exampleZh: "周四我去柏林。", source: "Wortkarte 原创例句" },
+  Vormittag: { example: "Am Vormittag arbeite ich.", exampleZh: "上午我工作。", source: "Wortkarte 原创例句" },
+  Montag: { example: "Der Kurs beginnt am Montag.", exampleZh: "课程周一开始。", source: "Wortkarte 原创例句" },
+  Morgen: { example: "Der Morgen ist kühl.", exampleZh: "早晨很凉。", source: "Wortkarte 原创例句" },
+  Mittag: { example: "Zu Mittag esse ich in der Kantine.", exampleZh: "中午我在食堂吃饭。", source: "Wortkarte 原创例句" },
+  Abend: { example: "Am Abend lese ich.", exampleZh: "晚上我读书。", source: "Wortkarte 原创例句" },
+  Kollege: { example: "Mein Kollege hilft mir.", exampleZh: "我的同事帮我。", source: "Wortkarte 原创例句" },
+  Kino: { example: "Wir gehen ins Kino.", exampleZh: "我们去看电影。", source: "Wortkarte 原创例句" },
+  Banane: { example: "Die Bananen sind reif.", exampleZh: "香蕉熟了。", source: "Wortkarte 原创例句" },
+  Salat: { example: "Ich esse einen grünen Salat.", exampleZh: "我吃一份蔬菜沙拉。", source: "Wortkarte 原创例句" },
+  Liter: { example: "Wir brauchen zwei Liter Wasser.", exampleZh: "我们需要两升水。", source: "Wortkarte 原创例句" },
+  Milliarde: { example: "Die Weltbevölkerung liegt über acht Milliarden.", exampleZh: "世界人口超过八十亿。", source: "Wortkarte 原创例句" },
+  Preis: { example: "Der Preis ist zu hoch.", exampleZh: "价格太高了。", source: "Wortkarte 原创例句" },
+  Wochenende: { example: "Am Wochenende fahren wir weg.", exampleZh: "周末我们出去。", source: "Wortkarte 原创例句" },
+  Angebot: { example: "Das Angebot gilt bis Freitag.", exampleZh: "优惠到周五有效。", source: "Wortkarte 原创例句" },
+  Durchsage: { example: "Die Durchsage war nicht klar.", exampleZh: "广播不清楚。", source: "Wortkarte 原创例句" },
+  Freitag: { example: "Am Freitag habe ich frei.", exampleZh: "周五我休息。", source: "Wortkarte 原创例句" },
+  empfehlen: { example: "Können Sie mir ein Gericht empfehlen?", exampleZh: "您能给我推荐一道菜吗？", source: "Wortkarte 原创例句" },
+  Party: { example: "Am Samstag machen wir eine Party.", exampleZh: "周六我们办派对。", source: "Wortkarte 原创例句" },
+  Problem: { example: "Das ist kein großes Problem.", exampleZh: "这不是大问题。", source: "Wortkarte 原创例句" },
+  halb: { example: "Ich komme um halb acht.", exampleZh: "我七点半来。", source: "Wortkarte 原创例句" },
+  Viertel: { example: "Ein Viertel der Klasse fehlt.", exampleZh: "四分之一的学生缺席。", source: "Wortkarte 原创例句" },
+  frühstücken: { example: "Wir frühstücken um sieben.", exampleZh: "我们七点吃早饭。", source: "Wortkarte 原创例句" },
+  Pause: { example: "Wir machen eine kurze Pause.", exampleZh: "我们休息一下。", source: "Wortkarte 原创例句" },
+  Test: { example: "Der Test war schwer.", exampleZh: "考试很难。", source: "Wortkarte 原创例句" },
+  ruhig: { example: "Das Zimmer ist ruhig.", exampleZh: "房间很安静。", source: "Wortkarte 原创例句" },
+  Fehler: { example: "Ich habe einen Fehler gemacht.", exampleZh: "我犯了一个错误。", source: "Wortkarte 原创例句" },
+  Wort: { example: "Das Wort kenne ich nicht.", exampleZh: "我不认识这个词。", source: "Wortkarte 原创例句" },
+  schließen: { example: "Bitte schließen Sie die Tür.", exampleZh: "请关门。", source: "Wortkarte 原创例句" },
+  immer: { example: "Er ist immer freundlich.", exampleZh: "他总是很友好。", source: "Wortkarte 原创例句" },
+  Sport: { example: "Ich mache dreimal pro Woche Sport.", exampleZh: "我每周运动三次。", source: "Wortkarte 原创例句" },
+  schlafen: { example: "Das Kind schläft schon.", exampleZh: "孩子已经睡了。", source: "Wortkarte 原创例句" },
+  Bitte: { example: "Ich habe eine Bitte.", exampleZh: "我有个请求。", source: "Wortkarte 原创例句" },
+  erklären: { example: "Können Sie das erklären?", exampleZh: "您能解释一下吗？", source: "Wortkarte 原创例句" },
+  laut: { example: "Die Musik ist zu laut.", exampleZh: "音乐太吵了。", source: "Wortkarte 原创例句" },
+  regnen: { example: "Es regnet seit gestern.", exampleZh: "从昨天起一直下雨。", source: "Wortkarte 原创例句" },
+  krank: { example: "Ich bin heute krank.", exampleZh: "我今天病了。", source: "Wortkarte 原创例句" },
+  Geburtstag: { example: "Mein Geburtstag ist im Mai.", exampleZh: "我的生日在五月。", source: "Wortkarte 原创例句" },
+  bestellen: { example: "Ich möchte eine Suppe bestellen.", exampleZh: "我想点一份汤。", source: "Wortkarte 原创例句" },
+  Bild: { example: "Das Bild hängt an der Wand.", exampleZh: "画挂在墙上。", source: "Wortkarte 原创例句" },
+  Stunde: { example: "Der Kurs dauert zwei Stunden.", exampleZh: "课程持续两小时。", source: "Wortkarte 原创例句" },
+  laufen: { example: "Ich laufe jeden Morgen.", exampleZh: "我每天早上跑步。", source: "Wortkarte 原创例句" },
+  heiraten: { example: "Sie heiraten im Sommer.", exampleZh: "他们夏天结婚。", source: "Wortkarte 原创例句" },
+  spät: { example: "Es ist schon spät.", exampleZh: "已经很晚了。", source: "Wortkarte 原创例句" },
+  benutzen: { example: "Darf ich dein Handy benutzen?", exampleZh: "我可以用你的手机吗？", source: "Wortkarte 原创例句" },
+  Sonntag: { example: "Am Sonntag ruhen wir uns aus.", exampleZh: "周日我们休息。", source: "Wortkarte 原创例句" },
+  Computer: { example: "Der Computer funktioniert nicht.", exampleZh: "电脑坏了。", source: "Wortkarte 原创例句" },
+  tanzen: { example: "Wir tanzen gern.", exampleZh: "我们喜欢跳舞。", source: "Wortkarte 原创例句" },
+  Wochentag: { example: "Welcher Wochentag ist heute?", exampleZh: "今天星期几？", source: "Wortkarte 原创例句" },
+  Mittwoch: { example: "Am Mittwoch habe ich einen Termin.", exampleZh: "周三我有个约会。", source: "Wortkarte 原创例句" },
+  Film: { example: "Der Film war spannend.", exampleZh: "电影很精彩。", source: "Wortkarte 原创例句" },
+  verkaufen: { example: "Sie verkaufen ihr altes Auto.", exampleZh: "他们卖掉旧车。", source: "Wortkarte 原创例句" },
+  Ausflug: { example: "Wir machen einen Ausflug an den See.", exampleZh: "我们去湖边郊游。", source: "Wortkarte 原创例句" },
+  Post: { example: "Die Post kommt um zehn Uhr.", exampleZh: "邮件十点到。", source: "Wortkarte 原创例句" },
+  schicken: { example: "Ich schicke dir ein Foto.", exampleZh: "我给你发一张照片。", source: "Wortkarte 原创例句" },
+  Adresse: { example: "Bitte schreiben Sie Ihre Adresse.", exampleZh: "请写下您的地址。", source: "Wortkarte 原创例句" },
+  Absender: { example: "Der Absender fehlt auf dem Brief.", exampleZh: "信上缺少寄件人。", source: "Wortkarte 原创例句" },
+  Empfänger: { example: "Der Empfänger wohnt in Bonn.", exampleZh: "收件人住在波恩。", source: "Wortkarte 原创例句" },
+  Schluss: { example: "Zum Schluss bedanke ich mich.", exampleZh: "最后我表示感谢。", source: "Wortkarte 原创例句" },
+  Handy: { example: "Ich habe ein neues Handy.", exampleZh: "我有一部新手机。", source: "Wortkarte 原创例句" },
+  Brief: { example: "Ich schreibe einen Brief.", exampleZh: "我在写信。", source: "Wortkarte 原创例句" },
+  "E-Mail": { example: "Ich schicke dir eine E-Mail.", exampleZh: "我给你发一封电子邮件。", source: "Wortkarte 原创例句" },
+  Restaurant: { example: "Das Restaurant ist heute voll.", exampleZh: "餐厅今天客满。", source: "Wortkarte 原创例句" },
+  Bahnhof: { example: "Der Bahnhof liegt im Zentrum.", exampleZh: "火车站在市中心。", source: "Wortkarte 原创例句" },
+  zurück: { example: "Ich komme gleich zurück.", exampleZh: "我马上回来。", source: "Wortkarte 原创例句" },
+  morgen: { example: "Morgen fahre ich nach Hamburg.", exampleZh: "明天我去汉堡。", source: "Wortkarte 原创例句" },
+  falsch: { example: "Die Antwort ist falsch.", exampleZh: "答案错了。", source: "Wortkarte 原创例句" },
+  Internet: { example: "Ich suche die Information im Internet.", exampleZh: "我在网上找信息。", source: "Wortkarte 原创例句" },
+  Fax: { example: "Bitte senden Sie das Formular per Fax.", exampleZh: "请通过传真发送表格。", source: "Wortkarte 原创例句" },
+  Postleitzahl: { example: "Wie lautet Ihre Postleitzahl?", exampleZh: "您的邮编是多少？", source: "Wortkarte 原创例句" },
+  Appartement: { example: "Wir mieten ein kleines Appartement.", exampleZh: "我们租一间小公寓。", source: "Wortkarte 原创例句" },
+  Ankunft: { example: "Die Ankunft ist für acht Uhr geplant.", exampleZh: "预计八点到达。", source: "Wortkarte 原创例句" },
+  Bank: { example: "Die Bank öffnet um neun Uhr.", exampleZh: "银行九点开门。", source: "Wortkarte 原创例句" },
+  automatisch: { example: "Die Tür schließt automatisch.", exampleZh: "门自动关闭。", source: "Wortkarte 原创例句" },
+  Telefon: { example: "Das Telefon klingelt.", exampleZh: "电话响了。", source: "Wortkarte 原创例句" },
+  abfahren: { example: "Der Zug fährt um zehn Uhr ab.", exampleZh: "火车十点出发。", source: "Wortkarte 原创例句" },
+  mitnehmen: { example: "Ich nehme einen Regenschirm mit.", exampleZh: "我带一把伞。", source: "Wortkarte 原创例句" },
+  Prüfung: { example: "Die Prüfung war schwer.", exampleZh: "考试很难。", source: "Wortkarte 原创例句" },
+  Ende: { example: "Am Ende des Films weinen alle.", exampleZh: "电影结尾大家都哭了。", source: "Wortkarte 原创例句" },
+  Hilfe: { example: "Danke für deine Hilfe.", exampleZh: "谢谢你的帮助。", source: "Wortkarte 原创例句" },
+  schmecken: { example: "Die Suppe schmeckt gut.", exampleZh: "汤很好喝。", source: "Wortkarte 原创例句" },
+  Geschenk: { example: "Das Geschenk ist für dich.", exampleZh: "这是给你的礼物。", source: "Wortkarte 原创例句" },
+  herzlich: { example: "Herzlichen Glückwunsch!", exampleZh: "衷心祝贺！", source: "Wortkarte 原创例句" },
+  Gast: { example: "Wir haben heute Gäste.", exampleZh: "我们今天有客人。", source: "Wortkarte 原创例句" },
+  Chef: { example: "Der Chef ist nicht da.", exampleZh: "老板不在。", source: "Wortkarte 原创例句" },
+  möglich: { example: "Ist das morgen möglich?", exampleZh: "明天可以吗？", source: "Wortkarte 原创例句" },
+  Hund: { example: "Der Hund bellt.", exampleZh: "狗在叫。", source: "Wortkarte 原创例句" },
+  Schuh: { example: "Die Schuhe sind zu klein.", exampleZh: "鞋太小了。", source: "Wortkarte 原创例句" },
+  feiern: { example: "Wir feiern heute Geburtstag.", exampleZh: "我们今天庆祝生日。", source: "Wortkarte 原创例句" },
+  sitzen: { example: "Wir sitzen im Garten.", exampleZh: "我们坐在花园里。", source: "Wortkarte 原创例句" },
+  Junge: { example: "Der Junge spielt Fußball.", exampleZh: "男孩在踢足球。", source: "Wortkarte 原创例句" },
+  Verwandte: { example: "Meine Verwandten kommen zu Besuch.", exampleZh: "我的亲戚来拜访。", source: "Wortkarte 原创例句" },
+  Café: { example: "Wir treffen uns im Café.", exampleZh: "我们在咖啡馆见面。", source: "Wortkarte 原创例句" },
+  Speisekarte: { example: "Die Speisekarte ist auf Deutsch.", exampleZh: "菜单是德语的。", source: "Wortkarte 原创例句" },
+  Rechnung: { example: "Die Rechnung, bitte.", exampleZh: "请结账。", source: "Wortkarte 原创例句" },
+  Reisebüro: { example: "Ich buche die Reise im Reisebüro.", exampleZh: "我在旅行社订旅行。", source: "Wortkarte 原创例句" },
+  anbieten: { example: "Sie bietet uns Kaffee an.", exampleZh: "她给我们提供咖啡。", source: "Wortkarte 原创例句" },
+  Lied: { example: "Das Lied ist schön.", exampleZh: "这首歌很美。", source: "Wortkarte 原创例句" },
+  Öl: { example: "Ich brauche Öl für den Salat.", exampleZh: "我需要沙拉油。", source: "Wortkarte 原创例句" },
+  Geburtsort: { example: "Mein Geburtsort ist Shanghai.", exampleZh: "我的出生地是上海。", source: "Wortkarte 原创例句" },
+  Familienstand: { example: "Bitte geben Sie Ihren Familienstand an.", exampleZh: "请注明婚姻状况。", source: "Wortkarte 原创例句" },
+  Januar: { example: "Im Januar schneit es oft.", exampleZh: "一月经常下雪。", source: "Wortkarte 原创例句" },
+  Februar: { example: "Der Februar ist kurz.", exampleZh: "二月很短。", source: "Wortkarte 原创例句" },
+  März: { example: "Im März beginnt der Frühling.", exampleZh: "三月春天开始。", source: "Wortkarte 原创例句" },
+  April: { example: "Im April regnet es viel.", exampleZh: "四月雨水多。", source: "Wortkarte 原创例句" },
+  Mai: { example: "Im Mai blühen die Blumen.", exampleZh: "五月花开。", source: "Wortkarte 原创例句" },
+  Juni: { example: "Im Juni fahren wir ans Meer.", exampleZh: "六月我们去海边。", source: "Wortkarte 原创例句" },
+  Juli: { example: "Der Juli ist sehr heiß.", exampleZh: "七月很热。", source: "Wortkarte 原创例句" },
+  August: { example: "Im August fahren wir in den Urlaub.", exampleZh: "八月我们去度假。", source: "Wortkarte 原创例句" },
+  September: { example: "Im September beginnt die Schule.", exampleZh: "九月开学。", source: "Wortkarte 原创例句" },
+  Oktober: { example: "Der Oktober ist oft mild.", exampleZh: "十月通常温和。", source: "Wortkarte 原创例句" },
+  November: { example: "Im November wird es früh dunkel.", exampleZh: "十一月天黑得早。", source: "Wortkarte 原创例句" },
+  Dezember: { example: "Im Dezember feiern wir Weihnachten.", exampleZh: "十二月我们庆祝圣诞节。", source: "Wortkarte 原创例句" },
+  Sommer: { example: "Der Sommer ist heiß.", exampleZh: "夏天很热。", source: "Wortkarte 原创例句" },
+  Winter: { example: "Im Winter schneit es.", exampleZh: "冬天会下雪。", source: "Wortkarte 原创例句" },
+  Frühling: { example: "Im Frühling blühen die Bäume.", exampleZh: "春天树木开花。", source: "Wortkarte 原创例句" },
+  Herbst: { example: "Im Herbst fallen die Blätter.", exampleZh: "秋天树叶落下。", source: "Wortkarte 原创例句" },
+  Jahr: { example: "Ich lerne seit einem Jahr Deutsch.", exampleZh: "我学德语一年了。", source: "Wortkarte 原创例句" },
+  international: { example: "Der Flughafen ist international.", exampleZh: "这个机场是国际的。", source: "Wortkarte 原创例句" },
+  Vorwahl: { example: "Wie lautet die Vorwahl von Berlin?", exampleZh: "柏林的区号是多少？", source: "Wortkarte 原创例句" },
+  bitten: { example: "Ich bitte dich um Hilfe.", exampleZh: "我请你帮忙。", source: "Wortkarte 原创例句" },
+  halten: { example: "Der Bus hält hier.", exampleZh: "公交车停这里。", source: "Wortkarte 原创例句" },
+  Stelle: { example: "Sie sucht eine neue Stelle.", exampleZh: "她在找新工作。", source: "Wortkarte 原创例句" },
+  Jacke: { example: "Die Jacke ist zu warm.", exampleZh: "这件夹克太热了。", source: "Wortkarte 原创例句" },
+  Farbe: { example: "Welche Farbe magst du?", exampleZh: "你喜欢什么颜色？", source: "Wortkarte 原创例句" },
+  rot: { example: "Die Rose ist rot.", exampleZh: "玫瑰是红色的。", source: "Wortkarte 原创例句" },
+  gelb: { example: "Die Sonne ist gelb.", exampleZh: "太阳是黄色的。", source: "Wortkarte 原创例句" },
+  blau: { example: "Der Himmel ist blau.", exampleZh: "天空是蓝色的。", source: "Wortkarte 原创例句" },
+  grün: { example: "Das Gras ist grün.", exampleZh: "草是绿色的。", source: "Wortkarte 原创例句" },
+  braun: { example: "Der Hund ist braun.", exampleZh: "狗是棕色的。", source: "Wortkarte 原创例句" },
+  schwarz: { example: "Die Katze ist schwarz.", exampleZh: "猫是黑色的。", source: "Wortkarte 原创例句" },
+  weiß: { example: "Der Schnee ist weiß.", exampleZh: "雪是白色的。", source: "Wortkarte 原创例句" },
+  grau: { example: "Der Himmel ist grau.", exampleZh: "天空是灰色的。", source: "Wortkarte 原创例句" },
+  hell: { example: "Das Zimmer ist hell.", exampleZh: "房间很亮。", source: "Wortkarte 原创例句" },
+  lang: { example: "Der Film ist zu lang.", exampleZh: "电影太长。", source: "Wortkarte 原创例句" },
+  hoch: { example: "Der Turm ist sehr hoch.", exampleZh: "塔很高。", source: "Wortkarte 原创例句" },
+  schwer: { example: "Die Tasche ist schwer.", exampleZh: "包很重。", source: "Wortkarte 原创例句" },
+  leicht: { example: "Die Aufgabe ist leicht.", exampleZh: "任务很简单。", source: "Wortkarte 原创例句" },
+  duschen: { example: "Ich dusche jeden Morgen.", exampleZh: "我每天早上洗澡。", source: "Wortkarte 原创例句" },
+  Fieber: { example: "Das Kind hat Fieber.", exampleZh: "孩子发烧了。", source: "Wortkarte 原创例句" },
+  anziehen: { example: "Zieh deine Jacke an.", exampleZh: "穿上你的夹克。", source: "Wortkarte 原创例句" },
+  Haar: { example: "Sie hat lange Haare.", exampleZh: "她留着长发。", source: "Wortkarte 原创例句" },
+  Größe: { example: "Welche Größe brauchen Sie?", exampleZh: "您需要什么尺码？", source: "Wortkarte 原创例句" },
+  Auge: { example: "Sie hat blaue Augen.", exampleZh: "她有一双蓝眼睛。", source: "Wortkarte 原创例句" },
+  Mund: { example: "Öffne den Mund, bitte.", exampleZh: "请张开嘴。", source: "Wortkarte 原创例句" },
+  kulturell: { example: "Das ist ein kulturelles Zentrum.", exampleZh: "这是一个文化中心。", source: "Wortkarte 原创例句" },
+  bekannt: { example: "Der Ort ist bekannt für seinen Wein.", exampleZh: "这个地方以葡萄酒闻名。", source: "Wortkarte 原创例句" },
+  baden: { example: "Die Kinder baden im See.", exampleZh: "孩子们在湖里游泳。", source: "Wortkarte 原创例句" },
+  Miete: { example: "Die Miete ist in der Stadt hoch.", exampleZh: "城里的房租很高。", source: "Wortkarte 原创例句" },
+  Möbel: { example: "Die Möbel sind neu.", exampleZh: "家具是新的。", source: "Wortkarte 原创例句" },
+  Kühlschrank: { example: "Der Kühlschrank ist leer.", exampleZh: "冰箱空了。", source: "Wortkarte 原创例句" },
+  Herd: { example: "Der Herd ist noch warm.", exampleZh: "炉子还热着。", source: "Wortkarte 原创例句" },
+  Schrank: { example: "Die Kleidung liegt im Schrank.", exampleZh: "衣服在柜子里。", source: "Wortkarte 原创例句" },
+  Teppich: { example: "Der Teppich ist weich.", exampleZh: "地毯很软。", source: "Wortkarte 原创例句" },
+  Lampe: { example: "Die Lampe ist kaputt.", exampleZh: "灯坏了。", source: "Wortkarte 原创例句" },
+  Vorhang: { example: "Zieh bitte den Vorhang zu.", exampleZh: "请拉上窗帘。", source: "Wortkarte 原创例句" },
+  Nachbar: { example: "Mein Nachbar ist freundlich.", exampleZh: "我的邻居很友好。", source: "Wortkarte 原创例句" },
+  Umzug: { example: "Der Umzug war anstrengend.", exampleZh: "搬家很累。", source: "Wortkarte 原创例句" },
+  Briefmarke: { example: "Ich brauche eine Briefmarke.", exampleZh: "我需要一张邮票。", source: "Wortkarte 原创例句" },
+  "E-Mail": { example: "Ich schreibe eine E-Mail.", exampleZh: "我在写电子邮件。", source: "Wortkarte 原创例句" },
+  Anzeige: { example: "Die Anzeige steht in der Zeitung.", exampleZh: "广告登在报纸上。", source: "Wortkarte 原创例句" },
+  legen: { example: "Leg das Buch auf den Tisch.", exampleZh: "把书放在桌上。", source: "Wortkarte 原创例句" },
+  stellen: { example: "Stell die Flasche in den Kühlschrank.", exampleZh: "把瓶子放进冰箱。", source: "Wortkarte 原创例句" },
+  Ecke: { example: "Das Café ist an der Ecke.", exampleZh: "咖啡馆在拐角。", source: "Wortkarte 原创例句" },
+  günstig: { example: "Das Hotel ist günstig.", exampleZh: "这家酒店便宜。", source: "Wortkarte 原创例句" },
+  zufrieden: { example: "Ich bin mit dem Ergebnis zufrieden.", exampleZh: "我对结果满意。", source: "Wortkarte 原创例句" },
+  ausziehen: { example: "Wir ziehen nächsten Monat aus.", exampleZh: "我们下个月搬走。", source: "Wortkarte 原创例句" },
+  glauben: { example: "Ich glaube dir.", exampleZh: "我相信你。", source: "Wortkarte 原创例句" },
+  "E-Mail": { example: "Ich schreibe eine E-Mail.", exampleZh: "我在写电子邮件。", source: "Wortkarte 原创例句" },
+  Reparatur: { example: "Die Reparatur kostet 80 Euro.", exampleZh: "维修要80欧。", source: "Wortkarte 原创例句" },
+  gewinnen: { example: "Sie gewinnt den Wettbewerb.", exampleZh: "她赢得比赛。", source: "Wortkarte 原创例句" },
+  lustig: { example: "Der Film ist lustig.", exampleZh: "电影很有趣。", source: "Wortkarte 原创例句" },
+  Sehenswürdigkeit: { example: "Der Dom ist eine Sehenswürdigkeit.", exampleZh: "大教堂是一处景点。", source: "Wortkarte 原创例句" },
+  aus: { example: "Der Kurs ist aus.", exampleZh: "课程结束了。", source: "Wortkarte 原创例句" },
+  Thema: { example: "Das Thema ist kompliziert.", exampleZh: "这个话题很复杂。", source: "Wortkarte 原创例句" },
+  Querstraße: { example: "Die Querstraße ist gesperrt.", exampleZh: "横街被封了。", source: "Wortkarte 原创例句" },
+  geradeaus: { example: "Gehen Sie geradeaus.", exampleZh: "一直往前走。", source: "Wortkarte 原创例句" },
+  Standort: { example: "Der Standort ist günstig.", exampleZh: "位置很好。", source: "Wortkarte 原创例句" },
+  Zebrastreifen: { example: "Über den Zebrastreifen gehen.", exampleZh: "走人行横道。", source: "Wortkarte 原创例句" },
+  übernächst: { example: "Wir treffen uns übernächste Woche.", exampleZh: "我们下下周见。", source: "Wortkarte 原创例句" },
+  Kreuzung: { example: "An der Kreuzung links abbiegen.", exampleZh: "在路口左转。", source: "Wortkarte 原创例句" },
+  Gehweg: { example: "Der Gehweg ist frei.", exampleZh: "人行道畅通。", source: "Wortkarte 原创例句" },
+  Fahrradweg: { example: "Der Fahrradweg ist neu.", exampleZh: "自行车道是新的。", source: "Wortkarte 原创例句" },
+  "sich freuen": { example: "Ich freue mich auf den Urlaub.", exampleZh: "我期待假期。", source: "Wortkarte 原创例句" },
+  "sich langweilen": { example: "Die Kinder langweilen sich.", exampleZh: "孩子们觉得无聊。", source: "Wortkarte 原创例句" },
+  "sich kämmen": { example: "Sie kämmt sich vor dem Spiegel.", exampleZh: "她在镜子前梳头。", source: "Wortkarte 原创例句" },
+  "sich rasieren": { example: "Er rasiert sich jeden Morgen.", exampleZh: "他每天早上刮胡子。", source: "Wortkarte 原创例句" },
+  "sich freuen": { example: "Ich freue mich auf den Urlaub.", exampleZh: "我期待假期。", source: "Wortkarte 原创例句" },
+  "sich langweilen": { example: "Die Kinder langweilen sich.", exampleZh: "孩子们觉得无聊。", source: "Wortkarte 原创例句" },
+  "sich kämmen": { example: "Sie kämmt sich vor dem Spiegel.", exampleZh: "她在镜子前梳头。", source: "Wortkarte 原创例句" },
+  "sich verspäten": { example: "Der Zug verspätet sich.", exampleZh: "火车晚点。", source: "Wortkarte 原创例句" },
+  "sich auskennen": { example: "Ich kenne mich hier aus.", exampleZh: "我熟悉这里。", source: "Wortkarte 原创例句" },
+  "sich bedanken": { example: "Ich bedanke mich für die Hilfe.", exampleZh: "我感谢帮助。", source: "Wortkarte 原创例句" },
+  "sich bewerben": { example: "Sie bewirbt sich um die Stelle.", exampleZh: "她申请这个职位。", source: "Wortkarte 原创例句" },
+  "sich erholen": { example: "Wir erholen uns am Meer.", exampleZh: "我们在海边休息。", source: "Wortkarte 原创例句" },
+  "sich erkundigen": { example: "Ich erkundige mich nach dem Preis.", exampleZh: "我询问价格。", source: "Wortkarte 原创例句" },
+  "sich umsehen": { example: "Sie sieht sich im Museum um.", exampleZh: "她在博物馆参观。", source: "Wortkarte 原创例句" },
+  "sich verlaufen": { example: "Wir haben uns verlaufen.", exampleZh: "我们迷路了。", source: "Wortkarte 原创例句" },
+  "sich verlieben": { example: "Er verliebt sich in sie.", exampleZh: "他爱上她。", source: "Wortkarte 原创例句" },
+  "sich streiten": { example: "Die Kinder streiten sich.", exampleZh: "孩子们在吵架。", source: "Wortkarte 原创例句" },
+  Dom: { example: "Der Dom ist sehr alt.", exampleZh: "大教堂很古老。", source: "Wortkarte 原创例句" },
+  Stadtplan: { example: "Ich brauche einen Stadtplan.", exampleZh: "我需要一张城市地图。", source: "Wortkarte 原创例句" },
+  fremd: { example: "Ich bin hier fremd.", exampleZh: "我在这里是外地人。", source: "Wortkarte 原创例句" },
+  Stadtzentrum: { example: "Wir wohnen im Stadtzentrum.", exampleZh: "我们住在市中心。", source: "Wortkarte 原创例句" },
+  dorthin: { example: "Wie komme ich dorthin?", exampleZh: "我怎么去那里？", source: "Wortkarte 原创例句" },
+  Passantin: { example: "Eine Passantin hilft mir.", exampleZh: "一位女路人帮我。", source: "Wortkarte 原创例句" },
+  Rathaus: { example: "Das Rathaus ist am Markt.", exampleZh: "市政厅在市场旁。", source: "Wortkarte 原创例句" },
+  Bahnhofsplatz: { example: "Der Bus hält am Bahnhofsplatz.", exampleZh: "公交停在火车站广场。", source: "Wortkarte 原创例句" },
+  Linie: { example: "Nehmen Sie die Linie 5.", exampleZh: "请乘5路。", source: "Wortkarte 原创例句" },
+  entlanggehen: { example: "Gehen Sie die Straße entlang.", exampleZh: "沿着这条街走。", source: "Wortkarte 原创例句" },
+  Spielcasino: { example: "Er spielt im Spielcasino.", exampleZh: "他在赌场玩。", source: "Wortkarte 原创例句" },
+  Verzeihung: { example: "Verzeihung, ich habe Sie nicht verstanden.", exampleZh: "对不起，我没听懂。", source: "Wortkarte 原创例句" },
+  einfach: { example: "Die Aufgabe ist einfach.", exampleZh: "任务简单。", source: "Wortkarte 原创例句" },
+  "S-Bahnstation": { example: "Die S-Bahnstation ist nah.", exampleZh: "城铁站很近。", source: "Wortkarte 原创例句" },
+  einsteigen: { example: "Bitte einsteigen.", exampleZh: "请上车。", source: "Wortkarte 原创例句" },
+  aussteigen: { example: "Wir steigen am Hauptbahnhof aus.", exampleZh: "我们在中央车站下车。", source: "Wortkarte 原创例句" },
+  Weihnachtsgeschenk: { example: "Das Weihnachtsgeschenk ist versteckt.", exampleZh: "圣诞礼物藏起来了。", source: "Wortkarte 原创例句" },
+  Tischtennis: { example: "Wir spielen Tischtennis.", exampleZh: "我们打乒乓球。", source: "Wortkarte 原创例句" },
+  Turnier: { example: "Das Turnier beginnt um neun.", exampleZh: "比赛九点开始。", source: "Wortkarte 原创例句" },
+  Abfahrtszeit: { example: "Die Abfahrtszeit steht auf dem Plan.", exampleZh: "发车时间写在牌上。", source: "Wortkarte 原创例句" },
+  hoffentlich: { example: "Hoffentlich kommt er.", exampleZh: "希望他来。", source: "Wortkarte 原创例句" },
+  Kiosk: { example: "Am Kiosk kaufe ich Zeitungen.", exampleZh: "我在报刊亭买报纸。", source: "Wortkarte 原创例句" },
+  Fahrkartenautomat: { example: "Der Fahrkartenautomat ist kaputt.", exampleZh: "售票机坏了。", source: "Wortkarte 原创例句" },
+  Einzelfahrkarte: { example: "Ich brauche eine Einzelfahrkarte.", exampleZh: "我需要一张单程票。", source: "Wortkarte 原创例句" },
+  Streifenkarte: { example: "Die Streifenkarte gilt mehrere Fahrten.", exampleZh: "条纹票可用于多次乘车。", source: "Wortkarte 原创例句" },
+  wählen: { example: "Wählen Sie eine Nummer.", exampleZh: "请选一个号码。", source: "Wortkarte 原创例句" },
+  gültig: { example: "Der Pass ist noch gültig.", exampleZh: "护照还有效。", source: "Wortkarte 原创例句" },
+  gelten: { example: "Die Regel gilt ab morgen.", exampleZh: "规则明天起生效。", source: "Wortkarte 原创例句" },
+  beliebig: { example: "Wählen Sie einen beliebigen Termin.", exampleZh: "请任选一个时间。", source: "Wortkarte 原创例句" },
+  Erwachsene: { example: "Erwachsene zahlen mehr.", exampleZh: "成人付更多。", source: "Wortkarte 原创例句" },
+  Zone: { example: "Die Zone ist gebührenpflichtig.", exampleZh: "该区域收费。", source: "Wortkarte 原创例句" },
+  egal: { example: "Das ist mir egal.", exampleZh: "我无所谓。", source: "Wortkarte 原创例句" },
+  Empfehlung: { example: "Danke für die Empfehlung.", exampleZh: "谢谢推荐。", source: "Wortkarte 原创例句" },
+  Sportart: { example: "Welche Sportart magst du?", exampleZh: "你喜欢哪种运动？", source: "Wortkarte 原创例句" },
+  treiben: { example: "Ich treibe jeden Tag Sport.", exampleZh: "我每天运动。", source: "Wortkarte 原创例句" },
+  Tennisspielerin: { example: "Sie ist Tennisspielerin.", exampleZh: "她是网球运动员。", source: "Wortkarte 原创例句" },
+  Turnen: { example: "Turnen ist ihre Lieblingssportart.", exampleZh: "体操是她最喜欢的运动。", source: "Wortkarte 原创例句" },
+  turnen: { example: "Die Kinder turnen in der Halle.", exampleZh: "孩子们在体育馆做体操。", source: "Wortkarte 原创例句" },
+  Leichtathletik: { example: "Leichtathletik umfasst Laufen, Springen und Werfen.", exampleZh: "田径包括跑、跳、投。", source: "Wortkarte 原创例句" },
+  springen: { example: "Er springt über den Zaun.", exampleZh: "他跳过栅栏。", source: "Wortkarte 原创例句" },
+  Sporthalle: { example: "Die Sporthalle ist geschlossen.", exampleZh: "体育馆关闭。", source: "Wortkarte 原创例句" },
+  nie: { example: "Ich war nie in Berlin.", exampleZh: "我从没去过柏林。", source: "Wortkarte 原创例句" },
+  unbegrenzt: { example: "Die Karte ist unbegrenzt gültig.", exampleZh: "这张卡无限期有效。", source: "Wortkarte 原创例句" },
+  mehrmals: { example: "Ich habe mehrmals angerufen.", exampleZh: "我打了好几次电话。", source: "Wortkarte 原创例句" },
+  entwerten: { example: "Bitte entwerten Sie die Fahrkarte.", exampleZh: "请给车票打孔。", source: "Wortkarte 原创例句" },
+  Entfernung: { example: "Die Entfernung beträgt fünf Kilometer.", exampleZh: "距离五公里。", source: "Wortkarte 原创例句" },
+  Entwerter: { example: "Der Entwerter ist am Eingang.", exampleZh: "打票机在入口。", source: "Wortkarte 原创例句" },
+  beantragen: { example: "Ich möchte ein Visum beantragen.", exampleZh: "我想申请签证。", source: "Wortkarte 原创例句" },
+  Passfoto: { example: "Ich brauche ein Passfoto.", exampleZh: "我需要一张护照照片。", source: "Wortkarte 原创例句" },
+  Marke: { example: "Die Marke kostet zwei Euro.", exampleZh: "邮票两欧。", source: "Wortkarte 原创例句" },
+  verbilligt: { example: "Die Karte ist verbilligt.", exampleZh: "这张票打折。", source: "Wortkarte 原创例句" },
+  abgeben: { example: "Ich gebe das Paket ab.", exampleZh: "我交包裹。", source: "Wortkarte 原创例句" },
+  Schadenersatz: { example: "Er fordert Schadenersatz.", exampleZh: "他要求赔偿。", source: "Wortkarte 原创例句" },
+  umweltfreundlich: { example: "Das ist umweltfreundlich.", exampleZh: "这很环保。", source: "Wortkarte 原创例句" },
+  Kontrolleurin: { example: "Die Kontrolleurin prüft die Tickets.", exampleZh: "女查票员查票。", source: "Wortkarte 原创例句" },
+  Fahrschein: { example: "Ich habe keinen Fahrschein.", exampleZh: "我没有车票。", source: "Wortkarte 原创例句" },
+  sonst: { example: "Sonst noch etwas?", exampleZh: "还要别的吗？", source: "Wortkarte 原创例句" },
+  Strafe: { example: "Das kostet eine Strafe.", exampleZh: "这会罚款。", source: "Wortkarte 原创例句" },
+  Turnern: { example: "Die Turnern trainieren.", exampleZh: "体操运动员训练。", source: "Wortkarte 原创例句" },
+  Leichtathlet: { example: "Er ist Leichtathlet.", exampleZh: "他是田径运动员。", source: "Wortkarte 原创例句" },
+  Freizeitbeschäftigung: { example: "Sport ist meine Freizeitbeschäftigung.", exampleZh: "运动是我的休闲活动。", source: "Wortkarte 原创例句" },
+  Verein: { example: "Ich bin in einem Verein.", exampleZh: "我参加一个协会。", source: "Wortkarte 原创例句" },
+  Mitglied: { example: "Er ist Mitglied im Club.", exampleZh: "他是俱乐部成员。", source: "Wortkarte 原创例句" },
+  Deutsche: { example: "Der Deutsche trinkt gern Kaffee.", exampleZh: "这个德国人爱喝咖啡。", source: "Wortkarte 原创例句" },
+  Bundesliga: { example: "Die Bundesliga beginnt im August.", exampleZh: "德甲八月开始。", source: "Wortkarte 原创例句" },
+  populär: { example: "Der Sport ist populär.", exampleZh: "这项运动很受欢迎。", source: "Wortkarte 原创例句" },
+  Windsurfen: { example: "Windsurfen macht Spaß.", exampleZh: "风帆冲浪很有趣。", source: "Wortkarte 原创例句" },
+  Gefahr: { example: "Es besteht keine Gefahr.", exampleZh: "没有危险。", source: "Wortkarte 原创例句" },
+  Spannung: { example: "Die Spannung steigt.", exampleZh: "紧张感上升。", source: "Wortkarte 原创例句" },
+  körperlich: { example: "Die Arbeit ist körperlich.", exampleZh: "这是体力工作。", source: "Wortkarte 原创例句" },
+  Stadion: { example: "Das Stadion ist voll.", exampleZh: "体育场满座。", source: "Wortkarte 原创例句" },
+  spannend: { example: "Das Spiel ist spannend.", exampleZh: "比赛很紧张。", source: "Wortkarte 原创例句" },
+  Jubel: { example: "Der Jubel war groß.", exampleZh: "欢呼声很大。", source: "Wortkarte 原创例句" },
+  Atmosphäre: { example: "Die Atmosphäre ist gut.", exampleZh: "气氛很好。", source: "Wortkarte 原创例句" },
+  bequem: { example: "Der Stuhl ist bequem.", exampleZh: "椅子很舒服。", source: "Wortkarte 原创例句" },
+  Einkommen: { example: "Das Einkommen ist niedrig.", exampleZh: "收入低。", source: "Wortkarte 原创例句" },
+  jubeln: { example: "Die Fans jubeln.", exampleZh: "球迷欢呼。", source: "Wortkarte 原创例句" },
+  Club: { example: "Der Club hat gewonnen.", exampleZh: "俱乐部赢了。", source: "Wortkarte 原创例句" },
+  Sieg: { example: "Der Sieg war knapp.", exampleZh: "胜利很险。", source: "Wortkarte 原创例句" },
+  einsam: { example: "Er fühlt sich einsam.", exampleZh: "他感到孤独。", source: "Wortkarte 原创例句" },
+  Flur: { example: "Der Flur ist schmal.", exampleZh: "走廊很窄。", source: "Wortkarte 原创例句" },
+  Keller: { example: "Der Keller ist feucht.", exampleZh: "地下室潮湿。", source: "Wortkarte 原创例句" },
+  Dach: { example: "Das Dach ist alt.", exampleZh: "屋顶旧了。", source: "Wortkarte 原创例句" },
+  Treppe: { example: "Die Treppe ist steil.", exampleZh: "楼梯很陡。", source: "Wortkarte 原创例句" },
+  Schlüssel: { example: "Ich habe den Schlüssel verloren.", exampleZh: "我丢了钥匙。", source: "Wortkarte 原创例句" },
+  Klingel: { example: "Die Klingel ist kaputt.", exampleZh: "门铃坏了。", source: "Wortkarte 原创例句" },
+  Briefkasten: { example: "Der Briefkasten ist leer.", exampleZh: "信箱空了。", source: "Wortkarte 原创例句" },
+  Mülleimer: { example: "Der Mülleimer ist voll.", exampleZh: "垃圾桶满了。", source: "Wortkarte 原创例句" },
+  Steckdose: { example: "Die Steckdose ist kaputt.", exampleZh: "插座坏了。", source: "Wortkarte 原创例句" },
+  Gardine: { example: "Die Gardine ist weiß.", exampleZh: "窗帘是白的。", source: "Wortkarte 原创例句" },
+  Tafel: { example: "Der Lehrer schreibt an die Tafel.", exampleZh: "老师在黑板上写字。", source: "Wortkarte 原创例句" },
+  Note: { example: "Sie hat eine gute Note.", exampleZh: "她成绩很好。", source: "Wortkarte 原创例句" },
+  Lehrerin: { example: "Die Lehrerin erklärt die Grammatik.", exampleZh: "女老师讲解语法。", source: "Wortkarte 原创例句" },
+  Antwort: { example: "Die Antwort ist richtig.", exampleZh: "答案正确。", source: "Wortkarte 原创例句" },
+  Kreide: { example: "Die Kreide ist leer.", exampleZh: "粉笔用完了。", source: "Wortkarte 原创例句" },
+  Schulhof: { example: "Die Kinder spielen auf dem Schulhof.", exampleZh: "孩子们在校园玩。", source: "Wortkarte 原创例句" },
+  Woche: { example: "Die Woche ist schnell vorbei.", exampleZh: "一周很快过去。", source: "Wortkarte 原创例句" },
+  Monat: { example: "Der Monat hat 30 Tage.", exampleZh: "这个月有30天。", source: "Wortkarte 原创例句" },
+  Zeugnis: { example: "Das Zeugnis kommt morgen.", exampleZh: "成绩单明天到。", source: "Wortkarte 原创例句" },
+  Diktat: { example: "Wir schreiben ein Diktat.", exampleZh: "我们做听写。", source: "Wortkarte 原创例句" },
+  Onkel: { example: "Mein Onkel wohnt in Hamburg.", exampleZh: "我叔叔住在汉堡。", source: "Wortkarte 原创例句" },
+  Tante: { example: "Meine Tante kommt zu Besuch.", exampleZh: "我姑妈来拜访。", source: "Wortkarte 原创例句" },
+  Cousin: { example: "Mein Cousin ist jünger.", exampleZh: "我表弟更年轻。", source: "Wortkarte 原创例句" },
+  Cousine: { example: "Meine Cousine studiert Medizin.", exampleZh: "我表姐学医。", source: "Wortkarte 原创例句" },
+  Enkel: { example: "Der Enkel spielt mit Opa.", exampleZh: "孙子跟爷爷玩。", source: "Wortkarte 原创例句" },
+  Schwiegermutter: { example: "Meine Schwiegermutter kocht gut.", exampleZh: "我岳母做饭好。", source: "Wortkarte 原创例句" },
+  Neffe: { example: "Mein Neffe ist fünf.", exampleZh: "我侄子五岁。", source: "Wortkarte 原创例句" },
+  Nichte: { example: "Meine Nichte singt gern.", exampleZh: "我侄女爱唱歌。", source: "Wortkarte 原创例句" },
+  Eltern: { example: "Meine Eltern wohnen in Berlin.", exampleZh: "我父母住柏林。", source: "Wortkarte 原创例句" },
+  Geschwister: { example: "Ich habe zwei Geschwister.", exampleZh: "我有两个兄弟姐妹。", source: "Wortkarte 原创例句" },
+  Suppe: { example: "Die Suppe ist heiß.", exampleZh: "汤很热。", source: "Wortkarte 原创例句" },
+  Nudeln: { example: "Die Kinder mögen Nudeln.", exampleZh: "孩子们喜欢面条。", source: "Wortkarte 原创例句" },
+  Käse: { example: "Der Käse kommt aus der Schweiz.", exampleZh: "奶酪来自瑞士。", source: "Wortkarte 原创例句" },
+  schneiden: { example: "Schneide das Brot.", exampleZh: "切面包。", source: "Wortkarte 原创例句" },
+  backen: { example: "Ich backe einen Kuchen.", exampleZh: "我烤蛋糕。", source: "Wortkarte 原创例句" },
+  braten: { example: "Wir braten das Fleisch.", exampleZh: "我们煎肉。", source: "Wortkarte 原创例句" },
+  mischen: { example: "Mische die Zutaten.", exampleZh: "混合原料。", source: "Wortkarte 原创例句" },
+  schälen: { example: "Ich schäle die Kartoffeln.", exampleZh: "我削土豆皮。", source: "Wortkarte 原创例句" },
+  servieren: { example: "Wir servieren um sieben.", exampleZh: "我们七点上菜。", source: "Wortkarte 原创例句" },
+  probieren: { example: "Probieren Sie den Kuchen.", exampleZh: "尝尝蛋糕。", source: "Wortkarte 原创例句" },
+  Haltestelle: { example: "Die Haltestelle ist dort.", exampleZh: "车站在那边。", source: "Wortkarte 原创例句" },
+  Fahrplan: { example: "Der Fahrplan hängt am Gleis.", exampleZh: "时刻表挂在站台。", source: "Wortkarte 原创例句" },
+  Verspätung: { example: "Der Zug hat Verspätung.", exampleZh: "火车晚点。", source: "Wortkarte 原创例句" },
+  Gleis: { example: "Der Zug fährt auf Gleis 3.", exampleZh: "火车在3站台。", source: "Wortkarte 原创例句" },
+  Ticket: { example: "Ich kaufe ein Ticket.", exampleZh: "我买票。", source: "Wortkarte 原创例句" },
+  Reise: { example: "Die Reise dauert zwei Wochen.", exampleZh: "旅行两周。", source: "Wortkarte 原创例句" },
+  Urlaub: { example: "Wir fahren in den Urlaub.", exampleZh: "我们去度假。", source: "Wortkarte 原创例句" },
+  Abfahrt: { example: "Die Abfahrt ist um acht.", exampleZh: "八点出发。", source: "Wortkarte 原创例句" },
+  Ankunft: { example: "Die Ankunft ist um zehn.", exampleZh: "十点到达。", source: "Wortkarte 原创例句" },
+  Umstieg: { example: "Der Umstieg ist in Köln.", exampleZh: "在科隆换乘。", source: "Wortkarte 原创例句" },
+  Arbeit: { example: "Die Arbeit macht Spaß.", exampleZh: "工作有趣。", source: "Wortkarte 原创例句" },
+  Büro: { example: "Das Büro ist im dritten Stock.", exampleZh: "办公室在三楼。", source: "Wortkarte 原创例句" },
+  Gehalt: { example: "Das Gehalt ist gut.", exampleZh: "工资不错。", source: "Wortkarte 原创例句" },
+  Vertrag: { example: "Ich unterschreibe den Vertrag.", exampleZh: "我签合同。", source: "Wortkarte 原创例句" },
+  Bewerbung: { example: "Ich schreibe eine Bewerbung.", exampleZh: "我写求职信。", source: "Wortkarte 原创例句" },
+  Lebenslauf: { example: "Der Lebenslauf ist zwei Seiten lang.", exampleZh: "简历两页。", source: "Wortkarte 原创例句" },
+  Vorstellungsgespräch: { example: "Das Vorstellungsgespräch ist morgen.", exampleZh: "面试明天。", source: "Wortkarte 原创例句" },
+  Feierabend: { example: "Endlich Feierabend!", exampleZh: "终于下班了！", source: "Wortkarte 原创例句" },
+  Überstunde: { example: "Ich mache heute Überstunden.", exampleZh: "我今天加班。", source: "Wortkarte 原创例句" },
+  Kollegin: { example: "Meine Kollegin ist krank.", exampleZh: "我女同事病了。", source: "Wortkarte 原创例句" },
+  Trainer: { example: "Der Trainer erklärt die Taktik.", exampleZh: "教练讲解战术。", source: "Wortkarte 原创例句" },
+  Mannschaft: { example: "Die Mannschaft spielt gut.", exampleZh: "球队踢得好。", source: "Wortkarte 原创例句" },
+  Spieler: { example: "Der Spieler ist verletzt.", exampleZh: "球员受伤。", source: "Wortkarte 原创例句" },
+  Tor: { example: "Er schießt ein Tor.", exampleZh: "他进一球。", source: "Wortkarte 原创例句" },
+  Halbzeit: { example: "In der Halbzeit gibt es Tee.", exampleZh: "中场休息有茶。", source: "Wortkarte 原创例句" },
+  Schiedsrichter: { example: "Der Schiedsrichter pfeift.", exampleZh: "裁判吹哨。", source: "Wortkarte 原创例句" },
+  Foul: { example: "Das war ein Foul.", exampleZh: "那是犯规。", source: "Wortkarte 原创例句" },
+  Elfmeter: { example: "Der Elfmeter war erfolgreich.", exampleZh: "点球成功。", source: "Wortkarte 原创例句" },
+  Meisterschaft: { example: "Die Meisterschaft ist entschieden.", exampleZh: "冠军已定。", source: "Wortkarte 原创例句" },
+  Punkt: { example: "Die Mannschaft holt drei Punkte.", exampleZh: "球队拿三分。", source: "Wortkarte 原创例句" },
+  Wald: { example: "Der Wald ist ruhig.", exampleZh: "森林很安静。", source: "Wortkarte 原创例句" },
+  Berg: { example: "Der Berg ist hoch.", exampleZh: "山很高。", source: "Wortkarte 原创例句" },
+  See: { example: "Der See ist tief.", exampleZh: "湖很深。", source: "Wortkarte 原创例句" },
+  Fluss: { example: "Der Fluss fließt durch die Stadt.", exampleZh: "河流穿过城市。", source: "Wortkarte 原创例句" },
+  Tal: { example: "Das Tal ist grün.", exampleZh: "山谷是绿的。", source: "Wortkarte 原创例句" },
+  Wiese: { example: "Die Wiese ist nass.", exampleZh: "草地湿。", source: "Wortkarte 原创例句" },
+  Baum: { example: "Der Baum ist alt.", exampleZh: "树很老。", source: "Wortkarte 原创例句" },
+  Blume: { example: "Die Blume riecht gut.", exampleZh: "花很香。", source: "Wortkarte 原创例句" },
+  Luft: { example: "Die Luft ist frisch.", exampleZh: "空气清新。", source: "Wortkarte 原创例句" },
+  Sonne: { example: "Die Sonne scheint.", exampleZh: "阳光照耀。", source: "Wortkarte 原创例句" },
+  Regen: { example: "Der Regen hört nicht auf.", exampleZh: "雨不停。", source: "Wortkarte 原创例句" },
+  Schnee: { example: "Der Schnee ist weiß.", exampleZh: "雪是白的。", source: "Wortkarte 原创例句" },
+  Wind: { example: "Der Wind ist stark.", exampleZh: "风很大。", source: "Wortkarte 原创例句" },
+  Wolke: { example: "Die Wolke ist grau.", exampleZh: "云是灰的。", source: "Wortkarte 原创例句" },
+  Gewitter: { example: "Ein Gewitter kommt.", exampleZh: "暴风雨要来。", source: "Wortkarte 原创例句" },
+  Nebel: { example: "Der Nebel ist dicht.", exampleZh: "雾很浓。", source: "Wortkarte 原创例句" },
+  Sonnenschein: { example: "Wir haben Sonnenschein.", exampleZh: "我们有阳光。", source: "Wortkarte 原创例句" },
+  Temperatur: { example: "Die Temperatur sinkt.", exampleZh: "气温下降。", source: "Wortkarte 原创例句" },
+  Grad: { example: "Es sind 20 Grad.", exampleZh: "20度。", source: "Wortkarte 原创例句" },
+  Prognose: { example: "Die Prognose ist gut.", exampleZh: "预报不错。", source: "Wortkarte 原创例句" },
+  Angst: { example: "Ich habe Angst vor Hunden.", exampleZh: "我怕狗。", source: "Wortkarte 原创例句" },
+  Freude: { example: "Die Freude ist groß.", exampleZh: "喜悦很大。", source: "Wortkarte 原创例句" },
+  Wut: { example: "Seine Wut war deutlich.", exampleZh: "他的愤怒很明显。", source: "Wortkarte 原创例句" },
+  Trauer: { example: "Die Trauer bleibt.", exampleZh: "悲伤仍在。", source: "Wortkarte 原创例句" },
+  Liebe: { example: "Liebe ist wichtig.", exampleZh: "爱很重要。", source: "Wortkarte 原创例句" },
+  Glück: { example: "Ich wünsche dir Glück.", exampleZh: "祝你好运。", source: "Wortkarte 原创例句" },
+  Hoffnung: { example: "Die Hoffnung stirbt zuletzt.", exampleZh: "希望最后才死。", source: "Wortkarte 原创例句" },
+  Sorge: { example: "Sie hat Sorgen.", exampleZh: "她有忧虑。", source: "Wortkarte 原创例句" },
+  Stolz: { example: "Er ist stolz auf seine Arbeit.", exampleZh: "他为工作骄傲。", source: "Wortkarte 原创例句" },
+  Überraschung: { example: "Die Überraschung ist gelungen.", exampleZh: "惊喜成功。", source: "Wortkarte 原创例句" },
+  Musik: { example: "Musik beruhigt mich.", exampleZh: "音乐让我平静。", source: "Wortkarte 原创例句" },
+  Konzert: { example: "Das Konzert beginnt um acht.", exampleZh: "音乐会八点开始。", source: "Wortkarte 原创例句" },
+  Gitarre: { example: "Er spielt Gitarre.", exampleZh: "他弹吉他。", source: "Wortkarte 原创例句" },
+  Klavier: { example: "Sie lernt Klavier.", exampleZh: "她学钢琴。", source: "Wortkarte 原创例句" },
+  Band: { example: "Die Band spielt heute.", exampleZh: "乐队今天演出。", source: "Wortkarte 原创例句" },
+  Sänger: { example: "Der Sänger hat eine gute Stimme.", exampleZh: "歌手嗓音好。", source: "Wortkarte 原创例句" },
+  Bühne: { example: "Sie steht auf der Bühne.", exampleZh: "她站在舞台上。", source: "Wortkarte 原创例句" },
+  Instrument: { example: "Welches Instrument spielst du?", exampleZh: "你演奏什么乐器？", source: "Wortkarte 原创例句" },
+  Melodie: { example: "Die Melodie ist schön.", exampleZh: "旋律很美。", source: "Wortkarte 原创例句" },
+  Rhythmus: { example: "Der Rhythmus ist schnell.", exampleZh: "节奏很快。", source: "Wortkarte 原创例句" },
+  Film: { example: "Der Film ist spannend.", exampleZh: "电影很紧张。", source: "Wortkarte 原创例句" },
+  Kino: { example: "Wir gehen ins Kino.", exampleZh: "我们去看电影。", source: "Wortkarte 原创例句" },
+  Schauspieler: { example: "Der Schauspieler ist bekannt.", exampleZh: "这位演员很有名。", source: "Wortkarte 原创例句" },
+  Regisseur: { example: "Der Regisseur erklärt die Szene.", exampleZh: "导演讲解这场戏。", source: "Wortkarte 原创例句" },
+  Kamera: { example: "Die Kamera läuft.", exampleZh: "摄影机在拍。", source: "Wortkarte 原创例句" },
+  Szene: { example: "Die Szene ist traurig.", exampleZh: "这场戏很悲伤。", source: "Wortkarte 原创例句" },
+  Handlung: { example: "Die Handlung ist kompliziert.", exampleZh: "情节很复杂。", source: "Wortkarte 原创例句" },
+  Publikum: { example: "Das Publikum klatscht.", exampleZh: "观众鼓掌。", source: "Wortkarte 原创例句" },
+  Vorstellung: { example: "Die Vorstellung beginnt um acht.", exampleZh: "演出八点开始。", source: "Wortkarte 原创例句" },
+  Eintritt: { example: "Der Eintritt kostet zehn Euro.", exampleZh: "门票十欧。", source: "Wortkarte 原创例句" },
+  Theater: { example: "Das Theater ist heute voll.", exampleZh: "剧院今天满座。", source: "Wortkarte 原创例句" },
+  Stück: { example: "Das Stück dauert zwei Stunden.", exampleZh: "这出戏持续两小时。", source: "Wortkarte 原创例句" },
+  Rolle: { example: "Sie spielt die Hauptrolle.", exampleZh: "她演主角。", source: "Wortkarte 原创例句" },
+  Premiere: { example: "Die Premiere war ein Erfolg.", exampleZh: "首演成功。", source: "Wortkarte 原创例句" },
+  Kulisse: { example: "Die Kulisse ist aufwendig.", exampleZh: "布景很复杂。", source: "Wortkarte 原创例句" },
+  Regie: { example: "Die Regie führt Anna.", exampleZh: "安娜执导。", source: "Wortkarte 原创例句" },
+  Aufführung: { example: "Die Aufführung beginnt um acht.", exampleZh: "演出八点开始。", source: "Wortkarte 原创例句" },
+  Applaus: { example: "Der Applaus war lang.", exampleZh: "掌声持续很久。", source: "Wortkarte 原创例句" },
+  Bühnenbild: { example: "Das Bühnenbild ist schlicht.", exampleZh: "舞台布景简洁。", source: "Wortkarte 原创例句" },
+  Ensemble: { example: "Das Ensemble ist bekannt.", exampleZh: "剧团很有名。", source: "Wortkarte 原创例句" },
+  Umwelt: { example: "Wir müssen die Umwelt schützen.", exampleZh: "我们必须保护环境。", source: "Wortkarte 原创例句" },
+  Klima: { example: "Das Klima verändert sich.", exampleZh: "气候在变化。", source: "Wortkarte 原创例句" },
+  Energie: { example: "Wir sparen Energie.", exampleZh: "我们节约能源。", source: "Wortkarte 原创例句" },
+  Müll: { example: "Der Müll wird getrennt.", exampleZh: "垃圾被分类。", source: "Wortkarte 原创例句" },
+  Recycling: { example: "Recycling schont Ressourcen.", exampleZh: "回收节约资源。", source: "Wortkarte 原创例句" },
+  Wasser: { example: "Das Wasser ist sauber.", exampleZh: "水很干净。", source: "Wortkarte 原创例句" },
+  Luft: { example: "Die Luft ist frisch.", exampleZh: "空气清新。", source: "Wortkarte 原创例句" },
+  Natur: { example: "Die Natur ist wichtig.", exampleZh: "自然很重要。", source: "Wortkarte 原创例句" },
+  Art: { example: "Diese Art ist selten.", exampleZh: "这个物种很稀有。", source: "Wortkarte 原创例句" },
+  Schutz: { example: "Der Schutz der Tiere ist nötig.", exampleZh: "保护动物是必要的。", source: "Wortkarte 原创例句" },
+  Technik: { example: "Die Technik hilft uns.", exampleZh: "技术帮助我们。", source: "Wortkarte 原创例句" },
+  Maschine: { example: "Die Maschine läuft.", exampleZh: "机器在运转。", source: "Wortkarte 原创例句" },
+  Forschung: { example: "Die Forschung braucht Zeit.", exampleZh: "研究需要时间。", source: "Wortkarte 原创例句" },
+  Labor: { example: "Das Labor ist sauber.", exampleZh: "实验室很干净。", source: "Wortkarte 原创例句" },
+  Experiment: { example: "Das Experiment war erfolgreich.", exampleZh: "实验成功了。", source: "Wortkarte 原创例句" },
+  Entwicklung: { example: "Die Entwicklung geht schnell.", exampleZh: "发展很快。", source: "Wortkarte 原创例句" },
+  Gerät: { example: "Das Gerät ist kaputt.", exampleZh: "设备坏了。", source: "Wortkarte 原创例句" },
+  Computer: { example: "Der Computer ist neu.", exampleZh: "电脑是新的。", source: "Wortkarte 原创例句" },
+  Erfinder: { example: "Der Erfinder ist berühmt.", exampleZh: "发明家很有名。", source: "Wortkarte 原创例句" },
+  Werkzeug: { example: "Das Werkzeug liegt im Kasten.", exampleZh: "工具在箱子里。", source: "Wortkarte 原创例句" },
+  Internet: { example: "Das Internet ist langsam.", exampleZh: "网络很慢。", source: "Wortkarte 原创例句" },
+  Smartphone: { example: "Das Smartphone ist neu.", exampleZh: "智能手机是新的。", source: "Wortkarte 原创例句" },
+  Daten: { example: "Die Daten sind sicher.", exampleZh: "数据安全。", source: "Wortkarte 原创例句" },
+  Netz: { example: "Das Netz ist stabil.", exampleZh: "网络稳定。", source: "Wortkarte 原创例句" },
+  Medien: { example: "Die Medien berichten darüber.", exampleZh: "媒体报道此事。", source: "Wortkarte 原创例句" },
+  digital: { example: "Der Antrag ist digital.", exampleZh: "申请是数字化的。", source: "Wortkarte 原创例句" },
+  online: { example: "Ich bin online.", exampleZh: "我在线。", source: "Wortkarte 原创例句" },
+  App: { example: "Die App funktioniert gut.", exampleZh: "这个应用很好用。", source: "Wortkarte 原创例句" },
+  Sicherheit: { example: "Sicherheit ist wichtig.", exampleZh: "安全很重要。", source: "Wortkarte 原创例句" },
+  Zugang: { example: "Der Zugang ist gesperrt.", exampleZh: "入口关闭。", source: "Wortkarte 原创例句" },
+  Krieg: { example: "Der Krieg ist vorbei.", exampleZh: "战争结束了。", source: "Wortkarte 原创例句" },
+  Frieden: { example: "Wir wollen Frieden.", exampleZh: "我们要和平。", source: "Wortkarte 原创例句" },
+  Mauer: { example: "Die Mauer fiel 1989.", exampleZh: "墙在1989年倒塌。", source: "Wortkarte 原创例句" },
+  Grenze: { example: "Die Grenze ist offen.", exampleZh: "边境开放。", source: "Wortkarte 原创例句" },
+  Freiheit: { example: "Freiheit ist wichtig.", exampleZh: "自由很重要。", source: "Wortkarte 原创例句" },
+  Einheit: { example: "Die Einheit kam 1990.", exampleZh: "统一在1990年实现。", source: "Wortkarte 原创例句" },
+  Erinnerung: { example: "Die Erinnerung bleibt.", exampleZh: "记忆仍在。", source: "Wortkarte 原创例句" },
+  Gedenken: { example: "Wir gedenken der Opfer.", exampleZh: "我们纪念受害者。", source: "Wortkarte 原创例句" },
+  Opfer: { example: "Die Opfer werden geehrt.", exampleZh: "受害者受到纪念。", source: "Wortkarte 原创例句" },
+  Wiedervereinigung: { example: "Die Wiedervereinigung war 1990.", exampleZh: "两德统一在1990年。", source: "Wortkarte 原创例句" },
+  Bibliothek: { example: "Die Bibliothek ist offen.", exampleZh: "图书馆开放。", source: "Wortkarte 原创例句" },
+  Buch: { example: "Das Buch ist spannend.", exampleZh: "这本书很精彩。", source: "Wortkarte 原创例句" },
+  Regal: { example: "Das Regal ist voll.", exampleZh: "书架满了。", source: "Wortkarte 原创例句" },
+  Lesesaal: { example: "Der Lesesaal ist ruhig.", exampleZh: "阅览室很安静。", source: "Wortkarte 原创例句" },
+  Ausweis: { example: "Ich brauche einen Ausweis.", exampleZh: "我需要证件。", source: "Wortkarte 原创例句" },
+  Gebühr: { example: "Die Gebühr ist niedrig.", exampleZh: "费用很低。", source: "Wortkarte 原创例句" },
+  Leihgabe: { example: "Die Leihgabe dauert vier Wochen.", exampleZh: "借阅期四周。", source: "Wortkarte 原创例句" },
+  Katalog: { example: "Der Katalog ist online.", exampleZh: "目录在网上。", source: "Wortkarte 原创例句" },
+  Lesung: { example: "Die Lesung beginnt um sieben.", exampleZh: "朗读会七点开始。", source: "Wortkarte 原创例句" },
+  Stille: { example: "In der Bibliothek herrscht Stille.", exampleZh: "图书馆里很安静。", source: "Wortkarte 原创例句" },
+  Kaffee: { example: "Der Kaffee ist heiß.", exampleZh: "咖啡很热。", source: "Wortkarte 原创例句" },
+  Tasse: { example: "Die Tasse ist leer.", exampleZh: "杯子空了。", source: "Wortkarte 原创例句" },
+  Kanne: { example: "Die Kanne ist voll.", exampleZh: "壶是满的。", source: "Wortkarte 原创例句" },
+  Kuchen: { example: "Der Kuchen schmeckt gut.", exampleZh: "蛋糕很好吃。", source: "Wortkarte 原创例句" },
+  Café: { example: "Das Café ist gemütlich.", exampleZh: "咖啡馆很舒适。", source: "Wortkarte 原创例句" },
+  Kellner: { example: "Der Kellner bringt die Rechnung.", exampleZh: "服务员拿来账单。", source: "Wortkarte 原创例句" },
+  Rechnung: { example: "Die Rechnung ist hoch.", exampleZh: "账单很高。", source: "Wortkarte 原创例句" },
+  Milch: { example: "Ich trinke Kaffee mit Milch.", exampleZh: "我喝加奶咖啡。", source: "Wortkarte 原创例句" },
+  Zucker: { example: "Ohne Zucker, bitte.", exampleZh: "请不加糖。", source: "Wortkarte 原创例句" },
+  Gebäck: { example: "Zum Kaffee gibt es Gebäck.", exampleZh: "咖啡配糕点。", source: "Wortkarte 原创例句" },
+  Buch: { example: "Das Buch ist spannend.", exampleZh: "这本书很精彩。", source: "Wortkarte 原创例句" },
+  Roman: { example: "Der Roman hat 300 Seiten.", exampleZh: "这部小说有300页。", source: "Wortkarte 原创例句" },
+  Autor: { example: "Der Autor liest heute.", exampleZh: "作者今天朗读。", source: "Wortkarte 原创例句" },
+  Verlag: { example: "Der Verlag ist klein.", exampleZh: "出版社很小。", source: "Wortkarte 原创例句" },
+  Leser: { example: "Die Leser mögen das Buch.", exampleZh: "读者喜欢这本书。", source: "Wortkarte 原创例句" },
+  Seite: { example: "Die Seite ist leer.", exampleZh: "这页是空的。", source: "Wortkarte 原创例句" },
+  Kapitel: { example: "Das Kapitel ist kurz.", exampleZh: "这一章很短。", source: "Wortkarte 原创例句" },
+  Titel: { example: "Der Titel klingt gut.", exampleZh: "标题不错。", source: "Wortkarte 原创例句" },
+  Buchhandlung: { example: "Die Buchhandlung ist am Markt.", exampleZh: "书店在市场旁。", source: "Wortkarte 原创例句" },
+  Manuskript: { example: "Das Manuskript ist fertig.", exampleZh: "手稿完成了。", source: "Wortkarte 原创例句" },
+  Buchpreis: { example: "Der Buchpreis ist wichtig.", exampleZh: "图书奖很重要。", source: "Wortkarte 原创例句" },
+  Bestseller: { example: "Der Roman ist ein Bestseller.", exampleZh: "这部小说是畅销书。", source: "Wortkarte 原创例句" },
+  Neuerscheinung: { example: "Die Neuerscheinung ist gefragt.", exampleZh: "新书很抢手。", source: "Wortkarte 原创例句" },
+  Shortlist: { example: "Die Shortlist ist bekannt.", exampleZh: "短名单公布了。", source: "Wortkarte 原创例句" },
+  Jury: { example: "Die Jury tagt morgen.", exampleZh: "评委会明天开会。", source: "Wortkarte 原创例句" },
+  Literaturpreis: { example: "Sie erhält einen Literaturpreis.", exampleZh: "她获得文学奖。", source: "Wortkarte 原创例句" },
+  Verlagsprogramm: { example: "Das Verlagsprogramm ist vielfältig.", exampleZh: "出版计划多样。", source: "Wortkarte 原创例句" },
+  Lesereise: { example: "Die Lesereise beginnt im Herbst.", exampleZh: "巡回朗读秋天开始。", source: "Wortkarte 原创例句" },
+  Übersetzung: { example: "Die Übersetzung ist gelungen.", exampleZh: "翻译很成功。", source: "Wortkarte 原创例句" },
+  Rezension: { example: "Die Rezension ist positiv.", exampleZh: "书评正面。", source: "Wortkarte 原创例句" },
+  Chor: { example: "Der Chor singt im Konzert.", exampleZh: "合唱团在音乐会上演唱。", source: "Wortkarte 原创例句" },
+  Orchester: { example: "Das Orchester spielt Beethoven.", exampleZh: "乐团演奏贝多芬。", source: "Wortkarte 原创例句" },
+  Probe: { example: "Die Probe dauert zwei Stunden.", exampleZh: "排练持续两小时。", source: "Wortkarte 原创例句" },
+  Auftritt: { example: "Der Auftritt war erfolgreich.", exampleZh: "演出很成功。", source: "Wortkarte 原创例句" },
+  Note: { example: "Die Note ist zu hoch.", exampleZh: "这个音太高了。", source: "Wortkarte 原创例句" },
+  Flöte: { example: "Sie spielt Flöte.", exampleZh: "她吹长笛。", source: "Wortkarte 原创例句" },
+  Trompete: { example: "Die Trompete ist laut.", exampleZh: "小号很响。", source: "Wortkarte 原创例句" },
+  Geige: { example: "Er lernt Geige.", exampleZh: "他学小提琴。", source: "Wortkarte 原创例句" },
+  Saxophon: { example: "Das Saxophon klingt warm.", exampleZh: "萨克斯声音温暖。", source: "Wortkarte 原创例句" },
+  Publikum: { example: "Das Publikum ist begeistert.", exampleZh: "观众很兴奋。", source: "Wortkarte 原创例句" },
+  Museum: { example: "Das Museum ist heute offen.", exampleZh: "博物馆今天开放。", source: "Wortkarte 原创例句" },
+  Ausstellung: { example: "Die Ausstellung ist interessant.", exampleZh: "展览很有趣。", source: "Wortkarte 原创例句" },
+  Führung: { example: "Die Führung beginnt um elf.", exampleZh: "导览十一点开始。", source: "Wortkarte 原创例句" },
+  Exponat: { example: "Das Exponat ist gut erhalten.", exampleZh: "展品保存良好。", source: "Wortkarte 原创例句" },
+  Sammlung: { example: "Die Sammlung ist groß.", exampleZh: "收藏很大。", source: "Wortkarte 原创例句" },
+  Kunstwerk: { example: "Das Kunstwerk hängt an der Wand.", exampleZh: "艺术品挂在墙上。", source: "Wortkarte 原创例句" },
+  Besucher: { example: "Die Besucher warten draußen.", exampleZh: "参观者在外面等。", source: "Wortkarte 原创例句" },
+  Katalog: { example: "Der Katalog kostet fünf Euro.", exampleZh: "图录五欧。", source: "Wortkarte 原创例句" },
+  Shop: { example: "Der Shop ist am Ausgang.", exampleZh: "商店在出口。", source: "Wortkarte 原创例句" },
   Gott: { example: "Viele Menschen, die an Gott glauben, gehen am Sonntag in die Kirche.", exampleZh: "许多信神的人周日去教堂。", source: "《德语基础词汇分类学习手册》" },
   heilig: { example: "In Indien gilt die Kuh als heiliges Tier.", exampleZh: "在印度，牛被视为神圣的动物。", source: "《德语基础词汇分类学习手册》" },
   katholisch: { example: "Er ist Mitglied der katholischen Kirche.", exampleZh: "他是天主教会的成员。", source: "《德语基础词汇分类学习手册》" },
@@ -180,6 +865,12 @@ function cultureYear(item) {
   if (Number.isFinite(Number(item.sortYear))) return Number(item.sortYear);
   const parsed = String(item.year || "").match(/\d{3,4}/);
   if (parsed) return Number(parsed[0]);
+  if (item.category === "person") {
+    const birth = String(item.contentDe || "").match(/\b(1[0-9]{3}|20[0-9]{2})\s*[–-]/);
+    if (birth) return Number(birth[1]);
+    const firstYear = String(item.contentDe || "").match(/^\s*(\d{4})\s+(?:in|geboren)\b/);
+    if (firstYear) return Number(firstYear[1]);
+  }
   return HISTORY_YEAR_BY_ID[item.id] ?? null;
 }
 
@@ -425,7 +1116,12 @@ function wordDisplay(word, withArticle = true) {
 }
 
 function pluralLabel(word) {
-  if (word.plural) return word.plural;
+  if (word.plural) {
+    if (word.plural === "无复数") return "无复数";
+    const type = word.pluralType || inferPluralType(word, word.plural);
+    const pattern = PLURAL_TYPE_LABELS[type] || "";
+    return `${word.plural}${pattern ? ` · ${pattern}` : ""}${word.pluralInferred ? " · 推测" : ""}`;
+  }
   if (word.book || word.pack) return "复数见词典";
   return "无复数";
 }
@@ -777,6 +1473,8 @@ const libraryFilters = {
 let libraryVisibleLimit = 80;
 let grammarLevel = "all";
 let cultureCategory = "all";
+let cultureTheme = "all";
+let activeFestivalId = "";
 let cultureQuery = "";
 let cultureEra = "all";
 let readingArticleId = null;
@@ -847,15 +1545,38 @@ function fixWordData(word) {
   return word;
 }
 
+const PLURAL_TYPE_LABELS = {
+  "umlaut+er": "变音 + -er",
+  "umlaut+e": "变音 + -e",
+  "umlaut+en": "变音 + -en",
+  "umlaut+∅": "变音，词尾不变",
+  "-er": "-er",
+  "-en": "-en / -n",
+  "-e": "-e",
+  "-s": "-s",
+  "∅": "词尾不变",
+  none: "无复数"
+};
+
 function inferPluralType(word, pluralForm) {
-  if (!pluralForm) return "none";
-  const value = String(pluralForm).replace(/^die\s+/i, "");
-  const hasUmlaut = /[äöü]/i.test(value);
+  if (!pluralForm || pluralForm === "无复数") return "none";
+  const value = String(pluralForm).replace(/^die\s+/i, "").trim();
+  if (!value) return "none";
+  const base = String(word.word || "").trim();
+  const strip = text => text.toLocaleLowerCase("de").replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u");
+  const valueNorm = strip(value);
+  const baseNorm = strip(base);
+  const hasUmlaut = /[äöü]/i.test(value) && !/[äöü]/i.test(base);
+  if (valueNorm === baseNorm) return hasUmlaut ? "umlaut+∅" : "∅";
+  if (valueNorm === `${baseNorm}e`) return hasUmlaut ? "umlaut+e" : "-e";
+  if (valueNorm === `${baseNorm}en` || valueNorm === `${baseNorm}n`) return hasUmlaut ? "umlaut+en" : "-en";
+  if (valueNorm === `${baseNorm}er`) return hasUmlaut ? "umlaut+er" : "-er";
+  if (valueNorm === `${baseNorm}s`) return "-s";
   if (value.endsWith("er")) return hasUmlaut ? "umlaut+er" : "-er";
   if (value.endsWith("en")) return "-en";
-  if (value.endsWith("e")) return "-e";
+  if (value.endsWith("e")) return hasUmlaut ? "umlaut+e" : "-e";
   if (value.endsWith("s")) return "-s";
-  return "∅";
+  return hasUmlaut ? "umlaut+∅" : "∅";
 }
 
 function inferFemininePlural(word) {
@@ -1526,7 +2247,7 @@ function buildQueue(mode = "daily", topicId = null, limit = 12, wordId = null, l
 
 const VIEW_LABELS = {
   home: "今日学习",
-  culture: "德国历史与文化",
+  culture: "历史与文化",
   reading: "文章阅读",
   phrases: "短语积累",
   words: "单词积累",
@@ -2003,6 +2724,27 @@ function startPackStudy() {
   startStudy({ mode: "daily", topicId: "goethe", limit: Math.min(100, Math.max(5, Number(state.settings.dailyGoal) || 20)) });
 }
 
+function grammarOcrGroup(topic) {
+  const text = `${topic.title || ""} ${topic.summary || ""}`;
+  if (/发音|拼写|重音|字母|词尾|清化|变音|语调/.test(text)) return "发音与拼写";
+  if (/动词|时态|情态|被动|虚拟|分词|变位|完成时|过去|将来|功能动词/.test(text)) return "动词与时态";
+  if (/名词|冠词|代词|形容词|介词|格|复数|词性|数词/.test(text)) return "名词、格与词法";
+  if (/从句|语序|连词|关系|否定|疑问|状语|句子|主谓|引语/.test(text)) return "句法与语序";
+  return "构词与其他";
+}
+
+function grammarSection(label, cards) {
+  if (!cards.length) return "";
+  return `
+    <section class="grammar-group">
+      <div class="grammar-group-head">
+        <h2>${esc(label)}</h2>
+        <span>${cards.length} 张</span>
+      </div>
+      <div class="grammar-group-grid">${cards.join("")}</div>
+    </section>`;
+}
+
 function renderGrammar() {
   const grid = $("#grammar-grid");
   if (!grid) return;
@@ -2012,10 +2754,12 @@ function renderGrammar() {
   }
   const seen = new Set(state.grammar?.seen || []);
   const topics = GRAMMAR_DATA.filter(topic => grammarLevel === "all" || topic.level === grammarLevel);
-  const exerciseCount = topics.reduce((sum, topic) => sum + topic.exercises.length, 0);
+  const ocrTopics = Array.isArray(OCR_CONTENT.grammar) ? OCR_CONTENT.grammar : [];
+  const exerciseCount = topics.reduce((sum, topic) => sum + topic.exercises.length, 0)
+    + ocrTopics.reduce((sum, topic) => sum + (topic.exercises?.length || 0), 0);
   $("#grammar-seen").textContent = seen.size;
-  $("#grammar-total").textContent = GRAMMAR_DATA.length + (OCR_CONTENT.grammar?.length || 0);
-  $("#grammar-count").textContent = `${topics.length} 个主题 · ${exerciseCount} 道小练习${OCR_CONTENT.grammar?.length ? ` · ${OCR_CONTENT.grammar.length} 张 OCR 卡` : ""}`;
+  $("#grammar-total").textContent = GRAMMAR_DATA.length + ocrTopics.length;
+  $("#grammar-count").textContent = `${topics.length} 个主题 · ${exerciseCount} 道小练习${ocrTopics.length ? ` · ${ocrTopics.length} 张 OCR 卡` : ""}`;
   const bookMeta = $("#grammar-book-meta");
   if (bookMeta && GRAMMAR_SUMMARY_DATA) {
     bookMeta.textContent = `${GRAMMAR_SUMMARY_DATA.chapters.length} 章 · ${GRAMMAR_SUMMARY_DATA.tableCount} 张表格 · 从发音、格变到从句的完整参考`;
@@ -2024,45 +2768,58 @@ function renderGrammar() {
     chip.classList.toggle("is-active", chip.dataset.grammarLevel === grammarLevel);
   });
 
-  grid.innerHTML = topics.map((topic, index) => {
-    const isSeen = seen.has(topic.id);
-    return `
-      <button class="grammar-card ${isSeen ? "is-seen" : ""}" data-grammar-id="${esc(topic.id)}">
-        <span class="grammar-card-top">
-          <span class="level-chip ${topic.level === "A2" ? "advanced" : ""}">${esc(topic.level)}</span>
-          <span class="grammar-index">${String(index + 1).padStart(2, "0")}</span>
-        </span>
-        <h3>${esc(topic.title)}</h3>
-        <p class="grammar-de">${esc(topic.de)}</p>
-        <p class="grammar-summary">${esc(topic.summary)}</p>
-        <span class="grammar-card-foot">
-          <span>${topic.sections.length} 个要点</span>
-          <span>·</span>
-          <span>${topic.exercises.length} 道练习</span>
-          <span class="grammar-seen-mark">${icon("check")} 已读</span>
-        </span>
-      </button>
-    `;
-  }).join("");
+  const coreCards = level => topics
+    .filter(topic => topic.level === level)
+    .map((topic, index) => {
+      const isSeen = seen.has(topic.id);
+      return `
+        <button class="grammar-card ${isSeen ? "is-seen" : ""}" data-grammar-id="${esc(topic.id)}">
+          <span class="grammar-card-top">
+            <span class="level-chip ${topic.level === "A2" ? "advanced" : ""}">${esc(topic.level)}</span>
+            <span class="grammar-index">${String(index + 1).padStart(2, "0")}</span>
+          </span>
+          <h3>${esc(topic.title)}</h3>
+          <p class="grammar-de">${esc(topic.de)}</p>
+          <p class="grammar-summary">${esc(topic.summary)}</p>
+          <span class="grammar-card-foot">
+            <span>${topic.sections.length} 个要点</span>
+            <span>·</span>
+            <span>${topic.exercises.length} 道练习</span>
+            <span class="grammar-seen-mark">${icon("check")} 已读</span>
+          </span>
+        </button>`;
+    });
+
+  const sections = [
+    grammarSection("A1 基础语法", coreCards("A1")),
+    grammarSection("A2 进阶语法", coreCards("A2"))
+  ];
+
+  const ocrOrder = ["发音与拼写", "动词与时态", "名词、格与词法", "句法与语序", "构词与其他"];
+  for (const group of ocrOrder) {
+    const cards = ocrTopics
+      .filter(topic => grammarOcrGroup(topic) === group)
+      .map(topic => `
+        <article class="grammar-card custom-grammar-card">
+          <span class="grammar-card-top"><span class="level-chip">OCR</span></span>
+          <h3>${esc(topic.title)}</h3>
+          <p class="grammar-summary">${esc(topic.summary || "")}</p>
+          <small>${esc(topic.source || "")}</small>
+        </article>`);
+    sections.push(grammarSection(`OCR 拓展 · ${group}`, cards));
+  }
+
   if (Array.isArray(state.customGrammar) && state.customGrammar.length) {
-    grid.innerHTML += state.customGrammar.map(item => `
+    const cards = state.customGrammar.map(item => `
       <article class="grammar-card custom-grammar-card">
         <span class="grammar-card-top"><span class="level-chip">导入</span></span>
         <h3>${esc(item.title)}</h3>
         <p class="grammar-summary">${esc(item.summary || "")}</p>
-      </article>
-    `).join("");
+      </article>`);
+    sections.push(grammarSection("我的语法卡", cards));
   }
-  if (Array.isArray(OCR_CONTENT.grammar) && OCR_CONTENT.grammar.length) {
-    grid.innerHTML += OCR_CONTENT.grammar.map(item => `
-      <article class="grammar-card custom-grammar-card">
-        <span class="grammar-card-top"><span class="level-chip">OCR</span></span>
-        <h3>${esc(item.title)}</h3>
-        <p class="grammar-summary">${esc(item.summary || "")}</p>
-        <small>${esc(item.source || "")}</small>
-      </article>
-    `).join("");
-  }
+
+  grid.innerHTML = sections.join("");
 }
 
 function openGrammarModal(id) {
@@ -2241,9 +2998,18 @@ function openGrammarBook() {
 function renderCultureTimeline(historyItems) {
   const timeline = $("#culture-timeline");
   const track = $("#culture-timeline-track");
-  if (!timeline || !track) return;
-  timeline.hidden = cultureCategory !== "history";
+  const line = $("#culture-timeline-line");
+  const shell = $("#culture-timeline-shell");
+  if (!timeline || !track || !line) return;
+  const isPersonTimeline = cultureCategory === "person";
+  timeline.hidden = cultureCategory !== "history" && cultureCategory !== "person";
   if (timeline.hidden) return;
+  const title = $("#culture-timeline-title");
+  if (title) title.textContent = isPersonTimeline ? "人物时间轴" : "历史时间轴";
+  const hint = $("#culture-timeline-hint");
+  if (hint) hint.textContent = isPersonTimeline
+    ? "按出生年排列 · 左右拖动浏览 · 点击年份跳到人物卡片"
+    : "左右拖动时间线浏览 · 点击年份可跳到对应条目";
   const counts = new Map(CULTURE_ERAS.map(era => [era.id, 0]));
   for (const item of historyItems) {
     const key = cultureEraForYear(cultureYear(item));
@@ -2260,10 +3026,307 @@ function renderCultureTimeline(historyItems) {
       </button>
     `;
   }).join("");
-  const years = historyItems.map(cultureYear).filter(Number.isFinite).sort((a, b) => a - b);
+  const dated = historyItems
+    .map(item => ({ item, year: cultureYear(item) }))
+    .filter(entry => Number.isFinite(entry.year))
+    .sort((a, b) => a.year - b.year || String(a.item.titleZh).localeCompare(String(b.item.titleZh), "zh"));
+  const years = dated.map(entry => entry.year);
+  if (!dated.length) {
+    line.style.width = "100%";
+    line.innerHTML = `<p class="culture-line-empty">暂无可排序年份</p>`;
+  } else {
+    const width = Math.max(920, dated.length * 138);
+    line.style.width = `${width}px`;
+    line.innerHTML = `
+      <div class="culture-line-axis" aria-hidden="true"></div>
+      ${dated.map((entry, index) => {
+        const yearLabel = entry.item.year || `${entry.year}${entry.item.category === "person" ? " 生" : ""}`;
+        const step = dated.length > 1 ? (width - 140) / (dated.length - 1) : 0;
+        const left = width / 2 + (index - (dated.length - 1) / 2) * step;
+        return `
+          <button class="culture-line-marker ${index % 2 ? "is-below" : ""}" style="left:${left}px" data-culture-jump="${esc(entry.item.id)}" title="${esc(yearLabel)} · ${esc(entry.item.titleZh)}" aria-label="${esc(yearLabel)} ${esc(entry.item.titleZh)}">
+            <span class="culture-line-dot" aria-hidden="true"></span>
+            <span class="culture-line-label"><strong>${esc(yearLabel)}</strong><span>${esc(entry.item.titleZh)}</span></span>
+          </button>
+        `;
+      }).join("")}
+    `;
+  }
+  if (shell) shell.classList.toggle("is-empty", !dated.length);
   $("#culture-timeline-meta").textContent = years.length
-    ? `${years[0]}–${years[years.length - 1]} · 按时间升序`
+    ? `${years[0]}–${years[years.length - 1]} · ${isPersonTimeline ? "按出生年升序" : "按时间升序"} · 可拖动`
     : "暂无可排序年份";
+}
+
+function bindCultureTimelineDrag() {
+  const shell = $("#culture-timeline-shell");
+  const line = $("#culture-timeline-line");
+  if (!shell || !line || shell.dataset.dragBound) return;
+  shell.dataset.dragBound = "1";
+  let dragging = false;
+  let moved = false;
+  let startX = 0;
+  let startScroll = 0;
+  let suppressClick = false;
+  let lastDragMoved = false;
+  shell.addEventListener("pointerdown", event => {
+    if (event.button !== 0) return;
+    dragging = true;
+    moved = false;
+    startX = event.clientX;
+    startScroll = shell.scrollLeft;
+    shell.classList.add("is-dragging");
+    shell.setPointerCapture?.(event.pointerId);
+  });
+  shell.addEventListener("pointermove", event => {
+    if (!dragging) return;
+    const delta = event.clientX - startX;
+    if (Math.abs(delta) > 4) moved = true;
+    shell.scrollLeft = startScroll - delta;
+    if (moved) event.preventDefault();
+  });
+  const finish = event => {
+    if (!dragging) return;
+    dragging = false;
+    shell.classList.remove("is-dragging");
+    shell.releasePointerCapture?.(event.pointerId);
+    lastDragMoved = moved;
+    if (moved) {
+      suppressClick = true;
+      setTimeout(() => { suppressClick = false; }, 0);
+    }
+  };
+  shell.addEventListener("pointerup", finish);
+  shell.addEventListener("pointercancel", finish);
+  shell.addEventListener("pointerleave", finish);
+  line.addEventListener("click", event => {
+    if (suppressClick || lastDragMoved) {
+      suppressClick = false;
+      lastDragMoved = false;
+      event.preventDefault();
+      event.stopPropagation();
+      return;
+    }
+    const marker = event.target.closest("[data-culture-jump]");
+    if (!marker) return;
+    const card = document.getElementById(`culture-card-${marker.dataset.cultureJump}`);
+    if (!card) return;
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    card.classList.remove("is-flash");
+    requestAnimationFrame(() => card.classList.add("is-flash"));
+    setTimeout(() => card.classList.remove("is-flash"), 1400);
+  });
+  shell.addEventListener("wheel", event => {
+    if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+    if (!event.shiftKey) return;
+    shell.scrollLeft += event.deltaY;
+    event.preventDefault();
+  }, { passive: false });
+}
+
+const CULTURE_THEME_GROUPS = [
+  ["文学", ["文学", "Literatur", "Roman", "Drama", "Lyrik"]],
+  ["音乐", ["音乐", "Musik", "Komponist", "Beethoven", "Bach"]],
+  ["艺术与建筑", ["艺术", "Kunst", "Architektur", "Gotik", "Malerei", "Dürer"]],
+  ["媒体与出版", ["媒体", "Medien", "Presse", "Zeitung", "Literaturbetrieb"]],
+  ["教育", ["教育", "Bildung", "Universität", "Studium", "Schule"]],
+  ["节日与习俗", ["节日", "Karneval", "Brauch", "Weihnachten", "Mondfest"]],
+  ["饮食", ["饮食", "Essen", "Brot", "Bier", "Küche"]],
+  ["宗教", ["宗教", "Religion", "Kirche", "Reformation"]],
+  ["社会", ["社会", "Gesellschaft", "Migration", "Bevölkerung", "Frauen"]],
+  ["语言", ["语言", "Sprache", "Dialekt", "Wortschatz"]]
+];
+
+function cultureThemeGroup(item) {
+  const haystack = [item.titleDe, item.titleZh, ...(item.tags || [])].join(" ");
+  const found = CULTURE_THEME_GROUPS.find(([, keys]) => keys.some(key => haystack.includes(key)));
+  return found ? found[0] : "日常生活与习俗";
+}
+
+function renderCultureThemeFilter() {
+  const wrap = $("#culture-theme-filter");
+  if (!wrap) return;
+  wrap.hidden = cultureCategory !== "culture";
+  if (wrap.hidden) return;
+  const themes = ["all", ...CULTURE_THEME_GROUPS.map(group => group[0]), "日常生活与习俗"];
+  wrap.innerHTML = themes.map(theme => `
+    <button class="chip ${cultureTheme === theme ? "is-active" : ""}" data-culture-theme="${esc(theme)}">${theme === "all" ? "全部主题" : esc(theme)}</button>
+  `).join("");
+}
+
+function cultureGroupLabel(item, coarse = false) {  if (coarse) {
+    if (item.category === "history") return "历史";
+    if (item.category === "map") return "地图";
+    if (item.category === "person") return "人物";
+    return "文化";
+  }
+  if (item.category === "history") {
+    const era = CULTURE_ERAS.find(entry => entry.id === cultureEraForYear(cultureYear(item)));
+    return era?.label || "未标年份";
+  }
+  if (item.category === "map") {
+    return String(item.id).startsWith("map-") ? "联邦州" : "德国地理";
+  }
+  if (item.category === "person") {
+    const era = CULTURE_ERAS.find(entry => entry.id === cultureEraForYear(cultureYear(item)));
+    return era?.label || "未标年份";
+  }
+  return cultureThemeGroup(item);
+}
+
+function festivalTypeLabel(type) {
+  return type === "movable" ? "每年浮动" : type === "regional" ? "地区性" : "固定日期";
+}
+
+function renderFestivalDetail(festivalId) {
+  const box = $("#festival-detail");
+  if (!box) return;
+  const festival = FESTIVAL_DATA.items.find(item => item.id === festivalId);
+  if (!festival) {
+    box.innerHTML = `<p class="festival-detail-empty">选择节日查看日期与习俗说明。</p>`;
+    return;
+  }
+  activeFestivalId = festival.id;
+  $$("#festival-timeline [data-festival-id]").forEach(node => {
+    node.classList.toggle("is-active", node.dataset.festivalId === festival.id);
+  });
+  box.innerHTML = `
+    <article class="festival-detail-card ${esc(festival.type)}">
+      <div class="festival-detail-kicker">
+        <span>${esc(festival.dateLabel)}</span>
+        <strong>${festivalTypeLabel(festival.type)}</strong>
+      </div>
+      <h3>${esc(festival.titleZh)} <small>${esc(festival.titleDe)}</small></h3>
+      <p>${esc(festival.noteZh)}</p>
+      ${festival.cultureId ? `<button class="festival-jump" data-festival-jump="${esc(festival.cultureId)}">查看相关文化卡 →</button>` : ""}
+    </article>`;
+}
+
+function renderFestivalTimeline() {
+  const panel = $("#festival-panel");
+  const timeline = $("#festival-timeline");
+  if (!panel || !timeline) return;
+  panel.hidden = cultureCategory !== "all" && cultureCategory !== "culture";
+  if (panel.hidden) return;
+  const items = FESTIVAL_DATA.items.slice().sort((a, b) => a.month - b.month);
+  $("#festival-count").textContent = items.length;
+  timeline.innerHTML = FESTIVAL_DATA.months.map((month, index) => {
+    const monthNumber = index + 1;
+    const monthItems = items.filter(item => item.month === monthNumber);
+    return `
+      <section class="festival-month ${monthItems.length ? "" : "is-empty"}">
+        <div class="festival-month-label"><strong>${String(monthNumber).padStart(2, "0")}</strong><span>${esc(month)}</span></div>
+        <div class="festival-rail"><i class="festival-node"></i></div>
+        <div class="festival-events">
+          ${monthItems.length
+            ? monthItems.map(item => `
+              <button class="festival-event ${esc(item.type)}" data-festival-id="${esc(item.id)}">
+                <span class="festival-date">${esc(item.dateLabel)}</span>
+                <span class="festival-event-copy"><strong>${esc(item.titleDe)}</strong><small>${esc(item.titleZh)}</small></span>
+              </button>`).join("")
+            : `<p class="festival-month-empty">${monthNumber === 3 ? "狂欢节与复活节可能落在本月" : "本月无全国性节日"}</p>`}
+        </div>
+      </section>`;
+  }).join("");
+  renderFestivalDetail(activeFestivalId);
+}
+
+function jumpToFestivalCulture(cultureId) {
+  cultureCategory = "culture";
+  cultureTheme = "all";
+  cultureEra = "all";
+  cultureQuery = "";
+  renderCulture();
+  requestAnimationFrame(() => {
+    const card = document.getElementById(`culture-card-${cultureId}`);
+    if (!card) return;
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    card.classList.remove("is-flash");
+    requestAnimationFrame(() => card.classList.add("is-flash"));
+    setTimeout(() => card.classList.remove("is-flash"), 1400);
+  });
+}
+
+function renderCultureMap() {
+  const panel = $("#culture-map-panel");
+  const svg = $("#culture-map-svg");
+  if (!panel || !svg) return;
+  panel.hidden = cultureCategory !== "map";
+  if (panel.hidden) return;
+  if (!MAP_DATA) {
+    svg.innerHTML = `<text x="20" y="40" font-size="12" fill="#7b877d">地图数据未加载</text>`;
+    return;
+  }
+  if (svg.dataset.rendered === "1") return;
+  const { width, height, countries, labels, cities } = MAP_DATA;
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  const sorted = countries.slice().sort((a, b) => (a.name === "Deutschland" ? 1 : 0) - (b.name === "Deutschland" ? 1 : 0));
+  const countryPaths = sorted.map(country => `
+    <path class="map-country ${country.name === "Deutschland" ? "is-germany" : ""}" d="${country.d}" data-country="${esc(country.name)}"></path>`).join("");
+  const countryLabels = (labels || []).filter(label => label.name !== "Deutschland").map(label => `
+    <text class="map-label" x="${label.x}" y="${label.y}">${esc(label.name)}</text>`).join("");
+  const cityMarks = (cities || []).map(city => {
+    const dx = Number.isFinite(Number(city.labelDx)) ? Number(city.labelDx) : 5;
+    const dy = Number.isFinite(Number(city.labelDy)) ? Number(city.labelDy) : 2.5;
+    const anchor = city.labelAnchor || "start";
+    return `
+    <g class="map-city" data-city-id="${esc(city.id)}" role="button" tabindex="0" aria-label="${esc(city.zh)} ${esc(city.name)}">
+      <circle cx="${city.x}" cy="${city.y}" r="3.1"></circle>
+      <text x="${city.x + dx}" y="${city.y + dy}" text-anchor="${anchor}">${esc(city.zh)}</text>
+    </g>`;
+  }).join("");
+  svg.innerHTML = `<g class="map-countries">${countryPaths}</g>${countryLabels}<g class="map-cities">${cityMarks}</g>`;
+  svg.dataset.rendered = "1";
+}
+
+function renderCityDetail(cityId) {
+  const box = $("#city-detail");
+  if (!box) return;
+  const city = (MAP_DATA?.cities || []).find(item => item.id === cityId);
+  if (!city) {
+    box.innerHTML = `<p class="city-detail-empty">选择一座城市查看简介。</p>`;
+    return;
+  }
+  $$("#culture-map-svg .map-city").forEach(node => node.classList.toggle("is-active", node.dataset.cityId === cityId));
+  box.innerHTML = `
+    <article class="city-detail-card">
+      <div class="city-detail-kicker"><span>${esc(city.state)}</span><strong>${esc(city.population)}</strong></div>
+      <h3>${esc(city.zh)} <small>${esc(city.name)}</small></h3>
+      <div class="city-detail-stats">
+        <span><small>所属</small>${esc(city.state)}</span>
+        <span><small>人口</small>${esc(city.population)}</span>
+        ${city.area ? `<span><small>面积</small>${esc(city.area)}</span>` : ""}
+        ${city.river ? `<span><small>河流</small>${esc(city.river)}</span>` : ""}
+      </div>
+      <p>${esc(city.desc)}</p>
+      ${city.economy ? `<p class="city-detail-economy"><strong>经济与特色</strong> ${esc(city.economy)}</p>` : ""}
+      ${(city.highlights || []).length ? `<div class="city-detail-highlights">${city.highlights.map(item => `<span>${esc(item)}</span>`).join("")}</div>` : ""}
+    </article>`;
+}
+
+function cultureCardTemplate(item, isHistory) {
+  const labels = Object.fromEntries((CULTURE_DATA.categories || []).map(category => [category.id, category.label]));
+  const year = cultureYear(item);
+  const yearLabel = item.year || (year ? `${year}${item.category === "person" ? " 生" : ""}` : "");
+  return `
+    <article class="culture-card ${esc(item.category)} ${isHistory ? "is-timeline" : ""}" id="culture-card-${esc(item.id)}">
+      <div class="culture-kicker">
+        <span>${esc(labels[item.category] || item.category)}</span>
+        ${yearLabel ? `<strong>${esc(yearLabel)}</strong>` : ""}
+      </div>
+      <h2>${esc(item.titleZh)}</h2>
+      <p class="culture-title-de">${esc(item.titleDe)}</p>
+      <p>${esc(item.contentZh)}</p>
+      <details class="culture-de">
+        <summary>德语原文</summary>
+        <p>${esc(item.contentDe)}</p>
+      </details>
+      ${item.bookSource ? `<p class="culture-book-source">依据：${esc(item.bookSource)}</p>` : ""}
+      <div class="culture-sources">
+        ${(item.sources || []).map(source => `<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.title)}</a>`).join("")}
+        <span>${Math.round((Number(item.confidence) || 0.8) * 100)}% 可信度</span>
+      </div>
+    </article>`;
 }
 
 function renderCulture() {
@@ -2289,9 +3352,14 @@ function renderCulture() {
       return foldSearch(haystack).includes(foldedQuery);
     });
   const isHistory = cultureCategory === "history";
-  const historyItems = baseItems.filter(item => item.category === "history");
+  const isPerson = cultureCategory === "person";
+  const isTimeline = isHistory || isPerson;
+  const historyItems = baseItems.filter(item => item.category === (isPerson ? "person" : "history"));
   let items = baseItems.slice();
-  if (isHistory) {
+  if (cultureTheme !== "all" && cultureCategory === "culture") {
+    items = items.filter(item => cultureThemeGroup(item) === cultureTheme);
+  }
+  if (isTimeline) {
     if (cultureEra !== "all") {
       items = items.filter(item => cultureEraForYear(cultureYear(item)) === cultureEra);
     }
@@ -2311,17 +3379,23 @@ function renderCulture() {
   if (searchInput && searchInput.value !== cultureQuery) searchInput.value = cultureQuery;
   $("#culture-count").textContent = CULTURE_DATA.items.length;
   const eraLabel = CULTURE_ERAS.find(era => era.id === cultureEra)?.label || "全部";
+  const themeLabel = cultureTheme === "all" ? "" : ` · ${cultureTheme}`;
   $("#culture-meta").textContent = query
-    ? `${items.length} 条 · 搜索“${query}”${isHistory ? ` · ${eraLabel}` : ""}`
+    ? `${items.length} 条 · 搜索“${query}”${isTimeline ? ` · ${eraLabel}` : themeLabel}`
     : isHistory
       ? `${items.length} 条 · 历史 · ${eraLabel} · 按时间升序`
-      : `${items.length} 条 · ${labels[cultureCategory] || "全部"} · 最近补充优先`;
+      : isPerson
+        ? `${items.length} 位 · 人物 · ${eraLabel} · 按出生年升序`
+        : `${items.length} 条 · ${labels[cultureCategory] || "全部"}${themeLabel} · 最近补充优先`;
   const hint = $("#culture-search-hint");
   if (hint) hint.textContent = query ? `匹配 ${items.length} 条` : "可按中文、德语或标签检索";
   $(".culture-search")?.classList.toggle("is-searching", Boolean(query));
   $$("#culture-filter [data-culture-category]").forEach(chip => {
     chip.classList.toggle("is-active", chip.dataset.cultureCategory === cultureCategory);
   });
+  renderCultureThemeFilter();
+  renderCultureMap();
+  renderFestivalTimeline();
   if (!items.length) {
     grid.innerHTML = query
       ? `<div class="culture-empty"><h3>没有找到“${esc(query)}”</h3><p>试试人物名、地名、年份，或换一个更短的关键词。</p></div>`
@@ -2330,30 +3404,36 @@ function renderCulture() {
         : `<div class="culture-empty"><h3>这个分类还没有内容</h3><p>换一个分类看看。</p></div>`;
     return;
   }
-  grid.innerHTML = items.map(item => {
-    const year = cultureYear(item);
-    const yearLabel = item.year || (year ? String(year) : "");
-    return `
-    <article class="culture-card ${esc(item.category)} ${isHistory ? "is-timeline" : ""}">
-      <div class="culture-kicker">
-        <span>${esc(labels[item.category] || item.category)}</span>
-        ${yearLabel ? `<strong>${esc(yearLabel)}</strong>` : ""}
+  const grouped = new Map();
+  for (const item of items) {
+    const label = cultureGroupLabel(item, cultureCategory === "all");
+    if (!grouped.has(label)) grouped.set(label, []);
+    grouped.get(label).push(item);
+  }
+  const groupOrder = cultureCategory === "history"
+    ? CULTURE_ERAS.map(era => era.label)
+    : cultureCategory === "person"
+      ? CULTURE_ERAS.map(era => era.label)
+      : cultureCategory === "culture"
+        ? [...CULTURE_THEME_GROUPS.map(group => group[0]), "日常生活与习俗"]
+        : cultureCategory === "map"
+          ? ["联邦州", "德国地理"]
+          : ["历史", "文化", "地图", "人物"];
+  const groups = [...grouped.entries()].sort((a, b) => {
+    const ai = groupOrder.indexOf(a[0]);
+    const bi = groupOrder.indexOf(b[0]);
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+  });
+  grid.innerHTML = groups.map(([label, groupItems]) => `
+    <section class="culture-group">
+      <div class="culture-group-head">
+        <h2>${esc(label)}</h2>
+        <span>${groupItems.length} 条</span>
       </div>
-      <h2>${esc(item.titleZh)}</h2>
-      <p class="culture-title-de">${esc(item.titleDe)}</p>
-      <p>${esc(item.contentZh)}</p>
-      <details class="culture-de">
-        <summary>德语原文</summary>
-        <p>${esc(item.contentDe)}</p>
-      </details>
-      ${item.bookSource ? `<p class="culture-book-source">依据：${esc(item.bookSource)}</p>` : ""}
-      <div class="culture-sources">
-        ${(item.sources || []).map(source => `<a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">${esc(source.title)}</a>`).join("")}
-        <span>${Math.round((Number(item.confidence) || 0.8) * 100)}% 可信度</span>
+      <div class="culture-grid">
+        ${groupItems.map(item => cultureCardTemplate(item, isHistory)).join("")}
       </div>
-    </article>
-  `;
-  }).join("");
+    </section>`).join("");
 }
 
 function renderWeekStrip(metrics) {
@@ -5238,10 +6318,36 @@ function bindEvents() {
       return;
     }
 
+    const festivalJump = event.target.closest("[data-festival-jump]");
+    if (festivalJump) {
+      jumpToFestivalCulture(festivalJump.dataset.festivalJump);
+      return;
+    }
+
+    const festivalEvent = event.target.closest("[data-festival-id]");
+    if (festivalEvent) {
+      renderFestivalDetail(festivalEvent.dataset.festivalId);
+      return;
+    }
+
+    const mapCity = event.target.closest("[data-city-id]");
+    if (mapCity) {
+      renderCityDetail(mapCity.dataset.cityId);
+      return;
+    }
+
     const cultureChip = event.target.closest("#culture-filter [data-culture-category]");
     if (cultureChip) {
       cultureCategory = cultureChip.dataset.cultureCategory;
       cultureEra = "all";
+      cultureTheme = "all";
+      renderCulture();
+      return;
+    }
+
+    const cultureThemeChip = event.target.closest("#culture-theme-filter [data-culture-theme]");
+    if (cultureThemeChip) {
+      cultureTheme = cultureThemeChip.dataset.cultureTheme;
       renderCulture();
       return;
     }
@@ -5499,6 +6605,15 @@ function bindEvents() {
     const typing = target instanceof HTMLElement &&
       (target.matches("input, textarea, select") || target.isContentEditable);
 
+    if (!typing && (event.key === "Enter" || event.key === " ")) {
+      const city = target.closest?.("[data-city-id]");
+      if (city) {
+        event.preventDefault();
+        renderCityDetail(city.dataset.cityId);
+        return;
+      }
+    }
+
     if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
       event.preventDefault();
       const global = $("#global-search");
@@ -5586,6 +6701,7 @@ function init() {
   applyTheme();
   refreshWordIndex();
   bindEvents();
+  bindCultureTimelineDrag();
   renderAll();
   resetQuizSetup();
   const deepArticle = articleFromHash();
@@ -5595,6 +6711,20 @@ function init() {
   } else {
     const initialView = new URLSearchParams(location.search || "").get("view");
     if (initialView && VIEW_LABELS[initialView]) navigate(initialView);
+    const initialCulture = new URLSearchParams(location.search || "").get("category");
+    if (initialCulture && ["all", "history", "culture", "map", "person"].includes(initialCulture)) {
+      cultureCategory = initialCulture;
+      renderCulture();
+    }
+    const initialCity = new URLSearchParams(location.search || "").get("city");
+    if (initialCity) renderCityDetail(initialCity);
+    const initialTheme = new URLSearchParams(location.search || "").get("theme");
+    if (initialTheme) {
+      cultureTheme = initialTheme;
+      renderCulture();
+    }
+    const initialFestival = new URLSearchParams(location.search || "").get("festival");
+    if (initialFestival) renderFestivalDetail(initialFestival);
   }
   const standalone = isStandaloneMode();
   document.documentElement.dataset.displayMode = standalone ? "standalone" : "browser";
@@ -5628,6 +6758,19 @@ function init() {
 }
 
 init();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
