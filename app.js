@@ -903,6 +903,7 @@ const GUIDE_EXAMPLES = window.WORTKARTE_GUIDE_EXAMPLES || {};
 const VERBFORMEN_FIXES = window.WORTKARTE_VERBFORMEN_FIXES || {};
 const GLOSSAR_FIXES = window.WORTKARTE_GLOSSAR_FIXES || {};
 const WIKTIONARY_FIXES = window.WORTKARTE_WIKTIONARY_FIXES || {};
+const WORD_CALIBRATION = (window.WORTKARTE_CALIBRATION && window.WORTKARTE_CALIBRATION.fixes) || {};
 const TATOEBA_EXAMPLES = window.WORTKARTE_TATOEBA_EXAMPLES || {};
 const WORD_SPLITS = window.WORTKARTE_SPLITS || [];
 const WORD_BLACKLIST = new Set(window.WORTKARTE_BLACKLIST || []);
@@ -1485,6 +1486,22 @@ let calendarCursor = new Date();
 
 function fixWordData(word) {
   if (!word || !word.word) return word;
+  const calibration = WORD_CALIBRATION[word.id];
+  if (calibration) {
+    if (calibration.remove) {
+      word.__calibrationRemove = true;
+      return word;
+    }
+    const beforeWord = word.word;
+    for (const [key, value] of Object.entries(calibration)) {
+      if (key.startsWith("_") || key === "remove" || value === undefined) continue;
+      if (word[key] !== undefined && word[`${key}_orig`] === undefined) {
+        word[`${key}_orig`] = word[key];
+      }
+      word[key] = value;
+    }
+    if (word.word !== beforeWord && word.de === beforeWord) word.de = word.word;
+  }
   const originalKey = `${word.article || ""}|${word.word}`;
   const fix = WORD_FIXES[originalKey] || WORD_FIXES[`|${word.word}`];
   if (fix) {
@@ -1504,6 +1521,11 @@ function fixWordData(word) {
     if (!word.article && nounFix.article) word.article = nounFix.article;
     if (!word.plural && nounFix.plural) word.plural = nounFix.plural;
   }
+  if (word.pos === "noun" && WIKTIONARY_FIXES[word.word]) {
+    const wikiFix = WIKTIONARY_FIXES[word.word];
+    if (!word.article && wikiFix.article) word.article = wikiFix.article;
+    if (!word.plural && wikiFix.plural) word.plural = wikiFix.plural;
+  }
   if (word.pos === "noun" && GUIDE_FIXES[word.word]) {
     const guideFix = GUIDE_FIXES[word.word];
     if (!word.article && guideFix.article) word.article = guideFix.article;
@@ -1516,11 +1538,6 @@ function fixWordData(word) {
   }
   if (word.pos === "noun" && GLOSSAR_FIXES[word.word] && !word.plural) {
     word.plural = GLOSSAR_FIXES[word.word].plural;
-  }
-  if (word.pos === "noun" && WIKTIONARY_FIXES[word.word]) {
-    const wikiFix = WIKTIONARY_FIXES[word.word];
-    if (!word.article && wikiFix.article) word.article = wikiFix.article;
-    if (!word.plural && wikiFix.plural) word.plural = wikiFix.plural;
   }
   const tatoebaExample = TATOEBA_EXAMPLES[String(word.word || "").toLowerCase()];
   if (tatoebaExample && !word.example) {
@@ -1845,6 +1862,7 @@ function refreshWordIndex() {
       continue;
     }
     fixWordData(word);
+    if (word.__calibrationRemove) continue;
     normalizeWordRecord(word);
     if (WORD_BLACKLIST.has(`${word.article || ""}|${word.word}`) || SKIP_KEYS.has(`${word.article || ""}|${word.word}`)) continue;
     const key = `${String(word.word).trim().toLocaleLowerCase("de")}|${word.article || ""}`;
@@ -2532,6 +2550,7 @@ function renderHome() {
   renderWordOfDay();
   renderWeeklyQuiz();
   renderRepeatReview();
+  renderPhraseReciteHome();
   renderChrome();
 }
 
@@ -4365,6 +4384,157 @@ function allPhrases() {
   return [...PHRASES, ...(OCR_CONTENT.phrases || []), ...(state.customPhrases || [])];
 }
 
+const PHRASE_DIFFICULTY_ORDER = ["A", "B", "C"];
+const PHRASE_DIFFICULTY_META = {
+  A: { label: "入门", hint: "短句 · 问候 / 礼貌 / 出行" },
+  B: { label: "进阶", hint: "完整句 · 交流 / 日常 / 学习" },
+  C: { label: "挑战", hint: "长句 · 从句 / 抽象表达" }
+};
+const phraseRecite = { open: false, difficulty: "A", index: 0, revealed: false, list: [] };
+
+function phraseLevelScore(level) {
+  const order = { A1: 0, A2: 1, B1: 2, B2: 3, C1: 4, C2: 5 };
+  return order[String(level || "A1").toUpperCase()] ?? 1;
+}
+
+function phraseDifficultyScore(item) {
+  const text = String(item.de || "");
+  const words = text.trim().split(/\s+/).filter(Boolean).length;
+  let score = phraseLevelScore(item.level) * 3 + words;
+  if (/,/.test(text)) score += 1;
+  if (/\b(weil|dass|wenn|ob|aber|denn|obwohl|damit|während|bevor|nachdem|als)\b/i.test(text)) score += 1;
+  if (words >= 10) score += 1;
+  return score;
+}
+
+function phraseDifficulty(item) {
+  const score = phraseDifficultyScore(item);
+  if (score <= 6) return "A";
+  if (score <= 9) return "B";
+  return "C";
+}
+
+function sortedPhraseLibrary() {
+  return allPhrases()
+    .map(item => ({
+      ...item,
+      difficulty: phraseDifficulty(item),
+      difficultyScore: phraseDifficultyScore(item)
+    }))
+    .sort((a, b) =>
+      PHRASE_DIFFICULTY_ORDER.indexOf(a.difficulty) - PHRASE_DIFFICULTY_ORDER.indexOf(b.difficulty) ||
+      a.difficultyScore - b.difficultyScore ||
+      String(a.de || "").localeCompare(String(b.de || ""), "de")
+    );
+}
+
+function recitePhraseList(difficulty = "A") {
+  const seen = new Set();
+  return sortedPhraseLibrary()
+    .filter(item => item.difficulty === difficulty)
+    .filter(item => {
+      const key = foldSearch(String(item.de || "").trim());
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
+function renderPhraseReciteHome() {
+  $$("[data-phrase-count]").forEach(el => {
+    const difficulty = el.dataset.phraseCount;
+    el.textContent = `${recitePhraseList(difficulty).length} 条`;
+  });
+}
+
+function openPhraseRecite(difficulty = "A") {
+  const layer = $("#phrase-recite-modal");
+  if (!layer) return;
+  phraseRecite.difficulty = PHRASE_DIFFICULTY_ORDER.includes(difficulty) ? difficulty : "A";
+  phraseRecite.list = recitePhraseList(phraseRecite.difficulty);
+  phraseRecite.index = 0;
+  phraseRecite.revealed = false;
+  phraseRecite.open = true;
+  layer.hidden = false;
+  layer.setAttribute("aria-hidden", "false");
+  document.body.classList.add("phrase-recite-open");
+  renderPhraseRecite();
+}
+
+function closePhraseRecite() {
+  const layer = $("#phrase-recite-modal");
+  if (!layer) return;
+  phraseRecite.open = false;
+  layer.hidden = true;
+  layer.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("phrase-recite-open");
+}
+
+function setPhraseReciteDifficulty(difficulty) {
+  if (!PHRASE_DIFFICULTY_ORDER.includes(difficulty)) return;
+  phraseRecite.difficulty = difficulty;
+  phraseRecite.list = recitePhraseList(difficulty);
+  phraseRecite.index = 0;
+  phraseRecite.revealed = false;
+  renderPhraseRecite();
+}
+
+function renderPhraseRecite() {
+  const item = phraseRecite.list[phraseRecite.index];
+  const meta = PHRASE_DIFFICULTY_META[phraseRecite.difficulty];
+  const level = $("#phrase-recite-level");
+  if (level) level.textContent = `${phraseRecite.difficulty} · ${meta.label}`;
+  $$("#phrase-recite-modal [data-phrase-recite]").forEach(button => {
+    button.classList.toggle("is-active", button.dataset.phraseRecite === phraseRecite.difficulty);
+  });
+  const progress = $("#phrase-recite-progress");
+  if (progress) progress.textContent = phraseRecite.list.length ? `${phraseRecite.index + 1} / ${phraseRecite.list.length}` : "0 / 0";
+  const bar = $("#phrase-recite-bar");
+  if (bar) bar.style.width = phraseRecite.list.length ? `${((phraseRecite.index + 1) / phraseRecite.list.length) * 100}%` : "0%";
+  if (!item) {
+    if ($("#phrase-recite-de")) $("#phrase-recite-de").textContent = "这个难度还没有短语。";
+    if ($("#phrase-recite-zh")) $("#phrase-recite-zh").textContent = "";
+    if ($("#phrase-recite-answer")) $("#phrase-recite-answer").hidden = true;
+    return;
+  }
+  if ($("#phrase-recite-category")) {
+    $("#phrase-recite-category").textContent = [item.level, item.category].filter(Boolean).join(" · ");
+  }
+  if ($("#phrase-recite-de")) $("#phrase-recite-de").textContent = item.de;
+  if ($("#phrase-recite-zh")) $("#phrase-recite-zh").textContent = item.zh;
+  if ($("#phrase-recite-example")) {
+    $("#phrase-recite-example").textContent = item.example
+      ? `${item.example}${item.exampleZh ? ` — ${item.exampleZh}` : ""}`
+      : "";
+    $("#phrase-recite-example").hidden = !item.example;
+  }
+  if ($("#phrase-recite-answer")) $("#phrase-recite-answer").hidden = !phraseRecite.revealed;
+  if ($("#phrase-recite-reveal")) $("#phrase-recite-reveal").textContent = phraseRecite.revealed ? "隐藏中文" : "显示中文";
+}
+
+function movePhraseRecite(delta) {
+  if (!phraseRecite.list.length) return;
+  phraseRecite.index = (phraseRecite.index + delta + phraseRecite.list.length) % phraseRecite.list.length;
+  phraseRecite.revealed = false;
+  renderPhraseRecite();
+}
+
+function togglePhraseReciteAnswer() {
+  phraseRecite.revealed = !phraseRecite.revealed;
+  renderPhraseRecite();
+}
+
+function shufflePhraseRecite() {
+  if (!phraseRecite.list.length) return;
+  if (phraseRecite.list.length > 1) {
+    let next = phraseRecite.index;
+    while (next === phraseRecite.index) next = Math.floor(Math.random() * phraseRecite.list.length);
+    phraseRecite.index = next;
+  }
+  phraseRecite.revealed = false;
+  renderPhraseRecite();
+}
+
 function allArticles() {
   return [...ARTICLES, ...(OCR_CONTENT.articles || []), ...(state.customArticles || [])];
 }
@@ -4532,13 +4702,13 @@ function renderPhrases() {
   if (!grid) return;
   $("#phrase-count").textContent = allPhrases().length;
   const query = foldSearch(phraseQuery.trim());
-  const items = allPhrases().slice().reverse().filter(item => {
+  const items = sortedPhraseLibrary().filter(item => {
     if (!query) return true;
     return foldSearch([item.de, item.zh, item.example, item.exampleZh, item.category].join(" ")).includes(query);
   });
   grid.innerHTML = items.length ? items.map(item => `
     <article class="phrase-card">
-      <div class="phrase-head"><span class="level-chip">${esc(item.level)}</span><span class="phrase-scene">${esc(item.category)}</span></div>
+      <div class="phrase-head"><span class="level-chip">${esc(item.level)}</span><span class="phrase-difficulty-chip diff-${esc(item.difficulty)}">${esc(item.difficulty)}</span><span class="phrase-scene">${esc(item.category)}</span></div>
       <h2>${esc(item.de)}</h2>
       <p class="phrase-zh">${esc(item.zh)}</p>
       ${item.example
@@ -6467,6 +6637,31 @@ function bindEvents() {
       return;
     }
 
+    const phraseReciteStart = event.target.closest("[data-phrase-recite]");
+    if (phraseReciteStart) {
+      event.preventDefault();
+      openPhraseRecite(phraseReciteStart.dataset.phraseRecite);
+      return;
+    }
+
+    const phraseAction = event.target.closest("[data-phrase-action]");
+    if (phraseAction) {
+      event.preventDefault();
+      const action = phraseAction.dataset.phraseAction;
+      if (action === "close") closePhraseRecite();
+      else if (action === "prev") movePhraseRecite(-1);
+      else if (action === "next") movePhraseRecite(1);
+      else if (action === "reveal") togglePhraseReciteAnswer();
+      else if (action === "shuffle") shufflePhraseRecite();
+      return;
+    }
+
+    const phraseClose = event.target.closest("[data-phrase-close]");
+    if (phraseClose) {
+      closePhraseRecite();
+      return;
+    }
+
     const progressLevel = event.target.closest("[data-progress-level]");
     if (progressLevel) {
       const level = progressLevel.dataset.progressLevel;
@@ -6787,6 +6982,30 @@ function bindEvents() {
     const typing = target instanceof HTMLElement &&
       (target.matches("input, textarea, select") || target.isContentEditable);
 
+    if (phraseRecite.open) {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closePhraseRecite();
+        return;
+      }
+      if (!typing && event.key === "ArrowRight") {
+        event.preventDefault();
+        movePhraseRecite(1);
+        return;
+      }
+      if (!typing && event.key === "ArrowLeft") {
+        event.preventDefault();
+        movePhraseRecite(-1);
+        return;
+      }
+      if (!typing && (event.key === " " || event.key === "Enter")) {
+        event.preventDefault();
+        if (event.key === "Enter" && phraseRecite.revealed) movePhraseRecite(1);
+        else togglePhraseReciteAnswer();
+        return;
+      }
+    }
+
     if (!typing && (event.key === "Enter" || event.key === " ")) {
       const city = target.closest?.("[data-city-id]");
       if (city) {
@@ -6886,6 +7105,10 @@ function init() {
   bindCultureTimelineDrag();
   renderAll();
   resetQuizSetup();
+  const initialPhraseRecite = new URLSearchParams(location.search || "").get("phrases");
+  if (initialPhraseRecite && PHRASE_DIFFICULTY_ORDER.includes(initialPhraseRecite.toUpperCase())) {
+    openPhraseRecite(initialPhraseRecite.toUpperCase());
+  }
   const deepArticle = articleFromHash();
   if (deepArticle) {
     navigate("reading");

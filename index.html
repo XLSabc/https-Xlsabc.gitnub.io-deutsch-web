@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -261,6 +261,33 @@
         <div class="weekly-quiz-actions">
           <button class="btn btn-primary" id="weekly-quiz-start" data-action="start-weekly-quiz">开始小测</button>
           <button class="text-link" id="weekly-quiz-skip" data-action="skip-weekly-quiz">本周不做</button>
+        </div>
+      </section>
+
+      <section class="section-block phrase-recite-block reveal" style="--delay: 150ms" aria-labelledby="phrase-recite-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">PHRASENTRAINING</p>
+            <h2 id="phrase-recite-heading">短语背诵</h2>
+          </div>
+          <span class="section-note">按难度 A → B → C</span>
+        </div>
+        <div class="phrase-recite-grid" id="phrase-recite-home">
+          <button class="phrase-recite-card" data-phrase-recite="A">
+            <span class="phrase-recite-badge">A</span>
+            <span class="phrase-recite-copy"><strong>入门</strong><small>短句 · 问候 / 礼貌 / 出行</small></span>
+            <span class="phrase-recite-count" data-phrase-count="A">0 条</span>
+          </button>
+          <button class="phrase-recite-card" data-phrase-recite="B">
+            <span class="phrase-recite-badge">B</span>
+            <span class="phrase-recite-copy"><strong>进阶</strong><small>完整句 · 交流 / 日常 / 学习</small></span>
+            <span class="phrase-recite-count" data-phrase-count="B">0 条</span>
+          </button>
+          <button class="phrase-recite-card" data-phrase-recite="C">
+            <span class="phrase-recite-badge">C</span>
+            <span class="phrase-recite-copy"><strong>挑战</strong><small>长句 · 从句 / 抽象表达</small></span>
+            <span class="phrase-recite-count" data-phrase-count="C">0 条</span>
+          </button>
         </div>
       </section>
 
@@ -1104,6 +1131,43 @@
   </nav>
 
   <div class="modal-layer" id="modal-root" hidden></div>
+
+  <div class="phrase-recite-layer" id="phrase-recite-modal" hidden>
+    <div class="phrase-recite-backdrop" data-phrase-close></div>
+    <section class="phrase-recite-panel" role="dialog" aria-modal="true" aria-labelledby="phrase-recite-title">
+      <header class="phrase-recite-head">
+        <div>
+          <p class="eyebrow" id="phrase-recite-title">PHRASENTRAINING</p>
+          <strong id="phrase-recite-level">A · 入门</strong>
+        </div>
+        <div class="phrase-recite-head-actions">
+          <span class="phrase-recite-progress" id="phrase-recite-progress">1 / 1</span>
+          <button class="phrase-recite-close" data-phrase-action="close" aria-label="关闭短语背诵">×</button>
+        </div>
+      </header>
+      <div class="phrase-recite-tabs" role="group" aria-label="选择短语难度">
+        <button data-phrase-recite="A">A <span>入门</span></button>
+        <button data-phrase-recite="B">B <span>进阶</span></button>
+        <button data-phrase-recite="C">C <span>挑战</span></button>
+      </div>
+      <div class="phrase-recite-stage">
+        <p class="phrase-recite-category" id="phrase-recite-category"></p>
+        <h2 id="phrase-recite-de"></h2>
+        <div class="phrase-recite-answer" id="phrase-recite-answer" hidden>
+          <p class="phrase-recite-zh" id="phrase-recite-zh"></p>
+          <p class="phrase-recite-example" id="phrase-recite-example"></p>
+        </div>
+        <button class="btn btn-cream phrase-recite-reveal" data-phrase-action="reveal" id="phrase-recite-reveal">显示中文</button>
+      </div>
+      <div class="phrase-recite-bar" aria-hidden="true"><span id="phrase-recite-bar"></span></div>
+      <footer class="phrase-recite-controls">
+        <button class="btn btn-ghost" data-phrase-action="prev">上一个</button>
+        <button class="btn btn-ghost" data-phrase-action="shuffle">随机一条</button>
+        <button class="btn btn-primary" data-phrase-action="next">下一个</button>
+      </footer>
+    </section>
+  </div>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="data.js"></script>
@@ -1119,6 +1183,7 @@
   <script src="verbformen-fixes.js"></script>
   <script src="glossar-fixes.js"></script>
   <script src="wiktionary-fixes.js"></script>
+  <script src="vocab-calibration.js"></script>
   <script src="tatoeba-examples.js"></script>
   <script src="changelog.js"></script>
   <script src="changelog-summary.js"></script>

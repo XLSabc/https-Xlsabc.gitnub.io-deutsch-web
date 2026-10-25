@@ -50,7 +50,7 @@ window.WORTKARTE_FIXES = {
   "das|Mountain": { word: "Mountainbike", translation: "山地自行车" },
   "die|Tonarmee": { word: "Terrakotta-Armee", translation: "兵马俑" },
   "der|Reis": { plural: "" },
-  "der|Sport": { plural: "die Sportarten" },
+  "der|Sport": { plural: "无复数" },
   "die|Büchse": { translation: "（金属）罐；猎枪" },
   "|Büchse": { translation: "（金属）罐；猎枪" },
   "|speichertn": { word: "speichern", translation: "储存；保存" },
@@ -123,6 +123,62 @@ window.WORTKARTE_SPLITS = [
     entries: [
       { word: "Stuhl", article: "der", translation: "椅子", pos: "noun", plural: "die Stühle", level: "A1" },
       { word: "setzen", translation: "放置；坐下", pos: "verb", level: "A1" }
+    ]
+  },
+  {
+    from: "|Bewunderer Bewunderin der die",
+    entries: [
+      { word: "Bewunderer", article: "der", translation: "崇拜者；仰慕者（男）", pos: "noun", plural: "die Bewunderer", level: "B2" },
+      { word: "Bewunderin", article: "die", translation: "女崇拜者；女仰慕者", pos: "noun", plural: "die Bewunderinnen", level: "B2" }
+    ]
+  },
+  {
+    from: "die|Vorsicht vorstellen",
+    entries: [
+      { word: "Vorsicht", article: "die", translation: "小心；谨慎", pos: "noun", plural: "无复数", level: "A1" },
+      { word: "vorstellen", translation: "介绍；想象；把……放在前面", pos: "verb", level: "A2" }
+    ]
+  },
+  {
+    from: "der|Ausweis ausziehen",
+    entries: [
+      { word: "Ausweis", article: "der", translation: "证件；身份证", pos: "noun", plural: "die Ausweise", level: "A2" },
+      { word: "ausziehen", translation: "脱下；搬出；拔出", pos: "verb", level: "A1" }
+    ]
+  },
+  {
+    from: "der|Durst duschen",
+    entries: [
+      { word: "Durst", article: "der", translation: "口渴", pos: "noun", plural: "无复数", level: "A1" },
+      { word: "duschen", translation: "淋浴；洗澡", pos: "verb", level: "A1" }
+    ]
+  },
+  {
+    from: "das|Wasser weh tun",
+    entries: [
+      { word: "Wasser", article: "das", translation: "水", pos: "noun", plural: "die Wasser", level: "A1" },
+      { word: "weh tun", translation: "疼；使疼痛", pos: "verb", level: "A1" }
+    ]
+  },
+  {
+    from: "das|Wiedersehen wie viel",
+    entries: [
+      { word: "Wiedersehen", article: "das", translation: "再见；重逢", pos: "noun", plural: "die Wiedersehen", level: "A2" },
+      { word: "wie viel", translation: "多少", pos: "other", level: "A1" }
+    ]
+  },
+  {
+    from: "der|Anschluss an sein",
+    entries: [
+      { word: "Anschluss", article: "der", translation: "连接；接头；换乘", pos: "noun", plural: "die Anschlüsse", level: "A2" },
+      { word: "an sein", translation: "开着；接通", pos: "verb", level: "A2" }
+    ]
+  },
+  {
+    from: "|Einwanderer Einwanderin der die",
+    entries: [
+      { word: "Einwanderer", article: "der", translation: "移民（男）", pos: "noun", plural: "die Einwanderer", level: "B2" },
+      { word: "Einwanderin", article: "die", translation: "女移民", pos: "noun", plural: "die Einwanderinnen", level: "B2" }
     ]
   }
 ];

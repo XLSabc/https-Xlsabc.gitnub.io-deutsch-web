@@ -8120,3 +8120,254 @@ kbd {
     scroll-behavior: auto !important;
   }
 }
+
+/* ── Phrase recitation ───────────────────────────────────── */
+.phrase-recite-block { margin-top: 30px; }
+
+.phrase-recite-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.phrase-recite-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 17px 18px;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 17px;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  color: var(--ink);
+  cursor: pointer;
+  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+
+.phrase-recite-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--sage);
+  box-shadow: var(--shadow-md);
+}
+
+.phrase-recite-badge {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  font-family: var(--display);
+  font-size: 21px;
+  font-weight: 600;
+  color: var(--forest);
+  background: var(--sage-soft);
+}
+
+.phrase-recite-card[data-phrase-recite="B"] .phrase-recite-badge {
+  color: #7a5424;
+  background: var(--amber-soft);
+}
+
+.phrase-recite-card[data-phrase-recite="C"] .phrase-recite-badge {
+  color: var(--clay-dark);
+  background: var(--clay-soft);
+}
+
+.phrase-recite-copy { display: grid; gap: 2px; min-width: 0; }
+.phrase-recite-copy strong { font-size: 15px; letter-spacing: 0.01em; }
+.phrase-recite-copy small { color: var(--muted); font-size: 12px; line-height: 1.4; }
+.phrase-recite-count { margin-left: auto; flex: 0 0 auto; font-size: 12px; color: var(--muted); }
+
+.phrase-difficulty-chip {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 5px;
+  border-radius: 7px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--forest);
+  background: var(--sage-soft);
+}
+
+.phrase-difficulty-chip.diff-B { color: #7a5424; background: var(--amber-soft); }
+.phrase-difficulty-chip.diff-C { color: var(--clay-dark); background: var(--clay-soft); }
+
+.phrase-recite-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 140;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.phrase-recite-layer[hidden] { display: none; }
+
+.phrase-recite-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 34, 28, 0.48);
+  backdrop-filter: blur(9px);
+}
+
+.phrase-recite-panel {
+  position: relative;
+  width: min(620px, 100%);
+  max-height: calc(100dvh - 36px);
+  overflow: auto;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+  animation: phrase-recite-in 0.32s var(--ease) both;
+}
+
+@keyframes phrase-recite-in {
+  from { opacity: 0; transform: translateY(14px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+
+.phrase-recite-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.phrase-recite-head .eyebrow { margin: 0 0 4px; }
+.phrase-recite-head strong { font-family: var(--display); font-size: 20px; font-weight: 600; color: var(--forest); }
+.phrase-recite-head-actions { display: flex; align-items: center; gap: 10px; }
+
+.phrase-recite-progress {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.phrase-recite-close {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: var(--ink-2);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.phrase-recite-close:hover { background: var(--surface-3); }
+
+.phrase-recite-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.phrase-recite-tabs button {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-2);
+  color: var(--ink-2);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s var(--ease), border-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+.phrase-recite-tabs button span { color: var(--muted); font-size: 11px; margin-left: 3px; }
+
+.phrase-recite-tabs button.is-active {
+  border-color: var(--forest);
+  background: var(--forest);
+  color: var(--cream);
+}
+
+.phrase-recite-tabs button.is-active span { color: rgba(248, 241, 227, 0.7); }
+
+.phrase-recite-stage {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-height: 250px;
+  padding: 24px 22px;
+  border: 1px solid var(--line-soft);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(142, 162, 138, 0.16), transparent 34%),
+    var(--surface-2);
+}
+
+.phrase-recite-category {
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.phrase-recite-stage h2 {
+  margin: 4px 0 0;
+  font-family: var(--display);
+  font-size: clamp(26px, 4.2vw, 38px);
+  line-height: 1.18;
+  font-weight: 600;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.phrase-recite-answer { display: grid; gap: 8px; padding-top: 10px; border-top: 1px solid var(--line-soft); }
+.phrase-recite-answer[hidden] { display: none; }
+
+.phrase-recite-zh { margin: 0; font-size: 19px; line-height: 1.5; color: var(--ink-2); }
+.phrase-recite-example { margin: 0; font-size: 13px; line-height: 1.6; color: var(--muted); }
+
+.phrase-recite-reveal { justify-self: start; margin-top: 6px; }
+
+.phrase-recite-bar {
+  height: 4px;
+  margin: 16px 0 14px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--surface-3);
+}
+
+.phrase-recite-bar span {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--sage), var(--forest-3));
+  transition: width 0.3s var(--ease);
+}
+
+.phrase-recite-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.phrase-recite-controls .btn { width: 100%; }
+
+body.phrase-recite-open { overflow: hidden; }
+
+@media (max-width: 900px) {
+  .phrase-recite-grid { grid-template-columns: minmax(0, 1fr); }
+  .phrase-recite-copy small { font-size: 11px; }
+}
+
+@media (max-width: 640px) {
+  .phrase-recite-layer { padding: 10px; }
+  .phrase-recite-panel { max-height: calc(100dvh - 20px); padding: 18px; border-radius: 19px; }
+  .phrase-recite-stage { min-height: 220px; padding: 20px 16px; }
+  .phrase-recite-controls { grid-template-columns: 1fr 1fr; }
+  .phrase-recite-controls .btn:last-child { grid-column: span 2; }
+}
+

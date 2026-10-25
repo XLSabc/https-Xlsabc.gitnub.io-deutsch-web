@@ -39,10 +39,10 @@ git push -u origin main
 
 ## 更新版本与缓存
 
-站点使用 Service Worker 做离线缓存。当前缓存版本是 `wortkarte-shell-v12`。更新网页文件后，建议同时修改 `sw.js` 顶部的：
+站点使用 Service Worker 做离线缓存。当前缓存版本是 `wortkarte-shell-v113`。更新网页文件后，建议同时修改 `sw.js` 顶部的：
 
 ```js
-const CACHE_NAME = "wortkarte-shell-v13";
+const CACHE_NAME = "wortkarte-shell-v114";
 ```
 
 把版本号加一，已安装到手机主屏幕的旧版本才会主动换用新缓存。否则可能需要刷新两次或清除站点数据。

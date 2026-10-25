@@ -795,5 +795,42 @@ window.WORTKARTE_CHANGELOG = [
       "移动端地图自适应宽度，不再强制横向溢出",
       "新增地图缩放快捷键深链：?mapzoom=2.2"
     ]
+  },
+  {
+    version: "3.41.0",
+    date: "2026-10-25",
+    type: "data",
+    summary: "词库全量校准：畸形词条、冠词与复数修正",
+    scope: "词库 · 词条质量 · 数据源",
+    items: [
+      "审计全部 9638 个词条，新增词条级校准层，可逐条回滚",
+      "修复 derdie/derdas 前缀、未闭合括号、地区标记等 40 余条畸形词条",
+      "拆分 Bewunderer/Einwanderer 两条 der die 男女合并词条",
+      "拆分 Vorsicht vorstellen、Ausweis ausziehen 等 6 条 A1 名词+动词合并行",
+      "24 条形容词+名词搭配不再按名词考冠词",
+      "修正 der Fluch、der Tropfen、der Dritte 等已确认冠词/词性问题",
+      "补全 Verwandte、Serviceangestellte、Band、Mitarbeitende 等可确认复数",
+      "清理 Anlage、Einsatz、Sortiment 等释义中混入的德语/英文",
+      "统一 Abitur、Portemonnaie、Bankomat、Ski 等地区变体写法",
+      "修正 Bedürfnis、Herz ausschütten、Statistisches Amt der EU、Vereinte Nationen 等拼写",
+      "A1/A2 逐词审计：修正 Unterkunft、Zusammenbruch、Sport 复数",
+      "清理 kein-、besonder-、eigen-、dies- 等 5 个 OCR 词干",
+      "修正 Vergehen、erste、rasen 的释义与词性",
+      "移除 17 条无法还原的截断残片与合并残片"
+    ]
+  },
+  {
+    version: "3.42.0",
+    date: "2026-10-25",
+    type: "feature",
+    summary: "短语按难度排序，首页新增 A/B/C 短语背诵",
+    scope: "短语 · 首页 · 背诵模式",
+    items: [
+      "短语库按难度 A → B → C 排序，并显示难度标记",
+      "首页新增短语背诵入口，按 A 入门 / B 进阶 / C 挑战选择",
+      "背诵模式支持显示中文、上一个、下一个、随机一条",
+      "支持空格显示中文、方向键切换、Esc 关闭",
+      "新增深链：?phrases=A / ?phrases=B / ?phrases=C"
+    ]
   }
 ];
