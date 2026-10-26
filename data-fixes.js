@@ -62,7 +62,15 @@ window.WORTKARTE_FIXES = {
   "|Sparkonto": { translation: "储蓄账户" },
   "|Girokonto": { translation: "汇划账户；转账账户" },
   "|Startkapital": { translation: "启动资金" },
-  "|Weltraumfahrzeug": { translation: "宇宙飞船" }
+  "|Weltraumfahrzeug": { translation: "宇宙飞船" },
+  // 抽查 16 组同拼写同释义时确认的冠词错误：修正后与正确词条合并。
+  "die|Vater": { article: "der" },
+  "der|Waise": { article: "die" },
+  "die|Mehl": { article: "das" },
+  "der|Zinn": { article: "das" },
+  "die|Handschuh": { article: "der" },
+  // das Deutsche 指“德语”，不是“德国人”。
+  "das|Deutsche": { translation: "德语（语言）" }
 };
 
 /* The source Excel merged adjacent words into one row. Split these into

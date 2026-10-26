@@ -8457,3 +8457,54 @@ body.phrase-recite-open { overflow: hidden; }
 }
 
 
+
+/* ── 复习算法：0–5 自评与三形式考察 ───────────────────────────── */
+.rating-bar {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.rating.level-0 span { color: var(--rose); }
+.rating.level-1 span { color: #92703b; }
+.rating.level-2 span { color: var(--amber); }
+.rating.level-3 span { color: var(--blue); }
+.rating.level-4 span { color: var(--forest-2); }
+.rating.level-5 span { color: var(--sage); }
+
+.exam-status {
+  margin: 2px 0 10px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.exam-spell {
+  display: flex;
+  gap: 8px;
+  margin: auto 0 16px;
+}
+
+.exam-spell.hidden { display: none; }
+
+.exam-spell-input {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 13px;
+  color: var(--ink);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  font: inherit;
+  font-size: 14px;
+}
+
+.exam-spell-input:focus {
+  outline: 2px solid var(--sage);
+  outline-offset: 1px;
+}
+
+#downgrade-level.hidden { display: none; }
+
+@media (max-width: 700px) {
+  .rating-bar { grid-template-columns: repeat(3, 1fr); }
+  .exam-spell { flex-direction: column; }
+}

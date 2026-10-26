@@ -1,4 +1,4 @@
-/* Changelog policy: every 100 OCR batches is merged into one entry.
+﻿/* Changelog policy: every 100 OCR batches is merged into one entry.
    Entries focus on page, workflow and feature changes rather than per-batch OCR details.
    Detailed per-batch history is kept in changelog-archive.js for reference only. */
 window.WORTKARTE_CHANGELOG = [
@@ -834,17 +834,19 @@ window.WORTKARTE_CHANGELOG = [
     ]
   },
   {
-    version: "3.43.0",
-    date: "2026-10-25",
+    version: "3.67.0",
+    date: "2026-10-26",
     type: "feature",
-    summary: "今日已学目录、四档单词筛选与单词背诵",
-    scope: "首页 · 单词页 · 背诵模式 · OCR",
+    summary: "复习算法改为自评起点 + 三形式实测",
+    scope: "复习算法 · 单词卡 · 数据",
     items: [
-      "首页「今日已学」可点击查看今天学过的单词目录，按掌握度排序",
-      "单词页四档掌握度卡片可点击筛选：未掌握 / 遗忘 / 较生疏 / 熟练",
-      "新增单词背诵模式：本组与四档状态切换，显示释义、词形与例句",
-      "单词背诵支持空格显示释义、方向键切换、Esc 关闭",
-      "启动 OCR 批次 2201–4500：2201–2500 单词优先，2501–4500 内容均衡"
+      "首次学习改为 0–5 自评，userLevel 作为起始掌握等级",
+      "第二次起轮流考察德译中、中译德、单词拼写，优先最久未考的形式",
+      "三种形式全部通过时 level +1；任一形式答错 level -1、重置三形式状态并在 10 分钟后重推",
+      "拼写题兼容 ä/ö/ü/ß 的 ae/oe/ue/ss 写法，忽略大小写与首尾空格",
+      "卡片页新增「降低考察难度」按钮，只能降低 userLevel，不能手动调高",
+      "旧 schema 5 记录先备份，缺字段按默认值兼容，不覆盖原 due / mastery / last / 统计"
     ]
   }
 ];
+

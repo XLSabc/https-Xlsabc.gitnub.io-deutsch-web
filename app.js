@@ -86,15 +86,7 @@ function classifyFinePos(word) {
 
 const MASTERY_ORDER = ["unmastered", "forgotten", "shaky", "mastered"];
 
-// 首次出现仍由学习者自由选择；之后才进入四选一考察。
-const FIRST_RATING_MASTERY = {
-  again: "unmastered",
-  hard: "forgotten",
-  good: "shaky",
-  easy: "mastered"
-};
-
-// 四档掌握度。前三档会以不同间隔重新推送，并优先出易混词辨析题。
+// 四档掌握度用于旧的统计/筛选展示；新的调度以 0–5 level 为准。
 const MASTERY_META = {
   unmastered: { label: "未掌握", short: "未掌握", cls: "status-new", days: 10 / 1440, hint: "10 分钟后重推" },
   forgotten: { label: "遗忘", short: "遗忘", cls: "status-learning", days: 1, hint: "1 天后重推" },
@@ -107,6 +99,22 @@ const STATUS_META = {
   new: { label: "未学习", cls: "status-new" },
   due: { label: "今天到期", cls: "status-due" }
 };
+
+// 0–5 掌握度：0 完全没印象，5 自评掌握；最终 level 由自评上限与三形式实测共同决定。
+const LEVEL_META = [
+  { label: "0 · 没印象", short: "0", hint: "立即重推" },
+  { label: "1 · 见过", short: "1", hint: "5 分钟后" },
+  { label: "2 · 有印象", short: "2", hint: "1 小时后" },
+  { label: "3 · 认识", short: "3", hint: "1 天后" },
+  { label: "4 · 熟悉", short: "4", hint: "3 天后" },
+  { label: "5 · 掌握", short: "5", hint: "7 天后" }
+];
+const LEVEL_REASON_LABEL = {
+  self: "自评起点",
+  wrong: "因答错降低",
+  testing: "等待三种形式全部通过"
+};
+const REVIEW_ENGINE = window.WortkarteReview || null;
 
 const TOPIC_MAP = Object.fromEntries(TOPICS.map(topic => [topic.id, topic]));
 const TEXTBOOK_WORDS = (window.WORTKARTE_TEXTBOOK && Array.isArray(window.WORTKARTE_TEXTBOOK.words))
@@ -1127,6 +1135,30 @@ function formatInterval(intervalDays) {
   return `${round(intervalDays / 365, 1)} 年`;
 }
 
+function formatReviewWait(milliseconds) {
+  const ms = Number(milliseconds);
+  if (!Number.isFinite(ms) || ms <= 0) return "立即";
+  const minutes = ms / MINUTE_MS;
+  if (minutes < 60) return `${Math.max(1, Math.round(minutes))} 分钟`;
+  const hours = minutes / 60;
+  if (hours < 24) return `${Math.max(1, Math.round(hours))} 小时`;
+  const days = hours / 24;
+  if (days < 30) return `${Math.max(1, Math.round(days))} 天`;
+  return `${round(days / 30, 1)} 个月`;
+}
+
+function levelMeta(level) {
+  return LEVEL_META[Math.max(0, Math.min(5, Number(level) || 0))];
+}
+
+function levelReasonText(rec) {
+  if (!rec) return "";
+  if (rec.levelReason === "wrong") return "因答错重置";
+  if (rec.levelReason === "self") return "自评起点";
+  if (rec.levelReason === "testing") return "三形式未全部通过";
+  return "";
+}
+
 function wordDisplay(word, withArticle = true) {
   if (!word) return "";
   if (withArticle && word.article) return `${word.article} ${word.word}`;
@@ -1196,7 +1228,7 @@ function defaultSettings() {
 function freshState() {
   return {
     version: 2,
-    schemaVersion: 5,
+    schemaVersion: 6,
     settings: defaultSettings(),
     reviews: {},
     customWords: [],
@@ -1326,6 +1358,32 @@ function normalizeState(raw) {
       else if (review.status === "learning") mastery = interval >= 3 || reps >= 2 ? "shaky" : "forgotten";
       else mastery = "unmastered";
     }
+    const defaultLevel = { unmastered: 0, forgotten: 1, shaky: 3, mastered: 5 }[mastery] ?? 0;
+    const userLevel = Number.isFinite(Number(review.userLevel))
+      ? Math.max(0, Math.min(5, Math.round(Number(review.userLevel))))
+      : defaultLevel;
+    const level = Number.isFinite(Number(review.level))
+      ? Math.max(0, Math.min(5, Math.round(Number(review.level))))
+      : defaultLevel;
+    const nextReview = Number(review.nextReview ?? due) || 0;
+    const hasTestedLevels = review.testedLevels && typeof review.testedLevels === "object";
+    const testedLevels = hasTestedLevels
+      ? {
+          de2zh: review.testedLevels.de2zh ? 1 : 0,
+          zh2de: review.testedLevels.zh2de ? 1 : 0,
+          spell: review.testedLevels.spell ? 1 : 0
+        }
+      : {
+          // 旧 schema 没有三形式记录：按旧掌握度保守继承，避免升级后已掌握词被误降。
+          de2zh: ["mastered", "shaky", "forgotten"].includes(mastery) ? 1 : 0,
+          zh2de: ["mastered", "shaky"].includes(mastery) ? 1 : 0,
+          spell: mastery === "mastered" ? 1 : 0
+        };
+    const lastTested = {
+      de2zh: Number(review.lastTested?.de2zh) || 0,
+      zh2de: Number(review.lastTested?.zh2de) || 0,
+      spell: Number(review.lastTested?.spell) || 0
+    };
     reviews[id] = {
       ...review,
       reps,
@@ -1334,9 +1392,20 @@ function normalizeState(raw) {
       ease,
       easiness: ease,
       lapses: Number(review.lapses) || 0,
-      due,
-      nextReviewDate: due,
+      due: nextReview,
+      nextReview,
+      nextReviewDate: nextReview,
       last: Number(review.last) || 0,
+      userLevel,
+      testedLevels,
+      lastTested,
+      attempts: Number.isFinite(Number(review.attempts))
+        ? Math.max(0, Number(review.attempts))
+        : (reps + (Number(review.lapses) || 0) > 0 ? 1 : 0),
+      level,
+      streak: Number(review.streak ?? review.correctStreak) || 0,
+      lastPenalty: ["self", "wrong"].includes(review.lastPenalty) ? review.lastPenalty : null,
+      forceForm: ["de2zh", "zh2de", "spell"].includes(review.forceForm) ? review.forceForm : null,
       status: mastery,
       mastery,
       correctStreak: Number(review.correctStreak) || 0
@@ -1345,7 +1414,7 @@ function normalizeState(raw) {
   return {
     ...base,
     ...raw,
-    schemaVersion: 5,
+    schemaVersion: 6,
     settings: { ...base.settings, ...(raw.settings || {}) },
     reviews,
     customWords: Array.isArray(raw.customWords) ? raw.customWords : [],
@@ -1448,7 +1517,7 @@ function loadState() {
     /* backup is best effort */
   }
   const normalized = normalizeState(parsed);
-  // 结构升级后写回，但原始字符串已保存在带时间戳的 backup 中。
+  // schema 5 先保留原文，等下一次用户操作再写入新字段；更旧结构才立即升级写回。
   if (schema < 5) {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized));
@@ -1897,7 +1966,15 @@ function refreshWordIndex() {
     keptByKey.set(key, word);
     allWordList.push(word);
   }
-  for (const word of allWordList) normalizeWordRecord(word);
+  for (const word of allWordList) {
+    normalizeWordRecord(word);
+    const review = state.reviews[word.id];
+    if (review) {
+      // 旧记录补上词条快照，算法与导出都不再依赖词库查找。
+      if (!review.word) review.word = word.word;
+      if (!review.translation) review.translation = word.translation || "";
+    }
+  }
   wordMap = new Map(allWordList.map(word => [word.id, word]));
   rebuildSearchIndex();
 }
@@ -2180,73 +2257,7 @@ function persist() {
 }
 
 /* ─────────────────────────── Spaced repetition ─────────────────────────── */
-
-function scheduleAnswer(previous, correct, now = Date.now()) {
-  const base = previous
-    ? {
-        reps: Number(previous.reps ?? previous.repetition) || 0,
-        interval: Number(previous.interval) || 0,
-        ease: Number(previous.ease ?? previous.easiness) || 2.5,
-        lapses: Number(previous.lapses) || 0,
-        mastery: MASTERY_ORDER.includes(previous.mastery) ? previous.mastery : "unmastered",
-        correctStreak: Number(previous.correctStreak) || 0
-      }
-    : { reps: 0, interval: 0, ease: 2.5, lapses: 0, mastery: "unmastered", correctStreak: 0 };
-
-  let mastery;
-  if (correct) {
-    const index = MASTERY_ORDER.indexOf(base.mastery);
-    mastery = MASTERY_ORDER[Math.min(MASTERY_ORDER.length - 1, index + 1)];
-    // 第一次答对不直接算“熟练”，先进入遗忘档，一天后重推。
-    if (!previous) mastery = "forgotten";
-  } else {
-    mastery = base.mastery === "mastered" || base.mastery === "shaky" ? "forgotten" : "unmastered";
-  }
-
-  let interval = MASTERY_META[mastery].days;
-  if (mastery === "mastered" && base.mastery === "mastered") {
-    interval = Math.max(30, base.interval * 1.7);
-  }
-  const reps = base.reps + 1;
-  const lapses = base.lapses + (correct ? 0 : 1);
-  const correctStreak = correct ? base.correctStreak + 1 : 0;
-  const ease = correct
-    ? Math.min(3.2, base.ease + (mastery === "mastered" ? 0.08 : 0.02))
-    : Math.max(1.3, base.ease - 0.18);
-  const due = now + Math.round(interval * DAY_MS);
-
-  return makeReview({
-    reps,
-    interval: round(interval, 4),
-    ease: round(ease, 2),
-    lapses,
-    due,
-    last: now,
-    status: mastery,
-    mastery,
-    correctStreak
-  });
-}
-
-function previewAnswerInterval(word) {
-  return scheduleAnswer(reviewFor(word.id), true).interval;
-}
-
-function scheduleFirstRating(rating, now = Date.now()) {
-  const mastery = FIRST_RATING_MASTERY[rating] || "forgotten";
-  const interval = MASTERY_META[mastery].days;
-  return makeReview({
-    reps: 1,
-    interval: round(interval, 4),
-    ease: rating === "easy" ? 2.7 : rating === "good" ? 2.5 : rating === "hard" ? 2.3 : 1.9,
-    lapses: rating === "again" ? 1 : 0,
-    due: now + Math.round(interval * DAY_MS),
-    last: now,
-    status: mastery,
-    mastery,
-    correctStreak: rating === "good" || rating === "easy" ? 1 : 0
-  });
-}
+/* 具体调度由 review-engine.js 负责；这里只保留队列/复习入口。 */
 
 /* ─────────────────────────── Queue building ─────────────────────────── */
 
@@ -3991,6 +4002,8 @@ function renderStudyCard() {
   const review = reviewFor(word.id);
   const firstEncounter = !review && session.mode !== "repeat";
   session.firstEncounter = firstEncounter;
+  const downgradeButton = $("#downgrade-level");
+  if (downgradeButton) downgradeButton.classList.toggle("hidden", firstEncounter || !review || Number(review.userLevel) <= 0);
   const view = $("#view-study");
   const flashcard = $("#flashcard");
   session.transitioning = false;
@@ -4077,28 +4090,28 @@ function renderStudyCard() {
   $("#session-done").textContent = session.done;
   $("#session-left").textContent = total - session.done;
 
-  const mastery = masteryFor(word);
-  const masteryMeta = MASTERY_META[mastery];
   const reviewCount = review ? (review.reps + review.lapses) : 0;
+  const currentLevel = review ? Number(review.level) || 0 : 0;
+  const reasonText = levelReasonText(review);
   $("#session-note").textContent = firstEncounter
-    ? "第一次见面。先翻开词卡，再按自己的感觉选择掌握程度。"
+    ? "第一次见面。先翻开词卡，再按自己的感觉选择掌握程度（0–5）。"
     : review
-      ? `这个词你已作答 ${reviewCount} 次，当前「${masteryMeta.label}」。这次只看对错，系统会自动安排下一次。`
+      ? `已作答 ${reviewCount} 次 · 当前 ${currentLevel}/5${reasonText ? ` · ${reasonText}` : ""}。系统会按三种考察结果自动安排。`
       : "第一次见面。先凭直觉选，选错也会立刻看到词卡。";
   const backHint = $("#back-hint-label");
   const backKeys = $("#back-hint-keys");
-  if (backHint) backHint.textContent = firstEncounter ? "选择你对这个词的掌握程度" : "已自动记录，无需自评";
-  if (backKeys) backKeys.innerHTML = firstEncounter ? "<kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd>" : "<kbd>Enter</kbd>";
+  if (backHint) backHint.textContent = firstEncounter ? "选择你对这个词的掌握程度（0–5）" : "已自动记录，无需自评";
+  if (backKeys) backKeys.innerHTML = firstEncounter ? "<kbd>0</kbd>–<kbd>5</kbd>" : "<kbd>Enter</kbd>";
   const nextLabel = $("#mastery-next-label");
   if (nextLabel) nextLabel.textContent = firstEncounter ? "首次学习" : "等待作答";
   const nextNote = $("#mastery-next-note");
   if (nextNote) nextNote.textContent = firstEncounter
-    ? "先自由选择一次；第二次出现时再进入四选一考察。"
+    ? "先自评 0–5；第二次出现时进入德译中、中译德、拼写三种考察。"
     : "答对或答错都会自动安排下一次复习，不需要自评。";
-  ["again", "hard", "good", "easy"].forEach(rating => {
-    const preview = $(`#preview-${rating}`);
-    if (preview) preview.textContent = formatInterval(scheduleFirstRating(rating).interval);
-  });
+  for (let level = 0; level <= 5; level += 1) {
+    const preview = $(`#preview-${level}`);
+    if (preview) preview.textContent = formatReviewWait(REVIEW_ENGINE.INTERVALS[level]);
+  }
   $("#study-timer").textContent = formatClock(Date.now() - session.start);
 
   $("#study-stage").classList.remove("exam-active");
@@ -4142,22 +4155,40 @@ function confusionCandidates(word, count = 3) {
 }
 
 function beginExam(word) {
-  if (!session) return;
-  const mastery = masteryFor(word);
-  const isConfusion = mastery !== "mastered";
-  const direction = isConfusion && Math.random() < 0.65 ? "zh-de" : (Math.random() < 0.5 ? "de-zh" : "zh-de");
+  if (!session || !REVIEW_ENGINE) return;
+  const previous = reviewFor(word.id);
+  if (!previous) return;
+  const rec = REVIEW_ENGINE.normalize(previous);
+  const form = REVIEW_ENGINE.pickForm(rec);
+  const formMeta = REVIEW_ENGINE.FORM_META[form];
+  const isConfusion = rec.level < 5;
   const candidates = confusionCandidates(word, 3);
-  const options = shuffle([word, ...candidates.slice(0, 3)]).map(candidate => ({
-    word: candidate,
-    label: direction === "de-zh" ? candidate.translation : wordDisplay(candidate)
-  }));
+  let options = [];
+  let correct = 0;
+  let answer = "";
+  if (form === "spell") {
+    answer = word.word;
+  } else {
+    const labels = form === "de2zh"
+      ? candidate => candidate.translation
+      : candidate => wordDisplay(candidate);
+    options = shuffle([word, ...candidates.slice(0, 3)]).map(candidate => ({
+      word: candidate,
+      label: labels(candidate)
+    }));
+    correct = options.findIndex(option => option.word.id === word.id);
+  }
   session.exam = {
-    direction,
+    form,
+    formMeta,
     options,
-    correct: options.findIndex(option => option.word.id === word.id),
+    correct,
+    answer,
     answered: false,
     chosen: null,
-    mastery,
+    level: rec.level,
+    userLevel: rec.userLevel,
+    reason: rec.levelReason,
     isConfusion,
     next: null
   };
@@ -4169,27 +4200,53 @@ function beginExam(word) {
 function renderExam(word) {
   const exam = session?.exam;
   if (!exam) return;
-  const masteryMeta = MASTERY_META[exam.mastery] || MASTERY_META.unmastered;
+  const level = Number(exam.level) || 0;
+  const formMeta = exam.formMeta || REVIEW_ENGINE.FORM_META[exam.form];
+  const reason = LEVEL_REASON_LABEL[exam.reason] || "等待实测";
   $("#study-stage").classList.add("exam-active");
   $("#exam-panel").classList.remove("hidden");
-  $("#exam-progress").textContent = `${session.index + 1} / ${session.queue.length} · ${masteryMeta.label} · ${exam.isConfusion ? "易混词辨析" : "熟练度复查"}`;
-  $("#exam-question").textContent = exam.direction === "de-zh" ? wordDisplay(word) : word.translation;
-  $("#exam-sub").textContent = exam.direction === "de-zh"
-    ? (exam.isConfusion ? "选出正确释义，注意近形近义词" : "这个词是什么意思？")
-    : (exam.isConfusion ? "选出正确的德语词，注意易混词" : "选出对应的德语词");
+  $("#exam-progress").textContent = `${session.index + 1} / ${session.queue.length} · ${formMeta.label} · 掌握度 ${level}/5`;
+  $("#exam-question").textContent = exam.form === "zh2de" || exam.form === "spell"
+    ? word.translation
+    : wordDisplay(word);
+  $("#exam-sub").textContent = exam.form === "de2zh"
+    ? "看德语，选出正确的中文释义。"
+    : exam.form === "zh2de"
+      ? "看中文，选出正确的德语单词。"
+      : "看中文，写出完整的德语单词（ä/ö/ü/ß 可写作 ae/oe/ue/ss）。";
+  const status = $("#exam-status");
+  if (status) {
+    status.textContent = `本次考察：${formMeta.label} · 自评起点 ${exam.userLevel}/5 · ${reason}`;
+  }
   const guide = $("#exam-mastery-guide");
   if (guide) {
-    guide.innerHTML = MASTERY_ORDER.map(key => {
-      const meta = MASTERY_META[key];
-      return `<span class="exam-mastery-step ${key === exam.mastery ? "is-active" : ""}"><i></i>${meta.label}<small>${meta.hint}</small></span>`;
-    }).join("");
+    guide.innerHTML = LEVEL_META.map((meta, index) => `
+      <span class="exam-mastery-step ${index === level ? "is-active" : ""}">
+        <i></i>${meta.short}<small>${meta.label.replace(/^\d+ · /, "")}</small>
+      </span>
+    `).join("");
   }
-  $("#exam-options").innerHTML = exam.options.map((option, index) => `
-    <button class="exam-option" data-exam-option="${index}">
-      <span class="exam-index">${index + 1}</span>
-      <span>${esc(option.label)}</span>
-    </button>
-  `).join("");
+  const options = $("#exam-options");
+  const spell = $("#exam-spell");
+  const spellInput = $("#exam-spell-input");
+  const isSpell = exam.form === "spell";
+  options.classList.toggle("hidden", isSpell);
+  spell.classList.toggle("hidden", !isSpell);
+  if (isSpell) {
+    options.innerHTML = "";
+    spellInput.value = "";
+    spellInput.disabled = false;
+    $("#exam-reveal").disabled = true;
+    setTimeout(() => spellInput.focus({ preventScroll: true }), 30);
+  } else {
+    options.innerHTML = exam.options.map((option, index) => `
+      <button class="exam-option" data-exam-option="${index}">
+        <span class="exam-index">${index + 1}</span>
+        <span>${esc(option.label)}</span>
+      </button>
+    `).join("");
+    $("#exam-reveal").disabled = false;
+  }
   $("#exam-result").classList.add("hidden");
   $("#exam-result").classList.remove("is-wrong");
   $("#exam-panel").classList.remove("is-answered");
@@ -4197,21 +4254,47 @@ function renderExam(word) {
 
 function answerExam(index) {
   const exam = session?.exam;
-  if (!exam || exam.answered) return;
+  if (!exam || exam.answered || exam.form === "spell") return;
   const chosen = Number(index);
   if (!Number.isInteger(chosen) || chosen < 0 || chosen >= exam.options.length) return;
+  const correct = chosen === exam.correct;
+  resolveExamAnswer(correct, exam.options[exam.correct]?.label || "", chosen);
+}
+
+function submitSpell() {
+  const exam = session?.exam;
+  if (!exam || exam.answered || exam.form !== "spell") return;
+  const word = currentSessionWord();
+  if (!word) return;
+  const input = $("#exam-spell-input");
+  const value = String(input?.value || "").trim();
+  if (!value) {
+    showToast("先写出德语单词再提交。");
+    input?.focus();
+    return;
+  }
+  const correct = REVIEW_ENGINE.spellingCorrect(value, word.word);
+  resolveExamAnswer(correct, word.word, null);
+}
+
+function resolveExamAnswer(correct, correctLabel, chosen) {
+  const exam = session?.exam;
+  if (!exam || exam.answered) return;
   exam.answered = true;
   exam.chosen = chosen;
   const word = currentSessionWord();
   if (!word) return;
-  const correct = chosen === exam.correct;
   if (correct) session.examStats.correct += 1;
 
-  const previous = reviewFor(word.id);
-  const next = session.mode === "repeat" ? null : scheduleAnswer(previous, correct);
+  const previous = { ...reviewFor(word.id), word: word.word, translation: word.translation || "" };
+  const next = session.mode === "repeat"
+    ? null
+    : REVIEW_ENGINE.review(previous, exam.form, correct);
   if (next) {
     state.reviews[word.id] = next;
     exam.next = next;
+    exam.level = next.level;
+    exam.reason = next.levelReason;
     state.activity[dayKey()] = (state.activity[dayKey()] || 0) + 1;
     state.stats.reviews = (Number(state.stats.reviews) || 0) + 1;
     if (correct) {
@@ -4227,26 +4310,36 @@ function answerExam(index) {
   session.done += 1;
   persist();
 
-  $$("[data-exam-option]").forEach((button, optionIndex) => {
-    button.disabled = true;
-    if (optionIndex === exam.correct) button.classList.add("is-correct");
-    if (optionIndex === chosen && !correct) button.classList.add("is-wrong");
-    if (optionIndex !== chosen && optionIndex !== exam.correct) button.classList.add("is-dimmed");
-  });
+  if (exam.form !== "spell") {
+    $$("[data-exam-option]").forEach((button, optionIndex) => {
+      button.disabled = true;
+      if (optionIndex === exam.correct) button.classList.add("is-correct");
+      if (optionIndex === chosen && !correct) button.classList.add("is-wrong");
+      if (optionIndex !== chosen && optionIndex !== exam.correct) button.classList.add("is-dimmed");
+    });
+  } else {
+    const input = $("#exam-spell-input");
+    if (input) input.disabled = true;
+  }
+
   const result = $("#exam-result");
   result.classList.remove("hidden", "is-wrong");
   result.classList.toggle("is-wrong", !correct);
   $("#exam-result-icon").textContent = correct ? "✓" : "!";
   $("#exam-result-title").textContent = correct ? "Richtig." : "Noch nicht.";
-  const nextMeta = next ? MASTERY_META[next.mastery] : null;
-  $("#exam-result-copy").textContent = nextMeta
-    ? `${correct ? "答对了" : `正确答案是「${exam.options[exam.correct].label}」`} · 已自动归入「${nextMeta.label}」，${formatInterval(next.interval)}后重推${exam.isConfusion ? "，并继续出易混词辨析" : ""}。`
-    : `${correct ? "答对了" : `正确答案是「${exam.options[exam.correct].label}」`} · 今日回顾只记录对错，不改变长期复习安排。`;
+  const wait = next ? formatReviewWait(REVIEW_ENGINE.intervalFor(next)) : "";
+  const reason = next ? (LEVEL_REASON_LABEL[next.levelReason] || "") : "";
+  $("#exam-result-copy").textContent = next
+    ? `${correct ? "答对了" : `正确答案是「${correctLabel}」`} · 掌握度 ${next.level}/5${reason ? `（${reason}）` : ""}，${wait}后重推。`
+    : `${correct ? "答对了" : `正确答案是「${correctLabel}」`} · 今日回顾只记录对错，不改变长期复习安排。`;
   $("#exam-panel").classList.add("is-answered");
   const label = $("#mastery-next-label");
-  if (label && nextMeta) label.textContent = `当前掌握度：${nextMeta.label}`;
+  if (label && next) label.textContent = `当前掌握度：${next.level}/5 · ${LEVEL_META[next.level].label.replace(/^\d+ · /, "")}`;
   const note = $("#mastery-next-note");
-  if (note && nextMeta) note.textContent = `下次复习：${formatInterval(next.interval)}后 · 自动安排`;
+  if (note && next) note.textContent = `下次复习：${wait}后 · ${reason || "三形式实测中"}`;
+  const downgrade = $("#downgrade-level");
+  if (downgrade && next) downgrade.classList.toggle("hidden", next.userLevel <= 0);
+  $("#exam-reveal").disabled = false;
   $("#exam-reveal").focus({ preventScroll: true });
 }
 
@@ -4291,20 +4384,54 @@ function flipCard() {
   $("#view-study").classList.add("is-revealed");
 }
 
-function rateCard(rating) {
+function downgradeCurrentWord() {
+  if (!session || !REVIEW_ENGINE) return;
+  const word = currentSessionWord();
+  if (!word) return;
+  const previous = reviewFor(word.id);
+  if (!previous) {
+    showToast("先完成首次掌握度自评，才能降低考察难度。");
+    return;
+  }
+  const current = { ...REVIEW_ENGINE.normalize(previous), word: word.word, translation: word.translation || "" };
+  if (current.userLevel <= 0) {
+    showToast("已经是 0 级，不能再降低。");
+    return;
+  }
+  const next = REVIEW_ENGINE.downgrade(current, current.userLevel - 1);
+  state.reviews[word.id] = next;
+  persist();
+  showToast(`已降低到 ${next.userLevel} 级，下一次优先德译中。`);
+  if (session.phase === "exam" && !session.exam?.answered) {
+    beginExam(word);
+  } else {
+    const downgrade = $("#downgrade-level");
+    if (downgrade) downgrade.classList.toggle("hidden", next.userLevel <= 0);
+    const label = $("#mastery-next-label");
+    if (label) label.textContent = `当前掌握度：${next.level}/5 · 自评 ${next.userLevel}/5`;
+    const note = $("#mastery-next-note");
+    if (note) note.textContent = "已降低考察上限；下一次优先安排最简单的德译中。";
+  }
+}
+
+function rateCard(level) {
   if (!session || session.transitioning || session.finished) return;
   if (!session.firstEncounter || session.phase === "exam") return;
   if (!$("#view-study").classList.contains("is-revealed")) return;
-  if (!FIRST_RATING_MASTERY[rating]) return;
+  const value = Number(level);
+  if (!Number.isInteger(value) || value < 0 || value > 5 || !REVIEW_ENGINE) return;
   const word = currentSessionWord();
   if (!word) return;
 
   session.transitioning = true;
-  const next = scheduleFirstRating(rating);
+  const next = REVIEW_ENGINE.setUserLevel({
+    word: word.word,
+    translation: word.translation || ""
+  }, value);
   state.reviews[word.id] = next;
   state.activity[dayKey()] = (state.activity[dayKey()] || 0) + 1;
   state.stats.reviews = (Number(state.stats.reviews) || 0) + 1;
-  if (rating === "good" || rating === "easy") {
+  if (value >= 3) {
     state.stats.correct = (Number(state.stats.correct) || 0) + 1;
     delete state.mistakes[word.id];
     delete state.mistakeTypes[word.id];
@@ -4312,7 +4439,7 @@ function rateCard(rating) {
     state.mistakes[word.id] = (state.mistakes[word.id] || 0) + 1;
     state.mistakeTypes[word.id] = "first-rating";
   }
-  session.ratings.push({ id: word.id, correct: rating === "good" || rating === "easy", score: 1 });
+  session.ratings.push({ id: word.id, correct: value >= 3, score: value / 5 });
   session.done += 1;
   persist();
 
@@ -6419,7 +6546,7 @@ function openSettingsModal() {
         <div><strong>图书馆德语资源</strong><small>同济大学图书馆官方德语资源入口</small></div>
         <button class="btn btn-ghost" data-modal-action="open-library-resources">查看</button>
       </div>
-      <p class="settings-local-note">学习记录保存在当前浏览器 localStorage（数据结构 v${Number(state.schemaVersion) || 5}，约 ${Math.max(1, Math.round(JSON.stringify(state).length / 1024))} KB）；代码更新不会覆盖它。建议定期导出备份。</p>
+      <p class="settings-local-note">学习记录保存在当前浏览器 localStorage（数据结构 v${Number(state.schemaVersion) || 6}，约 ${Math.max(1, Math.round(JSON.stringify(state).length / 1024))} KB）；代码更新不会覆盖它。建议定期导出备份。</p>
     </div>
     <div class="settings-danger">
       <strong>备份与重置</strong>
@@ -6726,6 +6853,12 @@ function handleAction(action, element) {
         startStudy({ mode: "daily", limit: Math.min(100, Math.max(5, Number(state.settings.dailyGoal) || 20)) });
       }
       break;
+    case "spell-submit":
+      submitSpell();
+      break;
+    case "downgrade-level":
+      downgradeCurrentWord();
+      break;
     case "exam-reveal":
       revealExamCard();
       break;
@@ -6824,6 +6957,12 @@ function bindEvents() {
     if (actionEl) {
       event.preventDefault();
       runWithFallback("操作", () => handleAction(actionEl.dataset.action, actionEl));
+      return;
+    }
+
+    const levelEl = event.target.closest("#rating-bar [data-level]");
+    if (levelEl) {
+      rateCard(Number(levelEl.dataset.level));
       return;
     }
 
@@ -7316,6 +7455,12 @@ function bindEvents() {
       }
     }
 
+    if (session?.phase === "exam" && session.exam?.form === "spell" && target?.id === "exam-spell-input" && event.key === "Enter") {
+      event.preventDefault();
+      submitSpell();
+      return;
+    }
+
     if (!modalRoot.hidden || typing) return;
 
     if ($("#view-study").classList.contains("is-active") && session) {
@@ -7325,14 +7470,14 @@ function bindEvents() {
           flipCard();
           return;
         }
-        if (["1", "2", "3", "4"].includes(event.key)) {
+        if (["0", "1", "2", "3", "4", "5"].includes(event.key)) {
           event.preventDefault();
-          rateCard({ 1: "again", 2: "hard", 3: "good", 4: "easy" }[event.key]);
+          rateCard(Number(event.key));
           return;
         }
       }
       if (session.phase === "exam") {
-        if (!session.exam?.answered && ["1", "2", "3", "4"].includes(event.key)) {
+        if (!session.exam?.answered && session.exam?.form !== "spell" && ["1", "2", "3", "4"].includes(event.key)) {
           event.preventDefault();
           answerExam(Number(event.key) - 1);
           return;
@@ -7444,6 +7589,7 @@ function init() {
 }
 
 init();
+
 
 
 

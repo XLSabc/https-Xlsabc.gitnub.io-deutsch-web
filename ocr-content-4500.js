@@ -1,7 +1,7 @@
 /* OCR 2201+ extracted content (auto-generated). */
 window.WORTKARTE_OCR_CONTENT_4500 = {
  "generatedAt": "2026-10-26",
- "sourceBatches": "2201-4500",
+ "sourceBatches": "2201-5500",
  "words": [
   {
    "id": "ocr45-w-8346f355ea",
@@ -1080,7 +1080,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "地铁",
    "level": "B1",
-   "plural": "die U-Bahnen",
+   "plural": "",
    "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
   },
   {
@@ -1240,7 +1240,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "工恤衫，短袖圆领衫",
    "level": "B1",
-   "plural": "die T-Shirts",
+   "plural": "",
    "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
   },
   {
@@ -1581,16 +1581,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "名胜证迹",
    "level": "B1",
    "plural": "die Sehenswürdigkeiten",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-w-72b4088c2c",
-   "word": "Umgebung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "届交区，附近，周围《地区",
-   "level": "B1",
-   "plural": "die Umgebungen",
    "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
   },
   {
@@ -2190,7 +2180,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "浴室",
    "level": "B1",
-   "plural": "die Bad-er",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2225"
   },
   {
@@ -2200,7 +2190,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "火车站",
    "level": "B1",
-   "plural": "die Bahnhof-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2225"
   },
   {
@@ -2230,7 +2220,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "树",
    "level": "B1",
-   "plural": "die Baum-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2225"
   },
   {
@@ -2350,7 +2340,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "从业愿望",
    "level": "B1",
-   "plural": "die Berufswunsch-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2225"
   },
   {
@@ -2620,7 +2610,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "轮椅",
    "level": "B1",
-   "plural": "die Drehstuhl-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -2690,7 +2680,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "入口处",
    "level": "B1",
-   "plural": "die Eingang-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -2740,7 +2730,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "迁入.搬入",
    "level": "B1",
-   "plural": "die Einzug-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -2910,7 +2900,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "专业",
    "level": "B1",
-   "plural": "die Fach-er",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -2940,7 +2930,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "行车时刻表",
    "level": "B1",
-   "plural": "die Fahrplan-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -2960,7 +2950,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "电梯",
    "level": "B1",
-   "plural": "die Fahrstuhl-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -2990,7 +2980,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "事件,情况",
    "level": "B1",
-   "plural": "die Fall-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -3130,7 +3120,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "调查表,问卷",
    "level": "B1",
-   "plural": "die Fragebogen-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -3220,7 +3210,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "脚",
    "level": "B1",
-   "plural": "die FuB-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -3230,7 +3220,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "足球",
    "level": "B1",
-   "plural": "die Fußball-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -3260,7 +3250,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "客人",
    "level": "B1",
-   "plural": "die Gast-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2226"
   },
   {
@@ -3610,7 +3600,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "港口",
    "level": "B1",
-   "plural": "die Hafen-",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -3620,7 +3610,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "港口城市",
    "level": "B1",
-   "plural": "die Hafenstadt-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -3630,7 +3620,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "公鸡;龙头",
    "level": "B1",
-   "plural": "die Hahn-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -3710,7 +3700,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "首都,首府",
    "level": "B1",
-   "plural": "die Hauptstadt-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -3800,7 +3790,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "庭院;宫廷;农场,庄园",
    "level": "B1",
-   "plural": "die Hof-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -4240,7 +4230,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "锅",
    "level": "B1",
-   "plural": "die Kochtopf-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -4440,7 +4430,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "教科书,学生用书",
    "level": "B1",
-   "plural": "die Kursbuch-er",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -4530,7 +4520,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "教科书",
    "level": "B1",
-   "plural": "die Lehrbuch-er",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -4600,7 +4590,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "最喜欢的专业",
    "level": "B1",
-   "plural": "die Lieblingsfach-er",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -4730,7 +4720,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "市场",
    "level": "B1",
-   "plural": "die Markt-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2227"
   },
   {
@@ -5130,7 +5120,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "降水",
    "level": "B1",
-   "plural": "die Niederschlag-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2228"
   },
   {
@@ -5200,7 +5190,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "内氧层空洞",
    "level": "B1",
-   "plural": "die Ozonloch-er",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2228"
   },
   {
@@ -5230,7 +5220,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "客运慢车",
    "level": "B1",
-   "plural": "die Personenzug-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2228"
   },
   {
@@ -5270,7 +5260,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "计划.打算",
    "level": "B1",
-   "plural": "die Plan-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2228"
   },
   {
@@ -5460,7 +5450,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "自行车.轮子",
    "level": "B1",
-   "plural": "die Rad-er",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2228"
   },
   {
@@ -5670,7 +5660,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "沙子,秒",
    "level": "B1",
-   "plural": "die Sand-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2228"
   },
   {
@@ -6050,7 +6040,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "城市",
    "level": "B1",
-   "plural": "die Stadt-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2228"
   },
   {
@@ -6350,7 +6340,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "一天的流程,日程",
    "level": "B1",
-   "plural": "die Tagesablauf-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2229"
   },
   {
@@ -6360,7 +6350,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "圣诞树,冷杉",
    "level": "B1",
-   "plural": "die Tannenbaum-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2229"
   },
   {
@@ -6520,7 +6510,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "钟楼,钟塔",
    "level": "B1",
-   "plural": "die Turm-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2229"
   },
   {
@@ -7050,7 +7040,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "比赛,竞赛",
    "level": "B1",
-   "plural": "die Wettkampf-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2229"
   },
   {
@@ -7180,7 +7170,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "愿望,希望",
    "level": "B1",
-   "plural": "die Wunsch-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2229"
   },
   {
@@ -7190,7 +7180,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "香肠,腊肠",
    "level": "B1",
-   "plural": "die Wurst-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2229"
   },
   {
@@ -7310,7 +7300,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "未来",
    "level": "B1",
-   "plural": "die Zukunft-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2230"
   },
   {
@@ -7330,68 +7320,8 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "相互关系,相互联系",
    "level": "B1",
-   "plural": "die Zusammenhang-e",
+   "plural": "",
    "source": "二外德语考研 词汇_侯继红编著_合肥：安徽科学技术出版社.pdf · batch2230"
-  },
-  {
-   "id": "ocr45-w-ce2fcd6ab3",
-   "word": "Abstand",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2231"
-  },
-  {
-   "id": "ocr45-w-85cc8562d5",
-   "word": "Anfang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e开始,开端",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2231"
-  },
-  {
-   "id": "ocr45-w-f57b339529",
-   "word": "Antrag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e申请",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2232"
-  },
-  {
-   "id": "ocr45-w-5ebcbf7756",
-   "word": "Anziehungskraft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一e吸引力,引力",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2232"
-  },
-  {
-   "id": "ocr45-w-c646b54a06",
-   "word": "Aufsatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e文章",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2232"
-  },
-  {
-   "id": "ocr45-w-6d2450dd37",
-   "word": "Bank",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一eK#",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2232"
   },
   {
    "id": "ocr45-w-53a236654d",
@@ -7414,66 +7344,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2233"
   },
   {
-   "id": "ocr45-w-319a33d047",
-   "word": "Bund",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e联邦",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2233"
-  },
-  {
-   "id": "ocr45-w-48993299b8",
-   "word": "Campingplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e宿营地",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2234"
-  },
-  {
-   "id": "ocr45-w-7ddd37e829",
-   "word": "Denkmal",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一er纪念碑",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2234"
-  },
-  {
-   "id": "ocr45-w-40716b29ca",
-   "word": "Dorf",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一er村庄",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2234"
-  },
-  {
-   "id": "ocr45-w-c20a996b57",
-   "word": "Eindruck",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e印象",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2234"
-  },
-  {
-   "id": "ocr45-w-2e1ca55690",
-   "word": "Einfluss",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e影响力",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2234"
-  },
-  {
    "id": "ocr45-w-7d77896fa6",
    "word": "Garten",
    "article": "der",
@@ -7494,31 +7364,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2236"
   },
   {
-   "id": "ocr45-w-c269c9490b",
-   "word": "Holz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一er木头,木材",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2236"
-  },
-  {
    "id": "ocr45-w-7ab45d364a",
    "word": "Internet",
    "article": "das",
    "pos": "noun",
    "translation": "因特网,互联网",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2237"
-  },
-  {
-   "id": "ocr45-w-4d8c2cebe1",
-   "word": "Kunst",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一e艺术",
    "level": "B1",
    "plural": "",
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2237"
@@ -7544,36 +7394,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2238"
   },
   {
-   "id": "ocr45-w-8399a30225",
-   "word": "Macht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一e权力,政权;大国",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2238"
-  },
-  {
-   "id": "ocr45-w-3d7a392801",
-   "word": "Mann",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一er男人;丈夫",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2238"
-  },
-  {
-   "id": "ocr45-w-22109500b7",
-   "word": "Maus",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一e老鼠;鼠标",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2238"
-  },
-  {
    "id": "ocr45-w-faa86121e4",
    "word": "Recht",
    "article": "das",
@@ -7594,16 +7414,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2239"
   },
   {
-   "id": "ocr45-w-52cfc3db17",
-   "word": "Rückgang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e下降,减少",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2239"
-  },
-  {
    "id": "ocr45-w-80c26a7502",
    "word": "Schweiz",
    "article": "die",
@@ -7614,41 +7424,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2239"
   },
   {
-   "id": "ocr45-w-0ae00e5a54",
-   "word": "Spaß",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e乐趣,快乐",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2240"
-  },
-  {
-   "id": "ocr45-w-7dc2002091",
-   "word": "Streichholz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一er火柴",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2240"
-  },
-  {
    "id": "ocr45-w-c5892fe363",
    "word": "Tiirkei",
    "article": "die",
    "pos": "noun",
    "translation": "土耳其",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2241"
-  },
-  {
-   "id": "ocr45-w-3529943098",
-   "word": "Unfall",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e事故",
    "level": "B1",
    "plural": "",
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2241"
@@ -7674,61 +7454,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
   },
   {
-   "id": "ocr45-w-5587b80da2",
-   "word": "Vorhang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e窗帘",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
-  },
-  {
-   "id": "ocr45-w-53a20ed90e",
-   "word": "Wald",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一er森林",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
-  },
-  {
-   "id": "ocr45-w-c3d00f4243",
-   "word": "Wand",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一e墙壁",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
-  },
-  {
-   "id": "ocr45-w-d587b0e52b",
-   "word": "Wolf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e狼",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
-  },
-  {
    "id": "ocr45-w-f514c5631c",
    "word": "Zahnpraxis",
    "article": "die",
    "pos": "noun",
    "translation": "牙科诊所",
-   "level": "B1",
-   "plural": "",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
-  },
-  {
-   "id": "ocr45-w-2998af185d",
-   "word": "Zug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e火车",
    "level": "B1",
    "plural": "",
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
@@ -7954,16 +7684,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程基础篇词汇手册_（德）布朗内特（BRAUNERT，J.）著；范捷平主编；杜幸之编_北京：高等教育出版社.pdf · batch2311"
   },
   {
-   "id": "ocr45-w-3944c07049",
-   "word": "Schlauch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "橡皮管，管道r",
-   "level": "B1",
-   "plural": "",
-   "source": "商务德语教程基础篇词汇手册_（德）布朗内特（BRAUNERT，J.）著；范捷平主编；杜幸之编_北京：高等教育出版社.pdf · batch2311"
-  },
-  {
    "id": "ocr45-w-ef32ec9390",
    "word": "Schraube",
    "article": "die",
@@ -8092,16 +7812,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "die Zwiebeln",
    "source": "商务德语教程基础篇词汇手册_（德）布朗内特（BRAUNERT，J.）著；范捷平主编；杜幸之编_北京：高等教育出版社.pdf · batch2312"
-  },
-  {
-   "id": "ocr45-w-fd34b131d0",
-   "word": "Präsidentschaftskandidaten",
-   "article": "der",
-   "pos": "noun",
-   "translation": "对总统候选人的预选”2.FR",
-   "level": "B1",
-   "plural": "",
-   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2325"
   },
   {
    "id": "ocr45-w-a8f9e45027",
@@ -8624,16 +8334,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "德语专业词汇宝典_陈栋编著_上海：上海译文出版社.pdf · batch2427"
   },
   {
-   "id": "ocr45-w-665acb3c3a",
-   "word": "Forderung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "他向我要求的金额共计1000",
-   "level": "B1",
-   "plural": "",
-   "source": "德语介词固定搭配用法词典_沈渊编著_北京：中央编译出版社.pdf · batch2483"
-  },
-  {
    "id": "ocr45-w-236004d8fa",
    "word": "Rache",
    "article": "die",
@@ -8774,16 +8474,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "德语用法辨析 上 词法、句法部分_张鸿刚，石凯民编著_西安：西北工业大学出版社.pdf · batch2514"
   },
   {
-   "id": "ocr45-w-3a54a20e2b",
-   "word": "Schwarz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "的单数第二格可以加词尾-es,亦可不加任何词尾",
-   "level": "B1",
-   "plural": "",
-   "source": "德语用法辨析 上 词法、句法部分_张鸿刚，石凯民编著_西安：西北工业大学出版社.pdf · batch2514"
-  },
-  {
    "id": "ocr45-w-26e0f2676a",
    "word": "Balkan",
    "article": "der",
@@ -8834,36 +8524,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "《新编大学德语》第1册.pdf · batch2545"
   },
   {
-   "id": "ocr45-w-45a50ec6f2",
-   "word": "Alexanderplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "亚历山大广场E8Ü",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第1册.pdf · batch2545"
-  },
-  {
-   "id": "ocr45-w-012ff48884",
-   "word": "Kurs-e",
-   "article": "der",
-   "pos": "noun",
-   "translation": "培训班E8HV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第1册.pdf · batch2551"
-  },
-  {
-   "id": "ocr45-w-b6363ca75c",
-   "word": "Neckar",
-   "article": "der",
-   "pos": "noun",
-   "translation": "内卡河E8LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第1册.pdf · batch2551"
-  },
-  {
    "id": "ocr45-w-6260c9f9b9",
    "word": "Pizza-s",
    "article": "die",
@@ -8872,136 +8532,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "《新编大学德语》第1册.pdf · batch2551"
-  },
-  {
-   "id": "ocr45-w-09981b78f9",
-   "word": "Börse-n",
-   "article": "die",
-   "pos": "noun",
-   "translation": "证券交易所E5T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-4145fa5725",
-   "word": "Einschreibegebühr",
-   "article": "die",
-   "pos": "noun",
-   "translation": "注册费E8LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-64dc27153a",
-   "word": "Kölsch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "科隆啤酒E.8LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-658a561eec",
-   "word": "Laternenfest",
-   "article": "das",
-   "pos": "noun",
-   "translation": "元宵节E9LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-8056218d83",
-   "word": "Metropole-n",
-   "article": "die",
-   "pos": "noun",
-   "translation": "大都市，………:中心，……枢纽ES;IV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-a800be1fa0",
-   "word": "Mondfest",
-   "article": "das",
-   "pos": "noun",
-   "translation": "中秋节E.9LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-1fa11441df",
-   "word": "Nationalstadion",
-   "article": "das",
-   "pos": "noun",
-   "translation": "国家体育场E5LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-1ad7a94d16",
-   "word": "Pflanzenart-en",
-   "article": "die",
-   "pos": "noun",
-   "translation": "植物种类E.10T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-07221ffd1e",
-   "word": "Pilot-en",
-   "article": "der",
-   "pos": "noun",
-   "translation": "飞行员E.6HV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-f9e12fa3a1",
-   "word": "Planet-en",
-   "article": "der",
-   "pos": "noun",
-   "translation": "星球E10T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-c5d7f8ed15",
-   "word": "Rheinland",
-   "article": "das",
-   "pos": "noun",
-   "translation": "莱茵河地区E.9T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-5288acdb37",
-   "word": "Suchfunktion",
-   "article": "die",
-   "pos": "noun",
-   "translation": "搜索功能E.6LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
-  },
-  {
-   "id": "ocr45-w-5ebc469cdb",
-   "word": "Tierart-en",
-   "article": "die",
-   "pos": "noun",
-   "translation": "动物种类E.10T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2605"
   },
   {
    "id": "ocr45-w-7051d0511a",
@@ -9212,16 +8742,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "最新科技德语选读_张人杰，葛华德编_北京：冶金工业出版社.pdf · batch2608"
-  },
-  {
-   "id": "ocr45-w-91b05ef392",
-   "word": "Zugspitze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "楚格峰(在德国境内)E2T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第2册.pdf · batch2611"
   },
   {
    "id": "ocr45-w-e69f575027",
@@ -10164,16 +9684,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "最新科技德语选读_张人杰，葛华德编_北京：冶金工业出版社.pdf · batch2626"
   },
   {
-   "id": "ocr45-w-700e66ab26",
-   "word": "Exerzierplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "练兵场j",
-   "level": "B1",
-   "plural": "",
-   "source": "最新科技德语选读_张人杰，葛华德编_北京：冶金工业出版社.pdf · batch2626"
-  },
-  {
    "id": "ocr45-w-ebb8a1ed19",
    "word": "Dipol",
    "article": "der",
@@ -11094,16 +10604,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "最新科技德语选读_张人杰，葛华德编_北京：冶金工业出版社.pdf · batch2638"
   },
   {
-   "id": "ocr45-w-23fb319447",
-   "word": "Reaktorkern",
-   "article": "der",
-   "pos": "noun",
-   "translation": "反应堆的核心32.4B",
-   "level": "B1",
-   "plural": "",
-   "source": "最新科技德语选读_张人杰，葛华德编_北京：冶金工业出版社.pdf · batch2638"
-  },
-  {
    "id": "ocr45-w-b66dc92f6d",
    "word": "Turbine",
    "article": "die",
@@ -11564,116 +11064,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "最新科技德语选读_张人杰，葛华德编_北京：冶金工业出版社.pdf · batch2650"
   },
   {
-   "id": "ocr45-w-089abc9732",
-   "word": "Altersversorgung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "养老保险金E.6HV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-b0bf4264c2",
-   "word": "Anpassung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "调整，适应E2以",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-254ea7c76d",
-   "word": "Armel-",
-   "article": "der",
-   "pos": "noun",
-   "translation": "袖子E.2LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-70eed33370",
-   "word": "Aufklärung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "启蒙运动;宣传教育E.10T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-9fde72b60f",
-   "word": "Aussage-n",
-   "article": "die",
-   "pos": "noun",
-   "translation": "见解，看法E.3LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-26f28dbb96",
-   "word": "Biologie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "生物学E.9T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-dc40d1f577",
-   "word": "Dichte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "密度，浓度E7T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-fd662ca3d3",
-   "word": "Erschließung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "发，开拓;推断，启发E.6LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-92d35f722f",
-   "word": "Fettsäure-n",
-   "article": "die",
-   "pos": "noun",
-   "translation": "脂肪酸E7T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-e60f7230da",
-   "word": "Gehirnpotential",
-   "article": "das",
-   "pos": "noun",
-   "translation": "大脑潜力E.6LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-d265b3cad9",
-   "word": "Kalorie-n",
-   "article": "die",
-   "pos": "noun",
-   "translation": "卡路里E.7LV.",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
    "id": "ocr45-w-93eb924493",
    "word": "Kontext-e",
    "article": "der",
@@ -11692,166 +11082,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-7129edfe0e",
-   "word": "Liebling",
-   "article": "der",
-   "pos": "noun",
-   "translation": "亲爱的，宝贝，最喜欢的人E.6T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-5e5c757d72",
-   "word": "Öffnungspolitik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "放政策E.10LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-eb1bef2e2b",
-   "word": "Pädagogik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "教育学E.5HV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-0ef28e9019",
-   "word": "Schweißtropfen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "汗珠，汗滴E.6LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-0e9aeb3480",
-   "word": "Sowjetunion",
-   "article": "die",
-   "pos": "noun",
-   "translation": "苏联E.10T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-81f2e4d644",
-   "word": "Soziologie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "社会学E.5HV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-3aa40ce2d7",
-   "word": "Sportbund",
-   "article": "der",
-   "pos": "noun",
-   "translation": "体育协会E.4T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-b5e4efc565",
-   "word": "Stammtisch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "常客的固定桌位E.9LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-9093c46468",
-   "word": "Stellenwert",
-   "article": "der",
-   "pos": "noun",
-   "translation": "地位，重要意义E.1LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-d2742784ea",
-   "word": "Textilindustrie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "纺织工业E.10LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2665"
-  },
-  {
-   "id": "ocr45-w-7a0ea0f13d",
-   "word": "Verdauung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "消化E.7LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2670"
-  },
-  {
-   "id": "ocr45-w-90b30fd1bd",
-   "word": "Zickzack-Brucke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "弯弯曲曲的桥E.10LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第3册.pdf · batch2670"
-  },
-  {
-   "id": "ocr45-w-97afbc225e",
-   "word": "Beamer-",
-   "article": "der",
-   "pos": "noun",
-   "translation": "投影仪E8T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第4册（第2版）.pdf · batch2707"
-  },
-  {
-   "id": "ocr45-w-774ec7497e",
-   "word": "Hitliste-n",
-   "article": "die",
-   "pos": "noun",
-   "translation": "排行榜E.3LV",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第4册（第2版）.pdf · batch2707"
-  },
-  {
-   "id": "ocr45-w-26dacf1f10",
-   "word": "Infobahn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "信息公路E5T",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第4册（第2版）.pdf · batch2707"
-  },
-  {
-   "id": "ocr45-w-582462f066",
-   "word": "Keim",
-   "article": "der",
-   "pos": "noun",
-   "translation": "病菌E9LV",
-   "level": "B1",
-   "plural": "die Keime",
-   "source": "《新编大学德语》第4册（第2版）.pdf · batch2707"
   },
   {
    "id": "ocr45-w-4fc89fd417",
@@ -11929,16 +11159,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "调整，转变",
-   "level": "B1",
-   "plural": "",
-   "source": "《新编大学德语》第4册（第2版）.pdf · batch2712"
-  },
-  {
-   "id": "ocr45-w-d5901616b0",
-   "word": "Vene-n",
-   "article": "die",
-   "pos": "noun",
-   "translation": "静脉E.9LV",
    "level": "B1",
    "plural": "",
    "source": "《新编大学德语》第4册（第2版）.pdf · batch2712"
@@ -12084,16 +11304,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "最新简明德语语法_（德）Johann Marchart，杨健编著_世界图书出版公司北京公司 .pdf · batch2776"
   },
   {
-   "id": "ocr45-w-0d0ce7dfba",
-   "word": "Tiefkühltruhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "冰柜i2",
-   "level": "B1",
-   "plural": "",
-   "source": "24天脱口秀德语 漫画多媒体互动学习版_佟文斌，戴盛岚编著_北京：北京语言大学出版社.pdf · batch2830"
-  },
-  {
    "id": "ocr45-w-d2975cd365",
    "word": "Kaffeemaschine",
    "article": "die",
@@ -12114,51 +11324,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "24天脱口秀德语 漫画多媒体互动学习版_佟文斌，戴盛岚编著_北京：北京语言大学出版社.pdf · batch2830"
   },
   {
-   "id": "ocr45-w-5fb9f75a94",
-   "word": "Rettungsdienst",
-   "article": "der",
-   "pos": "noun",
-   "translation": "急救电话:120",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2850"
-  },
-  {
-   "id": "ocr45-w-83efdc2905",
-   "word": "Wettervorhersage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "天气预报:12121",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2850"
-  },
-  {
-   "id": "ocr45-w-2a5763017a",
-   "word": "Einreisekarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "入境卡(2",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
    "id": "ocr45-w-d45efc6e61",
    "word": "Einreiseregisterkarte",
    "article": "die",
    "pos": "noun",
    "translation": "入境登记卡",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-5f21c6f616",
-   "word": "Einzelzimmer",
-   "article": "das",
-   "pos": "noun",
-   "translation": "单人间(4",
    "level": "B1",
    "plural": "",
    "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
@@ -12214,161 +11384,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
   },
   {
-   "id": "ocr45-w-0166c7fa7e",
-   "word": "Kleiderschrank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "衣柜(4",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-abaa4c0a8b",
-   "word": "Kleidung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "衣服(7",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-f74c06c7a8",
-   "word": "Knopf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "扣子(10",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-b519e43d19",
-   "word": "Kontonummer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "账号(3",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-a58bc10556",
-   "word": "Kopfkissen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "枕头(4",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-38e6ae9345",
-   "word": "Kopfschmerzen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "头疼(13",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-94b2016d55",
-   "word": "Kotzbeutel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "清洁袋(1",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-1f0aab7cb1",
-   "word": "Krankenhaus",
-   "article": "das",
-   "pos": "noun",
-   "translation": "医院(13",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-6103231a7c",
-   "word": "Krawatte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "领带(7",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-202f721f2a",
-   "word": "Kreditkarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "信用卡(3",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-e25b26528b",
-   "word": "Kühlschrank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冰箱(4",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-b318d80974",
-   "word": "Kunstausstellungshalle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "美术馆(12",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-b057489bd8",
-   "word": "Kiiste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海岸(12",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-3e1916d3b8",
-   "word": "Longjing-Tee",
-   "article": "der",
-   "pos": "noun",
-   "translation": "龙井茶(8",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
    "id": "ocr45-w-287e1f5fd9",
    "word": "Magazin",
    "article": "das",
    "pos": "noun",
    "translation": "杂志",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-a23f3dc522",
-   "word": "Massage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "按摩/推拿(7",
    "level": "B1",
    "plural": "",
    "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
@@ -12399,76 +11419,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "硬座",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-ff00dfdff6",
-   "word": "Obst",
-   "article": "das",
-   "pos": "noun",
-   "translation": "水果(2",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-e41e53b2f3",
-   "word": "Pantoffel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "拖鞋(4",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-9e22b65d22",
-   "word": "Parkplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "停车场(12",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-6811bb7153",
-   "word": "Polsterklasse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "软席(6",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-ec4d5318e3",
-   "word": "Portemonnaie",
-   "article": "das",
-   "pos": "noun",
-   "translation": "钱包(14",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-a92a07b05d",
-   "word": "Quarantine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "检疫(2",
-   "level": "B1",
-   "plural": "",
-   "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
-  },
-  {
-   "id": "ocr45-w-be1e784f04",
-   "word": "Quittung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "发票(10",
    "level": "B1",
    "plural": "",
    "source": "300词畅游中国 德语注释_王尧美，林美淑编；苏芙译_北京：高等教育出版社.pdf · batch2875"
@@ -12630,7 +11580,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "机场免税商店",
    "level": "B1",
-   "plural": "die Duty-free-Shops",
+   "plural": "",
    "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2886"
   },
   {
@@ -12651,6 +11601,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "小酒吧冰柜",
    "level": "B1",
    "plural": "die Minibars",
+   "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2886"
+  },
+  {
+   "id": "ocr45-w-202f721f2a",
+   "word": "Kreditkarte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "信用卡",
+   "level": "B1",
+   "plural": "die Kreditkarten",
    "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2886"
   },
   {
@@ -12960,7 +11920,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "茶单",
    "level": "B1",
-   "plural": "die Tee-Karten",
+   "plural": "",
    "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2901"
   },
   {
@@ -13020,7 +11980,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "电子邮件",
    "level": "B1",
-   "plural": "die E-Mails",
+   "plural": "",
    "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2901"
   },
   {
@@ -13051,6 +12011,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "汇款",
    "level": "B1",
    "plural": "die Überweisungen",
+   "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2901"
+  },
+  {
+   "id": "ocr45-w-b519e43d19",
+   "word": "Kontonummer",
+   "article": "die",
+   "pos": "noun",
+   "translation": "账号",
+   "level": "B1",
+   "plural": "die Kontonummern",
    "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2901"
   },
   {
@@ -13474,6 +12444,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2911"
   },
   {
+   "id": "ocr45-w-83efdc2905",
+   "word": "Wettervorhersage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "天气预报",
+   "level": "B1",
+   "plural": "die Wettervorhersagen",
+   "source": "交际德语口语教程_王志强主编；HaraldLeinweber，王志强，IraEsser编著_北京：人民教育出版社.pdf · batch2911"
+  },
+  {
    "id": "ocr45-w-e0551a5773",
    "word": "Schneefall",
    "article": "der",
@@ -13529,6 +12509,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "脖子",
+   "level": "B1",
+   "plural": "",
+   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch2965"
+  },
+  {
+   "id": "ocr45-w-5587b80da2",
+   "word": "Vorhang",
+   "article": "der",
+   "pos": "noun",
+   "translation": "窗帘",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch2965"
@@ -13834,16 +12824,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch2980"
   },
   {
-   "id": "ocr45-w-2f645ef7d9",
-   "word": "Schulkameradin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "同学(81%",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch2980"
-  },
-  {
    "id": "ocr45-w-3efcb00a68",
    "word": "Aufbaustudium",
    "article": "das",
@@ -13899,6 +12879,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "讲桌",
+   "level": "B1",
+   "plural": "",
+   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch2980"
+  },
+  {
+   "id": "ocr45-w-eb1bef2e2b",
+   "word": "Pädagogik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "教育机械土木",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch2980"
@@ -14114,2801 +13104,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3000"
   },
   {
-   "id": "ocr45-w-561eedf0ea",
-   "word": "Aal",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鳗鱼136",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3c5d884d11",
-   "word": "Abendkleid",
-   "article": "das",
-   "pos": "noun",
-   "translation": "礼服162",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-59341f3722",
-   "word": "Abendvorstellung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "晚场244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d82bc3d6e1",
-   "word": "Abflughalle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "出境大厅226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e3526fa296",
-   "word": "Abflugplan",
-   "article": "der",
-   "pos": "noun",
-   "translation": "航班时刻表228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-60a9c550ad",
-   "word": "Abfluss",
-   "article": "der",
-   "pos": "noun",
-   "translation": "排水孔107",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bb20ab2739",
-   "word": "Abseits",
-   "article": "das",
-   "pos": "noun",
-   "translation": "越位259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e816d0815c",
-   "word": "Absenderadresse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "寄件人地址184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1052dce6fa",
-   "word": "Achterbahn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "过山车243",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-92b5482939",
-   "word": "Adapter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电源转接头105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7551349d3e",
-   "word": "Adler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "老认283",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5ea71050e0",
-   "word": "Affe",
-   "article": "der",
-   "pos": "noun",
-   "translation": "猴子278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c84fd76015",
-   "word": "Agrarwissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "农学199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-984b36ae24",
-   "word": "Aikido",
-   "article": "das",
-   "pos": "noun",
-   "translation": "合气道265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-438ecf9b6c",
-   "word": "Akkordeon",
-   "article": "das",
-   "pos": "noun",
-   "translation": "手风琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-32c4409b20",
-   "word": "Aktenordner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "活页夹272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c474e9bb12",
-   "word": "Aktenschrank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "文件柜272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-710456c654",
-   "word": "Akupressur",
-   "article": "die",
-   "pos": "noun",
-   "translation": "推拿373",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-772d04ea7e",
-   "word": "Akupunkturnadel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "针灸针373",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3c2087e8bb",
-   "word": "Alge",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海藻285",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fe09661400",
-   "word": "Alumnus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "校友190",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1827f98741",
-   "word": "Ameise",
-   "article": "die",
-   "pos": "noun",
-   "translation": "蚂蚁287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-610c8de2b4",
-   "word": "Amerikaner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "美国人蛋糕2",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9733aea142",
-   "word": "Anamnese",
-   "article": "die",
-   "pos": "noun",
-   "translation": "问诊212",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-97e518b786",
-   "word": "Ananas",
-   "article": "die",
-   "pos": "noun",
-   "translation": "菠萝129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c87c1b982a",
-   "word": "Anführungszeichen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "引号205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4a9062cbc0",
-   "word": "Angestellte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "店员(女)178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5af39f5370",
-   "word": "Angestellte",
-   "article": "der",
-   "pos": "noun",
-   "translation": "店员(男)178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6566be5268",
-   "word": "Angriffslinie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "攻击线252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-77b56eb7e5",
-   "word": "Ankunftshalle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "入境大厅227",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9a484a4991",
-   "word": "Anprobe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "更衣室178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d6939e9f20",
-   "word": "Anrufbeantworter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电话答录机127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8b0c96a149",
-   "word": "Anschrift",
-   "article": "die",
-   "pos": "noun",
-   "translation": "收件人地址185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dfe489af68",
-   "word": "Anstoß",
-   "article": "der",
-   "pos": "noun",
-   "translation": "开球258",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d0ddb8f546",
-   "word": "Antarktis",
-   "article": "die",
-   "pos": "noun",
-   "translation": "南极洲295",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-18eff5c7f3",
-   "word": "Anthropologie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "人类学199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-16636ecd2f",
-   "word": "Antiseptikum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "碘酒214",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e5c87a153e",
-   "word": "Anwalt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "律师(男)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d8ca65721d",
-   "word": "Anwältin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "律师(女)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ae4bcda768",
-   "word": "Anwesenheitskontrolle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "点名201",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c623663bdf",
-   "word": "Anzeigetafel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "记分板250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-378d9d9a02",
-   "word": "Anzug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "西装;套装162",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4de16b1ce7",
-   "word": "Apfel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "苹果129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ac6477665f",
-   "word": "Apfelkuchen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "苹果蛋糕Z2",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f791e31269",
-   "word": "Apfelstrudel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "苹果派73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d122a206d6",
-   "word": "Apfelwein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "苹果酒76",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9e33f633ba",
-   "word": "Arbeitslose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "失业者(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-04e62b9b7c",
-   "word": "Arbeitslose",
-   "article": "der",
-   "pos": "noun",
-   "translation": "失业者(男)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3bd3425a44",
-   "word": "Architektin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "建筑师(女)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f99c7ae0cc",
-   "word": "Architekt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "建筑师(男)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5b3a281395",
-   "word": "Archäologie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "考古学199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8ac0e9729b",
-   "word": "Arkade",
-   "article": "die",
-   "pos": "noun",
-   "translation": "骑楼176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-13a2f5a2f1",
-   "word": "Armaturenbrett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "仪表板225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e5a848cccf",
-   "word": "Armbanduhr",
-   "article": "die",
-   "pos": "noun",
-   "translation": "手表166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6aa7b4780a",
-   "word": "Armflosser",
-   "article": "der",
-   "pos": "noun",
-   "translation": "安康鱼136",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-70b83f683d",
-   "word": "Armkette",
-   "article": "die",
-   "pos": "noun",
-   "translation": "手链166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7ba52b37e2",
-   "word": "Armlehne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "扶手237",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7a48ae053a",
-   "word": "Armreif",
-   "article": "der",
-   "pos": "noun",
-   "translation": "手镯166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8f3fe8b095",
-   "word": "Aromatherapeutin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "芳疗师(女)241",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-566cd88911",
-   "word": "Aromatherapeut",
-   "article": "der",
-   "pos": "noun",
-   "translation": "芳疗师(男)241",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a61d6e1436",
-   "word": "Arzthelfer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "助理210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e251051e66",
-   "word": "Arzt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "医生(男)210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cb0bd2edf7",
-   "word": "Aschenbecher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "烟灰缸104",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f09436bd0f",
-   "word": "Assistentin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "助理(女)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f69a072a42",
-   "word": "Assistant",
-   "article": "der",
-   "pos": "noun",
-   "translation": "助理(男)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-615b4d2abb",
-   "word": "Astronomie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "天文198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6e59d508a9",
-   "word": "Athletin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "运动员(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ee8acd20d1",
-   "word": "Athlet",
-   "article": "der",
-   "pos": "noun",
-   "translation": "运动员(男)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-aded58cf25",
-   "word": "Atlantik",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大西洋294",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1174b82e65",
-   "word": "At-Zeichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "小老鼠205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f7c54f0faf",
-   "word": "Aubergine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "茄子132",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e686e4d6e8",
-   "word": "Aue",
-   "article": "die",
-   "pos": "noun",
-   "translation": "绵羊(母)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0d03d45fe9",
-   "word": "Aufenthaltsraum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "候机室228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4b242fff3a",
-   "word": "Aufkleber",
-   "article": "der",
-   "pos": "noun",
-   "translation": "贴纸203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6d1797a8ea",
-   "word": "Aufnahmeprüfung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "入学考试201",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8a73851ce6",
-   "word": "Aufschlagfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "发球区256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
    "id": "ocr45-w-51a5ed742d",
    "word": "Aufschlag",
    "article": "der",
    "pos": "noun",
    "translation": "发球",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8d68eede6a",
-   "word": "Aufzug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电梯99",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-87e73a02fb",
-   "word": "Augenarzt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "眼科医生211",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-80926718ca",
-   "word": "Augencreme",
-   "article": "die",
-   "pos": "noun",
-   "translation": "眼霜171",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bfdf9f21d5",
-   "word": "Augenheilkunde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "眼科277",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0961c703c9",
-   "word": "Augenringe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "黑眼圈91",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b64a09397d",
-   "word": "Ausball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "界外球254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f675e34d11",
-   "word": "Ausgang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "出口222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-94c822dd9b",
-   "word": "Auslage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "展示柜178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-50859f1b40",
-   "word": "Ausleihe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "借书处196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6ab11e4fcb",
-   "word": "Auslese",
-   "article": "die",
-   "pos": "noun",
-   "translation": "上等葡萄酒76",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-34e95f594d",
-   "word": "Ausrufezeichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "惊叹号205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-abe21786b6",
-   "word": "Aussehen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "长相90",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9a7c6a48ce",
-   "word": "Auswechselspieler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蔡补球员250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2bf60b11ca",
-   "word": "Autobahn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "高速公路176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-76a2e52289",
-   "word": "Autofenster",
-   "article": "das",
-   "pos": "noun",
-   "translation": "车窗224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2fdfaf611b",
-   "word": "Autokennzeichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "车牌224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f4721eadfe",
-   "word": "Automat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "自动售货机175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2f644ed994",
-   "word": "Autorennsport",
-   "article": "der",
-   "pos": "noun",
-   "translation": "赛车249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-558adb9d71",
-   "word": "Autoscooter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "碰碰车242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-71abe8f479",
-   "word": "Autotür",
-   "article": "die",
-   "pos": "noun",
-   "translation": "车门224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c6cacbc84c",
-   "word": "Backboard",
-   "article": "das",
-   "pos": "noun",
-   "translation": "篮板250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a1cd8ca2d3",
-   "word": "Backe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "脸颊84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8b4b314b1f",
-   "word": "Backofen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "烤箱116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-76ad49fb0d",
-   "word": "Backwaren",
-   "article": "die",
-   "pos": "noun",
-   "translation": "烘焙食品126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e0614dee70",
-   "word": "Badeanzug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "泳衣;泳装165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2cac7596ea",
-   "word": "Badehose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "泳裤165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-42e79dc35c",
-   "word": "Badekappe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "泳帽165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0a547fdc57",
-   "word": "Bademantel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "浴袍109",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ca6024ef7f",
-   "word": "Badeteppich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "脚踏垫107",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5c0454adc8",
-   "word": "Badetuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "浴巾706",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2e8e1eba0b",
-   "word": "Badewanne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "浴缸107",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-531c8be8c1",
-   "word": "Bahnsteig",
-   "article": "der",
-   "pos": "noun",
-   "translation": "月台222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5a613d9228",
-   "word": "Ballannahme",
-   "article": "die",
-   "pos": "noun",
-   "translation": "接球259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-29397b1ffb",
-   "word": "Ballbesitz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "持球252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-53ab6592af",
-   "word": "Ball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "坏球255",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4f1f7714f3",
-   "word": "Bambussprosse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "竹笋132",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-663329f444",
-   "word": "Bambus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "竹子287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1df95c6917",
-   "word": "Bankautomat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "自动提款机183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5fe23223cd",
-   "word": "Bankkarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "提款卡183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ac67b29337",
-   "word": "Barett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "贝雷帽168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-783e243f91",
-   "word": "Barkeeper",
-   "article": "der",
-   "pos": "noun",
-   "translation": "调酒师148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-53318ad2a9",
-   "word": "Barren",
-   "article": "der",
-   "pos": "noun",
-   "translation": "双杠264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-96b017e6ca",
-   "word": "Bart",
-   "article": "der",
-   "pos": "noun",
-   "translation": "胡子90",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2acc5c3652",
-   "word": "Bar",
-   "article": "die",
-   "pos": "noun",
-   "translation": "吧台237",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d6a7ce08d2",
-   "word": "Baseballfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "棒球场254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9c633380ac",
-   "word": "Baseballhandschuh",
-   "article": "der",
-   "pos": "noun",
-   "translation": "手套254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-694d0e4ef7",
-   "word": "Baseball-Jersey",
-   "article": "der",
-   "pos": "noun",
-   "translation": "棒球衣254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4b0b7b8d51",
-   "word": "Baseballschläger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "球棒254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-77ca47de94",
-   "word": "Baseball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "棒球254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5c8e7f15fb",
-   "word": "Basilikum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "罗勒157",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1fa5a17055",
-   "word": "Basketballfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "篮球场250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1e82d7d42d",
-   "word": "Basketballkorb",
-   "article": "der",
-   "pos": "noun",
-   "translation": "篮框250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-45af85359c",
-   "word": "Basketballplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "篮球场192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ef86083563",
-   "word": "Basketball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "篮球250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f82e714154",
-   "word": "Batter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "打击手254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-54f3b1219d",
-   "word": "Bauchmuskeln",
-   "article": "die",
-   "pos": "noun",
-   "translation": "腹肌97",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4155cae1e9",
-   "word": "Bauchnabel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "肚脐84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2bc2faa5fa",
-   "word": "Bauch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "腹部84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-eb44076c6c",
-   "word": "Bauernbrot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "乡村面包70",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1a42bbdb03",
-   "word": "Bauernwurst",
-   "article": "die",
-   "pos": "noun",
-   "translation": "乡村香肠71",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2b68f43f6c",
-   "word": "Baustelle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "道路施工220",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d9a79a4059",
-   "word": "Bauwesen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "土木199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4caf8b51ae",
-   "word": "Beachvolleyball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "沙滩排球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-14974b54b5",
-   "word": "Beamer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "投影仪181",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-845284e381",
-   "word": "Beamte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "公务员(女)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5b4c9ed752",
-   "word": "Beamte",
-   "article": "der",
-   "pos": "noun",
-   "translation": "公务员(男)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a5f0ced4bb",
-   "word": "Becher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "马克杯153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bdcdbc1b83",
-   "word": "Becken",
-   "article": "das",
-   "pos": "noun",
-   "translation": "盆地296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5e2ef94b07",
-   "word": "Beifahrersitz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "副驾驶座225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2d699fc67b",
-   "word": "Beil",
-   "article": "das",
-   "pos": "noun",
-   "translation": "斧头123",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b6fad8e741",
-   "word": "Bento",
-   "article": "das",
-   "pos": "noun",
-   "translation": "便当309",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c4312ef0c4",
-   "word": "Beschaffenheit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "口感159",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9cb43a1cbe",
-   "word": "Besucherterrasse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "观景台227",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9ac64f6bc2",
-   "word": "Bettbezug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "床单112",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8507e17857",
-   "word": "Bettlaken",
-   "article": "das",
-   "pos": "noun",
-   "translation": "被单172",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cdc4a6f6b1",
-   "word": "Bibliothekar",
-   "article": "der",
-   "pos": "noun",
-   "translation": "图书管理员196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7bc88ba53a",
-   "word": "Bibliotheksausweis",
-   "article": "der",
-   "pos": "noun",
-   "translation": "借书证196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-62eed660d7",
-   "word": "Bienenstich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "杏仁奶油蛋糕72",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-38cfcb5168",
-   "word": "Bierschinken",
-   "article": "der",
-   "pos": "noun",
-   "translation": "啤酒火腿77",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c5edb632f8",
-   "word": "Bier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "啤酒147",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6cff5e873e",
-   "word": "Bikini",
-   "article": "der",
-   "pos": "noun",
-   "translation": "比基尼泳装165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-74799c86d9",
-   "word": "Bildband",
-   "article": "der",
-   "pos": "noun",
-   "translation": "画册196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a11a737671",
-   "word": "Bilderrahmen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "相框112",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ebb06bb95a",
-   "word": "Bildhauerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "有雕塑家(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9b43680abf",
-   "word": "Billardstock",
-   "article": "der",
-   "pos": "noun",
-   "translation": "台球杆237",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-984219f76d",
-   "word": "Billard",
-   "article": "das",
-   "pos": "noun",
-   "translation": "台球237",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9dae760579",
-   "word": "Bindestrich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "连字符205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1e483f5c6c",
-   "word": "Binde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "绷带214",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b12815df17",
-   "word": "Birke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "桦木287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d8d4088802",
-   "word": "Bleichmittel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "漂白剂114",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-eb995c39cc",
-   "word": "Bleistiftspitzer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "削铅笔机203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ac7086c576",
-   "word": "Blu-Ray-Player",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蓝光播放机127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-30d6556a71",
-   "word": "Blutdruckmessgerät",
-   "article": "das",
-   "pos": "noun",
-   "translation": "血压计215",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6bb1667f66",
-   "word": "Blutentnahme",
-   "article": "die",
-   "pos": "noun",
-   "translation": "抽血273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f7ab121c41",
-   "word": "Bluthochdruck",
-   "article": "der",
-   "pos": "noun",
-   "translation": "高血压209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-24b8f2dd2c",
-   "word": "Bluttransfusion",
-   "article": "die",
-   "pos": "noun",
-   "translation": "输血273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-79de9ec415",
-   "word": "Blutwurst",
-   "article": "die",
-   "pos": "noun",
-   "translation": "血肠71",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-780a69cb36",
-   "word": "Boardingbereich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "登机区228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0e0a4e4a75",
-   "word": "Bockwurst",
-   "article": "die",
-   "pos": "noun",
-   "translation": "小牛肉香肠71",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4ce51bb97a",
-   "word": "Bodenpersonal",
-   "article": "das",
-   "pos": "noun",
-   "translation": "地勤人员226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ec39fcfeef",
-   "word": "Bodenwischer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "拖把104",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ea62c7f5dc",
-   "word": "Bogenschießen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "射箭249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-92377ea325",
-   "word": "Bordkarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "登机牌229",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bcc0984414",
-   "word": "Bordstein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "路缘石176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-84320d4091",
-   "word": "Bowle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "水果调酒76",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-88dbfba1dc",
-   "word": "Bowling",
-   "article": "das",
-   "pos": "noun",
-   "translation": "保龄球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a91ae8f7fd",
-   "word": "Braunzucker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "黑糖156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1d7d70cd75",
-   "word": "Bremse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "刹车225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cbbd62c5d1",
-   "word": "Briefumschlag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "信封184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1544f12863",
-   "word": "Brille",
-   "article": "die",
-   "pos": "noun",
-   "translation": "眼镜167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c7a084f679",
-   "word": "Bronzemedaille",
-   "article": "die",
-   "pos": "noun",
-   "translation": "铜牌261",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-75866f973c",
-   "word": "Brosche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "胸针166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-52476bd06d",
-   "word": "Brunnen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "喷水池176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8626564633",
-   "word": "Brust",
-   "article": "die",
-   "pos": "noun",
-   "translation": "胸部84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a0513e8924",
-   "word": "Brustschwimmen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "蛙泳262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4a9daa8f36",
-   "word": "Buchdeckel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "封面197",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d69140e907",
-   "word": "Bungee-Jumping",
-   "article": "das",
-   "pos": "noun",
-   "translation": "蹦极249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7355050331",
-   "word": "Busch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "灌木从100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ae21fab02f",
-   "word": "Businessclass",
-   "article": "die",
-   "pos": "noun",
-   "translation": "商务舱231",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4a00397bf9",
-   "word": "Butter",
-   "article": "die",
-   "pos": "noun",
-   "translation": "黄油142",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-72bfb1411d",
-   "word": "Buttermesser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "黄油刀152",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cadaa6ddc8",
-   "word": "Bäckerei",
-   "article": "die",
-   "pos": "noun",
-   "translation": "面包店175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6b5d29956d",
-   "word": "Büffet",
-   "article": "das",
-   "pos": "noun",
-   "translation": "自助餐309",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-832a809140",
-   "word": "Bügelbrett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "汤衣板114",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4a0c0be00c",
-   "word": "Bürgersteig",
-   "article": "der",
-   "pos": "noun",
-   "translation": "人行道176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1f26a43c7b",
-   "word": "Bürogebäude",
-   "article": "das",
-   "pos": "noun",
-   "translation": "办公大楼174",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-70f840e9d6",
-   "word": "Büroklammer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "回形针，曲别针202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-78c3802bc8",
-   "word": "BUro",
-   "article": "das",
-   "pos": "noun",
-   "translation": "办公室272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c3343a2068",
-   "word": "Bürstenhaarschnitt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "平头240",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-91d48f25de",
-   "word": "Bürste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "刷子123",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8db2796075",
-   "word": "Catcher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "捕手254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c26390ac70",
-   "word": "CD-ROM-Laufwerk",
-   "article": "das",
-   "pos": "noun",
-   "translation": "光驱274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-013b837df6",
-   "word": "Cello",
-   "article": "das",
-   "pos": "noun",
-   "translation": "大提琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-777e873db6",
-   "word": "Center-Fielder",
-   "article": "der",
-   "pos": "noun",
-   "translation": "中外野手254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ab0fef3c3a",
-   "word": "Center",
-   "article": "der",
-   "pos": "noun",
-   "translation": "中锋250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8ccf20de16",
-   "word": "Champignon",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蘑菇131",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bb28b52b43",
-   "word": "Check-in-Schalter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "值机柜台226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e336f59592",
-   "word": "Cheerleader",
-   "article": "der",
-   "pos": "noun",
-   "translation": "拉拉队258",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bf019e1670",
-   "word": "Chemie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "化学198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-06764ef641",
-   "word": "Chemotherapie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "化学疗法213",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1eb38fe40c",
-   "word": "Chicken-Nugget",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鸡块146",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cb37374fdb",
-   "word": "ChilisoRe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "辣椒效157",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-63b149c2fc",
-   "word": "Chili",
-   "article": "der",
-   "pos": "noun",
-   "translation": "辣椒130",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-77a90b6f5e",
-   "word": "Chinakohl",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大白菜132",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-57408efdcb",
-   "word": "Chirurgie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "外科277",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f3d512821b",
-   "word": "Chirurg",
-   "article": "der",
-   "pos": "noun",
-   "translation": "外科医生271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2ca36cf4b9",
-   "word": "Christstollen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "圣诞坚果蛋糕73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c75f872326",
-   "word": "Chrysantheme",
-   "article": "die",
-   "pos": "noun",
-   "translation": "菊花286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-14a5d53bb6",
-   "word": "Clownfisch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小丑鱼284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-17e65dc282",
-   "word": "Club",
-   "article": "der",
-   "pos": "noun",
-   "translation": "俱乐部176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6a22d74443",
-   "word": "Cocktailglas",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鸡尾酒杯153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f202c21ef3",
-   "word": "Cocktail",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鸡尾酒141",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1bb46d0b6d",
-   "word": "Cognac",
-   "article": "der",
-   "pos": "noun",
-   "translation": "干邑白兰地77",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1d596e3711",
-   "word": "Cousine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "堂(表)姐妹83",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0306d0fd98",
-   "word": "Cousin",
-   "article": "der",
-   "pos": "noun",
-   "translation": "堂(表)兄弟83",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d5b1094ea2",
-   "word": "Cowboyhut",
-   "article": "der",
-   "pos": "noun",
-   "translation": "牛仔帽168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9d96c562f8",
-   "word": "Creditpoint",
-   "article": "der",
-   "pos": "noun",
-   "translation": "学分201",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1eba3e8f5c",
-   "word": "Cutter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "美工刀202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7a41a47b60",
-   "word": "Dachgeschoss",
-   "article": "das",
-   "pos": "noun",
-   "translation": "阁楼100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dd2df715a0",
-   "word": "Dachterrasse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "顶楼99",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e10d2ed03d",
-   "word": "Dagu",
-   "article": "die",
-   "pos": "noun",
-   "translation": "大鼓239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f412b3f3b9",
-   "word": "Damenabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "女装部178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d2c38cf74f",
-   "word": "Darts",
-   "article": "das",
-   "pos": "noun",
-   "translation": "飞镖249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a8dd0f21b5",
-   "word": "Daumen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "拇指85",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7ce51bc3ed",
-   "word": "Daunenjacke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "羽绒外套164",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8ddbb04733",
-   "word": "Deckel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "锅盖179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1f7c9816e8",
-   "word": "Decke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "天花板103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d9bcfa4bef",
-   "word": "Defibrillator",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电击器275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6035c34bec",
-   "word": "Dekan",
-   "article": "der",
-   "pos": "noun",
-   "translation": "学院院长197",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fb8eab536d",
-   "word": "Dekoration",
-   "article": "die",
-   "pos": "noun",
-   "translation": "装饰品103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e98c603b6e",
-   "word": "Delfin",
-   "article": "der",
-   "pos": "noun",
-   "translation": "海豚285",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6825cfcdb9",
-   "word": "Delikatessengeschäft",
-   "article": "das",
-   "pos": "noun",
-   "translation": "熟食店175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2985de3402",
-   "word": "Delphinschwimmen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "蝶泳262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-939c55d405",
-   "word": "Deodorant",
-   "article": "das",
-   "pos": "noun",
-   "translation": "体香喷雾771",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6595a9cfdf",
-   "word": "Design",
-   "article": "das",
-   "pos": "noun",
-   "translation": "设计199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-655eed5320",
-   "word": "Desinfektionsmittel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "消毒药水274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-920afd9847",
-   "word": "Desktop",
-   "article": "der",
-   "pos": "noun",
-   "translation": "台式电脑274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9cb726907c",
-   "word": "Deutsch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "德语198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-226971768b",
-   "word": "Dieb",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小偷186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a78f1be2ca",
-   "word": "Dienstreise",
-   "article": "die",
-   "pos": "noun",
-   "translation": "出差272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-14313050af",
-   "word": "Dimsum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "港式点心304",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c2758dfea3",
-   "word": "Diskothek",
-   "article": "die",
-   "pos": "noun",
-   "translation": "迪斯科236",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c2bcc27e06",
-   "word": "Dissertation",
-   "article": "die",
-   "pos": "noun",
-   "translation": "博士论文196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-39d46f8ae7",
-   "word": "Doktorarbeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "博士论文196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7297b0b27b",
-   "word": "Donauwelle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "多瑙河蛋糕Z2",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a6fd3ed3ab",
-   "word": "Doppeldeckerbus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "双层巴士218",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-98c7ab795d",
-   "word": "Doppelpunkt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冒号205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-21b7840585",
-   "word": "Drachenboot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "龙舟371",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-80baaff97b",
-   "word": "Drachenbootfest",
-   "article": "das",
-   "pos": "noun",
-   "translation": "端午节3177",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1b0348aae0",
-   "word": "Dragee",
-   "article": "das",
-   "pos": "noun",
-   "translation": "药丸215",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-242f257c99",
-   "word": "Drehkreuz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "十字转门126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8baece2050",
-   "word": "Drehleier",
-   "article": "die",
-   "pos": "noun",
-   "translation": "手摇弦琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d195627d5b",
-   "word": "Dreieck",
-   "article": "das",
-   "pos": "noun",
-   "translation": "三角形204",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-52a0b756ac",
-   "word": "Dreieckstuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "三角巾214",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7ffaa4d1d9",
-   "word": "Drei-Punkte-Linie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "三分线250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7168e154be",
-   "word": "Dreisprung",
-   "article": "der",
-   "pos": "noun",
-   "translation": "三级跳260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c8276ce140",
-   "word": "Drogeriewaren",
-   "article": "die",
-   "pos": "noun",
-   "translation": "生活用品127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-634c391cde",
-   "word": "Drogerie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "杂货店175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3654c616f0",
-   "word": "Druckbleistift",
-   "article": "der",
-   "pos": "noun",
-   "translation": "自动铅笔202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8a13a9caba",
-   "word": "Drucker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "打印机275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-18a3cfa81e",
-   "word": "Dudelsack",
-   "article": "der",
-   "pos": "noun",
-   "translation": "风笛239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f7696110c3",
-   "word": "Dufttasche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "香氛袋105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-140368238e",
-   "word": "Duftöl",
-   "article": "das",
-   "pos": "noun",
-   "translation": "精油.105",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
@@ -16924,1931 +13124,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
   },
   {
-   "id": "ocr45-w-d37ee4d366",
-   "word": "Dunstabzugshaube",
-   "article": "die",
-   "pos": "noun",
-   "translation": "抽油烟机176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8b13886fb0",
-   "word": "Duschvorhang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "浴帘107",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-531509e44a",
-   "word": "Duty-Free-Ware",
-   "article": "die",
-   "pos": "noun",
-   "translation": "免税商品227",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6eee9db19c",
-   "word": "DVD-Laufwerk",
-   "article": "das",
-   "pos": "noun",
-   "translation": "光驱274,275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f7f25f7975",
-   "word": "Düne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "沙丘296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8c22209776",
-   "word": "Dürre",
-   "article": "die",
-   "pos": "noun",
-   "translation": "旱灾299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-64e95476a1",
-   "word": "E-Bass",
-   "article": "der",
-   "pos": "noun",
-   "translation": "贝斯238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-98df0b9e3d",
-   "word": "Echse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "晰蝎287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e7ce8e6d44",
-   "word": "Economyclass",
-   "article": "die",
-   "pos": "noun",
-   "translation": "经济舱231",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4e428ca006",
-   "word": "Ehemann",
-   "article": "der",
-   "pos": "noun",
-   "translation": "丈夫;先生82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-570892b2be",
-   "word": "Eiche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "橡树287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6e91d23428",
-   "word": "Eichhörnchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "松鼠278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4d66955102",
-   "word": "Eierlikör",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蛋酒77",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b6133d3671",
-   "word": "Eimer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "水桶123",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b43aaa1fae",
-   "word": "Einbahnstraße",
-   "article": "die",
-   "pos": "noun",
-   "translation": "单行道220",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b1b6d3e994",
-   "word": "Eingabestift",
-   "article": "der",
-   "pos": "noun",
-   "translation": "触控笔;F5&275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ad473928ef",
-   "word": "Einkaufskorb",
-   "article": "der",
-   "pos": "noun",
-   "translation": "购物篮127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-358c5563bc",
-   "word": "Einkaufstasche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "购物袋126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2ff59a2d79",
-   "word": "Einkaufswagen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "购物推车127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-360aa875c3",
-   "word": "Einlage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "存款182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-552ee32779",
-   "word": "Einreiseformular",
-   "article": "das",
-   "pos": "noun",
-   "translation": "入境表格229",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5aea13cdf6",
-   "word": "Einschienenbahn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "单轨电车219",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-50dd050ec8",
-   "word": "Einschreiben",
-   "article": "das",
-   "pos": "noun",
-   "translation": "挂号信184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9cc9474ab7",
-   "word": "Einwurf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "执边线球259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bd68c4065f",
-   "word": "Einzelbett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "单人床180",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-efb608d915",
-   "word": "Einzelfahrschein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "单程票223",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b1a2d03878",
-   "word": "Einzel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "单打256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-80ae240bdc",
-   "word": "Eis",
-   "article": "das",
-   "pos": "noun",
-   "translation": "冰淇淋72",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-89eec4ae13",
-   "word": "Eisbär",
-   "article": "der",
-   "pos": "noun",
-   "translation": "北极能279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d979eeb222",
-   "word": "Eisbein",
-   "article": "das",
-   "pos": "noun",
-   "translation": "水煮猪脚66",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ebd48b10e1",
-   "word": "Eishockey",
-   "article": "das",
-   "pos": "noun",
-   "translation": "冰上曲棍球263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f13a36b22a",
-   "word": "Eiskunstlauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "花样滑冰263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-76f64fd3d4",
-   "word": "Eisregen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冻雨299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8b13000922",
-   "word": "Eisschnelllauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "竞速滑冰263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a0a9827b15",
-   "word": "Eisspeise",
-   "article": "die",
-   "pos": "noun",
-   "translation": "刨冰306",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-27f3a57376",
-   "word": "Eiswein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冰酒76",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-efe85ae715",
-   "word": "Eiswürfelform",
-   "article": "die",
-   "pos": "noun",
-   "translation": "制冰盒179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-15c9304378",
-   "word": "Elefant",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大象279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-825d20335e",
-   "word": "Elektrikerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "电工(女)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b17c8eea3f",
-   "word": "Elektriker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电工(男)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fdbd122580",
-   "word": "Ellipse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "椭圆形204",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-038a692f5f",
-   "word": "Elster",
-   "article": "die",
-   "pos": "noun",
-   "translation": "喜鹊283",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a42f05087c",
-   "word": "E-Mail",
-   "article": "das",
-   "pos": "noun",
-   "translation": "电子邮件185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-be54e2ddf4",
-   "word": "Empfangsdame",
-   "article": "die",
-   "pos": "noun",
-   "translation": "接待员180",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-929e530ddb",
-   "word": "Empfang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "柜台180",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5b43fff67e",
-   "word": "Empfänger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "收件人185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b2f60d8c78",
-   "word": "Energydrink",
-   "article": "der",
-   "pos": "noun",
-   "translation": "功能性饮料138",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f21d48a49b",
-   "word": "Enkelin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "孙女;外孙女82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-750ac0a45d",
-   "word": "Enkel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "孙子;外孙82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0acfd260d9",
-   "word": "Ente",
-   "article": "die",
-   "pos": "noun",
-   "translation": "了鸭282",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2553a853c0",
-   "word": "Entenfleisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "网肉135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a2cbb1f86d",
-   "word": "Entrecote",
-   "article": "das",
-   "pos": "noun",
-   "translation": "牛肋排734",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-86a0007115",
-   "word": "Erde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "地球300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f6967cb1d8",
-   "word": "Erderwärmung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "气候变暖299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c96b4bf1a1",
-   "word": "Erdgeschoss",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一楼179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dd7571c907",
-   "word": "Erdkunde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "地理198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f2d3f94a4e",
-   "word": "Erdnussöl",
-   "article": "das",
-   "pos": "noun",
-   "translation": "花生油156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d4561443b7",
-   "word": "Erkältungsmittel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "感冒药215",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9631f3c09a",
-   "word": "Erste-Hilfe-Raum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "保健室193",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-74d21a9d61",
-   "word": "Erwachsene",
-   "article": "der",
-   "pos": "noun",
-   "translation": "成年人(男)80",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-17cea4e622",
-   "word": "Erwachsene",
-   "article": "die",
-   "pos": "noun",
-   "translation": "成年人(女)80",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4442b8ded4",
-   "word": "Espresso",
-   "article": "der",
-   "pos": "noun",
-   "translation": "浓缩咖啡140",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b00a654164",
-   "word": "Essenstand",
-   "article": "der",
-   "pos": "noun",
-   "translation": "路边摊309!",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-60118800e5",
-   "word": "Essstand",
-   "article": "der",
-   "pos": "noun",
-   "translation": "餐饮摊贩243",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5cb8b67ada",
-   "word": "Eule",
-   "article": "die",
-   "pos": "noun",
-   "translation": "猫头鹰283",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c200219715",
-   "word": "Exportbier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "出口啤酒74",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-58faa84add",
-   "word": "Expresslieferung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "快递184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-916c0805f9",
-   "word": "Expresssendung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "快递件184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cc172150f3",
-   "word": "Extremsport",
-   "article": "der",
-   "pos": "noun",
-   "translation": "极限运动249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8d930b151c",
-   "word": "Eye-Liner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "眼线笔110",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-abf1114f15",
-   "word": "Fahrbahnmarkierung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "标线221",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-76a818f13f",
-   "word": "Fahrerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "司机(女)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a5ff6e447e",
-   "word": "Fahrersitz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "驾驶座225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-aa4c911c2b",
-   "word": "Fahrer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "司机(男)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6a7708f5ac",
-   "word": "Fahrkartenschalter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "售票处222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-86088deff9",
-   "word": "Fahrsteig",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电动走道226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f8384a124b",
-   "word": "Fallrückzieher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "倒义球259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f9b0361fa0",
-   "word": "Fallschirmspringen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "跳伞249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-07208edca5",
-   "word": "Fallturm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "跳楼机243",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9df0091fe2",
-   "word": "Falten",
-   "article": "die",
-   "pos": "noun",
-   "translation": "皱纹97",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-97bdc7ff27",
-   "word": "Farben",
-   "article": "die",
-   "pos": "noun",
-   "translation": "颜色170",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4d8bba2849",
-   "word": "Farbpalette",
-   "article": "die",
-   "pos": "noun",
-   "translation": "调色盘203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-98903d67c3",
-   "word": "Farn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蕨类287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ebc816e818",
-   "word": "Faxgerät",
-   "article": "das",
-   "pos": "noun",
-   "translation": "传真机121",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-32593d7de7",
-   "word": "Fechten",
-   "article": "das",
-   "pos": "noun",
-   "translation": "击剑265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-df045f7685",
-   "word": "Federball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "羽毛球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-455a8495aa",
-   "word": "Feiertage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "假日42",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f69527286f",
-   "word": "Feige",
-   "article": "die",
-   "pos": "noun",
-   "translation": "无花果128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d1b8beb01d",
-   "word": "Feldsalat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "奶油生菜133",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ef506c20c0",
-   "word": "Fensterblende",
-   "article": "die",
-   "pos": "noun",
-   "translation": "遮阳板230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d599ec5d89",
-   "word": "Fensterladen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "百叶窗100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f9e9cf8ca7",
-   "word": "Fensterplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "靠窗座位230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-96e831e271",
-   "word": "Fernbedienung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "遥控器103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ed37f12f80",
-   "word": "Fernsehsendung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "电视节目244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-409e06ccbc",
-   "word": "Feste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "庆典46",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-38e5ae5749",
-   "word": "Festplatte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "硬盘274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7352ad78c2",
-   "word": "Festsaal",
-   "article": "der",
-   "pos": "noun",
-   "translation": "宴会厅181",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5688f5b77d",
-   "word": "Feuchttuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "湿纸巾146",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a530c154dc",
-   "word": "Feuerlöscher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "灭火器187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d81bcc52dd",
-   "word": "Feuertopf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "火锅304",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5877461ea5",
-   "word": "Feuerwache",
-   "article": "die",
-   "pos": "noun",
-   "translation": "消防局187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7948807a6e",
-   "word": "Feuerwehrauto",
-   "article": "das",
-   "pos": "noun",
-   "translation": "消防车187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5417400428",
-   "word": "Feuerwehrleiter",
-   "article": "die",
-   "pos": "noun",
-   "translation": "云梯187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f714cd440e",
-   "word": "Feuerwehrmann",
-   "article": "der",
-   "pos": "noun",
-   "translation": "消防员187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-da6c6fe878",
-   "word": "Feuerwerkskörper",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鞭炮370",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ce76b7039a",
-   "word": "Feuerwerk",
-   "article": "das",
-   "pos": "noun",
-   "translation": "烟火310",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f13e6673bc",
-   "word": "Feuerzeug",
-   "article": "das",
-   "pos": "noun",
-   "translation": "打火机104",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-533f2f5d35",
-   "word": "Fichte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "云杉287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8441098548",
-   "word": "Filmplakat",
-   "article": "das",
-   "pos": "noun",
-   "translation": "电影海报244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c7bb602bfa",
-   "word": "Filzstift",
-   "article": "der",
-   "pos": "noun",
-   "translation": "彩色笔202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d83468451e",
-   "word": "Fingerabdruck",
-   "article": "der",
-   "pos": "noun",
-   "translation": "指纹85",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-10fa2a38e8",
-   "word": "Fischer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "渔夫(男)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c6993e1931",
-   "word": "Fischerhut",
-   "article": "der",
-   "pos": "noun",
-   "translation": "渔夫帽168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a9ed016ed3",
-   "word": "Fischerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "渔夫(女)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2314a9f645",
-   "word": "Fischermütze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "渔夫由168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b1cce35ca2",
-   "word": "Fischgeruch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鱼腥味158",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7478c6a97f",
-   "word": "Fischklößchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鱼丸137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0f9394d8d1",
-   "word": "Fitnesscenter",
-   "article": "das",
-   "pos": "noun",
-   "translation": "健身中心181",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2f0285862a",
-   "word": "Fitness-Studio",
-   "article": "das",
-   "pos": "noun",
-   "translation": "健身房174",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c34e103462",
-   "word": "Fitness",
-   "article": "die",
-   "pos": "noun",
-   "translation": "健身264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-38cf3467e0",
-   "word": "Fjord",
-   "article": "der",
-   "pos": "noun",
-   "translation": "峡湾297",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-20fa50e0a3",
-   "word": "Fledermaus",
-   "article": "die",
-   "pos": "noun",
-   "translation": "蝙蝠278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1e538429ce",
-   "word": "Fleisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "肉类126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-52cbbc5310",
-   "word": "Fleischbällchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "肉丸135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-294038a443",
-   "word": "Fleischmesser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "牛排刀152",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4fca2e3a3b",
-   "word": "Fliege",
-   "article": "die",
-   "pos": "noun",
-   "translation": "领结167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fb3f8a9302",
-   "word": "Flip-Flops",
-   "article": "die",
-   "pos": "noun",
-   "translation": "夹脚拖鞋169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8187e070df",
-   "word": "Flipper",
-   "article": "der",
-   "pos": "noun",
-   "translation": "游戏机236",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-04889cbab8",
-   "word": "Floh",
-   "article": "der",
-   "pos": "noun",
-   "translation": "跳蚤287L",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2a9038a07e",
-   "word": "Flugbegleiter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "空服员(男)230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5be2e2272a",
-   "word": "Flugbegleiterin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "空服员(女)230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e863185c12",
-   "word": "Flughafen-Bus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "机场巴士227",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ec8cc01057",
-   "word": "Fluginformation",
-   "article": "die",
-   "pos": "noun",
-   "translation": "航班资讯228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-43e8e06f99",
-   "word": "Flugmahlzeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "飞机餐230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-34eddfe99a",
-   "word": "Flugnummer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "航班号228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a5c77c9fae",
-   "word": "Flugticket",
-   "article": "das",
-   "pos": "noun",
-   "translation": "机票229",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4513056a05",
-   "word": "Flugziel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "目的地228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-229df06e45",
-   "word": "Flur",
-   "article": "der",
-   "pos": "noun",
-   "translation": "走廊193",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-47397c1d81",
-   "word": "Fluss",
-   "article": "der",
-   "pos": "noun",
-   "translation": "河流296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7eb18fe25a",
-   "word": "Flügel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "钢琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ca6097ec63",
-   "word": "Flüssigkristallanzeige",
-   "article": "die",
-   "pos": "noun",
-   "translation": "液晶显示器274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fcb85bc11b",
-   "word": "Folgetonhorn",
-   "article": "das",
-   "pos": "noun",
-   "translation": "警笛187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0f1397c89f",
-   "word": "Forelle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鳝鱼136",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-115a79a089",
-   "word": "Form",
-   "article": "die",
-   "pos": "noun",
-   "translation": "形状205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ca52159f20",
-   "word": "Forward",
-   "article": "der",
-   "pos": "noun",
-   "translation": "前锋250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-81e0c06d48",
-   "word": "Fotokopierer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "复印机196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-75cd0e4f45",
-   "word": "Foul",
-   "article": "das",
-   "pos": "noun",
-   "translation": "犯规252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-91a98512b6",
-   "word": "Fragezeichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "问号205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3e5ade8f4c",
-   "word": "Französisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "法语198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4d004a49dd",
-   "word": "Frauenarzt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "妇产科医生210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c0579b3014",
-   "word": "Freiberuflerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "自由职业者(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-237820e6e5",
-   "word": "Freiberufler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "自由职业者(男)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3d88fef507",
-   "word": "Freiwurflinie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "罚球线250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9cab0a66a8",
-   "word": "Friedhof",
-   "article": "der",
-   "pos": "noun",
-   "translation": "草地37",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-164b20f3c2",
-   "word": "Frischhaltedose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "保鲜盒119",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9a4866fb69",
-   "word": "Friseur",
-   "article": "der",
-   "pos": "noun",
-   "translation": "发型设计师(男)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1969655213",
-   "word": "Friseurin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "发型设计师(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-272e7b146d",
-   "word": "Friseursalon",
-   "article": "der",
-   "pos": "noun",
-   "translation": "美发厅175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c7f47a393a",
-   "word": "Frisiertisch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "梳妆人台112",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d53ea60838",
-   "word": "Frosch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "青蛙281",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9f98dfff59",
-   "word": "Frucht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "果实287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c5a099551d",
-   "word": "Fruchtsaft",
-   "article": "der",
-   "pos": "noun",
-   "translation": "果汁138",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7d45443e70",
-   "word": "Frühstücksspeck",
-   "article": "der",
-   "pos": "noun",
-   "translation": "培根134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8c18fb97f8",
-   "word": "Fuchs",
-   "article": "der",
-   "pos": "noun",
-   "translation": "狐狸278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bc85308d02",
-   "word": "Fundbüro",
-   "article": "das",
-   "pos": "noun",
-   "translation": "失物招领处222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0697a1dd27",
-   "word": "Fußbad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "足浴241",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b224ec4652",
-   "word": "FuRballfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "足球场258",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
    "id": "ocr45-w-1bafb481f4",
    "word": "Fußballweltmeisterschaft",
    "article": "die",
    "pos": "noun",
    "translation": "世界杯足球",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1b9f69eae2",
-   "word": "Fußgänger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "注意行人220",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-93d4858bbb",
-   "word": "FuRmassage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "脚底按摩241",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0354a4f9b9",
-   "word": "FuRmatte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鞋垫100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-50badc65b9",
-   "word": "Fähre",
-   "article": "die",
-   "pos": "noun",
-   "translation": "渡轮219",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c611eeef1b",
-   "word": "Füllfederhalter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "钢笔202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-55e6a2fe03",
-   "word": "Gangplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "靠走道座位230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-82277b7147",
-   "word": "Garage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "车库100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8f86e01e71",
-   "word": "Garnele",
-   "article": "die",
-   "pos": "noun",
-   "translation": "明虾137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-daeb242d52",
-   "word": "Gasherd",
-   "article": "der",
-   "pos": "noun",
-   "translation": "燃气灶116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-afcc45b927",
-   "word": "Gaspedal",
-   "article": "das",
-   "pos": "noun",
-   "translation": "油门225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-498cf3a8a2",
-   "word": "Gate",
-   "article": "das",
-   "pos": "noun",
-   "translation": "登机门228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-470bc9d8c5",
-   "word": "Geburt",
-   "article": "die",
-   "pos": "noun",
-   "translation": "出生80",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-512b0b86f2",
-   "word": "Gedankenstrich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "破折号205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2bc39a1256",
-   "word": "Gefälle",
-   "article": "das",
-   "pos": "noun",
-   "translation": "下陡坡220",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-866c57679f",
-   "word": "Gegenverkehr",
-   "article": "der",
-   "pos": "noun",
-   "translation": "双向道220",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a9eeb6d339",
-   "word": "Gehaltserhöhung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "加薪273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2437edd43d",
-   "word": "Gehalt",
-   "article": "das",
-   "pos": "noun",
-   "translation": "薪水272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6e0358b625",
-   "word": "Gehen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "竞走261",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-09e98c55dc",
-   "word": "Gehgestell",
-   "article": "das",
-   "pos": "noun",
-   "translation": "步行器271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ff0ba45b01",
-   "word": "Gehirn",
-   "article": "das",
-   "pos": "noun",
-   "translation": "脑85",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a73d7ed64e",
-   "word": "Gehstütze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "拐杖217",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b66287aec2",
-   "word": "Geisterbahn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鬼屋242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-091b95e223",
-   "word": "Geländer",
-   "article": "das",
-   "pos": "noun",
-   "translation": "围栏100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8199523c38",
-   "word": "Geldschein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "纸钞;钞票182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-47e34928f6",
-   "word": "Geldtransporter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "运钞车182",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
@@ -18864,671 +13144,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
   },
   {
-   "id": "ocr45-w-c6c90e8d2f",
-   "word": "Geografie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "地理198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fddbcb3533",
-   "word": "Gepäckablage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "行李架223",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5c83f75161",
-   "word": "Gepäckaufbewahrung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "行李寄存处181",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6fe86b46dc",
-   "word": "Gepäckausgabe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "行李提领处226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e67b04f3f3",
-   "word": "Gepäckband",
-   "article": "das",
-   "pos": "noun",
-   "translation": "行李输送带226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8d5a57e0a5",
-   "word": "Gepäckwagen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "行李推车180",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cceba75c80",
-   "word": "Gericht",
-   "article": "das",
-   "pos": "noun",
-   "translation": "菜肴150",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-20ea18173e",
-   "word": "Gerstenkorn",
-   "article": "das",
-   "pos": "noun",
-   "translation": "针眼209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ce2a7a38c9",
-   "word": "Geschirrschrank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "碗柜;橱柜176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3c66cbe106",
-   "word": "Geschäftsfrau",
-   "article": "die",
-   "pos": "noun",
-   "translation": "商人(女)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bb3f16589c",
-   "word": "Geschäftsmann",
-   "article": "der",
-   "pos": "noun",
-   "translation": "商人(男)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a7d58fea58",
-   "word": "Gesellschaftskunde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "社会学199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8767d2649b",
-   "word": "Gesichtsbehandlung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "做美容241",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
    "id": "ocr45-w-6d39a672a8",
    "word": "Gesichtsreinigungslotion",
    "article": "die",
    "pos": "noun",
    "translation": "洗面乳",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6d4b1dddf8",
-   "word": "Gesichtswasser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "化妆水117",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e7ae8e157f",
-   "word": "Gewürzgurke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "酸黄瓜146",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0a9ee2269f",
-   "word": "Giraffe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "长颈鹿279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bff0e643d9",
-   "word": "Glatze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "秃头90",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f79f896014",
-   "word": "Gletscher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冰川297",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f723a77f76",
-   "word": "Globus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "地球仪194",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bc24b6a34e",
-   "word": "Glühbirne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "灯泡104",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bb4d773200",
-   "word": "Goldmedaille",
-   "article": "die",
-   "pos": "noun",
-   "translation": "金牌261",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-006e2fba43",
-   "word": "Golf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "海湾296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6925f830d9",
-   "word": "Golf",
-   "article": "das",
-   "pos": "noun",
-   "translation": "高尔夫球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e833c44111",
-   "word": "Götterspeise",
-   "article": "die",
-   "pos": "noun",
-   "translation": "果冻73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2bb90031b8",
-   "word": "Grapefruit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "葡萄柚128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-139a68def1",
-   "word": "Griffhaltung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "握拍256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b983c3af94",
-   "word": "Griff",
-   "article": "der",
-   "pos": "noun",
-   "translation": "锅把179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f5b4a0b661",
-   "word": "Großmutter",
-   "article": "die",
-   "pos": "noun",
-   "translation": "祖母;9)82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-318724b4f5",
-   "word": "Großvater",
-   "article": "der",
-   "pos": "noun",
-   "translation": "祖父;外公82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fa9a53bdf2",
-   "word": "Grundlinie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "底线250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5e1ee95241",
-   "word": "Gruppendiskussion",
-   "article": "die",
-   "pos": "noun",
-   "translation": "小组讨论200",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a84ceefceb",
-   "word": "Grünkohl",
-   "article": "der",
-   "pos": "noun",
-   "translation": "羽衣甘蓝133",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-88c9040dd5",
-   "word": "Grüntee",
-   "article": "der",
-   "pos": "noun",
-   "translation": "绿茶139",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bd1b23e0ae",
-   "word": "Guard",
-   "article": "der",
-   "pos": "noun",
-   "translation": "后卫250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1da0c8edd5",
-   "word": "Guave",
-   "article": "die",
-   "pos": "noun",
-   "translation": "番石楞129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a4be0d0664",
-   "word": "Gurke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "黄瓜137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f03283de7c",
-   "word": "Gymnastik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "体操264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7811dcd5a9",
-   "word": "Gürtel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "皮带;腰带167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-93f70ab425",
-   "word": "Haarband",
-   "article": "das",
-   "pos": "noun",
-   "translation": "发带166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-523718504f",
-   "word": "Haare",
-   "article": "die",
-   "pos": "noun",
-   "translation": "头发84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9a4a71be6e",
-   "word": "Haarentfernung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "除毛241",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-abc5b83729",
-   "word": "Haarfarbe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "发色90",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-20d39fc39b",
-   "word": "Haarklammer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "发夹166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d825da183c",
-   "word": "Haarwachs",
-   "article": "das",
-   "pos": "noun",
-   "translation": "发腊106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dddad094d7",
-   "word": "Hackfleisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "绞肉135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-eb20ba80b6",
-   "word": "Haifischflosse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鱼翅137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ecf1bd333a",
-   "word": "Hallenbad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "室内游泳池187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dae44115e2",
-   "word": "Halskette",
-   "article": "die",
-   "pos": "noun",
-   "translation": "项链166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c0a75b6a13",
-   "word": "Haltlinie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "停止线221",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b4921933a5",
-   "word": "Hamburger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "汉堡147",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3e9a4c8865",
-   "word": "Hami-Melone",
-   "article": "die",
-   "pos": "noun",
-   "translation": "哈密瓜128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-214618d7bb",
-   "word": "Handball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "手球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3dbbfb839d",
-   "word": "Handbremse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "手刹225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7f9d475c33",
-   "word": "Handcreme",
-   "article": "die",
-   "pos": "noun",
-   "translation": "护手霜108",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c962b96bd9",
-   "word": "Handgelenk",
-   "article": "das",
-   "pos": "noun",
-   "translation": "手腕85",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3fbf5c5358",
-   "word": "Handkette",
-   "article": "die",
-   "pos": "noun",
-   "translation": "手链166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d192a955bf",
-   "word": "Handspiel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "手球259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3815a80ee4",
-   "word": "Handtuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "毛巾106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5b4885b001",
-   "word": "Handyanhanger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "手机吊饰167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-916f27921a",
-   "word": "Hantel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "哑铃265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3b8c558868",
-   "word": "Hartboden",
-   "article": "der",
-   "pos": "noun",
-   "translation": "硬地球场256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9b96723258",
-   "word": "Hase",
-   "article": "der",
-   "pos": "noun",
-   "translation": "兔子278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8f897772fe",
-   "word": "Haubenmaina",
-   "article": "der",
-   "pos": "noun",
-   "translation": "八哥283",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9a668736ec",
-   "word": "Haupteingang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大门242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-60006f39b8",
-   "word": "Hauptgericht",
-   "article": "das",
-   "pos": "noun",
-   "translation": "主菜150",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-aab04d0581",
-   "word": "Hauptrolle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "主角245",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
@@ -19544,481 +13164,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
   },
   {
-   "id": "ocr45-w-f7f8d04a41",
-   "word": "Hausschuhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "室内拖鞋112",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0d9431f37d",
-   "word": "Hautausschlag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "疹子209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b848de257a",
-   "word": "Hautfarbe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "肤色90",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-453671d1d8",
-   "word": "Heftgerät",
-   "article": "das",
-   "pos": "noun",
-   "translation": "钉书机203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a88603172e",
-   "word": "Heidelbeere",
-   "article": "die",
-   "pos": "noun",
-   "translation": "蓝莓129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2f5bd9501e",
-   "word": "Heilbutt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "比目鱼284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-25df8e2692",
-   "word": "Hengst",
-   "article": "der",
-   "pos": "noun",
-   "translation": "马(公)279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-51dd62a39c",
-   "word": "Herausgeber",
-   "article": "der",
-   "pos": "noun",
-   "translation": "出版社196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4a453c89bd",
-   "word": "Herkuleskäfer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "独角仙280",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-299676861e",
-   "word": "Herrenabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "男装部179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
    "id": "ocr45-w-3ac6136479",
    "word": "Herz-Kreislauf-Erkrankung",
    "article": "die",
    "pos": "noun",
    "translation": "心脏病",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cf1b30701c",
-   "word": "Hi-Fi-Anlage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "音响127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a4d4ef34ff",
-   "word": "Hindernislauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "障碍赛跑267",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4b42db1da6",
-   "word": "Hinterfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "后场256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a29227931b",
-   "word": "Hin-und-Rückfahrkarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "往返票222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-94d81f983c",
-   "word": "Hit-by-Pitch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "触身球255",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-30cf410766",
-   "word": "HNO-Arzt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "耳鼻喉科医生210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-471b86bcc4",
-   "word": "Hochdruckgebiet",
-   "article": "das",
-   "pos": "noun",
-   "translation": "高气压292",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-70cbb3dce1",
-   "word": "Hochsprung",
-   "article": "der",
-   "pos": "noun",
-   "translation": "跳高260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c0a58880ca",
-   "word": "Hochzeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "结婚典礼81",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-36f0e2ac3e",
-   "word": "Hocker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "合子146",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-03ad3e8a6f",
-   "word": "Hockey",
-   "article": "das",
-   "pos": "noun",
-   "translation": "曲棍球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-971373e59d",
-   "word": "Horn",
-   "article": "das",
-   "pos": "noun",
-   "translation": "法国号238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-92b2b9af7e",
-   "word": "Hotdog",
-   "article": "der",
-   "pos": "noun",
-   "translation": "热狗135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3b35a62d84",
-   "word": "Hotel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "饭店174",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bc8fe7d9f0",
-   "word": "Hub",
-   "article": "der",
-   "pos": "noun",
-   "translation": "集线器275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9fb1e24228",
-   "word": "Hubschrauber",
-   "article": "der",
-   "pos": "noun",
-   "translation": "直升机279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0ef7d07542",
-   "word": "Hundehutte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "狗屋100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9c86c06edb",
-   "word": "Hupe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "喇叭225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a83c71e641",
-   "word": "Hupverbot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "禁止鸣喇叭227",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5ed19104b9",
-   "word": "Hurrikan",
-   "article": "der",
-   "pos": "noun",
-   "translation": "飓风299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c219ff99f0",
-   "word": "Hut",
-   "article": "die",
-   "pos": "noun",
-   "translation": "帽子168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f0feab84bb",
-   "word": "Hydrant",
-   "article": "der",
-   "pos": "noun",
-   "translation": "消防栓98",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-22a40caa9f",
-   "word": "Hypermarkt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大卖场174",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f46ebbbea3",
-   "word": "Hähnchenbrust",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鸡胸肉134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9274f618df",
-   "word": "Hähnchenfleisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鸡肉134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fbaeed6eac",
-   "word": "Hähnchenflügel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鸡翅134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fce92fcf98",
-   "word": "Hähnchenschenkel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鸡腿134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-37671d456c",
-   "word": "Hangegleiten",
-   "article": "das",
-   "pos": "noun",
-   "translation": "滑翔翼249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3b30241932",
-   "word": "Hörgerät",
-   "article": "das",
-   "pos": "noun",
-   "translation": "助听器215",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d52ac16730",
-   "word": "Hügel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "丘陵297",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8ba99ed0a5",
-   "word": "Hürdenlauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "跨栏260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-56731f4cca",
-   "word": "Hürde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "栏杆260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d73bea89f4",
-   "word": "Imbiss",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小吃店308",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0d881ac0b0",
-   "word": "Imbissstube",
-   "article": "die",
-   "pos": "noun",
-   "translation": "点心吧242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e307ef3a8d",
-   "word": "Induktionsherd",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电磁炉127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-423a6e7471",
-   "word": "Infektionskrankheit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "传染病299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-150a5010fb",
-   "word": "Infield",
-   "article": "das",
-   "pos": "noun",
-   "translation": "内野254",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
@@ -20034,2071 +13184,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
   },
   {
-   "id": "ocr45-w-7fb03065c4",
-   "word": "Informatik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "信息199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5b69709b25",
-   "word": "Infusion",
-   "article": "die",
-   "pos": "noun",
-   "translation": "点滴273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e5171e3e40",
-   "word": "Ingenieurswissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "工程198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-201ce052e6",
-   "word": "Inlineskating",
-   "article": "das",
-   "pos": "noun",
-   "translation": "直排轮249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-72fe346bac",
-   "word": "Insekt",
-   "article": "das",
-   "pos": "noun",
-   "translation": "昆虫280",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-17a1e338f7",
-   "word": "Insel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "岛296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3d3cbf221c",
-   "word": "Inselgruppe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "群岛296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-47761990d1",
-   "word": "Installateurin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "水管工(女)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e97e6bb1df",
-   "word": "Installateur",
-   "article": "der",
-   "pos": "noun",
-   "translation": "水管工(男)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6c21a1a181",
-   "word": "Instantkaffee",
-   "article": "der",
-   "pos": "noun",
-   "translation": "速溶咖啡140",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2890cfa418",
-   "word": "Institutsleiter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "系主任191",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-902619ef43",
-   "word": "Intensivstation",
-   "article": "die",
-   "pos": "noun",
-   "translation": "加护病房210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-75d92b4e5c",
-   "word": "Internetseite",
-   "article": "die",
-   "pos": "noun",
-   "translation": "网页275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a60d4b9949",
-   "word": "Internist",
-   "article": "der",
-   "pos": "noun",
-   "translation": "内科医生271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bcd311bdf0",
-   "word": "Isolierband",
-   "article": "das",
-   "pos": "noun",
-   "translation": "绝缘胶带122",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f5f7b4427c",
-   "word": "Italienisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "意大利语198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a9344a859f",
-   "word": "Jacke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "外套;夹克164",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1b5d852b2f",
-   "word": "Jeanshose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "牛仔裤163",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e70b95262c",
-   "word": "Job-Hopping",
-   "article": "das",
-   "pos": "noun",
-   "translation": "跳槽273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ee291b77d2",
-   "word": "Jogging",
-   "article": "das",
-   "pos": "noun",
-   "translation": "慢跑249‘",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8ede00c994",
-   "word": "Joghurt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "酸奶142",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-191dc5dcfd",
-   "word": "Journalistik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "新闻学199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f29c222114",
-   "word": "Journalistin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "记者(女)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d8c9c31345",
-   "word": "Journalist",
-   "article": "der",
-   "pos": "noun",
-   "translation": "记者(男)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e4670059b4",
-   "word": "Jugendabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "青少年服饰部178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f9ad8329da",
-   "word": "Jugendliche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "青少年(女)80",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-570442291e",
-   "word": "Jugendliche",
-   "article": "der",
-   "pos": "noun",
-   "translation": "青少年(男)80",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-20c034567f",
-   "word": "Jukebox",
-   "article": "die",
-   "pos": "noun",
-   "translation": "点唱机236",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-de4aa45866",
-   "word": "Jupiter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "木星301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ac97b8b693",
-   "word": "Jägerschnitzel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "炸猪排佐蘑菇效69",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5612f811bc",
-   "word": "Kabine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "机舱237",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2035a17e26",
-   "word": "Kaffee",
-   "article": "der",
-   "pos": "noun",
-   "translation": "咖啡140",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dbf052b3e8",
-   "word": "Kaffeebohne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "咖啡豆140",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dc42258f22",
-   "word": "Kaffeekanne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "咖啡过148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dfad8bfeb1",
-   "word": "Kaffeemühle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "磨豆机116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d1c9992182",
-   "word": "Kaffeepulver",
-   "article": "das",
-   "pos": "noun",
-   "translation": "咖啡粉140",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c388ca273e",
-   "word": "Kaffeetassen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "咖啡杯243",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1b567f7eb8",
-   "word": "Kajakfahren",
-   "article": "das",
-   "pos": "noun",
-   "translation": "水上独木舟263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ff798537df",
-   "word": "Kaki",
-   "article": "die",
-   "pos": "noun",
-   "translation": "柿子128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5fd98984b3",
-   "word": "Kaltfront",
-   "article": "die",
-   "pos": "noun",
-   "translation": "冷锋292",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-384a3dd607",
-   "word": "Kamelie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "山茶花286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-baa8ec06b2",
-   "word": "Kamel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "骆驼278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-3ec348d4b7",
-   "word": "Kamm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "梳子108",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9cda34148e",
-   "word": "Kammmuschel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "扇贝136",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4abad7a2cb",
-   "word": "Kampfsport",
-   "article": "der",
-   "pos": "noun",
-   "translation": "武术265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a7e7130e40",
-   "word": "Kandiszucker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冰糖156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-223d3c3a92",
-   "word": "Kapsel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "胶囊215",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fff5e99f25",
-   "word": "Karate",
-   "article": "das",
-   "pos": "noun",
-   "translation": "空手道265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-cbdd9d16c3",
-   "word": "Karies",
-   "article": "die",
-   "pos": "noun",
-   "translation": "星牙209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-46e51a42de",
-   "word": "Kartenetui",
-   "article": "das",
-   "pos": "noun",
-   "translation": "卡片夹167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5e680db52c",
-   "word": "Kartenleser",
-   "article": "der",
-   "pos": "noun",
-   "translation": "读卡器275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-908386de4a",
-   "word": "Kartenverkauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "售票处242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-de7c3a30d7",
-   "word": "Karte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "卡片185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-547b4f5439",
-   "word": "KartoffelkloR",
-   "article": "der",
-   "pos": "noun",
-   "translation": "马铃苗球67",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0509f159d7",
-   "word": "Kartoffelpuffer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "香前马铃苗68",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-97afbb34ee",
-   "word": "Kartoffelsalat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "马铃薯沙拉67",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-295088653c",
-   "word": "Kassenbon",
-   "article": "der",
-   "pos": "noun",
-   "translation": "收据127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8420b8268f",
-   "word": "Kassiererin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "出纳员(女)182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-81881b99d9",
-   "word": "Kastagnette",
-   "article": "die",
-   "pos": "noun",
-   "translation": "响板239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e23313961a",
-   "word": "Katze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "猫(母)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ebf12914a0",
-   "word": "Kegel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "圆锥体204",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c130f23ac8",
-   "word": "Kellnerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "女服务生148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-2a2c49e82f",
-   "word": "Kendo",
-   "article": "das",
-   "pos": "noun",
-   "translation": "剑道265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6b89787ea0",
-   "word": "Kerzenständer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "烛台105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-27968ec371",
-   "word": "Keule",
-   "article": "die",
-   "pos": "noun",
-   "translation": "腿肉134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9c6d98beae",
-   "word": "Keyboard",
-   "article": "das",
-   "pos": "noun",
-   "translation": "电子琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-616e08d6c2",
-   "word": "Kind",
-   "article": "das",
-   "pos": "noun",
-   "translation": "小孩80",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-498be74d42",
-   "word": "Kinder",
-   "article": "die",
-   "pos": "noun",
-   "translation": "子女83",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-e1874d4e37",
-   "word": "Kinderabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "童装部178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-92192b7c45",
-   "word": "Kinderarzt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小儿科医生210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5d16182ef3",
-   "word": "Kinderheilkunde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "小儿科270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-31bb3d2525",
-   "word": "Kinderkrippe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "托儿所190",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-de68663e29",
-   "word": "Kindersendung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "儿童节目245",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0b573c5a5f",
-   "word": "Kirschblüte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "樱花286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-65dd79e234",
-   "word": "Kirschwasser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "樱桃酒77",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-1104f2d251",
-   "word": "Kissen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "枕头112",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d022b22f80",
-   "word": "Kiwi",
-   "article": "die",
-   "pos": "noun",
-   "translation": "猕猴桃128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f88731f8de",
-   "word": "Klappmesser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "仰卧起坐265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4d3076a716",
-   "word": "Klettern",
-   "article": "das",
-   "pos": "noun",
-   "translation": "攀岩249播199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5fb2cb4fea",
-   "word": "Kopf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "头84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c2a3c39062",
-   "word": "Kopfball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "顶球259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-bc544332f0",
-   "word": "Kopfbedeckung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "帆类168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c879cb2b2e",
-   "word": "Kopftuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "头巾166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-532e3f0a76",
-   "word": "Kopiermaschine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "复印机196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-0e438d4352",
-   "word": "Kopierraum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "复印室196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b6ca262151",
-   "word": "Kopilot",
-   "article": "der",
-   "pos": "noun",
-   "translation": "副机长237",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6f7a550fa8",
-   "word": "Korallenbank",
-   "article": "die",
-   "pos": "noun",
-   "translation": "珊瑚礁296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-459a42e939",
-   "word": "Korbbrett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "篮板250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-ed327dbf84",
-   "word": "Korkenzieher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "螺旋式开瓶器118",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-8d4d15993e",
-   "word": "Korrekturstift",
-   "article": "der",
-   "pos": "noun",
-   "translation": "修正液203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f38789f343",
-   "word": "Kosmetikabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "化妆品区179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7ae64bf25b",
-   "word": "Kosmetiktuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "抽取式面纸109",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7be557bc94",
-   "word": "Kragen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "领子;衣领162",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-b3096bd9cb",
-   "word": "Krankenakte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "病历表211",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-dc14987f94",
-   "word": "Krankenbett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "推床277",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6c4dfd9d15",
-   "word": "Krankenhausentlassung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "出院213",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-5b6bfbb389",
-   "word": "Krankenliege",
-   "article": "die",
-   "pos": "noun",
-   "translation": "担架211",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-7d110ce5ea",
-   "word": "Krankenwagen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "救护车210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-f3844fea9e",
-   "word": "Krankenzimmer",
-   "article": "das",
-   "pos": "noun",
-   "translation": "病房210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9bab99afdc",
-   "word": "Kranwagen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "起重机219",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-61e09777e2",
-   "word": "Kraulen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "自由泳262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-c005c0b9a1",
-   "word": "Krautspatzen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "酸菜面条67",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-18236dadb7",
-   "word": "Krawattennadel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "领带夹167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-4e3eacb33c",
-   "word": "Krebs",
-   "article": "der",
-   "pos": "noun",
-   "translation": "癌症209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-554d733e2f",
-   "word": "Kreis",
-   "article": "der",
-   "pos": "noun",
-   "translation": "圆形204",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-9f80a60693",
-   "word": "Kreisverkehr",
-   "article": "der",
-   "pos": "noun",
-   "translation": "环岛行驶221",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-94424c0c59",
-   "word": "Kreuzfahrtschiff",
-   "article": "das",
-   "pos": "noun",
-   "translation": "邮轮176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-fbedf20d85",
-   "word": "Kricket",
-   "article": "das",
-   "pos": "noun",
-   "translation": "板球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-baf283116e",
-   "word": "Krokodil",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鳄鱼281",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-af091404bf",
-   "word": "Kugelfisch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "河豚284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d28a8564bc",
-   "word": "Kugelstoßen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "推铅球260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-d00fe0e300",
-   "word": "Kundenkarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "会员卡126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-6d44668034",
-   "word": "Kung-Fu",
-   "article": "das",
-   "pos": "noun",
-   "translation": "功夫265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-21322237d2",
-   "word": "Kung-Fu-Film",
-   "article": "der",
-   "pos": "noun",
-   "translation": "功夫片244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-979e7ef853",
-   "word": "Kunstmuseum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "美术馆176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3005"
-  },
-  {
-   "id": "ocr45-w-a6d945ef0e",
-   "word": "Käsekuchen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "奶酪蛋糕73上",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3afc7f8e54",
-   "word": "Körpergröße",
-   "article": "die",
-   "pos": "noun",
-   "translation": "身高90",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-04dbca8265",
-   "word": "Latzhose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "背带裤163",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-652c17e358",
-   "word": "Lauch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "青葱;XX130",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5c786a91f4",
-   "word": "Laufbahn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "跑道192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b930c4b4e9",
-   "word": "Laufband",
-   "article": "das",
-   "pos": "noun",
-   "translation": "跑步机187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-529520a977",
-   "word": "Laugenstange",
-   "article": "die",
-   "pos": "noun",
-   "translation": "长条面包70",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-23242b706a",
-   "word": "Lautsprecheransage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "广播228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-791112ad0a",
-   "word": "Lautsprecher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "喇叭274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-07ba9a4c8d",
-   "word": "Lebensmittelabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "食品区179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-173a62a4fe",
-   "word": "Lebensmittel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "食物126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4f25e47b2a",
-   "word": "Leberkäse",
-   "article": "der",
-   "pos": "noun",
-   "translation": "德式午餐肉71",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7cc7835732",
-   "word": "Leberwurst",
-   "article": "die",
-   "pos": "noun",
-   "translation": "肝肠71",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8881a05360",
-   "word": "Lederschuhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "皮鞋169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f7d8d35138",
-   "word": "Lederwarenabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "皮件区179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d63e018056",
-   "word": "Left-Fielder",
-   "article": "der",
-   "pos": "noun",
-   "translation": "左外野手254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5c3bdf6050",
-   "word": "Lehrerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "老师(女)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f9f8d67301",
-   "word": "Leinenschuhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "帆布鞋169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d216be1035",
-   "word": "Leinwand",
-   "article": "die",
-   "pos": "noun",
-   "translation": "投影幕布187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ffcf4722ba",
-   "word": "Lende",
-   "article": "die",
-   "pos": "noun",
-   "translation": "牛脑134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4e1630e090",
-   "word": "Lenkrad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "方向盘225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6b36b9096a",
-   "word": "Leopardin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "豹(母)279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d174fea5ae",
-   "word": "Lesezeichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "书签195",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-10c6a12ae6",
-   "word": "Leuchtstoffrohre",
-   "article": "die",
-   "pos": "noun",
-   "translation": "日光灯管122",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-17d5e7bf30",
-   "word": "Levkoje",
-   "article": "die",
-   "pos": "noun",
-   "translation": "紫罗兰287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ffe010d3e1",
-   "word": "Lexikon",
-   "article": "das",
-   "pos": "noun",
-   "translation": "百科全书196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d88f1233f2",
-   "word": "Lichtschalter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "开关103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-981ca6c58b",
-   "word": "Lidschatten",
-   "article": "der",
-   "pos": "noun",
-   "translation": "眼影170",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2f9c17bd15",
-   "word": "Lieferant",
-   "article": "der",
-   "pos": "noun",
-   "translation": "送货员184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fa5df96370",
-   "word": "Likör",
-   "article": "der",
-   "pos": "noun",
-   "translation": "水果酒141",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9db825c58c",
-   "word": "Lilie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "百合286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e8d5275080",
-   "word": "Linguistik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "语言学198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-94bdd037ec",
-   "word": "Linienplan",
-   "article": "der",
-   "pos": "noun",
-   "translation": "路线图222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-15b559ad60",
-   "word": "Lippenstift",
-   "article": "der",
-   "pos": "noun",
-   "translation": "口红117",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1f9aa1e55c",
-   "word": "Literaturwissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "文学198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-39c2c89444",
-   "word": "Lobby",
-   "article": "die",
-   "pos": "noun",
-   "translation": "大厅180",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-acad5f8584",
-   "word": "Locher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "打洞机203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-406a9ba2cd",
-   "word": "Loge",
-   "article": "die",
-   "pos": "noun",
-   "translation": "包间148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-810e0ecf97",
-   "word": "Longanfrucht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "龙眼129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-de45358fd8",
-   "word": "Lotoswurzel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "莲藉137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d9ef0cced4",
-   "word": "Luffa",
-   "article": "die",
-   "pos": "noun",
-   "translation": "丝瓜132",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f1a29b8496",
-   "word": "Luftbefeuchter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "加湿器120",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-12b6e8cf6c",
-   "word": "Luftentfeuchter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "除湿机120‘",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f36c080372",
-   "word": "Lufterfrischer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "芳香剂106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-07e60cb444",
-   "word": "Luftpostbrief",
-   "article": "der",
-   "pos": "noun",
-   "translation": "航空信184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ed812c5196",
-   "word": "Luftreiniger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "空气净化器120",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-06e941752d",
-   "word": "Luftverschmutzung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "空气污染299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cbfd9fcbd7",
-   "word": "Löwenzahn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蒲公英叶133",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-58f2f199bc",
-   "word": "Lowin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "狮子(母)279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8ac72a420d",
-   "word": "Magermilch",
-   "article": "die",
-   "pos": "noun",
-   "translation": "脱脂牛奶143",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a81bd3f1eb",
-   "word": "Magnet",
-   "article": "der",
-   "pos": "noun",
-   "translation": "磁铁194",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
    "id": "ocr45-w-45df39f3c4",
    "word": "Magnetschwebebahn",
    "article": "die",
    "pos": "noun",
    "translation": "磁悬浮列车",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b530d096d6",
-   "word": "Maiskolben",
-   "article": "der",
-   "pos": "noun",
-   "translation": "玉米130",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-275e22c0bf",
-   "word": "Maisstarke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "玉米粉156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-774130db00",
-   "word": "Maklerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "经纪人(女)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c9f46dab55",
-   "word": "Makrele",
-   "article": "die",
-   "pos": "noun",
-   "translation": "铺鱼284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2f7bd756ad",
-   "word": "Malzbier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "德国麦汁75",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ce6f49a778",
-   "word": "Managerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "经理(女)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a68f36a8af",
-   "word": "Managern",
-   "article": "der",
-   "pos": "noun",
-   "translation": "经理(男)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-44bd796fd9",
-   "word": "Mandarine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "橘子128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0f09479c30",
-   "word": "Mango",
-   "article": "die",
-   "pos": "noun",
-   "translation": "芒果128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-35c8c26e63",
-   "word": "Manschettenknopf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "袖扣166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4bec807925",
-   "word": "Marathon",
-   "article": "der",
-   "pos": "noun",
-   "translation": "马拉松261",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b9513135f1",
-   "word": "Margerite",
-   "article": "die",
-   "pos": "noun",
-   "translation": "雏菊286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b7c3f159c5",
-   "word": "Marker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "马克笔202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c6340dd10b",
-   "word": "Mars",
-   "article": "der",
-   "pos": "noun",
-   "translation": "火星300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b35ff55eca",
-   "word": "Marzipanbrot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "杏仁糖面包73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1a1629b269",
-   "word": "Maschinenbau",
-   "article": "der",
-   "pos": "noun",
-   "translation": "机械199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-30d97b9df5",
-   "word": "Maßband",
-   "article": "das",
-   "pos": "noun",
-   "translation": "卷尺115.123",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-59f0ab170d",
-   "word": "Master",
-   "article": "der",
-   "pos": "noun",
-   "translation": "硕士191",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ae6cea9fa0",
-   "word": "Mathematik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "数学198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-67eaf619c7",
-   "word": "Matinee",
-   "article": "die",
-   "pos": "noun",
-   "translation": "早场244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8c48dd881d",
-   "word": "Matratze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "床垫112",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-55d57ec490",
-   "word": "Mauspad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鼠标垫274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f13642f238",
-   "word": "Meditation",
-   "article": "die",
-   "pos": "noun",
-   "translation": "打坐312",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-68e931efb5",
-   "word": "Meeresenge",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海峡296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0199b3160d",
-   "word": "Meeresfrüchte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海鲜126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2aa182467e",
-   "word": "Meeresschildkröte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海龟284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-de318c2ad5",
-   "word": "Meeresschnecke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海螺285",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cc463888ed",
-   "word": "Mehrfachsteckdose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "扩充插座105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3a49b08f27",
-   "word": "Menü",
-   "article": "das",
-   "pos": "noun",
-   "translation": "套餐150",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-20e01c40cc",
-   "word": "Meridian",
-   "article": "der",
-   "pos": "noun",
-   "translation": "经络312",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2a0dfd1356",
-   "word": "Metalldetektor",
-   "article": "der",
-   "pos": "noun",
-   "translation": "金属探测器228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f395838e14",
-   "word": "Mikrofilm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "微缩胶片197",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dfd232c7c9",
-   "word": "Mikrowellenofen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "微波炉116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-277e8f763b",
-   "word": "Milch",
-   "article": "die",
-   "pos": "noun",
-   "translation": "牛奶143",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e287b4c6ff",
-   "word": "Milchkuh",
-   "article": "die",
-   "pos": "noun",
-   "translation": "奶牛278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-980113c7cd",
-   "word": "Milchprodukt",
-   "article": "das",
-   "pos": "noun",
-   "translation": "乳制品126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-aadb55772b",
-   "word": "Milchpulver",
-   "article": "das",
-   "pos": "noun",
-   "translation": "奶粉143",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-afa319ea47",
-   "word": "Milchshake",
-   "article": "der",
-   "pos": "noun",
-   "translation": "奶昔142",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-df18a1ed61",
-   "word": "Milchstraße",
-   "article": "die",
-   "pos": "noun",
-   "translation": "银河系300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f626ce26ad",
-   "word": "Milchtee",
-   "article": "der",
-   "pos": "noun",
-   "translation": "奶茶139",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
@@ -22114,481 +13204,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
   },
   {
-   "id": "ocr45-w-4f487bbdcd",
-   "word": "Minze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "薄荷157",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-13c5635489",
-   "word": "Mirabelle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "黄香李128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bbacd06368",
-   "word": "Mittagspause",
-   "article": "die",
-   "pos": "noun",
-   "translation": "午休190,273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6ada9fac5c",
-   "word": "Mittelfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "中场259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f59233643f",
-   "word": "Mittelfinger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "中指85",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-692479f44b",
-   "word": "Mittelkreis",
-   "article": "der",
-   "pos": "noun",
-   "translation": "跳球圈250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8edbec770f",
-   "word": "Mitternachtsvorstellung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "午夜场244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-62b5ad3823",
-   "word": "Mixer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "果汁机116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-975cee85bb",
-   "word": "Mokka",
-   "article": "der",
-   "pos": "noun",
-   "translation": "摩卡140",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fad6c1cfd7",
-   "word": "Monat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "月290",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-73055e9f1d",
-   "word": "Mond",
-   "article": "der",
-   "pos": "noun",
-   "translation": "月球300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-415c57dfb7",
-   "word": "Moped",
-   "article": "das",
-   "pos": "noun",
-   "translation": "摩托车218",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5be9a13691",
-   "word": "Motherboard",
-   "article": "das",
-   "pos": "noun",
-   "translation": "主机板274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-02ec2e3542",
-   "word": "Motorboot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "汽艇219",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ed6a9f2425",
-   "word": "Motorrad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "重型摩托车218",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-53b77a0903",
-   "word": "Motorradhelm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "安全帽168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2792705363",
-   "word": "Motorschlitten",
-   "article": "der",
-   "pos": "noun",
-   "translation": "雪上摩托车263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dfd7e1f0f2",
-   "word": "Muffin",
-   "article": "der",
-   "pos": "noun",
-   "translation": "玛芬147",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9c6bb25b17",
-   "word": "Mund",
-   "article": "der",
-   "pos": "noun",
-   "translation": "嘴巴84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d67050a1da",
-   "word": "Mundharmonika",
-   "article": "die",
-   "pos": "noun",
-   "translation": "口琴238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-aec7a7f769",
-   "word": "Mundschutz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "口罩214",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a9acd95bae",
-   "word": "Musical",
-   "article": "das",
-   "pos": "noun",
-   "translation": "音乐剧245",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-00039c66ad",
-   "word": "Musikerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "音乐家(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9d6c3a3a34",
-   "word": "Musikwissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "音乐199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4042f5d057",
-   "word": "Muskeln",
-   "article": "die",
-   "pos": "noun",
-   "translation": "肌肉97",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c7b2d3dd83",
-   "word": "Muster",
-   "article": "die",
-   "pos": "noun",
-   "translation": "图案171",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d43319c72c",
-   "word": "Mutter",
-   "article": "die",
-   "pos": "noun",
-   "translation": "妈妈82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2d46e7d40d",
-   "word": "Muttertag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "母亲节371",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2bcd2e77c7",
-   "word": "Mädchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "女孩80",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-40efc48efa",
-   "word": "Möbelabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "家具部178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9bc4cd3742",
-   "word": "Möwe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海鸥282",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4bebcba1a0",
-   "word": "Mücke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "蚊子280",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-28aa9b296c",
-   "word": "Müllwagen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "垃圾车219",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dd4121e342",
-   "word": "Münze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "硬币182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6eb9811845",
-   "word": "Muräne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海鲜284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-97e6073264",
-   "word": "Mütze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "毛线帽168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fd82250d37",
-   "word": "Nachhilfeschule",
-   "article": "die",
-   "pos": "noun",
-   "translation": "补习班191",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-85e1a9d60e",
-   "word": "Nachholprüfung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "补考200",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-31d2c5639f",
-   "word": "Nachschlagewerk",
-   "article": "das",
-   "pos": "noun",
-   "translation": "工具书196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fc48e2ad30",
-   "word": "Nachtclub",
-   "article": "der",
-   "pos": "noun",
-   "translation": "夜店236",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7190856a2e",
-   "word": "Nachttischlampe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "台灯112",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-56e2a790c4",
-   "word": "Nagelknipser",
-   "article": "der",
-   "pos": "noun",
-   "translation": "指甲剪109",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-930cf5290d",
-   "word": "Nagellackentferner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "去光水177",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-321e496083",
-   "word": "Nagellack",
-   "article": "der",
-   "pos": "noun",
-   "translation": "指甲油177",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
    "id": "ocr45-w-f04514d935",
    "word": "Nahrungsergänzungsmittel",
    "article": "das",
    "pos": "noun",
    "translation": "健康食",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-81747d3587",
-   "word": "Narzisse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "水仙286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5ef74a9724",
-   "word": "Nasenbluten",
-   "article": "das",
-   "pos": "noun",
-   "translation": "流鼻血209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2e17bc1b3b",
-   "word": "Nashorn",
-   "article": "das",
-   "pos": "noun",
-   "translation": "犀牛278",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
@@ -22604,3311 +13224,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
   },
   {
-   "id": "ocr45-w-3d5eed8ae0",
-   "word": "Neffe",
-   "article": "der",
-   "pos": "noun",
-   "translation": "侄子;314583",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5b325840f0",
-   "word": "Neptun",
-   "article": "der",
-   "pos": "noun",
-   "translation": "海王星301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-53260089c2",
-   "word": "Netzberührung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "触网252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2a34228f9c",
-   "word": "Netzteil",
-   "article": "das",
-   "pos": "noun",
-   "translation": "变压器105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e2a644c7ce",
-   "word": "Neujahr",
-   "article": "das",
-   "pos": "noun",
-   "translation": "新年42",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1d816d4d21",
-   "word": "Nichte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "侄女;313%83",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1fe7ce8adc",
-   "word": "Niederdruckgebiet",
-   "article": "das",
-   "pos": "noun",
-   "translation": "低气压292",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-39bf8b79d5",
-   "word": "Niederlande",
-   "article": "die",
-   "pos": "noun",
-   "translation": "荷兰39",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9400f862bd",
-   "word": "Nilpferd",
-   "article": "das",
-   "pos": "noun",
-   "translation": "河马279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e8b8d418ae",
-   "word": "No-Charge-Halbkreis",
-   "article": "der",
-   "pos": "noun",
-   "translation": "禁区250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-91a1f6335a",
-   "word": "Notaufnahme",
-   "article": "die",
-   "pos": "noun",
-   "translation": "和急诊室271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fe43c58777",
-   "word": "Notausgang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "紧急出口230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-22d97a6b31",
-   "word": "Notenbekanntgabe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "学期成绩单-200",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-553a1d0468",
-   "word": "Notfall",
-   "article": "der",
-   "pos": "noun",
-   "translation": "急诊211",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-445db5e859",
-   "word": "Notizbuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "笔记本203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b88dfe7bed",
-   "word": "Notizzettel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "便条纸203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1115216d6c",
-   "word": "Nudelholz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "捞面杖178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8a74daebc6",
-   "word": "Nudelsuppe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "汤面304",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-017098875b",
-   "word": "Nummer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "号码牌212",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-42dbd26f7f",
-   "word": "Nussecke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "坚果焦糖角73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-eb66b02ac8",
-   "word": "Oberkellner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "领班149",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f3d52e4c1a",
-   "word": "Oberleitungsbus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "无轨电车279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-24893c7830",
-   "word": "Obstbrand",
-   "article": "der",
-   "pos": "noun",
-   "translation": "水果酒77",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-30da2c1ec7",
-   "word": "Ochse",
-   "article": "der",
-   "pos": "noun",
-   "translation": "牛(公)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1147fa7b04",
-   "word": "Ohrthermometer",
-   "article": "das",
-   "pos": "noun",
-   "translation": "耳温枪214",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3ca9f6a43e",
-   "word": "Oktopus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "章鱼136",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0170261384",
-   "word": "Olivenöl",
-   "article": "das",
-   "pos": "noun",
-   "translation": "橄榄油156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1d1ce211a3",
-   "word": "Oolong-Tee",
-   "article": "der",
-   "pos": "noun",
-   "translation": "乌龙茶139",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f7ef7d5bcd",
-   "word": "Operationssaal",
-   "article": "der",
-   "pos": "noun",
-   "translation": "手术室210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bd43105440",
-   "word": "Oper",
-   "article": "die",
-   "pos": "noun",
-   "translation": "歌剧245",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8413552096",
-   "word": "Ordner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "文件夹203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-738956b09b",
-   "word": "Outfield",
-   "article": "das",
-   "pos": "noun",
-   "translation": "外野254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-eedb0820fb",
-   "word": "Ozeanien",
-   "article": "das",
-   "pos": "noun",
-   "translation": "大洋洲295",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-90e9cde261",
-   "word": "Paella",
-   "article": "die",
-   "pos": "noun",
-   "translation": "西班牙海鲜饭151",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7a6f8fbe56",
-   "word": "Panda",
-   "article": "der",
-   "pos": "noun",
-   "translation": "熊猫279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b348f862b5",
-   "word": "Papaya",
-   "article": "die",
-   "pos": "noun",
-   "translation": "木瓜128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-24cc7b1a9a",
-   "word": "Parallelogramm",
-   "article": "das",
-   "pos": "noun",
-   "translation": "平行四边形204",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-53ae936e93",
-   "word": "Passionsfrucht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "百香果128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-68afa28ef8",
-   "word": "Patientin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "病人(女)210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-919b084371",
-   "word": "Pavillon",
-   "article": "der",
-   "pos": "noun",
-   "translation": "凉亭242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e9ecb8066c",
-   "word": "Pazifik",
-   "article": "der",
-   "pos": "noun",
-   "translation": "太平洋294",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-153b21ecfd",
-   "word": "Peeling",
-   "article": "das",
-   "pos": "noun",
-   "translation": "身体去角质108",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fb254993f6",
-   "word": "Peking-Ente",
-   "article": "die",
-   "pos": "noun",
-   "translation": "北京烤鸭304",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-32c9257b98",
-   "word": "Pekingoper",
-   "article": "die",
-   "pos": "noun",
-   "translation": "京剧245",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5e616a5894",
-   "word": "Personalausweis",
-   "article": "der",
-   "pos": "noun",
-   "translation": "身份证183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7250526f20",
-   "word": "Pfanne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "平底锅116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e69fb653c8",
-   "word": "Pfannenwender",
-   "article": "der",
-   "pos": "noun",
-   "translation": "锅铲118",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-47e1f117c1",
-   "word": "Pfeffer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "胡椒156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-170f189c26",
-   "word": "Pfeife",
-   "article": "die",
-   "pos": "noun",
-   "translation": "哨子186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f9ded5ca48",
-   "word": "Pfingstrose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "牡丹286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3de4504a15",
-   "word": "Pfirsich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "桃子128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e9d985d1de",
-   "word": "Pflaster",
-   "article": "das",
-   "pos": "noun",
-   "translation": "创口贴;贴布274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1b9906d65e",
-   "word": "Pflaume",
-   "article": "die",
-   "pos": "noun",
-   "translation": "李子128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-46489e2cf3",
-   "word": "Pflaumenblüte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "梅花286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-55f46abe11",
-   "word": "Pflegespülung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "润发乳108",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-69ba7fc7d7",
-   "word": "Pförtner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "门房98",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-140527e8c1",
-   "word": "Physik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "物理198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0709e26c94",
-   "word": "Physiotherapeut",
-   "article": "der",
-   "pos": "noun",
-   "translation": "物理治疗师270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8d53aefc6e",
-   "word": "Physiotherapie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "物理疗法213",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2149c717ea",
-   "word": "Piercing",
-   "article": "das",
-   "pos": "noun",
-   "translation": "人体穿洞9",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-30c0906ac2",
-   "word": "Pilates",
-   "article": "das",
-   "pos": "noun",
-   "translation": "普拉提264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e71ffe5633",
-   "word": "Pilotin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "飞行员(女)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d113da26d9",
-   "word": "Pils",
-   "article": "das",
-   "pos": "noun",
-   "translation": "皮尔森啤酒74",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6de4afd33c",
-   "word": "Pilz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "香菇137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-69b7a67fbb",
-   "word": "Pinie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "松树287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-549d17af0f",
-   "word": "Pinnwand",
-   "article": "die",
-   "pos": "noun",
-   "translation": "布告栏192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3dbbf191a7",
-   "word": "Pinsel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "毛笔202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a27cef5607",
-   "word": "PIN",
-   "article": "die",
-   "pos": "noun",
-   "translation": "密码183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c047f9bd90",
-   "word": "Pistole",
-   "article": "die",
-   "pos": "noun",
-   "translation": "手枪186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-97068f895f",
-   "word": "Pitcher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "投手254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1e37076337",
-   "word": "Pizzaschneider",
-   "article": "der",
-   "pos": "noun",
-   "translation": "比萨饼刀153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-49ee36417c",
-   "word": "Plakat",
-   "article": "das",
-   "pos": "noun",
-   "translation": "海报195",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-20f3f3eb1c",
-   "word": "Plastiktüte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "塑料袋127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9231a9aad3",
-   "word": "Plateau",
-   "article": "das",
-   "pos": "noun",
-   "translation": "高原296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d0f65aace6",
-   "word": "Pluto",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冥王星301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1647b4fff9",
-   "word": "Politikerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "政治家(女)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e518d9c880",
-   "word": "Politikwissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "政治学799",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-324f44be6e",
-   "word": "Politologie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "政治学199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cf4dbfae4e",
-   "word": "Polizeiauto",
-   "article": "das",
-   "pos": "noun",
-   "translation": "警车187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5939e8ef7e",
-   "word": "Polizeimotorrad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "警用摩托车187",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6d2bb505eb",
-   "word": "Polizeimütze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "警帽186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0ba359c6b2",
-   "word": "Polizeirevier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "警察局175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6826e6dfbb",
-   "word": "Polo",
-   "article": "das",
-   "pos": "noun",
-   "translation": "马球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c4d87fddf4",
-   "word": "Popkonzert",
-   "article": "das",
-   "pos": "noun",
-   "translation": "演唱会245",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d70fbf5bd6",
-   "word": "Portier",
-   "article": "der",
-   "pos": "noun",
-   "translation": "门童180",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-da135ecddf",
-   "word": "Posaune",
-   "article": "die",
-   "pos": "noun",
-   "translation": "长号238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a7eec859d7",
-   "word": "Postauto",
-   "article": "das",
-   "pos": "noun",
-   "translation": "邮政车185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-60cc4cf201",
-   "word": "Postbote",
-   "article": "der",
-   "pos": "noun",
-   "translation": "邮差184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8243491c35",
-   "word": "Postfach",
-   "article": "das",
-   "pos": "noun",
-   "translation": "邮政信箱185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b98df6d7b8",
-   "word": "Post-it",
-   "article": "das",
-   "pos": "noun",
-   "translation": "便利贴203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-976b444f2c",
-   "word": "Postkarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "明信片185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e4f5930248",
-   "word": "Postleitzahl",
-   "article": "die",
-   "pos": "noun",
-   "translation": "邮政区号184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6e1918d0ec",
-   "word": "Poststempel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "邮戳184",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3118d5cf9f",
-   "word": "Presskopf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "香肚77",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2c63cea6e7",
-   "word": "Privatschule",
-   "article": "die",
-   "pos": "noun",
-   "translation": "私立学校190",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d3a8ca488a",
-   "word": "Probezeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "试用期273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a0fa5bd003",
-   "word": "Probe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "试吃品126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f48cb94ae2",
-   "word": "Professorin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "教授(女)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0bed2a3fe6",
-   "word": "Projektor",
-   "article": "der",
-   "pos": "noun",
-   "translation": "投影仪181",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-181f05d062",
-   "word": "Psychologie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "心理学199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9ed4f04a6d",
-   "word": "Puderdose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "粉饼170",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-39118fc7fd",
-   "word": "Pulsdiagnose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "把脉372",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cefb7a0387",
-   "word": "Pumps",
-   "article": "die",
-   "pos": "noun",
-   "translation": "高跟鞋169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3b4da2aca8",
-   "word": "Puppentheater",
-   "article": "das",
-   "pos": "noun",
-   "translation": "布袋戏245",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5553e5f549",
-   "word": "Putenfleisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "火鸡134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-437c79dd98",
-   "word": "Qigong",
-   "article": "das",
-   "pos": "noun",
-   "translation": "气功265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cc352d6573",
-   "word": "Qipao",
-   "article": "das",
-   "pos": "noun",
-   "translation": "旗袍165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-94262650fd",
-   "word": "Radfahren",
-   "article": "das",
-   "pos": "noun",
-   "translation": "骑自行车249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b85610c2de",
-   "word": "Rafting",
-   "article": "das",
-   "pos": "noun",
-   "translation": "皮划艇263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8d002649ae",
-   "word": "Raps",
-   "article": "der",
-   "pos": "noun",
-   "translation": "油菜花287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f2450fb971",
-   "word": "Rasenmäher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "割草机100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-98d44ac4ed",
-   "word": "Rasensprenger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "洒水器100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e80321e4e5",
-   "word": "Rasierer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "除毛刀109",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a66b548a2b",
-   "word": "Raumfahrzeug",
-   "article": "das",
-   "pos": "noun",
-   "translation": "航天飞机301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5a8651d121",
-   "word": "Raumstation",
-   "article": "die",
-   "pos": "noun",
-   "translation": "空间站307",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b87bc350c3",
-   "word": "Ravioli",
-   "article": "die",
-   "pos": "noun",
-   "translation": "意大利饺157",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d755af31fc",
-   "word": "Reck",
-   "article": "das",
-   "pos": "noun",
-   "translation": "单杠264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-25f4ac884b",
-   "word": "Recyclingbehälter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "资源回收桶98",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-31ed0af4ec",
-   "word": "Referat",
-   "article": "das",
-   "pos": "noun",
-   "translation": "口头报告200-",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cad0e989ff",
-   "word": "Reflexologie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "足疗312",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e06d6c949c",
-   "word": "Regenmantel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "雨衣165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-843fc164fe",
-   "word": "Regenschuhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "雨鞋169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f77d2d1f61",
-   "word": "Regenwald",
-   "article": "der",
-   "pos": "noun",
-   "translation": "雨林297",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-566d1551c4",
-   "word": "Reifen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "轮胎224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-58f8d4c480",
-   "word": "Reisebus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "巴士;游览车218",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3fa38b1e2e",
-   "word": "Reiseleiter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "领队(男)780",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d1ac71a045",
-   "word": "Reisende",
-   "article": "der",
-   "pos": "noun",
-   "translation": "旅客(男)226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4108f74a6a",
-   "word": "Reisende",
-   "article": "die",
-   "pos": "noun",
-   "translation": "旅客(女)226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3749fc2548",
-   "word": "Reisescheck",
-   "article": "der",
-   "pos": "noun",
-   "translation": "旅行支票183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-293428ac43",
-   "word": "Reisezentrum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "票务中心222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b90d9e1c58",
-   "word": "Reiskocher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电饭锅176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1deeb401e9",
-   "word": "Reiskuchen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "米糕307",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5456830d17",
-   "word": "Reismilch",
-   "article": "die",
-   "pos": "noun",
-   "translation": "米浆139",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4515215179",
-   "word": "Reiswein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "米酒156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bb80b7def1",
-   "word": "Reißverschluss",
-   "article": "der",
-   "pos": "noun",
-   "translation": "拉链164",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-94cac91866",
-   "word": "Reißzwecke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "图钉202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-31cd248365",
-   "word": "Rennwagen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "跑车176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-323cdded80",
-   "word": "Restaurant",
-   "article": "das",
-   "pos": "noun",
-   "translation": "餐厅174",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-093be609fc",
-   "word": "Rettungsweste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "救生衣230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1294071363",
-   "word": "Richter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "法官(男)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a1c8344a00",
-   "word": "Richterin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "法官(女)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e57b88af23",
-   "word": "Riesenrad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "摩天轮242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bd36b6a5ad",
-   "word": "Riesling",
-   "article": "der",
-   "pos": "noun",
-   "translation": "雷司令白酒77",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-606e2e1f6a",
-   "word": "Right-Fielder",
-   "article": "der",
-   "pos": "noun",
-   "translation": "右外野手254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-736e5485d3",
-   "word": "Rind",
-   "article": "das",
-   "pos": "noun",
-   "translation": "牛(统称)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-568d2adf84",
-   "word": "Rinderhesse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "牛妥134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-841609b0b9",
-   "word": "Rindfleisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "牛肉134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e44bd9bab0",
-   "word": "Ring",
-   "article": "der",
-   "pos": "noun",
-   "translation": "戒指166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-73676c2514",
-   "word": "Ringe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "吊环264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9a0f320fa0",
-   "word": "Ringen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "摔跤265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2f2cfb6515",
-   "word": "Ringfinger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "无名指85",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d2ce7d2247",
-   "word": "Ringwerfen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "套圈243",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7907717964",
-   "word": "Robbe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海豹285",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f37bf7479e",
-   "word": "Rock",
-   "article": "der",
-   "pos": "noun",
-   "translation": "裙子163",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6295c4ced1",
-   "word": "Rollstuhl",
-   "article": "der",
-   "pos": "noun",
-   "translation": "轮椅217",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-43ab0f641e",
-   "word": "Roman",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小说196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-73cfa7f281",
-   "word": "Rose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "玫瑰286",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a864a35151",
-   "word": "Rosinenbrötchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "葡萄干面包70",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-32e457e4b8",
-   "word": "Rotkehlchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "知更乌283",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-662b0e44b1",
-   "word": "Rotwein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "红葡萄酒76",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a894b71691",
-   "word": "Rucksack",
-   "article": "der",
-   "pos": "noun",
-   "translation": "背包167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b227e218b6",
-   "word": "Rucola",
-   "article": "der",
-   "pos": "noun",
-   "translation": "芝麻菜133",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f20add498e",
-   "word": "Rudern",
-   "article": "das",
-   "pos": "noun",
-   "translation": "划船263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6845fc1825",
-   "word": "Rugby",
-   "article": "das",
-   "pos": "noun",
-   "translation": "橄榄球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bc34e2269e",
-   "word": "Rum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "朗姆酒77141",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bc84aa3b01",
-   "word": "Rumpf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "机身231",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ddb6740da2",
-   "word": "Rauber",
-   "article": "der",
-   "pos": "noun",
-   "translation": "强盗186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4b92a3bccc",
-   "word": "Räucherstäbchenhalter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "线香台105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1999949272",
-   "word": "Raucherstabchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "线香105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7a98225c2e",
-   "word": "Rückenschwimmen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "仰泳262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e1b1ec57d8",
-   "word": "Rückgabe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "还书处196",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5a11512624",
-   "word": "Rückhand",
-   "article": "die",
-   "pos": "noun",
-   "translation": "反手击球;反手拍257",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-16a218c5c1",
-   "word": "Rückseite",
-   "article": "die",
-   "pos": "noun",
-   "translation": "封底197",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5e4d1bdd57",
-   "word": "Rückspiegel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "后视镜225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3d89518544",
-   "word": "Rührstab",
-   "article": "der",
-   "pos": "noun",
-   "translation": "饮料搅拌棒152",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bca8af3231",
-   "word": "Sachertorte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "沙河蛋糕73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a4cdc00fd7",
-   "word": "Sackgasse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "此路不通227",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c17e22969f",
-   "word": "Säge",
-   "article": "die",
-   "pos": "noun",
-   "translation": "锯子123",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d1ad54be39",
-   "word": "Salami",
-   "article": "die",
-   "pos": "noun",
-   "translation": "意大利腊肠135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f801fe710d",
-   "word": "Salatbesteck",
-   "article": "das",
-   "pos": "noun",
-   "translation": "沙拉匙152",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3c89ab7907",
-   "word": "Salatschale",
-   "article": "die",
-   "pos": "noun",
-   "translation": "沙拉碗152",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7c723e7a62",
-   "word": "Sandalen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "凉鞋169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-75a0e348f8",
-   "word": "Sandbank",
-   "article": "die",
-   "pos": "noun",
-   "translation": "沙洲296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9f73840237",
-   "word": "Sänger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "歌手(男)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-195ca35832",
-   "word": "Sängerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "歌手(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a3ba7e6050",
-   "word": "Sashimi",
-   "article": "das",
-   "pos": "noun",
-   "translation": "生鱼片151",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-93adc7ad9b",
-   "word": "Satellitenschüssel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "碟型天线100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b4d2e6d802",
-   "word": "Saturn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "土星300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-071bedbde7",
-   "word": "Sau",
-   "article": "die",
-   "pos": "noun",
-   "translation": "猪(母)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9780e3553a",
-   "word": "Sauerbraten",
-   "article": "der",
-   "pos": "noun",
-   "translation": "本炯牛肉66",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-10d12658f6",
-   "word": "Sauerkraut",
-   "article": "das",
-   "pos": "noun",
-   "translation": "德国酸菜66",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-46581f56fa",
-   "word": "Sauna",
-   "article": "die",
-   "pos": "noun",
-   "translation": "桑拿241",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-52c70e6449",
-   "word": "Saxofon",
-   "article": "das",
-   "pos": "noun",
-   "translation": "萨克斯238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4f36cb25f3",
-   "word": "Scanner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "扫描仪197275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b02d9fe4b9",
-   "word": "Schachbrettmuster",
-   "article": "das",
-   "pos": "noun",
-   "translation": "棋盘格177",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f1bb833780",
-   "word": "Schaf",
-   "article": "das",
-   "pos": "noun",
-   "translation": "绵羊(统称)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f3ffbb12de",
-   "word": "Schafbock",
-   "article": "der",
-   "pos": "noun",
-   "translation": "绵羊(公)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0dbb6cfb82",
-   "word": "Schalterpersonal",
-   "article": "das",
-   "pos": "noun",
-   "translation": "柜台人员226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3378a1f700",
-   "word": "Schaltknüppel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "排档杆225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-25bc193b6b",
-   "word": "Schauspieler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "男演员271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2e1c0a0d55",
-   "word": "Scheinwerfer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "车灯224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-80833d862a",
-   "word": "Schere",
-   "article": "die",
-   "pos": "noun",
-   "translation": "剪刀115,202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0ffe71ce96",
-   "word": "Schießbude",
-   "article": "die",
-   "pos": "noun",
-   "translation": "打靶场242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e4a9846721",
-   "word": "Schießsport",
-   "article": "der",
-   "pos": "noun",
-   "translation": "射击249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dc11875d9a",
-   "word": "Schinken",
-   "article": "der",
-   "pos": "noun",
-   "translation": "火腿135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2594d27ac8",
-   "word": "Schlafanzug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "睡衣165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fe42c626b4",
-   "word": "Schlaginstrument",
-   "article": "das",
-   "pos": "noun",
-   "translation": "打击乐器239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2b1ded32ca",
-   "word": "Schlagstock",
-   "article": "der",
-   "pos": "noun",
-   "translation": "警棍186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5d8d4f67a7",
-   "word": "Schlammlawine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "泥石流299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8408577d8c",
-   "word": "Schleier",
-   "article": "der",
-   "pos": "noun",
-   "translation": "面纱166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8252716eb2",
-   "word": "Schließfach",
-   "article": "das",
-   "pos": "noun",
-   "translation": "置物柜179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-68431f4c30",
-   "word": "Schlittschuhlauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "滑冰263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9a44f64f86",
-   "word": "Schlittschuhlaufen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "溜冰249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5ab5200ee3",
-   "word": "Schloss",
-   "article": "das",
-   "pos": "noun",
-   "translation": "门锁99",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c9b07b44b1",
-   "word": "Schlüsseletui",
-   "article": "das",
-   "pos": "noun",
-   "translation": "钥匙包167",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-35bb831efe",
-   "word": "Schmerzmittel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "止痛药275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-79a04b7253",
-   "word": "Schmetterball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "杀球257",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a143d442dc",
-   "word": "Schnecke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "蜗牛287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c5ebfe0155",
-   "word": "Schneebesen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "搅拌器118",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ec41edef5a",
-   "word": "Schneesturm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "暴风雪298",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7b7b65c599",
-   "word": "Schneidebrett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "砧板116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2c56c58b8a",
-   "word": "Schnittverletzung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "割伤209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-121c0afc5e",
-   "word": "Schnorcheln",
-   "article": "das",
-   "pos": "noun",
-   "translation": "浮潜262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7e9ce5a1fa",
-   "word": "Schokobrötchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "巧克力面包70",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d62ee8d7e7",
-   "word": "Schraubenschlüssel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "扳手122",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-da1abc3628",
-   "word": "Schraubenzieher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "螺丝起子122",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5ff1644d6f",
-   "word": "Schreibtisch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "办公桌272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-697806a5eb",
-   "word": "Schrimp",
-   "article": "der",
-   "pos": "noun",
-   "translation": "虾137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6d75ed616b",
-   "word": "Schuhabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鞋类区179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-316576eaf1",
-   "word": "Schuhschrank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鞋柜100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cda4b0f8f6",
-   "word": "Schuhsohle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鞋底169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-505cc90a90",
-   "word": "Schulanfang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "开学190",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-df6faca197",
-   "word": "Schuldirektor",
-   "article": "der",
-   "pos": "noun",
-   "translation": "校长190",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ac40d686a3",
-   "word": "Schule",
-   "article": "die",
-   "pos": "noun",
-   "translation": "学校190",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0a2d054b56",
-   "word": "Schulkamerad",
-   "article": "der",
-   "pos": "noun",
-   "translation": "同学(男)790",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bd38e00ba0",
-   "word": "Schultafel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "黑板194",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ea81bdf56c",
-   "word": "Schultor",
-   "article": "das",
-   "pos": "noun",
-   "translation": "校门192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-951e9f849c",
-   "word": "Schutzhelm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "工程帽168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3a607e83a1",
-   "word": "Schwalbe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "燕子283",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6a2a267e29",
-   "word": "Schwangerschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "怀孕81",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8f9213bb5c",
-   "word": "Schwarzbier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "黑啤酒74",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c6d9898941",
-   "word": "Schwarzbrot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "黑面包70",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5de3e68172",
-   "word": "Schwarztee",
-   "article": "der",
-   "pos": "noun",
-   "translation": "红茶139",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-338f9de911",
-   "word": "Schwebebalken",
-   "article": "der",
-   "pos": "noun",
-   "translation": "平衡木264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2f744f1bb8",
-   "word": "Schwein",
-   "article": "das",
-   "pos": "noun",
-   "translation": "猪(统称)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-edb23cfc75",
-   "word": "Schweinebauch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "五花肉135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-33b511896d",
-   "word": "Schweinebein",
-   "article": "das",
-   "pos": "noun",
-   "translation": "猪脚135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5b2618a457",
-   "word": "Schweinefleisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "猪肉135",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d733c36edb",
-   "word": "Schweinshaxe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "烤猪脚66",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9500eaed35",
-   "word": "Schweinsohr",
-   "article": "das",
-   "pos": "noun",
-   "translation": "晴蝶酥73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d454088941",
-   "word": "Schwertfisch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "旗鱼284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5afc72263b",
-   "word": "Schwiegersohn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "女婿82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e2206d8601",
-   "word": "Schwimmbad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "游泳池98",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-68a8af7227",
-   "word": "Schwimmen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "游泳262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c94af64bd2",
-   "word": "Schwägerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "嫂嫂;34883",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a0c877c218",
-   "word": "Schürze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "围裙116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-34c7328519",
-   "word": "Schüssel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "碗153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f316f2e66a",
-   "word": "Science-Fiction-Film",
-   "article": "der",
-   "pos": "noun",
-   "translation": "科幻片244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f027b5a3d6",
-   "word": "Seegurke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海参284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-db71d42d51",
-   "word": "Seeigel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "海胆137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9e1b787ec8",
-   "word": "Seekuh",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海牛285",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1740fe01f0",
-   "word": "Seeohr",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鲍鱼137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bcfcb36854",
-   "word": "Seepferdchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "海马284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ac20831d68",
-   "word": "Seepost",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海运185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dc14b3847e",
-   "word": "Seerose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海葵285",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-819943ffd1",
-   "word": "Seeschlange",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海蛇284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b9c429f466",
-   "word": "Seestern",
-   "article": "der",
-   "pos": "noun",
-   "translation": "海星284",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-839c10ba2f",
-   "word": "Segelboot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "帆船279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b4941b50c1",
-   "word": "Seife",
-   "article": "die",
-   "pos": "noun",
-   "translation": "香皂108",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-63cc181a37",
-   "word": "Seitenauslinie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "边线250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-50a7a3ae37",
-   "word": "Seitenlinie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "边线256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b56f18af1b",
-   "word": "Seitenschwimmen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "侧泳262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8fe8575e65",
-   "word": "Seitpferd",
-   "article": "das",
-   "pos": "noun",
-   "translation": "鞍马264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3625851abc",
-   "word": "Sekretariat",
-   "article": "das",
-   "pos": "noun",
-   "translation": "办公室192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a8e87ae5d9",
-   "word": "Sektglas",
-   "article": "das",
-   "pos": "noun",
-   "translation": "香槟杯153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
    "id": "ocr45-w-b73da15594",
    "word": "Semesterabschlussprüfung",
    "article": "die",
    "pos": "noun",
    "translation": "期未考",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-281915085c",
-   "word": "Semikolon",
-   "article": "das",
-   "pos": "noun",
-   "translation": "分号205",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6e8977aabe",
-   "word": "Semmelknodel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "面包丸子66",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1b692d2246",
-   "word": "Senf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "芥未善157",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7f1f6652c3",
-   "word": "Sepia",
-   "article": "die",
-   "pos": "noun",
-   "translation": "乌贼;墨鱼;花枝136",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c4cc9c3b0a",
-   "word": "Serie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "连续剧244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-014735d077",
-   "word": "Serum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "精华液177",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a8cb1938d3",
-   "word": "Servicegebühr",
-   "article": "die",
-   "pos": "noun",
-   "translation": "服务费308",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5914129189",
-   "word": "Servierteller",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大浅盘153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c1bcd86acd",
-   "word": "Servierwagen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "餐车148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8b16c72e01",
-   "word": "Serviette",
-   "article": "die",
-   "pos": "noun",
-   "translation": "纸巾146",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d0f40e0a52",
-   "word": "Serviettenring",
-   "article": "der",
-   "pos": "noun",
-   "translation": "餐巾环153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-efd053ef8b",
-   "word": "Sesamöl",
-   "article": "das",
-   "pos": "noun",
-   "translation": "麻油156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ece2d078e7",
-   "word": "Shaker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "调酒器148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9093036d2a",
-   "word": "Shampoo",
-   "article": "das",
-   "pos": "noun",
-   "translation": "洗发精108",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-66210a1825",
-   "word": "Shrimp",
-   "article": "der",
-   "pos": "noun",
-   "translation": "虾137",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d46a81d9cb",
-   "word": "Sicherheitsgurt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "安全带225",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8a146ef5bc",
-   "word": "Sicherheitsnadel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "别针175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d0b1aa8b92",
-   "word": "Silbermedaille",
-   "article": "die",
-   "pos": "noun",
-   "translation": "银牌261",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4761a094a6",
-   "word": "Sirloinsteak",
-   "article": "das",
-   "pos": "noun",
-   "translation": "沙妆134",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6e4c23b9e2",
-   "word": "Sitzkissen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "坐垫103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-78ab13de44",
-   "word": "Sitzungszimmer",
-   "article": "das",
-   "pos": "noun",
-   "translation": "会议室272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cc161f8937",
-   "word": "Skateboarding",
-   "article": "das",
-   "pos": "noun",
-   "translation": "滑板运动249",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dec93486d9",
-   "word": "Skifahren",
-   "article": "das",
-   "pos": "noun",
-   "translation": "滑雪263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-838926c2e5",
-   "word": "Skilanglauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "越野滑雪263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-87ba60719b",
-   "word": "Smoothie",
-   "article": "der",
-   "pos": "noun",
-   "translation": "鲜果奶苦139",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3336175a3a",
-   "word": "SMS",
-   "article": "das",
-   "pos": "noun",
-   "translation": "短信185",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c21f858fb2",
-   "word": "Snowboarding",
-   "article": "das",
-   "pos": "noun",
-   "translation": "雪板运动263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-bd019710ac",
-   "word": "Snowboard",
-   "article": "das",
-   "pos": "noun",
-   "translation": "滑雪板263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ef8ac9c87f",
-   "word": "Socken",
-   "article": "die",
-   "pos": "noun",
-   "translation": "袜子;短袜168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fb6cb58143",
-   "word": "Sofakissen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "抱枕103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6c2dd89d41",
-   "word": "Sofa",
-   "article": "das",
-   "pos": "noun",
-   "translation": "沙发103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-99e99496a9",
-   "word": "Softeis",
-   "article": "das",
-   "pos": "noun",
-   "translation": "霜淇淋142",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ec95963479",
-   "word": "Sohn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "儿子82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8f893c06d4",
-   "word": "Sojasprossen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "豆芽菜132",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7dfdfb59d8",
-   "word": "Soldat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "军人(男)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6c561917bd",
-   "word": "Soldatin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "军人(女)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fd4b98199a",
-   "word": "Sommersprossen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "雀斑97",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4692e086e6",
-   "word": "Sonnenmilch",
-   "article": "die",
-   "pos": "noun",
-   "translation": "防晒乳170",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fa44e7289a",
-   "word": "Souvenirladen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "纪念品店243",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-45c0b39980",
-   "word": "Spaghetti",
-   "article": "die",
-   "pos": "noun",
-   "translation": "面条150",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7157671f3c",
-   "word": "Spanisch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "西班牙语198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-08e2004331",
-   "word": "Spätlese",
-   "article": "die",
-   "pos": "noun",
-   "translation": "晚收酒76",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6ae44ec4be",
-   "word": "Spekulatius",
-   "article": "der",
-   "pos": "noun",
-   "translation": "肉桂饼干73",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fad0f3a8cb",
-   "word": "Spiel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "局257",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-48e4586ef9",
-   "word": "Spielekonsole",
-   "article": "die",
-   "pos": "noun",
-   "translation": "电视游戏机127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-61f33d3eb1",
-   "word": "Spieler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "球员258",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ca5966d563",
-   "word": "Spielfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "比赛区252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ea7414577b",
-   "word": "Spielplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "游乐场190",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-55ac4951fc",
-   "word": "Spielwarengeschäft",
-   "article": "das",
-   "pos": "noun",
-   "translation": "玩具店175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d27d65b991",
-   "word": "Spielzeug",
-   "article": "das",
-   "pos": "noun",
-   "translation": "玩具1037",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b306491a3f",
-   "word": "Spind",
-   "article": "der",
-   "pos": "noun",
-   "translation": "置物柜192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c40e5f3a2e",
-   "word": "Spinne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "蜘蛛287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5d0a4167d3",
-   "word": "Sporthalle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "体育馆192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-03e63fb162",
-   "word": "Sportkleidung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "运动服164",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4f8480165f",
-   "word": "Sportplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "操场192",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
@@ -25924,2301 +13244,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
   },
   {
-   "id": "ocr45-w-c7a2e1fac1",
-   "word": "Sportwissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "体育199",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c5e1df4098",
-   "word": "Sprachwissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "语言学198",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c794370158",
-   "word": "Springseil",
-   "article": "das",
-   "pos": "noun",
-   "translation": "跳绳264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2a76954e3d",
-   "word": "Sprint",
-   "article": "der",
-   "pos": "noun",
-   "translation": "短跑267",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dc6080fdc6",
-   "word": "Sprudelwasser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "气泡水138",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-69f98248ca",
-   "word": "Sprunggrube",
-   "article": "die",
-   "pos": "noun",
-   "translation": "沙坑260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-90a9720382",
-   "word": "Sprungpferd",
-   "article": "das",
-   "pos": "noun",
-   "translation": "跳马264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7a74e531d7",
-   "word": "Spuckbeutel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "呕吐袋230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b68f1efb27",
-   "word": "Spüle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "水槽116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e7d5d83721",
-   "word": "Spülschwamm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "百洁布119",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f36119af80",
-   "word": "Squash",
-   "article": "das",
-   "pos": "noun",
-   "translation": "壁球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-87dc0b76e1",
-   "word": "Stab",
-   "article": "der",
-   "pos": "noun",
-   "translation": "撑竿260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c57e79cc55",
-   "word": "Stabhochsprung",
-   "article": "der",
-   "pos": "noun",
-   "translation": "撑竿跳260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c8131b89ef",
-   "word": "Staffellauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "接力赛267",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-883c83a575",
-   "word": "Staffelstab",
-   "article": "der",
-   "pos": "noun",
-   "translation": "接力棒267",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c801dd59f1",
-   "word": "Start",
-   "article": "der",
-   "pos": "noun",
-   "translation": "起飞231",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4bb1a781df",
-   "word": "Stationstheke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "护理站277",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0b8b411491",
-   "word": "Statue",
-   "article": "die",
-   "pos": "noun",
-   "translation": "雕像192",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b9eaa0588a",
-   "word": "Staubsauger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "吸尘器127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3459167e9c",
-   "word": "Steak",
-   "article": "das",
-   "pos": "noun",
-   "translation": "牛排151",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-66ca8300dd",
-   "word": "Stecknadel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "大头针115",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c2dfe8ae32",
-   "word": "Stehlampe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "落地灯103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e4e13e4217",
-   "word": "Steinschlag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "山崩;落石298",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2a4af82850",
-   "word": "Stern-Beobachtung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "观星301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-06961009d5",
-   "word": "Sternenwolke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "星云301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d14faa9e05",
-   "word": "Sternfrucht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "杨桃129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a713ed4f79",
-   "word": "Sternkarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "星图301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ea0c38f736",
-   "word": "Sternwarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "天文台301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0f11b2bde7",
-   "word": "Sternzeichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "星座301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-beb43377ed",
-   "word": "Stethoskop",
-   "article": "das",
-   "pos": "noun",
-   "translation": "听诊器215",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-41457192c1",
-   "word": "Stiefel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "靴子169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-65fd7a5afb",
-   "word": "Stieftochter",
-   "article": "die",
-   "pos": "noun",
-   "translation": "继女83",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4343c5a76d",
-   "word": "Stiefvater",
-   "article": "der",
-   "pos": "noun",
-   "translation": "继父83",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9cefd95be3",
-   "word": "Stiftetui",
-   "article": "das",
-   "pos": "noun",
-   "translation": "铅笔盒194",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-414be98ddf",
-   "word": "Stirn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "额头84",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f0d8237862",
-   "word": "Stola",
-   "article": "die",
-   "pos": "noun",
-   "translation": "披肩166",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4817eaf7dd",
-   "word": "Stoßstange",
-   "article": "die",
-   "pos": "noun",
-   "translation": "保险杠224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-80315e1889",
-   "word": "Straßenlaterne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "路灯176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d393b79e9d",
-   "word": "Streichhölzer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "火柴104",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6fe2d93484",
-   "word": "Streifen",
-   "article": "die",
-   "pos": "noun",
-   "translation": "巡警186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-136cd3dc1a",
-   "word": "Stricknadel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "毛衣针115",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c0039a503d",
-   "word": "Strickpullover",
-   "article": "der",
-   "pos": "noun",
-   "translation": "针织衫163",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-33a88f67be",
-   "word": "Strike",
-   "article": "der",
-   "pos": "noun",
-   "translation": "好球255",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-601e9b5dba",
-   "word": "Strohhalm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "吸管146",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ae905d72a8",
-   "word": "Ströhhut",
-   "article": "der",
-   "pos": "noun",
-   "translation": "草帽168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a3d4ffb332",
-   "word": "Strumpfhose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "裤袜168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-712a0e2970",
-   "word": "Strumpf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "丝袜168",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-969c26b7d7",
-   "word": "Stufenbarren",
-   "article": "der",
-   "pos": "noun",
-   "translation": "高低杠264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f16ce189ae",
-   "word": "Sturmkatastrophe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "风灾299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f88784f0fc",
-   "word": "Stöckelschuhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "高跟鞋169",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1fb9ed7166",
-   "word": "Stürmer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "前锋259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1ccf1762fc",
-   "word": "Sumo",
-   "article": "das",
-   "pos": "noun",
-   "translation": "相扑265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d802a16aa8",
-   "word": "Sumpf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "沼泽297",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a5d9bd92e9",
-   "word": "Suppe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "汤150",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7208d020c9",
-   "word": "Suppenteller",
-   "article": "der",
-   "pos": "noun",
-   "translation": "汤盘153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dec206a6bf",
-   "word": "Surfen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "冲浪262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4e92ae070f",
-   "word": "Synchronschwimmen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "水上芭蕾262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-abafb3daf2",
-   "word": "Synthesizer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电子琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cddcb9d31c",
-   "word": "Tablet-PC",
-   "article": "der",
-   "pos": "noun",
-   "translation": "平板电脑274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-611ce1bc95",
-   "word": "Tablett",
-   "article": "das",
-   "pos": "noun",
-   "translation": "餐盘147",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ac9c206c35",
-   "word": "Taekwondo",
-   "article": "das",
-   "pos": "noun",
-   "translation": "跆拳道265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b3c199ad7f",
-   "word": "Tafelmesser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "餐刀152",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fea2cd964c",
-   "word": "Tagungsraum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "会议厅181",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-04a9d58a16",
-   "word": "Tai-Chi",
-   "article": "das",
-   "pos": "noun",
-   "translation": "太极拳265",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-11fecbf103",
-   "word": "Taifun",
-   "article": "der",
-   "pos": "noun",
-   "translation": "台风298",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-36651d4d09",
-   "word": "Taiwan-Oper",
-   "article": "die",
-   "pos": "noun",
-   "translation": "歌仔戏245",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-14ddcc76a6",
-   "word": "Tamburin",
-   "article": "das",
-   "pos": "noun",
-   "translation": "铃鼓239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7eb6ae0de3",
-   "word": "Tank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "油箱224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2ca06f11dd",
-   "word": "Tankstelle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "加油站176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f427f40616",
-   "word": "Tapiokastärke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "太白粉156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-536941dec4",
-   "word": "Taro",
-   "article": "der",
-   "pos": "noun",
-   "translation": "芋头130",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-02b38537bf",
-   "word": "Taschenlampe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "手电简122",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4a429601f2",
-   "word": "Taschenrechner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "计算机105",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9c3a1260fc",
-   "word": "Taschentuch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "纸巾109",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a831d9e3c3",
-   "word": "Tastatur",
-   "article": "die",
-   "pos": "noun",
-   "translation": "键盘274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ed15063f95",
-   "word": "Taste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "按键1853",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b09bd6a6a6",
-   "word": "Tauchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "潜水262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f73351cc1a",
-   "word": "Techniker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "技工(男)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-21d4ac6ed8",
-   "word": "Technikerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "技工(女)269",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3da93c9e1c",
-   "word": "Teebeutel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "茶包147",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cd63cbbfa2",
-   "word": "Teeblätter",
-   "article": "die",
-   "pos": "noun",
-   "translation": "茶叶141",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c08c0318c1",
-   "word": "Teekessel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "茶过119",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-20ff7c14ec",
-   "word": "Teelöffel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "茶匙152",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2785597fa2",
-   "word": "Teich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "池塘296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4f99a7d22b",
-   "word": "Teleskop",
-   "article": "das",
-   "pos": "noun",
-   "translation": "望远镜301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dbb6df7f7a",
-   "word": "Teller",
-   "article": "der",
-   "pos": "noun",
-   "translation": "盘子153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1dc478fd41",
-   "word": "Tempel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "寺庙377",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-496ee070f1",
-   "word": "Tennisball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "网球257",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-564b43a71e",
-   "word": "Tenniskleidung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "网球衣256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-aa16cce9b9",
-   "word": "Tennisplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "网球场256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-58d096277f",
-   "word": "Tennisschläger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "球拍256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-141cf5aff8",
-   "word": "Tennisschuhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "网球鞋256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f2c1bb5669",
-   "word": "Teppich",
-   "article": "der",
-   "pos": "noun",
-   "translation": "地筷103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c694554914",
-   "word": "Tequila",
-   "article": "der",
-   "pos": "noun",
-   "translation": "龙舌兰酒141",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-864602d46c",
-   "word": "Test",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小考200",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5f218c8ffd",
-   "word": "Textmarker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蓝光笔202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-df54970482",
-   "word": "T-Feld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "前场256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b1f75413ca",
-   "word": "Thermoskanne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "电热水过116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c088c9c3a3",
-   "word": "Tiefgarage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "地下停车场179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a217eca40c",
-   "word": "Tiefkühlkost",
-   "article": "die",
-   "pos": "noun",
-   "translation": "冷冻食品126",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ef1a09f66a",
-   "word": "Tigerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "老虎(母)279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d717614d56",
-   "word": "Tiger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "老虎(公)279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-52e24e5913",
-   "word": "Tinte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "墨水202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b7fc84f149",
-   "word": "Tischdecke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "桌巾149",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f349551368",
-   "word": "TischfuRball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "桌上足球236",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-94f3dfb206",
-   "word": "Tischtennis",
-   "article": "das",
-   "pos": "noun",
-   "translation": "乒乓球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0a4b3b0964",
-   "word": "Toaster",
-   "article": "der",
-   "pos": "noun",
-   "translation": "烤面包机116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e984cdd98a",
-   "word": "Tochter",
-   "article": "die",
-   "pos": "noun",
-   "translation": "女儿82",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-53354bbce4",
-   "word": "Tofupudding",
-   "article": "der",
-   "pos": "noun",
-   "translation": "豆花307",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-00bb607022",
-   "word": "Toilettenbürste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "马桶刷106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2acbbe1b80",
-   "word": "Toilettenpapier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "卫生纸106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1b54a410cb",
-   "word": "Toilettensitz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "马桶坐垫106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5cdf1bc4b3",
-   "word": "Tor",
-   "article": "das",
-   "pos": "noun",
-   "translation": "球门259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1db258eed2",
-   "word": "Tornado",
-   "article": "der",
-   "pos": "noun",
-   "translation": "龙卷风298",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-60baddf601",
-   "word": "Tortilla",
-   "article": "die",
-   "pos": "noun",
-   "translation": "玉米饼147",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-450ecb6174",
-   "word": "Torwart",
-   "article": "der",
-   "pos": "noun",
-   "translation": "守门员259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-50281dfcfa",
-   "word": "Touchscreen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "触控式屏幕274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6dd75ea52a",
-   "word": "Trabant",
-   "article": "der",
-   "pos": "noun",
-   "translation": "卫星300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e5ce2a5be3",
-   "word": "Trainer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "教练250",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c77d75f9d6",
-   "word": "Trampolin",
-   "article": "das",
-   "pos": "noun",
-   "translation": "蹦床264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-72199a28f8",
-   "word": "Transit",
-   "article": "der",
-   "pos": "noun",
-   "translation": "转机;过境226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-780af232b8",
-   "word": "Traube",
-   "article": "die",
-   "pos": "noun",
-   "translation": "葡萄129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-264d14baac",
-   "word": "Treppe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "楼梯99",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-87fb443148",
-   "word": "Tresorraum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "保险柜;保险库182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-26899e0d89",
-   "word": "Tresor",
-   "article": "der",
-   "pos": "noun",
-   "translation": "保险箱182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cf86810c8a",
-   "word": "Triangel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "三角铁239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c947c1480a",
-   "word": "Tribüne",
-   "article": "die",
-   "pos": "noun",
-   "translation": "露天看台254",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-80ba29c52c",
-   "word": "Trinkjoghurt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "优酷乳142",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0f1a311635",
-   "word": "Trommel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "鼓239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a724bc6fc7",
-   "word": "Trompete",
-   "article": "die",
-   "pos": "noun",
-   "translation": "喇叭238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fbbf47380c",
-   "word": "Truthahn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "火鸡282",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-13afbb5953",
-   "word": "T-ShirtT",
-   "article": "das",
-   "pos": "noun",
-   "translation": "恤163",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e4df11ec3f",
-   "word": "Tsunami",
-   "article": "der",
-   "pos": "noun",
-   "translation": "海啸298",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7b4d2603ef",
-   "word": "Tuba",
-   "article": "die",
-   "pos": "noun",
-   "translation": "低音大喇叭238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a631e1dc11",
-   "word": "Tunika-anzug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "中山装165",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3fd3834bec",
-   "word": "Turnen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "体操264",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1522a6498e",
-   "word": "Turnier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "冠军赛257",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-19bc1048e9",
-   "word": "Tänzer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "舞蹈家(男)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d61eceb5f5",
-   "word": "Tänzerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "舞蹈家(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-80009403e1",
-   "word": "Türgriff",
-   "article": "der",
-   "pos": "noun",
-   "translation": "门把103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-34c5a9eda4",
-   "word": "Türkei",
-   "article": "die",
-   "pos": "noun",
-   "translation": "土耳其39",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f506dd9ef6",
-   "word": "Türklingel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "门铃99",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-01a21911f0",
-   "word": "U-Bahn-Eingang",
-   "article": "der",
-   "pos": "noun",
-   "translation": "地铁入口176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-32227622ba",
-   "word": "Ultramarathon",
-   "article": "der",
-   "pos": "noun",
-   "translation": "超级马拉松261",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-40803ace76",
-   "word": "Unentschieden",
-   "article": "das",
-   "pos": "noun",
-   "translation": "平局259",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0ebf007e32",
-   "word": "Uniform",
-   "article": "die",
-   "pos": "noun",
-   "translation": "制服765",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-95ec90cce2",
-   "word": "Universum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "宇宙300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-21b1c5f499",
-   "word": "Unterführung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "地下通道176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-cc5e12e988",
-   "word": "Untergeschoss",
-   "article": "das",
-   "pos": "noun",
-   "translation": "地下室179",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
    "id": "ocr45-w-30d312c2a1",
    "word": "Unterhaltungsprogramm",
    "article": "das",
    "pos": "noun",
    "translation": "综艺节目",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-17b08738ce",
-   "word": "Unternehmerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "企业家(女)270",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7d0b45fb94",
-   "word": "Unterschrank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "橱柜116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d51b1373d6",
-   "word": "Unterschrift",
-   "article": "die",
-   "pos": "noun",
-   "translation": "签名183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-632fe1a56a",
-   "word": "Untertasse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "碟子153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e5d5105e27",
-   "word": "Unterwasser-Hockey",
-   "article": "das",
-   "pos": "noun",
-   "translation": "水底曲棍球263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9fab1eb42a",
-   "word": "Unterwäscheabteilung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "内衣部178",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-09fc0958da",
-   "word": "Uranus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "天王星301",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-742f55ff2b",
-   "word": "Urkunde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "毕业证书207",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-69b1f0d801",
-   "word": "Vanille",
-   "article": "die",
-   "pos": "noun",
-   "translation": "香草157",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-04b7f5e9d5",
-   "word": "Vase",
-   "article": "die",
-   "pos": "noun",
-   "translation": "花瓶104",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f5e74f3058",
-   "word": "Vatertag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "父亲节43,317",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8f0f7e0c0e",
-   "word": "Ventilator",
-   "article": "der",
-   "pos": "noun",
-   "translation": "电风扇120",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c32fb918e2",
-   "word": "Venus",
-   "article": "die",
-   "pos": "noun",
-   "translation": "金星300",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f2146c2a95",
-   "word": "Verbandswechsel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "换药273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8d12adf3a9",
-   "word": "Verkehr",
-   "article": "der",
-   "pos": "noun",
-   "translation": "交通176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0336ca8a22",
-   "word": "Verkehrsinsel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "安全岛176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c45392a108",
-   "word": "Verkehrspolizei",
-   "article": "die",
-   "pos": "noun",
-   "translation": "交通警察186",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3fc9e85c07",
-   "word": "Verkehrszeichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "交通标志220",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-47ee45988b",
-   "word": "Verkäufer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "店员(男)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-60447f6359",
-   "word": "Verkäuferin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "店员(女)271",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d40a47bf80",
-   "word": "Verkaufer",
-   "article": "der",
-   "pos": "noun",
-   "translation": "业务员(男)268",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-10e76f34fb",
-   "word": "Versicherungsschalter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "保险柜台226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-43528aae25",
-   "word": "Verstauchung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "扭伤209",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-999be94edb",
-   "word": "Verteidiger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "后卫258",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-936811af09",
-   "word": "Verwandten",
-   "article": "die",
-   "pos": "noun",
-   "translation": "亲威83",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3abd69d078",
-   "word": "Verwarnung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "警告252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c3c7fdacc3",
-   "word": "Viereck",
-   "article": "das",
-   "pos": "noun",
-   "translation": "长方形204",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-aba8959bcc",
-   "word": "Violine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "小提琴238",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-75b659d99e",
-   "word": "VIP-Raum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "贵宾室228",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-606fb26047",
-   "word": "Volleyball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "排球252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-81bf160182",
-   "word": "Volleyballhalle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "室内排球场252",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0563e443c8",
-   "word": "Vollmilch",
-   "article": "die",
-   "pos": "noun",
-   "translation": "全脂牛奶143",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3868b2dfd1",
-   "word": "Vorführung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "表演活动242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f01cbb7b96",
-   "word": "Vorgarten",
-   "article": "der",
-   "pos": "noun",
-   "translation": "院子99",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-62436c3a6f",
-   "word": "Vorhand",
-   "article": "die",
-   "pos": "noun",
-   "translation": "正手击球;正手拍256",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a20428a78c",
-   "word": "Vorstellungsgespräch",
-   "article": "das",
-   "pos": "noun",
-   "translation": "面试273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d0c6f67b94",
-   "word": "Vortreppe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "门前阶100",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-342062764e",
-   "word": "Vulkanausbruch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "火山爆发298",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-584a00f052",
-   "word": "Völkerball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "躲避球248",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c08a85d601",
-   "word": "Wache",
-   "article": "die",
-   "pos": "noun",
-   "translation": "警卫268\\",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6b616f0bd1",
-   "word": "Wachsmalstift",
-   "article": "der",
-   "pos": "noun",
-   "translation": "蜡笔202",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-367d0a555a",
-   "word": "Waffeleisen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "华夫饼机127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e514bbd0b2",
-   "word": "Waggon",
-   "article": "der",
-   "pos": "noun",
-   "translation": "车厢223",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d11f5ece65",
-   "word": "Waldbrand",
-   "article": "der",
-   "pos": "noun",
-   "translation": "野火299",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-edf81aab35",
-   "word": "Walk",
-   "article": "der",
-   "pos": "noun",
-   "translation": "四坏球保送255",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6a5c7e129e",
-   "word": "Walnussöl",
-   "article": "das",
-   "pos": "noun",
-   "translation": "核桃油156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ed1321d19c",
-   "word": "Wanduhr",
-   "article": "die",
-   "pos": "noun",
-   "translation": "时钟103",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-549e06b5cc",
-   "word": "Wanze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "臭虫281",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1f9c259e2f",
-   "word": "Wartehalle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "候车室222",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-57d079bc77",
-   "word": "Wasabi",
-   "article": "das",
-   "pos": "noun",
-   "translation": "绿色芥末次157",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9aa36be4e7",
-   "word": "Waschbecken",
-   "article": "das",
-   "pos": "noun",
-   "translation": "洗脸台106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4f7e6a3fda",
-   "word": "Waschlappen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "沐浴巾106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-139c2e090c",
-   "word": "Waschmaschine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "洗衣机115",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ff095de1e1",
-   "word": "Waschmittel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "洗衣液114",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e12fea6adf",
-   "word": "Waschpulver",
-   "article": "das",
-   "pos": "noun",
-   "translation": "洗衣粉114",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c037bd5af4",
-   "word": "Waschschüssel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "水盆106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5e7118bab4",
-   "word": "Wasserapfel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "莲雾129",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0487befa3b",
-   "word": "Wasserball",
-   "article": "der",
-   "pos": "noun",
-   "translation": "水球263",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5930c21572",
-   "word": "Wasserfall",
-   "article": "der",
-   "pos": "noun",
-   "translation": "瀑布296",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-312f358d9e",
-   "word": "Wasserhahn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "水龙头106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-96b39fb25c",
-   "word": "Wasserkaraffe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "冷水瓶148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-062887e60e",
-   "word": "Wasserkocher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "热水过121",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-675335e69d",
-   "word": "Wassermelone",
-   "article": "die",
-   "pos": "noun",
-   "translation": "西瓜128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0fa69e2e37",
-   "word": "Wasserspender",
-   "article": "der",
-   "pos": "noun",
-   "translation": "饮水机127",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f127788ecc",
-   "word": "Wasserspringen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "跳水262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-76e7358f43",
-   "word": "Wassertank",
-   "article": "der",
-   "pos": "noun",
-   "translation": "水塔98",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-22383ce0ad",
-   "word": "Wattebausch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "棉球214",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-61216e171b",
-   "word": "Wattepad",
-   "article": "das",
-   "pos": "noun",
-   "translation": "化妆棉177",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-73b6592019",
-   "word": "Wattestabchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "棉花棒109",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-34e1b96a6e",
-   "word": "Wattestäbchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "棉棒274",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d68de24279",
-   "word": "Webcam",
-   "article": "die",
-   "pos": "noun",
-   "translation": "网络摄像头275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0d8f0ad5e5",
-   "word": "Website",
-   "article": "die",
-   "pos": "noun",
-   "translation": "网站275",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-54a40336c7",
-   "word": "Wechselkurs",
-   "article": "der",
-   "pos": "noun",
-   "translation": "汇率183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c021436481",
-   "word": "Weichspüler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "柔软剂174",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3ae6ce070a",
-   "word": "Weide",
-   "article": "die",
-   "pos": "noun",
-   "translation": "柳树287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ad62b87c06",
-   "word": "Weihnachtsstern",
-   "article": "der",
-   "pos": "noun",
-   "translation": "圣诞红287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e3dab84fbd",
-   "word": "Weinglas",
-   "article": "das",
-   "pos": "noun",
-   "translation": "酒杯153",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ab5600f2b6",
-   "word": "Weinkühler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冰桶148",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a822c5e319",
-   "word": "Weissbrot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "白面包70",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1e4bfc16bb",
-   "word": "Weisswein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "白葡萄酒76",
    "level": "B1",
    "plural": "",
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
@@ -28234,456 +13264,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
   },
   {
-   "id": "ocr45-w-7b158ec473",
-   "word": "Weitsichtigkeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "远视91",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f9411b1d8a",
-   "word": "Weitsprung",
-   "article": "der",
-   "pos": "noun",
-   "translation": "跳远260",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-592fa51552",
-   "word": "Weizenbier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "小麦啤酒74",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-70fd23f5a4",
-   "word": "Weißwurst",
-   "article": "die",
-   "pos": "noun",
-   "translation": "白香肠71",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3dca4ef4b9",
-   "word": "Wendeverbot",
-   "article": "das",
-   "pos": "noun",
-   "translation": "禁止掉头220",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dc03497b0a",
-   "word": "Werkzeugkasten",
-   "article": "der",
-   "pos": "noun",
-   "translation": "工具箱122",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-0a5f212922",
-   "word": "Weste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "背心162",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b98942a9a8",
-   "word": "Wetterfront",
-   "article": "die",
-   "pos": "noun",
-   "translation": "锋面292",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4b7516203b",
-   "word": "Whiteboard",
-   "article": "das",
-   "pos": "noun",
-   "translation": "白板194",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-3b8552e564",
-   "word": "Whiteboard-Marker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "白板笔194",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e8106801f1",
-   "word": "Wimpernzange",
-   "article": "die",
-   "pos": "noun",
-   "translation": "睫毛夹110",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-de5a5046a2",
-   "word": "Windjacke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "风衣164",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-463bd649e5",
-   "word": "Windschutzscheibe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "挡风玻璃224",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-1b5ac21b2c",
-   "word": "Windsurfen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "帆板262",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6d9d71e480",
-   "word": "Wodka",
-   "article": "der",
-   "pos": "noun",
-   "translation": "伏特加77141",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-4fba20bffe",
-   "word": "Wohnheim",
-   "article": "das",
-   "pos": "noun",
-   "translation": "宿舍193",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ed4a933ff1",
-   "word": "Wok",
-   "article": "der",
-   "pos": "noun",
-   "translation": "炒菜锅116",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c2a645b022",
-   "word": "Wolle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "毛线115",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-24961a46b9",
-   "word": "Wundauflage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "纱布214",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-980ce182ef",
-   "word": "Wurstsalat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "香肠沙拉66",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-95e3a09567",
-   "word": "Wascheklammern",
-   "article": "die",
-   "pos": "noun",
-   "translation": "衣夹114",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-2945ea1c53",
-   "word": "Wäschekorb",
-   "article": "der",
-   "pos": "noun",
-   "translation": "洗衣篮115",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e35e61b6ed",
-   "word": "Wäschenetz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "洗衣网175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-70dd5e8b60",
-   "word": "Wäschetrockner",
-   "article": "der",
-   "pos": "noun",
-   "translation": "烘干机175",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ce144b9980",
-   "word": "Xylofon",
-   "article": "das",
-   "pos": "noun",
-   "translation": "木琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-6092db1455",
-   "word": "Yangqin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "扬琴239",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-29a2e37219",
-   "word": "Zackenbarsch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "石斑鱼136",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5ef7bbd5d9",
-   "word": "Zahlungsanweisung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "汇款单183",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f0fc4aad0b",
-   "word": "Zahnarzt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "牙科医生210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c6a0d0b647",
-   "word": "Zahnbürste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "牙刷106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e30add884b",
-   "word": "Zahnheilkunde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "牙科210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-9d3900c6a0",
-   "word": "Zahnputzbecher",
-   "article": "der",
-   "pos": "noun",
-   "translation": "澈口杯106",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5773035736",
-   "word": "Zange",
-   "article": "die",
-   "pos": "noun",
-   "translation": "夹子119",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7854782387",
-   "word": "Zebra",
-   "article": "das",
-   "pos": "noun",
-   "translation": "斑马279",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-91c2071b53",
-   "word": "Zebrastreifen",
-   "article": "der",
-   "pos": "noun",
-   "translation": "斑马线176",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f4fbe4bdd0",
-   "word": "Zehnkampf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "十项全能261",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-838fa6c568",
-   "word": "Zeichentrickfilm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "卡通片244",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ab306fdc44",
-   "word": "Zeigefinger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "食指85",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d9669dda51",
-   "word": "Zeitschriftentasche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "置物袋230",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-f80269c924",
-   "word": "Zicke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "山羊(母)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-8976ede2f0",
-   "word": "Ziegenbock",
-   "article": "der",
-   "pos": "noun",
-   "translation": "山羊(公)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-86fedcf2fc",
-   "word": "Ziege",
-   "article": "die",
-   "pos": "noun",
-   "translation": "山羊(统称)278",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e23a60a26a",
-   "word": "Zimmerreinigung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "客房清理181",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-35b6a671c7",
-   "word": "Zimmerservice",
-   "article": "der",
-   "pos": "noun",
-   "translation": "客房服务180",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-e447768b9c",
-   "word": "Zirkel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "圆规203",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
    "id": "ocr45-w-3f0cc66bb1",
    "word": "Zitronenlimonade",
    "article": "die",
@@ -28694,164 +13274,14 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
   },
   {
-   "id": "ocr45-w-b2c6cbf6ea",
-   "word": "Zoll",
-   "article": "der",
-   "pos": "noun",
-   "translation": "海关226",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-071b620a76",
-   "word": "Zollerklärung",
+   "id": "ocr45-w-d43319c72c",
+   "word": "Mutter",
    "article": "die",
    "pos": "noun",
-   "translation": "海关申报单229",
+   "translation": "母亲",
    "level": "B1",
    "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-16c36727ed",
-   "word": "Zuckermelone",
-   "article": "die",
-   "pos": "noun",
-   "translation": "香瓜128",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-7b3f3798d1",
-   "word": "Zucker",
-   "article": "der",
-   "pos": "noun",
-   "translation": "砂糖156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-921e8d91ea",
-   "word": "Zugangskarte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "门卡272",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-5580485d3d",
-   "word": "Zugtur",
-   "article": "die",
-   "pos": "noun",
-   "translation": "车门223",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-41cb523cc3",
-   "word": "Zusage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "录取273",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b18ed776a8",
-   "word": "Zutaten",
-   "article": "die",
-   "pos": "noun",
-   "translation": "食材150",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-a891259285",
-   "word": "Zypresse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "柏树287",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-b15fc99b26",
-   "word": "Ältere",
-   "article": "die",
-   "pos": "noun",
-   "translation": "老年人(女)81",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-c6cc8ef522",
-   "word": "Altere",
-   "article": "der",
-   "pos": "noun",
-   "translation": "老年人(男)81",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d2b45f2089",
-   "word": "Ärztin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "医生(女)210",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-ebafb3baec",
-   "word": "Öffnungszeiten",
-   "article": "die",
-   "pos": "noun",
-   "translation": "开放时间242",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-fc37fb4f62",
-   "word": "Öl",
-   "article": "das",
-   "pos": "noun",
-   "translation": "色拉油156",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-d06ffd0ca0",
-   "word": "Überwachungskamera",
-   "article": "die",
-   "pos": "noun",
-   "translation": "监视器182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
-  },
-  {
-   "id": "ocr45-w-dfda938855",
-   "word": "Uberweisung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "汇款182",
-   "level": "B1",
-   "plural": "",
-   "source": "LiveABC数位学习领先品牌 德语图解字典_希伯伦股份有限公司编著_北京：外文出版社.pdf · batch3010"
+   "source": "使用频率最高的德语生活口语_张文鹏，何永明编著_北京：中国宇航出版社.pdf · batch3036"
   },
   {
    "id": "ocr45-w-20603125da",
@@ -28954,6 +13384,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初学德语语法难点问答_于芳编_北京：高等教育出版社.pdf · batch3331"
   },
   {
+   "id": "ocr45-w-e4f5930248",
+   "word": "Postleitzahl",
+   "article": "die",
+   "pos": "noun",
+   "translation": "邮编",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3376"
+  },
+  {
    "id": "ocr45-w-52b981ad7d",
    "word": "Landweg",
    "article": "der",
@@ -29044,11 +13484,41 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3381"
   },
   {
+   "id": "ocr45-w-115a79a089",
+   "word": "Form",
+   "article": "die",
+   "pos": "noun",
+   "translation": "样式",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3386"
+  },
+  {
    "id": "ocr45-w-47bf3654fa",
    "word": "Luftpistolenschießen",
    "article": "das",
    "pos": "noun",
    "translation": "汽手枪射击",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3391"
+  },
+  {
+   "id": "ocr45-w-f127788ecc",
+   "word": "Wasserspringen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "跳水-",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3391"
+  },
+  {
+   "id": "ocr45-w-94f3dfb206",
+   "word": "Tischtennis",
+   "article": "das",
+   "pos": "noun",
+   "translation": "乒乓球",
    "level": "B1",
    "plural": "",
    "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3391"
@@ -29062,6 +13532,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3391"
+  },
+  {
+   "id": "ocr45-w-1a1629b269",
+   "word": "Maschinenbau",
+   "article": "der",
+   "pos": "noun",
+   "translation": "机械制造;机械工程",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语口语教程_冯亚琳等编著；（德）Katrin Arnold审订_北京：北京大学出版社.pdf · batch3396"
   },
   {
    "id": "ocr45-w-c7b7443489",
@@ -29104,6 +13584,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3441"
   },
   {
+   "id": "ocr45-w-140527e8c1",
+   "word": "Physik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "物理",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3441"
+  },
+  {
    "id": "ocr45-w-36cf848028",
    "word": "Wirtschaftswissenschaften",
    "article": "die",
@@ -29134,6 +13624,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3441"
   },
   {
+   "id": "ocr45-w-c5edb632f8",
+   "word": "Bier",
+   "article": "das",
+   "pos": "noun",
+   "translation": "啤酒",
+   "level": "B1",
+   "plural": "die Biere",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
+  },
+  {
    "id": "ocr45-w-705162e76b",
    "word": "Rollbild",
    "article": "das",
@@ -29154,6 +13654,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
   },
   {
+   "id": "ocr45-w-2ff59a2d79",
+   "word": "Einkaufswagen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "购物车",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
+  },
+  {
    "id": "ocr45-w-574d72abeb",
    "word": "Banane",
    "article": "die",
@@ -29161,6 +13671,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "香蕉",
    "level": "B1",
    "plural": "die Bananen",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
+  },
+  {
+   "id": "ocr45-w-2035a17e26",
+   "word": "Kaffee",
+   "article": "der",
+   "pos": "noun",
+   "translation": "咖啡",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
+  },
+  {
+   "id": "ocr45-w-ff00dfdff6",
+   "word": "Obst",
+   "article": "das",
+   "pos": "noun",
+   "translation": "水果",
+   "level": "B1",
+   "plural": "",
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
   },
   {
@@ -29174,6 +13704,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
   },
   {
+   "id": "ocr45-w-378d9d9a02",
+   "word": "Anzug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "西装",
+   "level": "B1",
+   "plural": "die AnzugAnzüge",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
+  },
+  {
+   "id": "ocr45-w-5612f811bc",
+   "word": "Kabine",
+   "article": "die",
+   "pos": "noun",
+   "translation": "更衣室,小房间",
+   "level": "B1",
+   "plural": "die Kabinen",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
+  },
+  {
    "id": "ocr45-w-fd18cc95a2",
    "word": "Hut",
    "article": "der",
@@ -29181,6 +13731,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "帽子",
    "level": "B1",
    "plural": "die HutHüte",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
+  },
+  {
+   "id": "ocr45-w-3d7a392801",
+   "word": "Mann",
+   "article": "der",
+   "pos": "noun",
+   "translation": "男子,男人,丈夫",
+   "level": "B1",
+   "plural": "die MannMänner",
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3446"
   },
   {
@@ -29334,16 +13894,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3461"
   },
   {
-   "id": "ocr45-w-f9583b59e2",
-   "word": "Mensa",
-   "article": "die",
-   "pos": "noun",
-   "translation": "四学生食堂i.e.",
-   "level": "B1",
-   "plural": "die Mensasen",
-   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3461"
-  },
-  {
    "id": "ocr45-w-ad065fda0e",
    "word": "Midtvertrag-Mitvertrage",
    "article": "der",
@@ -29360,7 +13910,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "信息中心",
    "level": "B1",
-   "plural": "die InformationszentrumInformationszentren",
+   "plural": "",
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3461"
   },
   {
@@ -29381,6 +13931,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "市中心",
    "level": "B1",
    "plural": "",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3461"
+  },
+  {
+   "id": "ocr45-w-6d2450dd37",
+   "word": "Bank",
+   "article": "die",
+   "pos": "noun",
+   "translation": "银行",
+   "level": "B1",
+   "plural": "die Banken",
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3461"
   },
   {
@@ -29434,6 +13994,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3466"
   },
   {
+   "id": "ocr45-w-54a40336c7",
+   "word": "Wechselkurs",
+   "article": "der",
+   "pos": "noun",
+   "translation": "兑换比率",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语口语速成_杨爱珍，祁志琴编著_北京：外文出版社.pdf · batch3471"
+  },
+  {
    "id": "ocr45-w-71df57fb60",
    "word": "Qualitäten",
    "article": "die",
@@ -29449,6 +14019,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "女记者",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语语法整理_曾加耀编著_广东世界图书出版公司 .pdf · batch3521"
+  },
+  {
+   "id": "ocr45-w-5c3bdf6050",
+   "word": "Lehrerin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女教师",
    "level": "B1",
    "plural": "",
    "source": "基础德语语法整理_曾加耀编著_广东世界图书出版公司 .pdf · batch3521"
@@ -29504,6 +14084,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语语法整理_曾加耀编著_广东世界图书出版公司 .pdf · batch3521"
   },
   {
+   "id": "ocr45-w-071bedbde7",
+   "word": "Sau",
+   "article": "die",
+   "pos": "noun",
+   "translation": "母猪",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语语法整理_曾加耀编著_广东世界图书出版公司 .pdf · batch3521"
+  },
+  {
    "id": "ocr45-w-2ea46b85c5",
    "word": "Hiihnchen",
    "article": "das",
@@ -29539,16 +14129,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "气候",
-   "level": "B1",
-   "plural": "",
-   "source": "基础德语语法整理_曾加耀编著_广东世界图书出版公司 .pdf · batch3521"
-  },
-  {
-   "id": "ocr45-w-eaae58c34a",
-   "word": "Salon",
-   "article": "das",
-   "pos": "noun",
-   "translation": "美容馆ae",
    "level": "B1",
    "plural": "",
    "source": "基础德语语法整理_曾加耀编著_广东世界图书出版公司 .pdf · batch3521"
@@ -29594,11 +14174,31 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
   },
   {
-   "id": "ocr45-w-107c9a96a7",
-   "word": "Lampe",
+   "id": "ocr45-w-a894b71691",
+   "word": "Rucksack",
+   "article": "der",
+   "pos": "noun",
+   "translation": "背包",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
+  },
+  {
+   "id": "ocr45-w-2bcd2e77c7",
+   "word": "Mädchen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "女孩;小姑娘",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
+  },
+  {
+   "id": "ocr45-w-c3d00f4243",
+   "word": "Wand",
    "article": "die",
    "pos": "noun",
-   "translation": "台灯;KT",
+   "translation": "墙壁",
    "level": "B1",
    "plural": "",
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
@@ -29609,6 +14209,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "纸张",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
+  },
+  {
+   "id": "ocr45-w-017098875b",
+   "word": "Nummer",
+   "article": "die",
+   "pos": "noun",
+   "translation": "数字;标号",
    "level": "B1",
    "plural": "",
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
@@ -29629,6 +14239,36 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "星期二",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
+  },
+  {
+   "id": "ocr45-w-de7c3a30d7",
+   "word": "Karte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "卡片;扑克牌",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
+  },
+  {
+   "id": "ocr45-w-6925f830d9",
+   "word": "Golf",
+   "article": "das",
+   "pos": "noun",
+   "translation": "高尔夫",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
+  },
+  {
+   "id": "ocr45-w-ee291b77d2",
+   "word": "Jogging",
+   "article": "das",
+   "pos": "noun",
+   "translation": "步行;慢跑",
    "level": "B1",
    "plural": "",
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3587"
@@ -29744,16 +14384,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3602"
   },
   {
-   "id": "ocr45-w-527ee34459",
-   "word": "Gramm",
-   "article": "das",
-   "pos": "noun",
-   "translation": "克(缩写g",
-   "level": "B1",
-   "plural": "",
-   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3602"
-  },
-  {
    "id": "ocr45-w-316b29df0b",
    "word": "Lebensmittelgeschaft",
    "article": "das",
@@ -29761,6 +14391,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "食品店",
    "level": "B1",
    "plural": "die Lebensmittelgeschafte",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3602"
+  },
+  {
+   "id": "ocr45-w-358c5563bc",
+   "word": "Einkaufstasche",
+   "article": "die",
+   "pos": "noun",
+   "translation": "购物袋",
+   "level": "B1",
+   "plural": "die Einkaufstaschen",
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3602"
   },
   {
@@ -29824,6 +14464,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3607"
   },
   {
+   "id": "ocr45-w-43ab0f641e",
+   "word": "Roman",
+   "article": "der",
+   "pos": "noun",
+   "translation": "小说",
+   "level": "B1",
+   "plural": "die Romane",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3607"
+  },
+  {
    "id": "ocr45-w-b2c6d0cbb7",
    "word": "Examen-",
    "article": "das",
@@ -29849,6 +14499,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "盐",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3617"
+  },
+  {
+   "id": "ocr45-w-5ab5200ee3",
+   "word": "Schloss",
+   "article": "das",
+   "pos": "noun",
+   "translation": "城堡",
    "level": "B1",
    "plural": "",
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3617"
@@ -29884,6 +14544,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3622"
   },
   {
+   "id": "ocr45-w-a0fa5bd003",
+   "word": "Probe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "排练",
+   "level": "B1",
+   "plural": "die Proben",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3622"
+  },
+  {
    "id": "ocr45-w-fa8e60411e",
    "word": "Internetcafe",
    "article": "das",
@@ -29901,6 +14571,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "卡片",
    "level": "B1",
    "plural": "die Theaterkarten",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3622"
+  },
+  {
+   "id": "ocr45-w-abaa4c0a8b",
+   "word": "Kleidung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "衣服",
+   "level": "B1",
+   "plural": "",
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3622"
   },
   {
@@ -29934,6 +14614,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
+   "id": "ocr45-w-5ea71050e0",
+   "word": "Affe",
+   "article": "der",
+   "pos": "noun",
+   "translation": "猴子",
+   "level": "B1",
+   "plural": "die Affen",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
    "id": "ocr45-w-537f934508",
    "word": "Allergie",
    "article": "die",
@@ -29941,6 +14631,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "过敏",
    "level": "B1",
    "plural": "die Allergien",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-6d1797a8ea",
+   "word": "Aufnahmeprüfung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "人学",
+   "level": "B1",
+   "plural": "die Aufnahmeprüfungen",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
@@ -30034,6 +14734,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
+   "id": "ocr45-w-96b017e6ca",
+   "word": "Bart",
+   "article": "der",
+   "pos": "noun",
+   "translation": "胡须",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
    "id": "ocr45-w-900d908df5",
    "word": "Barthaar",
    "article": "das",
@@ -30049,6 +14759,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "基础，基层",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-ef86083563",
+   "word": "Basketball",
+   "article": "der",
+   "pos": "noun",
+   "translation": "篮球",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-2bc2faa5fa",
+   "word": "Bauch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "肚子",
    "level": "B1",
    "plural": "",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
@@ -30174,6 +14904,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
+   "id": "ocr45-w-a8dd0f21b5",
+   "word": "Daumen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "拇指",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-7ddd37e829",
+   "word": "Denkmal",
+   "article": "das",
+   "pos": "noun",
+   "translation": "纪念碑",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
    "id": "ocr45-w-7a92dcbdb8",
    "word": "Entwurf",
    "article": "der",
@@ -30191,6 +14941,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "批准;准许",
    "level": "B1",
    "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-9a4866fb69",
+   "word": "Friseur",
+   "article": "der",
+   "pos": "noun",
+   "translation": "理发是",
+   "level": "B1",
+   "plural": "die Friseure",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
@@ -30254,6 +15014,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
+   "id": "ocr45-w-10fa2a38e8",
+   "word": "Fischer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "渔夫",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
    "id": "ocr45-w-c0b2d95be5",
    "word": "Gips",
    "article": "der",
@@ -30304,6 +15074,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
+   "id": "ocr45-w-f03283de7c",
+   "word": "Gymnastik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "体操",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
    "id": "ocr45-w-3b1fbc0e52",
    "word": "Hälfte",
    "article": "die",
@@ -30329,6 +15109,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "糟糕的事",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-3815a80ee4",
+   "word": "Handtuch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "毛巾",
    "level": "B1",
    "plural": "",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
@@ -30374,16 +15164,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
-   "id": "ocr45-w-e806decdea",
-   "word": "Hütte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "小屋，#2",
-   "level": "B1",
-   "plural": "die Hütten",
-   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
-  },
-  {
    "id": "ocr45-w-c96d3ed80e",
    "word": "Interesse",
    "article": "das",
@@ -30401,6 +15181,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "错误，失误",
    "level": "B1",
    "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-a9344a859f",
+   "word": "Jacke",
+   "article": "die",
+   "pos": "noun",
+   "translation": "夹克",
+   "level": "B1",
+   "plural": "die Jacken",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
@@ -30544,6 +15334,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
+   "id": "ocr45-w-5fb2cb4fea",
+   "word": "Kopf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "头",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
    "id": "ocr45-w-e0f07d33ff",
    "word": "Kopfschmerz",
    "article": "der",
@@ -30594,6 +15394,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
+   "id": "ocr45-w-07e60cb444",
+   "word": "Luftpostbrief",
+   "article": "der",
+   "pos": "noun",
+   "translation": "航空信",
+   "level": "B1",
+   "plural": "die Luftpostbriefe",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
    "id": "ocr45-w-b553721f5c",
    "word": "Manager",
    "article": "der",
@@ -30621,6 +15431,36 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "板村",
    "level": "B1",
    "plural": "die Maronen",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-a23f3dc522",
+   "word": "Massage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "按摩",
+   "level": "B1",
+   "plural": "die Massagen",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-ae6cea9fa0",
+   "word": "Mathematik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "数学",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-277e8f763b",
+   "word": "Milch",
+   "article": "die",
+   "pos": "noun",
+   "translation": "牛奶",
+   "level": "B1",
+   "plural": "",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
@@ -30661,6 +15501,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "动机，创意",
    "level": "B1",
    "plural": "die Motive",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
+  },
+  {
+   "id": "ocr45-w-3d5eed8ae0",
+   "word": "Neffe",
+   "article": "der",
+   "pos": "noun",
+   "translation": "侄子",
+   "level": "B1",
+   "plural": "die Neffen",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3630"
   },
   {
@@ -30759,6 +15609,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "纸币",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
+  },
+  {
+   "id": "ocr45-w-5e616a5894",
+   "word": "Personalausweis",
+   "article": "der",
+   "pos": "noun",
+   "translation": "身份证",
    "level": "B1",
    "plural": "",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
@@ -30974,6 +15834,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
   },
   {
+   "id": "ocr45-w-3529943098",
+   "word": "Unfall",
+   "article": "der",
+   "pos": "noun",
+   "translation": "和失事，事故",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
+  },
+  {
    "id": "ocr45-w-c93b952c11",
    "word": "Universität",
    "article": "die",
@@ -30991,6 +15861,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "课程",
    "level": "B1",
    "plural": "die Unterrichte",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
+  },
+  {
+   "id": "ocr45-w-d51b1373d6",
+   "word": "Unterschrift",
+   "article": "die",
+   "pos": "noun",
+   "translation": "签字;署名",
+   "level": "B1",
+   "plural": "die Unterschriften",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
   },
   {
@@ -31039,6 +15919,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "愿望",
+   "level": "B1",
+   "plural": "",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
+  },
+  {
+   "id": "ocr45-w-4fba20bffe",
+   "word": "Wohnheim",
+   "article": "das",
+   "pos": "noun",
+   "translation": "住宅",
+   "level": "B1",
+   "plural": "die Wohnheime",
+   "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
+  },
+  {
+   "id": "ocr45-w-d587b0e52b",
+   "word": "Wolf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "狼",
    "level": "B1",
    "plural": "",
    "source": "中国人学德语_次晓芳编著_上海：上海世界图书出版公司 .pdf · batch3635"
@@ -31134,6 +16034,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3647"
   },
   {
+   "id": "ocr45-w-3c66cbe106",
+   "word": "Geschäftsfrau",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女商人",
+   "level": "B1",
+   "plural": "",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3652"
+  },
+  {
    "id": "ocr45-w-be55fab914",
    "word": "Verantwortung",
    "article": "die",
@@ -31152,6 +16062,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3652"
+  },
+  {
+   "id": "ocr45-w-c879cb2b2e",
+   "word": "Kopftuch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "头巾",
+   "level": "B1",
+   "plural": "die Kopftuchtücher",
+   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3657"
   },
   {
    "id": "ocr45-w-c1df7bebae",
@@ -31194,16 +16114,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3657"
   },
   {
-   "id": "ocr45-w-8790a79ef5",
-   "word": "Biicher",
-   "article": "die",
-   "pos": "noun",
-   "translation": "词干元音a,0,u变音",
-   "level": "B1",
-   "plural": "",
-   "source": "你好！德语 学生用书_（美）莫勒等编_北京：外语教学与研究出版社.pdf · batch3662"
-  },
-  {
    "id": "ocr45-w-31ed8b2d88",
    "word": "Radios",
    "article": "die",
@@ -31229,6 +16139,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "启程",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语四级应试全攻略_彭彧主编；方宜盛，彭彧，虞龙发编著_上海：同济大学出版社.pdf · batch3671"
+  },
+  {
+   "id": "ocr45-w-665acb3c3a",
+   "word": "Forderung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "要求",
    "level": "B1",
    "plural": "",
    "source": "大学德语四级应试全攻略_彭彧主编；方宜盛，彭彧，虞龙发编著_上海：同济大学出版社.pdf · batch3671"
@@ -31264,11 +16184,31 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
   },
   {
+   "id": "ocr45-w-9cb726907c",
+   "word": "Deutsch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "德语",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
+  },
+  {
    "id": "ocr45-w-4fe7f5833f",
    "word": "Germanistik",
    "article": "die",
    "pos": "noun",
    "translation": "日耳曼语言文学",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
+  },
+  {
+   "id": "ocr45-w-0ae00e5a54",
+   "word": "Spaß",
+   "article": "der",
+   "pos": "noun",
+   "translation": "愉快",
    "level": "B1",
    "plural": "",
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
@@ -31289,6 +16229,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "伙食.一顿饭",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
+  },
+  {
+   "id": "ocr45-w-80ae240bdc",
+   "word": "Eis",
+   "article": "das",
+   "pos": "noun",
+   "translation": "冰洪淋",
    "level": "B1",
    "plural": "",
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
@@ -31324,11 +16274,41 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
   },
   {
+   "id": "ocr45-w-bbacd06368",
+   "word": "Mittagspause",
+   "article": "die",
+   "pos": "noun",
+   "translation": "午休",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
+  },
+  {
    "id": "ocr45-w-1ff4654f22",
    "word": "Kochkunst",
    "article": "die",
    "pos": "noun",
    "translation": "毫饪艺术",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
+  },
+  {
+   "id": "ocr45-w-fb254993f6",
+   "word": "Peking-Ente",
+   "article": "die",
+   "pos": "noun",
+   "translation": "北京烤鸭",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
+  },
+  {
+   "id": "ocr45-w-662b0e44b1",
+   "word": "Rotwein",
+   "article": "der",
+   "pos": "noun",
+   "translation": "红葡萄酒",
    "level": "B1",
    "plural": "",
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3757"
@@ -31444,6 +16424,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
   },
   {
+   "id": "ocr45-w-d27d65b991",
+   "word": "Spielzeug",
+   "article": "das",
+   "pos": "noun",
+   "translation": "玩具",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
+  },
+  {
    "id": "ocr45-w-197a837483",
    "word": "Bummel",
    "article": "der",
@@ -31554,6 +16544,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
   },
   {
+   "id": "ocr45-w-4d8c2cebe1",
+   "word": "Kunst",
+   "article": "die",
+   "pos": "noun",
+   "translation": "艺术",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
+  },
+  {
    "id": "ocr45-w-177d9dd04c",
    "word": "Olympiapark",
    "article": "der",
@@ -31614,6 +16614,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
   },
   {
+   "id": "ocr45-w-4f838f596b",
+   "word": "Erdgeschoß",
+   "article": "das",
+   "pos": "noun",
+   "translation": "底楼",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
+  },
+  {
    "id": "ocr45-w-63e6395dd6",
    "word": "Sinologie",
    "article": "die",
@@ -31639,6 +16649,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "圣诞节",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
+  },
+  {
+   "id": "ocr45-w-e2a644c7ce",
+   "word": "Neujahr",
+   "article": "das",
+   "pos": "noun",
+   "translation": "元旦",
    "level": "B1",
    "plural": "",
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
@@ -31709,6 +16729,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "谢肉节",
+   "level": "B1",
+   "plural": "",
+   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
+  },
+  {
+   "id": "ocr45-w-c5d7f8ed15",
+   "word": "Rheinland",
+   "article": "das",
+   "pos": "noun",
+   "translation": "莱茵地区",
    "level": "B1",
    "plural": "",
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3762"
@@ -31804,296 +16834,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3767"
   },
   {
-   "id": "ocr45-w-dfe2635230",
-   "word": "Aprilwetter",
-   "article": "das",
-   "pos": "noun",
-   "translation": "四月的天气.多变的天气L2-24",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3772"
-  },
-  {
-   "id": "ocr45-w-4362e32443",
-   "word": "Auswahl",
-   "article": "die",
-   "pos": "noun",
-   "translation": "挑选L2-19",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3772"
-  },
-  {
-   "id": "ocr45-w-356b952e87",
-   "word": "Belgien",
-   "article": "das",
-   "pos": "noun",
-   "translation": "比利时L3-3",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3772"
-  },
-  {
-   "id": "ocr45-w-04847b6161",
-   "word": "Entschuldigung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "原谅L1-1",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-39e80c0a4c",
-   "word": "Frithstiick",
-   "article": "das",
-   "pos": "noun",
-   "translation": "早餐L2=1",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-01d8935181",
-   "word": "Girokonto",
-   "article": "das",
-   "pos": "noun",
-   "translation": "转账账户、汇划账户L2-17",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-9b18079763",
-   "word": "GrdBe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "大小.尺寸,尺码L2-19",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-cd9ef3af74",
-   "word": "Hanse",
-   "article": "die",
-   "pos": "noun",
-   "translation": "汉萨同盟L2-28",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-e6c4e1dc6d",
-   "word": "Hektik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "忙碌、匆忙18-1",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-1c4058bd74",
-   "word": "Imbissstand",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小吃店L2-8",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-6f23c9fb9b",
-   "word": "Kauftag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "购买日L2-27",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-6c5098e5d0",
-   "word": "Kontoauszug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "银行对账单L2-18",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-9f41219c95",
-   "word": "Krankschreibung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "请假单L2-24",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-cf99792f2f",
-   "word": "Landeshauptstadt",
-   "article": "die",
-   "pos": "noun",
-   "translation": "州府L2-29",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-a152f83346",
-   "word": "Leben",
-   "article": "das",
-   "pos": "noun",
-   "translation": "生活LS=",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-1ee05c0465",
-   "word": "Mantel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大衣L2-2",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-a055ee977c",
-   "word": "Polen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "波兰L3=2",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-7e7bb324d4",
-   "word": "Postbank",
-   "article": "die",
-   "pos": "noun",
-   "translation": "邮政银行L2-17",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-b43bbf7200",
-   "word": "Schauen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "看L3-1",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3777"
-  },
-  {
-   "id": "ocr45-w-318cd09e33",
-   "word": "Starttermin",
-   "article": "der",
-   "pos": "noun",
-   "translation": "起始日期L2-27",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-5a99b12a7c",
-   "word": "Stolz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "自豪.骄傲L2=22",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-01522f4dde",
-   "word": "Sympathie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "好感、同感L3-2",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-cd8a7e4599",
-   "word": "Volksbank",
-   "article": "die",
-   "pos": "noun",
-   "translation": "人民银行L2-17",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-57f4967833",
-   "word": "Waschgelegenheit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "但洗设备L2-16",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-38cc224ee9",
-   "word": "Weihnachten",
-   "article": "das",
-   "pos": "noun",
-   "translation": "圣诞节L2-19",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-97f473e38f",
-   "word": "Winterschlussverkauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "冬季大拍卖L2-21",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-173c8a6abf",
-   "word": "Zahlung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "支付付款L2-17",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-3c26066cd2",
-   "word": "Zimmersuche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "找房间L2-15",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
-   "id": "ocr45-w-8fc5ddf461",
-   "word": "Österreich",
-   "article": "das",
-   "pos": "noun",
-   "translation": "奥地利L2-20",
-   "level": "B1",
-   "plural": "",
-   "source": "初级德语教程_金巧英著_上海：上海交通大学出版社.pdf · batch3782"
-  },
-  {
    "id": "ocr45-w-d5194f7b40",
    "word": "Verhandlung",
    "article": "die",
@@ -32111,6 +16851,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "回答，回复",
    "level": "B1",
    "plural": "die Antworten",
+   "source": "商务德语教程 基础篇 学生用书_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker_北京：高等教育出版社.pdf · batch3807"
+  },
+  {
+   "id": "ocr45-w-4e428ca006",
+   "word": "Ehemann",
+   "article": "der",
+   "pos": "noun",
+   "translation": "丈夫",
+   "level": "B1",
+   "plural": "die Ehemannmänner",
+   "source": "商务德语教程 基础篇 学生用书_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker_北京：高等教育出版社.pdf · batch3807"
+  },
+  {
+   "id": "ocr45-w-ffe010d3e1",
+   "word": "Lexikon",
+   "article": "das",
+   "pos": "noun",
+   "translation": "百科全书",
+   "level": "B1",
+   "plural": "",
    "source": "商务德语教程 基础篇 学生用书_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker_北京：高等教育出版社.pdf · batch3807"
   },
   {
@@ -32284,6 +17044,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 基础篇 学生用书_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker_北京：高等教育出版社.pdf · batch3827"
   },
   {
+   "id": "ocr45-w-f74c06c7a8",
+   "word": "Knopf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "按钮",
+   "level": "B1",
+   "plural": "",
+   "source": "商务德语教程 基础篇 学生用书_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker_北京：高等教育出版社.pdf · batch3827"
+  },
+  {
+   "id": "ocr45-w-92b5482939",
+   "word": "Adapter",
+   "article": "der",
+   "pos": "noun",
+   "translation": "适配器;转接器",
+   "level": "B1",
+   "plural": "",
+   "source": "商务德语教程 基础篇 学生用书_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker_北京：高等教育出版社.pdf · batch3827"
+  },
+  {
    "id": "ocr45-w-fe196a9792",
    "word": "Störung",
    "article": "die",
@@ -32314,6 +17094,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3835"
   },
   {
+   "id": "ocr45-w-f73351cc1a",
+   "word": "Techniker",
+   "article": "der",
+   "pos": "noun",
+   "translation": "技术员",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3835"
+  },
+  {
    "id": "ocr45-w-26ce006d64",
    "word": "Stellenangebot",
    "article": "das",
@@ -32322,6 +17112,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "die Stellenangebote",
    "source": "商务德语教程 基础篇 学生用书_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker_北京：高等教育出版社.pdf · batch3837"
+  },
+  {
+   "id": "ocr45-w-4de16b1ce7",
+   "word": "Apfel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3840"
   },
   {
    "id": "ocr45-w-2cfd4dd828",
@@ -32334,6 +17134,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3840"
   },
   {
+   "id": "ocr45-w-5ff1644d6f",
+   "word": "Schreibtisch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "写字人台",
+   "level": "B1",
+   "plural": "die Schreibtische",
+   "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3845"
+  },
+  {
    "id": "ocr45-w-d012f81348",
    "word": "Tischchen",
    "article": "das",
@@ -32344,6 +17154,36 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3845"
   },
   {
+   "id": "ocr45-w-c2dfe8ae32",
+   "word": "Stehlampe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "落地灯",
+   "level": "B1",
+   "plural": "die Stehlampen",
+   "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3845"
+  },
+  {
+   "id": "ocr45-w-0d881ac0b0",
+   "word": "Imbissstube",
+   "article": "die",
+   "pos": "noun",
+   "translation": "小吃店",
+   "level": "B1",
+   "plural": "die Imbissstuben",
+   "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3850"
+  },
+  {
+   "id": "ocr45-w-a4be0d0664",
+   "word": "Gurke",
+   "article": "die",
+   "pos": "noun",
+   "translation": "黄瓜",
+   "level": "B1",
+   "plural": "die Gurken",
+   "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3850"
+  },
+  {
    "id": "ocr45-w-0f3d4c4c54",
    "word": "Lebensmittelgeschäft",
    "article": "das",
@@ -32351,6 +17191,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "食品商店",
    "level": "B1",
    "plural": "die Lebensmittelgeschäfte",
+   "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3850"
+  },
+  {
+   "id": "ocr45-w-cadaa6ddc8",
+   "word": "Bäckerei",
+   "article": "die",
+   "pos": "noun",
+   "translation": "面包房,面包店",
+   "level": "B1",
+   "plural": "die Bäckereien",
    "source": "中学德语 上 修订版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3850"
   },
   {
@@ -32444,6 +17294,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 上_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3870"
   },
   {
+   "id": "ocr45-w-4a00397bf9",
+   "word": "Butter",
+   "article": "die",
+   "pos": "noun",
+   "translation": "黄油",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 上_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3870"
+  },
+  {
    "id": "ocr45-w-14440cb448",
    "word": "Käse",
    "article": "der",
@@ -32454,6 +17314,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 上_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3870"
   },
   {
+   "id": "ocr45-w-b88dfe7bed",
+   "word": "Notizzettel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "便条",
+   "level": "B1",
+   "plural": "",
+   "source": "商务德语教程 基础篇 练习册_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker著_北京：高等教育出版社.pdf · batch3872"
+  },
+  {
    "id": "ocr45-w-7786dd607f",
    "word": "Anruf",
    "article": "der",
@@ -32462,6 +17332,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "die Anrufe",
    "source": "商务德语教程 基础篇 练习册_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker著_北京：高等教育出版社.pdf · batch3872"
+  },
+  {
+   "id": "ocr45-w-22109500b7",
+   "word": "Maus",
+   "article": "die",
+   "pos": "noun",
+   "translation": "鼠标",
+   "level": "B1",
+   "plural": "",
+   "source": "商务德语教程 基础篇 练习册_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker著_北京：高等教育出版社.pdf · batch3877"
   },
   {
    "id": "ocr45-w-2b6f060a55",
@@ -32514,6 +17394,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 基础篇 练习册_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker著_北京：高等教育出版社.pdf · batch3877"
   },
   {
+   "id": "ocr45-w-8ccf20de16",
+   "word": "Champignon",
+   "article": "der",
+   "pos": "noun",
+   "translation": "蘑菇",
+   "level": "B1",
+   "plural": "die Champignons",
+   "source": "商务德语教程 基础篇 练习册_（德）Norbert Becker，（德）Jorg Braunert，（德）Wolfram Schlenker著_北京：高等教育出版社.pdf · batch3877"
+  },
+  {
    "id": "ocr45-w-693f94cd66",
    "word": "Flusspferd",
    "article": "das",
@@ -32521,6 +17411,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "河马",
    "level": "B1",
    "plural": "die Flusspferde",
+   "source": "中学德语 上_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3885"
+  },
+  {
+   "id": "ocr45-w-5b2618a457",
+   "word": "Schweinefleisch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "猪肉",
+   "level": "B1",
+   "plural": "",
    "source": "中学德语 上_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3885"
   },
   {
@@ -32551,6 +17451,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "周日下午",
    "level": "B1",
    "plural": "",
+   "source": "中学德语 上_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3885"
+  },
+  {
+   "id": "ocr45-w-1827f98741",
+   "word": "Ameise",
+   "article": "die",
+   "pos": "noun",
+   "translation": "蚂蚁",
+   "level": "B1",
+   "plural": "die Ameisen",
    "source": "中学德语 上_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3885"
   },
   {
@@ -32774,6 +17684,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3900"
   },
   {
+   "id": "ocr45-w-2785597fa2",
+   "word": "Teich",
+   "article": "der",
+   "pos": "noun",
+   "translation": "池塘",
+   "level": "B1",
+   "plural": "die Teiche",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3900"
+  },
+  {
+   "id": "ocr45-w-94262650fd",
+   "word": "Radfahren",
+   "article": "das",
+   "pos": "noun",
+   "translation": "骑自行车",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3900"
+  },
+  {
    "id": "ocr45-w-68c01fbf1b",
    "word": "Sportart",
    "article": "die",
@@ -32844,6 +17774,36 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
   },
   {
+   "id": "ocr45-w-8b0c96a149",
+   "word": "Anschrift",
+   "article": "die",
+   "pos": "noun",
+   "translation": "通信地址",
+   "level": "B1",
+   "plural": "die Anschriften",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
+  },
+  {
+   "id": "ocr45-w-04dbca8265",
+   "word": "Latzhose",
+   "article": "die",
+   "pos": "noun",
+   "translation": "工装裤",
+   "level": "B1",
+   "plural": "die Latzhosen",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
+  },
+  {
+   "id": "ocr45-w-0a5f212922",
+   "word": "Weste",
+   "article": "die",
+   "pos": "noun",
+   "translation": "背心，马甲",
+   "level": "B1",
+   "plural": "die Westen",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
+  },
+  {
    "id": "ocr45-w-1a9fd3481b",
    "word": "Grundgebühr",
    "article": "die",
@@ -32884,6 +17844,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
   },
   {
+   "id": "ocr45-w-dd4121e342",
+   "word": "Münze",
+   "article": "die",
+   "pos": "noun",
+   "translation": "硬币",
+   "level": "B1",
+   "plural": "die Münzen",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
+  },
+  {
    "id": "ocr45-w-2f3a5db103",
    "word": "ECKarte",
    "article": "die",
@@ -32891,6 +17861,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "欧洲通用卡，欧洲支票",
    "level": "B1",
    "plural": "die ECKarten",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
+  },
+  {
+   "id": "ocr45-w-01d8935181",
+   "word": "Girokonto",
+   "article": "das",
+   "pos": "noun",
+   "translation": "转账账户",
+   "level": "B1",
+   "plural": "die Girokontokonten",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
   },
   {
@@ -32921,6 +17901,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "银行账户",
    "level": "B1",
    "plural": "die Bankverbindungen",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
+  },
+  {
+   "id": "ocr45-w-6c5098e5d0",
+   "word": "Kontoauszug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "银行结单，对账单",
+   "level": "B1",
+   "plural": "die Kontoauszugzüge",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
   },
   {
@@ -33064,21 +18054,21 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3902"
   },
   {
-   "id": "ocr45-w-1c1f793197",
-   "word": "Bach",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e小河,溪",
-   "level": "B1",
-   "plural": "",
-   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3905"
-  },
-  {
    "id": "ocr45-w-39b639a30f",
    "word": "Hunger",
    "article": "der",
    "pos": "noun",
    "translation": "饥饿",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3905"
+  },
+  {
+   "id": "ocr45-w-b6133d3671",
+   "word": "Eimer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "木桶",
    "level": "B1",
    "plural": "",
    "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3905"
@@ -33124,21 +18114,21 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3905"
   },
   {
-   "id": "ocr45-w-84a248aa9e",
-   "word": "Bürohaus",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一-er",
-   "level": "B1",
-   "plural": "",
-   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3905"
-  },
-  {
    "id": "ocr45-w-51598bc3e7",
    "word": "Geschäftsbuch",
    "article": "das",
    "pos": "noun",
    "translation": "商务记录本",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3905"
+  },
+  {
+   "id": "ocr45-w-7811dcd5a9",
+   "word": "Gürtel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "腰带,扣带,皮带",
    "level": "B1",
    "plural": "",
    "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3905"
@@ -33164,6 +18154,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
   },
   {
+   "id": "ocr45-w-9aa36be4e7",
+   "word": "Waschbecken",
+   "article": "das",
+   "pos": "noun",
+   "translation": "洗脸池",
+   "level": "B1",
+   "plural": "",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
+  },
+  {
    "id": "ocr45-w-d6f3e73333",
    "word": "Vertriebsweg",
    "article": "der",
@@ -33171,16 +18171,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "销售途径",
    "level": "B1",
    "plural": "die Vertriebswege",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
-  },
-  {
-   "id": "ocr45-w-ba4cb9b6c3",
-   "word": "Zielgruppe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "对象;〈销售)目标群",
-   "level": "B1",
-   "plural": "die Zielgruppen",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
   },
   {
@@ -33234,16 +18224,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
   },
   {
-   "id": "ocr45-w-40dccdc795",
-   "word": "Verkaufsförderung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "促销〈只用单数",
-   "level": "B1",
-   "plural": "",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
-  },
-  {
    "id": "ocr45-w-112e8703a5",
    "word": "Produktlinie",
    "article": "die",
@@ -33294,6 +18274,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
   },
   {
+   "id": "ocr45-w-2b68f43f6c",
+   "word": "Baustelle",
+   "article": "die",
+   "pos": "noun",
+   "translation": "建筑工地，施工现场",
+   "level": "B1",
+   "plural": "die Baustellen",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
+  },
+  {
    "id": "ocr45-w-b0322a4fd8",
    "word": "Schulung",
    "article": "die",
@@ -33332,6 +18322,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "die Dichtungen",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3907"
+  },
+  {
+   "id": "ocr45-w-dc11875d9a",
+   "word": "Schinken",
+   "article": "der",
+   "pos": "noun",
+   "translation": "火腿肉",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3910"
+  },
+  {
+   "id": "ocr45-w-4a0c0be00c",
+   "word": "Bürgersteig",
+   "article": "der",
+   "pos": "noun",
+   "translation": "人行道",
+   "level": "B1",
+   "plural": "die Bürgersteige",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3910"
   },
   {
    "id": "ocr45-w-6ac04c194b",
@@ -33474,6 +18484,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3915"
   },
   {
+   "id": "ocr45-w-4fca2e3a3b",
+   "word": "Fliege",
+   "article": "die",
+   "pos": "noun",
+   "translation": "苍蝇",
+   "level": "B1",
+   "plural": "die Fliegen",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3915"
+  },
+  {
    "id": "ocr45-w-0dde1b0283",
    "word": "Passbild",
    "article": "das",
@@ -33554,6 +18574,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3915"
   },
   {
+   "id": "ocr45-w-4362e32443",
+   "word": "Auswahl",
+   "article": "die",
+   "pos": "noun",
+   "translation": "选择",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3915"
+  },
+  {
    "id": "ocr45-w-a053f2936a",
    "word": "Tod",
    "article": "der",
@@ -33581,6 +18611,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "运货单，提单",
    "level": "B1",
    "plural": "die Frachtbriefe",
+   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3917"
+  },
+  {
+   "id": "ocr45-w-071b620a76",
+   "word": "Zollerklärung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "报关，报关单",
+   "level": "B1",
+   "plural": "die Zollerklärungen",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3917"
   },
   {
@@ -33664,26 +18704,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3920"
   },
   {
-   "id": "ocr45-w-23cac79655",
-   "word": "Absprache",
-   "article": "die",
-   "pos": "noun",
-   "translation": "协议，约定K8",
-   "level": "B1",
-   "plural": "die Absprachen",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
-   "id": "ocr45-w-64c5b40068",
-   "word": "Abzug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "扣除K7",
-   "level": "B1",
-   "plural": "die Abzugzüge",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
    "id": "ocr45-w-a36985612d",
    "word": "Bereitstellung",
    "article": "die",
@@ -33691,36 +18711,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "提供，供货",
    "level": "B1",
    "plural": "die Bereitstellungen",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
-   "id": "ocr45-w-3f6d88d5d8",
-   "word": "Bestimmungsort",
-   "article": "der",
-   "pos": "noun",
-   "translation": "目的地，约定的交货地点K9",
-   "level": "B1",
-   "plural": "",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
-   "id": "ocr45-w-6e0f0e6fd3",
-   "word": "Diskussion",
-   "article": "die",
-   "pos": "noun",
-   "translation": "讨论K8",
-   "level": "B1",
-   "plural": "die Diskussionen",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
-   "id": "ocr45-w-ae963e738d",
-   "word": "Druckmaschine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "印刷机，打印机K2",
-   "level": "B1",
-   "plural": "die Druckmaschinen",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
   },
   {
@@ -33739,16 +18729,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "免提功能",
-   "level": "B1",
-   "plural": "",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
-   "id": "ocr45-w-f390e77d99",
-   "word": "Großunternehmen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "大公司，大型企业K2",
    "level": "B1",
    "plural": "",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
@@ -33804,26 +18784,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
   },
   {
-   "id": "ocr45-w-a6343022e8",
-   "word": "Niederlassung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "分公司Ki",
-   "level": "B1",
-   "plural": "die Niederlassungen",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
-   "id": "ocr45-w-9abc9f9720",
-   "word": "Oberbegriff",
-   "article": "der",
-   "pos": "noun",
-   "translation": "属概念，总称，上位概念X2",
-   "level": "B1",
-   "plural": "die Oberbegriffe",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
    "id": "ocr45-w-7355185922",
    "word": "Produktpalette",
    "article": "die",
@@ -33864,16 +18824,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
   },
   {
-   "id": "ocr45-w-a8140e4fcb",
-   "word": "Schutzbrille",
-   "article": "die",
-   "pos": "noun",
-   "translation": "护目镜K3-en",
-   "level": "B1",
-   "plural": "die Schutzbrillen",
-   "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
-  },
-  {
    "id": "ocr45-w-2a83b766d9",
    "word": "Telekommunikation",
    "article": "die",
@@ -33894,13 +18844,13 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3922"
   },
   {
-   "id": "ocr45-w-6c41667a09",
-   "word": "Verbrauchermesse",
+   "id": "ocr45-w-40dccdc795",
+   "word": "Verkaufsförderung",
    "article": "die",
    "pos": "noun",
-   "translation": "消费品博览会K8",
+   "translation": "促销(只用单数",
    "level": "B1",
-   "plural": "die Verbrauchermessemn",
+   "plural": "",
    "source": "商务德语教程 提高篇 学生用书_陆伸，丁俊编著_北京：高等教育出版社.pdf · batch3927"
   },
   {
@@ -34424,16 +19374,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3940"
   },
   {
-   "id": "ocr45-w-0c1e5c4449",
-   "word": "Feldmaus",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一e",
-   "level": "B1",
-   "plural": "",
-   "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3945"
-  },
-  {
    "id": "ocr45-w-075deb0b52",
    "word": "Reklame",
    "article": "die",
@@ -34474,21 +19414,21 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3955"
   },
   {
+   "id": "ocr45-w-8199523c38",
+   "word": "Geldschein",
+   "article": "der",
+   "pos": "noun",
+   "translation": "纸币",
+   "level": "B1",
+   "plural": "die Geldscheine",
+   "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3955"
+  },
+  {
    "id": "ocr45-w-548a49dcfc",
    "word": "Handschlag",
    "article": "der",
    "pos": "noun",
    "translation": "握手",
-   "level": "B1",
-   "plural": "",
-   "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3955"
-  },
-  {
-   "id": "ocr45-w-151a18c934",
-   "word": "Sack",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一eR",
    "level": "B1",
    "plural": "",
    "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3955"
@@ -34514,6 +19454,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3955"
   },
   {
+   "id": "ocr45-w-2998af185d",
+   "word": "Zug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "火车",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语语法_金洪良主编_北京：高等教育出版社.pdf · batch3956"
+  },
+  {
    "id": "ocr45-w-67f3e3f205",
    "word": "Flugzeug",
    "article": "das",
@@ -34522,6 +19472,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "大学德语语法_金洪良主编_北京：高等教育出版社.pdf · batch3956"
+  },
+  {
+   "id": "ocr45-w-791112ad0a",
+   "word": "Lautsprecher",
+   "article": "der",
+   "pos": "noun",
+   "translation": "扩音器,喇叭",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3960"
   },
   {
    "id": "ocr45-w-74f3eb7682",
@@ -34574,11 +19534,31 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "大学德语语法_金洪良主编_北京：高等教育出版社.pdf · batch3961"
   },
   {
+   "id": "ocr45-w-bf019e1670",
+   "word": "Chemie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "化学",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语语法_金洪良主编_北京：高等教育出版社.pdf · batch3961"
+  },
+  {
    "id": "ocr45-w-7fd90017a3",
    "word": "Bundesland",
    "article": "das",
    "pos": "noun",
    "translation": "州,联邦州",
+   "level": "B1",
+   "plural": "",
+   "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3965"
+  },
+  {
+   "id": "ocr45-w-cf99792f2f",
+   "word": "Landeshauptstadt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "州府",
    "level": "B1",
    "plural": "",
    "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3965"
@@ -34612,6 +19592,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "中学德语 修订版 下_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3965"
+  },
+  {
+   "id": "ocr45-w-0e9aeb3480",
+   "word": "Sowjetunion",
+   "article": "die",
+   "pos": "noun",
+   "translation": "苏联",
+   "level": "B1",
+   "plural": "",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3970"
   },
   {
    "id": "ocr45-w-843a5df0b1",
@@ -34944,11 +19934,31 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3975"
   },
   {
+   "id": "ocr45-w-6e0358b625",
+   "word": "Gehen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "行走",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语语法_金洪良主编_北京：高等教育出版社.pdf · batch3976"
+  },
+  {
    "id": "ocr45-w-b35e4edae3",
    "word": "Allerseelen",
    "article": "das",
    "pos": "noun",
    "translation": "新年",
+   "level": "B1",
+   "plural": "",
+   "source": "商务德语教程_宛立群等主编_北京：外语教学与研究出版社.pdf · batch3977"
+  },
+  {
+   "id": "ocr45-w-2d46e7d40d",
+   "word": "Muttertag",
+   "article": "der",
+   "pos": "noun",
+   "translation": "降临节",
    "level": "B1",
    "plural": "",
    "source": "商务德语教程_宛立群等主编_北京：外语教学与研究出版社.pdf · batch3977"
@@ -35294,16 +20304,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3985"
   },
   {
-   "id": "ocr45-w-cff004e8d0",
-   "word": "Erweiterungsplan",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3985"
-  },
-  {
    "id": "ocr45-w-9634073a56",
    "word": "D-Mark",
    "article": "die",
@@ -35442,16 +20442,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3985"
-  },
-  {
-   "id": "ocr45-w-aae2ce50bf",
-   "word": "Arbeitsplatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3990"
   },
   {
    "id": "ocr45-w-a2ebd53da9",
@@ -35844,6 +20834,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch3995"
   },
   {
+   "id": "ocr45-w-04847b6161",
+   "word": "Entschuldigung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "原谅,道歉;请假",
+   "level": "B1",
+   "plural": "die Entschuldigungen",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4000"
+  },
+  {
    "id": "ocr45-w-da1ed1d4c9",
    "word": "Erlernen",
    "article": "das",
@@ -36064,6 +21064,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4000"
   },
   {
+   "id": "ocr45-w-8ede00c994",
+   "word": "Joghurt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "酸奶",
+   "level": "B1",
+   "plural": "",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4000"
+  },
+  {
    "id": "ocr45-w-4885afd8f8",
    "word": "Päckchen",
    "article": "das",
@@ -36079,6 +21089,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "保护说法,论调",
+   "level": "B1",
+   "plural": "",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4005"
+  },
+  {
+   "id": "ocr45-w-47ee45988b",
+   "word": "Verkäufer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "营业员",
    "level": "B1",
    "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4005"
@@ -36111,6 +21131,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "肉店,肉铺",
    "level": "B1",
    "plural": "die Metzgereien",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4005"
+  },
+  {
+   "id": "ocr45-w-8420b8268f",
+   "word": "Kassiererin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女收银员",
+   "level": "B1",
+   "plural": "die Kassiererinnen",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4005"
+  },
+  {
+   "id": "ocr45-w-97f473e38f",
+   "word": "Winterschlussverkauf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "冬季大拍卖",
+   "level": "B1",
+   "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4005"
   },
   {
@@ -36440,7 +21480,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "pos": "noun",
    "translation": "签名活动",
    "level": "B1",
-   "plural": "die Unterschrifts-Sammlungen",
+   "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4010"
   },
   {
@@ -36494,6 +21534,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4010"
   },
   {
+   "id": "ocr45-w-0ffe71ce96",
+   "word": "Schießbude",
+   "article": "die",
+   "pos": "noun",
+   "translation": "射击棚",
+   "level": "B1",
+   "plural": "die Schießbuden",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4010"
+  },
+  {
    "id": "ocr45-w-4581891312",
    "word": "Autoradio",
    "article": "das",
@@ -36501,6 +21551,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "轿车收音机",
    "level": "B1",
    "plural": "die Autoradios",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4015"
+  },
+  {
+   "id": "ocr45-w-f2450fb971",
+   "word": "Rasenmäher",
+   "article": "der",
+   "pos": "noun",
+   "translation": "除草机",
+   "level": "B1",
+   "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4015"
   },
   {
@@ -36589,16 +21649,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "狂吃潮",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4015"
-  },
-  {
-   "id": "ocr45-w-56ec87afc1",
-   "word": "Gegensatz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "一e",
    "level": "B1",
    "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4015"
@@ -36744,26 +21794,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4015"
   },
   {
-   "id": "ocr45-w-092429fd0d",
-   "word": "Ackerland",
-   "article": "das",
-   "pos": "noun",
-   "translation": "田地,耕地L4T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-e487e965ae",
-   "word": "Altemative",
-   "article": "die",
-   "pos": "noun",
-   "translation": "选择L12T2",
-   "level": "B1",
-   "plural": "die Altemativen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
    "id": "ocr45-w-ba1ccd7431",
    "word": "Anhäufung",
    "article": "die",
@@ -36794,16 +21824,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
-   "id": "ocr45-w-5252647f3a",
-   "word": "Beginn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "开始,开端15T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
    "id": "ocr45-w-f372111b81",
    "word": "Begriff",
    "article": "der",
@@ -36824,56 +21844,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
-   "id": "ocr45-w-beb6957844",
-   "word": "Biermarke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "啤酒商标LI5T1",
-   "level": "B1",
-   "plural": "die Biermarken",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-0e67ac976a",
-   "word": "Bordell",
-   "article": "das",
-   "pos": "noun",
-   "translation": "妓院,窗子L13T1",
-   "level": "B1",
-   "plural": "die Bordelle",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-39f4d6c596",
-   "word": "Brandenburgerin",
-   "article": "die",
-   "pos": "noun",
-   "translation": "勃来登堡人L12T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-f36f071c9b",
-   "word": "Bundesgesetz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "联邦法13T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-c861c665aa",
-   "word": "Bürger",
-   "article": "der",
-   "pos": "noun",
-   "translation": "公民L3T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
    "id": "ocr45-w-611cf57c7a",
    "word": "Christbaumschmuck",
    "article": "der",
@@ -36891,6 +21861,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "长条圣诞蛋糕",
    "level": "B1",
    "plural": "die Christstollen",
+   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
+  },
+  {
+   "id": "ocr45-w-17e65dc282",
+   "word": "Club",
+   "article": "der",
+   "pos": "noun",
+   "translation": "俱乐部",
+   "level": "B1",
+   "plural": "die Clubs",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
@@ -36944,26 +21924,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
-   "id": "ocr45-w-dc778c47db",
-   "word": "Diktatur",
-   "article": "die",
-   "pos": "noun",
-   "translation": "专政,专制L3T1",
-   "level": "B1",
-   "plural": "die Diktaturen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-90cd5804b7",
-   "word": "Direktor",
-   "article": "der",
-   "pos": "noun",
-   "translation": "所长,局长,院长LI6TL",
-   "level": "B1",
-   "plural": "die Direktoren",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
    "id": "ocr45-w-0f7a847637",
    "word": "Dracheme",
    "article": "die",
@@ -36971,16 +21931,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "德拉赫马(希腊货",
    "level": "B1",
    "plural": "die Drachemen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-5ade1af33a",
-   "word": "Drahigestell",
-   "article": "das",
-   "pos": "noun",
-   "translation": "铁丝网货架L11T1",
-   "level": "B1",
-   "plural": "die Drahigestelle",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
@@ -37014,46 +21964,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
-   "id": "ocr45-w-f21814f403",
-   "word": "Einstellung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "态度,观点L6T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-18eef3b2f7",
-   "word": "Empörung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "愤怒,不满L6T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-d04c5e4bf7",
-   "word": "Entstehung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "产生,形成15T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-2d2ae21eac",
-   "word": "Erkenntnis",
-   "article": "die",
-   "pos": "noun",
-   "translation": "认知,认识L12T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
    "id": "ocr45-w-7bdfc0c5d6",
    "word": "Fels",
    "article": "der",
@@ -37074,76 +21984,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
-   "id": "ocr45-w-7c9af8aeca",
-   "word": "Folge",
-   "article": "die",
-   "pos": "noun",
-   "translation": "结果,后果L5T1",
-   "level": "B1",
-   "plural": "die Folgen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-7692b59e9b",
-   "word": "Freistaat",
-   "article": "der",
-   "pos": "noun",
-   "translation": "自出州12T1",
-   "level": "B1",
-   "plural": "die Freistaaten",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-d3190efeb1",
-   "word": "Fruchtsaft",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一e#HL15T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-68410d9bb5",
-   "word": "Führungsmethode",
-   "article": "die",
-   "pos": "noun",
-   "translation": "领导方法19T",
-   "level": "B1",
-   "plural": "die Führungsmethoden",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-3a6ce174e6",
-   "word": "Fürstensitz",
-   "article": "der",
-   "pos": "noun",
-   "translation": "诸侯王室,王室12T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-ca89dafc7d",
-   "word": "Galerie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "画底,美术馆L14T2",
-   "level": "B1",
-   "plural": "die Galerien",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-53e0ff3536",
-   "word": "Geisteswissenschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "文科L1OT1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
    "id": "ocr45-w-28a8e67121",
    "word": "Gerät",
    "article": "das",
@@ -37151,156 +21991,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "仪器,器具",
    "level": "B1",
    "plural": "die Geräte",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-dd4ab71218",
-   "word": "Geschütz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "大炮,火炮LI6T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-337cfa5069",
-   "word": "Gesetz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "法律L13T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-55e1700dd2",
-   "word": "Gesprich",
-   "article": "das",
-   "pos": "noun",
-   "translation": "会谈,谈话L6T2",
-   "level": "B1",
-   "plural": "die Gespriche",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-463686d28c",
-   "word": "Gewalt",
-   "article": "die",
-   "pos": "noun",
-   "translation": "权力13T1",
-   "level": "B1",
-   "plural": "die Gewalten",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-17f1dab881",
-   "word": "Grundrecht",
-   "article": "das",
-   "pos": "noun",
-   "translation": "基本权13T1",
-   "level": "B1",
-   "plural": "die Grundrechte",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-9f7e222ba9",
-   "word": "Hauptziel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "主要目标,主要目的_L5T1",
-   "level": "B1",
-   "plural": "die Hauptziele",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-ecf5f37e97",
-   "word": "Hierarchie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "等级19T1",
-   "level": "B1",
-   "plural": "die Hierarchien",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-dbec7d945a",
-   "word": "Hindernis",
-   "article": "das",
-   "pos": "noun",
-   "translation": "阻碍,障碍L10T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-370dceeef9",
-   "word": "Höhe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "高度L11Tl",
-   "level": "B1",
-   "plural": "die Höhen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-ecb29fcc7c",
-   "word": "Kastell",
-   "article": "das",
-   "pos": "noun",
-   "translation": "古罗马要塞,城堡I2T2",
-   "level": "B1",
-   "plural": "die Kastelle",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-cd00c2e1a3",
-   "word": "Kern",
-   "article": "der",
-   "pos": "noun",
-   "translation": "核心13Tl",
-   "level": "B1",
-   "plural": "die Kerne",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-066efdc2d3",
-   "word": "Knospe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "花蕾,蓓曹L7T1",
-   "level": "B1",
-   "plural": "die Knospen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-d465e2d86a",
-   "word": "Kohle",
-   "article": "die",
-   "pos": "noun",
-   "translation": "煤,煤炭,木炭L2T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-4c17d9f716",
-   "word": "Kommunikationszentrum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一en",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-b3fdcad3ec",
-   "word": "Konsens",
-   "article": "der",
-   "pos": "noun",
-   "translation": "意见一致,同意L9T1",
-   "level": "B1",
-   "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
@@ -37314,16 +22004,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
-   "id": "ocr45-w-7ec40bc660",
-   "word": "Kritik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "批评,批判LI6T2",
-   "level": "B1",
-   "plural": "die Kritiken",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
    "id": "ocr45-w-4878e5596d",
    "word": "Kunsthochschule",
    "article": "die",
@@ -37331,36 +22011,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "美术高等学校",
    "level": "B1",
    "plural": "die Kunsthochschulen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-e32e3a8daf",
-   "word": "Licheln",
-   "article": "das",
-   "pos": "noun",
-   "translation": "微笑LI6T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-5d84e9ee40",
-   "word": "Landesgesetz",
-   "article": "das",
-   "pos": "noun",
-   "translation": "州法律L3T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-341bcaeb23",
-   "word": "Lebensumfeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "生活环境,生活区域“L12T1",
-   "level": "B1",
-   "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
@@ -37389,206 +22039,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "高档消费品,奢侈品",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-f57ae47515",
-   "word": "Marine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海军,舰队LI6TI",
-   "level": "B1",
-   "plural": "die Marinen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-324d347392",
-   "word": "Mäusefamilie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "老鼠家庭L4T1",
-   "level": "B1",
-   "plural": "die Mäusefamilien",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-d1f45b422e",
-   "word": "Menschenwürde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "人的尊严13T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-c12509e5e2",
-   "word": "Militärberater",
-   "article": "der",
-   "pos": "noun",
-   "translation": "军事顾问LI6T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-309c0918e8",
-   "word": "Minister",
-   "article": "der",
-   "pos": "noun",
-   "translation": "部长IL4T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-f406607432",
-   "word": "Mitteljmann",
-   "article": "der",
-   "pos": "noun",
-   "translation": "中间人L16T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-0c5ca2ba6c",
-   "word": "Mönch",
-   "article": "der",
-   "pos": "noun",
-   "translation": "修道士,僧侣LI5T1",
-   "level": "B1",
-   "plural": "die Mönche",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-ce0f68dbdc",
-   "word": "Motto",
-   "article": "das",
-   "pos": "noun",
-   "translation": "格言19T1",
-   "level": "B1",
-   "plural": "die Mottos",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-1eb07f4d09",
-   "word": "Nachbardorf",
-   "article": "das",
-   "pos": "noun",
-   "translation": "邻近村庄L14TI",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-2e2086fc4c",
-   "word": "Neuigkeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "新鲜事,新闻，L13T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-eb775c8bfd",
-   "word": "Niederrhein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "莱茵河下游I2T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-b399cd947c",
-   "word": "Nikolaus",
-   "article": "der",
-   "pos": "noun",
-   "translation": "尼古拉晶L8T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-01b8726b40",
-   "word": "Offizier",
-   "article": "der",
-   "pos": "noun",
-   "translation": "军官L16T1",
-   "level": "B1",
-   "plural": "die Offiziere",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-463d2a2557",
-   "word": "Ordnungsregel",
-   "article": "die",
-   "pos": "noun",
-   "translation": "秩序规定18T1",
-   "level": "B1",
-   "plural": "die Ordnungsregeln",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-b2e7181f0d",
-   "word": "Organ",
-   "article": "das",
-   "pos": "noun",
-   "translation": "机构L3T1",
-   "level": "B1",
-   "plural": "die Organe",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-03d2b6d0e8",
-   "word": "Organisation",
-   "article": "die",
-   "pos": "noun",
-   "translation": "组织,机构,团体L5T1",
-   "level": "B1",
-   "plural": "die Organisationen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-2f940f61f8",
-   "word": "Partei",
-   "article": "die",
-   "pos": "noun",
-   "translation": "政党13T1",
-   "level": "B1",
-   "plural": "die Parteien",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-8bf3ea81b8",
-   "word": "Planungskomitee",
-   "article": "das",
-   "pos": "noun",
-   "translation": "计划委员会UT",
-   "level": "B1",
-   "plural": "die Planungskomitees",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-8398325fc0",
-   "word": "Prinzip",
-   "article": "das",
-   "pos": "noun",
-   "translation": "原则13T1",
-   "level": "B1",
-   "plural": "die Prinzipien",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-53bae6efe4",
-   "word": "Provinz",
-   "article": "die",
-   "pos": "noun",
-   "translation": "省LI6T1",
    "level": "B1",
    "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
@@ -37644,34 +22094,14 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
   },
   {
-   "id": "ocr45-w-6e83834646",
-   "word": "Rostbratwurst",
-   "article": "die",
-   "pos": "noun",
-   "translation": "一e",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-0562d06896",
-   "word": "Schein",
+   "id": "ocr45-w-ec95963479",
+   "word": "Sohn",
    "article": "der",
    "pos": "noun",
-   "translation": "纸币,成绩单L6T2，LI0T1",
+   "translation": "儿子",
    "level": "B1",
-   "plural": "die Scheinn",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
-  },
-  {
-   "id": "ocr45-w-11736e936c",
-   "word": "Schlagfertigkeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "敏捷,善于应对能力“L9T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4020"
+   "plural": "die Sohne",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4022"
   },
   {
    "id": "ocr45-w-4019de9b52",
@@ -37744,6 +22174,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4022"
   },
   {
+   "id": "ocr45-w-60447f6359",
+   "word": "Verkäuferin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女售货员",
+   "level": "B1",
+   "plural": "die Verkäuferinnen",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4022"
+  },
+  {
+   "id": "ocr45-w-aa4c911c2b",
+   "word": "Fahrer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "司机,驾驶员",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4022"
+  },
+  {
    "id": "ocr45-w-a219b5a186",
    "word": "Beethovenstraße",
    "article": "die",
@@ -37769,6 +22219,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "罚款",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4022"
+  },
+  {
+   "id": "ocr45-w-be1e784f04",
+   "word": "Quittung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "发票",
    "level": "B1",
    "plural": "",
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4022"
@@ -37804,46 +22264,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4022"
   },
   {
-   "id": "ocr45-w-ab69541977",
-   "word": "Seminar",
-   "article": "das",
-   "pos": "noun",
-   "translation": "专题研讨课程L10T1",
-   "level": "B1",
-   "plural": "die Seminare",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-b5892cdc51",
-   "word": "Siedlung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "住宅区,居民点LI2T2—",
-   "level": "B1",
-   "plural": "die Siedlungen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-b83183e7f3",
-   "word": "Slowakei",
-   "article": "die",
-   "pos": "noun",
-   "translation": "斯洛伐克L2T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-7f3dbfa8b6",
-   "word": "Speise",
-   "article": "die",
-   "pos": "noun",
-   "translation": "食物,食品;菜肴14Tl1",
-   "level": "B1",
-   "plural": "die Speisen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
    "id": "ocr45-w-5cb7b740bb",
    "word": "Speisekammer",
    "article": "die",
@@ -37851,26 +22271,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "食物贮藏室",
    "level": "B1",
    "plural": "die Speisekammern",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-352fd424fe",
-   "word": "Staatsform",
-   "article": "die",
-   "pos": "noun",
-   "translation": "国家形式L3T1",
-   "level": "B1",
-   "plural": "die Staatsformen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-edeaa09340",
-   "word": "Tiefebene",
-   "article": "die",
-   "pos": "noun",
-   "translation": "低地,低平原海拔在200",
-   "level": "B1",
-   "plural": "die Tiefebenen",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
   },
   {
@@ -37884,26 +22284,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
   },
   {
-   "id": "ocr45-w-50b1299a82",
-   "word": "Trick",
-   "article": "der",
-   "pos": "noun",
-   "translation": "花招,诡计L11T1",
-   "level": "B1",
-   "plural": "die Tricks",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-2fde2457fb",
-   "word": "Tugend",
-   "article": "die",
-   "pos": "noun",
-   "translation": "美德;品行L7T2",
-   "level": "B1",
-   "plural": "die Tugenden",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
    "id": "ocr45-w-7b84c8c718",
    "word": "Twen",
    "article": "der",
@@ -37911,156 +22291,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "二十至二十九岁年轻人",
    "level": "B1",
    "plural": "die Twens",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-c0cb0ef88b",
-   "word": "Unbehagen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "不适,不快,不舒服19T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-1f214dbc50",
-   "word": "Valentintag",
-   "article": "der",
-   "pos": "noun",
-   "translation": "情人节L8T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-ec63900746",
-   "word": "Versammlungsfreiheit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "集会自由L3T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-277d523ec5",
-   "word": "Vorbild",
-   "article": "das",
-   "pos": "noun",
-   "translation": "典范,榜样L16T1",
-   "level": "B1",
-   "plural": "die Vorbilder",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-79e979e0f3",
-   "word": "Wahrnehmung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "感知,感觉19T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-b4752a3c55",
-   "word": "Wahrung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "维护,保护,维持L5T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-d4093bfbe2",
-   "word": "Wandel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "变化L12T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-edfd43b421",
-   "word": "Wanderverein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "徒步协会LI4TI",
-   "level": "B1",
-   "plural": "die Wandervereine",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-86f1460b3b",
-   "word": "Weiberfastnacht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "女人狂欢节L8T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-55fcd8be9e",
-   "word": "Weinemte",
-   "article": "die",
-   "pos": "noun",
-   "translation": "葡萄收获I2T1",
-   "level": "B1",
-   "plural": "die Weinemten",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-f035e64aef",
-   "word": "Weise",
-   "article": "der",
-   "pos": "noun",
-   "translation": "智者L8T1",
-   "level": "B1",
-   "plural": "die Weisen",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-a412ac71c5",
-   "word": "Wende",
-   "article": "die",
-   "pos": "noun",
-   "translation": "转折L12T1",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-a61a56d509",
-   "word": "Zm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "恼怒L6T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-1aff5c3bbb",
-   "word": "Zufälligkeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "偶然性,意外L7T2",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
-  },
-  {
-   "id": "ocr45-w-48e04cf65a",
-   "word": "Zuriickgebliebenheit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "落后L7T2",
-   "level": "B1",
-   "plural": "",
    "source": "中级德语 第2版_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4025"
   },
   {
@@ -38164,6 +22394,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4027"
   },
   {
+   "id": "ocr45-w-52476bd06d",
+   "word": "Brunnen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "水井",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4027"
+  },
+  {
    "id": "ocr45-w-cca6713ec8",
    "word": "Schaffner",
    "article": "der",
@@ -38181,6 +22421,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "车票",
    "level": "B1",
    "plural": "die Fahrkarten",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4027"
+  },
+  {
+   "id": "ocr45-w-531c8be8c1",
+   "word": "Bahnsteig",
+   "article": "der",
+   "pos": "noun",
+   "translation": "台,站台",
+   "level": "B1",
+   "plural": "die Bahnsteige",
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4027"
   },
   {
@@ -38324,6 +22574,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4027"
   },
   {
+   "id": "ocr45-w-226971768b",
+   "word": "Dieb",
+   "article": "der",
+   "pos": "noun",
+   "translation": "小偷",
+   "level": "B1",
+   "plural": "die Diebe",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4027"
+  },
+  {
    "id": "ocr45-w-d75d7df8b5",
    "word": "Heroin",
    "article": "das",
@@ -38341,6 +22601,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "吸毒问题咨询站",
    "level": "B1",
    "plural": "",
+   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4030"
+  },
+  {
+   "id": "ocr45-w-277d523ec5",
+   "word": "Vorbild",
+   "article": "das",
+   "pos": "noun",
+   "translation": "榜样，模式",
+   "level": "B1",
+   "plural": "die Vorbilden",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4030"
   },
   {
@@ -38524,6 +22794,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4032"
   },
   {
+   "id": "ocr45-w-9f73840237",
+   "word": "Sänger",
+   "article": "der",
+   "pos": "noun",
+   "translation": "歌唱家",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4032"
+  },
+  {
    "id": "ocr45-w-2297c9d609",
    "word": "Salon",
    "article": "der",
@@ -38541,6 +22821,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "歌声",
    "level": "B1",
    "plural": "die Gesange",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4032"
+  },
+  {
+   "id": "ocr45-w-c269c9490b",
+   "word": "Holz",
+   "article": "das",
+   "pos": "noun",
+   "translation": "木材",
+   "level": "B1",
+   "plural": "",
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4032"
   },
   {
@@ -38581,6 +22871,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "人行道",
    "level": "B1",
    "plural": "die Gehwege",
+   "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4032"
+  },
+  {
+   "id": "ocr45-w-8d12adf3a9",
+   "word": "Verkehr",
+   "article": "der",
+   "pos": "noun",
+   "translation": "交通",
+   "level": "B1",
+   "plural": "",
    "source": "基础德语 听力教程_王志强，戴启秀编著_上海：同济大学出版社.pdf · batch4032"
   },
   {
@@ -38734,6 +23034,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4045"
   },
   {
+   "id": "ocr45-w-34c5a9eda4",
+   "word": "Türkei",
+   "article": "die",
+   "pos": "noun",
+   "translation": "土耳其",
+   "level": "B1",
+   "plural": "",
+   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4045"
+  },
+  {
+   "id": "ocr45-w-2e2086fc4c",
+   "word": "Neuigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "新闻，新消息",
+   "level": "B1",
+   "plural": "die Neuigkeiten",
+   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4045"
+  },
+  {
    "id": "ocr45-w-1924b08805",
    "word": "Arbeitsproblem",
    "article": "das",
@@ -38759,6 +23079,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "再见",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语听说教程_张莹，王黎红主编_沈阳：东北大学出版社.pdf · batch4047"
+  },
+  {
+   "id": "ocr45-w-841609b0b9",
+   "word": "Rindfleisch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "和牛肉",
    "level": "B1",
    "plural": "",
    "source": "基础德语听说教程_张莹，王黎红主编_沈阳：东北大学出版社.pdf · batch4047"
@@ -38934,16 +23264,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4055"
   },
   {
-   "id": "ocr45-w-e41c449194",
-   "word": "Ungeziefer",
-   "article": "das",
-   "pos": "noun",
-   "translation": "有害小动物，害虫，Eh",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4055"
-  },
-  {
    "id": "ocr45-w-9e6801d7ad",
    "word": "Tonne",
    "article": "die",
@@ -39039,16 +23359,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "时期，时间",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4065"
-  },
-  {
-   "id": "ocr45-w-329b54f1d6",
-   "word": "Herkunft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "出身，KH,KH",
    "level": "B1",
    "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4065"
@@ -39314,16 +23624,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-f5e438faa8",
-   "word": "Abhängigkeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "依赖，关系(3B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-5c31b6bc84",
    "word": "Abceilungsleiter",
    "article": "der",
@@ -39331,16 +23631,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "部门领导.",
    "level": "B1",
    "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-2927021426",
-   "word": "Achtung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "注意(8B",
-   "level": "B1",
-   "plural": "die Achtungen",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -39354,41 +23644,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-f85f6e304b",
-   "word": "Alkoholgenuß",
-   "article": "das",
-   "pos": "noun",
-   "translation": "饮酒(1B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-9e96608997",
    "word": "Alkoholmuffel",
    "article": "der",
    "pos": "noun",
    "translation": "反对喝酒的",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-ed742a39c0",
-   "word": "Altersasyl",
-   "article": "das",
-   "pos": "noun",
-   "translation": "老年人收容所(8B",
-   "level": "B1",
-   "plural": "die Altersasyle",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-a8f1c99306",
-   "word": "Angebertum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "了吹牛狂妄自大(13B",
    "level": "B1",
    "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
@@ -39411,66 +23671,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "精神病院",
    "level": "B1",
    "plural": "die Anstaltsmauern",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-6fb6127cbc",
-   "word": "Antriebsstärke",
-   "article": "die",
-   "pos": "noun",
-   "translation": "主动性(13A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-3cfc565844",
-   "word": "Arbeitslosengeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "失业救济金〈6A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-b878872edd",
-   "word": "Arbeitssuche",
-   "article": "die",
-   "pos": "noun",
-   "translation": "找工作(13B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-f89801e65b",
-   "word": "Atemluft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "新鲜空气(16B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-4f95563f67",
-   "word": "Atmosphäre",
-   "article": "die",
-   "pos": "noun",
-   "translation": "气氛=(1B",
-   "level": "B1",
-   "plural": "die Atmosphären",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-74fb7be1f9",
-   "word": "Ausführung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "执行,实施(14B",
-   "level": "B1",
-   "plural": "die Ausführungen",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -39511,26 +23711,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "汽车",
    "level": "B1",
    "plural": "die Automobilfabriken",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-8518da5b8a",
-   "word": "Ballspiel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "球赛(9B",
-   "level": "B1",
-   "plural": "die Ballspiele",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-dcb1d1f014",
-   "word": "Bandzähler",
-   "article": "der",
-   "pos": "noun",
-   "translation": "走带计数器(14A",
-   "level": "B1",
-   "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -39584,41 +23764,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-d72c61c13c",
-   "word": "Berechnung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "估计,计算(16A",
-   "level": "B1",
-   "plural": "die Berechnungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-11cc257eb9",
    "word": "Berufsverkehr",
    "article": "der",
    "pos": "noun",
    "translation": "上下班交通高",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-e134104b50",
-   "word": "Besorgnis",
-   "article": "die",
-   "pos": "noun",
-   "translation": "忧虑，担心(16A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-75c7b43d54",
-   "word": "Bestätigung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "证实,确认,认可(1A",
    "level": "B1",
    "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
@@ -39631,36 +23781,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "活动",
    "level": "B1",
    "plural": "die Betätigungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-5f20552fb5",
-   "word": "Betriebslage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "工作状态(14A",
-   "level": "B1",
-   "plural": "die Betriebslagen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-992a2b5d1f",
-   "word": "Billion",
-   "article": "die",
-   "pos": "noun",
-   "translation": "万亿(102)(4B",
-   "level": "B1",
-   "plural": "die Billionen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-18a50a49ba",
-   "word": "Blech",
-   "article": "das",
-   "pos": "noun",
-   "translation": "钢板(13B",
-   "level": "B1",
-   "plural": "die Bleche",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -39684,16 +23804,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-942c53ed85",
-   "word": "Bürozentrum",
-   "article": "das",
-   "pos": "noun",
-   "translation": "办公中心(16B",
-   "level": "B1",
-   "plural": "die Bürozentrumren",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-56b576fcc7",
    "word": "Empfangsteil",
    "article": "das",
@@ -39701,16 +23811,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "接受部件",
    "level": "B1",
    "plural": "die Empfangsteile",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-4cd5f8d02d",
-   "word": "Ergänzung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "补充(13A",
-   "level": "B1",
-   "plural": "die Ergänzungen",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -39734,86 +23834,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-44fb46829c",
-   "word": "Erziehungsinhalt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "教育内容(A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-ea9e9ac5b9",
-   "word": "Expansionspolitik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "扩张政策(15B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-6329655782",
-   "word": "Extra",
-   "article": "das",
-   "pos": "noun",
-   "translation": "额外附加影片(4B",
-   "level": "B1",
-   "plural": "die Extras",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-c62ae31d90",
-   "word": "Ealschgeld",
-   "article": "das",
-   "pos": "noun",
-   "translation": "假钱(2A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-d94c3abb82",
-   "word": "Eehlleistung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "失误(1A",
-   "level": "B1",
-   "plural": "die Eehlleistungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-1fddc61680",
-   "word": "Ferienkurs",
-   "article": "der",
-   "pos": "noun",
-   "translation": "暑期班(13B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-8c28f780a9",
-   "word": "Fernsehegrät",
-   "article": "das",
-   "pos": "noun",
-   "translation": "电视机(14A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-6eb66c7305",
-   "word": "Fließband",
-   "article": "das",
-   "pos": "noun",
-   "translation": "流水作业线(3A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-464099b1f4",
    "word": "Fluchtweg",
    "article": "der",
@@ -39821,16 +23841,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "逃避现实之路",
    "level": "B1",
    "plural": "die Fluchtwege",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-1c1e130486",
-   "word": "Flug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "飞行(12B",
-   "level": "B1",
-   "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -39864,46 +23874,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-346af7629b",
-   "word": "Gegenwart",
-   "article": "die",
-   "pos": "noun",
-   "translation": "在场现在,现代(16A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-7469e69366",
-   "word": "Geisteskrankheit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "精神病(15A",
-   "level": "B1",
-   "plural": "die Geisteskrankheiten",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-f3c42243c1",
-   "word": "Gemütshumbug",
-   "article": "der",
-   "pos": "noun",
-   "translation": "胡言乱语(16A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-2bf48ea345",
-   "word": "Genugtuung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "满意(16A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-8c38e988e9",
    "word": "Geschäftsbereich",
    "article": "der",
@@ -39924,46 +23894,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-eb1058ee0f",
-   "word": "Gewerkschaft",
-   "article": "die",
-   "pos": "noun",
-   "translation": "工会(6A",
-   "level": "B1",
-   "plural": "die Gewerkschaften",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-9a0ec6aa65",
-   "word": "Gewinn",
-   "article": "der",
-   "pos": "noun",
-   "translation": "利润，赢利(TA",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-51f0ee25f5",
-   "word": "Gliederung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "划分，分段(13A",
-   "level": "B1",
-   "plural": "die Gliederungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-d10e2e3a1e",
-   "word": "Glück",
-   "article": "das",
-   "pos": "noun",
-   "translation": "幸运，运气，运道(4B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-d62c7e8493",
    "word": "Halbtagstätigkeit",
    "article": "die",
@@ -39971,16 +23901,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "半天",
    "level": "B1",
    "plural": "die Halbtagstätigkeiten",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-1c08b4962a",
-   "word": "GroBmacht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "大国，强国(8A",
-   "level": "B1",
-   "plural": "die GroBmachte",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -40001,26 +23921,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "字迹",
    "level": "B1",
    "plural": "die Handschriftproben",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-a20850b46b",
-   "word": "Haustür",
-   "article": "die",
-   "pos": "noun",
-   "translation": "前门(2A",
-   "level": "B1",
-   "plural": "die Haustüren",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-1b460c3b2f",
-   "word": "Heimatort",
-   "article": "der",
-   "pos": "noun",
-   "translation": "家乡，老家(5A",
-   "level": "B1",
-   "plural": "die Heimatort-",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -40054,16 +23954,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-21f1da43d3",
-   "word": "Industrieanlage",
-   "article": "die",
-   "pos": "noun",
-   "translation": "工业设施3B",
-   "level": "B1",
-   "plural": "die Industrieanlagen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-6e0c2a3668",
    "word": "Inneneinrichtung",
    "article": "die",
@@ -40071,16 +23961,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "内部",
    "level": "B1",
    "plural": "die Inneneinrichtungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-6066abad24",
-   "word": "Instinkt",
-   "article": "der",
-   "pos": "noun",
-   "translation": "本能，天性(9B",
-   "level": "B1",
-   "plural": "die Instinkte",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -40094,31 +23974,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-7e8b91cf4d",
-   "word": "Jugendamt",
-   "article": "das",
-   "pos": "noun",
-   "translation": "青年会'(1A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-3cfb5d5eba",
    "word": "Jungbrunnen",
    "article": "der",
    "pos": "noun",
    "translation": "长生不老泉",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-04b576bc6d",
-   "word": "Kennziffer",
-   "article": "die",
-   "pos": "noun",
-   "translation": "代号，特征-(13B",
    "level": "B1",
    "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
@@ -40134,71 +23994,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-bd5dce9ecc",
-   "word": "Kommissar",
-   "article": "der",
-   "pos": "noun",
-   "translation": "警长，探长(12A",
-   "level": "B1",
-   "plural": "die Kommissare",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-70e064672e",
    "word": "Kommunisrenbund",
    "article": "der",
    "pos": "noun",
    "translation": "共产主义",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-094862651a",
-   "word": "Konkurenzdruck",
-   "article": "der",
-   "pos": "noun",
-   "translation": "竞争压力(1A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-68e04b10be",
-   "word": "Länderspiel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "国际比赛(9B",
-   "level": "B1",
-   "plural": "die Länderspiele",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-d3fd25f11f",
-   "word": "Langzeittherapie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "长期治疗(1A):",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-833ab1ec1a",
-   "word": "Kurort",
-   "article": "der",
-   "pos": "noun",
-   "translation": "休养地(8B",
-   "level": "B1",
-   "plural": "die Kurorte",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-3db612a1d2",
-   "word": "Lebensalter",
-   "article": "das",
-   "pos": "noun",
-   "translation": "年龄，年纪(13A",
    "level": "B1",
    "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
@@ -40234,53 +24034,13 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-0eaf07cbf7",
-   "word": "Männersache",
+   "id": "ocr45-w-8399a30225",
+   "word": "Macht",
    "article": "die",
    "pos": "noun",
-   "translation": "男人的事情(9B",
-   "level": "B1",
-   "plural": "die Männersachen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-d7fe66f22a",
-   "word": "Lüftung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "通风,通风装置(16B",
-   "level": "B1",
-   "plural": "die Lüftungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-44a0b7051c",
-   "word": "Maschinenschreiben",
-   "article": "das",
-   "pos": "noun",
-   "translation": "打字(13A",
+   "translation": "权，权力政权?",
    "level": "B1",
    "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-687db99376",
-   "word": "Mehrarbeit",
-   "article": "die",
-   "pos": "noun",
-   "translation": "额外劳动(13B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-7af11bebeb",
-   "word": "Meldung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "报导(16B",
-   "level": "B1",
-   "plural": "die Meldungen",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -40294,86 +24054,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-e2e53334b1",
-   "word": "Milliarde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "十亿(10?)(4B",
-   "level": "B1",
-   "plural": "die Milliarden",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-6b2a869a46",
-   "word": "Ministerium",
-   "article": "das",
-   "pos": "noun",
-   "translation": "部(1B",
-   "level": "B1",
-   "plural": "die Ministeriumrien",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-1fc3e8f365",
-   "word": "Mittelnacht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "半夜(2A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-2a08dec529",
-   "word": "Nachwuchs",
-   "article": "der",
-   "pos": "noun",
-   "translation": "小辈，后代ı(CB",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-042840db1c",
-   "word": "Norn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "标准(14A",
-   "level": "B1",
-   "plural": "die Nornen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-cb4fa4ab82",
-   "word": "Ordnung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "秩序，制度GB",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-9068206547",
-   "word": "Passagiermaschine",
-   "article": "die",
-   "pos": "noun",
-   "translation": "客机(16B",
-   "level": "B1",
-   "plural": "die Passagiermaschinen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-2e1b48f37e",
-   "word": "Rand",
-   "article": "der",
-   "pos": "noun",
-   "translation": "边，边缘(10A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-7fedce1472",
    "word": "Prozent",
    "article": "das",
@@ -40381,16 +24061,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "百分数，百分比",
    "level": "B1",
    "plural": "die Prozente",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-0502f6b5bf",
-   "word": "Psychose",
-   "article": "die",
-   "pos": "noun",
-   "translation": "精神变态(15A",
-   "level": "B1",
-   "plural": "die Psychosen",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
@@ -40404,86 +24074,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-e6164fd123",
-   "word": "Quartier",
-   "article": "das",
-   "pos": "noun",
-   "translation": "宿地，所在地(8A",
-   "level": "B1",
-   "plural": "die Quartiere",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-c8f023ef6a",
-   "word": "Rechtschreibung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "正规化书写(13A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-672df65fa3",
-   "word": "Reichtum",
-   "article": "der",
-   "pos": "noun",
-   "translation": "财富(3B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-af518e0c7b",
-   "word": "Reifegrad",
-   "article": "der",
-   "pos": "noun",
-   "translation": "成熟程度(13A",
-   "level": "B1",
-   "plural": "die Reifegrade",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-31d3ae975b",
-   "word": "Sacharbeiter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "主管人员(13B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-f42f77a62a",
-   "word": "Reserve",
-   "article": "die",
-   "pos": "noun",
-   "translation": "储备，储备金3B",
-   "level": "B1",
-   "plural": "die Reserven",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-49d5545050",
-   "word": "Riesenschrecken",
-   "article": "der",
-   "pos": "noun",
-   "translation": "大吃一惊(1B).",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-eedad529d0",
-   "word": "Sammelbegriff",
-   "article": "der",
-   "pos": "noun",
-   "translation": "集合名词(15B",
-   "level": "B1",
-   "plural": "die Sammelbegriffe",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
    "id": "ocr45-w-86e0972226",
    "word": "Sauerei",
    "article": "die",
@@ -40494,136 +24084,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
   },
   {
-   "id": "ocr45-w-484f6ead79",
-   "word": "Schafherde",
-   "article": "die",
-   "pos": "noun",
-   "translation": "羊群(15A",
-   "level": "B1",
-   "plural": "die Schafherden",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-a8c3fa61ad",
-   "word": "Schaltuhr",
-   "article": "die",
-   "pos": "noun",
-   "translation": "定时钟,定时器(14A",
-   "level": "B1",
-   "plural": "die Schaltuhren",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-34c8759db2",
-   "word": "Schätzung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "估计(1B",
-   "level": "B1",
-   "plural": "die Schätzungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-3d48ca3b80",
-   "word": "Schizophrenie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "精神分裂症(15A",
-   "level": "B1",
-   "plural": "die Schizophrenien",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-61ca3082ec",
-   "word": "Schlagwort",
-   "article": "das",
-   "pos": "noun",
-   "translation": "口号,陈词激调(15B",
-   "level": "B1",
-   "plural": "die Schlagworte",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-d05ff5a49e",
-   "word": "Schlückchen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "一小口(1B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-ec35bbee6c",
-   "word": "Schmelzwasser",
-   "article": "das",
-   "pos": "noun",
-   "translation": "融冰水《16B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-faf904b4fb",
-   "word": "Schulbildung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "学校教育(13B",
-   "level": "B1",
-   "plural": "die Schulbildungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-a65f67ef93",
-   "word": "Schwein",
-   "article": "der",
-   "pos": "noun",
-   "translation": "猪(4A",
-   "level": "B1",
-   "plural": "die Schweine",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4095"
-  },
-  {
-   "id": "ocr45-w-ae2da3bb12",
-   "word": "Selbstkritik",
-   "article": "die",
-   "pos": "noun",
-   "translation": "自我批评(8B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-0cee0ba684",
-   "word": "Siegel",
-   "article": "das",
-   "pos": "noun",
-   "translation": "印章，图章(16A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-325441dd36",
-   "word": "Spielfilm",
-   "article": "der",
-   "pos": "noun",
-   "translation": "故事片(4B",
-   "level": "B1",
-   "plural": "die Spielfilme",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-e0f7c662fe",
-   "word": "Spitze",
-   "article": "die",
-   "pos": "noun",
-   "translation": "尖儿,尖端，首位(15B",
-   "level": "B1",
-   "plural": "die Spitzen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
    "id": "ocr45-w-a6a842ef27",
    "word": "Sportveranstaltung",
    "article": "die",
@@ -40631,76 +24091,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "体育活",
    "level": "B1",
    "plural": "die Sportveranstaltungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-3e22b05467",
-   "word": "Stellung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "地位，职位GB",
-   "level": "B1",
-   "plural": "die Stellungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-fbad3c0dfb",
-   "word": "Stenografie",
-   "article": "die",
-   "pos": "noun",
-   "translation": "速记(13A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-257527a2e1",
-   "word": "Stockwerk",
-   "article": "das",
-   "pos": "noun",
-   "translation": "层，楼(16B",
-   "level": "B1",
-   "plural": "die Stockwerke",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-0131a29686",
-   "word": "Stopp",
-   "article": "der",
-   "pos": "noun",
-   "translation": "停止-(14A",
-   "level": "B1",
-   "plural": "die Stopps",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-fc6044f3e4",
-   "word": "Stoppzzichen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "停车信和号.(12B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-9d1a9c6de0",
-   "word": "Tonband",
-   "article": "das",
-   "pos": "noun",
-   "translation": "录音带(12A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-7d13fe439b",
-   "word": "Traumjob",
-   "article": "der",
-   "pos": "noun",
-   "translation": "理想的工作(6A",
-   "level": "B1",
-   "plural": "die Traumjobs",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
   },
   {
@@ -40724,16 +24114,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
   },
   {
-   "id": "ocr45-w-670cc36ef0",
-   "word": "Übersee",
-   "article": "die",
-   "pos": "noun",
-   "translation": "海外，国外(16B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
    "id": "ocr45-w-f4a9db2722",
    "word": "Umgebungstemperatur",
    "article": "die",
@@ -40741,16 +24121,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "环",
    "level": "B1",
    "plural": "die Umgebungstemperaturen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-4408967d9b",
-   "word": "Untergrundbahn",
-   "article": "die",
-   "pos": "noun",
-   "translation": "地铁(16B",
-   "level": "B1",
-   "plural": "die Untergrundbahnen",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
   },
   {
@@ -40794,91 +24164,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
   },
   {
-   "id": "ocr45-w-fd5adcd289",
-   "word": "Wahlrecht",
-   "article": "das",
-   "pos": "noun",
-   "translation": "选举权，被选举权(8B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-858f738b4e",
-   "word": "Wandlung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "转变，改变(16A",
-   "level": "B1",
-   "plural": "die Wandlungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-4de918f98c",
-   "word": "Warteliste",
-   "article": "die",
-   "pos": "noun",
-   "translation": "预约治疗名单.(1A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-117d6f87df",
-   "word": "Wechsel",
-   "article": "der",
-   "pos": "noun",
-   "translation": "更换,变换,变动(13A",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-693a3d804c",
-   "word": "Wehrpflicht",
-   "article": "die",
-   "pos": "noun",
-   "translation": "义务兵役(8B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
    "id": "ocr45-w-255b21c6bc",
    "word": "Werdegang",
    "article": "der",
    "pos": "noun",
    "translation": "发展过程，成长过",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-2f494706fb",
-   "word": "Wertung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "价值,评分,计分(9B",
-   "level": "B1",
-   "plural": "die Wertungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-2f336a3ce8",
-   "word": "Wertvorstellung",
-   "article": "die",
-   "pos": "noun",
-   "translation": "价值观念(1A",
-   "level": "B1",
-   "plural": "die Wertvorstellungen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-7d2327034b",
-   "word": "Wettlauf",
-   "article": "der",
-   "pos": "noun",
-   "translation": "赛跑(1A",
    "level": "B1",
    "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
@@ -40904,51 +24194,11 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
   },
   {
-   "id": "ocr45-w-5d102dc461",
-   "word": "Wintersemester",
-   "article": "das",
-   "pos": "noun",
-   "translation": "冬季学期(13B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-a5d3578917",
-   "word": "Wissen",
-   "article": "das",
-   "pos": "noun",
-   "translation": "知识(3B",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-3990054a00",
-   "word": "Zahlreihe",
-   "article": "die",
-   "pos": "noun",
-   "translation": "数列(2B",
-   "level": "B1",
-   "plural": "die Zahlreihen",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
    "id": "ocr45-w-18d46186c1",
    "word": "Zeichensetzung",
    "article": "die",
    "pos": "noun",
    "translation": "标点符号应用",
-   "level": "B1",
-   "plural": "",
-   "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
-  },
-  {
-   "id": "ocr45-w-94b1278421",
-   "word": "Zeitvertreib",
-   "article": "der",
-   "pos": "noun",
-   "translation": "打发时间，消遗(16B",
    "level": "B1",
    "plural": "",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
@@ -40962,6 +24212,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "die Zeugnisabschriften",
    "source": "中级德语_樊迪生等编著_上海：同济大学出版社.pdf · batch4100"
+  },
+  {
+   "id": "ocr45-w-f4721eadfe",
+   "word": "Automat",
+   "article": "der",
+   "pos": "noun",
+   "translation": "自动售票机，也指其他无人服务的设施，如",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语_张意，王丽萍著_北京：中国广播电视出版社.pdf · batch4121"
   },
   {
    "id": "ocr45-w-8c8b7e9110",
@@ -40999,6 +24259,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "合作",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第1册_北京对外贸易学院德语教研组编_北京：商务印书馆 .pdf · batch4122"
+  },
+  {
+   "id": "ocr45-w-6b2a869a46",
+   "word": "Ministerium",
+   "article": "das",
+   "pos": "noun",
+   "translation": "部",
    "level": "B1",
    "plural": "",
    "source": "基础德语教材 第1册_北京对外贸易学院德语教研组编_北京：商务印书馆 .pdf · batch4122"
@@ -41059,16 +24329,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "剧院",
-   "level": "B1",
-   "plural": "",
-   "source": "基础德语教材 第1册_北京对外贸易学院德语教研组编_北京：商务印书馆 .pdf · batch4132"
-  },
-  {
-   "id": "ocr45-w-c796745ee9",
-   "word": "Straßenverkehr",
-   "article": "der",
-   "pos": "noun",
-   "translation": "街道SH",
    "level": "B1",
    "plural": "",
    "source": "基础德语教材 第1册_北京对外贸易学院德语教研组编_北京：商务印书馆 .pdf · batch4132"
@@ -41151,6 +24411,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "国家机关",
    "level": "B1",
    "plural": "die Staatsorgane",
+   "source": "基础德语教材 第1册_北京对外贸易学院德语教研组编_北京：商务印书馆 .pdf · batch4137"
+  },
+  {
+   "id": "ocr45-w-616e08d6c2",
+   "word": "Kind",
+   "article": "das",
+   "pos": "noun",
+   "translation": "孩子",
+   "level": "B1",
+   "plural": "die Kinder",
+   "source": "基础德语教材 第1册_北京对外贸易学院德语教研组编_北京：商务印书馆 .pdf · batch4137"
+  },
+  {
+   "id": "ocr45-w-a152f83346",
+   "word": "Leben",
+   "article": "das",
+   "pos": "noun",
+   "translation": "生活",
+   "level": "B1",
+   "plural": "",
    "source": "基础德语教材 第1册_北京对外贸易学院德语教研组编_北京：商务印书馆 .pdf · batch4137"
   },
   {
@@ -41394,6 +24674,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4217"
   },
   {
+   "id": "ocr45-w-445db5e859",
+   "word": "Notizbuch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "笔记本",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4217"
+  },
+  {
    "id": "ocr45-w-9c55105267",
    "word": "Kommunist",
    "article": "der",
@@ -41402,16 +24692,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4217"
-  },
-  {
-   "id": "ocr45-w-e43678bd66",
-   "word": "Leiter",
-   "article": "der",
-   "pos": "noun",
-   "translation": "领导,主任,ME,kb",
-   "level": "B1",
-   "plural": "",
-   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4222"
   },
   {
    "id": "ocr45-w-8de4ba7ad7",
@@ -41484,6 +24764,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4222"
   },
   {
+   "id": "ocr45-w-b4941b50c1",
+   "word": "Seife",
+   "article": "die",
+   "pos": "noun",
+   "translation": "肥皂",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4222"
+  },
+  {
+   "id": "ocr45-w-712a0e2970",
+   "word": "Strumpf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "袜子",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4222"
+  },
+  {
    "id": "ocr45-w-ffe5f4ad30",
    "word": "Wattejacke",
    "article": "die",
@@ -41492,6 +24792,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "die Wattejacken",
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4222"
+  },
+  {
+   "id": "ocr45-w-2f940f61f8",
+   "word": "Partei",
+   "article": "die",
+   "pos": "noun",
+   "translation": "政党,党派",
+   "level": "B1",
+   "plural": "die Parteien",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4227"
   },
   {
    "id": "ocr45-w-786542638d",
@@ -41704,6 +25014,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4237"
   },
   {
+   "id": "ocr45-w-9d1a9c6de0",
+   "word": "Tonband",
+   "article": "das",
+   "pos": "noun",
+   "translation": "录音,录音带",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4237"
+  },
+  {
    "id": "ocr45-w-ef9cc53301",
    "word": "Volkslied",
    "article": "das",
@@ -41794,6 +25114,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4242"
   },
   {
+   "id": "ocr45-w-325441dd36",
+   "word": "Spielfilm",
+   "article": "der",
+   "pos": "noun",
+   "translation": "故事片",
+   "level": "B1",
+   "plural": "die Spielfilme",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4242"
+  },
+  {
    "id": "ocr45-w-9e8a0b296e",
    "word": "Kampf",
    "article": "der",
@@ -41811,6 +25141,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "translation": "课堂作",
    "level": "B1",
    "plural": "die Kjassenarbeiten",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4242"
+  },
+  {
+   "id": "ocr45-w-50859f1b40",
+   "word": "Ausleihe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "借书处",
+   "level": "B1",
+   "plural": "die Ausleihen",
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4242"
   },
   {
@@ -41904,6 +25244,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4247"
   },
   {
+   "id": "ocr45-w-5d0a4167d3",
+   "word": "Sporthalle",
+   "article": "die",
+   "pos": "noun",
+   "translation": "体育馆",
+   "level": "B1",
+   "plural": "die Sporthallen",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4247"
+  },
+  {
    "id": "ocr45-w-d430ffb030",
    "word": "Arbeiterstadion",
    "article": "das",
@@ -41994,11 +25344,41 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4252"
   },
   {
+   "id": "ocr45-w-d8c9c31345",
+   "word": "Journalist",
+   "article": "der",
+   "pos": "noun",
+   "translation": "新闻记者",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4256"
+  },
+  {
+   "id": "ocr45-w-b17c8eea3f",
+   "word": "Elektriker",
+   "article": "der",
+   "pos": "noun",
+   "translation": "电工",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4256"
+  },
+  {
    "id": "ocr45-w-73a7cb587d",
    "word": "Buchhalter",
    "article": "der",
    "pos": "noun",
    "translation": "会计",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4256"
+  },
+  {
+   "id": "ocr45-w-bb3f16589c",
+   "word": "Geschäftsmann",
+   "article": "der",
+   "pos": "noun",
+   "translation": "商人",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4256"
@@ -42094,21 +25474,21 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4257"
   },
   {
-   "id": "ocr45-w-a32fe88b5a",
-   "word": "Meßgerät",
-   "article": "das",
-   "pos": "noun",
-   "translation": "这里:(La.",
-   "level": "B1",
-   "plural": "die Meßgeräte",
-   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4257"
-  },
-  {
    "id": "ocr45-w-1a56159fd4",
    "word": "Weltraumfahrt",
    "article": "die",
    "pos": "noun",
    "translation": "字宙航行",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4257"
+  },
+  {
+   "id": "ocr45-w-86a0007115",
+   "word": "Erde",
+   "article": "die",
+   "pos": "noun",
+   "translation": "地球,地面,泥土",
    "level": "B1",
    "plural": "",
    "source": "基础德语教材 第2册_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4257"
@@ -42304,6 +25684,36 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4261"
   },
   {
+   "id": "ocr45-w-e984cdd98a",
+   "word": "Tochter",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女儿",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4261"
+  },
+  {
+   "id": "ocr45-w-750ac0a45d",
+   "word": "Enkel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "孙子",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4261"
+  },
+  {
+   "id": "ocr45-w-f21d48a49b",
+   "word": "Enkelin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "孙女",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4261"
+  },
+  {
    "id": "ocr45-w-9f398b6a3a",
    "word": "Friulein",
    "article": "das",
@@ -42414,6 +25824,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4261"
   },
   {
+   "id": "ocr45-w-8d5a57e0a5",
+   "word": "Gepäckwagen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "行李车",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4261"
+  },
+  {
    "id": "ocr45-w-050b2a9810",
    "word": "Experiment",
    "article": "das",
@@ -42519,6 +25939,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "遗传学",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4266"
+  },
+  {
+   "id": "ocr45-w-615b4d2abb",
+   "word": "Astronomie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "天文学",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4266"
@@ -42854,6 +26284,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4271"
   },
   {
+   "id": "ocr45-w-bd5dce9ecc",
+   "word": "Kommissar",
+   "article": "der",
+   "pos": "noun",
+   "translation": "专员",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4271"
+  },
+  {
    "id": "ocr45-w-0358e13661",
    "word": "Einreiseantrag",
    "article": "der",
@@ -42944,11 +26384,41 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4271"
   },
   {
+   "id": "ocr45-w-1b9f69eae2",
+   "word": "Fußgänger",
+   "article": "der",
+   "pos": "noun",
+   "translation": "步行者,行人",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4271"
+  },
+  {
    "id": "ocr45-w-8a701a35d1",
    "word": "Bus-Haltestelle",
    "article": "die",
    "pos": "noun",
    "translation": "公交车站",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4271"
+  },
+  {
+   "id": "ocr45-w-91c2071b53",
+   "word": "Zebrastreifen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "人行横道",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4271"
+  },
+  {
+   "id": "ocr45-w-0336ca8a22",
+   "word": "Verkehrsinsel",
+   "article": "die",
+   "pos": "noun",
+   "translation": "安全岛",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4271"
@@ -43079,6 +26549,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "床单",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4276"
+  },
+  {
+   "id": "ocr45-w-312f358d9e",
+   "word": "Wasserhahn",
+   "article": "der",
+   "pos": "noun",
+   "translation": "水龙头",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4276"
+  },
+  {
+   "id": "ocr45-w-0166c7fa7e",
+   "word": "Kleiderschrank",
+   "article": "der",
+   "pos": "noun",
+   "translation": "衣柜,衣橱",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4276"
@@ -43239,6 +26729,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "航空标签",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4286"
+  },
+  {
+   "id": "ocr45-w-976b444f2c",
+   "word": "Postkarte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "明信片",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4286"
@@ -43444,6 +26944,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4286"
   },
   {
+   "id": "ocr45-w-cceba75c80",
+   "word": "Gericht",
+   "article": "das",
+   "pos": "noun",
+   "translation": "菜,一道菜",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4291"
+  },
+  {
+   "id": "ocr45-w-323cdded80",
+   "word": "Restaurant",
+   "article": "das",
+   "pos": "noun",
+   "translation": "饭店,餐馆",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4291"
+  },
+  {
    "id": "ocr45-w-0832b2afae",
    "word": "Gasthaus",
    "article": "das",
@@ -43494,11 +27014,51 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
   },
   {
+   "id": "ocr45-w-1b692d2246",
+   "word": "Senf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "芥末",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
+  },
+  {
    "id": "ocr45-w-21848b9077",
    "word": "Salatöl",
    "article": "das",
    "pos": "noun",
    "translation": "色拉油",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
+  },
+  {
+   "id": "ocr45-w-dbb6df7f7a",
+   "word": "Teller",
+   "article": "der",
+   "pos": "noun",
+   "translation": "盘子",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
+  },
+  {
+   "id": "ocr45-w-a5f0ced4bb",
+   "word": "Becher",
+   "article": "der",
+   "pos": "noun",
+   "translation": "杯子",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
+  },
+  {
+   "id": "ocr45-w-e3dab84fbd",
+   "word": "Weinglas",
+   "article": "das",
+   "pos": "noun",
+   "translation": "酒杯",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
@@ -43514,6 +27074,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
   },
   {
+   "id": "ocr45-w-8b16c72e01",
+   "word": "Serviette",
+   "article": "die",
+   "pos": "noun",
+   "translation": "餐巾,餐纸",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
+  },
+  {
    "id": "ocr45-w-e14f2b4ec1",
    "word": "Suite",
    "article": "die",
@@ -43524,11 +27094,31 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
   },
   {
+   "id": "ocr45-w-5f21c6f616",
+   "word": "Einzelzimmer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "单人房间",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
+  },
+  {
    "id": "ocr45-w-e7a0c28148",
    "word": "Schwimmhalle",
    "article": "die",
    "pos": "noun",
    "translation": "游泳馆",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
+  },
+  {
+   "id": "ocr45-w-e2206d8601",
+   "word": "Schwimmbad",
+   "article": "das",
+   "pos": "noun",
+   "translation": "游泳池",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4296"
@@ -43614,6 +27204,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4301"
   },
   {
+   "id": "ocr45-w-9db825c58c",
+   "word": "Lilie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "百合花",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4301"
+  },
+  {
    "id": "ocr45-w-e7128abbb3",
    "word": "Hahnenkamm",
    "article": "der",
@@ -43639,6 +27239,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "仙客来",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4301"
+  },
+  {
+   "id": "ocr45-w-81747d3587",
+   "word": "Narzisse",
+   "article": "die",
+   "pos": "noun",
+   "translation": "水仙",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4301"
@@ -43744,6 +27354,26 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4306"
   },
   {
+   "id": "ocr45-w-3de4504a15",
+   "word": "Pfirsich",
+   "article": "der",
+   "pos": "noun",
+   "translation": "桃子",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4306"
+  },
+  {
+   "id": "ocr45-w-780af232b8",
+   "word": "Traube",
+   "article": "die",
+   "pos": "noun",
+   "translation": "葡萄",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4306"
+  },
+  {
    "id": "ocr45-w-0471b51230",
    "word": "Kirsche",
    "article": "die",
@@ -43824,6 +27454,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4306"
   },
   {
+   "id": "ocr45-w-bb80b7def1",
+   "word": "Reißverschluss",
+   "article": "der",
+   "pos": "noun",
+   "translation": "拉链",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4306"
+  },
+  {
    "id": "ocr45-w-7f515b6fea",
    "word": "Garantieschein",
    "article": "der",
@@ -43874,6 +27514,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4311"
   },
   {
+   "id": "ocr45-w-bdcdbc1b83",
+   "word": "Becken",
+   "article": "das",
+   "pos": "noun",
+   "translation": "骨盆",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4311"
+  },
+  {
    "id": "ocr45-w-8e7ae28265",
    "word": "Blase",
    "article": "die",
@@ -43909,6 +27559,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "血压",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4311"
+  },
+  {
+   "id": "ocr45-w-8626564633",
+   "word": "Brust",
+   "article": "die",
+   "pos": "noun",
+   "translation": "胸(膛",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4311"
@@ -43974,6 +27634,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4311"
   },
   {
+   "id": "ocr45-w-655eed5320",
+   "word": "Desinfektionsmittel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "消毒剂",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4311"
+  },
+  {
    "id": "ocr45-w-ec8f925c56",
    "word": "Walzstahlprojekt",
    "article": "das",
@@ -44004,21 +27674,31 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4316"
   },
   {
-   "id": "ocr45-w-4a7f599478",
-   "word": "Wischerei",
-   "article": "die",
-   "pos": "noun",
-   "translation": "洗衣店〈湿洗》",
-   "level": "B1",
-   "plural": "",
-   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4316"
-  },
-  {
    "id": "ocr45-w-7f9411f65f",
    "word": "Waschsalon",
    "article": "der",
    "pos": "noun",
    "translation": "自动洗衣店",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4316"
+  },
+  {
+   "id": "ocr45-w-139c2e090c",
+   "word": "Waschmaschine",
+   "article": "die",
+   "pos": "noun",
+   "translation": "洗衣机",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4316"
+  },
+  {
+   "id": "ocr45-w-e12fea6adf",
+   "word": "Waschpulver",
+   "article": "das",
+   "pos": "noun",
+   "translation": "洗衣粉",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4316"
@@ -44154,6 +27834,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第3册 基础教程第十七至第三十二课_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4317"
   },
   {
+   "id": "ocr45-w-70cbb3dce1",
+   "word": "Hochsprung",
+   "article": "der",
+   "pos": "noun",
+   "translation": "跳高",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第3册 基础教程第十七至第三十二课_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4317"
+  },
+  {
    "id": "ocr45-w-eb0a9c6360",
    "word": "Attribütsatz",
    "article": "der",
@@ -44244,11 +27934,31 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
   },
   {
+   "id": "ocr45-w-acad5f8584",
+   "word": "Locher",
+   "article": "der",
+   "pos": "noun",
+   "translation": "剪票器",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
+  },
+  {
    "id": "ocr45-w-ae83e5cdec",
    "word": "Bühnenkunst",
    "article": "die",
    "pos": "noun",
    "translation": "舞台艺术",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
+  },
+  {
+   "id": "ocr45-w-bd43105440",
+   "word": "Oper",
+   "article": "die",
+   "pos": "noun",
+   "translation": "歌剧",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
@@ -44284,6 +27994,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
   },
   {
+   "id": "ocr45-w-fad0f3a8cb",
+   "word": "Spiel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "做功",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
+  },
+  {
    "id": "ocr45-w-0185bb27fa",
    "word": "Sinfonieorchester",
    "article": "das",
@@ -44309,6 +28029,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "歌剧作曲者",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
+  },
+  {
+   "id": "ocr45-w-25bc193b6b",
+   "word": "Schauspieler",
+   "article": "der",
+   "pos": "noun",
+   "translation": "演员",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4321"
@@ -44384,6 +28114,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "基础德语教材 第3册 基础教程第十七至第三十二课_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4322"
   },
   {
+   "id": "ocr45-w-d2742784ea",
+   "word": "Textilindustrie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "纺织工业",
+   "level": "B1",
+   "plural": "",
+   "source": "基础德语教材 第3册 基础教程第十七至第三十二课_北京对外贸易学院德语教研室编_北京：商务印书馆 .pdf · batch4322"
+  },
+  {
    "id": "ocr45-w-4c86e805bb",
    "word": "Hainän-Insel",
    "article": "die",
@@ -44419,6 +28159,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "总经理",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4326"
+  },
+  {
+   "id": "ocr45-w-90cd5804b7",
+   "word": "Direktor",
+   "article": "der",
+   "pos": "noun",
+   "translation": "经理",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4326"
@@ -44499,6 +28249,36 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "der",
    "pos": "noun",
    "translation": "天然公园",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4326"
+  },
+  {
+   "id": "ocr45-w-72b4088c2c",
+   "word": "Umgebung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "四周环境",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4326"
+  },
+  {
+   "id": "ocr45-w-58f8d4c480",
+   "word": "Reisebus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "旅游车",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4326"
+  },
+  {
+   "id": "ocr45-w-929e530ddb",
+   "word": "Empfang",
+   "article": "der",
+   "pos": "noun",
+   "translation": "招待会",
    "level": "B1",
    "plural": "",
    "source": "实用德语口语大全_庄盛洁，黄舒婷编著_上海：同济大学出版社.pdf · batch4326"
@@ -45114,6 +28894,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "实用德语语法_张才尧编_北京：外语教学与研究出版社.pdf · batch4421"
   },
   {
+   "id": "ocr45-w-2437edd43d",
+   "word": "Gehalt",
+   "article": "das",
+   "pos": "noun",
+   "translation": "工资",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语语法_张才尧编_北京：外语教学与研究出版社.pdf · batch4421"
+  },
+  {
    "id": "ocr45-w-e454f34bc7",
    "word": "Gummi",
    "article": "der",
@@ -45129,6 +28919,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "das",
    "pos": "noun",
    "translation": "橡胶",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语语法_张才尧编_北京：外语教学与研究出版社.pdf · batch4421"
+  },
+  {
+   "id": "ocr45-w-c219ff99f0",
+   "word": "Hut",
+   "article": "die",
+   "pos": "noun",
+   "translation": "保护",
    "level": "B1",
    "plural": "",
    "source": "实用德语语法_张才尧编_北京：外语教学与研究出版社.pdf · batch4421"
@@ -45159,6 +28959,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "article": "die",
    "pos": "noun",
    "translation": "消息",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语语法_张才尧编_北京：外语教学与研究出版社.pdf · batch4421"
+  },
+  {
+   "id": "ocr45-w-e43678bd66",
+   "word": "Leiter",
+   "article": "der",
+   "pos": "noun",
+   "translation": "领导",
    "level": "B1",
    "plural": "",
    "source": "实用德语语法_张才尧编_北京：外语教学与研究出版社.pdf · batch4421"
@@ -45372,2649 +29182,8859 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "B1",
    "plural": "",
    "source": "基础德语教材 第三册_北京对外贸易学院德语教研室编_商务印书馆 .pdf · batch4447"
+  },
+  {
+   "id": "ocr45-w-510effae07",
+   "word": "Heldentum",
+   "article": "das",
+   "pos": "noun",
+   "translation": "英雄气概",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语语法_张才尧编_北京：外语教学与研究出版社.pdf · batch4506"
+  },
+  {
+   "id": "ocr45-w-3e48ce7ecf",
+   "word": "Vater",
+   "article": "die",
+   "pos": "noun",
+   "translation": "父亲",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4516"
+  },
+  {
+   "id": "ocr45-w-822ef8cd44",
+   "word": "Öfen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "炉子",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4516"
+  },
+  {
+   "id": "ocr45-w-51ff3d2b98",
+   "word": "Lager",
+   "article": "die",
+   "pos": "noun",
+   "translation": "阵营",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4516"
+  },
+  {
+   "id": "ocr45-w-9372d53cef",
+   "word": "Banner",
+   "article": "die",
+   "pos": "noun",
+   "translation": "旗帜",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4516"
+  },
+  {
+   "id": "ocr45-w-f45cbc10fd",
+   "word": "Gebirge",
+   "article": "die",
+   "pos": "noun",
+   "translation": "山岭，山脉",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4516"
+  },
+  {
+   "id": "ocr45-w-780ea23eae",
+   "word": "Midchen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "小女孩",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语 德语入门必修5堂课_王蕾编著；（德）VESNAPETKOVIC审校_北京：化学工业出版社.pdf · batch4555"
+  },
+  {
+   "id": "ocr45-w-0d2b49673b",
+   "word": "Ano",
+   "article": "das",
+   "pos": "noun",
+   "translation": "汽车",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语 德语入门必修5堂课_王蕾编著；（德）VESNAPETKOVIC审校_北京：化学工业出版社.pdf · batch4555"
+  },
+  {
+   "id": "ocr45-w-bb2da6b83a",
+   "word": "Autokratie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "独裁",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4581"
+  },
+  {
+   "id": "ocr45-w-572f9a95da",
+   "word": "Philatelie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "集邮",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4581"
+  },
+  {
+   "id": "ocr45-w-14e21bd4ad",
+   "word": "Vizepremier",
+   "article": "der",
+   "pos": "noun",
+   "translation": "副总理",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4581"
+  },
+  {
+   "id": "ocr45-w-c0c7306b81",
+   "word": "Aufschneiderei",
+   "article": "die",
+   "pos": "noun",
+   "translation": "吹牛皮",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4581"
+  },
+  {
+   "id": "ocr45-w-6ba6bc1068",
+   "word": "Selbstgeniigsamkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "自给自足",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4581"
+  },
+  {
+   "id": "ocr45-w-e8128a9123",
+   "word": "Kriminalroman",
+   "article": "der",
+   "pos": "noun",
+   "translation": "侦探小说",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4581"
+  },
+  {
+   "id": "ocr45-w-6499628c60",
+   "word": "Realeinkommen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "实际收入",
+   "level": "B1",
+   "plural": "",
+   "source": "实用英语德语比较语法_芦力军编著_北京：外语教学与研究出版社.pdf · batch4581"
+  },
+  {
+   "id": "ocr45-w-98cde91bc1",
+   "word": "Wohnzustand",
+   "article": "der",
+   "pos": "noun",
+   "translation": "居住状况",
+   "level": "B1",
+   "plural": "die Wohnzustande",
+   "source": "大学德语教程 1_虞龙发，刘炜主编；陈琦，李崇艺副主编；冯志霞，刘炜，李崇艺，吴丽丽，陈婷，陈琦，罗琛，范黎坤，聂发，虞龙发编写组_上海：同济大学出版社.pdf · batch4597"
+  },
+  {
+   "id": "ocr45-w-3c26066cd2",
+   "word": "Zimmersuche",
+   "article": "die",
+   "pos": "noun",
+   "translation": "找房子",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 1_虞龙发，刘炜主编；陈琦，李崇艺副主编；冯志霞，刘炜，李崇艺，吴丽丽，陈婷，陈琦，罗琛，范黎坤，聂发，虞龙发编写组_上海：同济大学出版社.pdf · batch4597"
+  },
+  {
+   "id": "ocr45-w-114f5ca891",
+   "word": "Quadratmeter",
+   "article": "das",
+   "pos": "noun",
+   "translation": "平方米",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 1_虞龙发，刘炜主编；陈琦，李崇艺副主编；冯志霞，刘炜，李崇艺，吴丽丽，陈婷，陈琦，罗琛，范黎坤，聂发，虞龙发编写组_上海：同济大学出版社.pdf · batch4597"
+  },
+  {
+   "id": "ocr45-w-133ca4a0f3",
+   "word": "Ubung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "练习",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语 德语入门必修5堂课_王蕾编著；（德）VESNAPETKOVIC审校_北京：化学工业出版社.pdf · batch4600"
+  },
+  {
+   "id": "ocr45-w-4fb50da699",
+   "word": "Zugfahrt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "乘坐火车",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 1_虞龙发，刘炜主编；陈琦，李崇艺副主编；冯志霞，刘炜，李崇艺，吴丽丽，陈婷，陈琦，罗琛，范黎坤，聂发，虞龙发编写组_上海：同济大学出版社.pdf · batch4602"
+  },
+  {
+   "id": "ocr45-w-7660eab3bc",
+   "word": "Termin-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "日期",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 1_虞龙发，刘炜主编；陈琦，李崇艺副主编；冯志霞，刘炜，李崇艺，吴丽丽，陈婷，陈琦，罗琛，范黎坤，聂发，虞龙发编写组_上海：同济大学出版社.pdf · batch4602"
+  },
+  {
+   "id": "ocr45-w-e251051e66",
+   "word": "Arzt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "医生",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语 德语入门必修5堂课_王蕾编著；（德）VESNAPETKOVIC审校_北京：化学工业出版社.pdf · batch4605"
+  },
+  {
+   "id": "ocr45-w-ac40d686a3",
+   "word": "Schule",
+   "article": "die",
+   "pos": "noun",
+   "translation": "学校",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语 德语入门必修5堂课_王蕾编著；（德）VESNAPETKOVIC审校_北京：化学工业出版社.pdf · batch4605"
+  },
+  {
+   "id": "ocr45-w-75cbc96d31",
+   "word": "Dialog",
+   "article": "der",
+   "pos": "noun",
+   "translation": "对话",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语 德语入门必修5堂课_王蕾编著；（德）VESNAPETKOVIC审校_北京：化学工业出版社.pdf · batch4605"
+  },
+  {
+   "id": "ocr45-w-588bd0dcb3",
+   "word": "Biirohilfe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "文秘",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 1_虞龙发，刘炜主编；陈琦，李崇艺副主编；冯志霞，刘炜，李崇艺，吴丽丽，陈婷，陈琦，罗琛，范黎坤，聂发，虞龙发编写组_上海：同济大学出版社.pdf · batch4607"
+  },
+  {
+   "id": "ocr45-w-1f350c6b9f",
+   "word": "Zähne",
+   "article": "die",
+   "pos": "noun",
+   "translation": "牙齿",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语 德语入门必修5堂课_王蕾编著；（德）VESNAPETKOVIC审校_北京：化学工业出版社.pdf · batch4610"
+  },
+  {
+   "id": "ocr45-w-06d7c8cbdd",
+   "word": "Fanatiker",
+   "article": "der",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 三年级 下_徐智儿编_上海：上海外语教育出版社.pdf · batch4627"
+  },
+  {
+   "id": "ocr45-w-a4f520125d",
+   "word": "Häusler",
+   "article": "der",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 三年级 下_徐智儿编_上海：上海外语教育出版社.pdf · batch4642"
+  },
+  {
+   "id": "ocr45-w-f5b4a0b661",
+   "word": "Großmutter",
+   "article": "die",
+   "pos": "noun",
+   "translation": "祖母",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4665"
+  },
+  {
+   "id": "ocr45-w-e69c38936a",
+   "word": "WG",
+   "article": "die",
+   "pos": "noun",
+   "translation": "合租",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4665"
+  },
+  {
+   "id": "ocr45-w-5af39f5370",
+   "word": "Angestellte",
+   "article": "der",
+   "pos": "noun",
+   "translation": "职员",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-b439544c17",
+   "word": "Uni-Abschluss",
+   "article": "der",
+   "pos": "noun",
+   "translation": "大学毕业",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-fb6ff2b7a7",
+   "word": "Schulabschluss",
+   "article": "der",
+   "pos": "noun",
+   "translation": "中学毕业",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-d58afdcd6c",
+   "word": "Ernährung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "营养",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-9a484a4991",
+   "word": "Anprobe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "试衣间",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-f37bf7479e",
+   "word": "Rock",
+   "article": "der",
+   "pos": "noun",
+   "translation": "腰裙",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-97e6073264",
+   "word": "Mütze",
+   "article": "die",
+   "pos": "noun",
+   "translation": "帽子",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-5d3a2316af",
+   "word": "Vertrauen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "信任",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-ed5a413f95",
+   "word": "Brieftasche",
+   "article": "die",
+   "pos": "noun",
+   "translation": "钱包",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-2c82d6793f",
+   "word": "Belastung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "负担",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-99a0bafb3e",
+   "word": "Lappe",
+   "article": "der",
+   "pos": "noun",
+   "translation": "抹布",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-04220eb10b",
+   "word": "Putzfrau",
+   "article": "die",
+   "pos": "noun",
+   "translation": "保洁女工",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-694f7a2dd9",
+   "word": "Müll",
+   "article": "der",
+   "pos": "noun",
+   "translation": "垃圾",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4670"
+  },
+  {
+   "id": "ocr45-w-1912a50bc0",
+   "word": "Superstar",
+   "article": "der",
+   "pos": "noun",
+   "translation": "巨星",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-71d8989ad4",
+   "word": "Moderator",
+   "article": "der",
+   "pos": "noun",
+   "translation": "主持人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-96e831e271",
+   "word": "Fernbedienung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "遥控器",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-5b9cd14894",
+   "word": "Sendezeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "播放时间",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-5162aee828",
+   "word": "Programmvorschau",
+   "article": "die",
+   "pos": "noun",
+   "translation": "竹目预告",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-c4cc9c3b0a",
+   "word": "Serie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "连续剧",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-46a4dd1bec",
+   "word": "Ansprechpartner",
+   "article": "der",
+   "pos": "noun",
+   "translation": "联系人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-389c6607bd",
+   "word": "Ratgeber",
+   "article": "der",
+   "pos": "noun",
+   "translation": "建议者，顾问",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4675"
+  },
+  {
+   "id": "ocr45-w-0e26a5e53c",
+   "word": "Entziindung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "发炎",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-754cb78050",
+   "word": "Schutz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "保护",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-be701e2695",
+   "word": "Abfall",
+   "article": "der",
+   "pos": "noun",
+   "translation": "垃圾",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-c98e35023b",
+   "word": "Umtausch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "交换",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-7a97b59cf5",
+   "word": "Erstattung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "退款",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-42dd671027",
+   "word": "Welle",
+   "article": "die",
+   "pos": "noun",
+   "translation": "波浪",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-bd1bf13b1a",
+   "word": "Haaransatz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "发根",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-5b43fff67e",
+   "word": "Empfänger",
+   "article": "der",
+   "pos": "noun",
+   "translation": "收信人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4680"
+  },
+  {
+   "id": "ocr45-w-808147b9c2",
+   "word": "Hauptwohnsitz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "主要居住地",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-b40200e300",
+   "word": "Ausweisinhaber",
+   "article": "der",
+   "pos": "noun",
+   "translation": "证件持有人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-1b41565262",
+   "word": "Gebühr",
+   "article": "die",
+   "pos": "noun",
+   "translation": "费用",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-c20a996b57",
+   "word": "Eindruck",
+   "article": "der",
+   "pos": "noun",
+   "translation": "印象",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-237b952a86",
+   "word": "Meeresfrucht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "海鲜",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-47397c1d81",
+   "word": "Fluss",
+   "article": "der",
+   "pos": "noun",
+   "translation": "河",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-53a20ed90e",
+   "word": "Wald",
+   "article": "der",
+   "pos": "noun",
+   "translation": "森林",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-07351a8e24",
+   "word": "Supermarkt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "超市",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-09ae9763a4",
+   "word": "Einzelhandel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "零售",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-ef2063cfd6",
+   "word": "Nicht-Raucher",
+   "article": "der",
+   "pos": "noun",
+   "translation": "不吸烟者",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-d5fc21b2d6",
+   "word": "Öffentlichkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "公共场所",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-810abdf10e",
+   "word": "Verbot",
+   "article": "das",
+   "pos": "noun",
+   "translation": "禁止",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-095522bf06",
+   "word": "Doktor",
+   "article": "der",
+   "pos": "noun",
+   "translation": "博主",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4685"
+  },
+  {
+   "id": "ocr45-w-e88909decf",
+   "word": "Gemeinde",
+   "article": "die",
+   "pos": "noun",
+   "translation": "社区",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4690"
+  },
+  {
+   "id": "ocr45-w-f02c8cc62f",
+   "word": "Dienst",
+   "article": "der",
+   "pos": "noun",
+   "translation": "职务，工作",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4690"
+  },
+  {
+   "id": "ocr45-w-39d46f8ae7",
+   "word": "Doktorarbeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "博士毕业论文",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4690"
+  },
+  {
+   "id": "ocr45-w-b019ae96ec",
+   "word": "Aufmerksamkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "注意力",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4690"
+  },
+  {
+   "id": "ocr45-w-8e11ba8322",
+   "word": "Examen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "考试",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4690"
+  },
+  {
+   "id": "ocr45-w-0562d06896",
+   "word": "Schein",
+   "article": "der",
+   "pos": "noun",
+   "translation": "证明",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4690"
+  },
+  {
+   "id": "ocr45-w-a2c0c3500e",
+   "word": "Schwerpunkt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "重点",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4690"
+  },
+  {
+   "id": "ocr45-w-289fce1bc6",
+   "word": "Picknickdecke",
+   "article": "die",
+   "pos": "noun",
+   "translation": "野餐用的毯子",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-ea8beca543",
+   "word": "Team",
+   "article": "das",
+   "pos": "noun",
+   "translation": "团队",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-baed25b6f5",
+   "word": "Sachbearbeiter",
+   "article": "der",
+   "pos": "noun",
+   "translation": "经办人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-31528378fa",
+   "word": "Projekt",
+   "article": "das",
+   "pos": "noun",
+   "translation": "项目",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-1d9231214f",
+   "word": "Kundenbetreuer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "客户专员",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-0d7b45f290",
+   "word": "Arbeitsklima",
+   "article": "das",
+   "pos": "noun",
+   "translation": "工作气氛",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-b926feb6fb",
+   "word": "Lohnerhöhung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "涨工资",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-80564eaaeb",
+   "word": "Vertrieb",
+   "article": "der",
+   "pos": "noun",
+   "translation": "销售，推销",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-6cb8eea71b",
+   "word": "Beurlaubung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "休假",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-a905963027",
+   "word": "Su",
+   "article": "der",
+   "pos": "noun",
+   "translation": "压力",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-c0a58880ca",
+   "word": "Hochzeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "婚礼",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-1c6b12641a",
+   "word": "Betrug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "欺诈",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4695"
+  },
+  {
+   "id": "ocr45-w-56cad94009",
+   "word": "Butler",
+   "article": "der",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 三年级上_徐智儿编_上海：上海外语教育出版社.pdf · batch4697"
+  },
+  {
+   "id": "ocr45-w-e325860894",
+   "word": "Seitensprung",
+   "article": "der",
+   "pos": "noun",
+   "translation": "外遇",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-22b4f3d373",
+   "word": "Männertyp",
+   "article": "der",
+   "pos": "noun",
+   "translation": "男人类型",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-fe41946055",
+   "word": "Liebeskummer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "失恋",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-eda85b0ef3",
+   "word": "Liebeserklärung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "爱情表白",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-f393334f98",
+   "word": "Deutsche",
+   "article": "der",
+   "pos": "noun",
+   "translation": "德国男人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-b53b6f8d6e",
+   "word": "Vergnügungspark",
+   "article": "der",
+   "pos": "noun",
+   "translation": "游乐场",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-c12c9f0778",
+   "word": "Ausschreibung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "招标",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-2e211dbafb",
+   "word": "Konkurrent",
+   "article": "der",
+   "pos": "noun",
+   "translation": "竞争者",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-235a431af6",
+   "word": "Abendgarderobe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "晚礼服",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-a55a538ead",
+   "word": "Sakkoanzug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "休闲西服",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-6103231a7c",
+   "word": "Krawatte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "领带",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-1666ee9ad1",
+   "word": "Aussteller",
+   "article": "der",
+   "pos": "noun",
+   "translation": "参展方",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-2ea913d0de",
+   "word": "Antrieb",
+   "article": "der",
+   "pos": "noun",
+   "translation": "驱动",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-6a9de58b9b",
+   "word": "Eintrittskarte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "门票",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-38548df95b",
+   "word": "Verkehrseinschränkung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "交通管制",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-1c873f4583",
+   "word": "Schaden",
+   "article": "der",
+   "pos": "noun",
+   "translation": "损失",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-32477ddf55",
+   "word": "Gläubige",
+   "article": "der",
+   "pos": "noun",
+   "translation": "信徒",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-0f975e304b",
+   "word": "Entsendung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "下",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-c435e05427",
+   "word": "Ruhetag",
+   "article": "der",
+   "pos": "noun",
+   "translation": "休息日",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4700"
+  },
+  {
+   "id": "ocr45-w-e3d4b0adfd",
+   "word": "Fußballspieler",
+   "article": "der",
+   "pos": "noun",
+   "translation": "足球运动员",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-c0f211905f",
+   "word": "Mannschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "球队",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-ad1d0fd645",
+   "word": "Nationalmannschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "国家队",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-5cdf1bc4b3",
+   "word": "Tor",
+   "article": "das",
+   "pos": "noun",
+   "translation": "球门",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-bba1107cf4",
+   "word": "Auslosung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "抽签",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-e440fcab2e",
+   "word": "Kapitän",
+   "article": "der",
+   "pos": "noun",
+   "translation": "队长",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-2ae272ff11",
+   "word": "Bundesliga",
+   "article": "die",
+   "pos": "noun",
+   "translation": "德国足球联合会",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-ca5966d563",
+   "word": "Spielfeld",
+   "article": "das",
+   "pos": "noun",
+   "translation": "球场",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-618ec8b45a",
+   "word": "Bürgermeister",
+   "article": "der",
+   "pos": "noun",
+   "translation": "市长",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-476c881022",
+   "word": "Festzelt",
+   "article": "das",
+   "pos": "noun",
+   "translation": "节日帐篷",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-31811c14f9",
+   "word": "Maßkrug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "啤酒本",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-593a457e10",
+   "word": "Bierkonsum",
+   "article": "der",
+   "pos": "noun",
+   "translation": "了啤酒消费",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-fd75664037",
+   "word": "Alkoholgehalt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "酒精含量",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-e2d3ea7cd1",
+   "word": "Vorfrühling",
+   "article": "der",
+   "pos": "noun",
+   "translation": "早春",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-503575fca5",
+   "word": "Karnevalsumzug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "党年八游行",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-bb4184a8f9",
+   "word": "Maske",
+   "article": "die",
+   "pos": "noun",
+   "translation": "面具",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-e926b8e809",
+   "word": "Kölner",
+   "article": "der",
+   "pos": "noun",
+   "translation": "科隆人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-d6195bf892",
+   "word": "Stadtviertel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "城区",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-2c2c727cae",
+   "word": "Bundeskanzlerin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女总理",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-5f2fd87b8f",
+   "word": "Integration",
+   "article": "die",
+   "pos": "noun",
+   "translation": "融合",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-53e0ff3536",
+   "word": "Geisteswissenschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "人文科学",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-25f54544de",
+   "word": "Ethik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "伦理学",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-5c18803ea1",
+   "word": "Handeln",
+   "article": "das",
+   "pos": "noun",
+   "translation": "行动",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4705"
+  },
+  {
+   "id": "ocr45-w-bf1e6b9cc9",
+   "word": "August",
+   "article": "der",
+   "pos": "noun",
+   "translation": "八月",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4710"
+  },
+  {
+   "id": "ocr45-w-e52d2a5648",
+   "word": "Sonnenschein",
+   "article": "der",
+   "pos": "noun",
+   "translation": "阳光",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4710"
+  },
+  {
+   "id": "ocr45-w-afccf32500",
+   "word": "Lösung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "答案",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语这本就够 第2版_亦心，（德）弗洛伊德编_北京：中国纺织出版社.pdf · batch4710"
+  },
+  {
+   "id": "ocr45-w-76b6b51e13",
+   "word": "Einkaufszentrum",
+   "article": "das",
+   "pos": "noun",
+   "translation": "购物中心",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，“袋”着走_（德）弗洛伊德编著；亦心译_北京：中国纺织出版社.pdf · batch4755"
+  },
+  {
+   "id": "ocr45-w-173a62a4fe",
+   "word": "Lebensmittel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "食品",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，“袋”着走_（德）弗洛伊德编著；亦心译_北京：中国纺织出版社.pdf · batch4760"
+  },
+  {
+   "id": "ocr45-w-4f09405337",
+   "word": "Weihnachtsmarkt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "圣诞市场",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，“袋”着走_（德）弗洛伊德编著；亦心译_北京：中国纺织出版社.pdf · batch4780"
+  },
+  {
+   "id": "ocr45-w-6092c3cc78",
+   "word": "Spree",
+   "article": "die",
+   "pos": "noun",
+   "translation": "施普雷河，当时是东西柏林的边界",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 四年级用_蔡幼生编著_上海：上海外语教育出版社.pdf · batch4782"
+  },
+  {
+   "id": "ocr45-w-d94e11a513",
+   "word": "Dolmetscherin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "译员(女",
+   "level": "B1",
+   "plural": "die Dolmetscherinnen",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4792"
+  },
+  {
+   "id": "ocr45-w-f5bbc7c56a",
+   "word": "Bundesrepublik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "联邦共和国",
+   "level": "B1",
+   "plural": "die Bundesrepubliken",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4792"
+  },
+  {
+   "id": "ocr45-w-f36dda7355",
+   "word": "Schweinebraten",
+   "article": "der",
+   "pos": "noun",
+   "translation": "炸猪排",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4807"
+  },
+  {
+   "id": "ocr45-w-7b3f3798d1",
+   "word": "Zucker",
+   "article": "der",
+   "pos": "noun",
+   "translation": "糖;食糖.",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4807"
+  },
+  {
+   "id": "ocr45-w-a0a810d0fd",
+   "word": "Birne",
+   "article": "die",
+   "pos": "noun",
+   "translation": "梨子;灯泡",
+   "level": "B1",
+   "plural": "die Birnen",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4807"
+  },
+  {
+   "id": "ocr45-w-777014a823",
+   "word": "Pfeffersteak",
+   "article": "das",
+   "pos": "noun",
+   "translation": "胡椒肉排",
+   "level": "B1",
+   "plural": "die Pfeffersteaks",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4807"
+  },
+  {
+   "id": "ocr45-w-b4eca68022",
+   "word": "Wohl",
+   "article": "das",
+   "pos": "noun",
+   "translation": "身体健康",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4807"
+  },
+  {
+   "id": "ocr45-w-b145c55c65",
+   "word": "Verspätung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "迟到",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4810"
+  },
+  {
+   "id": "ocr45-w-1104f2d251",
+   "word": "Kissen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "软垫",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4812"
+  },
+  {
+   "id": "ocr45-w-2f9ec3884f",
+   "word": "Wartezeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "等候时间",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4815"
+  },
+  {
+   "id": "ocr45-w-d1a6360081",
+   "word": "Bedarf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "需求",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4815"
+  },
+  {
+   "id": "ocr45-w-fd5e011fe2",
+   "word": "Uberraschung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "惊喜",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4815"
+  },
+  {
+   "id": "ocr45-w-d586e40cb0",
+   "word": "Gliickwunschkarte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "贺卡",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4815"
+  },
+  {
+   "id": "ocr45-w-d129b9ccb6",
+   "word": "GruBkarte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "问候卡",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4815"
+  },
+  {
+   "id": "ocr45-w-936811af09",
+   "word": "Verwandten",
+   "article": "die",
+   "pos": "noun",
+   "translation": "亲威",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4815"
+  },
+  {
+   "id": "ocr45-w-6ec34a9364",
+   "word": "Geographie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "地理学",
+   "level": "B1",
+   "plural": "die Geographien",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4817"
+  },
+  {
+   "id": "ocr45-w-cde1552b69",
+   "word": "Fernsehapparat",
+   "article": "der",
+   "pos": "noun",
+   "translation": "电视机",
+   "level": "B1",
+   "plural": "die Fernsehapparate",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4817"
+  },
+  {
+   "id": "ocr45-w-0919a8aa5d",
+   "word": "Eigentum",
+   "article": "das",
+   "pos": "noun",
+   "translation": "所有物，财产",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4820"
+  },
+  {
+   "id": "ocr45-w-007614135c",
+   "word": "Monatsrate",
+   "article": "die",
+   "pos": "noun",
+   "translation": "月分期付款额",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4820"
+  },
+  {
+   "id": "ocr45-w-4cb70853e7",
+   "word": "Empfinger",
+   "article": "der",
+   "pos": "noun",
+   "translation": "收信人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4820"
+  },
+  {
+   "id": "ocr45-w-50dd050ec8",
+   "word": "Einschreiben",
+   "article": "das",
+   "pos": "noun",
+   "translation": "挂号信",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4820"
+  },
+  {
+   "id": "ocr45-w-87f199edbd",
+   "word": "Lichtbild",
+   "article": "das",
+   "pos": "noun",
+   "translation": "证件照",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4820"
+  },
+  {
+   "id": "ocr45-w-184b04245b",
+   "word": "Extraleistung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "额外的",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4820"
+  },
+  {
+   "id": "ocr45-w-d9d5f464a8",
+   "word": "Gebiihr",
+   "article": "die",
+   "pos": "noun",
+   "translation": "费用",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4820"
+  },
+  {
+   "id": "ocr45-w-dd00e67480",
+   "word": "Garderobe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "衣帽间",
+   "level": "B1",
+   "plural": "die Garderoben",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4822"
+  },
+  {
+   "id": "ocr45-w-1f7c9816e8",
+   "word": "Decke",
+   "article": "die",
+   "pos": "noun",
+   "translation": "桌布;被子;床单",
+   "level": "B1",
+   "plural": "die Decken",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4822"
+  },
+  {
+   "id": "ocr45-w-5252647f3a",
+   "word": "Beginn",
+   "article": "der",
+   "pos": "noun",
+   "translation": "开始",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4822"
+  },
+  {
+   "id": "ocr45-w-ce76b7039a",
+   "word": "Feuerwerk",
+   "article": "das",
+   "pos": "noun",
+   "translation": "爆竹",
+   "level": "B1",
+   "plural": "die Feuerwerke",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4822"
+  },
+  {
+   "id": "ocr45-w-a7943570f0",
+   "word": "Kindheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "儿童时代",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4822"
+  },
+  {
+   "id": "ocr45-w-5029115a46",
+   "word": "Jugend",
+   "article": "die",
+   "pos": "noun",
+   "translation": "青年",
+   "level": "B1",
+   "plural": "die Jugenden",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4827"
+  },
+  {
+   "id": "ocr45-w-4adbecdf87",
+   "word": "Treffpunkt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "会面地点",
+   "level": "B1",
+   "plural": "die Treffpunkte",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4827"
+  },
+  {
+   "id": "ocr45-w-a2b673ea76",
+   "word": "Berufsschüler",
+   "article": "der",
+   "pos": "noun",
+   "translation": "职业学校学生",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4827"
+  },
+  {
+   "id": "ocr45-w-f21814f403",
+   "word": "Einstellung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "态度;停止",
+   "level": "B1",
+   "plural": "die Einstellungen",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4827"
+  },
+  {
+   "id": "ocr45-w-c97d82d878",
+   "word": "Abfahrt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "出发",
+   "level": "B1",
+   "plural": "die Abfahrten",
+   "source": "大学德语教程 第1册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4827"
+  },
+  {
+   "id": "ocr45-w-4b537ec7bd",
+   "word": "Jungendliche",
+   "article": "der",
+   "pos": "noun",
+   "translation": "青少年",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4830"
+  },
+  {
+   "id": "ocr45-w-f3accd88f5",
+   "word": "Umzugshelfer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "搬家帮手",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4830"
+  },
+  {
+   "id": "ocr45-w-82277b7147",
+   "word": "Garage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "车库",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4830"
+  },
+  {
+   "id": "ocr45-w-24cefdcb74",
+   "word": "Micter",
+   "article": "der",
+   "pos": "noun",
+   "translation": "租户",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4830"
+  },
+  {
+   "id": "ocr45-w-aae2ce50bf",
+   "word": "Arbeitsplatz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "职位",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4835"
+  },
+  {
+   "id": "ocr45-w-e0f7c662fe",
+   "word": "Spitze",
+   "article": "die",
+   "pos": "noun",
+   "translation": "顶端，尖端",
+   "level": "B1",
+   "plural": "die Spitzen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4837"
+  },
+  {
+   "id": "ocr45-w-782f5f1af5",
+   "word": "Sehenswiirdigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "名胜古迹",
+   "level": "B1",
+   "plural": "die Sehenswiirdigkeiten",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4837"
+  },
+  {
+   "id": "ocr45-w-b019f7f77a",
+   "word": "Grundlohn",
+   "article": "der",
+   "pos": "noun",
+   "translation": "基本工资",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4840"
+  },
+  {
+   "id": "ocr45-w-a20428a78c",
+   "word": "Vorstellungsgespräch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "面试",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4840"
+  },
+  {
+   "id": "ocr45-w-9307ca47e8",
+   "word": "Lebenslauf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "简历",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4840"
+  },
+  {
+   "id": "ocr45-w-f9eb65a277",
+   "word": "Stellenbeschreibung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "职位描述",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4840"
+  },
+  {
+   "id": "ocr45-w-8f252c849e",
+   "word": "Arbeitsbescheinigung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "工作证了明",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4840"
+  },
+  {
+   "id": "ocr45-w-360f73cfbf",
+   "word": "Fahigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "能力",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4840"
+  },
+  {
+   "id": "ocr45-w-65c2935280",
+   "word": "Fachkenntnis",
+   "article": "die",
+   "pos": "noun",
+   "translation": "专业知识",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4840"
+  },
+  {
+   "id": "ocr45-w-cfd17d1060",
+   "word": "Gedanke",
+   "article": "der",
+   "pos": "noun",
+   "translation": "思想",
+   "level": "B1",
+   "plural": "die Gedanken",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4842"
+  },
+  {
+   "id": "ocr45-w-5ef5750562",
+   "word": "Stiftung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "基金会",
+   "level": "B1",
+   "plural": "die Stiftungen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4842"
+  },
+  {
+   "id": "ocr45-w-864602d46c",
+   "word": "Test",
+   "article": "der",
+   "pos": "noun",
+   "translation": "测试",
+   "level": "B1",
+   "plural": "die Tests",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4842"
+  },
+  {
+   "id": "ocr45-w-38cc224ee9",
+   "word": "Weihnachten",
+   "article": "das",
+   "pos": "noun",
+   "translation": "圣诞节",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4845"
+  },
+  {
+   "id": "ocr45-w-2d81f0a99e",
+   "word": "Bewohner",
+   "article": "der",
+   "pos": "noun",
+   "translation": "居民",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-e29093c422",
+   "word": "Mitbewohner",
+   "article": "der",
+   "pos": "noun",
+   "translation": "同屋居住的人",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-69e069cf36",
+   "word": "Kiosk",
+   "article": "der",
+   "pos": "noun",
+   "translation": "书报亭",
+   "level": "B1",
+   "plural": "die Kioske",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-6a73551b20",
+   "word": "Heim",
+   "article": "das",
+   "pos": "noun",
+   "translation": "家，住宅",
+   "level": "B1",
+   "plural": "die Heime",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-5dd0b9d360",
+   "word": "Umwelt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "环境",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-b67405af5d",
+   "word": "Schiene",
+   "article": "die",
+   "pos": "noun",
+   "translation": "铁轨，钢轨",
+   "level": "B1",
+   "plural": "die Schienen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-56ab5981bc",
+   "word": "Gegner",
+   "article": "der",
+   "pos": "noun",
+   "translation": "对手",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-68581860b5",
+   "word": "Rüpel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "粗野的人",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-253eb053d4",
+   "word": "Planer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "计划者",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-778a6e096c",
+   "word": "Einbahnstrage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "单行道",
+   "level": "B1",
+   "plural": "die Einbahnstragen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-117d6f87df",
+   "word": "Wechsel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "变更，转换",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-48071f85a4",
+   "word": "Perspektive",
+   "article": "die",
+   "pos": "noun",
+   "translation": "观点;前景",
+   "level": "B1",
+   "plural": "die Perspektiven",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-f0551a527c",
+   "word": "Personenkraftwagen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "轿车",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-d6853bc1ce",
+   "word": "Verfügung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "支配，拥有",
+   "level": "B1",
+   "plural": "die Verfügungen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4847"
+  },
+  {
+   "id": "ocr45-w-79bd2fbe46",
+   "word": "Verkleiden",
+   "article": "das",
+   "pos": "noun",
+   "translation": "化妆，异装",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-66fc94df1f",
+   "word": "Staatsbiirgerschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "国籍，公民权",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-b3e2a0a9c6",
+   "word": "Deutschtiirke",
+   "article": "der",
+   "pos": "noun",
+   "translation": "德国的土耳其人",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-22523cc5e4",
+   "word": "Migration",
+   "article": "die",
+   "pos": "noun",
+   "translation": "移民",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-74e3b499a3",
+   "word": "Hintergrund",
+   "article": "der",
+   "pos": "noun",
+   "translation": "背景",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-2b17b82245",
+   "word": "Wirtschaftswunder",
+   "article": "das",
+   "pos": "noun",
+   "translation": "经济奇迹",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-8fb2aabfa9",
+   "word": "Einwanderung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "移民",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-70cd882009",
+   "word": "Logik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "逻辑",
+   "level": "B1",
+   "plural": "",
+   "source": "从零开始学德语，这本就够_（德）斯蒂芬·弗洛伊德，亦心编著_北京：中国纺织出版社.pdf · batch4850"
+  },
+  {
+   "id": "ocr45-w-c67b3bf182",
+   "word": "Besserung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "恢复健康",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4852"
+  },
+  {
+   "id": "ocr45-w-0aeffc21ad",
+   "word": "Puls",
+   "article": "der",
+   "pos": "noun",
+   "translation": "脉搏",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4852"
+  },
+  {
+   "id": "ocr45-w-3b35a62d84",
+   "word": "Hotel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "旅馆",
+   "level": "B1",
+   "plural": "die Hotels",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4852"
+  },
+  {
+   "id": "ocr45-w-50bd5a7ee4",
+   "word": "Weh",
+   "article": "das",
+   "pos": "noun",
+   "translation": "疼痛",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4852"
+  },
+  {
+   "id": "ocr45-w-098453205d",
+   "word": "Bearbeitung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "处理,加工;改写",
+   "level": "B1",
+   "plural": "die Bearbeitungen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-ea87c985e3",
+   "word": "Funk",
+   "article": "der",
+   "pos": "noun",
+   "translation": "无线电广播",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-095adbc36c",
+   "word": "Benutzer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "使用者",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-125e1f8db7",
+   "word": "Signal",
+   "article": "das",
+   "pos": "noun",
+   "translation": "信和号",
+   "level": "B1",
+   "plural": "die Signale",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-09b177afde",
+   "word": "Gebiet",
+   "article": "das",
+   "pos": "noun",
+   "translation": "区域;领域,方面",
+   "level": "B1",
+   "plural": "die Gebiete",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-d5843fa6e8",
+   "word": "Oberfläche",
+   "article": "die",
+   "pos": "noun",
+   "translation": "表面",
+   "level": "B1",
+   "plural": "die Oberflächen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-370dceeef9",
+   "word": "Höhe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "高，高度",
+   "level": "B1",
+   "plural": "die Höhen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-1c53863040",
+   "word": "Antenne",
+   "article": "die",
+   "pos": "noun",
+   "translation": "天线",
+   "level": "B1",
+   "plural": "die Antennen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-ed49dcdeb0",
+   "word": "Stabantenne",
+   "article": "die",
+   "pos": "noun",
+   "translation": "鞭状天线",
+   "level": "B1",
+   "plural": "die Stabantennen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-c047f9bd90",
+   "word": "Pistole",
+   "article": "die",
+   "pos": "noun",
+   "translation": "手枪",
+   "level": "B1",
+   "plural": "die Pistolen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-555a79f6a1",
+   "word": "Spur",
+   "article": "die",
+   "pos": "noun",
+   "translation": "线索,痕迹,迹象",
+   "level": "B1",
+   "plural": "die Spuren",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-eea97ae376",
+   "word": "Zeuge",
+   "article": "der",
+   "pos": "noun",
+   "translation": "证人",
+   "level": "B1",
+   "plural": "die Zeugen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-ddd1f93be1",
+   "word": "Einzelheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "细节",
+   "level": "B1",
+   "plural": "die Einzelheiten",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-92471182d0",
+   "word": "Phantom",
+   "article": "das",
+   "pos": "noun",
+   "translation": "部分人体模型",
+   "level": "B1",
+   "plural": "die Phantome",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4862"
+  },
+  {
+   "id": "ocr45-w-5c1a51c8e2",
+   "word": "EMO",
+   "article": "der",
+   "pos": "noun",
+   "translation": "诺威信息及通信技术博览会",
+   "level": "B1",
+   "plural": "",
+   "source": "会展德语 口译与笔译_陈明浩主编；陈琦，孙瑜副主编_上海：同济大学出版社.pdf · batch4865"
+  },
+  {
+   "id": "ocr45-w-ebb748e400",
+   "word": "Dirigent",
+   "article": "der",
+   "pos": "noun",
+   "translation": "乐队,合唱团指挥",
+   "level": "B1",
+   "plural": "die Dirigenten",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-a5f4399071",
+   "word": "Rockmusik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "摇滚乐",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-c58ab7f6c8",
+   "word": "Kriminalität",
+   "article": "die",
+   "pos": "noun",
+   "translation": "刑事犯罪",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-463686d28c",
+   "word": "Gewalt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "暴力;权力",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-90a25b6721",
+   "word": "Ansicht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "观点,看法,见解",
+   "level": "B1",
+   "plural": "die Ansichten",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-6e0f0e6fd3",
+   "word": "Diskussion",
+   "article": "die",
+   "pos": "noun",
+   "translation": "讨论",
+   "level": "B1",
+   "plural": "die Diskussionen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-1133b16ba3",
+   "word": "Stärke",
+   "article": "die",
+   "pos": "noun",
+   "translation": "响度;强度",
+   "level": "B1",
+   "plural": "die Stärken",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-bf5fcfcdf9",
+   "word": "Publikum",
+   "article": "das",
+   "pos": "noun",
+   "translation": "观众",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-0f4a273a88",
+   "word": "Gefiihl",
+   "article": "das",
+   "pos": "noun",
+   "translation": "感党;感情",
+   "level": "B1",
+   "plural": "die Gefiihle",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-6c7db1102e",
+   "word": "Zweifel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "怀疑",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-888e22dce9",
+   "word": "Studie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "科学研究;论文",
+   "level": "B1",
+   "plural": "die Studien",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-89c33ef060",
+   "word": "Nation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "民族;国家",
+   "level": "B1",
+   "plural": "die Nationen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-d3654d7f8b",
+   "word": "Hinsicht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "方面",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-8bb42b016e",
+   "word": "Umgang",
+   "article": "der",
+   "pos": "noun",
+   "translation": "交际，打交道",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-2398399c03",
+   "word": "Verdrossenheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "恼怒",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-a001b55b36",
+   "word": "Fortbildung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "深造,进修",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-ab02393199",
+   "word": "Kontext",
+   "article": "der",
+   "pos": "noun",
+   "translation": "上下文",
+   "level": "B1",
+   "plural": "die Kontexte",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-dd27bad389",
+   "word": "Korrektur",
+   "article": "die",
+   "pos": "noun",
+   "translation": "校正，修正",
+   "level": "B1",
+   "plural": "die Korrekturen",
+   "source": "大学德语教程 第2册_梁淑妍主编；王颖频，丁伟祥，李建民等编_上海：同济大学出版社.pdf · batch4867"
+  },
+  {
+   "id": "ocr45-w-fa24eb80d3",
+   "word": "Logistik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "物流",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_陈琦主编；黄莉莎，范黎坤，彭彧副主编；严佩琦，潘华佳，霍愿，陈琦，范黎坤，黄莉莎，彭彧编_上海：同济大学出版社.pdf · batch4897"
+  },
+  {
+   "id": "ocr45-w-19bb252de1",
+   "word": "Abfertigung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "办理手续",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_陈琦主编；黄莉莎，范黎坤，彭彧副主编；严佩琦，潘华佳，霍愿，陈琦，范黎坤，黄莉莎，彭彧编_上海：同济大学出版社.pdf · batch4897"
+  },
+  {
+   "id": "ocr45-w-6fbee8614c",
+   "word": "Lebensmittel-",
+   "article": "das",
+   "pos": "noun",
+   "translation": "食物,食品",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_陈琦主编；黄莉莎，范黎坤，彭彧副主编；严佩琦，潘华佳，霍愿，陈琦，范黎坤，黄莉莎，彭彧编_上海：同济大学出版社.pdf · batch4897"
+  },
+  {
+   "id": "ocr45-w-9442c9cc3d",
+   "word": "Elektronik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "电子学;电子",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_陈琦主编；黄莉莎，范黎坤，彭彧副主编；严佩琦，潘华佳，霍愿，陈琦，范黎坤，黄莉莎，彭彧编_上海：同济大学出版社.pdf · batch4897"
+  },
+  {
+   "id": "ocr45-w-cd931ae10a",
+   "word": "Seminararbeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "研究论文",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_陈琦主编；黄莉莎，范黎坤，彭彧副主编；严佩琦，潘华佳，霍愿，陈琦，范黎坤，黄莉莎，彭彧编_上海：同济大学出版社.pdf · batch4897"
+  },
+  {
+   "id": "ocr45-w-79caa04809",
+   "word": "Bachlorstudium",
+   "article": "das",
+   "pos": "noun",
+   "translation": "本科阶段学",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_陈琦主编；黄莉莎，范黎坤，彭彧副主编；严佩琦，潘华佳，霍愿，陈琦，范黎坤，黄莉莎，彭彧编_上海：同济大学出版社.pdf · batch4897"
+  },
+  {
+   "id": "ocr45-w-55e172da31",
+   "word": "Roulett",
+   "article": "das",
+   "pos": "noun",
+   "translation": "轮盘",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第2册_陈琦主编；黄莉莎，范黎坤，彭彧副主编；严佩琦，潘华佳，霍愿，陈琦，范黎坤，黄莉莎，彭彧编_上海：同济大学出版社.pdf · batch4897"
+  },
+  {
+   "id": "ocr45-w-470bc9d8c5",
+   "word": "Geburt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "出生,诞生,分娩",
+   "level": "B1",
+   "plural": "die Geburten",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4907"
+  },
+  {
+   "id": "ocr45-w-df91b08df4",
+   "word": "Anlage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "附件，设备",
+   "level": "B1",
+   "plural": "die Anlagen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4907"
+  },
+  {
+   "id": "ocr45-w-887a55f8ec",
+   "word": "Vereinbarung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "协定，协议",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4907"
+  },
+  {
+   "id": "ocr45-w-35f5042a15",
+   "word": "Dauer",
+   "article": "die",
+   "pos": "noun",
+   "translation": "期限，时间",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4907"
+  },
+  {
+   "id": "ocr45-w-32fbcdad97",
+   "word": "Kündigung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "解约通知",
+   "level": "B1",
+   "plural": "die Kündigungen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4907"
+  },
+  {
+   "id": "ocr45-w-329942d60e",
+   "word": "Haltung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "姿势;举目",
+   "level": "B1",
+   "plural": "die Haltungen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4907"
+  },
+  {
+   "id": "ocr45-w-81fe759817",
+   "word": "Masse",
+   "article": "die",
+   "pos": "noun",
+   "translation": "质量;群众",
+   "level": "B1",
+   "plural": "die Massen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-b93c32ef61",
+   "word": "Arbeitsweise",
+   "article": "die",
+   "pos": "noun",
+   "translation": "工作方法",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-bcf7e55928",
+   "word": "Unzufriedenheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "不满",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-9a0ec6aa65",
+   "word": "Gewinn",
+   "article": "der",
+   "pos": "noun",
+   "translation": "利润;益处",
+   "level": "B1",
+   "plural": "die Gewinne",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-59f2ccd1db",
+   "word": "Rotation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "旋转",
+   "level": "B1",
+   "plural": "die Rotationen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-7e729d41b0",
+   "word": "Kurve",
+   "article": "die",
+   "pos": "noun",
+   "translation": "曲线;转弯处",
+   "level": "B1",
+   "plural": "die Kurven",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-29fe77e3a5",
+   "word": "Anstieg",
+   "article": "der",
+   "pos": "noun",
+   "translation": "递升",
+   "level": "B1",
+   "plural": "die Anstiege",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-3a7b0cfc6b",
+   "word": "Erwerbstätige",
+   "article": "der",
+   "pos": "noun",
+   "translation": "从事一种",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-b0f38091ba",
+   "word": "Rationalisierung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "合理化",
+   "level": "B1",
+   "plural": "die Rationalisierungen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-2a7f56b581",
+   "word": "Ziffer",
+   "article": "die",
+   "pos": "noun",
+   "translation": "数字",
+   "level": "B1",
+   "plural": "die Ziffern",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-e52dc0c5bd",
+   "word": "Arbeitslosigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "失业",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4912"
+  },
+  {
+   "id": "ocr45-w-036fbcf479",
+   "word": "Holzschnitzer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "木雕艺人",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-df0aa15c90",
+   "word": "Buchstabe",
+   "article": "der",
+   "pos": "noun",
+   "translation": "字母",
+   "level": "B1",
+   "plural": "die Buchstaben",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-387d41ac4f",
+   "word": "Letter",
+   "article": "die",
+   "pos": "noun",
+   "translation": "印刷字母",
+   "level": "B1",
+   "plural": "die Lettern",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-ff934c0067",
+   "word": "Präzision",
+   "article": "die",
+   "pos": "noun",
+   "translation": "精确度",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-881a4c6eef",
+   "word": "Titel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "书名，标题",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-5f64e0241e",
+   "word": "Ton",
+   "article": "der",
+   "pos": "noun",
+   "translation": "粘土",
+   "level": "B1",
+   "plural": "die Tone",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-8a13a9caba",
+   "word": "Drucker",
+   "article": "der",
+   "pos": "noun",
+   "translation": "印刷者,印刷工人",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-2dca2d4619",
+   "word": "Metall",
+   "article": "das",
+   "pos": "noun",
+   "translation": "金属",
+   "level": "B1",
+   "plural": "die Metalle",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-01068e803b",
+   "word": "Zinn",
+   "article": "das",
+   "pos": "noun",
+   "translation": "锡",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-381900b537",
+   "word": "Legierung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "合金",
+   "level": "B1",
+   "plural": "die Legierungen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-cd8aa29925",
+   "word": "Bezug",
+   "article": "der",
+   "pos": "noun",
+   "translation": "关于，关系",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-aed8e570bd",
+   "word": "Rechner",
+   "article": "der",
+   "pos": "noun",
+   "translation": "计算机，计算者",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-c7fb1898f6",
+   "word": "Anfänger",
+   "article": "der",
+   "pos": "noun",
+   "translation": "新手",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-cd00c2e1a3",
+   "word": "Kern",
+   "article": "der",
+   "pos": "noun",
+   "translation": "核心;核仁",
+   "level": "B1",
+   "plural": "die Kerne",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-434c8c8eeb",
+   "word": "Bemerkung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "意见，评语",
+   "level": "B1",
+   "plural": "die Bemerkungen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-36c70d6fab",
+   "word": "Parlament",
+   "article": "das",
+   "pos": "noun",
+   "translation": "议会",
+   "level": "B1",
+   "plural": "die Parlamente",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-3c7573ead2",
+   "word": "Ehre",
+   "article": "die",
+   "pos": "noun",
+   "translation": "荣誉，尊敬",
+   "level": "B1",
+   "plural": "die Ehren",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-56e36495c3",
+   "word": "Auflage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "版次，印数",
+   "level": "B1",
+   "plural": "die Auflagen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-19cd2d47bd",
+   "word": "Exemplar",
+   "article": "das",
+   "pos": "noun",
+   "translation": "本，份，册",
+   "level": "B1",
+   "plural": "die Exemplare",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-49b853552f",
+   "word": "Rundfunk",
+   "article": "der",
+   "pos": "noun",
+   "translation": "无线广播",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-3731637a30",
+   "word": "Synonym",
+   "article": "das",
+   "pos": "noun",
+   "translation": "同义词",
+   "level": "B1",
+   "plural": "die Synonyme",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-bcb2a9745b",
+   "word": "Sportler",
+   "article": "der",
+   "pos": "noun",
+   "translation": "运动员",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-be299223e3",
+   "word": "Doping",
+   "article": "das",
+   "pos": "noun",
+   "translation": "兴奋剂",
+   "level": "B1",
+   "plural": "die Dopings",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-aadf656cbe",
+   "word": "Niederlage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "失败",
+   "level": "B1",
+   "plural": "die Niederlagen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-28634530f5",
+   "word": "Existenz",
+   "article": "die",
+   "pos": "noun",
+   "translation": "生存，存在",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-5a2ccec255",
+   "word": "Erscheinung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "现象",
+   "level": "B1",
+   "plural": "die Erscheinungen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-827f0a06a7",
+   "word": "Turner",
+   "article": "der",
+   "pos": "noun",
+   "translation": "体操运动员",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4917"
+  },
+  {
+   "id": "ocr45-w-ffc5215ff4",
+   "word": "Emission",
+   "article": "die",
+   "pos": "noun",
+   "translation": "放射，发射",
+   "level": "B1",
+   "plural": "die Emissionen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4922"
+  },
+  {
+   "id": "ocr45-w-103d7e44a9",
+   "word": "Höflichkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "客气",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4922"
+  },
+  {
+   "id": "ocr45-w-b3a87f1193",
+   "word": "Miene",
+   "article": "die",
+   "pos": "noun",
+   "translation": "脸部表情",
+   "level": "B1",
+   "plural": "die Mienen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4927"
+  },
+  {
+   "id": "ocr45-w-d6c33757d5",
+   "word": "Gewohnheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "习惯",
+   "level": "B1",
+   "plural": "die Gewohnheiten",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4927"
+  },
+  {
+   "id": "ocr45-w-0687e8032b",
+   "word": "Rassismus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "种族主义",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4927"
+  },
+  {
+   "id": "ocr45-w-739372f851",
+   "word": "Härte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "硬度",
+   "level": "B1",
+   "plural": "die Härten",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4927"
+  },
+  {
+   "id": "ocr45-w-dc9ae97f55",
+   "word": "Trane",
+   "article": "die",
+   "pos": "noun",
+   "translation": "眼泪",
+   "level": "B1",
+   "plural": "die Tranen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4927"
+  },
+  {
+   "id": "ocr45-w-7eac05df60",
+   "word": "Mikroelektronik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "微电子学",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4927"
+  },
+  {
+   "id": "ocr45-w-c681f5ea59",
+   "word": "Technologie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "工艺",
+   "level": "B1",
+   "plural": "die Technologien",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4927"
+  },
+  {
+   "id": "ocr45-w-3d2333a3a4",
+   "word": "Scharlatan",
+   "article": "der",
+   "pos": "noun",
+   "translation": "江湖骗子",
+   "level": "B1",
+   "plural": "die Scharlatane",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-69aff24e97",
+   "word": "Pulver",
+   "article": "das",
+   "pos": "noun",
+   "translation": "粉，粉末;药粉",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-72e2991460",
+   "word": "Reiz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "刺激;吸引力",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-db72f29bb8",
+   "word": "Generator",
+   "article": "der",
+   "pos": "noun",
+   "translation": "发电机",
+   "level": "B1",
+   "plural": "die Generatoren",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-566d1551c4",
+   "word": "Reifen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "轮胎",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-e4f1712a5d",
+   "word": "Opfer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "牺牲，牺牲品",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-eed55d369f",
+   "word": "Gestalt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "外形;形象",
+   "level": "B1",
+   "plural": "die Gestalten",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-8b34b1ed56",
+   "word": "Sicht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "视界",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-dfb1044777",
+   "word": "Beifall",
+   "article": "der",
+   "pos": "noun",
+   "translation": "鼓掌，喝采",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-6ae2deaaae",
+   "word": "Reaktion",
+   "article": "die",
+   "pos": "noun",
+   "translation": "反应，反作用",
+   "level": "B1",
+   "plural": "die Reaktionen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-ec797b852e",
+   "word": "Dynamik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "动力;活跃",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-b5e2e30234",
+   "word": "Zeitpunkt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "时刻",
+   "level": "B1",
+   "plural": "die Zeitpunkte",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4932"
+  },
+  {
+   "id": "ocr45-w-23ca226b30",
+   "word": "Gleichheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "相同，平等",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-7bcddb6feb",
+   "word": "Schicksal",
+   "article": "das",
+   "pos": "noun",
+   "translation": "命运",
+   "level": "B1",
+   "plural": "die Schicksale",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-458b5d7ab0",
+   "word": "Scherz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "笑话，玩笑",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-4affcf3b0e",
+   "word": "Kamerad",
+   "article": "der",
+   "pos": "noun",
+   "translation": "同学",
+   "level": "B1",
+   "plural": "die Kameraden",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-dbec7d945a",
+   "word": "Hindernis",
+   "article": "das",
+   "pos": "noun",
+   "translation": "障碍，困难",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-b2acab4699",
+   "word": "Geduld",
+   "article": "die",
+   "pos": "noun",
+   "translation": "忍耐，耐心",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-7ec40bc660",
+   "word": "Kritik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "批评;评论",
+   "level": "B1",
+   "plural": "die Kritiken",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-df2c1b9404",
+   "word": "Liste",
+   "article": "die",
+   "pos": "noun",
+   "translation": "名单，清单",
+   "level": "B1",
+   "plural": "die Listen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4937"
+  },
+  {
+   "id": "ocr45-w-f36d1a425d",
+   "word": "Bundeskanzler",
+   "article": "der",
+   "pos": "noun",
+   "translation": "联邦总理",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4942"
+  },
+  {
+   "id": "ocr45-w-209331eabd",
+   "word": "Sitzung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "会议",
+   "level": "B1",
+   "plural": "die Sitzungen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4942"
+  },
+  {
+   "id": "ocr45-w-9e9336ab27",
+   "word": "Bundespräsident",
+   "article": "der",
+   "pos": "noun",
+   "translation": "联邦总统",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4942"
+  },
+  {
+   "id": "ocr45-w-dcd9644f0e",
+   "word": "Kammer",
+   "article": "die",
+   "pos": "noun",
+   "translation": "议会",
+   "level": "B1",
+   "plural": "die Kammern",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4942"
+  },
+  {
+   "id": "ocr45-w-166262d627",
+   "word": "Bundesrat",
+   "article": "der",
+   "pos": "noun",
+   "translation": "联邦参议院",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4942"
+  },
+  {
+   "id": "ocr45-w-3f0254105e",
+   "word": "Ebene",
+   "article": "die",
+   "pos": "noun",
+   "translation": "平原;平面",
+   "level": "B1",
+   "plural": "die Ebenen",
+   "source": "大学德语教程 第3册_梁淑妍主编（同济大学德语系）_上海：同济大学出版社.pdf · batch4942"
+  },
+  {
+   "id": "ocr45-w-c666d7a618",
+   "word": "Vokabel-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "单词",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4957"
+  },
+  {
+   "id": "ocr45-w-64984d02d1",
+   "word": "Frage-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "问题",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4957"
+  },
+  {
+   "id": "ocr45-w-bdd0a491fa",
+   "word": "Kosmetik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "美容,化妆",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4961"
+  },
+  {
+   "id": "ocr45-w-1eabe196c4",
+   "word": "Gewitternacht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "暴风雨之夜",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4961"
+  },
+  {
+   "id": "ocr45-w-57f5649ea2",
+   "word": "Mutterschutz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "孕妇及产妇保护法",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4961"
+  },
+  {
+   "id": "ocr45-w-5452b08e21",
+   "word": "Kiindigungsschutz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "免受解雇保护",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4961"
+  },
+  {
+   "id": "ocr45-w-bec7ceb627",
+   "word": "Sporthalle-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "体育馆",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4962"
+  },
+  {
+   "id": "ocr45-w-775626cff2",
+   "word": "Arzneimittel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "药品",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-b7f5843e50",
+   "word": "Bundesamt",
+   "article": "das",
+   "pos": "noun",
+   "translation": "联邦局",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-03291b8082",
+   "word": "Vollmond",
+   "article": "der",
+   "pos": "noun",
+   "translation": "满月",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-c5480577b9",
+   "word": "Übernachtung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "过夜",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-a1578dfc07",
+   "word": "Personenverkehr",
+   "article": "der",
+   "pos": "noun",
+   "translation": "客运交通",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-c34e103462",
+   "word": "Fitness",
+   "article": "die",
+   "pos": "noun",
+   "translation": "身体状态良好",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-0f2f5d7780",
+   "word": "Freundeskreis",
+   "article": "der",
+   "pos": "noun",
+   "translation": "朋友圈子",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-e8cf9968a8",
+   "word": "Schwergewicht",
+   "article": "das",
+   "pos": "noun",
+   "translation": "重点,重心",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-01fad0e842",
+   "word": "Verlagswelt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "出版界",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4966"
+  },
+  {
+   "id": "ocr45-w-fbc2f9c0f4",
+   "word": "See-n",
+   "article": "der",
+   "pos": "noun",
+   "translation": "湖泊",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4967"
+  },
+  {
+   "id": "ocr45-w-c5c74ec0b8",
+   "word": "Dorfzer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "村庄",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4967"
+  },
+  {
+   "id": "ocr45-w-79c1aa6b95",
+   "word": "Städter-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "城市居民",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4967"
+  },
+  {
+   "id": "ocr45-w-f3844e9c83",
+   "word": "Landflucht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "弃农，农业人口单一种植",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4967"
+  },
+  {
+   "id": "ocr45-w-f33f2bb618",
+   "word": "Qualifikation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "良好素质",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-3e6b0973de",
+   "word": "Nachwirkung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "后续影响",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-140b4310f4",
+   "word": "Goethe-Institut",
+   "article": "das",
+   "pos": "noun",
+   "translation": "歌德学院",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-ae75e5bfc5",
+   "word": "Vereinsamung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "孤独",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-dc40d1f577",
+   "word": "Dichte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "密度",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-4919897b06",
+   "word": "Vorreiter-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "先行",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-ffe9327dd9",
+   "word": "Öko",
+   "article": "der",
+   "pos": "noun",
+   "translation": "环保",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-8481a3542b",
+   "word": "Okonomie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "经济学",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-8678b03bda",
+   "word": "Ökologie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "生态学",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-a758cd8bff",
+   "word": "Landbau",
+   "article": "der",
+   "pos": "noun",
+   "translation": "农业",
+   "level": "B1",
+   "plural": "",
+   "source": "德语专业四级听写攻略_聂华编著_上海：同济大学出版社.pdf · batch4971"
+  },
+  {
+   "id": "ocr45-w-5115cd4c3c",
+   "word": "Anlage-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "设备,装置",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4972"
+  },
+  {
+   "id": "ocr45-w-ee1d43d301",
+   "word": "Maurer-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "泥瓦工",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4977"
+  },
+  {
+   "id": "ocr45-w-c0c5d22555",
+   "word": "Ackergerät-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "农具",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4977"
+  },
+  {
+   "id": "ocr45-w-93be1555df",
+   "word": "Arbeitsamt",
+   "article": "das",
+   "pos": "noun",
+   "translation": "劳动局",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4982"
+  },
+  {
+   "id": "ocr45-w-0a06d698d0",
+   "word": "Hälften",
+   "article": "die",
+   "pos": "noun",
+   "translation": "一半，二分之一",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4982"
+  },
+  {
+   "id": "ocr45-w-01995979cb",
+   "word": "Durchnumerieren",
+   "article": "das",
+   "pos": "noun",
+   "translation": "把……-",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4982"
+  },
+  {
+   "id": "ocr45-w-47138671dc",
+   "word": "Zeile-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "行次",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4982"
+  },
+  {
+   "id": "ocr45-w-504ccae564",
+   "word": "Textverfassen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "撰写文章",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4982"
+  },
+  {
+   "id": "ocr45-w-0002f7d212",
+   "word": "Weile-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "片刻",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4982"
+  },
+  {
+   "id": "ocr45-w-097c1bc02b",
+   "word": "Könige",
+   "article": "der",
+   "pos": "noun",
+   "translation": "国王",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4987"
+  },
+  {
+   "id": "ocr45-w-190ada7b21",
+   "word": "Kredit-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "贷款",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4987"
+  },
+  {
+   "id": "ocr45-w-19448c8890",
+   "word": "Zigaretten",
+   "article": "die",
+   "pos": "noun",
+   "translation": "香烟",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4987"
+  },
+  {
+   "id": "ocr45-w-6c54cf05a5",
+   "word": "Teer-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "焦油",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4987"
+  },
+  {
+   "id": "ocr45-w-7667cb32b2",
+   "word": "Orte",
+   "article": "der",
+   "pos": "noun",
+   "translation": "地方，地点私有住房",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4987"
+  },
+  {
+   "id": "ocr45-w-5314b2fefd",
+   "word": "Schiff-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "船",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-fdcb0cbcdf",
+   "word": "Holländer-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "荷兰人",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-57f75ff134",
+   "word": "Franzosen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "法国人",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-c1f50398c8",
+   "word": "Schultern",
+   "article": "die",
+   "pos": "noun",
+   "translation": "肩,肩膀",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-1b39ca1bc0",
+   "word": "Damen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女士",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-fff1c0a1d5",
+   "word": "Schritte",
+   "article": "der",
+   "pos": "noun",
+   "translation": "步,步伐",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-ff6bfcf70b",
+   "word": "Tod-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "死神",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-0a547fdc57",
+   "word": "Bademantel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "浴衣",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-ed0e4e181e",
+   "word": "Einzahl",
+   "article": "die",
+   "pos": "noun",
+   "translation": "单数",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-6c7faf5ef2",
+   "word": "Buchlein",
+   "article": "das",
+   "pos": "noun",
+   "translation": "小书",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-f26e731e1d",
+   "word": "Käse-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "奶酷",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-f6de58e210",
+   "word": "Fliege-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "苍蝇",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4992"
+  },
+  {
+   "id": "ocr45-w-0add21641a",
+   "word": "Empfinden",
+   "article": "das",
+   "pos": "noun",
+   "translation": "感受到,感觉到性格,品格",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-b367f02b7f",
+   "word": "Miiller-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "磨坊工人",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-4aebc8d787",
+   "word": "Kronprinz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "王储,太子",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-60efe4c0ff",
+   "word": "Nationalgare",
+   "article": "die",
+   "pos": "noun",
+   "translation": "国民军",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-04d5d50c5b",
+   "word": "Rolle-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "作用,角色",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-3163088f77",
+   "word": "Fundgrube",
+   "article": "die",
+   "pos": "noun",
+   "translation": "来源，出处",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-0325b001d7",
+   "word": "Vorname-n",
+   "article": "der",
+   "pos": "noun",
+   "translation": "名字",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-19cce0e8dd",
+   "word": "Fahigkeit-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "能力,才干",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-a01dd2cef6",
+   "word": "Hauptschule-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "五年制",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-c33aa323da",
+   "word": "Unkostenerstattung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "开支研究",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-52c043dd66",
+   "word": "Käufer-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "顾客,买主",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-f975c61b0b",
+   "word": "Preiswiirdigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "价格合理",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-efdf117609",
+   "word": "Erhaltungswerbung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "保持",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-5926b8a574",
+   "word": "Standpunkt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "立场,观点",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-281f04071e",
+   "word": "Massenfertigung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "大量生产",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-278fc5d7de",
+   "word": "Verkaufspreis",
+   "article": "der",
+   "pos": "noun",
+   "translation": "售价",
+   "level": "B1",
+   "plural": "",
+   "source": "大学德语简明教程_汪兴传等编_北京：高等教育出版社.pdf · batch4997"
+  },
+  {
+   "id": "ocr45-w-859b858b74",
+   "word": "Zusatzzahl",
+   "article": "die",
+   "pos": "noun",
+   "translation": "在此意为“附加号码\"",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5082"
+  },
+  {
+   "id": "ocr45-w-8bed775d6b",
+   "word": "Superzahl",
+   "article": "die",
+   "pos": "noun",
+   "translation": "超级号码",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5082"
+  },
+  {
+   "id": "ocr45-w-67e35fcf9d",
+   "word": "Festnetznummer",
+   "article": "die",
+   "pos": "noun",
+   "translation": "固定电话",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5082"
+  },
+  {
+   "id": "ocr45-w-eddb83ff35",
+   "word": "Tagessuppe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "今日例汤",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-9be7db24d4",
+   "word": "Abenteuer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "冒险",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-1f0aab7cb1",
+   "word": "Krankenhaus",
+   "article": "das",
+   "pos": "noun",
+   "translation": "是“医院”的意思。在德国，除了遇到紧急情况、深夜",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-2088c8b178",
+   "word": "Vertretung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "代理",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-90c9551cbe",
+   "word": "Quote",
+   "article": "die",
+   "pos": "noun",
+   "translation": "比率",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-3f235bfc07",
+   "word": "Waschen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "洗(头",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-708167a7fc",
+   "word": "Gemeinschaftspraxis",
+   "article": "die",
+   "pos": "noun",
+   "translation": "综合诊所",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-f2239da337",
+   "word": "Blutabnahme",
+   "article": "die",
+   "pos": "noun",
+   "translation": "抽血",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5087"
+  },
+  {
+   "id": "ocr45-w-400fb4b678",
+   "word": "Arbeitszimmer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "书房",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-ca2aec01eb",
+   "word": "Gästezimmer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "客房",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-c472bd497c",
+   "word": "Papiere",
+   "article": "die",
+   "pos": "noun",
+   "translation": "文件",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-0d83cc49d6",
+   "word": "Polterabend",
+   "article": "der",
+   "pos": "noun",
+   "translation": "告别单身派对",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-827cf140e4",
+   "word": "Hochzeitsgeschenk",
+   "article": "das",
+   "pos": "noun",
+   "translation": "新婚贺礼",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-f708781450",
+   "word": "Altpapiersammlung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "废纸回收",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-c5ab689907",
+   "word": "Couchtisch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "茶几",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-62d6ab6caa",
+   "word": "Dauerauftrag",
+   "article": "der",
+   "pos": "noun",
+   "translation": "定期自动转账",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-6fc28fb1a2",
+   "word": "Chef",
+   "article": "der",
+   "pos": "noun",
+   "translation": "老板",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-785289f703",
+   "word": "Quietschgeräusch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "刺耳的声音",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-1767fb0804",
+   "word": "Reparaturkosten",
+   "article": "die",
+   "pos": "noun",
+   "translation": "修理费，为复数形式",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-1a25bc5461",
+   "word": "Flughafendienst",
+   "article": "der",
+   "pos": "noun",
+   "translation": "机场服务侣",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-06644ef939",
+   "word": "Weihnachtsfeier",
+   "article": "die",
+   "pos": "noun",
+   "translation": "圣诞节",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-f710962f61",
+   "word": "Rotkohl",
+   "article": "der",
+   "pos": "noun",
+   "translation": "紫甘蓝",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-fc58cfc1dd",
+   "word": "Lachs",
+   "article": "der",
+   "pos": "noun",
+   "translation": "三文鱼",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-cf5054cb61",
+   "word": "Zwang",
+   "article": "der",
+   "pos": "noun",
+   "translation": "强制、强迫",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5092"
+  },
+  {
+   "id": "ocr45-w-b2c6cbf6ea",
+   "word": "Zoll",
+   "article": "der",
+   "pos": "noun",
+   "translation": "英寸",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-0b5aefa043",
+   "word": "Buchse",
+   "article": "die",
+   "pos": "noun",
+   "translation": "插入，插口",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-a831d9e3c3",
+   "word": "Tastatur",
+   "article": "die",
+   "pos": "noun",
+   "translation": "键盘",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-7406b26ebe",
+   "word": "Touchpad",
+   "article": "das",
+   "pos": "noun",
+   "translation": "触摸板",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-ac567c8ce9",
+   "word": "Reisepass",
+   "article": "der",
+   "pos": "noun",
+   "translation": "护照",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-ffe97c8bec",
+   "word": "Meldebehörde",
+   "article": "die",
+   "pos": "noun",
+   "translation": "居民登记处",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-5e281afb2a",
+   "word": "Verlustmeldung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "物品报失单",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-326f589598",
+   "word": "Passersatz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "护照代用证件",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-180c5f626b",
+   "word": "Absturz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "坠落",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-0c1bfad94e",
+   "word": "Insaase",
+   "article": "der",
+   "pos": "noun",
+   "translation": "同乘人员",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-6edf752280",
+   "word": "Überlebende",
+   "article": "der",
+   "pos": "noun",
+   "translation": "生存者",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-ecb1d6d7a9",
+   "word": "Versagen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "失灵，故障",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-f562ba195b",
+   "word": "Bundesumweltamt",
+   "article": "das",
+   "pos": "noun",
+   "translation": "联邦环境部",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语听力指导与练习_（日）久保川尚子著；（日）向田和弘编译_上海：上海译文出版社.pdf · batch5097"
+  },
+  {
+   "id": "ocr45-w-b8e6db0639",
+   "word": "Regel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "通常",
+   "level": "B1",
+   "plural": "",
+   "source": "实用德语教程_林璐编著_北京西安：世界图书出版公司 .pdf · batch5137"
+  },
+  {
+   "id": "ocr45-w-ad149ce74b",
+   "word": "Supermarktse",
+   "article": "der",
+   "pos": "noun",
+   "translation": "超级市场",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5212"
+  },
+  {
+   "id": "ocr45-w-6042c0661c",
+   "word": "Autobahneinfahrt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "高速公路入口",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5212"
+  },
+  {
+   "id": "ocr45-w-f7265d24b4",
+   "word": "Einladung-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "邀请",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5212"
+  },
+  {
+   "id": "ocr45-w-3a079f0476",
+   "word": "Störungsannahmestelleen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "接修处",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5217"
+  },
+  {
+   "id": "ocr45-w-c892830849",
+   "word": "Bruttoeinkommen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "总收入(未扣除所得税及其他费用",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5217"
+  },
+  {
+   "id": "ocr45-w-1fdcda70c3",
+   "word": "Stipendium-ien",
+   "article": "das",
+   "pos": "noun",
+   "translation": "助学金，奖学金",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5217"
+  },
+  {
+   "id": "ocr45-w-fdb8362e9e",
+   "word": "Verteidigungsminister",
+   "article": "der",
+   "pos": "noun",
+   "translation": "国防部长",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5217"
+  },
+  {
+   "id": "ocr45-w-a5efcedd5e",
+   "word": "Finanzminister",
+   "article": "der",
+   "pos": "noun",
+   "translation": "财政部长",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5217"
+  },
+  {
+   "id": "ocr45-w-5d5e9ff5fa",
+   "word": "Anweisungen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "指示",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-bcbcac58da",
+   "word": "Anordnungen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "安排",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-9dc2ff32ed",
+   "word": "Reportage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "新闻报道",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-f736bf3295",
+   "word": "Presse-Meldung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "新闻报道",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-ab16c575b8",
+   "word": "Weisungen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "指示",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-8d64d2d0de",
+   "word": "Übereinkunft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "协议",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-a03b1cea30",
+   "word": "Abmachung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "商定",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-c9252cbebc",
+   "word": "Betriebsverfassung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "企业法",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-da25d4f984",
+   "word": "Verkehrsordnung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "交通法规",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-d314e5d2a3",
+   "word": "Handelsvertrag",
+   "article": "der",
+   "pos": "noun",
+   "translation": "商贸条约",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-8d04bb2252",
+   "word": "Verordnung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "规章",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-a543b883fa",
+   "word": "Worte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "话语",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-bde9ece159",
+   "word": "Gebrauchsanweisung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "使用说明",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-337cfa5069",
+   "word": "Gesetz",
+   "article": "das",
+   "pos": "noun",
+   "translation": "法律",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词ABC_叶本度.pdf · batch5221"
+  },
+  {
+   "id": "ocr45-w-d874f3acaf",
+   "word": "Pinakothek",
+   "article": "die",
+   "pos": "noun",
+   "translation": "绘画陈列馆",
+   "level": "B1",
+   "plural": "",
+   "source": "强化德语教程《目标》 听力技能训练 上_顾芸英，王赵森，王晓明，温格莱尔编_上海：上海外语教育出版社.pdf · batch5222"
+  },
+  {
+   "id": "ocr45-w-5efbc30911",
+   "word": "Ufer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "岸，河岸",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5242"
+  },
+  {
+   "id": "ocr45-w-955e9f35d9",
+   "word": "Kolonialzeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "殖民地时代",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5242"
+  },
+  {
+   "id": "ocr45-w-a90bbef8ec",
+   "word": "Klamotte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "衣服，衣物",
+   "level": "B1",
+   "plural": "die Klamotten",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5242"
+  },
+  {
+   "id": "ocr45-w-39bf8b79d5",
+   "word": "Niederlande",
+   "article": "die",
+   "pos": "noun",
+   "translation": "荷兰",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5242"
+  },
+  {
+   "id": "ocr45-w-9133218034",
+   "word": "Fingernagel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "指甲",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-3b50c07310",
+   "word": "Zehe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "脚趾",
+   "level": "B1",
+   "plural": "die Zehen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-4b776a50e3",
+   "word": "AuBerlichkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "外表",
+   "level": "B1",
+   "plural": "die AuBerlichkeiten",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-c9e1108b9f",
+   "word": "Tempo",
+   "article": "das",
+   "pos": "noun",
+   "translation": "速度",
+   "level": "B1",
+   "plural": "die Tempos",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-2351790f09",
+   "word": "Ganove",
+   "article": "der",
+   "pos": "noun",
+   "translation": "小偷，骗子",
+   "level": "B1",
+   "plural": "die Ganoven",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-b591a6c4e5",
+   "word": "Schwindel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "了眩晕，欺诈，骗局",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-4ad0a73bb1",
+   "word": "Zufall",
+   "article": "der",
+   "pos": "noun",
+   "translation": "偶然事件，意外事件",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-1102f42d1f",
+   "word": "Nachbarhaus",
+   "article": "das",
+   "pos": "noun",
+   "translation": "邻居家",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5247"
+  },
+  {
+   "id": "ocr45-w-043478c506",
+   "word": "Behandlung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "治疗;处理",
+   "level": "B1",
+   "plural": "die Behandlungen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5252"
+  },
+  {
+   "id": "ocr45-w-3591e857dd",
+   "word": "Arzthelferin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "诊所女职员",
+   "level": "B1",
+   "plural": "die Arzthelferinnen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5252"
+  },
+  {
+   "id": "ocr45-w-9eca588207",
+   "word": "Hustensaft",
+   "article": "der",
+   "pos": "noun",
+   "translation": "止咳糖浆",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5252"
+  },
+  {
+   "id": "ocr45-w-bcd16db865",
+   "word": "Lesetechnik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "阅读技巧",
+   "level": "B1",
+   "plural": "die Lesetechniken",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-6c8102e323",
+   "word": "Leselust",
+   "article": "die",
+   "pos": "noun",
+   "translation": "阅读的兴趣",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-b9c3e32b4f",
+   "word": "Sprachgefühl",
+   "article": "das",
+   "pos": "noun",
+   "translation": "语感",
+   "level": "B1",
+   "plural": "die Sprachgefühle",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-2a8d58fff6",
+   "word": "Sportbericht",
+   "article": "der",
+   "pos": "noun",
+   "translation": "体育报道",
+   "level": "B1",
+   "plural": "die Sportberichte",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-e826cd1242",
+   "word": "Textsorte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "语篇类型",
+   "level": "B1",
+   "plural": "die Textsorten",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-462019fadf",
+   "word": "Frustration",
+   "article": "die",
+   "pos": "noun",
+   "translation": "受挫，失意，灰心丧气",
+   "level": "B1",
+   "plural": "die Frustrationen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-9442d83a9d",
+   "word": "Studienweg",
+   "article": "der",
+   "pos": "noun",
+   "translation": "学习之路",
+   "level": "B1",
+   "plural": "die Studienwege",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-acfb100264",
+   "word": "Leseratte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "读书迷",
+   "level": "B1",
+   "plural": "die Leseratten",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-075512d8b4",
+   "word": "Entwicklung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "发展",
+   "level": "B1",
+   "plural": "die Entwicklungen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-893216118a",
+   "word": "Startseite",
+   "article": "die",
+   "pos": "noun",
+   "translation": "主页",
+   "level": "B1",
+   "plural": "die Startseiten",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-024f3e2df3",
+   "word": "Biicherwurm",
+   "article": "der",
+   "pos": "noun",
+   "translation": "书迷",
+   "level": "B1",
+   "plural": "die Biicherwurmer",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5257"
+  },
+  {
+   "id": "ocr45-w-27aaa5b59b",
+   "word": "Verwaltung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "管理部门，行政部门",
+   "level": "B1",
+   "plural": "die Verwaltungen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-324f44be6e",
+   "word": "Politologie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "政治学",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-81f2e4d644",
+   "word": "Soziologie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "社会学",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-56557f9f5b",
+   "word": "Jobsuche",
+   "article": "die",
+   "pos": "noun",
+   "translation": "求职",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-c1b197ad33",
+   "word": "Kulturaustauch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "文化交流",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-346af7629b",
+   "word": "Gegenwart",
+   "article": "die",
+   "pos": "noun",
+   "translation": "现代，现在",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-af94ee8dc6",
+   "word": "Radiosprecherin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "电台女播音员",
+   "level": "B1",
+   "plural": "die Radiosprecherinnen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-90f8a1996b",
+   "word": "Fernsehansagerin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "电视女播音员",
+   "level": "B1",
+   "plural": "die Fernsehansagerinnen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-7bcda1d6ac",
+   "word": "Malerin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女画家",
+   "level": "B1",
+   "plural": "die Malerinnen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-b8430aa827",
+   "word": "Geschäftswelt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "商界",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-561e9e2424",
+   "word": "Held",
+   "article": "der",
+   "pos": "noun",
+   "translation": "英雄",
+   "level": "B1",
+   "plural": "die Helden",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-4b615e1939",
+   "word": "Jugendforschung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "青年问题研究",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-f6bf426c36",
+   "word": "Tierarztin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女兽医",
+   "level": "B1",
+   "plural": "die Tierarztinnen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-a204ff02ad",
+   "word": "Tierpflegerin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女人饲养员",
+   "level": "B1",
+   "plural": "die Tierpflegerinnen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-78d620901a",
+   "word": "Astronaut",
+   "article": "der",
+   "pos": "noun",
+   "translation": "宇航员",
+   "level": "B1",
+   "plural": "die Astronauten",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-1db3aba55e",
+   "word": "Krankenpflege",
+   "article": "die",
+   "pos": "noun",
+   "translation": "病人护理",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-73944675be",
+   "word": "Beruhigung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5262"
+  },
+  {
+   "id": "ocr45-w-40ef4ee85c",
+   "word": "Ems",
+   "article": "der",
+   "pos": "noun",
+   "translation": "严肃认真的态度",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5267"
+  },
+  {
+   "id": "ocr45-w-0707bccc6f",
+   "word": "Betriebswirtschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "企业管理学",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5267"
+  },
+  {
+   "id": "ocr45-w-fdd8088d14",
+   "word": "Lebensabschnit",
+   "article": "der",
+   "pos": "noun",
+   "translation": "生活阶段，时期",
+   "level": "B1",
+   "plural": "die Lebensabschnite",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5267"
+  },
+  {
+   "id": "ocr45-w-c517542cd9",
+   "word": "Argumentation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "论据，论证",
+   "level": "B1",
+   "plural": "die Argumentationen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5267"
+  },
+  {
+   "id": "ocr45-w-4e0b70d182",
+   "word": "Fachrichtung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "专业方向",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5267"
+  },
+  {
+   "id": "ocr45-w-6005870387",
+   "word": "Dienstreise-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "公差",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5267"
+  },
+  {
+   "id": "ocr45-w-ec7202ba66",
+   "word": "Dink",
+   "article": "der",
+   "pos": "noun",
+   "translation": "丁克族",
+   "level": "B1",
+   "plural": "die Dinks",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-534ce5f34d",
+   "word": "Tatsache",
+   "article": "die",
+   "pos": "noun",
+   "translation": "事实",
+   "level": "B1",
+   "plural": "die Tatsachen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-05530a4897",
+   "word": "Argument",
+   "article": "das",
+   "pos": "noun",
+   "translation": "理由，论据",
+   "level": "B1",
+   "plural": "die Argumente",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-4973185aaf",
+   "word": "Trennung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "分手，离别",
+   "level": "B1",
+   "plural": "die Trennungen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-434031c041",
+   "word": "Stabilität",
+   "article": "die",
+   "pos": "noun",
+   "translation": "稳定性",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-172648e4fa",
+   "word": "Verlobung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "订婚",
+   "level": "B1",
+   "plural": "die Verlobunge",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-900013dcca",
+   "word": "Runde",
+   "article": "die",
+   "pos": "noun",
+   "translation": "小圈子，一伙人",
+   "level": "B1",
+   "plural": "die Rundemn",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-ff13e3a3bb",
+   "word": "Toleranz",
+   "article": "die",
+   "pos": "noun",
+   "translation": "宽容",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-f2ffd2c6fb",
+   "word": "Schlusswort",
+   "article": "das",
+   "pos": "noun",
+   "translation": "结束语",
+   "level": "B1",
+   "plural": "die Schlussworte",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-e44bd9bab0",
+   "word": "Ring",
+   "article": "der",
+   "pos": "noun",
+   "translation": "戒指",
+   "level": "B1",
+   "plural": "die Ringe",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5272"
+  },
+  {
+   "id": "ocr45-w-e9ba77549f",
+   "word": "Lauf-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "跑，赛跑",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5277"
+  },
+  {
+   "id": "ocr45-w-77ef5010fe",
+   "word": "Reporterin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女记者，女通讯员",
+   "level": "B1",
+   "plural": "die Reporterinnen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5277"
+  },
+  {
+   "id": "ocr45-w-59c9a89a84",
+   "word": "Konzentration",
+   "article": "die",
+   "pos": "noun",
+   "translation": "专注，专心",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5277"
+  },
+  {
+   "id": "ocr45-w-50651dc96e",
+   "word": "Konjunktion",
+   "article": "die",
+   "pos": "noun",
+   "translation": "连词",
+   "level": "B1",
+   "plural": "die Konjunktionen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5277"
+  },
+  {
+   "id": "ocr45-w-51c3238e41",
+   "word": "Hauptsatz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "主句",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5277"
+  },
+  {
+   "id": "ocr45-w-c2ef1879ec",
+   "word": "Aussagesatz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "陈述句",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5277"
+  },
+  {
+   "id": "ocr45-w-be55ae05aa",
+   "word": "Konjugation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "变位",
+   "level": "B1",
+   "plural": "die Konjugationen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5277"
+  },
+  {
+   "id": "ocr45-w-fd7d2da484",
+   "word": "Erdbeere",
+   "article": "die",
+   "pos": "noun",
+   "translation": "草莓",
+   "level": "B1",
+   "plural": "die Erdbeeren",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5282"
+  },
+  {
+   "id": "ocr45-w-829179b4fd",
+   "word": "Tagesschau",
+   "article": "die",
+   "pos": "noun",
+   "translation": "每日新闻",
+   "level": "B1",
+   "plural": "die Tagesschauen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5287"
+  },
+  {
+   "id": "ocr45-w-aa035c9d15",
+   "word": "Erdnuss",
+   "article": "die",
+   "pos": "noun",
+   "translation": "花生",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5287"
+  },
+  {
+   "id": "ocr45-w-6095d78566",
+   "word": "Komödie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "喜剧",
+   "level": "B1",
+   "plural": "die Komödien",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5287"
+  },
+  {
+   "id": "ocr45-w-e1889c7ac1",
+   "word": "Gemeinschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "团体，共同体",
+   "level": "B1",
+   "plural": "die Gemeinschaften",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5287"
+  },
+  {
+   "id": "ocr45-w-b3e830c74e",
+   "word": "Werbeauftrag",
+   "article": "der",
+   "pos": "noun",
+   "translation": "广告订单",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5287"
+  },
+  {
+   "id": "ocr45-w-60fd54e86e",
+   "word": "Spruchze",
+   "article": "der",
+   "pos": "noun",
+   "translation": "格言，警句",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5292"
+  },
+  {
+   "id": "ocr45-w-12f16196e4",
+   "word": "Intranet",
+   "article": "das",
+   "pos": "noun",
+   "translation": "计算机网络，局域网",
+   "level": "B1",
+   "plural": "die Intranets",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5292"
+  },
+  {
+   "id": "ocr45-w-8caa2d96e3",
+   "word": "Angelegenheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "事情，事务",
+   "level": "B1",
+   "plural": "die Angelegenheiten",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5292"
+  },
+  {
+   "id": "ocr45-w-a31f1bdf7a",
+   "word": "Installation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "安装",
+   "level": "B1",
+   "plural": "die Installationen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5292"
+  },
+  {
+   "id": "ocr45-w-31ed0af4ec",
+   "word": "Referat",
+   "article": "das",
+   "pos": "noun",
+   "translation": "专题报告",
+   "level": "B1",
+   "plural": "die Referate",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-842cb4c206",
+   "word": "Daoismus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "道教",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-daf3a9de1f",
+   "word": "Paradies",
+   "article": "das",
+   "pos": "noun",
+   "translation": "伊甸园，天党",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-c3d906b080",
+   "word": "Hauptunterschied",
+   "article": "der",
+   "pos": "noun",
+   "translation": "主要区别",
+   "level": "B1",
+   "plural": "die Hauptunterschiede",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-7b57f8efe4",
+   "word": "Alltagsleben",
+   "article": "das",
+   "pos": "noun",
+   "translation": "日常生活",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-9d9a8341b6",
+   "word": "Grundkurs",
+   "article": "der",
+   "pos": "noun",
+   "translation": "基础课程，初级班",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-73fd896f4f",
+   "word": "Interpretation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "解释，阐明",
+   "level": "B1",
+   "plural": "die Interpretationen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-78d8a72e59",
+   "word": "Dynastie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "朝代",
+   "level": "B1",
+   "plural": "die Dynastien",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-68e04b10be",
+   "word": "Länderspiel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "国际比赛",
+   "level": "B1",
+   "plural": "die Länderspiele",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-eaa5a82e6a",
+   "word": "Bildschirm",
+   "article": "der",
+   "pos": "noun",
+   "translation": "屏幕",
+   "level": "B1",
+   "plural": "die Bildschirme",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-06fe9aed4c",
+   "word": "Westsee",
+   "article": "der",
+   "pos": "noun",
+   "translation": "西湖",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5297"
+  },
+  {
+   "id": "ocr45-w-ad3bc6382e",
+   "word": "Dauerlauf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "长距离赛跑",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5302"
+  },
+  {
+   "id": "ocr45-w-691d943720",
+   "word": "Spurt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "冲刺，全速奔跑",
+   "level": "B1",
+   "plural": "die Spurts",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5302"
+  },
+  {
+   "id": "ocr45-w-9e7ae3016a",
+   "word": "Behauptung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "看法，断言",
+   "level": "B1",
+   "plural": "die Behauptungen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5302"
+  },
+  {
+   "id": "ocr45-w-c801dd59f1",
+   "word": "Start",
+   "article": "der",
+   "pos": "noun",
+   "translation": "起点",
+   "level": "B1",
+   "plural": "die Starts",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5302"
+  },
+  {
+   "id": "ocr45-w-6ded4befab",
+   "word": "Formulierung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "表述，表达",
+   "level": "B1",
+   "plural": "die Formulierungen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5302"
+  },
+  {
+   "id": "ocr45-w-fbb4d417f4",
+   "word": "Auffordemng",
+   "article": "die",
+   "pos": "noun",
+   "translation": "要求",
+   "level": "B1",
+   "plural": "die Auffordemngen",
+   "source": "当代大学德语 2 学生用书_梁敏，（德）Michae_北京：外语教学与研究出版社.pdf · batch5302"
+  },
+  {
+   "id": "ocr45-w-78b94ae528",
+   "word": "Bürokrat",
+   "article": "der",
+   "pos": "noun",
+   "translation": "官傣主义者，拘泥于各",
+   "level": "B1",
+   "plural": "die Bürokraten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5312"
+  },
+  {
+   "id": "ocr45-w-12810a5b43",
+   "word": "Autismus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "自闭症",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5312"
+  },
+  {
+   "id": "ocr45-w-40c8d1e22c",
+   "word": "Horizont",
+   "article": "der",
+   "pos": "noun",
+   "translation": "地平线，视野，眼界",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5312"
+  },
+  {
+   "id": "ocr45-w-53bae6efe4",
+   "word": "Provinz",
+   "article": "die",
+   "pos": "noun",
+   "translation": "省",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5312"
+  },
+  {
+   "id": "ocr45-w-0fd5937011",
+   "word": "Armut",
+   "article": "die",
+   "pos": "noun",
+   "translation": "贫穷，贫困",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5312"
+  },
+  {
+   "id": "ocr45-w-d10ad8dc5e",
+   "word": "Ackerbau",
+   "article": "der",
+   "pos": "noun",
+   "translation": "耕作，农艺",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5312"
+  },
+  {
+   "id": "ocr45-w-b9ef95e6ab",
+   "word": "Bildung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "教育，教养",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5312"
+  },
+  {
+   "id": "ocr45-w-67164f97d2",
+   "word": "Küste",
+   "article": "die",
+   "pos": "noun",
+   "translation": "海岸，海滨，海岸线大城市以外偏亿、闭塞的地方",
+   "level": "B1",
+   "plural": "die Küsten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5317"
+  },
+  {
+   "id": "ocr45-w-45a50ec6f2",
+   "word": "Alexanderplatz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "亚历山大广场",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5317"
+  },
+  {
+   "id": "ocr45-w-b5a4ae9498",
+   "word": "Havelsee",
+   "article": "der",
+   "pos": "noun",
+   "translation": "哈韦尔湖",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5317"
+  },
+  {
+   "id": "ocr45-w-c71563a88c",
+   "word": "Tausch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "换，交换",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-1aaf375fb7",
+   "word": "Pferd",
+   "article": "das",
+   "pos": "noun",
+   "translation": "马",
+   "level": "B1",
+   "plural": "die Pferde",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-421b588224",
+   "word": "Mühe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "辛苦，费力",
+   "level": "B1",
+   "plural": "die Mühen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-0726033a67",
+   "word": "Nagel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "钉子",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-79f10e7525",
+   "word": "Glückskind",
+   "article": "das",
+   "pos": "noun",
+   "translation": "幸运儿，走运的人",
+   "level": "B1",
+   "plural": "die Glückskinder",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-f1bb833780",
+   "word": "Schaf",
+   "article": "das",
+   "pos": "noun",
+   "translation": "绵羊",
+   "level": "B1",
+   "plural": "die Schafe",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-86fedcf2fc",
+   "word": "Ziege",
+   "article": "die",
+   "pos": "noun",
+   "translation": "山羊",
+   "level": "B1",
+   "plural": "die Ziegen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-bb9f04b01b",
+   "word": "Wildtier",
+   "article": "das",
+   "pos": "noun",
+   "translation": "野生动物",
+   "level": "B1",
+   "plural": "die Wildtiere",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-8c18fb97f8",
+   "word": "Fuchs",
+   "article": "der",
+   "pos": "noun",
+   "translation": "狐狸",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-28ddd99eb1",
+   "word": "Pandabär",
+   "article": "der",
+   "pos": "noun",
+   "translation": "熊猫",
+   "level": "B1",
+   "plural": "die Pandabären",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5322"
+  },
+  {
+   "id": "ocr45-w-493ddf9d38",
+   "word": "Reform",
+   "article": "die",
+   "pos": "noun",
+   "translation": "改革",
+   "level": "B1",
+   "plural": "die Reformen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-4532bd1da5",
+   "word": "Unsicherheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "不稳定，不确定",
+   "level": "B1",
+   "plural": "die Unsicherheiten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-9565a50f11",
+   "word": "Lexikograf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "词典编每者",
+   "level": "B1",
+   "plural": "die Lexikografen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-235a7d582f",
+   "word": "Linguist",
+   "article": "der",
+   "pos": "noun",
+   "translation": "语言学者，语言工作者",
+   "level": "B1",
+   "plural": "die Linguisten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-5cb8e41992",
+   "word": "Diplomingenieur",
+   "article": "der",
+   "pos": "noun",
+   "translation": "硕士工程师(德国",
+   "level": "B1",
+   "plural": "die Diplomingenieure",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-8838c13260",
+   "word": "EDV",
+   "article": "die",
+   "pos": "noun",
+   "translation": "电子数据处理",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-f14ec372e9",
+   "word": "EDV-Technik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "电子数据处理技术",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-8fd21f3393",
+   "word": "Eröffnung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "开幕",
+   "level": "B1",
+   "plural": "die Eröffnungen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5327"
+  },
+  {
+   "id": "ocr45-w-a1acccf504",
+   "word": "Wut",
+   "article": "die",
+   "pos": "noun",
+   "translation": "愤怒，盛妈",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-132a7ca21d",
+   "word": "Nieselregen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "毛毛雨，蒙蒙细雨",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-3915599c38",
+   "word": "Hagelschauer",
+   "article": "der",
+   "pos": "noun",
+   "translation": "阵起",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-8f674c7203",
+   "word": "Betriebsklima",
+   "article": "das",
+   "pos": "noun",
+   "translation": "企业内部的气氛",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-5cdf06905d",
+   "word": "Werkstatt",
+   "article": "die",
+   "pos": "noun",
+   "translation": "工场，作坊，车间，修",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-7767372bd1",
+   "word": "Klimaveränderung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "气候变化",
+   "level": "B1",
+   "plural": "die Klimaveränderungen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-d83e59abaa",
+   "word": "Wetterveriinderung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "天气变化",
+   "level": "B1",
+   "plural": "die Wetterveriinderungen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-8b100525e1",
+   "word": "Naturerscheinung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "自然现象",
+   "level": "B1",
+   "plural": "die Naturerscheinungen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5332"
+  },
+  {
+   "id": "ocr45-w-6b0529ddaf",
+   "word": "Atom",
+   "article": "das",
+   "pos": "noun",
+   "translation": "原子",
+   "level": "B1",
+   "plural": "die Atome",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-b00e909b05",
+   "word": "Qualm",
+   "article": "der",
+   "pos": "noun",
+   "translation": "浓烟",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-d9e232e03b",
+   "word": "Autoqualm",
+   "article": "der",
+   "pos": "noun",
+   "translation": "汽车尾气形成的烟雾",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-31f8d5f943",
+   "word": "Profit",
+   "article": "der",
+   "pos": "noun",
+   "translation": "利润",
+   "level": "B1",
+   "plural": "die Profite",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-9969b676b9",
+   "word": "Periode",
+   "article": "die",
+   "pos": "noun",
+   "translation": "时期，时代，期",
+   "level": "B1",
+   "plural": "die Perioden",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-3f30dad1f8",
+   "word": "Starkregenperiode",
+   "article": "die",
+   "pos": "noun",
+   "translation": "多雨期",
+   "level": "B1",
+   "plural": "die Starkregenperioden",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-9155f0dd97",
+   "word": "Unwahrheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "谎言，假话",
+   "level": "B1",
+   "plural": "die Unwahrheiten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-afb3503582",
+   "word": "Roboter",
+   "article": "der",
+   "pos": "noun",
+   "translation": "机器人",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-86b4d08e4f",
+   "word": "Philosoph",
+   "article": "der",
+   "pos": "noun",
+   "translation": "哲学家",
+   "level": "B1",
+   "plural": "die Philosophen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-f408054bf6",
+   "word": "Schicht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "层，阶层",
+   "level": "B1",
+   "plural": "die Schichten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-d1fa55786b",
+   "word": "Wahrscheinlichkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "可能性",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-6add1e1a01",
+   "word": "Entwicklungsland",
+   "article": "das",
+   "pos": "noun",
+   "translation": "发展中国家",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-08dbd51f09",
+   "word": "Industriestaat",
+   "article": "der",
+   "pos": "noun",
+   "translation": "工业国",
+   "level": "B1",
+   "plural": "die Industriestaaten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-86b4858d12",
+   "word": "Weltall",
+   "article": "das",
+   "pos": "noun",
+   "translation": "宇宙",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-73055e9f1d",
+   "word": "Mond",
+   "article": "der",
+   "pos": "noun",
+   "translation": "月亮",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-adfe875b5e",
+   "word": "Hirn",
+   "article": "das",
+   "pos": "noun",
+   "translation": "脑",
+   "level": "B1",
+   "plural": "die Hirne",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-de91dbdb03",
+   "word": "Hirnforschung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "大脑研究",
+   "level": "B1",
+   "plural": "die Hirnforschungen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-a904c9e80b",
+   "word": "Verstand",
+   "article": "der",
+   "pos": "noun",
+   "translation": "理解，理智",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-be3d7e29c5",
+   "word": "Bewusstsein",
+   "article": "das",
+   "pos": "noun",
+   "translation": "知觉，意识",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-7c0403504b",
+   "word": "Max-Planck-Institut",
+   "article": "das",
+   "pos": "noun",
+   "translation": "马克斯-普朗克研",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5337"
+  },
+  {
+   "id": "ocr45-w-283ceea1e2",
+   "word": "Hoheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "殿下",
+   "level": "B1",
+   "plural": "die Hoheiten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-b612cf43e2",
+   "word": "Tiirke",
+   "article": "der",
+   "pos": "noun",
+   "translation": "土耳其人",
+   "level": "B1",
+   "plural": "die Tiirken",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-f12ea34b9b",
+   "word": "Schwede",
+   "article": "der",
+   "pos": "noun",
+   "translation": "瑞典人",
+   "level": "B1",
+   "plural": "die Schweden",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-b2f1bbf2be",
+   "word": "Klugheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "聪明，明智",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-2e9c2b8a21",
+   "word": "Ubermacht",
+   "article": "die",
+   "pos": "noun",
+   "translation": "优势",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-92647bd8f7",
+   "word": "Kriegsgefangenscha",
+   "article": "die",
+   "pos": "noun",
+   "translation": "人被俘虏，当俘虏",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-67fe422316",
+   "word": "Sklave",
+   "article": "der",
+   "pos": "noun",
+   "translation": "奴隶",
+   "level": "B1",
+   "plural": "die Sklaven",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-a9b9bae769",
+   "word": "Sultan",
+   "article": "der",
+   "pos": "noun",
+   "translation": "苏丹",
+   "level": "B1",
+   "plural": "die Sultane",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-125e84d0d2",
+   "word": "Biene",
+   "article": "die",
+   "pos": "noun",
+   "translation": "蜜蜂",
+   "level": "B1",
+   "plural": "die Bienen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-3ae6ce070a",
+   "word": "Weide",
+   "article": "die",
+   "pos": "noun",
+   "translation": "牧场，草地",
+   "level": "B1",
+   "plural": "die Weiden",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-43484613b9",
+   "word": "Kennzeichen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "特征，记号，标记",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-7b186f2f06",
+   "word": "Hitze",
+   "article": "die",
+   "pos": "noun",
+   "translation": "炎热",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-54bc7e80ab",
+   "word": "Sonnenhitze",
+   "article": "die",
+   "pos": "noun",
+   "translation": "阳光的和灼热",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-1b3edcb547",
+   "word": "Knochen",
+   "article": "der",
+   "pos": "noun",
+   "translation": "骨",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-264d14baac",
+   "word": "Treppe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "阶梯，楼梯",
+   "level": "B1",
+   "plural": "die Treppen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-9a22808f24",
+   "word": "Befehl",
+   "article": "der",
+   "pos": "noun",
+   "translation": "命令",
+   "level": "B1",
+   "plural": "die Befehle",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5342"
+  },
+  {
+   "id": "ocr45-w-622a7dd898",
+   "word": "Ausdrucksweise",
+   "article": "die",
+   "pos": "noun",
+   "translation": "表达方式",
+   "level": "B1",
+   "plural": "die Ausdrucksweisen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5347"
+  },
+  {
+   "id": "ocr45-w-66de861fad",
+   "word": "Kaktus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "仙人掌",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5347"
+  },
+  {
+   "id": "ocr45-w-1e9172a66a",
+   "word": "Brett",
+   "article": "das",
+   "pos": "noun",
+   "translation": "木板",
+   "level": "B1",
+   "plural": "die Bretter",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5347"
+  },
+  {
+   "id": "ocr45-w-3c563c7086",
+   "word": "Gespriachsklima",
+   "article": "das",
+   "pos": "noun",
+   "translation": "谈话的气氛",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5347"
+  },
+  {
+   "id": "ocr45-w-c66ff1a095",
+   "word": "Landwirtschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "农业",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5347"
+  },
+  {
+   "id": "ocr45-w-944dc7d2e0",
+   "word": "Tagebucheintrag",
+   "article": "der",
+   "pos": "noun",
+   "translation": "记日记",
+   "level": "B1",
+   "plural": "die Tagebucheintrage",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-22ab55a8cf",
+   "word": "Betonung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "重读，强调",
+   "level": "B1",
+   "plural": "die Betonungen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-1daf5a3197",
+   "word": "Sucherei",
+   "article": "die",
+   "pos": "noun",
+   "translation": "找，寻找，找来找去",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-6079c046a6",
+   "word": "Druck",
+   "article": "der",
+   "pos": "noun",
+   "translation": "压力，负担",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-fc79a87d1b",
+   "word": "Verantwortungsgefühl",
+   "article": "das",
+   "pos": "noun",
+   "translation": "责任感",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-49ee36417c",
+   "word": "Plakat",
+   "article": "das",
+   "pos": "noun",
+   "translation": "宣传画，海报，招贴画",
+   "level": "B1",
+   "plural": "die Plakate",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-e24f2776ab",
+   "word": "Auszeichnung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "表彰，表扬",
+   "level": "B1",
+   "plural": "die Auszeichnungen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-ea6490f087",
+   "word": "Gehorsam",
+   "article": "der",
+   "pos": "noun",
+   "translation": "服从，顺从",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5352"
+  },
+  {
+   "id": "ocr45-w-75b2272142",
+   "word": "Onlinespiel",
+   "article": "das",
+   "pos": "noun",
+   "translation": "网络游戏",
+   "level": "B1",
+   "plural": "die Onlinespiele",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-e6c3a4be77",
+   "word": "Spielfigur",
+   "article": "die",
+   "pos": "noun",
+   "translation": "游戏人物",
+   "level": "B1",
+   "plural": "die Spielfiguren",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-284f44a5fc",
+   "word": "Fiihrerschein",
+   "article": "der",
+   "pos": "noun",
+   "translation": "驾驶执照",
+   "level": "B1",
+   "plural": "die Fiihrerscheine",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-9806f5f0c0",
+   "word": "Misstrauen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "不信任，怀疑，猜疑",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-c8ce852b97",
+   "word": "Lehrstoff",
+   "article": "der",
+   "pos": "noun",
+   "translation": "教材",
+   "level": "B1",
+   "plural": "die Lehrstoffe",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-9703c3b767",
+   "word": "Frühjahr",
+   "article": "das",
+   "pos": "noun",
+   "translation": "春季，春天",
+   "level": "B1",
+   "plural": "die Frühjahre",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-1a2a3261d4",
+   "word": "Osterfeiertag",
+   "article": "der",
+   "pos": "noun",
+   "translation": "复活节假日",
+   "level": "B1",
+   "plural": "die Osterfeiertage",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-b39bb44051",
+   "word": "Frist",
+   "article": "die",
+   "pos": "noun",
+   "translation": "期限，(规定的)日期",
+   "level": "B1",
+   "plural": "die Fristen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-3ab8c74cfa",
+   "word": "Glosse",
+   "article": "die",
+   "pos": "noun",
+   "translation": "讽刺性杂文(或短评",
+   "level": "B1",
+   "plural": "die Glossen",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-64c77ce30d",
+   "word": "Tischsitte",
+   "article": "die",
+   "pos": "noun",
+   "translation": "席间礼俗",
+   "level": "B1",
+   "plural": "die Tischsitten",
+   "source": "当代大学德语 3 学生用书_（德）聂黎曦（Michael Nerlich），梁敏主编_北京：外语教学与研究出版社.pdf · batch5357"
+  },
+  {
+   "id": "ocr45-w-a1c45b0823",
+   "word": "Priester",
+   "article": "der",
+   "pos": "noun",
+   "translation": "牧师",
+   "level": "B1",
+   "plural": "",
+   "source": "全国导游人员资格、等级考试复习大纲（试用） 德语_国家旅游局人事劳动教育司编_北京：中国旅游出版社.pdf · batch5360"
+  },
+  {
+   "id": "ocr45-w-e0dc3451af",
+   "word": "Taufe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "洗礼",
+   "level": "B1",
+   "plural": "",
+   "source": "全国导游人员资格、等级考试复习大纲（试用） 德语_国家旅游局人事劳动教育司编_北京：中国旅游出版社.pdf · batch5360"
+  },
+  {
+   "id": "ocr45-w-f3283e6673",
+   "word": "Taoismus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "道教",
+   "level": "B1",
+   "plural": "",
+   "source": "全国导游人员资格、等级考试复习大纲（试用） 德语_国家旅游局人事劳动教育司编_北京：中国旅游出版社.pdf · batch5360"
+  },
+  {
+   "id": "ocr45-w-afeba1c889",
+   "word": "Gott",
+   "article": "der",
+   "pos": "noun",
+   "translation": "神",
+   "level": "B1",
+   "plural": "",
+   "source": "全国导游人员资格、等级考试复习大纲（试用） 德语_国家旅游局人事劳动教育司编_北京：中国旅游出版社.pdf · batch5360"
+  },
+  {
+   "id": "ocr45-w-47ef7e94e2",
+   "word": "Heilige",
+   "article": "der",
+   "pos": "noun",
+   "translation": "圣人",
+   "level": "B1",
+   "plural": "",
+   "source": "全国导游人员资格、等级考试复习大纲（试用） 德语_国家旅游局人事劳动教育司编_北京：中国旅游出版社.pdf · batch5360"
+  },
+  {
+   "id": "ocr45-w-2fde2457fb",
+   "word": "Tugend",
+   "article": "die",
+   "pos": "noun",
+   "translation": "德",
+   "level": "B1",
+   "plural": "",
+   "source": "全国导游人员资格、等级考试复习大纲（试用） 德语_国家旅游局人事劳动教育司编_北京：中国旅游出版社.pdf · batch5360"
+  },
+  {
+   "id": "ocr45-w-e6a5ef2e22",
+   "word": "Weisheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "智",
+   "level": "B1",
+   "plural": "",
+   "source": "全国导游人员资格、等级考试复习大纲（试用） 德语_国家旅游局人事劳动教育司编_北京：中国旅游出版社.pdf · batch5360"
+  },
+  {
+   "id": "ocr45-w-200c9be512",
+   "word": "Durchsetzungsfihigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "坚持自己意见",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-b3ec0ec7f2",
+   "word": "Ehrlichkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "诚实",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-03b61b0e29",
+   "word": "Gerechtigkeitsgefühl",
+   "article": "das",
+   "pos": "noun",
+   "translation": "正义感",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-2341483dd7",
+   "word": "Unlust",
+   "article": "die",
+   "pos": "noun",
+   "translation": "缺乏兴致，不乐意",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-d4093bfbe2",
+   "word": "Wandel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "转变，变化，变迁",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-67d9adb11a",
+   "word": "Demokratie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "民主，民主主义",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-fd0d2f1424",
+   "word": "Einordnung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "适应，顺从",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-0b1751cf82",
+   "word": "Protest",
+   "article": "der",
+   "pos": "noun",
+   "translation": "抗议，反对",
+   "level": "B1",
+   "plural": "die Proteste",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-10d89b7c7e",
+   "word": "Egoist",
+   "article": "der",
+   "pos": "noun",
+   "translation": "利己主义者，自私自利者",
+   "level": "B1",
+   "plural": "die Egoisten",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-bbdf96d800",
+   "word": "Rückbesinnung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "回忆，回想",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-e45ea6b1b0",
+   "word": "Mittelweg",
+   "article": "der",
+   "pos": "noun",
+   "translation": "中间道路，中间路线",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-da206cb6a7",
+   "word": "Notwendigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "必要性",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5367"
+  },
+  {
+   "id": "ocr45-w-5c5884a3c8",
+   "word": "Flexibilität",
+   "article": "die",
+   "pos": "noun",
+   "translation": "灵活性，应变能力",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-ae448a6b82",
+   "word": "Konzept",
+   "article": "das",
+   "pos": "noun",
+   "translation": "草案，计划，纲领",
+   "level": "B1",
+   "plural": "die Konzepte",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-addac0f6a7",
+   "word": "Marktforschungsinstitut",
+   "article": "das",
+   "pos": "noun",
+   "translation": "市场调研",
+   "level": "B1",
+   "plural": "die Marktforschungsinstitute",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-2dcb2d4ad4",
+   "word": "Objekt-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "对象",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-b5214fc0c8",
+   "word": "Unterdrückung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "压迫，遏制",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-731304cf2f",
+   "word": "DVD-Player",
+   "article": "der",
+   "pos": "noun",
+   "translation": "播放机",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-aaeb6ad10c",
+   "word": "Auslandschinesin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女华侨",
+   "level": "B1",
+   "plural": "die Auslandschinesinnen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-1685b3b275",
+   "word": "Prozentpunkt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "百分点",
+   "level": "B1",
+   "plural": "die Prozentpunkte",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-80d93d238b",
+   "word": "Klimawandel",
+   "article": "der",
+   "pos": "noun",
+   "translation": "气候的变化",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5372"
+  },
+  {
+   "id": "ocr45-w-3c4bce2c5f",
+   "word": "Bühne",
+   "article": "die",
+   "pos": "noun",
+   "translation": "舞台",
+   "level": "B1",
+   "plural": "die Bühnen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5377"
+  },
+  {
+   "id": "ocr45-w-a818952ef7",
+   "word": "Ozean",
+   "article": "der",
+   "pos": "noun",
+   "translation": "海洋",
+   "level": "B1",
+   "plural": "die Ozeane",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5377"
+  },
+  {
+   "id": "ocr45-w-5f24f5ae84",
+   "word": "Menschheit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "人类",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5377"
+  },
+  {
+   "id": "ocr45-w-3624426032",
+   "word": "Landessprache",
+   "article": "die",
+   "pos": "noun",
+   "translation": "本国语",
+   "level": "B1",
+   "plural": "die Landessprachen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-55f5ceb25a",
+   "word": "Herrschaft",
+   "article": "die",
+   "pos": "noun",
+   "translation": "统治;政权，统治地位",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-9b48a63aff",
+   "word": "Weinlokal",
+   "article": "das",
+   "pos": "noun",
+   "translation": "酒馆",
+   "level": "B1",
+   "plural": "die Weinlokale",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-f41198080d",
+   "word": "Monarchie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "君主制",
+   "level": "B1",
+   "plural": "die Monarchien",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-4a6313df1c",
+   "word": "Weinseligkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "酒兴",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-6dc68aec83",
+   "word": "Mitbiirger",
+   "article": "der",
+   "pos": "noun",
+   "translation": "同国人，同市人人，同乡人",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-d532bccdf5",
+   "word": "Militärdienst",
+   "article": "der",
+   "pos": "noun",
+   "translation": "兵役",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-410dcdfad0",
+   "word": "Alm",
+   "article": "die",
+   "pos": "noun",
+   "translation": "山上(可放牧)的草地",
+   "level": "B1",
+   "plural": "die Almen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-9cab0a66a8",
+   "word": "Friedhof",
+   "article": "der",
+   "pos": "noun",
+   "translation": "墓地，公墓",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-98085de6e9",
+   "word": "Genosse",
+   "article": "der",
+   "pos": "noun",
+   "translation": "同志",
+   "level": "B1",
+   "plural": "die Genossen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-0414942433",
+   "word": "Solarenergie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "太阳能",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-d5cc2a37f3",
+   "word": "Strom",
+   "article": "der",
+   "pos": "noun",
+   "translation": "电流，电",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-c9024a6b5e",
+   "word": "Gebot",
+   "article": "das",
+   "pos": "noun",
+   "translation": "戒律，信条",
+   "level": "B1",
+   "plural": "die Gebote",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5382"
+  },
+  {
+   "id": "ocr45-w-4c559ea73b",
+   "word": "Suchbegriff",
+   "article": "der",
+   "pos": "noun",
+   "translation": "搜索关键词",
+   "level": "B1",
+   "plural": "die Suchbegriffe",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-e2e28b7ec9",
+   "word": "Vorwissen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "原有知识",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-0b1c8be4a6",
+   "word": "Suchfeld",
+   "article": "das",
+   "pos": "noun",
+   "translation": "搜索框，搜索栏",
+   "level": "B1",
+   "plural": "die Suchfelder",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-dc5a2b38ea",
+   "word": "Schaltfläche",
+   "article": "die",
+   "pos": "noun",
+   "translation": "按钮(计算机词汇",
+   "level": "B1",
+   "plural": "die Schaltflächen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-cf98b20311",
+   "word": "Biografie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "传记，履历",
+   "level": "B1",
+   "plural": "die Biografien",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-ec658dc0b0",
+   "word": "Bestand",
+   "article": "der",
+   "pos": "noun",
+   "translation": "库存，储存量，藏书",
+   "level": "B1",
+   "plural": "die Bestande",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-7c816b70f1",
+   "word": "Zugang",
+   "article": "der",
+   "pos": "noun",
+   "translation": "进口处;进入",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-76ed6222a8",
+   "word": "Praktikantin",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女实习生",
+   "level": "B1",
+   "plural": "die Praktikantinnen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-27a70bd19e",
+   "word": "Systematik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "系统性",
+   "level": "B1",
+   "plural": "die Systematiken",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-55e4d3859d",
+   "word": "Jahrbuch",
+   "article": "das",
+   "pos": "noun",
+   "translation": "年鉴",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-aca39c99aa",
+   "word": "Gattung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "类，种类",
+   "level": "B1",
+   "plural": "die Gattungen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-9abc9f9720",
+   "word": "Oberbegriff",
+   "article": "der",
+   "pos": "noun",
+   "translation": "上位概念，属概念",
+   "level": "B1",
+   "plural": "die Oberbegriffe",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-40916d9da8",
+   "word": "Unterbegriff",
+   "article": "der",
+   "pos": "noun",
+   "translation": "下位概念，种概念",
+   "level": "B1",
+   "plural": "die Unterbegriffe",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-2f8d442680",
+   "word": "Konstruktion",
+   "article": "die",
+   "pos": "noun",
+   "translation": "句子结构",
+   "level": "B1",
+   "plural": "die Konstruktionen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-583dc047f3",
+   "word": "Kochrezept",
+   "article": "das",
+   "pos": "noun",
+   "translation": "菜谱，(制作某一菜肴联机公共目录查询系统",
+   "level": "B1",
+   "plural": "die Kochrezepte",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5387"
+  },
+  {
+   "id": "ocr45-w-602d6586b6",
+   "word": "Dummkopf",
+   "article": "der",
+   "pos": "noun",
+   "translation": "傻瓜，笨蛋",
+   "level": "B1",
+   "plural": "die Dummkopfe",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5392"
+  },
+  {
+   "id": "ocr45-w-bd62101bde",
+   "word": "Glanz",
+   "article": "der",
+   "pos": "noun",
+   "translation": "光彩，光辉",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5392"
+  },
+  {
+   "id": "ocr45-w-02c4e1be77",
+   "word": "Intonation",
+   "article": "die",
+   "pos": "noun",
+   "translation": "语调，声调",
+   "level": "B1",
+   "plural": "die Intonationen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5392"
+  },
+  {
+   "id": "ocr45-w-19cffaee4f",
+   "word": "Zuschrift",
+   "article": "die",
+   "pos": "noun",
+   "translation": "信件，来信",
+   "level": "B1",
+   "plural": "die Zuschriften",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-42021db809",
+   "word": "Fertigung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "生产，制造",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-9d6ec37305",
+   "word": "Dienstleistung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "服务，服务业",
+   "level": "B1",
+   "plural": "die Dienstleistungen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-a6343022e8",
+   "word": "Niederlassung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "分公司，分店",
+   "level": "B1",
+   "plural": "die Niederlassungen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-5a98d4adf6",
+   "word": "Handelshaus",
+   "article": "das",
+   "pos": "noun",
+   "translation": "商贸公司",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-01a316e685",
+   "word": "Kreativität",
+   "article": "die",
+   "pos": "noun",
+   "translation": "创造性，创意",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-ae74f50648",
+   "word": "Diplomgrad",
+   "article": "der",
+   "pos": "noun",
+   "translation": "硕士学位，硕士头衔",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-d126738ba7",
+   "word": "Fassung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "版本",
+   "level": "B1",
+   "plural": "die Fassungen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-c034db2ad8",
+   "word": "Qualitätsware",
+   "article": "die",
+   "pos": "noun",
+   "translation": "优质商品，高档商品",
+   "level": "B1",
+   "plural": "die Qualitätswaren",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-f210c14798",
+   "word": "Fangfrage",
+   "article": "die",
+   "pos": "noun",
+   "translation": "诱人犯错的问题",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-016b9e14d2",
+   "word": "Fundament",
+   "article": "das",
+   "pos": "noun",
+   "translation": "地基，基础",
+   "level": "B1",
+   "plural": "die Fundamente",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-1711ec5b54",
+   "word": "Treibhauseffekt",
+   "article": "der",
+   "pos": "noun",
+   "translation": "温室效应",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5397"
+  },
+  {
+   "id": "ocr45-w-a91d33044f",
+   "word": "Tierliebe",
+   "article": "die",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-e4e2d6831e",
+   "word": "Geburtstagsglückwunsch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-d4a6c6453b",
+   "word": "Alkoholabhängigkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-be53931c88",
+   "word": "Siegesfreude",
+   "article": "die",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-1a599ec8ed",
+   "word": "Außenhandelbilanz",
+   "article": "die",
+   "pos": "noun",
+   "translation": "一",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-7d896eb6ba",
+   "word": "Plus",
+   "article": "das",
+   "pos": "noun",
+   "translation": "增长",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-24dedbad43",
+   "word": "Vierteljahr",
+   "article": "das",
+   "pos": "noun",
+   "translation": "季度，三个月",
+   "level": "B1",
+   "plural": "die Vierteljahre",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-7b239943e0",
+   "word": "Tendenz",
+   "article": "die",
+   "pos": "noun",
+   "translation": "趋势",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-7258edb64e",
+   "word": "Dieselöl",
+   "article": "das",
+   "pos": "noun",
+   "translation": "柴油",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-185ce1b4f7",
+   "word": "Bio-Kraftstoff",
+   "article": "der",
+   "pos": "noun",
+   "translation": "生物燃料",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5402"
+  },
+  {
+   "id": "ocr45-w-e670becc9e",
+   "word": "Surrealismus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "超现实主义剧评，影评",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5407"
+  },
+  {
+   "id": "ocr45-w-f82623eaee",
+   "word": "Illustration",
+   "article": "die",
+   "pos": "noun",
+   "translation": "插图风格时期",
+   "level": "B1",
+   "plural": "die Illustrationen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5407"
+  },
+  {
+   "id": "ocr45-w-cb5f012a77",
+   "word": "Säule",
+   "article": "die",
+   "pos": "noun",
+   "translation": "柱子",
+   "level": "B1",
+   "plural": "die Säulen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5407"
+  },
+  {
+   "id": "ocr45-w-bf737f7c51",
+   "word": "These",
+   "article": "die",
+   "pos": "noun",
+   "translation": "论点，命题",
+   "level": "B1",
+   "plural": "die Thesen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5412"
+  },
+  {
+   "id": "ocr45-w-fa97da173d",
+   "word": "Gegenthese",
+   "article": "die",
+   "pos": "noun",
+   "translation": "反面论点，反命题",
+   "level": "B1",
+   "plural": "die Gegenthesen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5412"
+  },
+  {
+   "id": "ocr45-w-2d2ae21eac",
+   "word": "Erkenntnis",
+   "article": "die",
+   "pos": "noun",
+   "translation": "认识",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5412"
+  },
+  {
+   "id": "ocr45-w-a5d3578917",
+   "word": "Wissen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "知识",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5412"
+  },
+  {
+   "id": "ocr45-w-4289df2f04",
+   "word": "Buddhismus",
+   "article": "der",
+   "pos": "noun",
+   "translation": "佛教",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-c14d9f172d",
+   "word": "Kulturkontrast",
+   "article": "der",
+   "pos": "noun",
+   "translation": "文化对比",
+   "level": "B1",
+   "plural": "die Kulturkontraste",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-158a6602c4",
+   "word": "Akademie",
+   "article": "die",
+   "pos": "noun",
+   "translation": "学院",
+   "level": "B1",
+   "plural": "die Akademien",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-0c5ca2ba6c",
+   "word": "Mönch",
+   "article": "der",
+   "pos": "noun",
+   "translation": "和尚，僧侣",
+   "level": "B1",
+   "plural": "die Mönche",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-f30ad93333",
+   "word": "Nonne",
+   "article": "die",
+   "pos": "noun",
+   "translation": "尼姑，修女",
+   "level": "B1",
+   "plural": "die Nonnen",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-70eed33370",
+   "word": "Aufklärung",
+   "article": "die",
+   "pos": "noun",
+   "translation": "启蒙，启蒙主义",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-1b6801bdfe",
+   "word": "Laster",
+   "article": "das",
+   "pos": "noun",
+   "translation": "恶习，坏习惯",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-f8e84a5ea4",
+   "word": "Redensart",
+   "article": "die",
+   "pos": "noun",
+   "translation": "习语，俗语，常用语",
+   "level": "B1",
+   "plural": "die Redensarten",
+   "source": "当代大学德语 4 学生用书_（德）聂黎曦，梁敏主编；潘颖，候小婧，詹霞编_北京：外语教学与研究出版社.pdf · batch5422"
+  },
+  {
+   "id": "ocr45-w-42571da06c",
+   "word": "Heft-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "练习本",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5432"
+  },
+  {
+   "id": "ocr45-w-c2129d1326",
+   "word": "Buchrer",
+   "article": "das",
+   "pos": "noun",
+   "translation": "书",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5432"
+  },
+  {
+   "id": "ocr45-w-9fa1939bd1",
+   "word": "Lampe-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "灯",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5432"
+  },
+  {
+   "id": "ocr45-w-d3f1b8a012",
+   "word": "Hand-e",
+   "article": "die",
+   "pos": "noun",
+   "translation": "手",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5432"
+  },
+  {
+   "id": "ocr45-w-b6df652d1d",
+   "word": "Bleistift-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "铅笔",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5437"
+  },
+  {
+   "id": "ocr45-w-ac521ae780",
+   "word": "Auto-s",
+   "article": "das",
+   "pos": "noun",
+   "translation": "汽车",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5437"
+  },
+  {
+   "id": "ocr45-w-6cb8d9ae1e",
+   "word": "Taxi-s",
+   "article": "das",
+   "pos": "noun",
+   "translation": "出租汽车",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5437"
+  },
+  {
+   "id": "ocr45-w-ea17aa778f",
+   "word": "Foto-s",
+   "article": "das",
+   "pos": "noun",
+   "translation": "照片",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5437"
+  },
+  {
+   "id": "ocr45-w-9b51cf725e",
+   "word": "Studentin-nen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "女大学生",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5437"
+  },
+  {
+   "id": "ocr45-w-3704526b6f",
+   "word": "Zahl-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "数,数字",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5437"
+  },
+  {
+   "id": "ocr45-w-d987ba4322",
+   "word": "Adresse-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "地址",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5437"
+  },
+  {
+   "id": "ocr45-w-e3f95e7504",
+   "word": "Schule-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "学校",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5442"
+  },
+  {
+   "id": "ocr45-w-4aee87b3dc",
+   "word": "Text-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "课文",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5442"
+  },
+  {
+   "id": "ocr45-w-eb684c5a2b",
+   "word": "Maschine-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "机器",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5442"
+  },
+  {
+   "id": "ocr45-w-1b5d31b25f",
+   "word": "Fußball-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "足球",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5442"
+  },
+  {
+   "id": "ocr45-w-188778dfa6",
+   "word": "Klasse-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "班级",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5447"
+  },
+  {
+   "id": "ocr45-w-5fd10d1d73",
+   "word": "Mensakarte-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "饭卡,餐卡",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5447"
+  },
+  {
+   "id": "ocr45-w-65abaaf1bc",
+   "word": "Stifte",
+   "article": "der",
+   "pos": "noun",
+   "translation": "笔,铅笔",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5447"
+  },
+  {
+   "id": "ocr45-w-185aa33b9d",
+   "word": "Blatt-er",
+   "article": "das",
+   "pos": "noun",
+   "translation": "张",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5447"
+  },
+  {
+   "id": "ocr45-w-5c43c7710e",
+   "word": "Freund-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "朋友",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5447"
+  },
+  {
+   "id": "ocr45-w-ec1520616e",
+   "word": "Zeit-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "时间",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5447"
+  },
+  {
+   "id": "ocr45-w-e610238838",
+   "word": "Moment-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "片刻,一会儿",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5447"
+  },
+  {
+   "id": "ocr45-w-933ac06349",
+   "word": "Wecker-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "闹钟",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-7b3a0882a1",
+   "word": "Radio-s",
+   "article": "das",
+   "pos": "noun",
+   "translation": "收音机",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-d3726141bb",
+   "word": "Vormittag-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "上午",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-ac3e188010",
+   "word": "Stunde-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "小时,课时",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-9dc6ece456",
+   "word": "Mitstudentin-nen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "大学女同学",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-172cc06612",
+   "word": "Montag-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "星期一",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-50cde4b29a",
+   "word": "Dienstage",
+   "article": "der",
+   "pos": "noun",
+   "translation": "星期二",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-aff24dd65a",
+   "word": "Samstag-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "星期六",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-28791f449e",
+   "word": "Sonntag-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "星期日",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-380139605d",
+   "word": "Monat-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-75f5e2aef2",
+   "word": "Januar-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "一月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-674b11b34d",
+   "word": "Februar-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "二月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-3d013c99cb",
+   "word": "Mai-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "五月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-c489c0319a",
+   "word": "Juni-s",
+   "article": "der",
+   "pos": "noun",
+   "translation": "六月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-6c5203be1b",
+   "word": "Juli-s",
+   "article": "der",
+   "pos": "noun",
+   "translation": "七月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-2039cd6d5c",
+   "word": "August-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "八月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-059483c132",
+   "word": "Oktober-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "十月",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-71fe08c6d0",
+   "word": "Frihling-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "春天",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-db0fa62682",
+   "word": "Herbst-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "秋天",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-b24f616ac1",
+   "word": "Chinese-n",
+   "article": "der",
+   "pos": "noun",
+   "translation": "中国人(男",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-0c6c28e09b",
+   "word": "Klinik-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "医院,诊疗所",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-5bfaa41a9b",
+   "word": "Fußballspiel-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "足球赛",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5452"
+  },
+  {
+   "id": "ocr45-w-410b827f0d",
+   "word": "Vorderseite-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "正面",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-7976338596",
+   "word": "Bekannte",
+   "article": "das",
+   "pos": "noun",
+   "translation": "熟悉的东西",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-bd57feaec6",
+   "word": "Lernmethode-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "学习方法",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-5b09c5911c",
+   "word": "Arbeitszeit-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "工作、劳动时间",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-4d4f3c2a73",
+   "word": "Unterrichtsbeginn",
+   "article": "der",
+   "pos": "noun",
+   "translation": "开始上课",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-bc93a6dca8",
+   "word": "Busfahrkarte-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "公共汽车票",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-ce2927cf5e",
+   "word": "Lernkartei-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "学习卡片(索引",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-085f0fee78",
+   "word": "Karteikasten-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "卡片箱",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-106efb5954",
+   "word": "Karteikarte-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "索引卡片",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-dac7a27c1b",
+   "word": "Gitarre-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "二他",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-4473adcfa2",
+   "word": "Supermarkt-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "超级市场,超市",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-47e481cccb",
+   "word": "Fernseher-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "电视机",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-2449c28712",
+   "word": "Fernsehfilm-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "电视(影)片",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-eecc78bd4f",
+   "word": "Bier-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "啤酒",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-00571a2201",
+   "word": "Wurstze",
+   "article": "die",
+   "pos": "noun",
+   "translation": "香肠",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-aa40997530",
+   "word": "Geschäfte",
+   "article": "das",
+   "pos": "noun",
+   "translation": "商店,店铺",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-60fe9ca695",
+   "word": "Farbe-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "颜色",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-0068096b08",
+   "word": "Schal-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "围巾",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-3208c62505",
+   "word": "Sache-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "事情;东西",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-98085f01d6",
+   "word": "Yuan",
+   "article": "der",
+   "pos": "noun",
+   "translation": "元",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-61938e31e1",
+   "word": "Backer-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "面包师",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-e6e3f046d6",
+   "word": "Lebensmittelgeschäfte",
+   "article": "das",
+   "pos": "noun",
+   "translation": "食品店",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-b7313a27c7",
+   "word": "Kartoffeln",
+   "article": "die",
+   "pos": "noun",
+   "translation": "土豆",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-f44667d754",
+   "word": "Mutti-s",
+   "article": "die",
+   "pos": "noun",
+   "translation": "妈妈",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-2fb4fcdefd",
+   "word": "Oma-s",
+   "article": "die",
+   "pos": "noun",
+   "translation": "奶奶,姥姥",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5457"
+  },
+  {
+   "id": "ocr45-w-b0dfede628",
+   "word": "Mantou-s",
+   "article": "das",
+   "pos": "noun",
+   "translation": "馒头",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-d5ddbb1a90",
+   "word": "Baozis",
+   "article": "das",
+   "pos": "noun",
+   "translation": "包子",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-e3369c512e",
+   "word": "Problem-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "问题,难题",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-f281ea5447",
+   "word": "Zigarette-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "香烟",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-a379d1300a",
+   "word": "Prinz-en",
+   "article": "der",
+   "pos": "noun",
+   "translation": "王子",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-84a2d034a4",
+   "word": "Vorspeise-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "和餐前小吃",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-d0cda10266",
+   "word": "Nachspeise-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "饭后甜食",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-f9a9961197",
+   "word": "Nude-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "面条",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-111fb3f616",
+   "word": "Rotweine",
+   "article": "der",
+   "pos": "noun",
+   "translation": "红葡萄酒",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-f4d2845162",
+   "word": "Rechnung-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "账单",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-7639a060d2",
+   "word": "Bar-s",
+   "article": "die",
+   "pos": "noun",
+   "translation": "酒吧",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-2f5edb689c",
+   "word": "Termine",
+   "article": "der",
+   "pos": "noun",
+   "translation": "日期",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5462"
+  },
+  {
+   "id": "ocr45-w-34c0af70d4",
+   "word": "Nerv-en",
+   "article": "der",
+   "pos": "noun",
+   "translation": "神经",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-c44da7e036",
+   "word": "Größe-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "大小;身高",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-e118143e83",
+   "word": "Sieg-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "胜利",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-edd86e4d41",
+   "word": "Klavier-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "钢琴",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-cd07780466",
+   "word": "Romane",
+   "article": "der",
+   "pos": "noun",
+   "translation": "长篇小说",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-24409f62eb",
+   "word": "Geburtstagsparty-s",
+   "article": "die",
+   "pos": "noun",
+   "translation": "生日庆祝会",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-472ce832a9",
+   "word": "Mensa-Essen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "食堂的饭菜",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-875180e75f",
+   "word": "Kino-s",
+   "article": "das",
+   "pos": "noun",
+   "translation": "电影，电影院",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-0c69053583",
+   "word": "Ausstellung-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "展览",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-1d11a0afbc",
+   "word": "Blumenvase-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "花瓶",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-0df2e9c42a",
+   "word": "Hotel-s",
+   "article": "das",
+   "pos": "noun",
+   "translation": "旅馆",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-0b350644f7",
+   "word": "Puppen",
+   "article": "die",
+   "pos": "noun",
+   "translation": "娃娃",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5467"
+  },
+  {
+   "id": "ocr45-w-70d6e9c4be",
+   "word": "ErtraganD",
+   "article": "der",
+   "pos": "noun",
+   "translation": "产量.",
+   "level": "B1",
+   "plural": "",
+   "source": "德语介词_叶本度等编_北京：外语教学与研究出版社.pdf · batch5471"
+  },
+  {
+   "id": "ocr45-w-8bbf6aff14",
+   "word": "Sprechen",
+   "article": "das",
+   "pos": "noun",
+   "translation": "说",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-5c175aedbb",
+   "word": "Reste",
+   "article": "der",
+   "pos": "noun",
+   "translation": "剩余的东西,余数",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-79201cf0f4",
+   "word": "Intelligenz",
+   "article": "die",
+   "pos": "noun",
+   "translation": "理解力，智力",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-7fb03065c4",
+   "word": "Informatik",
+   "article": "die",
+   "pos": "noun",
+   "translation": "信息科学,信息论",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-5448b3f41f",
+   "word": "Vorlesung-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "大课",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-03748ef25a",
+   "word": "Prüfung-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "考试",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-4c1ed022fb",
+   "word": "Bahn-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "铁路,火车，铁道部门",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-9d588503ec",
+   "word": "Oper-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "歌剧",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5472"
+  },
+  {
+   "id": "ocr45-w-e52051e7b1",
+   "word": "Dusche-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "淋浴",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-3aa8ec8424",
+   "word": "Freiheit-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "自由",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-8223e7ec0f",
+   "word": "Miete-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "租金,房租",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-1987265917",
+   "word": "Hilfe-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "帮助,帮忙",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-2da675b56b",
+   "word": "Sauberkeit",
+   "article": "die",
+   "pos": "noun",
+   "translation": "干净,整洁",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-aaf7f675f7",
+   "word": "Kleid-er",
+   "article": "das",
+   "pos": "noun",
+   "translation": "连衣寝;衣服,服装",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-f3d33cc750",
+   "word": "Fal-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "情况,事件",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-7376e03dfc",
+   "word": "Drucker-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "打印机",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-594ff342d2",
+   "word": "Kalendr-",
+   "article": "der",
+   "pos": "noun",
+   "translation": "日历",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-c1e38005c8",
+   "word": "Verbot-e",
+   "article": "das",
+   "pos": "noun",
+   "translation": "禁止,禁令",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-8497dbb8a2",
+   "word": "Disketten",
+   "article": "die",
+   "pos": "noun",
+   "translation": "软盘,磁盘",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-8ec89852cd",
+   "word": "Vorstand-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "董事会,理事会",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-9d7c8bf201",
+   "word": "Konferenz-en",
+   "article": "die",
+   "pos": "noun",
+   "translation": "会议",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-5fe039c933",
+   "word": "Teile",
+   "article": "der",
+   "pos": "noun",
+   "translation": "部分",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-a75a5485fb",
+   "word": "Betrieb-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "企业,工厂",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-98581506ac",
+   "word": "Großbetrieb-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "大企业",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-7812d42a84",
+   "word": "Sprachspiele",
+   "article": "das",
+   "pos": "noun",
+   "translation": "语言游戏",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-424e07c4b7",
+   "word": "Computerclub-s",
+   "article": "der",
+   "pos": "noun",
+   "translation": "电脑俱乐部",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-229d4492f1",
+   "word": "Hund-e",
+   "article": "der",
+   "pos": "noun",
+   "translation": "狗",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-9d2cb47453",
+   "word": "Erlebnis-se",
+   "article": "das",
+   "pos": "noun",
+   "translation": "经历",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-311799a213",
+   "word": "Mensch-en",
+   "article": "der",
+   "pos": "noun",
+   "translation": "人",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5477"
+  },
+  {
+   "id": "ocr45-w-7a5f633e57",
+   "word": "Note-n",
+   "article": "die",
+   "pos": "noun",
+   "translation": "分数",
+   "level": "B1",
+   "plural": "",
+   "source": "当代大学德语 学生用书 1_梁敏，（德）聂黎曦（MichaelNerlich）主编_北京：外语教学与研究出版社.pdf · batch5487"
   }
  ],
  "phrases": [
-  {
-   "id": "ocr45-ph-81fd9953e1",
-   "de": "Gib mehr Gas!",
-   "zh": "赶快!加油!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-03afaccac2",
-   "de": "Hast du gut geschlafen?",
-   "zh": "你睡得好人么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-6eff79746d",
-   "de": "Woher kommen Sie?",
-   "zh": "您来目哪里?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-a668b53b6b",
-   "de": "Ich danke Ihnen so sehr!",
-   "zh": "非常感谢您!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-86b5c93d7c",
-   "de": "Ist dieser Tisch frei?",
-   "zh": "这张果子有人中?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-b1d0b93a0c",
-   "de": "Überlege es dir griindlich!",
-   "zh": "你认真考虑一下吧!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-3c2d1eaf72",
-   "de": "Können Sie bitte noch einmal sagen?",
-   "zh": "您能再说一授吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-f577e54355",
-   "de": "Was verursachte die Verzögerung?",
-   "zh": "延误的原因是什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-e30bd86e0d",
-   "de": "Woher beziehst du deine Information?",
-   "zh": "你是从哪得到这个消息的?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-987a918d7d",
-   "de": "Wie geht es Ihnen?",
-   "zh": "您过得怎么样?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-20cc8e430b",
-   "de": "Wie viel kostet das?",
-   "zh": "这和多少钱?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-c37b615a4a",
-   "de": "Sag mal, wer ist denn das?",
-   "zh": "你说，这位完竟是谁啊?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-73a7e29268",
-   "de": "An wen schreibst du?",
-   "zh": "你在给谁与信?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-0dfbf3a4ba",
-   "de": "Wessen Buch ist das?",
-   "zh": "这是谁的书?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-5722ba5a0e",
-   "de": "Was ist das denn?",
-   "zh": "这到底是什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-17a3e337aa",
-   "de": "Was studiert er hier?",
-   "zh": "他和在这学什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-08ead6c150",
-   "de": "Wann kommst du?",
-   "zh": "你什么时候过来?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-39322022ab",
-   "de": "Hast du Zeit?",
-   "zh": "你有时间吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-5c760f54a2",
-   "de": "Kommen Sie morgen?",
-   "zh": "您明天过来吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-8582f5c205",
-   "de": "Hast du keine Lust?",
-   "zh": "你没有兴趣吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-6cba08ce3f",
-   "de": "Wie heißen Sie?",
-   "zh": "您叫什么名字?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-adc6a66772",
-   "de": "Na,was soll denn das heißen?",
-   "zh": "哩，这究竟是什么意思呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-f9c00d8104",
-   "de": "Reichst du mir mal die Butter, bitte?",
-   "zh": "请网给我黄油好吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-114321c74b",
-   "de": "Wie ist Ihr Name bitte?",
-   "zh": "请问您叫什么名字?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-0cb1aa95ed",
-   "de": "Kommen Sie auch aus Europa?",
-   "zh": "您也来目欧洲吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-875caa553e",
-   "de": "Sprechen Sie Deutsch?",
-   "zh": "您会说德语吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-ab92273da0",
-   "de": "Komm so schnell wie möglich!",
-   "zh": "赶快来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-565e63756a",
-   "de": "Wie schnell die Zeit vergeht!",
-   "zh": "时间过得多快啊!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-7651078540",
-   "de": "Was ist Ihr Name bitte?",
-   "zh": "请问章姓大名?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-9155a30b5c",
-   "de": "Woher kommst du?",
-   "zh": "你从哪儿来?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-b8cf91a5ff",
-   "de": "Entschuldigen Sie bitte die Störung!",
-   "zh": "不起，打扰您了!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-ed28fcbb14",
-   "de": "Buchstabieren Sie bitte langsam und deutlich Ihren Namen!",
-   "zh": "请您缓慢且清晰地拼旋您的名字!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-5a2c952dcf",
-   "de": "Komm doch gleich jetzt!",
-   "zh": "马上残来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-f8d019909f",
-   "de": "Kannst du den Schrank öffnen?",
-   "zh": "你能把柜子打开吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-63d5a3a07a",
-   "de": "Was kostet das Buch?",
-   "zh": "这本书(卖)多少钱?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-2074a595ca",
-   "de": "Wozu lernen Sie Deutsch?",
-   "zh": "您为什么学习德语?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-9ae76867c1",
-   "de": "Was heißt das auf Deutsch?",
-   "zh": "这个用德语怎么说?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-811c24461a",
-   "de": "Warum demm nicht?",
-   "zh": "究竟为什么不行?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-f6a73b0977",
-   "de": "Schläfst du denn gut heute?",
-   "zh": "你今天睡得好吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-3422f70d69",
-   "de": "Bitte schreiben Sie Sätze!",
-   "zh": "请您写句子!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-6eb66bcdeb",
-   "de": "Wohnst du im Zentrum von Köln oder in einem Vorort?",
-   "zh": "你住在科隆的市中心还是郊区?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-cfd77d5b4e",
-   "de": "Welche Zeitung lesen Sie?",
-   "zh": "您看什么报?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-1d198fad55",
-   "de": "Setz dich zu mir!",
-   "zh": "坐到我旁边来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2201"
-  },
-  {
-   "id": "ocr45-ph-3917418eaf",
-   "de": "Nehmen Sie bitte Paltz!",
-   "zh": "您请坐!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-ea08120df6",
-   "de": "A. Jetzt öffnen Sie bitte die Bücher!",
-   "zh": "现在请您打开书!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-5e29276672",
-   "de": "Bist du denn blind?",
-   "zh": "你难道瞎了吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-3e45c14b15",
-   "de": "Wie heißt du denn?",
-   "zh": "你到底叫什么名字?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-8443d9c071",
-   "de": "Was macht er denn jetzt?",
-   "zh": "他现在究竟在做什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-5dc1a73493",
-   "de": "Ach so. Wo wohnst du?",
-   "zh": "原来是这样。你住在哪儿”?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-f17cabbc0e",
-   "de": "Was gibt es heute Mittag zum Essen?",
-   "zh": "今天中午有什么号的呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-4a3b541e75",
-   "de": "Fahren Sie vorsichtig!",
-   "zh": "小心开车!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-78ba97d3ec",
-   "de": "Wohin gehen wir jetzt?",
-   "zh": "我们现在要去哪儿?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-ba747e2673",
-   "de": "Hast du schon deinen Mittagsschlaf gehalten?",
-   "zh": "你中午睡了午觉吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-cc9b87d9ad",
-   "de": "Erzähl du diesen Witz, du kannst das besser als ich!",
-   "zh": "你来讲这个笑话，你会比我讲得好些!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-625533309f",
-   "de": "Wohin gehst du?",
-   "zh": "你到哪儿去?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-dc5730a48c",
-   "de": "Was gibt es heute?",
-   "zh": "今天有什么〈吃的)?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-8a4606da77",
-   "de": "Willst du nicht zur Party mitgehen?",
-   "zh": "你不想一起去参加聚会吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-da7fb3fbd0",
-   "de": "Ich gehe jetzt, du auch?",
-   "zh": "我现在去，你也去吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-2ea30aff2c",
-   "de": "Du hast schon deine Hausaufgabe fertig gemacht, ja?",
-   "zh": "你已经做完了你的家许作业，是吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-3c49886637",
-   "de": "Kann ich heute nacht bei euch schlafen?",
-   "zh": "今晚我可以在你们这儿过夜吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-c82df2269a",
-   "de": "Bitte, noch einmal!",
-   "zh": "请再说〈或再来)Mm!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-3212578779",
-   "de": "Warum kommt er so spät?",
-   "zh": "他为什么来得这人么晚?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-92ff3a5849",
-   "de": "Was ist deine Telefonnummer?",
-   "zh": "你的电话号是多少?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-87623fde07",
-   "de": "Ich hatte drei Bier, was macht das insgesamt?",
-   "zh": "我要了三份啤酒，一共多少?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-6e94bbd8a2",
-   "de": "Wie geht es dir?",
-   "zh": "你好吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-5d91c4ae26",
-   "de": "Wie geht es euch?",
-   "zh": "你们好吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-b722890c15",
-   "de": "Wohin fährst du jetzt?",
-   "zh": "你现在开征去哪儿?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-14f541a262",
-   "de": "Kennst du ihn nicht?",
-   "zh": "你不认识他吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-17635b0697",
-   "de": "Alles Gute zum Geburtstag!",
-   "zh": "生日快乐!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-d545e1e986",
-   "de": "Herzlichen Glückwunsch zum Geburtstag!",
-   "zh": "衷心祝愿(你)生日快乐!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-3b37f7c2cd",
-   "de": "Lass mir etwas Zeit!",
-   "zh": "给我些时间!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-bbb1823045",
-   "de": "Was hast du am Sonntag vor?",
-   "zh": "星期天你有什么打算?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-e714d13a8b",
-   "de": "Hast du schon konkrete Pläne?",
-   "zh": "你已经有了有具体计划?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-e6cf4404cb",
-   "de": "Wen meinen Sie?",
-   "zh": "您意指谁?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-0a9ce1c3ab",
-   "de": "Was meinen Sie dazu?",
-   "zh": "您对这有什么意见?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-7a266e5bda",
-   "de": "Soll ich für Sie ein Taxi bestellen?",
-   "zh": "要我为您叫辆出租车吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-0fd1577773",
-   "de": "Kochen Sie bitte das Fleisch weich!",
-   "zh": "请把肉得嫩氮!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-4bce9b2fdc",
-   "de": "Lass mich mitmachen!",
-   "zh": "让为一起干吧!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-bc9f3f6f66",
-   "de": "Weißt du vielleicht eine bessere Idee?",
-   "zh": "也许你有好办法?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-5cf1ab6c0d",
-   "de": "Ganz meine Meinung!",
-   "zh": "我的意见正是这样!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-07bbf279a9",
-   "de": "Geht deine Uhr richtig?",
-   "zh": "你的表准吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2202"
-  },
-  {
-   "id": "ocr45-ph-60966bca2e",
-   "de": "Kannst du später anrufen?",
-   "zh": "你能晚一氮打电话过来吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-48344a961f",
-   "de": "Was sind Sie von Beruf?",
-   "zh": "您的工作是什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-d375698cc2",
-   "de": "Will er mit uns auf die Party mitkommen?",
-   "zh": "他愿意和我们一起参加聚会么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-876d1c5ace",
-   "de": "Was ist Ihnen lieber, das Theater oder das Kino?",
-   "zh": "您更想去哪，剧院还是电影院?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-5212d9ff9c",
-   "de": "Mir geht es prima!",
-   "zh": "我《感到)好极了!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-33a87bcd87",
-   "de": "Kannst du mich am Bahnhof abholen?",
-   "zh": "你能到火车站接我吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-5120473a6c",
-   "de": "Gehen Sie in Deutschland auch oft in den Supermarkt?",
-   "zh": "您在德国也经党去超市吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-725763682e",
-   "de": "Bist du (eigentlich) noch normal?",
-   "zh": "你不是疯了吧?”你脑子正常么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-26af55d052",
-   "de": "Steht dein Entschluß schon fest?",
-   "zh": "你的主意已经定了吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-b82c015ff7",
-   "de": "Hast du morgen Zeit?",
-   "zh": "你明天有时间吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-629707c01e",
-   "de": "Kommen Sie aus Deutschland?",
-   "zh": "您来和目德国吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-4f9cf8bb2b",
-   "de": "Hast du heute keinen Unterricht?",
-   "zh": "你今天没课吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-c91798f4f0",
-   "de": "ER, RNS, RHRTFTM?",
-   "zh": "你有什么打算吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-962992143c",
-   "de": "Ba: DR, ud, KATEREHNEIHENMAHEH: VR REE?",
-   "zh": "玛利亚:好的!星期六我没别的事",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-cae92a12c7",
-   "de": "Wollen Sie Bier?",
-   "zh": "您要啤酒吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-fb6d4633cb",
-   "de": "Al) Wie oft essen Sie Fleisch und Wurst?",
-   "zh": "您多人久吃一次肉和香肠呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-5a57932bbc",
-   "de": "Sprich dich ruhig aus!",
-   "zh": "你尽管把话说出来吧!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-aaf4fe163f",
-   "de": "Bei welchem Arzt sind Sie in Behandlung?",
-   "zh": "您是哪位医生治疗的?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-a06fc3d3f5",
-   "de": "Warte bitte auf mich!",
-   "zh": "等等我!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-4bfb7e3dc0",
-   "de": "Fahr(e) nicht so schnell!",
-   "zh": "不要开这有么快!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-4d74649c7b",
-   "de": "Möchten Sie schwimmen?",
-   "zh": "您想游泳吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-f2a685e32e",
-   "de": "Möchten Sie etwas?",
-   "zh": "您想要什么吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-272ea43e62",
-   "de": "Nehmen Sie bitte Platz!",
-   "zh": "请坐!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-1113847c26",
-   "de": "Nehmen Sie ein Taxi!",
-   "zh": "您打车吧!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-55bcb0ff5c",
-   "de": "Muss ich das wirklich?",
-   "zh": "我一定要做这件事吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-e8d0bc923b",
-   "de": "Magst du noch etwas trinken?",
-   "zh": "你想喝点什么吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-3052ddd202",
-   "de": "Zahlen Sie getrennt oder zusammen?",
-   "zh": "你〈您)们是分开付账还是合在一起付?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2203"
-  },
-  {
-   "id": "ocr45-ph-8228dc9209",
-   "de": "Haben Sie noch Zimmer frei?",
-   "zh": "您这儿还有衬房么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-d5b295b8cb",
-   "de": "Haben Sie lust, das Studio zu besichtigen?",
-   "zh": "您有兴趣去参观这个工作宇吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-b423d2aab9",
-   "de": "Musst du schon weg?",
-   "zh": "你得走了吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-25ef1171c1",
-   "de": "Komm doch bitte herein!",
-   "zh": "请进来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-ad8ebe313f",
-   "de": "Al) Schließ die Tür hinter dir!",
-   "zh": "随手关门!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-04e574e0c5",
-   "de": "Wie hoch sind Ihre Bezüge?",
-   "zh": "你的收入《新水)多少?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-c916b997d6",
-   "de": "Setzen Sie sich bitte neben mich!",
-   "zh": "请坐到我劳边来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-fe79ff5918",
-   "de": "Herr Ober, die Rechnung bitte!",
-   "zh": "服务员，结账!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-64abd303ec",
-   "de": "Da bist du ja!",
-   "zh": "你在那儿啊!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-5b8f0ff53f",
-   "de": "Wann geht dein Bus?",
-   "zh": "你挫的公交下什么时候开?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-f28a0ec6e0",
-   "de": "Wie sollen wir die Möbel stellen?",
-   "zh": "这些家上有具我们该怎样放?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-d879e03113",
-   "de": "Wann nimmst du eine Dusche?",
-   "zh": "你什么时候洗澡?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-7e00c7eda2",
-   "de": "Darf ich etwas fragen?",
-   "zh": "我可以问一个问题吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-dfbf5d119d",
-   "de": "Dürfen wir jetzt ins Kino?",
-   "zh": "我们现在去电影院可以吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-9d1317ec50",
-   "de": "Darf ich mich vorstellen?",
-   "zh": "我可以目我介绍一下吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-7d40dc4b32",
-   "de": "Darfst du heute ins Kino?",
-   "zh": "今天你可以去看电影吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-ffcc1d5b22",
-   "de": "Soll ich die Schuhe ausziehen?",
-   "zh": "我需要把圣皂了吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-2a46751220",
-   "de": "Soll ich dich dann abholen?",
-   "zh": "要不要我把窗户关上?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-f1aa4491fe",
-   "de": "Wohin soll der Tisch?",
-   "zh": "果子应当放在哪里去?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-59896acace",
-   "de": "In welchem Stock ist denn die Bibliothek?",
-   "zh": "这个图书馆到辰有多少层?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-01cf0d0228",
-   "de": "Das sagen Sie bloß!",
-   "zh": "你只是说说而已!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-773454ca15",
-   "de": "Wie haben Sie es bloß angefangen?",
-   "zh": "您到底是怎么做的呀?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-50b96b5c55",
-   "de": "Wo wohnst du?",
-   "zh": "你住在哪里?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-8b3784ea01",
-   "de": "In welcher Nummer wohnen Sie?",
-   "zh": "您住在几号房间?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-1e9a213549",
-   "de": "Wünschen Sie noch etwas?",
-   "zh": "您还要些什么吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-c235d3cfe9",
-   "de": "Zu dieser Frau kannst du dir gratulieren!",
-   "zh": "你该为有这样一位妻子感到高兴!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-a48e257d54",
-   "de": "Typisch Monika, sie kommt mal wieder zu spät!",
-   "zh": "典型的真妮卡作风，她又来得很晚!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-dd394a9fff",
-   "de": "Kann ich jetzt gehen?",
-   "zh": "我现在可以走了吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-562503ab47",
-   "de": "Was willst du trinken?",
-   "zh": "你想喝点什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-31b1584b18",
-   "de": "Was willst du?",
-   "zh": "你想要怎么样?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-772aae9bec",
-   "de": "Hier sind zwei Autos. Welches gefällt dir?",
-   "zh": "这儿有两辆车，你喜欢哪一辆?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-7345cffd7e",
-   "de": "Was willst du ihr schenken?",
-   "zh": "想要送她什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-75015a0a7b",
-   "de": "Willst du ein Glas Apfelsaft?",
-   "zh": "你想要一杯苹果汗吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-4af4b72c4d",
-   "de": "Willst du zum Mittagsessen?",
-   "zh": "你想去吃午饭吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-d37362d632",
-   "de": "Was kann ich ihr bloß schenken?",
-   "zh": "我究竟能送她什么呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-f1cc34e417",
-   "de": "Kann ich noch ein Bier haben?",
-   "zh": "我还能再要一杯啤酒吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-1450c3de74",
-   "de": "Sieh mal nach, wie viel sie kostet?",
-   "zh": "看一下，(这顶帽子)多少钱?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-67a767fedd",
-   "de": "OW, RRS MBAS. RERAFERIG?",
-   "zh": "FA是啊。但愿你会喜欢",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-a982f9b148",
-   "de": "HE, AeA! RAE EM!",
-   "zh": "对话三",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2204"
-  },
-  {
-   "id": "ocr45-ph-ea8b51b0ac",
-   "de": "Wann kommt er von diesem Ausflug wieder?",
-   "zh": "他什么时候郊游回来?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-fb2f0dff69",
-   "de": "Oho, so einfach geht das nicht!",
-   "zh": "哎呀!这不是那样简单的!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-e4d478202f",
-   "de": "Du bist einfach süß!",
-   "zh": "你真可爱!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-3b93eff264",
-   "de": "Ich muss dir unbedingt mein neues Kleid zeigen!",
-   "zh": "我一定要把我的新衣服给你看看:!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-0253574238",
-   "de": "Wen fotografierst du denn?",
-   "zh": "你究竟在给谁拍照?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-fd14eb2694",
-   "de": "Wie hast du das Wochenende verbracht?",
-   "zh": "周末你是怎样度过的?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-283718e371",
-   "de": "Wieviel verdienst du in der Stunde?",
-   "zh": "你每小时挣多少钱?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-2856511186",
-   "de": "Wie wichtig ist eine berufliche Weiterbildung?",
-   "zh": "职业深造有多重要?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-fbcbc49377",
-   "de": "Das ist Klasse!",
-   "zh": "这棒极了1!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-77d28c169c",
-   "de": "Warum bist du gestern nicht mitgekommen?",
-   "zh": "你上昨天为什么没有跟痢一起来?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-ac558c325b",
-   "de": "Bitte kommen Sie heute Nachmittag zu mir!",
-   "zh": "请你今天下午到我家来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-232c779e10",
-   "de": "Mensch! Da bist du schon gewesen?",
-   "zh": "好家伙!那儿你都去过了?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-3278550f08",
-   "de": "Ist es schlimm,wenn ich nicht komme?",
-   "zh": "我如果不来的话，碍事吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-d3862fd753",
-   "de": "Können Sie die Frage beantworten?",
-   "zh": "您能回答下这个问题吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-a2d9023cab",
-   "de": "Wissen Sie, ob heute noch ein Zug nach Hamburg fährt?",
-   "zh": "今天还有去汉人您的车吗，您知道吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-f3371c3a14",
-   "de": "Sage ihm, dass ich morgen keine Zeit habe!",
-   "zh": "跟他说，我明天没时间!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-4177861f0c",
-   "de": "Können Sie mir sagen, wo Herr Müller jetzt ist?",
-   "zh": "您能告诉我移勒先生现在在哪吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-890016ebe4",
-   "de": "Haben Sie sich nicht letztes Jahr eine Wohnung in der Unistraße angesehen?",
-   "zh": "您去年不是在学院路看一个房子吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-168d02744b",
-   "de": "Wer kümmert sich dann um Ihre zwei Kleinen?",
-   "zh": "那谁来照顾您那两个小叹贝?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-e3354bb3b4",
-   "de": "Könnte ich bitte Herrn Müller sprechen?",
-   "zh": "我可以和移勒先生通话吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-435ed79cde",
-   "de": "Diirfte ich hier bleiben?",
-   "zh": "我可以留在这里吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-8e2cbed8b6",
-   "de": "SRN, Oe oA. WEA I?",
-   "zh": "乙:我感觉不和舒服。我头痛，肚子也痛",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2205"
-  },
-  {
-   "id": "ocr45-ph-2725da8a93",
-   "de": "In welche Richtung gehst du?",
-   "zh": "你绷哪个方回走?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-8db36dd3d4",
-   "de": "Hast du denn nicht bemerkt, dass man dich betrügen wollte?",
-   "zh": "你束没察觉有人想骗你吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-8a087baf4b",
-   "de": "Haben Sie noch etwas dazu zu bemerken?",
-   "zh": "对此你还有什么要说的吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-ca73f7d1d4",
-   "de": "Verzeihung! Wissen Sie vielleicht, wo die Stadtbibliothek ist?",
-   "zh": "打扰一下!也许您知道，市图书馆在哪儿?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-576f2f9e71",
-   "de": "Entschuldigen sie bitte, wie weit ist es zur nächsten U-Bahnstation?",
-   "zh": "到驾，最近的地铁站在哪里?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-fc96ceee6b",
-   "de": "Können Sie mir/ uns sagen, wo der Hauptbahnhof ist?",
-   "zh": "您能告诉我/我们，火车总站在哪儿?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-4646d64fc5",
-   "de": "Sagen Sie mir bitte, wie ich zum Flughafen komme?",
-   "zh": "请告诉我，到机场怎么走?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-ba302c4b88",
-   "de": "Zeigen Sie mir bitte auf der Karte, wo ich jetzt bin?",
-   "zh": "请在地图上指给我看，我现在在什么地方”?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-60e89c6e22",
-   "de": "Können Sie mir den Weg zum Zentrum beschreiben?",
-   "zh": "您能给我朱述一下到市中心的路吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-b4d61a0800",
-   "de": "Ist es der richtige Weg zum Zoo?",
-   "zh": "到动物园是走这条路吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语1（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2206"
-  },
-  {
-   "id": "ocr45-ph-74657c3fe9",
-   "de": "Kannst du mir das Buch mitbringen?",
-   "zh": "你可以给我把书市来吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-83dad16165",
-   "de": "Achte auf das Kind!",
-   "zh": "照管一下孩子!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-65afeaaaba",
-   "de": "Was für ein Buch ist das?",
-   "zh": "这是一本什么样的书?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-f4cbf35be2",
-   "de": "Unter welcher Bedingung kann man auf die Party gehen?",
-   "zh": "什么情况下可以去派对?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-2f98b8e5ca",
-   "de": "Kann ich dich einen Augenblike sprechen?",
-   "zh": "我能跟你谈一会儿话吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-ff4d3be526",
-   "de": "Haben Sie etwas dagegen zu sagen?",
-   "zh": "您对此有什么不同意见吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-fff5c33ff6",
-   "de": "Was werden die Leute dazu sagen?",
-   "zh": "人们对此会说什么呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-acea1f099f",
-   "de": "Denkst du noch manchmal daran, wie schön es damals war?",
-   "zh": "那时候有多美好你有事还能回想得起来吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-e5a7dbcba3",
-   "de": "Wieviel beträgt es?",
-   "zh": "共计多少?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-fa7b3ce37d",
-   "de": "Liegt der Bahnhof auch zentral?",
-   "zh": "火车站也在市中心?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-b118fc49b5",
-   "de": "Herr Maier bitte zur Information!",
-   "zh": "请迈耶尔到问讯处来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2207"
-  },
-  {
-   "id": "ocr45-ph-5bf0c5f98e",
-   "de": "Würden Sie bitte Ihre Sachen vom Tisch wegnehmen?",
-   "zh": "您能把果子上您的东西拿走吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-4bb78fda71",
-   "de": "Was tun Sie alles für die Erfüllung Ihrer Wünsche?",
-   "zh": "为了实现愿望您会做什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-f42d44dcf1",
-   "de": "Kann ich mich um das Stipendium bewerben?",
-   "zh": "我能够申请这个炎学金吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-306f7c5c92",
-   "de": "Ist die Staatsangehörigkeit mehr als eine bürokratische Formalität?",
-   "zh": "国籍不下是一个行政机构的手续吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-6620dcb171",
-   "de": "Auf welche Schule schicken Sie Ihre Tochter?",
-   "zh": "您送您女儿去哪上和学?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-438d99b6f0",
-   "de": "Sind sie telefonisch erreichbar?",
-   "zh": "打电话能找到你么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-a54bc83ca5",
-   "de": "Kannst du mir das Buch bis nächste Woche zurückgeben?",
-   "zh": "能在下周前把这本书还给我吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-230a8323e8",
-   "de": "Bestehen auf EAN “EFF”, UT, MM Er besteht darauf, dass in seinem Zimmer nicht geraucht wird. (tH!",
-   "zh": "持在他的房间不能抽烟。",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-9c4f012328",
-   "de": "Schlaf nicht ein!",
-   "zh": "别睡着!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-7f1b03a9d6",
-   "de": "Das kann auch nur dir passieren!",
-   "zh": "这种事也只能及生在你身上!这种事也只有你做得出来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-9286b81ca6",
-   "de": "Kannst du mir einen Vogel mit sechs Buchstaben nennen?",
-   "zh": "你能否给我说出一种6个字母的乌名?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-122a48ff0d",
-   "de": "Sie ist erschöpft. Lass sie doch schlafen!",
-   "zh": "她已经筋疲力尽了。让她好好睡一党吧!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-c41b5a5a03",
-   "de": "Könnten Sie mich mitnehmen?",
-   "zh": "您能让我搭车吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-a74de234a4",
-   "de": "Das lob’ ich mir!",
-   "zh": "这我很喜欢!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-169e0ffb68",
-   "de": "Kann ich Ihnen noch etwas anbieten?",
-   "zh": "我还能为您提供些什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-7e747e270d",
-   "de": "Bis wann kann ich das Buch behalten?",
-   "zh": "这本书我可以借到什么时候”?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2208"
-  },
-  {
-   "id": "ocr45-ph-bb8eeafacf",
-   "de": "Hast du ihn schon singen gehört?",
-   "zh": "你听到过他唱歌吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-8889bfc8ae",
-   "de": "Unterbrich mich doch nicht!",
-   "zh": "别老是打断我说话!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-db6dcd1202",
-   "de": "Bei dieser lauten Musik wird man jataub!",
-   "zh": "声音这么啊耳未都要登了了!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-8c39d055ee",
-   "de": "Wie kann man ein Unternehmen gründen?",
-   "zh": "如何成立一家企业?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-840d01e309",
-   "de": "Bitte einen Augenblick Ruhe!",
-   "zh": "请静一静!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-f85f84fb4f",
-   "de": "Ist es in Ihrer Kultur üblich Tee zu trinken?",
-   "zh": "在您的文化里，人们平和间喝休吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-b5c3497266",
-   "de": "UR, TAR, RER. AUS!",
-   "zh": "你在德国怎么样”?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-480e1ca43b",
-   "de": "Kann ich mal ihr Handy benutzen?",
-   "zh": "我能用一下她的手机吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-67b622fbf7",
-   "de": "Was wird das geben?",
-   "zh": "这会有什么结果?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-2bbd3763c5",
-   "de": "Nun kann es losgehen!",
-   "zh": "现在可以开始了!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-8ef5fda0b5",
-   "de": "Können Sie diese Datei ausdrucken?",
-   "zh": "您能把这些资料打印出来吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-41a567597a",
-   "de": "Wer ist am Apparat?",
-   "zh": "请问哪位?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-08ab72e59b",
-   "de": "Welche Tätigkeit haben Sie früher ausgeübt?",
-   "zh": "您过去是干什么工作?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-dcb381e344",
-   "de": "Können Sie mir das Zitat auf Deutsch erläutern?",
-   "zh": "你能给我用德语解释一下这人句引文吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2209"
-  },
-  {
-   "id": "ocr45-ph-b818cd00f5",
-   "de": "Aber was will der deutsche Kunde?",
-   "zh": "这位德国顾客想要什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-31998e8b0f",
-   "de": "Wir sollten uns zu gemeisamem Handeln vereinen!",
-   "zh": "我们应诅联合起来共同行动!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-9ef130f9ce",
-   "de": "Was soll ich damit anfangen?",
-   "zh": "这我该怎么做呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-c2ab5187fc",
-   "de": "Beilegen Sie Ihrer Bewerbung die üblichen Unterlagen!",
-   "zh": "请在求职申请书里附上通间所需的证明!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-ae4756b03c",
-   "de": "Was sollen wir heute unternehmen?",
-   "zh": "我们今天做什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-bb89158b3f",
-   "de": "Wie stark werden die Gegner sein?",
-   "zh": "对手有多强大?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-06d0e21ce5",
-   "de": "Mach bitte den Fernseher an!",
-   "zh": "请把电视打开!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-6980a2f07b",
-   "de": "Welches Werkzeug benutzt ein Schreiner?",
-   "zh": "木工会用到哪些工具?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-6feeac226e",
-   "de": "Hast du mit dem Zahnarzt schon einen Termin ausgemacht?",
-   "zh": "你和牙医大夫约定好日期了人么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-980050f9de",
-   "de": "Hast du das gewusst? -Allerdings!",
-   "zh": "一一你知道这件事吗?一一当然!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-f2d3d5e994",
-   "de": "Welche Arten von Medizin gibt es in Ihrem Herkunftsland?",
-   "zh": "您的国家有哪一类的药物呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-4eb4d3d386",
-   "de": "Hast du dein Zeugnis schon bekommt?",
-   "zh": "你拿到成绩单了吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-3c2ee10a28",
-   "de": "Warum kommt er nicht?",
-   "zh": "他为什么没有来?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-dc6389e443",
-   "de": "Warum seid ihr noch im Büro?",
-   "zh": "你们怎么还在办公室呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-b312bc4f9a",
-   "de": "ERA: Mu HAFEN?",
-   "zh": "Wa:因为我认为帮助病人是一件很高六而有意义的事",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2210"
-  },
-  {
-   "id": "ocr45-ph-387ca351be",
-   "de": "Klappt die Vermittlung von Inna an Familie Blattner?",
-   "zh": "把役娜介绍给布拉特内尔家成功了吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-459373daec",
-   "de": "Können Sie mir bitte das Salz reichen?",
-   "zh": "您能把盐递给我吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-4cdad9587e",
-   "de": "Kannst du mir nicht 1.000 Euro leihen?",
-   "zh": "你不能信我1000欧吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-41f9bf8f05",
-   "de": "Hat es geklappt?",
-   "zh": "事情还顺利吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-fbfa681ea1",
-   "de": "Worin liegt/besteht der Unterschied zwischen dir und mir/uns beiden?",
-   "zh": "你和我之间/我们两人差距在哪儿呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-e0b34e71a6",
-   "de": "Sie sind doof oder? -Selber!",
-   "zh": "一一您是傻了还是怎么了?一一您〈目己)AR!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-40aa80a9eb",
-   "de": "Meinst du, er schafft es, einen neuen Job zu finden?",
-   "zh": "你认为他能找到一份新的工作吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-434580e435",
-   "de": "Welcher Feiertag ist an welchem Datum?",
-   "zh": "哪些节日在哪些时候?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-af5c41eee8",
-   "de": "Wie viele Feiertage gibt es bei Ihnen?",
-   "zh": "在您那里有多少节日?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-f09b83e5b4",
-   "de": "Wie verbringen wir das Weihnachtsfest dieses Jahr?",
-   "zh": "今年我们怎么过茎诞节?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-010468793d",
-   "de": "Können Sie die Entfernung berechnen?",
-   "zh": "您能计算这个距离吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-91bb2b772c",
-   "de": "Wie viel berechnen Sie mir?",
-   "zh": "您要我多少钱?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-a5ac438168",
-   "de": "B: Wie bitte? Worauf müssen Sie lange warten?",
-   "zh": "什么?您明天必须等什么?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-5765d36e4b",
-   "de": "B: Wie bitte? Auf wen haben Sie heute lange gewartet?",
-   "zh": "什么?您今天等谁等了很久?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-627589abd6",
-   "de": "A: Kann ich Ihnen helfen?",
-   "zh": "我能帮您吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-6d21c0fc9a",
-   "de": "A: Wer hat heute Morgen die Tür geöffnet?",
-   "zh": "今天早上是谁开的门?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2211"
-  },
-  {
-   "id": "ocr45-ph-9c47132056",
-   "de": "Der Film ist absolut Spitze!",
-   "zh": "这部电影真棒!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-d6280b8cb8",
-   "de": "Würden Sie mich bitte mit Herrn Meier verbinden?",
-   "zh": "您能帮我接通迈尔先生吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-27b9ce5fb9",
-   "de": "Bist du traurig darüber, dass wir ihn nicht wieder sehen werden?",
-   "zh": "你是不是因为疫见到他感到难过?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-c9be9aefb9",
-   "de": "Glaubst du an der absolute Wahrheit?",
-   "zh": "你相信绝对真理吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-c852ba7cb8",
-   "de": "Pass auf, dass dich niemand sieht!",
-   "zh": "注意，不要让人看见你1!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-99f21606ed",
-   "de": "Kannst du mal schnell auf meine Tasche aufpassen?",
-   "zh": "你能帮我照看一下提包吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-d936f58889",
-   "de": "Darf ich Sie noch einmal bemühen?",
-   "zh": "我可以再麻烦你一下吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-90b58d1e29",
-   "de": "Wenn ich nur noch eine Stunde Zeit hätte!",
-   "zh": "我要是还有一个小时束有了!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-13241ba3f9",
-   "de": "Wenn du gestern Abend doch auf die Party gekommen wirest!",
-   "zh": "你昨天晚上要是来参加派对束好了!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-f6b4e51df4",
-   "de": "Wenn ich in Deutschland studieren könnte!",
-   "zh": "我要是能在德国谈书该有多好!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-4ded55bef2",
-   "de": "Hätte ich das Buch gelesen!",
-   "zh": "我要是谈过那本书广有多好!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-ea6865a815",
-   "de": "Würden Sie bitte das Fenster öffnen?",
-   "zh": "您能把窗户打开吗?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
-  {
-   "id": "ocr45-ph-3f2ea68273",
-   "de": "Wiebist du bloß auf den Gedanken gekommen, das zu tun?",
-   "zh": "你怎么偏想要去于这种事呢?",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "新编大学德语2（第2版） 学习指南【词汇短语＋单元语法＋课文精解＋全文翻译＋练习答案】.pdf · batch2212"
-  },
   {
    "id": "ocr45-ph-9ef5b2c3aa",
    "de": "Achtung! Eine wichtige Durchsage!",
@@ -48356,16 +38376,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2232"
   },
   {
-   "id": "ocr45-ph-3d73d6d41d",
-   "de": "Auf Wiederhören! (BEE) EM!",
-   "zh": "©开着的〈作副词",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2232"
-  },
-  {
    "id": "ocr45-ph-824ea96245",
    "de": "Rufen Sie mich so bald wie möglich an!",
    "zh": "请您尽快给我来电话!",
@@ -48384,6 +38394,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "A2",
    "category": "OCR 常用句",
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2233"
+  },
+  {
+   "id": "ocr45-ph-9d1317ec50",
+   "de": "Darf ich mich vorstellen?",
+   "zh": "我能介绍下我自己吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2234"
   },
   {
    "id": "ocr45-ph-a931c12f7c",
@@ -48716,6 +38736,16 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2238"
   },
   {
+   "id": "ocr45-ph-272ea43e62",
+   "de": "Nehmen Sie bitte Platz!",
+   "zh": "您请坐!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2239"
+  },
+  {
    "id": "ocr45-ph-f7ce64b0f0",
    "de": "Per Post oder Telefon?",
    "zh": "通过邮件还是电话?",
@@ -48826,26 +38856,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "二外德语考研词汇详解_陈栋编著_上海：同济大学出版社.pdf · batch2242"
   },
   {
-   "id": "ocr45-ph-8e6b4e9f77",
-   "de": "Freitag, der, -e N nun. Hast du am Freitag Zeit?",
-   "zh": "zu四es",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "交际德语教程词汇手册 第1册_（德）范克编_上海：上海外语教育出版社.pdf · batch2258"
-  },
-  {
-   "id": "ocr45-ph-4c37da38fc",
-   "de": "Wohin gehen die Touristen?",
-   "zh": "AS跑",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "交际德语教程词汇手册 第1册_（德）范克编_上海：上海外语教育出版社.pdf · batch2259"
-  },
-  {
    "id": "ocr45-ph-4ab46af937",
    "de": "Übersetzen Sie bitte den folgenden Text ins Deutsche!",
    "zh": "柏林政府换届后的经济合作",
@@ -48854,36 +38864,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "A2",
    "category": "OCR 常用句",
    "source": "全国高等学校德语专业八级考试样题集 上 听力、语法、词汇、国情、翻译、写作_刘学慧等编_北京：外语教学与研究出版社.pdf · batch2262"
-  },
-  {
-   "id": "ocr45-ph-baef330775",
-   "de": "Test 16 Was ist falsch?",
-   "zh": ".什么是错的?9",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "初级德语试题精选 语法及词汇_李岳萱，杨玲编_台湾：晓园出版社.pdf · batch2268"
-  },
-  {
-   "id": "ocr45-ph-919ca834e7",
-   "de": "Test 20 Wissen Sie das?",
-   "zh": "你知道吗?本",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "初级德语试题精选 语法及词汇_李岳萱，杨玲编_台湾：晓园出版社.pdf · batch2268"
-  },
-  {
-   "id": "ocr45-ph-d78352aec8",
-   "de": "Frau Hartmann hat heute Geburtstag. ------ ?",
-   "zh": ".下m",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "初级德语试题精选 语法及词汇_李岳萱，杨玲编_台湾：晓园出版社.pdf · batch2269"
   },
   {
    "id": "ocr45-ph-afa5cf753d",
@@ -48924,16 +38904,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "A2",
    "category": "OCR 常用句",
    "source": "即学即用德语会话词典_刘芳本编著_北京：外语教学与研究出版社.pdf · batch2296"
-  },
-  {
-   "id": "ocr45-ph-230cc9fcaf",
-   "de": "Haben wir eine halbe Stunde Verspätung?",
-   "zh": "〈误点半小时",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "即学即用德语会话词典_刘芳本编著_北京：外语教学与研究出版社.pdf · batch2297"
   },
   {
    "id": "ocr45-ph-266ad31a7c",
@@ -49059,16 +39029,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "id": "ocr45-ph-f8152bea71",
    "de": "Weihnachten. 圣诞 节 快 到 了 。 Bis bald!",
    "zh": "再见!回头见!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2314"
-  },
-  {
-   "id": "ocr45-ph-0cd0ac6a5f",
-   "de": "Arbeit beeilen #2 4 L#£ Thomas, beeil dich!",
-   "zh": "托马斯,快点!",
    "example": "",
    "exampleZh": "",
    "level": "A2",
@@ -49236,29 +39196,9 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2317"
   },
   {
-   "id": "ocr45-ph-677479d905",
-   "de": "Pl.L# EN Gottes Sohn IR &% Mein Gott!",
-   "zh": "我的天啊!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2317"
-  },
-  {
    "id": "ocr45-ph-83a792fe56",
    "de": "Kleiner, komm her!",
    "zh": "喂,小朋友,过来!",
-   "example": "",
-   "exampleZh": "",
-   "level": "A2",
-   "category": "OCR 常用句",
-   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2318"
-  },
-  {
-   "id": "ocr45-ph-f6c9c8283a",
-   "de": "Erste Hilfe &% Hilfe!",
-   "zh": "救命!",
    "example": "",
    "exampleZh": "",
    "level": "A2",
@@ -49374,6 +39314,2726 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "level": "A2",
    "category": "OCR 常用句",
    "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2319"
+  },
+  {
+   "id": "ocr45-ph-5594d55267",
+   "de": "Lass den Teller im Schrank!",
+   "zh": "盘子放在柜子里不动吧!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2319"
+  },
+  {
+   "id": "ocr45-ph-4841100e63",
+   "de": "Lied magst du am liebsten?",
+   "zh": "你最喜欢哪首歌?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-a63cda3785",
+   "de": "Liter Wasser sollte man täglich trinken?",
+   "zh": "人们每天要喝多少升水?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-25f472c843",
+   "de": "Adv. 开始 Aber，nun los!",
+   "zh": "现在开始吧!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-727cfbbe95",
+   "de": "Habt ihr jetzt eine Lösung gefunden?",
+   "zh": "你们现在找到解决方法了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-251bc92504",
+   "de": "Luft mehr So \"FR Ext Bitte tief Luft holen!",
+   "zh": "请深呼吸!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-b682b8907b",
+   "de": "Lust, mit mir ins Kino zu gehen?",
+   "zh": "你有兴趣和我一起去看电影吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-50d71c0c94",
+   "de": "Wie viel macht das zusammen?",
+   "zh": "这些一共多少钱?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-2de3318e8e",
+   "de": "Erzähl mir doch keine Märchen!",
+   "zh": "你不要向我吹牛了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-8ac6dcdc29",
+   "de": "Badest du gern im Meer?",
+   "zh": "你喜欢在海里游泳吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-e19bb6d14b",
+   "de": "Meine liebe Frau!",
+   "zh": "我亲爱的太太!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-9ed4da2774",
+   "de": "Können Sie mir das Menü geben?",
+   "zh": "您能把菜单给我吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-f17cabbc0e",
+   "de": "Was gibt es heute Mittag zum Essen?",
+   "zh": "今天中午有什么吃的呢?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-8b742bcca5",
+   "de": "Kommst du morgen in die Firma?",
+   "zh": "明天你来公司吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-5680ec1e7b",
+   "de": "Wie weit ist es bis zum Museum?",
+   "zh": "到博物馆去有多远?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2320"
+  },
+  {
+   "id": "ocr45-ph-3fc5bd54a0",
+   "de": "Sieh mal nach, wer kommt!",
+   "zh": "你去看看,谁来了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-05837207e3",
+   "de": "J. (2014) Bleibe in der Nähe!",
+   "zh": "别走远!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-d0e3e3d03c",
+   "de": "Das geht in die Nase!",
+   "zh": "这个冲鼻子!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-b8d8662b05",
+   "de": "Wie möchtet ihr das Kind nennen?",
+   "zh": "你们想给孩子起什么名字?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-88aa52131b",
+   "de": "Was gibt es Neues?",
+   "zh": "有什么新消息?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-1082e23996",
+   "de": "NAEZ Nie mehr! AR! Nie wieder!",
+   "zh": "决不再!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-a744d0d5f0",
+   "de": "Nochmals vielen Dank!",
+   "zh": "再次感谢!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-419c4104eb",
+   "de": "RF Welche Nummer haben Sie?",
+   "zh": "您需要什么尺码?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-59d5ed6d59",
+   "de": "Wenn er nur noch lebte!",
+   "zh": "但愿他还活着!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-58d63b77da",
+   "de": "Fleiß kein Preis!",
+   "zh": "不勤奋就不会有收获!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2321"
+  },
+  {
+   "id": "ocr45-ph-252ae10e04",
+   "de": "Schluss können Sie daraus ziehen?",
+   "zh": "您从中可以得出什么结论?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2322"
+  },
+  {
+   "id": "ocr45-ph-268f65f63c",
+   "de": "D.) 有 滋味 ;有 … 的 味道 Das schmeckt gut!",
+   "zh": "这很好吃!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2322"
+  },
+  {
+   "id": "ocr45-ph-da2a836a80",
+   "de": "Wer ist daran schuld?",
+   "zh": "谁对此有过错?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2323"
+  },
+  {
+   "id": "ocr45-ph-3dc16b7898",
+   "de": "Bitte setzen Sie sich!",
+   "zh": "请坐下!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2323"
+  },
+  {
+   "id": "ocr45-ph-c7d4b04821",
+   "de": "Solch ein Pech!",
+   "zh": "真倒霉!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2323"
+  },
+  {
+   "id": "ocr45-ph-baaca33921",
+   "de": "War sonst noch jemand da?",
+   "zh": "此外还有别人在场吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2323"
+  },
+  {
+   "id": "ocr45-ph-8d5b69ddfb",
+   "de": "Haben Sie sonst noch eine Frage?",
+   "zh": "此外您还有别的问题吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2323"
+  },
+  {
+   "id": "ocr45-ph-b640a564e6",
+   "de": "ALA WAR. Mache dir darum keine Sorgen!",
+   "zh": "不要为此担心!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2323"
+  },
+  {
+   "id": "ocr45-ph-2b90514c76",
+   "de": "An welche Stelle soll ich mich wenden?",
+   "zh": "我应当求助哪个部门?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2323"
+  },
+  {
+   "id": "ocr45-ph-913ce591b5",
+   "de": "FRA Hilfst du mir die Tasche tragen?",
+   "zh": "你帮有我提手提包吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2324"
+  },
+  {
+   "id": "ocr45-ph-ab60a39b71",
+   "de": "Teure Genossen und Freunde!",
+   "zh": "亲爱的同志们和朋友们!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2324"
+  },
+  {
+   "id": "ocr45-ph-9acb9b5a6b",
+   "de": "Bitte zu Tisch!",
+   "zh": "请入席(用餐)!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2324"
+  },
+  {
+   "id": "ocr45-ph-e4dd57f147",
+   "de": "Menschen sind bei diesem schweren Verkehrsunfall umgekommen?",
+   "zh": "有多少人在这次严重的交通事故中表生?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2324"
+  },
+  {
+   "id": "ocr45-ph-8889bfc8ae",
+   "de": "Unterbrich mich doch nicht!",
+   "zh": "别打断我说话!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2324"
+  },
+  {
+   "id": "ocr45-ph-002973162a",
+   "de": "Pflanzen voneinander unterscheiden?",
+   "zh": "你能区分这两种植物吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2324"
+  },
+  {
+   "id": "ocr45-ph-fbcc75f10d",
+   "de": "Kommt die U-Bahn Linie 8 hier vorbei?",
+   "zh": "地铁八号线经过这里吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2325"
+  },
+  {
+   "id": "ocr45-ph-d6f9e51bc8",
+   "de": "Steh so früh wie möglich auf!",
+   "zh": "尽可能早起!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2326"
+  },
+  {
+   "id": "ocr45-ph-f7b05929cb",
+   "de": "Zeitung lesen Sie?",
+   "zh": "您看什么报纸?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2326"
+  },
+  {
+   "id": "ocr45-ph-89ace907b5",
+   "de": "Zuschauerinnen und Zuschauer!",
+   "zh": "晚上好,亲爱的观众们!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇全攻略_彭彧，薛琳著_上海：同济大学出版社.pdf · batch2326"
+  },
+  {
+   "id": "ocr45-ph-5fd46771f4",
+   "de": "Darf ich Sie zum Abendessen einladen?",
+   "zh": "我可以邀请您吃晚饭吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-1a1179c5a9",
+   "de": "Was machst du abends?",
+   "zh": "你晚上干什么?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-f9f87883e4",
+   "de": "Können . qt einen Gefallen tun? — Aber gern!",
+   "zh": "您能帮有我一个忙吗?一当然愿意!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-997b3604d7",
+   "de": "Vergiss nicht, die Tür abzuschließen!",
+   "zh": "别忘记锁门!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-4eaa059ed7",
+   "de": "Alles ist in Ordnung!",
+   "zh": "一切正常!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-47dc80403b",
+   "de": "Für wie alt halten Sie ihn?",
+   "zh": "您看他有多大年龄?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-658a649087",
+   "de": "Darf ich Ihnen etwas zu essen anbieten?",
+   "zh": "要不要给您拿点吃的来?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-8694b8b0e1",
+   "de": "Was bringst du da an?",
+   "zh": "你带了些什么来?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-06f66f570d",
+   "de": "Wer macht den Anfang?",
+   "zh": "谁开头?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-31a0f8947c",
+   "de": "Wirst du annehmen oder ablehnen?",
+   "zh": "你接受还是拒绝?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-66ccffdc5f",
+   "de": "Hast du dir den Film schon angeschen?",
+   "zh": "你看过这部电影了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-ac5b6f573d",
+   "de": "Was ist Ihre Ansicht darüber?",
+   "zh": "您对此有何看法?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-fba9633f0b",
+   "de": "Streng dich mal etwas an!",
+   "zh": "你要下一点功夫!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2327"
+  },
+  {
+   "id": "ocr45-ph-0a859b3acc",
+   "de": "Möchten Sie einen Apfel?",
+   "zh": "您想吃个苹果吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-88ae6643d8",
+   "de": "Bleiben Sie bitte am Apparat!",
+   "zh": "您等一下,请别挂上电话!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-2ccff87aaa",
+   "de": "Hast du dich über ihn geärgert?",
+   "zh": "你生他的气了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-b06aa77043",
+   "de": "Der arme Kerl!",
+   "zh": "这个可怜的家伙!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-30144894c9",
+   "de": "Bitte, atmen Sie tief!",
+   "zh": "请您深呼吸!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-45a158648a",
+   "de": "Kommen Sie auch mit?",
+   "zh": "您也一起来吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-5c5d436afc",
+   "de": "Wie lange hat der Zug hier Aufenthalt?",
+   "zh": "列车在这里停多久?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-371f121f18",
+   "de": "Gib nicht auf !",
+   "zh": "别放弃/别泄气!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-215e3b289b",
+   "de": "Höre doch endlich auf, davon zu sprechen!",
+   "zh": "别再谈这件事了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-8e21ea219b",
+   "de": "Pass auf, dass du nicht fällst!",
+   "zh": "当心,别摔下来!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-fc3a1bafbf",
+   "de": "Pass mal auf, dass dem Kind nichts passiert!",
+   "zh": "注意别让孩子出事!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-ab25e4a206",
+   "de": "Hast du den Schreibtisch schon aufgeräumt?",
+   "zh": "你把书桌收拾好了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-6ba2bd800c",
+   "de": "Einen Augenblick bitte!",
+   "zh": "请稍候!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-9f60f17d61",
+   "de": "Fiillen Sie bitte diesen Fragebogen aus!",
+   "zh": "请您把这张调查表填一下!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-6db0940baa",
+   "de": "Wo ist hier der Ausgang?",
+   "zh": "出口在哪儿?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-4186b5e85b",
+   "de": "Der Ausgang muss frei bleiben!",
+   "zh": "出口处必须保持通畅!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-a13f314ad0",
+   "de": "Jetzt geht mir die Geduld aus!",
+   "zh": "现在我忍耐不住了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-50d04602b7",
+   "de": "Das hast du ausgezeichnet gemacht!",
+   "zh": "这件事你干得好极了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-1bec53b72c",
+   "de": "Möchten Sie außerdem noch etwas?",
+   "zh": "除此之外,您还想要点什么吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-b80ae1e3f9",
+   "de": "Bitte äußern Sie sich dazu!",
+   "zh": "请您对此发表意见!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-77da1a8651",
+   "de": "Lassen Sie mich doch aussprechen!",
+   "zh": "您让我说完呀!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-09b8f00f6f",
+   "de": "Zich dir den Mantel aus!",
+   "zh": "把大衣脱了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-e23cfa83f7",
+   "de": "Gehen wir baden!",
+   "zh": "我们去游泳吧!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-b1e992bd17",
+   "de": "Zahlen Sie (in) bar?",
+   "zh": "您付现金四?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-597d551c35",
+   "de": "Was soll das bedeuten?",
+   "zh": "这是什么意思?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2328"
+  },
+  {
+   "id": "ocr45-ph-bb6a0b0798",
+   "de": "Darf ich Sie begleiten?",
+   "zh": "允许我送您吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-892859d0eb",
+   "de": "Wie wird die Ablehnung begründet?",
+   "zh": "拒绝的理由是什么?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-74b7332585",
+   "de": "Darf ich den Prospekt behalten?",
+   "zh": "我可以保留这份说明书吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-ac817cd105",
+   "de": "Konnen Sie ein Beispiel nennen?",
+   "zh": "您能举个例子吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-eb88df2974",
+   "de": "Was bekommen Sie?",
+   "zh": "您想要点什么?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-fa14122887",
+   "de": "Bitte bemühen Sie sich nicht!",
+   "zh": "请您别费心了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-1a96d8f342",
+   "de": "Vielen Dank für Ihre Bemühungen!",
+   "zh": "多谢您费心!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-2c44c2f39a",
+   "de": "Machen Sie es sich bequem!",
+   "zh": "您随便坐!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-1c32df6640",
+   "de": "Ist Ihre Frau auch berufstätig?",
+   "zh": "您夫人也工作吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-04c5869d15",
+   "de": "Beruhige dich doch endlich!",
+   "zh": "你别激动了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-61a1168346",
+   "de": "Beruhigen Sie sich doch!",
+   "zh": "您放心吧!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-222ecde532",
+   "de": "Ist der Tag der Abreise schon bestimmt?",
+   "zh": "出发的日了已经定了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-812c069086",
+   "de": "Wie viel beträgt das Ganze?",
+   "zh": "合计多少?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-610151f5be",
+   "de": "Den Rasen nicht betreten!",
+   "zh": "勿践踏草地!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-d340cf6a4c",
+   "de": "Hast du die Rechnung schon bezahlt?",
+   "zh": "你付帐了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-3c7790e75d",
+   "de": "Herr Ober, ein Bier bitte!",
+   "zh": "服务员,请来杯啤酒!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-75d2b3e465",
+   "de": "Wwo kann man billig einkaufen?",
+   "zh": "哪儿买东西便宜?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2329"
+  },
+  {
+   "id": "ocr45-ph-6292ce0617",
+   "de": "Hast du ein bisschen Zeit?",
+   "zh": "你有点儿时间吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-441eb3ab12",
+   "de": "Gib dir ein bisschen Mühe!",
+   "zh": "你使点劲!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-9d546ce29e",
+   "de": "Ein Pfund Kaffee bitte!",
+   "zh": "请来一磅咖啡!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-d8cc3efa82",
+   "de": "Kann ich das Telefonbuch haben?",
+   "zh": "我可以用一下电话短吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-69f79c10c2",
+   "de": "Bitte (kommen Sie herein) !",
+   "zh": "请(进)!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-b363c32eb2",
+   "de": "Darf ich (Sie) um Ihren Namen?",
+   "zh": "请问您的姓名?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-fc1203e901",
+   "de": "Stellst du dich blind?",
+   "zh": "你装作看不见吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-bedd0ebbbb",
+   "de": "Was soll ich bloß machen?",
+   "zh": "我究竟该怎么办呢?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-68976be4f3",
+   "de": "Bist du mir noch böse?",
+   "zh": "你还在生我的气吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-fc08ca9bb8",
+   "de": "Wie lange braucht man bis dahin?",
+   "zh": "到达那里需要多长时间?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-9bef175dfe",
+   "de": "Ist hier in der Nähe ein Briefkasten?",
+   "zh": "这附近有信箱四?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-ca62aabe28",
+   "de": "War der Briefträger schon da?",
+   "zh": "邮递员已经来过了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-13c5b197da",
+   "de": "Bruder, wie geht’s?",
+   "zh": "老兄,近况如何?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-4aeb220933",
+   "de": "Wie stehen die Chancen?",
+   "zh": "有成功的可能吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-49de0aa8c2",
+   "de": "Wer ist der Chef hier?",
+   "zh": "谁是这里的领导?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-63286a0c7e",
+   "de": "Ist der Chef zu sprechen?",
+   "zh": "可以见领导吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-8cb4085a27",
+   "de": "Da haben Sie recht!",
+   "zh": "那您就对了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-18a72cfe8d",
+   "de": "Was kann ich da machen?",
+   "zh": "那我怎么办呢?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-726286f86a",
+   "de": "Fahren Sie nach Hamburg?",
+   "zh": "您去汉堡吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-b36f5b9124",
+   "de": "Ist es noch weit bis dahin?",
+   "zh": "到那儿还远吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-25cf8d1966",
+   "de": "Was darf es sein, meine Dame?",
+   "zh": "太太,您要些什么?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-87d0666ae9",
+   "de": "Gott sei Dank!",
+   "zh": "谢天谢地!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-b2c24ac640",
+   "de": "Haben Sie vielen Dank!",
+   "zh": "多谢您!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-987a918d7d",
+   "de": "Wie geht es Ihnen?",
+   "zh": "您好吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-d6de070240",
+   "de": "Nichts zu danken!",
+   "zh": "不用谢!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-363349b373",
+   "de": "Und was dann?",
+   "zh": "后来呢?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-c270be2611",
+   "de": "Sind Briefe für mich da?",
+   "zh": "有我的信中?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-30c3fc79d3",
+   "de": "Welches Datum haben wir heute?",
+   "zh": "今天几号?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-e3ad8c22b0",
+   "de": "Wie lange dauert der Flug?",
+   "zh": "飞行时间多长?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-e328c91527",
+   "de": "Kann ich noch eine Decke bekommen?",
+   "zh": "我可以再要床被子吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-6304fef141",
+   "de": "Wer pe das grinch?",
+   "zh": "这谁料得到?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-444a441a94",
+   "de": "Wie denken Sie darüber?",
+   "zh": "您对此有何看法?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-0c2a5677e4",
+   "de": "Wie denkt sie über deinen Vorschlag?",
+   "zh": "她对你的建议怎么看?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-559096584a",
+   "de": "Ich hatte mir das ganz anders gedacht!",
+   "zh": "这完全出乎我的意料!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-e033d46e43",
+   "de": "Das hast du dir gedacht!",
+   "zh": "你想得倒好!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-cbeefaf8d2",
+   "de": "Wie viel kostet das denn?",
+   "zh": "这多少钱呢?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-1829479a06",
+   "de": "Was ist denn los?",
+   "zh": "究竟出了什么事?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-5a1817e877",
+   "de": "Warum denn nicht?",
+   "zh": "究竟为什么不行?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-94d12f1af7",
+   "de": "Wo kommen Sie denn her?",
+   "zh": "您从哪儿来?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-5e29276672",
+   "de": "Bist du denn blind?",
+   "zh": "你难道连了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-8f04605f43",
+   "de": "Wo ist denn Klaus?",
+   "zh": "克劳斯在哪儿?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-1e85ecf6ef",
+   "de": "Je eher, desto besser!",
+   "zh": "越早越好!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-4b5987f701",
+   "de": "Das war deutlich!",
+   "zh": "这才是开门见山!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-4fc1d043b2",
+   "de": "Welche Apotheke hat heute Dienst?",
+   "zh": "哪家药店今天(夜间)营业?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-3ef9012c40",
+   "de": "Welchen Pullover möchten Sie?",
+   "zh": "您要哪件毛衣?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-456c15b75c",
+   "de": "Gibt es keinen direkten Zug nach Hamburg?",
+   "zh": "没有直达汉保的车四?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2330"
+  },
+  {
+   "id": "ocr45-ph-5e1e1e0ea2",
+   "de": "Höre doch endlich auf!",
+   "zh": "你停止吧!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-eafe9dec67",
+   "de": "Wäre er doch hier geblieben!",
+   "zh": "要是他留在这儿就好了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-607aaabeb3",
+   "de": "Das geht doch nicht!",
+   "zh": "这可不行!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-e4cc57319f",
+   "de": "Du hilfst mir doch?",
+   "zh": "你会帮我的吧?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-01c33621aa",
+   "de": "Waren Sie schon beim Doktor?",
+   "zh": "您看过大夫了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-281f385500",
+   "de": "Wer ist dort?",
+   "zh": "谁呀?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-c9b9727be7",
+   "de": "Ist es noch weit bis dorthin?",
+   "zh": "到那儿还远吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-2410de9d75",
+   "de": "Wwer ist draußen?",
+   "zh": "谁在外面?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-57dd109193",
+   "de": "Komm nicht herein, bleib draußen!",
+   "zh": "呆在外面,别进来!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-716479b107",
+   "de": "Wie geht es den dreien?",
+   "zh": "这三个人情况怎么样?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-e95349a3ff",
+   "de": "Er ist drinnen!",
+   "zh": "他在屋里!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-83105e4df4",
+   "de": "Bitte den Knopf drücken!",
+   "zh": "请按电钮!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-d2457566bb",
+   "de": "Was machst du denn hier?",
+   "zh": "你在这儿干什么?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-6beb35f7e9",
+   "de": "Du liebe Zeit!",
+   "zh": "我的天哪!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-d1ce8cfcc5",
+   "de": "Darf ich bitte durch?",
+   "zh": "可以让我(走)过去吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-1cc9e8a8ba",
+   "de": "Darf ich um etwas Zucker bitten?",
+   "zh": "请给我一点糖,好吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-75b63e09ac",
+   "de": "Haben Sie ein Zimmer mit Dusche?",
+   "zh": "您有带淋浴的房间吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-b9ae43bc2c",
+   "de": "Ich wünsche dir alles Gute!",
+   "zh": "我祝你一切顺利!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-35a43daa0b",
+   "de": "Ist das aus echtem Gold?",
+   "zh": "这是真金做的吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-27b4b8f46c",
+   "de": "Es ist eine große Ehre für mich!",
+   "zh": "这是我的莫大光荣!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-4254e7d4a1",
+   "de": "Was ist eigentlich geschehen?",
+   "zh": "究竟出了什么事?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-00f7f72091",
+   "de": "Welch ein Glück!",
+   "zh": "多么幸运啊!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-045777ac45",
+   "de": "Es war einfach großartig!",
+   "zh": "这简直了不起!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-9d1a499818",
+   "de": "Wwas fällt Ihnen ein?",
+   "zh": "您想到什么了?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-48ccde8ce2",
+   "de": "Darf ich auch einmal probieren?",
+   "zh": "我也可以试一下吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-8d608e38db",
+   "de": "Denk dir einmal!",
+   "zh": "你想一想!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-34754a9794",
+   "de": "Nehmen Sie diese Medizin dreimal täglich ein!",
+   "zh": "这药您每天服三次!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-6f12653699",
+   "de": "Treten Sie bitte ein!",
+   "zh": "您请进!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-64eff10228",
+   "de": "Wie teuer ist der Eintritt?",
+   "zh": "入场券多少钱?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-4848efd101",
+   "de": "Bitte ein Eis!",
+   "zh": "来一客冰淇淋!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-6998a3ae02",
+   "de": "Von wem wurde er empfangen?",
+   "zh": "谁接待他的?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-4f0573fc6e",
+   "de": "Bist du endlich fertig?",
+   "zh": "你到底完了没有?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-9f77b8b907",
+   "de": "Für welchen Anzug haben Sie sich entschieden?",
+   "zh": "您选中哪套西服?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2331"
+  },
+  {
+   "id": "ocr45-ph-5699b9590d",
+   "de": "Wwas meint Herr Jancke dazu?",
+   "zh": "杨克先生对此有和何看法?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-1c34b2e844",
+   "de": "Wo und wann hat sich der Vorfall ereignet?",
+   "zh": "事故发生在何处\\何时?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-fa934ce17b",
+   "de": "Erholen Sie sich gut!",
+   "zh": "您好好休息!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-2ef0d3817a",
+   "de": "Ja, ich erinnere mich!",
+   "zh": "啊,我想起来了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-3b2276ccc8",
+   "de": "Darf ich mir einen Vorschlag erlauben?",
+   "zh": "我可以提个建议吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-188f8d6b26",
+   "de": "Hast du mich erschreckt!",
+   "zh": "你吓了我一跳!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-33d0ddc5df",
+   "de": "Wie spät ist es?",
+   "zh": "几点了?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-5c962ad59c",
+   "de": "Es lebe die VR China!",
+   "zh": "中华全国万岁!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-b276ac8b63",
+   "de": "Bleiben Sie bitte zum Essen!",
+   "zh": "请您留下吃饭吧!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-d730271bdf",
+   "de": "Warst du es etwa?",
+   "zh": "难道是你吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-37a2ee568d",
+   "de": "Störe ich etwa?",
+   "zh": "我打扰您吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-3b37f7c2cd",
+   "de": "Lass mir etwas Zeit!",
+   "zh": "给我点时间!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-518faf32fc",
+   "de": "Das ist etwas ganz anderes!",
+   "zh": "这完全是另一回事!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-bdf86d533d",
+   "de": "Hast du das Examen schon hinter dir?",
+   "zh": "你已考过试了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-b59d987aac",
+   "de": "Wohin soll ich Sie fahren?",
+   "zh": "我该送您去哪儿?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-217affffb8",
+   "de": "Wo kann man Fahrkarten bekommen?",
+   "zh": "在哪儿可以买票?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-96fc0680ea",
+   "de": "Was wiirdest du in meinem Fall tun ?",
+   "zh": "要是你是我的话,你怎么做?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-94779b552a",
+   "de": "Was fehlt Ihnen?",
+   "zh": "您哪儿不舒服?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-9ecb5de66e",
+   "de": "Wie waren die Ferien?",
+   "zh": "假期过得好吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-ad5d2ab99e",
+   "de": "Was gibt es heute Abend im Fernsehen?",
+   "zh": "今晚有什么电视节目?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-1fbda09e88",
+   "de": "Wann wirst du mit dem Studium fertig?",
+   "zh": "你什么时候结束学业?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-685fab7fa5",
+   "de": "Achtung! Fertig! Los!",
+   "zh": "注意!预备!开始!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-6323e0ee89",
+   "de": "Halten Sie sich gut fest!",
+   "zh": "您抓好了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2332"
+  },
+  {
+   "id": "ocr45-ph-50f5551512",
+   "de": "Haben Sie Feuer?",
+   "zh": "您有火(此)吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-938a712398",
+   "de": "Welche neue Filme laufen heute?",
+   "zh": "今天放映些什么新影片?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-4fe4856bd9",
+   "de": "Wo kann ich die leeren Flaschen zurückgeben?",
+   "zh": "在哪儿退空瓶子?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-67c7049b26",
+   "de": "Ohne Fleiß kein Preis!",
+   "zh": "一份劳动,一份收获!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-a8e6432507",
+   "de": "Hatten Sie einen angenehmen Flug?",
+   "zh": "您坐飞机一路好吧?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-43b979da9a",
+   "de": "Kannst du mir folgen?",
+   "zh": "你能听懂我的话吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-e67d3f66a1",
+   "de": "Wie lange sind sie schon fort?",
+   "zh": "他们离开多久了?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-a05b3c94af",
+   "de": "Nur immer) fort!",
+   "zh": "一直往前走!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-9a9caf45f3",
+   "de": "Darf ich Sie etwas fragen?",
+   "zh": "可以请问您一些事吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-8b9becdd54",
+   "de": "Hat jemand nach mir gefragt?",
+   "zh": "有人找我吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-865ca58b5b",
+   "de": "Danach frage ich nicht!",
+   "zh": "这我才不管呢!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-91f2f2dc92",
+   "de": "Guten Tag, Frau Jancke!",
+   "zh": "您好,杨克夫人!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-b342f022d7",
+   "de": "Fräulein! Zahlen bitte!",
+   "zh": "小姐,请结账!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-cb4103ac7f",
+   "de": "Ist der Platz frei?",
+   "zh": "这个座位有人吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-9ad59f3ac8",
+   "de": "Lass uns in Frieden!",
+   "zh": "别来打扰我们!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-5ee6e8c688",
+   "de": "Was war Ihr früherer Beruf?",
+   "zh": "您过去从事什么职业?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-540ee7d5e0",
+   "de": "Fühlen Sie sich heute besser?",
+   "zh": "您今天感觉好些了中?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-5e7cbcedc6",
+   "de": "Wohin führt dieser Weg?",
+   "zh": "这条路通向哪里?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-1e8131595b",
+   "de": "Wie funktioniert der Geldautomat?",
+   "zh": "自动取款机怎么使用?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-d4a0db4273",
+   "de": "Ist Post für mich da?",
+   "zh": "有我的信吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-7856f9424a",
+   "de": "Kann ich etwas für Sie tun?",
+   "zh": "我可以为您做些什么吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-7262cdd4d7",
+   "de": "Was wird heute im Theater gegeben?",
+   "zh": "今天剧场演什么戏?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-ccfc6793ba",
+   "de": "Was gibt es heute zum Abendessen?",
+   "zh": "今天晚上吃什么?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-a11052478b",
+   "de": "Was gibt es heute im Fernsehen?",
+   "zh": "今天有什么电视节目?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-20b9200613",
+   "de": "Was gibt’s denn?",
+   "zh": "出了什么事啦?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-d545e1e986",
+   "de": "Herzlichen Glückwunsch zum Geburtstag!",
+   "zh": "生日快乐!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-6f0749e9cd",
+   "de": "Sehr geehrte Frau Schmidt!",
+   "zh": "尊敬的施密特太太!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-caf490c2a3",
+   "de": "Das lasse ich mir nicht länger gefallen!",
+   "zh": "这我再也不能忍受了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-35f8e4933c",
+   "de": "Haben Sie ein Mittel gegen Grippe?",
+   "zh": "您有治流感的药吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-60614d4c0e",
+   "de": "Wann geht der nächste Zug?",
+   "zh": "下一班火车什么时候开?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-4b77dbaaa2",
+   "de": "Wem gehört das?",
+   "zh": "这是谁的?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-e616a098e4",
+   "de": "Wohin gehört das Buch?",
+   "zh": "这本书该放哪儿?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2333"
+  },
+  {
+   "id": "ocr45-ph-427a7666ed",
+   "de": "Machen Sie sich es gemütlich!",
+   "zh": "别拘束!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-1e4307f3bf",
+   "de": "Haben Sie sich das auch genau überlegt?",
+   "zh": "这件事您仔细考虑过了吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-9f1a85b90a",
+   "de": "Warum gerade ich?",
+   "zh": "为什么偏偏是我?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-da9b7c3ca4",
+   "de": "Welches ist dein liebstes Gericht?",
+   "zh": "最爱吃什么菜?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-64d3ae344d",
+   "de": "Was ist geschehen?",
+   "zh": "发生了什么事?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-d9b5669347",
+   "de": "Erzähl mir doch keine Geschichten!",
+   "zh": "别对我说谎!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-33f26384da",
+   "de": "Mach keine Geschichten!",
+   "zh": "别干蠢事!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-835a2d4c21",
+   "de": "Wie steht’s mit der Gesundheit?",
+   "zh": "健康状况如何?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-91915f9f8d",
+   "de": "Gesundheit und langes Leben!",
+   "zh": "祝您健康长寿!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-8389800880",
+   "de": "Wer hat das Spiel gewonnen?",
+   "zh": "这场比赛谁赢了?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-1dffd8ff53",
+   "de": "Aber ganz gewiss!",
+   "zh": "那当然了!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-80d835393f",
+   "de": "Sei vorsichtig! Es ist glatt draußen!",
+   "zh": "小心!外面路滑!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-fe3e542bdf",
+   "de": "Eine glückliche Reise!",
+   "zh": "一路顺风!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-85038489a6",
+   "de": "Um Gottes willen, was ist los mit dir?",
+   "zh": "天哪,你出了什么事?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-db759f4375",
+   "de": "Bitte 200 Gramm Schinken!",
+   "zh": "请给我二百克火腿!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-41a458398f",
+   "de": "Das hast du großartig gemacht !",
+   "zh": "这件事你干得真了不起!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-4e298d452d",
+   "de": "Welche Größe haben Sie?",
+   "zh": "您的尺码是多少?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-b9d40c5f18",
+   "de": "Ich soll Sie von Herrn Funk grüßen!",
+   "zh": "汉克先生托我向您问好!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-1f24f7f83f",
+   "de": "Wo kann man günstig kaufen?",
+   "zh": "在哪里购物便宜?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-4a207c2892",
+   "de": "Hast du eine Zigarette für mich?",
+   "zh": "你能否给我支香烟?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-2fdaf873e7",
+   "de": "Was habe ich zu bezahlen?",
+   "zh": "我得付多少钱?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-c59b430192",
+   "de": "Haltet den Dieb!",
+   "zh": "抓住小偷!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-7e662b2606",
+   "de": "Was hältst du davon?",
+   "zh": "你对此有何看法?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-e4d0cf473b",
+   "de": "Worum handelt es sich?",
+   "zh": "关于什么事?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-204882c01f",
+   "de": "Wovon handelt der Roman?",
+   "zh": "这部长篇小说是关于什么的?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-e162cb3c7c",
+   "de": "Kommen Sie gut nach Haus!",
+   "zh": "祝您平安到家!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-10f5739869",
+   "de": "Wer hat dich kommen heißen?",
+   "zh": "谁叫你来的?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-07adc2d8d1",
+   "de": "Wer hat dich das tun heißen?",
+   "zh": "谁叫你做这件事的?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-d4e65021b6",
+   "de": "Wie heißt das Wort auf Deutsch?",
+   "zh": "这个词在德语里怎么说?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-aa772d6acc",
+   "de": "Was soll denn das heißen?",
+   "zh": "这是什么意思呢?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2334"
+  },
+  {
+   "id": "ocr45-ph-7094bd7720",
+   "de": "Was hilft es?",
+   "zh": "这有什么意义呢?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-30dbf0e962",
+   "de": "Er soll sofort her!",
+   "zh": "叫他马上来!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-45004e2969",
+   "de": "Können Sie herausgeben?",
+   "zh": "您有零钱找吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-fe3642b756",
+   "de": "Stell den Koffer zu mir her!",
+   "zh": "把箱子放到我这儿来!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-e7d96e3d33",
+   "de": "Ich gratuliere herzlich!",
+   "zh": "我表示衷心的祝贺!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-ee2d00bf6a",
+   "de": "Komm mal hierher!",
+   "zh": "你过来一下!",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-60ed683a29",
+   "de": "Wo will er hin?",
+   "zh": "他要到哪儿去?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-3907201311",
+   "de": "Hast du denn gar kein Hirn im Kopf?",
+   "zh": "难道你没脑子吗?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
+  },
+  {
+   "id": "ocr45-ph-79c90ca8cc",
+   "de": "Wie hoch ist der Preis?",
+   "zh": "价钱多少?",
+   "example": "",
+   "exampleZh": "",
+   "level": "A2",
+   "category": "OCR 常用句",
+   "source": "大学德语四级词汇：核心用法·考点+真题_徐筱春编著_合肥：中国科学技术大学出版社.pdf · batch2335"
   }
  ],
  "articles": [
@@ -49449,7 +42109,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-70c69d82b6",
-   "titleDe": "a Im Kino: @ Soll ich die Schuhe ausziehen?",
+   "titleDe": "《新编大学德语》第1册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第1册.pdf · batch2527",
@@ -49463,7 +42123,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-80e4a843d9",
-   "titleDe": ": 8) : Wang Hongliang bezahlt 35 Euro für die Mütze. ee : .®",
+   "titleDe": "《新编大学德语》第1册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第1册.pdf · batch2533",
@@ -49491,7 +42151,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-b94825b5a1",
-   "titleDe": "1 A Der zweite Passant begleitet Wang zur Bichalesteile. ® &",
+   "titleDe": "《新编大学德语》第1册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第1册.pdf · batch2545",
@@ -49715,7 +42375,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-813ef41588",
-   "titleDe": "U] a) Inge Bauer",
+   "titleDe": "《新编大学德语》第2册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第2册.pdf · batch2569",
@@ -49953,7 +42613,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-e74259d449",
-   "titleDe": "Tobias Schmidt (25) aus Bremen: Nein, eigentlich wollte ich ",
+   "titleDe": "《新编大学德语》第2册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第2册.pdf · batch2587",
@@ -49967,7 +42627,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-a7671315c2",
-   "titleDe": "Saskia Fischer (22) aus Freiburg: Eigentlich sollte ich das ",
+   "titleDe": "《新编大学德语》第2册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第2册.pdf · batch2587",
@@ -49981,7 +42641,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-697d3d64c1",
-   "titleDe": "Annika Miiller (24) aus Miinchen: Sehr. Als ich noch in der ",
+   "titleDe": "《新编大学德语》第2册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第2册.pdf · batch2587",
@@ -49995,7 +42655,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-7c268cced7",
-   "titleDe": "Markus Hoffmann (45) aus Hannover: Leider nicht. Ich arbeite",
+   "titleDe": "《新编大学德语》第2册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第2册.pdf · batch2587",
@@ -50121,7 +42781,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-8bc0fc8308",
-   "titleDe": "Oktoberfest München",
+   "titleDe": "《新编大学德语》第2册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第2册.pdf · batch2593",
@@ -50414,20 +43074,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "contentDe": "Er organisiert solche Klassenfahrten. In den Teams treffen schüchterne auf selbstbewusste, vorsichtige auf draufgängerische Typen. Jeder muss auf den anderen Rücksicht nehmen. „Vor allem die Starken: Sie müssen lernen, ihre Fähigkeiten mit den anderen abzustimmen und auf die Schwachen zu achten“, sagt Lehrerin Polster. Erst dann kann jeder seine Fähigkeiten in die Gruppe einbringen."
   },
   {
-   "id": "ocr45-art-a7e68d0582",
-   "titleDe": "Er wurde (1) in Shanghai geboren. Von (2) bis",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "《新编大学德语》第3册.pdf · batch2635",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Er wurde (1) in Shanghai geboren. Von (2) bis (3) ist er in die Grundschule Baotong gegangen und anschließend in die (4) Shanghai. Nach drei Jahren hat er mit Erfolg die Guangming Mittelschule und von (5) bis (6) die Gezhi Oberschule Besucht. Im Juni 2007 hat er die staatliche (7) bestanden. Im September 2007 hat sein (8) an der Tongji- Universität Shanghai begonnen. Seine Fachrichtung ist (9): Von 2010 bis 2011 hat er an der deutschen Fakultät der Tongji-Universität den Intensivkurs Deutsch (10) und (11) besucht,"
-  },
-  {
    "id": "ocr45-art-4836b6599f",
    "titleDe": "1) Karin zeigt Zhang die Statistik über a) Sie kaufte es nic",
    "titleZh": "",
@@ -50597,7 +43243,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-e86f3ce3bc",
-   "titleDe": "1) ® Hat Hans das Buch endlich wieder gefunden?",
+   "titleDe": "《新编大学德语》第3册",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第3册.pdf · batch2653",
@@ -50876,20 +43522,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "contentDe": "1. Die 12. Nationalen Spiele Chinas haben 2009 in der Provinz Liaoning 2. Beijing hat im Jahr 2008 die Olympischen Pa 9 Spiele i “Stig, Ye, 3. Die Bewerbungsunterlagen miissen vor der inreiche, Bewerbungsfrist werden. ausschei thee, 2 4. a der Wahl des Austragungsortes ist feststehen Chicago schon nach der 1. Runde ; R: sehen 4 5. Es , dass London der nee\" Gastgeber der Olympischen Sommerspiele m"
   },
   {
-   "id": "ocr45-art-b53c841456",
-   "titleDe": "Auf den Tag hundert Jahre nach seiner",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "《新编大学德语》第4册（第2版）.pdf · batch2680",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Auf den Tag hundert Jahre nach seiner (3) hat der DFB wieder nach Leipzig eingeladen. Ei einst als rade DEUTSCHER Leute-Spiel“ belächelte Sport feiert Prominenten ( #1 4% A & ) aus Politik und Gesellschaft (4) einer Opern-Aufführung das 100-jährige DFB- Bestehen. Gleichzeitig findet ein Jubiläums-Kurz-Turnier in Oberhausen statt. Dieser Sport gewann viele Anhänger. Traditionsvereine wurden geboren mit Namen (5) Schalke 04, Borussia Dortmund oder Rot-Weiß Essen. Heute ist ganz Deutschland ein Fußball-Land, beispielsweise stellt Bayern mit (6) einer Million Mitgliedern den größten Einzelverband im DFB."
-  },
-  {
    "id": "ocr45-art-3108ffb608",
    "titleDe": "《新编大学德语》第4册（第2版）",
    "titleZh": "",
@@ -51002,20 +43634,6 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "contentDe": "Nach einer Studie iiber die Lesegewohnheiten der Deutschen lesen die Deutschen im Durchschnitt seltener und vor allem oberflächlicher. Dieses Uberfliegen von Lektiire ist, so die Stiftung Lesen', eine der deutlichsten negativen Entwicklungen im Leseverhalten der Deutschen. So gibt jeder dritte Jugendliche und 19% der Erwachsenen an, Lesetexte nur zu tiberfliegen, 1992 tat dies erst jeder zehnte. Als Vielleser, die „freiwillig“, also ohne Zwang zur Weiterbildung für Arbeit oder Studium lesen, bezeichneten sich nur noch 28%. Im Gegensatz dazu gaben 45% an nur zu lesen, weil sie es müssen. 38% der Deutschen lesen höchstens 5 Bücher im Jahr und selbst diese 5 Bücher werden oft nicht beendet, sondern nur überflogen und auch schnell wieder abgebrochen. Heute wird fast nur gelesen, wenn man absolut nichts anderes zu tun hat. Muss man sich entscheiden zwischen Lesen und einer anderen Tätigkeit, schneidet das Lesen meist schlechter ab."
   },
   {
-   "id": "ocr45-art-dd3556643b",
-   "titleDe": "am wenigsten lesen würden. Außerdem konnte festgestellt werd",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "《新编大学德语》第4册（第2版）.pdf · batch2685",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "am wenigsten lesen würden. Außerdem konnte festgestellt werden, dass Mädchen zwischen 12 und 18 Jahren mehr lesen als Jungen. (5) interessiert denn nun jugendliche Leser? 47,5 Prozent lesen über Probleme von Jugendlichen. Lieblingsbücher der jungen Leute sind zur Zeit unter anderem Stephen Kings „Es“ und Joanne K. Rowlings „Harry Potter“. (6) sind die Geschichten „Momo“ und „Die unendliche Geschichte“ von Michael Ende sehr gefragt. Der Bereich der Fantasy ist bei den Schülerinnen und Schülern am beliebtesten. Das Fernsehen ist nach unserer Umfrage die größte Konkurrenz für das Buch."
-  },
-  {
    "id": "ocr45-art-730d0189a3",
    "titleDe": "genommen! handelt es sich dabei um? eine Art Folie, die so f",
    "titleZh": "",
@@ -51031,7 +43649,7 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
   },
   {
    "id": "ocr45-art-a2bfa06f93",
-   "titleDe": "@ Frau Wang fährt nach Hause, i",
+   "titleDe": "《新编大学德语》第4册（第2版）",
    "titleZh": "",
    "levelHint": "B1",
    "source": "《新编大学德语》第4册（第2版）.pdf · batch2690",
@@ -51056,6 +43674,48 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Informationen abrufen. Videokonferenzen würden Fahrten und Flüge zum Gesprächspartner überflüssig machen. Büroarbeit lasse sich zu Hause erledigen. Riesige Energiemengen würden gespart und die Umwelt würde entlastet. Die Optimisten sehen in der vernetzten Welt sogar ein Mittel zur Entfaltung der persönlichen Freiheit. Länder, die diesem ökonomischen Zwang nicht folgen können, würden künftig nicht mehr wettbewerbsfähig sein. Uns bliebe auch nichts anderes übrig, als die Informationstechnologie anzunehmen und einzusetzen."
+  },
+  {
+   "id": "ocr45-art-3fb752df36",
+   "titleDe": "Umfragen haben ergeben, dass beinahe jeder zweite Deutsche f",
+   "titleZh": "",
+   "levelHint": "B1",
+   "source": "《新编大学德语》第4册（第2版）.pdf · batch2690",
+   "sourceUrl": "",
+   "tags": [
+    "OCR",
+    "阅读"
+   ],
+   "summaryZh": "从 OCR 文本中提取的德语段落。",
+   "contentDe": "Umfragen haben ergeben, dass beinahe jeder zweite Deutsche fürchtet, der neuen Medienflut und den Anforderungen des Computers nicht gewachsen zu sein’. Die neue Technologie verändert das tägliche Leben und verlangt vom Einzelnen und vom Staat große Anpassungsfähigkeit. Die Buchdruckmaschine brauchte Jahrhunderte, um ihre Macht zu entfalten, Radio und Fernsehen benötigten mehrere Jahrzehnte. Die Infobahn entwickelt sich wesentlich schneller. Ob am Arbeitsplatz, beim Konsum oder in den Medien: Der Wandel hat längst begonnen."
+  },
+  {
+   "id": "ocr45-art-6f8a84e3cc",
+   "titleDe": "H Auf dem Land ; In der Stadt 1",
+   "titleZh": "",
+   "levelHint": "B1",
+   "source": "《新编大学德语》第4册（第2版）.pdf · batch2690",
+   "sourceUrl": "",
+   "tags": [
+    "OCR",
+    "阅读"
+   ],
+   "summaryZh": "从 OCR 文本中提取的德语段落。",
+   "contentDe": "H Auf dem Land ; In der Stadt 1 (7... istdieLuftbesser \\ ist die Versorgung besser ‘2... istdas Leben ruhiger ' \"ist das Leben interessanter '3,...istdas Leben billiger 1 ist das Warenangebot größer ‘4. ... hat man viele Kontakte mit anderen }... gibt es mehr Abwechslung ‘5... istdas Leben gesiinder ;hatman mehr Chancen"
+  },
+  {
+   "id": "ocr45-art-603fa77e36",
+   "titleDe": "《新编大学德语》第4册（第2版）",
+   "titleZh": "",
+   "levelHint": "B1",
+   "source": "《新编大学德语》第4册（第2版）.pdf · batch2695",
+   "sourceUrl": "",
+   "tags": [
+    "OCR",
+    "阅读"
+   ],
+   "summaryZh": "从 OCR 文本中提取的德语段落。",
+   "contentDe": "Nun lebe ich seit sechs Jahren in Deutschland. Deutsch zu lernen, war eine bittere Erfahrung für mich. Als ich die Arbeitseinladung erhielt, an der Universität Kiel als Lektorin für Chinesisch tätig zu sein, dachte ich: Wegen des chinesischen 10 Sprachkurses muss ich doch nicht Deutsch lernen! In einer Unterrichtsstunde brachte ich meinen deutschen Studenten einen chinesischen Witz auf Englisch bei. Sie nickten zwar verständnisvoll, aber gelacht hat niemand. Daraufhin fing ich an, Deutsch zu lernen. Obwohl ich hart gekämpft habe, um alle grammatischen Regeln zu lernen, erlaubte mir meine chinesische Zunge lange"
   }
  ],
  "grammar": [
@@ -54574,6 +47234,406 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "contentDe": "",
    "contentZh": "享德尔 (1685—1759) ,这位和音乐之父塞巴斯蒂安 ， 巴赫 (1685 —",
    "bookSource": "德语文学与文学批评 第5卷 2011年_张玉书等主编_北京：人民文学出版社.pdf · batch4404",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-f2fe463bf8",
+   "category": "person",
+   "year": "1788",
+   "titleDe": "",
+   "titleZh": "大卫 . 唐琪尔",
+   "contentDe": "",
+   "contentZh": "大卫 . 唐琪尔 (1788—1856 ) ,法国画家雕塑家 。",
+   "bookSource": "德语文学与文学批评 第7卷 2013年_魏育青，张意，胡蔚主编_北京：人民文学出版社.pdf · batch4589",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-f5450ef1f3",
+   "category": "person",
+   "year": "1694",
+   "titleDe": "",
+   "titleZh": "伏尔泰",
+   "contentDe": "",
+   "contentZh": "伏尔泰 (1694—1778 ) ,法国哲学家文学家 。",
+   "bookSource": "德语文学与文学批评 第7卷 2013年_魏育青，张意，胡蔚主编_北京：人民文学出版社.pdf · batch4589",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-f0a5ec589a",
+   "category": "person",
+   "year": "1881",
+   "titleDe": "",
+   "titleZh": "斯茨威格",
+   "contentDe": "",
+   "contentZh": "斯茨威格 (1881—1942) 是奥地利著名小说家 、 剧作家和诗人 ,是",
+   "bookSource": "德语文学与文学批评 第7卷 2013年_魏育青，张意，胡蔚主编_北京：人民文学出版社.pdf · batch4609",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-889f86edd1",
+   "category": "person",
+   "year": "1772",
+   "titleDe": "",
+   "titleZh": "历了断断续续近六十年的创作历程",
+   "contentDe": "",
+   "contentZh": "历了断断续续近六十年的创作历程 (1772—1832) 。《 浮士德 》 许剧—般",
+   "bookSource": "德语文学与文学批评 第9卷 2015-2016年_魏育青，张意，胡蔚主编_北京：人民文学出版社.pdf · batch4634",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-617797a2fe",
+   "category": "person",
+   "year": "1619",
+   "titleDe": "",
+   "titleZh": "沃维尔曼",
+   "contentDe": "",
+   "contentZh": "沃维尔曼 (1619—1668) , 尼德兰画家 ;和雅各布 . 罗伊斯达尔 (1628—1682) , 尼德兰画",
+   "bookSource": "德语文学与文学批评：第2卷·2008年_张玉书，卫茂平，朱建华等主编_北京：人民文学出版社.pdf · batch4744",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-26e9427768",
+   "category": "person",
+   "year": "1888",
+   "titleDe": "",
+   "titleZh": "家沃尔夫",
+   "contentDe": "",
+   "contentZh": "家沃尔夫 (1888—1953) 等倾向革命的作家 。 从 1933",
+   "bookSource": "德语文学名著便览_卫茂平主编；胡一帆副主编；卫茂平，毕文毅，吕樱奇，别柯兵，胡一帆编者_上海：上海外语教育出版社.pdf · batch4819",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-d404ffef13",
+   "category": "person",
+   "year": "1900",
+   "titleDe": "",
+   "titleZh": "斯",
+   "contentDe": "",
+   "contentZh": "斯 (1900—1983 ) 的小说 《第七个十字架 》(1942 ) 是",
+   "bookSource": "德语文学名著便览_卫茂平主编；胡一帆副主编；卫茂平，毕文毅，吕樱奇，别柯兵，胡一帆编者_上海：上海外语教育出版社.pdf · batch4819",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-a7cd52cfce",
+   "category": "person",
+   "year": "1899",
+   "titleDe": "",
+   "titleZh": "及诸如内心流亡作家盖朗瑟",
+   "contentDe": "",
+   "contentZh": "及诸如内心流亡作家盖朗瑟 (1899—1950) 和卡扎克",
+   "bookSource": "德语文学名著便览_卫茂平主编；胡一帆副主编；卫茂平，毕文毅，吕樱奇，别柯兵，胡一帆编者_上海：上海外语教育出版社.pdf · batch4819",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-95f003fb4b",
+   "category": "person",
+   "year": "1921",
+   "titleDe": "",
+   "titleZh": "博尔歇特",
+   "contentDe": "",
+   "contentZh": "博尔歇特 (1921—1947 ) 的剧作 《在门外 》(1947 ) 可",
+   "bookSource": "德语文学名著便览_卫茂平主编；胡一帆副主编；卫茂平，毕文毅，吕樱奇，别柯兵，胡一帆编者_上海：上海外语教育出版社.pdf · batch4819",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-01b221aaef",
+   "category": "person",
+   "year": "1931",
+   "titleDe": "",
+   "titleZh": "间",
+   "contentDe": "",
+   "contentZh": "间 (1931—1942 ) 创作的最后—部长篇小说 《玻璃球游戏 》",
+   "bookSource": "德语文学名著便览_卫茂平主编；胡一帆副主编；卫茂平，毕文毅，吕樱奇，别柯兵，胡一帆编者_上海：上海外语教育出版社.pdf · batch4849",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-7874ac25c9",
+   "category": "person",
+   "year": "1824",
+   "titleDe": "",
+   "titleZh": "画家沙瓦纳",
+   "contentDe": "",
+   "contentZh": "画家沙瓦纳 (1824—1896) 的一幅湿人壁画， 他先前看过此画 。",
+   "bookSource": "德语文学大师典藏 布里格手记_（奥）里尔克著；林克译_成都：四川人民出版社.pdf · batch4949",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-1010e6e49c",
+   "category": "person",
+   "year": "1797",
+   "titleDe": "",
+   "titleZh": "诗人散文家 .思想家海涅",
+   "contentDe": "",
+   "contentZh": "诗人散文家 .思想家海涅 (1797—1856)",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5144",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-2819f1fcf1",
+   "category": "person",
+   "year": "1621",
+   "titleDe": "",
+   "titleZh": "格里美尔豪森",
+   "contentDe": "",
+   "contentZh": "格里美尔豪森 (1621—1676 ) 的长篇小说 《 痴儿西木传 } 里生",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5149",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-167854295c",
+   "category": "person",
+   "year": "1802",
+   "titleDe": "",
+   "titleZh": "以童话创作著称于世的威廉豪夫",
+   "contentDe": "",
+   "contentZh": "以童话创作著称于世的威廉豪夫 (1802—1827)",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5154",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-3b02e601b2",
+   "category": "person",
+   "year": "1870",
+   "titleDe": "",
+   "titleZh": "是他的创作旺盛之年",
+   "contentDe": "",
+   "contentZh": "是他的创作旺盛之年 (1870—1890) ,更已到了",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5154",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-9730816ec1",
+   "category": "person",
+   "year": "1830",
+   "titleDe": "",
+   "titleZh": "保尔 . 海泽",
+   "contentDe": "",
+   "contentZh": "保尔 . 海泽 (1830—1914),1910 年获奖 ,小说家 .诗人",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5159",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-5c3271b112",
+   "category": "person",
+   "year": "1862",
+   "titleDe": "",
+   "titleZh": "盖哈特 . 豪普特曼",
+   "contentDe": "",
+   "contentZh": "盖哈特 . 豪普特曼 (1862—1949 ),1912 年获奖 , 剧作家",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5159",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-8285c9b5bc",
+   "category": "person",
+   "year": "1845",
+   "titleDe": "",
+   "titleZh": "卡尔 . 施皮特勒",
+   "contentDe": "",
+   "contentZh": "卡尔 . 施皮特勒 ( 1845—1924),1919 年获奖 ,瑞士诗人",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5159",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-4ab322c026",
+   "category": "person",
+   "year": "1917",
+   "titleDe": "",
+   "titleZh": "海因里希 . 伯尔",
+   "contentDe": "",
+   "contentZh": "海因里希 . 伯尔 (1917—1985),1972 年获奖 ,小说家",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5159",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-72660f0899",
+   "category": "person",
+   "year": "1886",
+   "titleDe": "",
+   "titleZh": "奥地利作家赫尔曼 . 布洛赫",
+   "contentDe": "",
+   "contentZh": "奥地利作家赫尔曼 . 布洛赫 (1886—1951 ) 的 《 维吉尔之",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5164",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-508bbd1385",
+   "category": "person",
+   "year": "1813",
+   "titleDe": "",
+   "titleZh": "格奥尔格 . 毕希纳",
+   "contentDe": "",
+   "contentZh": "格奥尔格 . 毕希纳 (1813—1837 ) ,德国作家 、",
+   "bookSource": "德语文学大花园_杨武能著_武汉：湖北教育出版社.pdf · batch5164",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-6696d097c9",
+   "category": "person",
+   "year": "1894",
+   "titleDe": "",
+   "titleZh": "日本的最初十年",
+   "contentDe": "",
+   "contentZh": "日本的最初十年 (1894—1904) 中 ,尼采的形象亦由 “政治青年 \" 变为 “ 文",
+   "bookSource": "德语文学符码和现代中国作家的自我问题_范劲著_上海：华东师范大学出版社.pdf · batch5369",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-3b5ead3e5f",
+   "category": "person",
+   "year": "1713",
+   "titleDe": "",
+   "titleZh": "巴托",
+   "contentDe": "",
+   "contentZh": "巴托 (1713—1780) ,法国美学家 ,法国艺术哲学的黄基人 .",
+   "bookSource": "德语文学精品 插图本_杨武能译_桂林：漓江出版社.pdf · batch5404",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-3820daefd5",
+   "category": "person",
+   "year": "1606",
+   "titleDe": "",
+   "titleZh": "伦勃朗",
+   "contentDe": "",
+   "contentZh": "伦勃朗 (1606—1669), 尼德兰大画家 , 作品倾向现实主义 , 内容富于民主",
+   "bookSource": "德语文学精品 插图本_杨武能译_桂林：漓江出版社.pdf · batch5489",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-3e119940b0",
+   "category": "person",
+   "year": "1771",
+   "titleDe": "",
+   "titleZh": "图司各特",
+   "contentDe": "",
+   "contentZh": "图司各特 (1771—1832)， 英国小说家 ， 长篇历史小说这—体裁的首创者 。",
+   "bookSource": "德语文学精品 插图本_杨武能译_桂林：漓江出版社.pdf · batch5494",
    "sources": [],
    "confidence": 0.7,
    "tags": [

@@ -422,8 +422,13 @@
               </div>
               <h2 class="exam-question" id="exam-question"></h2>
               <p class="exam-sub" id="exam-sub"></p>
-              <div class="exam-mastery-guide" id="exam-mastery-guide" aria-label="四档掌握度"></div>
+              <p class="exam-status" id="exam-status"></p>
+              <div class="exam-mastery-guide" id="exam-mastery-guide" aria-label="六档掌握度"></div>
               <div class="exam-options" id="exam-options"></div>
+              <div class="exam-spell hidden" id="exam-spell">
+                <input class="exam-spell-input" id="exam-spell-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="输入德语单词">
+                <button class="btn btn-primary" data-action="spell-submit">提交拼写</button>
+              </div>
               <div class="exam-result hidden" id="exam-result">
                 <span class="exam-result-icon" id="exam-result-icon"></span>
                 <div><strong id="exam-result-title"></strong><p id="exam-result-copy"></p></div>
@@ -488,10 +493,12 @@
             </div>
 
             <div class="rating-bar" id="rating-bar" aria-label="选择首次掌握程度">
-              <button class="rating again" data-rating="again"><span>忘记</span><small id="preview-again">10 分钟</small></button>
-              <button class="rating hard" data-rating="hard"><span>困难</span><small id="preview-hard">1 天</small></button>
-              <button class="rating good" data-rating="good"><span>良好</span><small id="preview-good">3 天</small></button>
-              <button class="rating easy" data-rating="easy"><span>简单</span><small id="preview-easy">14 天</small></button>
+              <button class="rating level-0" data-level="0"><span>0 没印象</span><small id="preview-0">立即</small></button>
+              <button class="rating level-1" data-level="1"><span>1 见过</span><small id="preview-1">5 分钟</small></button>
+              <button class="rating level-2" data-level="2"><span>2 有印象</span><small id="preview-2">1 小时</small></button>
+              <button class="rating level-3" data-level="3"><span>3 认识</span><small id="preview-3">1 天</small></button>
+              <button class="rating level-4" data-level="4"><span>4 熟悉</span><small id="preview-4">3 天</small></button>
+              <button class="rating level-5" data-level="5"><span>5 掌握</span><small id="preview-5">7 天</small></button>
             </div>
 
             <div class="mastery-next-bar" id="mastery-next-bar">
@@ -499,6 +506,7 @@
                 <span class="mastery-next-label" id="mastery-next-label">等待作答</span>
                 <small id="mastery-next-note">答对或答错都会自动安排下一次复习。</small>
               </div>
+              <button class="btn btn-ghost hidden" id="downgrade-level" data-action="downgrade-level">降低考察难度</button>
               <button class="btn btn-primary" id="study-next" data-action="study-next">
                 下一个词 <svg class="icon"><use href="#i-arrow-right"/></svg>
               </button>
@@ -1239,6 +1247,7 @@
   <script src="ocr-content.js"></script>
   <script src="ocr-content-4500.js"></script>
   <script src="ocr-vocab-words.js"></script>
+  <script src="review-engine.js"></script>
   <script src="app.js"></script>
   <script id="pwa-register">
     if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
