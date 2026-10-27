@@ -1,4 +1,4 @@
-﻿/* Changelog policy: every 100 OCR batches is merged into one entry.
+/* Changelog policy: every 100 OCR batches is merged into one entry.
    Entries focus on page, workflow and feature changes rather than per-batch OCR details.
    Detailed per-batch history is kept in changelog-archive.js for reference only. */
 window.WORTKARTE_CHANGELOG = [
@@ -846,6 +846,46 @@ window.WORTKARTE_CHANGELOG = [
       "拼写题兼容 ä/ö/ü/ß 的 ae/oe/ue/ss 写法，忽略大小写与首尾空格",
       "卡片页新增「降低考察难度」按钮，只能降低 userLevel，不能手动调高",
       "旧 schema 5 记录先备份，缺字段按默认值兼容，不覆盖原 due / mastery / last / 统计"
+    ]
+  },
+  {
+    version: "3.67.1",
+    date: "2026-10-27",
+    type: "feature",
+    summary: "德国地图支持触控双指缩放",
+    scope: "历史与文化 · 地图",
+    items: [
+      "地图支持双指捏合缩放，以两指中点为锚点",
+      "缩放后可单指拖动，保留鼠标滚轮、双击与 +/− 按钮",
+      "地图区域使用 touch-action: none，避免触控时页面误滚动或浏览器缩放",
+      "限制最小/最大缩放范围，并提供重置按钮"
+    ]
+  },
+  {
+    version: "3.67.2",
+    date: "2026-10-27",
+    type: "feature",
+    summary: "拼写题要求名词带定冠词",
+    scope: "复习算法 · 单词拼写",
+    items: [
+      "名词拼写答案改为 der/die/das + 单词，例如 das Haus",
+      "只输入 Haus 会被判错，并在结果中显示带冠词的正确答案",
+      "非名词（动词、形容词等）仍只要求单词本身",
+      "提示语、输入框占位符和知识点说明同步更新"
+    ]
+  },
+  {
+    version: "3.67.3",
+    date: "2026-10-27",
+    type: "fix",
+    summary: "更新页面时保护本地学习记录",
+    scope: "本地存储 · 数据迁移",
+    items: [
+      "加载页面只做内存归一化，不再在加载时重写 wortkarte.v2",
+      "旧 schema 首次加载先备份，备份保留数量提高到 20 个",
+      "主键缺失时自动从 last-good 或最新有效备份恢复",
+      "会话内第一次写回前再次备份原始主键（pre-write）",
+      "只有用户主动操作才写回新结构，并保留原 due / mastery / reps / lapses / 收藏 / 阅读记录"
     ]
   }
 ];

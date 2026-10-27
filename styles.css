@@ -4748,7 +4748,10 @@ kbd {
   min-width: 620px;
   height: auto;
   cursor: default;
-  touch-action: pan-y;
+  touch-action: none;
+  overscroll-behavior: contain;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #culture-map-svg.is-zoomed { cursor: grab; touch-action: none; }

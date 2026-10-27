@@ -1165,6 +1165,11 @@ function wordDisplay(word, withArticle = true) {
   return word.word;
 }
 
+function spellingAnswer(word) {
+  if (!word) return "";
+  return word.article ? `${word.article} ${word.word}` : word.word;
+}
+
 function pluralLabel(word) {
   if (word.plural) {
     if (word.plural === "无复数") return "无复数";
@@ -1444,6 +1449,7 @@ function normalizeState(raw) {
 
 const STORAGE_BACKUP_PREFIX = `${STORAGE_KEY}.backup.`;
 const STORAGE_LAST_GOOD = `${STORAGE_KEY}.last-good`;
+const STORAGE_BACKUP_KEEP = 20;
 
 function backupLocalState(raw, reason = "manual") {
   if (!raw) return false;
@@ -1461,7 +1467,7 @@ function backupLocalState(raw, reason = "manual") {
       if (key && key.startsWith(STORAGE_BACKUP_PREFIX)) keys.push(key);
     }
     keys.sort();
-    for (const key of keys.slice(0, Math.max(0, keys.length - 2))) {
+    for (const key of keys.slice(0, Math.max(0, keys.length - STORAGE_BACKUP_KEEP))) {
       localStorage.removeItem(key);
     }
   } catch {
@@ -1473,6 +1479,35 @@ function backupLocalState(raw, reason = "manual") {
 let storageRecoveryMode = false;
 let storageRecoveredFromBackup = false;
 
+function recoverLocalStateFromBackup() {
+  const candidates = [];
+  try {
+    const lastGood = localStorage.getItem(STORAGE_LAST_GOOD);
+    if (lastGood) candidates.push(lastGood);
+    const keys = [];
+    for (let index = 0; index < localStorage.length; index += 1) {
+      const key = localStorage.key(index);
+      if (key && key.startsWith(STORAGE_BACKUP_PREFIX)) keys.push(key);
+    }
+    keys.sort().reverse();
+    for (const key of keys) {
+      const raw = localStorage.getItem(key);
+      if (raw && raw !== lastGood) candidates.push(raw);
+    }
+  } catch {
+    return null;
+  }
+  for (const raw of candidates) {
+    try {
+      JSON.parse(raw);
+      return raw;
+    } catch {
+      /* try the next backup */
+    }
+  }
+  return null;
+}
+
 function loadState() {
   let saved = null;
   try {
@@ -1481,13 +1516,20 @@ function loadState() {
     return freshState();
   }
   if (!saved) {
-    const fresh = freshState();
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh));
-    } catch {
-      /* storage can be unavailable; app still works in memory */
+    // 主键缺失时先从 last-good / 时间戳备份恢复，避免一次异常清空后直接写入新状态。
+    const recovered = recoverLocalStateFromBackup();
+    if (recovered) {
+      saved = recovered;
+      storageRecoveredFromBackup = true;
+    } else {
+      const fresh = freshState();
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(fresh));
+      } catch {
+        /* storage can be unavailable; app still works in memory */
+      }
+      return fresh;
     }
-    return fresh;
   }
 
   let parsed;
@@ -1511,24 +1553,20 @@ function loadState() {
 
   const schema = Number(parsed.schemaVersion) || 0;
   try {
-    if (schema < 5) backupLocalState(saved, `schema-${schema}`);
-    else if (!localStorage.getItem(STORAGE_LAST_GOOD)) backupLocalState(saved, "initial");
+    if (!localStorage.getItem(STORAGE_LAST_GOOD)) {
+      backupLocalState(saved, schema < 6 ? `schema-${schema}` : "initial");
+    }
   } catch {
     /* backup is best effort */
   }
   const normalized = normalizeState(parsed);
-  // schema 5 先保留原文，等下一次用户操作再写入新字段；更旧结构才立即升级写回。
-  if (schema < 5) {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized));
-    } catch {
-      /* storage quota: keep in-memory normalized state */
-    }
-  }
+  // 页面更新只做内存归一化，不在加载时重写主存储；任何旧字段都保留到用户主动操作。
+  // 这样即使新版本暂时不需要某个字段，也不会因为打开页面而覆盖旧记录。
   return normalized;
 }
 
 let state = loadState();
+let storageWriteBackupDone = false;
 let allWordList = [];
 let wordMap = new Map();
 let searchIndex = new Map();
@@ -2245,6 +2283,16 @@ function persist() {
   if (storageRecoveryMode) {
     showToast("检测到旧学习记录异常，已停止写入以保护原数据。请先导出或清理浏览器存储。");
     return;
+  }
+  if (!storageWriteBackupDone) {
+    // 第一次写回前再备份一次原始主键，覆盖“加载后用户操作”这条时间窗口。
+    try {
+      const beforeWrite = localStorage.getItem(STORAGE_KEY);
+      if (beforeWrite) backupLocalState(beforeWrite, "pre-write");
+      storageWriteBackupDone = true;
+    } catch {
+      /* backup is best effort; do not block the user */
+    }
   }
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
@@ -3431,6 +3479,15 @@ function bindCultureMapZoom() {
   let suppressClick = false;
   let startPoint = null;
   let startView = null;
+  let pinch = null;
+  const pointers = new Map();
+
+  const capturePointer = id => {
+    try { svg.setPointerCapture?.(id); } catch { /* synthetic pointer / unsupported capture */ }
+  };
+  const releasePointer = id => {
+    try { svg.releasePointerCapture?.(id); } catch { /* pointer already released */ }
+  };
 
   const zoomFromCenter = factor => {
     const rect = svg.getBoundingClientRect();
@@ -3448,6 +3505,45 @@ function bindCultureMapZoom() {
     });
   });
 
+  // 触屏双指缩放：以两指中点为锚点，同时允许双指整体拖动。
+  const pointerPair = () => {
+    const points = Array.from(pointers.values());
+    return points.length >= 2 ? [points[0], points[1]] : [];
+  };
+  const beginPinch = () => {
+    const pair = pointerPair();
+    if (pair.length !== 2) return;
+    const mid = { x: (pair[0].x + pair[1].x) / 2, y: (pair[0].y + pair[1].y) / 2 };
+    const anchor = mapPointFromClient(svg, mid.x, mid.y);
+    const distance = Math.hypot(pair[0].x - pair[1].x, pair[0].y - pair[1].y);
+    if (!anchor || distance < 8) return;
+    pinch = { distance, startW: mapView.w, anchor };
+    panning = false;
+    startPoint = null;
+    startView = null;
+    svg.classList.remove("is-panning");
+  };
+  const movePinch = event => {
+    if (!pinch) return false;
+    const pair = pointerPair();
+    if (pair.length !== 2) return false;
+    const mid = { x: (pair[0].x + pair[1].x) / 2, y: (pair[0].y + pair[1].y) / 2 };
+    const distance = Math.hypot(pair[0].x - pair[1].x, pair[0].y - pair[1].y);
+    if (distance < 1) return true;
+    const nextW = clampNumber(pinch.startW * (pinch.distance / distance), mapView.baseW / 4.5, mapView.baseW);
+    const nextH = mapView.baseH * (nextW / mapView.baseW);
+    const rect = svg.getBoundingClientRect();
+    if (!rect.width || !rect.height) return true;
+    // 保持 pinch 起点下的地图锚点跟随两指中点，实现缩放 + 平移。
+    mapView.w = nextW;
+    mapView.h = nextH;
+    mapView.x = clampNumber(pinch.anchor.x - ((mid.x - rect.left) / rect.width) * nextW, 0, mapView.baseW - nextW);
+    mapView.y = clampNumber(pinch.anchor.y - ((mid.y - rect.top) / rect.height) * nextH, 0, mapView.baseH - nextH);
+    mapApplyView();
+    event.preventDefault();
+    return true;
+  };
+
   svg.addEventListener("wheel", event => {
     const zoomingIn = event.deltaY < 0;
     if (zoomingIn && mapView.w <= mapView.baseW / 4.5) return;
@@ -3462,7 +3558,14 @@ function bindCultureMapZoom() {
   });
 
   svg.addEventListener("pointerdown", event => {
-    if (event.button !== 0) return;
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    if (pointers.size === 2) {
+      capturePointer(event.pointerId);
+      beginPinch();
+      return;
+    }
+    if (pointers.size > 2) return;
     if (mapView.w >= mapView.baseW - 0.01) return;
     const point = mapPointFromClient(svg, event.clientX, event.clientY);
     if (!point) return;
@@ -3471,10 +3574,13 @@ function bindCultureMapZoom() {
     startPoint = point;
     startView = { x: mapView.x, y: mapView.y };
     svg.classList.add("is-panning");
-    svg.setPointerCapture?.(event.pointerId);
+    capturePointer(event.pointerId);
   });
 
   svg.addEventListener("pointermove", event => {
+    if (!pointers.has(event.pointerId)) return;
+    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    if (movePinch(event)) return;
     if (!panning || !startPoint || !startView) return;
     const point = mapPointFromClient(svg, event.clientX, event.clientY);
     if (!point) return;
@@ -3487,20 +3593,33 @@ function bindCultureMapZoom() {
     if (moved) event.preventDefault();
   });
 
-  const finishPan = event => {
+  const finishPointer = event => {
+    const wasPinching = Boolean(pinch);
+    pointers.delete(event.pointerId);
+    if (wasPinching) {
+      pinch = null;
+      panning = false;
+      startPoint = null;
+      startView = null;
+      svg.classList.remove("is-panning");
+      releasePointer(event.pointerId);
+      suppressClick = true;
+      setTimeout(() => { suppressClick = false; }, 220);
+      return;
+    }
     if (!panning) return;
     panning = false;
     startPoint = null;
     startView = null;
     svg.classList.remove("is-panning");
-    svg.releasePointerCapture?.(event.pointerId);
+    releasePointer(event.pointerId);
     if (moved) {
       suppressClick = true;
       setTimeout(() => { suppressClick = false; }, 0);
     }
   };
-  svg.addEventListener("pointerup", finishPan);
-  svg.addEventListener("pointercancel", finishPan);
+  svg.addEventListener("pointerup", finishPointer);
+  svg.addEventListener("pointercancel", finishPointer);
 
   svg.addEventListener("click", event => {
     if (!suppressClick) return;
@@ -4167,7 +4286,7 @@ function beginExam(word) {
   let correct = 0;
   let answer = "";
   if (form === "spell") {
-    answer = word.word;
+    answer = spellingAnswer(word);
   } else {
     const labels = form === "de2zh"
       ? candidate => candidate.translation
@@ -4213,7 +4332,7 @@ function renderExam(word) {
     ? "看德语，选出正确的中文释义。"
     : exam.form === "zh2de"
       ? "看中文，选出正确的德语单词。"
-      : "看中文，写出完整的德语单词（ä/ö/ü/ß 可写作 ae/oe/ue/ss）。";
+      : "看中文，写出完整的德语单词；名词必须带定冠词 der/die/das（ä/ö/ü/ß 可写作 ae/oe/ue/ss）。";
   const status = $("#exam-status");
   if (status) {
     status.textContent = `本次考察：${formMeta.label} · 自评起点 ${exam.userLevel}/5 · ${reason}`;
@@ -4273,8 +4392,8 @@ function submitSpell() {
     input?.focus();
     return;
   }
-  const correct = REVIEW_ENGINE.spellingCorrect(value, word.word);
-  resolveExamAnswer(correct, word.word, null);
+  const correct = REVIEW_ENGINE.spellingCorrect(value, exam.answer);
+  resolveExamAnswer(correct, exam.answer, null);
 }
 
 function resolveExamAnswer(correct, correctLabel, chosen) {

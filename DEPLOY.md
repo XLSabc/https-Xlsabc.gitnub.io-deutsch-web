@@ -39,10 +39,10 @@ git push -u origin main
 
 ## 更新版本与缓存
 
-站点使用 Service Worker 做离线缓存。当前缓存版本是 `wortkarte-shell-v144`。更新网页文件后，建议同时修改 `sw.js` 顶部的：
+站点使用 Service Worker 做离线缓存。当前缓存版本是 `wortkarte-shell-v147`。更新网页文件后，建议同时修改 `sw.js` 顶部的：
 
 ```js
-const CACHE_NAME = "wortkarte-shell-v145";
+const CACHE_NAME = "wortkarte-shell-v148";
 ```
 
 把版本号加一，已安装到手机主屏幕的旧版本才会主动换用新缓存。否则可能需要刷新两次或清除站点数据。
@@ -72,6 +72,9 @@ wortkarte.v2.last-good
 - GitHub Pages 免费版要求仓库为公开仓库（私有仓库的 Pages 需要相应套餐）。
 - 如果只想要一个文件，也可以直接上传根目录的 `wortkarte-mobile.html`；但 PWA 的离线缓存和主屏幕图标需要完整目录。
 - 词表内容仅用于个人学习，请勿公开再分发教材词表。
+
+
+
 
 
 

@@ -3,24 +3,25 @@ window.WORTKARTE_CHANGELOG_SUMMARY = [
   {
     "runId": "run-2026-10-20",
     "version": "1.0.0",
-    "generatedAt": "2026-10-26T10:05:19.502Z",
+    "generatedAt": "2026-10-27T15:38:33.978Z",
     "window": {
       "from": "2026-10-20",
-      "to": "2026-10-26"
+      "to": "2026-10-27"
     },
-    "totalChanges": 58,
+    "totalChanges": 61,
     "byType": {
-      "feature": 57,
-      "data": 1
+      "feature": 59,
+      "data": 1,
+      "fix": 1
     },
     "affectedIds": [],
     "rollbackCount": 0,
     "reviewQueue": 0,
     "costDelta": 0,
     "highlights": [
-      "词库全量校准：畸形词条、冠词与复数修正",
-      "短语按难度排序，首页新增 A/B/C 短语背诵",
-      "复习算法改为自评起点 + 三形式实测"
+      "德国地图支持触控双指缩放",
+      "拼写题要求名词带定冠词",
+      "更新页面时保护本地学习记录"
     ]
   }
 ];

@@ -17,7 +17,7 @@
   const FORM_META = {
     de2zh: { label: "德译中", short: "德→中", hint: "看德语，选中文", difficulty: 0 },
     zh2de: { label: "中译德", short: "中→德", hint: "看中文，选德语", difficulty: 1 },
-    spell: { label: "单词拼写", short: "拼写", hint: "看中文，写出德语", difficulty: 2 }
+    spell: { label: "单词拼写", short: "拼写", hint: "看中文，写出带定冠词的德语", difficulty: 2 }
   };
   const INTERVALS = [0, 5 * MINUTE, HOUR, DAY, 3 * DAY, 7 * DAY];
   const MAX_INTERVAL = 15 * DAY;

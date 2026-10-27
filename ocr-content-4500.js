@@ -1,7 +1,7 @@
 /* OCR 2201+ extracted content (auto-generated). */
 window.WORTKARTE_OCR_CONTENT_4500 = {
  "generatedAt": "2026-10-26",
- "sourceBatches": "2201-5500",
+ "sourceBatches": "2201-6000",
  "words": [
   {
    "id": "ocr45-w-8346f355ea",
@@ -47634,6 +47634,550 @@ window.WORTKARTE_OCR_CONTENT_4500 = {
    "contentDe": "",
    "contentZh": "图司各特 (1771—1832)， 英国小说家 ， 长篇历史小说这—体裁的首创者 。",
    "bookSource": "德语文学精品 插图本_杨武能译_桂林：漓江出版社.pdf · batch5494",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-d82fde3007",
+   "category": "person",
+   "year": "1515",
+   "titleDe": "",
+   "titleZh": "御比安努斯等作",
+   "contentDe": "",
+   "contentZh": "御比安努斯等作 (1515—1517)。 分",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5508",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-5b4a01a377",
+   "category": "person",
+   "year": "1689",
+   "titleDe": "",
+   "titleZh": "因作",
+   "contentDe": "",
+   "contentZh": "因作 (1689—1690)。 取材于公元裙",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5509",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-e57d5535dc",
+   "category": "person",
+   "year": "1748",
+   "titleDe": "",
+   "titleZh": "普施托克作",
+   "contentDe": "",
+   "contentZh": "普施托克作 (1748—1773)。 全诗共",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5509",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-6c028f8eff",
+   "category": "person",
+   "year": "1773",
+   "titleDe": "",
+   "titleZh": "下科菜作",
+   "contentDe": "",
+   "contentZh": "下科菜作 (1773—1776)。 塞巴杜斯",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5509",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-2ca838c191",
+   "category": "person",
+   "year": "1778",
+   "titleDe": "",
+   "titleZh": "赫泵德作",
+   "contentDe": "",
+   "contentZh": "赫泵德作 (1778—1779)。 原名 KR",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5509",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-6e520bb8a0",
+   "category": "person",
+   "year": "1811",
+   "titleDe": "",
+   "titleZh": "德作",
+   "contentDe": "",
+   "contentZh": "德作 (1811—1814)。 记述帮者自出",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5510",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-3920f753a2",
+   "category": "person",
+   "year": "1800",
+   "titleDe": "",
+   "titleZh": "保和尔作",
+   "contentDe": "",
+   "contentZh": "保和尔作 (1800—1803)。 主人公阿尔",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5510",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-48c29dc7ff",
+   "category": "person",
+   "year": "1815",
+   "titleDe": "",
+   "titleZh": "夫受作",
+   "contentDe": "",
+   "contentZh": "夫受作 (1815—1816)。 修道士梅达",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5511",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-a5d2e7156b",
+   "category": "person",
+   "year": "1819",
+   "titleDe": "",
+   "titleZh": "受作",
+   "contentDe": "",
+   "contentZh": "受作 (1819—1821)。 通过四个爱好",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5511",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-91bb24b601",
+   "category": "person",
+   "year": "1957",
+   "titleDe": "",
+   "titleZh": "特作",
+   "contentDe": "",
+   "contentZh": "特作 (1957—1980)。1909 年 ， 玻璃",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5523",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-e8555020c4",
+   "category": "person",
+   "year": "1930",
+   "titleDe": "",
+   "titleZh": "作",
+   "contentDe": "",
+   "contentZh": "作 (1930—1943)。 共三集 :《 旅行到",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5529",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-19d0cf92c6",
+   "category": "person",
+   "year": "1914",
+   "titleDe": "",
+   "titleZh": "夫卡作",
+   "contentDe": "",
+   "contentZh": "夫卡作 (1914—1918)。 银行事理约",
+   "bookSource": "德语文学词典_张威廉主编_上海：上海辞书出版社.pdf · batch5529",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-7cf8361bca",
+   "category": "person",
+   "year": "1862",
+   "titleDe": "",
+   "titleZh": "家在斯图加特时期",
+   "contentDe": "",
+   "contentZh": "家在斯图加特时期 (1862—1870) 创作的 , 故被合称为 “斯图加特三部",
+   "bookSource": "德语文学辞典·作家与作品_卫茂平主编（上海外国语大学德语系）_上海：复旦大学出版社.pdf · batch5552",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-56044bde8a",
+   "category": "person",
+   "year": "1951",
+   "titleDe": "",
+   "titleZh": "获奖作家目录",
+   "contentDe": "",
+   "contentZh": "获奖作家目录 (1951—2009)",
+   "bookSource": "德语文学辞典·作家与作品_卫茂平主编（上海外国语大学德语系）_上海：复旦大学出版社.pdf · batch5559",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-6b424ad4f9",
+   "category": "person",
+   "year": "1977",
+   "titleDe": "",
+   "titleZh": "获奖作家作品目录",
+   "contentDe": "",
+   "contentZh": "获奖作家作品目录 (1977—2009)",
+   "bookSource": "德语文学辞典·作家与作品_卫茂平主编（上海外国语大学德语系）_上海：复旦大学出版社.pdf · batch5560",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-6a79cfaeb5",
+   "category": "person",
+   "year": "1622",
+   "titleDe": "",
+   "titleZh": "美尔豪森",
+   "contentDe": "",
+   "contentZh": "美尔豪森 (1622—1676) 是十七世纪最重要的小说家 ， 他继承十六",
+   "bookSource": "德语文学选读 1 Aus der deutschen Literatur 750-1830 1_孙坤荣编注_北京：北京大学出版社.pdf · batch5566",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-4715cb61a2",
+   "category": "person",
+   "year": "1744",
+   "titleDe": "",
+   "titleZh": "曼的思想影响了赫尔德",
+   "contentDe": "",
+   "contentZh": "曼的思想影响了赫尔德 (1744—1803 ) 。 赫尔德又根据哈曼的甩 .",
+   "bookSource": "德语文学选读 1 Aus der deutschen Literatur 750-1830 1_孙坤荣编注_北京：北京大学出版社.pdf · batch5569",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-e75ce95410",
+   "category": "person",
+   "year": "1749",
+   "titleDe": "",
+   "titleZh": "歌德",
+   "contentDe": "",
+   "contentZh": "歌德 ( 1749—1832 ) 。 歌德则在自己的文学作品和理论著作中充",
+   "bookSource": "德语文学选读 1 Aus der deutschen Literatur 750-1830 1_孙坤荣编注_北京：北京大学出版社.pdf · batch5569",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-020ff479d2",
+   "category": "person",
+   "year": "1770",
+   "titleDe": "",
+   "titleZh": "林",
+   "contentDe": "",
+   "contentZh": "林 ( 1770—1843 ) ， 小说家让 。 保尔 ( 1763—1825 ) 和戏剧家兼",
+   "bookSource": "德语文学选读 1 Aus der deutschen Literatur 750-1830 1_孙坤荣编注_北京：北京大学出版社.pdf · batch5570",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-ed22b359f6",
+   "category": "person",
+   "year": "1756",
+   "titleDe": "",
+   "titleZh": "但作者把故事的时代背景放到七年战争",
+   "contentDe": "",
+   "contentZh": "但作者把故事的时代背景放到七年战争 ( 1756—1763 ) 之后 ， 写",
+   "bookSource": "德语文学选读 1 Aus der deutschen Literatur 750-1830 1_孙坤荣编注_北京：北京大学出版社.pdf · batch5570",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-93f480ff98",
+   "category": "person",
+   "year": "1791",
+   "titleDe": "",
+   "titleZh": "剧作家和诗人格里尔帕策",
+   "contentDe": "",
+   "contentZh": "剧作家和诗人格里尔帕策 (1791—1872) 被认为是奥地利的经",
+   "bookSource": "德语文学选读 2 1830-1933_孙坤荣编注_北京：北京大学出版社.pdf · batch5585",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-2965eead00",
+   "category": "person",
+   "year": "1805",
+   "titleDe": "",
+   "titleZh": "施蒂弗特",
+   "contentDe": "",
+   "contentZh": "施蒂弗特 (1805—1868) 素有 “风景小说家 ”(Landsehaftser-",
+   "bookSource": "德语文学选读 2 1830-1933_孙坤荣编注_北京：北京大学出版社.pdf · batch5585",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-d53237511c",
+   "category": "person",
+   "year": "1890",
+   "titleDe": "",
+   "titleZh": "埃里希 . 魏纳特",
+   "contentDe": "",
+   "contentZh": "埃里希 . 魏纳特 (1890-1953) ， 德国诗人 。1890 年 8 月 4",
+   "bookSource": "德语文学选读 2 1830-1933_孙坤荣编注_北京：北京大学出版社.pdf · batch5597",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-fc73601f20",
+   "category": "person",
+   "year": "1945",
+   "titleDe": "",
+   "titleZh": "期",
+   "contentDe": "",
+   "contentZh": "期 (1945 - 1955) 的短篇小说等 。 这些与时俱进的体裁往往具备该体",
+   "bookSource": "德语文学选读_吴建雄主编_北京：对外经济贸易大学出版社.pdf · batch5599",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-e42213e11e",
+   "category": "person",
+   "year": "1786",
+   "titleDe": "",
+   "titleZh": "文学巨匠的友谊合作时期",
+   "contentDe": "",
+   "contentZh": "文学巨匠的友谊合作时期 (1786 - 1805) 。 启蒙运动顾名思义就",
+   "bookSource": "德语生态文学_江山著_上海：学林出版社.pdf · batch5652",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-4732dc20df",
+   "category": "person",
+   "year": "1848",
+   "titleDe": "",
+   "titleZh": "哲学思想促进了现实主义文学",
+   "contentDe": "",
+   "contentZh": "哲学思想促进了现实主义文学 (1848 - 1880) 的诞生 。 现实主义",
+   "bookSource": "德语生态文学_江山著_上海：学林出版社.pdf · batch5653",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-f5081feed4",
+   "category": "person",
+   "year": "1910",
+   "titleDe": "",
+   "titleZh": "紧随其后的表现主义",
+   "contentDe": "",
+   "contentZh": "紧随其后的表现主义 (1910 - 1925 ) 起源于绘画领域并延伸",
+   "bookSource": "德语生态文学_江山著_上海：学林出版社.pdf · batch5656",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-0880b17fab",
+   "category": "person",
+   "year": "1808",
+   "titleDe": "",
+   "titleZh": "劳斯",
+   "contentDe": "",
+   "contentZh": "劳斯 (1808—1874) 。 其代表作 ER AY (BB BEAR) (1835, PIE",
+   "bookSource": "现代市民史诗 十九世纪德语小说研究_谷裕著_上海：上海书店出版社.pdf · batch5749",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-630be41233",
+   "category": "person",
+   "year": "1979",
+   "titleDe": "",
+   "titleZh": "中国对卡夫卡作品的译介",
+   "contentDe": "",
+   "contentZh": "中国对卡夫卡作品的译介 (1979 -2004) (E FB)",
+   "bookSource": "阐释与补阙 德语现代文学与中德文学关系研究_卫茂平主编；谢建文副主编_上海外语教育出版社.pdf · batch5815",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-57d9d97a73",
+   "category": "person",
+   "year": "1780",
+   "titleDe": "",
+   "titleZh": "卡罗莉娜 . 封君特罗德",
+   "contentDe": "",
+   "contentZh": "卡罗莉娜 . 封君特罗德 (1780 - 1806 ) 是浪漫主义女性诗学思",
+   "bookSource": "阐释与补阙 德语现代文学与中德文学关系研究_卫茂平主编；谢建文副主编_上海外语教育出版社.pdf · batch5817",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-6c45f74925",
+   "category": "person",
+   "year": "1874",
+   "titleDe": "",
+   "titleZh": "曼斯塔尔",
+   "contentDe": "",
+   "contentZh": "曼斯塔尔 (1874 — 1929) 的散文 《一封信 》(1902 年 ) 里 ,虚构的作者意",
+   "bookSource": "阐释与补阙 德语现代文学与中德文学关系研究_卫茂平主编；谢建文副主编_上海外语教育出版社.pdf · batch5823",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-f4e9ccaa9f",
+   "category": "person",
+   "year": "1884",
+   "titleDe": "",
+   "titleZh": "苏曼殊",
+   "contentDe": "",
+   "contentZh": "苏曼殊 (1884 -1918) 本人是诗人 ,对翻译介绍外国诗歌尤有热",
+   "bookSource": "阐释与补阙 德语现代文学与中德文学关系研究_卫茂平主编；谢建文副主编_上海外语教育出版社.pdf · batch5827",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-232dcbb43c",
+   "category": "person",
+   "year": "1773",
+   "titleDe": "",
+   "titleZh": "作者瓦肯罗德",
+   "contentDe": "",
+   "contentZh": "作者瓦肯罗德 (1773—1798) 和庶瓦利斯有很多相似之处 :两人",
+   "bookSource": "隐匿的神学 启蒙前后的德语文学_谷裕著_上海：华东师范大学出版社.pdf · batch5845",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-fb8cd9ff7c",
+   "category": "person",
+   "year": "1756",
+   "titleDe": "",
+   "titleZh": "立的要求直接受到葛里茨",
+   "contentDe": "",
+   "contentZh": "立的要求直接受到葛里茨 (1756—1793) 美学思想影响 。 莫里世",
+   "bookSource": "隐匿的神学 启蒙前后的德语文学_谷裕著_上海：华东师范大学出版社.pdf · batch5845",
    "sources": [],
    "confidence": 0.7,
    "tags": [
