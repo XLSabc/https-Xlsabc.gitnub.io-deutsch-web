@@ -989,29 +989,35 @@
         <div class="city-detail" id="city-detail" aria-live="polite">
           <p class="city-detail-empty">选择一座城市查看简介。</p>
         </div>
+        <div class="state-detail" id="state-detail" hidden aria-live="polite"></div>
       </div>
 
       <div class="festival-panel" id="festival-panel" hidden>
-        <div class="festival-head">
-          <div>
-            <p class="eyebrow">FESTKALENDER</p>
-            <h2>节日年历</h2>
-            <p>从一月到十二月，按时间浏览德国的固定节日、每年浮动节日与地区性习俗。</p>
+        <details class="festival-disclosure" id="festival-disclosure" open>
+          <summary class="festival-head">
+            <div>
+              <p class="eyebrow">FESTKALENDER</p>
+              <h2>节日年历</h2>
+              <p>从一月到十二月，按时间浏览德国的固定节日、每年浮动节日与地区性习俗。</p>
+            </div>
+            <div class="festival-head-meta">
+              <strong id="festival-count">18</strong>
+              <span>个年度节点</span>
+              <span class="festival-toggle-label" aria-hidden="true"></span>
+            </div>
+          </summary>
+          <div class="festival-body">
+            <div class="festival-legend" aria-hidden="true">
+              <span><i class="is-fixed"></i>固定日期</span>
+              <span><i class="is-movable"></i>每年浮动</span>
+              <span><i class="is-regional"></i>地区性</span>
+            </div>
+            <div class="festival-timeline" id="festival-timeline"></div>
+            <div class="festival-detail" id="festival-detail" aria-live="polite">
+              <p class="festival-detail-empty">选择节日查看日期与习俗说明。</p>
+            </div>
           </div>
-          <div class="festival-head-meta">
-            <strong id="festival-count">18</strong>
-            <span>个年度节点</span>
-          </div>
-        </div>
-        <div class="festival-legend" aria-hidden="true">
-          <span><i class="is-fixed"></i>固定日期</span>
-          <span><i class="is-movable"></i>每年浮动</span>
-          <span><i class="is-regional"></i>地区性</span>
-        </div>
-        <div class="festival-timeline" id="festival-timeline"></div>
-        <div class="festival-detail" id="festival-detail" aria-live="polite">
-          <p class="festival-detail-empty">选择节日查看日期与习俗说明。</p>
-        </div>
+        </details>
       </div>
 
       <div class="grammar-toolbar reveal" style="--delay: 40ms">
@@ -1238,17 +1244,20 @@
   <script src="changelog-summary.js"></script>
   <script src="map-data.js"></script>
   <script src="germany-states.js"></script>
+  <script src="germany-states-info.js"></script>
   <script src="festival-data.js"></script>
   <script src="culture.js"></script>
   <script src="culture-content-4500.js"></script>
   <script src="articles.js"></script>
   <script src="article-translations.js"></script>
+  <script src="article-translations-extra.js"></script>
   <script src="article-questions.js"></script>
   <script src="phrases.js"></script>
   <script src="ocr-content.js"></script>
   <script src="ocr-content-4500.js"></script>
   <script src="ocr-vocab-words.js"></script>
   <script src="godic-pack.js"></script>
+  <script src="dehelper-pack.js"></script>
   <script src="review-engine.js"></script>
   <script src="app.js"></script>
   <script id="pwa-register">

@@ -2,7 +2,7 @@
 window.WORTKARTE_OCR_CHANGELOG = [
  {
   "version": "3.44.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2201–2300：100 批完成",
   "scope": "OCR · 词库数据",
@@ -14,7 +14,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.45.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2301–2400：100 批完成",
   "scope": "OCR · 词库数据",
@@ -26,7 +26,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.46.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2401–2500：100 批完成",
   "scope": "OCR · 词库数据",
@@ -38,7 +38,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.47.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2501–2600：100 批完成",
   "scope": "OCR · 词库数据",
@@ -50,7 +50,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.48.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2601–2700：100 批完成",
   "scope": "OCR · 词库数据",
@@ -62,7 +62,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.49.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2701–2800：100 批完成",
   "scope": "OCR · 词库数据",
@@ -74,7 +74,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.50.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2801–2900：100 批完成",
   "scope": "OCR · 词库数据",
@@ -86,7 +86,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.51.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 2901–3000：100 批完成",
   "scope": "OCR · 词库数据",
@@ -98,7 +98,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.52.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3001–3100：100 批完成",
   "scope": "OCR · 词库数据",
@@ -110,7 +110,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.53.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3101–3200：100 批完成",
   "scope": "OCR · 词库数据",
@@ -122,7 +122,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.54.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3201–3300：100 批完成",
   "scope": "OCR · 词库数据",
@@ -134,7 +134,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.55.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3301–3400：100 批完成",
   "scope": "OCR · 词库数据",
@@ -146,7 +146,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.56.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3401–3500：100 批完成",
   "scope": "OCR · 词库数据",
@@ -158,7 +158,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.57.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3501–3600：100 批完成",
   "scope": "OCR · 词库数据",
@@ -170,7 +170,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.58.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3601–3700：100 批完成",
   "scope": "OCR · 词库数据",
@@ -182,7 +182,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.59.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3701–3800：100 批完成",
   "scope": "OCR · 词库数据",
@@ -194,7 +194,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.60.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3801–3900：100 批完成",
   "scope": "OCR · 词库数据",
@@ -206,7 +206,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.61.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 3901–4000：100 批完成",
   "scope": "OCR · 词库数据",
@@ -218,7 +218,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.62.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4001–4100：100 批完成",
   "scope": "OCR · 词库数据",
@@ -230,7 +230,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.63.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4101–4200：100 批完成",
   "scope": "OCR · 词库数据",
@@ -242,7 +242,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.64.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4201–4300：100 批完成",
   "scope": "OCR · 词库数据",
@@ -254,7 +254,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.65.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4301–4400：100 批完成",
   "scope": "OCR · 词库数据",
@@ -266,7 +266,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.66.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4401–4500：100 批完成",
   "scope": "OCR · 词库数据",
@@ -278,7 +278,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.68.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4501–4600：100 批完成",
   "scope": "OCR · 词库数据",
@@ -290,7 +290,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.69.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4601–4700：100 批完成",
   "scope": "OCR · 词库数据",
@@ -302,7 +302,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.70.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4701–4800：100 批完成",
   "scope": "OCR · 词库数据",
@@ -314,7 +314,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.71.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4801–4900：100 批完成",
   "scope": "OCR · 词库数据",
@@ -326,7 +326,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.72.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 4901–5000：100 批完成",
   "scope": "OCR · 词库数据",
@@ -338,7 +338,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.73.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5001–5100：100 批完成",
   "scope": "OCR · 词库数据",
@@ -350,7 +350,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.74.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5101–5200：100 批完成",
   "scope": "OCR · 词库数据",
@@ -362,7 +362,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.75.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5201–5300：100 批完成",
   "scope": "OCR · 词库数据",
@@ -374,7 +374,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.76.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5301–5400：100 批完成",
   "scope": "OCR · 词库数据",
@@ -386,7 +386,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.77.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5401–5500：100 批完成",
   "scope": "OCR · 词库数据",
@@ -398,7 +398,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.78.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5501–5600：100 批完成",
   "scope": "OCR · 词库数据",
@@ -410,7 +410,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.79.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5601–5700：100 批完成",
   "scope": "OCR · 词库数据",
@@ -422,7 +422,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.80.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5701–5800：100 批完成",
   "scope": "OCR · 词库数据",
@@ -434,7 +434,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.81.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5801–5900：100 批完成",
   "scope": "OCR · 词库数据",
@@ -446,7 +446,7 @@ window.WORTKARTE_OCR_CHANGELOG = [
  },
  {
   "version": "3.82.0",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "type": "data",
   "summary": "OCR 批次 5901–6000：100 批完成",
   "scope": "OCR · 词库数据",

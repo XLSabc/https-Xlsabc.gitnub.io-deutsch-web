@@ -146,6 +146,7 @@ const MAP_DATA = window.WORTKARTE_MAP && Array.isArray(window.WORTKARTE_MAP.coun
 const GERMANY_STATES = window.WORTKARTE_GERMANY_STATES && Array.isArray(window.WORTKARTE_GERMANY_STATES.states)
   ? window.WORTKARTE_GERMANY_STATES
   : null;
+const GERMANY_STATE_INFO = window.WORTKARTE_GERMANY_STATE_INFO || {};
 const FESTIVAL_DATA = window.WORTKARTE_FESTIVALS && Array.isArray(window.WORTKARTE_FESTIVALS.items)
   ? window.WORTKARTE_FESTIVALS
   : { months: [], items: [] };
@@ -920,6 +921,13 @@ const OCR_CONTENT = {
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GODIC_PACK = window.WORTKARTE_GODIC && window.WORTKARTE_GODIC.entries ? window.WORTKARTE_GODIC : null;
 const GODIC_ENTRIES = GODIC_PACK ? GODIC_PACK.entries : {};
+const DEHELPER_PACK = window.WORTKARTE_DEHELPER && window.WORTKARTE_DEHELPER.entries ? window.WORTKARTE_DEHELPER : null;
+const DEHELPER_ENTRIES = DEHELPER_PACK ? DEHELPER_PACK.entries : {};
+const DEHELPER_BY_WORD = new Map();
+for (const entry of Object.values(DEHELPER_ENTRIES)) {
+  const key = String(entry.word || "").toLowerCase();
+  if (key && !DEHELPER_BY_WORD.has(key)) DEHELPER_BY_WORD.set(key, entry);
+}
 const GODIC_BY_WORD = new Map();
 for (const entry of Object.values(GODIC_ENTRIES)) {
   const key = String(entry.word || "").toLowerCase();
@@ -930,7 +938,11 @@ function godicEntryFor(word) {
   if (!word) return null;
   const byArticle = GODIC_ENTRIES[`${word.article || ""}|${String(word.word || "").toLowerCase()}`];
   if (byArticle) return byArticle;
-  return GODIC_BY_WORD.get(String(word.word || "").toLowerCase()) || null;
+  const byWord = GODIC_BY_WORD.get(String(word.word || "").toLowerCase());
+  if (byWord) return byWord;
+  const localArticle = DEHELPER_ENTRIES[`${word.article || ""}|${String(word.word || "").toLowerCase()}`];
+  if (localArticle) return localArticle;
+  return DEHELPER_BY_WORD.get(String(word.word || "").toLowerCase()) || null;
 }
 const GOETHE_WORDS = (() => {
   const pack = window.WORTKARTE_DICTIONARY;
@@ -3662,6 +3674,15 @@ function bindCultureMapZoom() {
     event.preventDefault();
     event.stopPropagation();
   }, true);
+
+  svg.addEventListener("click", event => {
+    if (suppressClick) return;
+    const stateNode = event.target.closest?.(".map-state");
+    if (!stateNode) return;
+    event.preventDefault();
+    renderStateDetail(stateNode.dataset.stateId, stateNode);
+    openStateMap(stateNode.dataset.stateId);
+  });
 }
 
 function mapTextWidth(value, size = 7.6) {
@@ -3730,6 +3751,105 @@ function layoutCountryLabels(labels, occupied) {
   return parts.join("");
 }
 
+function mapFocusBox(box, padding = 14) {
+  if (!mapView.baseW || !box) return;
+  const targetW = Math.min(mapView.baseW, Math.max(90, box.width + padding * 2));
+  const targetH = mapView.baseH * (targetW / mapView.baseW);
+  mapView.w = targetW;
+  mapView.h = targetH;
+  mapView.x = clampNumber(box.x + box.width / 2 - targetW / 2, 0, mapView.baseW - targetW);
+  mapView.y = clampNumber(box.y + box.height / 2 - targetH / 2, 0, mapView.baseH - targetH);
+  mapApplyView();
+}
+
+function layoutStateCityLabels(cities) {
+  const occupied = (cities || []).map(city => ({ left: city.x - 4, right: city.x + 4, top: city.y - 4, bottom: city.y + 4 }));
+  const marks = [];
+  for (const city of cities || []) {
+    const candidates = [[8, 0], [-8, 0], [8, -8], [-8, -8], [8, 10], [-8, 10], [0, -12], [0, 14], [18, -2], [-18, -2]];
+    let chosen = null;
+    for (const [dx, dy] of candidates) {
+      const anchor = dx > 0 ? "start" : "end";
+      const box = mapLabelBox(city.zh, city.x, city.y, anchor, dx, dy, 8.5);
+      if (!occupied.some(other => mapBoxesOverlap(box, other, 3))) {
+        chosen = { dx, dy, anchor, box };
+        break;
+      }
+    }
+    if (chosen) occupied.push(chosen.box);
+    marks.push(`
+      <g class="state-map-city" data-action="state-city" data-city-id="${esc(city.id)}" role="button" tabindex="0" aria-label="${esc(city.zh)} ${esc(city.name)}">
+        <circle cx="${city.x}" cy="${city.y}" r="4"></circle>
+        ${chosen ? `<text x="${city.x + chosen.dx}" y="${city.y + chosen.dy}" text-anchor="${chosen.anchor}">${esc(city.zh)}</text>` : ""}
+      </g>`);
+  }
+  return marks.join("");
+}
+
+function openStateMap(stateId) {
+  const state = (GERMANY_STATES?.states || []).find(item => item.id === stateId);
+  if (!state) return;
+  const info = GERMANY_STATE_INFO[stateId] || {};
+  const mainPath = document.querySelector(`.map-state[data-state-id="${stateId}"]`);
+  const bbox = mainPath?.getBBox?.();
+  const pad = 60;
+  const viewBox = bbox ? `${bbox.x - pad} ${bbox.y - pad} ${bbox.width + pad * 2} ${bbox.height + pad * 2}` : "0 0 920 297.7";
+  const norm = value => String(value || "").replace(/州$/, "");
+  const cities = (MAP_DATA?.cities || []).filter(city => norm(city.state) === info.zh || city.state === info.zh);
+  const marks = layoutStateCityLabels(cities);
+  openModal(`
+    <div class="modal-head">
+      <div><p class="eyebrow">BUNDESLAND · ${esc(state.name.toUpperCase())}</p><h2>${esc(info.zh || state.name)}</h2></div>
+      <button class="modal-close" data-close aria-label="关闭州地图">${icon("close")}</button>
+    </div>
+    <div class="state-map-modal">
+      <div class="state-map-canvas">
+        <svg viewBox="${viewBox}" role="img" aria-label="${esc(state.name)} 州地图">
+          <path class="state-map-shape" d="${state.d}"></path>
+          <g class="state-map-cities">${marks}</g>
+        </svg>
+        <button type="button" class="btn btn-ghost state-map-back" data-close>← 返回德国地图</button>
+      </div>
+      <aside class="state-map-aside">
+        <p class="state-detail-meta">${info.capital ? `首府 ${esc(info.capital)}` : ""}${info.population ? ` · ${esc(info.population)}` : ""}${info.area ? ` · ${esc(info.area)}` : ""}</p>
+        <p>${esc(info.desc || "德国联邦州。")}</p>
+        ${Array.isArray(info.highlights) && info.highlights.length ? `<p class="state-detail-tags">${info.highlights.map(item => `<span>${esc(item)}</span>`).join("")}</p>` : ""}
+        <p class="state-map-city-hint">${cities.length ? `本州城市：${cities.map(city => esc(city.zh)).join(" · ")}` : "本州暂无城市卡片。"}</p>
+      </aside>
+    </div>
+  `, "state-map-dialog");
+}
+
+function renderStateDetail(stateId, node) {
+  const state = (GERMANY_STATES?.states || []).find(item => item.id === stateId);
+  const box = $("#state-detail");
+  if (!state || !box) return;
+  const info = GERMANY_STATE_INFO[stateId] || {};
+  const bbox = node?.getBBox?.();
+  const pad = 4;
+  const viewBox = bbox ? `${bbox.x - pad} ${bbox.y - pad} ${bbox.width + pad * 2} ${bbox.height + pad * 2}` : "0 0 920 297.7";
+  box.innerHTML = `
+    <article class="state-detail-card">
+      <div class="state-detail-head">
+        <div><p class="eyebrow">BUNDESLAND</p><h3>${esc(info.zh || state.name)} <small>${esc(state.name)}</small></h3></div>
+        <button type="button" class="modal-close" data-action="close-state" aria-label="关闭州简介">×</button>
+      </div>
+      <div class="state-detail-body">
+        <svg class="state-mini-map" viewBox="${viewBox}" role="img" aria-label="${esc(state.name)} 州地图"><path d="${state.d}"></path></svg>
+        <div>
+          <p class="state-detail-meta">${info.capital ? `首府 ${esc(info.capital)}` : ""}${info.population ? ` · ${esc(info.population)}` : ""}${info.area ? ` · ${esc(info.area)}` : ""}</p>
+          <p>${esc(info.desc || "德国联邦州。")}</p>
+          ${Array.isArray(info.highlights) && info.highlights.length ? `<p class="state-detail-tags">${info.highlights.map(item => `<span>${esc(item)}</span>`).join("")}</p>` : ""}
+        </div>
+      </div>
+      <button type="button" class="btn btn-ghost state-map-open" data-action="open-state-map" data-state-id="${esc(stateId)}">进入州地图 →</button>
+    </article>`;
+  box.hidden = false;
+  $$(".map-state").forEach(item => item.classList.toggle("is-active", item === node));
+  const cityBox = $("#city-detail");
+  if (cityBox) cityBox.hidden = true;
+}
+
 function renderCultureMap() {
   const panel = $("#culture-map-panel");
   const svg = $("#culture-map-svg");
@@ -3750,7 +3870,7 @@ function renderCultureMap() {
   const cityMarks = cityLayout.html;
   const countryLabels = layoutCountryLabels(labels || [], cityLayout.boxes);
   const statePaths = (GERMANY_STATES?.states || []).map(state => `
-    <path class="map-state" d="${state.d}" data-state="${esc(state.name)}"><title>${esc(state.name)}</title></path>`).join("");
+    <path class="map-state" d="${state.d}" data-state-id="${esc(state.id)}" data-state="${esc(state.name)}"><title>${esc(state.name)}</title></path>`).join("");
   svg.innerHTML = `<g class="map-countries">${countryPaths}</g><g class="map-states">${statePaths}</g>${countryLabels}<g class="map-cities">${cityMarks}</g>`;
   svg.dataset.rendered = "1";
   if (!mapView.baseW) {
@@ -3768,6 +3888,9 @@ function renderCultureMap() {
 function renderCityDetail(cityId) {
   const box = $("#city-detail");
   if (!box) return;
+  const stateBox = $("#state-detail");
+  if (stateBox) stateBox.hidden = true;
+  $$(".map-state.is-active").forEach(item => item.classList.remove("is-active"));
   const city = (MAP_DATA?.cities || []).find(item => item.id === cityId);
   if (!city) {
     box.innerHTML = `<p class="city-detail-empty">选择一座城市查看简介。</p>`;
@@ -6491,9 +6614,10 @@ function openWordModal(id) {
     </div>
     ${word.godic ? `
       <div class="modal-godic">
-        <p class="godic-kicker">godic.net</p>
+        <p class="godic-kicker">${esc(word.godic.source || "godic.net")}</p>
         <p class="godic-defs">${esc(word.godic.definitions || "")}</p>
         ${Array.isArray(word.godic.synonyms) && word.godic.synonyms.length ? `<p class="godic-line"><strong>Synonyme:</strong> ${word.godic.synonyms.slice(0, 12).map(esc).join(" · ")}</p>` : ""}
+        ${Array.isArray(word.godic.relatedWords) && word.godic.relatedWords.length ? `<p class="godic-line"><strong>联想词:</strong> ${word.godic.relatedWords.slice(0, 10).map(item => `${esc(item.word)}${item.zh ? `（${esc(item.zh)}）` : ""}`).join(" · ")}</p>` : ""}
         ${Array.isArray(word.godic.examples) && word.godic.examples.length ? `<p class="godic-line"><strong>Beispiel:</strong> ${esc(word.godic.examples[0].de)}${word.godic.examples[0].zh ? ` — ${esc(word.godic.examples[0].zh)}` : ""}</p>` : ""}
         ${word.godicUrl ? `<a class="godic-source" href="${esc(word.godicUrl)}" target="_blank" rel="noopener noreferrer">godic.net →</a>` : ""}
       </div>
@@ -7020,6 +7144,19 @@ function renderAll() {
 
 function handleAction(action, element) {
   switch (action) {
+    case "close-state": {
+      const box = $("#state-detail");
+      if (box) box.hidden = true;
+      $$(".map-state.is-active").forEach(item => item.classList.remove("is-active"));
+      break;
+    }
+    case "open-state-map":
+      openStateMap(element.dataset.stateId);
+      break;
+    case "state-city":
+      closeModal();
+      renderCityDetail(element.dataset.cityId);
+      break;
     case "start-daily":
       startStudy({ mode: "daily", limit: Math.min(100, Math.max(5, Number(state.settings.dailyGoal) || 20)) });
       break;

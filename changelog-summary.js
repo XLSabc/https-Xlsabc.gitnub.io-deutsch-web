@@ -3,15 +3,15 @@ window.WORTKARTE_CHANGELOG_SUMMARY = [
   {
     "runId": "run-2026-10-20",
     "version": "1.0.0",
-    "generatedAt": "2026-10-28T10:30:27.892Z",
+    "generatedAt": "2026-10-28T16:16:40.107Z",
     "window": {
       "from": "2026-10-20",
-      "to": "2026-10-28"
+      "to": "2026-10-29"
     },
     "totalChanges": 62,
     "byType": {
-      "feature": 60,
-      "data": 1,
+      "feature": 59,
+      "data": 2,
       "fix": 1
     },
     "affectedIds": [],
@@ -21,7 +21,7 @@ window.WORTKARTE_CHANGELOG_SUMMARY = [
     "highlights": [
       "拼写题要求名词带定冠词",
       "更新页面时保护本地学习记录",
-      "错两次降一级、地图州界与地名防重叠"
+      "导入本机 Dehelper 全量词典"
     ]
   }
 ];

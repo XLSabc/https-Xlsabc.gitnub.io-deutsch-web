@@ -1,7 +1,7 @@
 /* OCR 2201+ extracted content (auto-generated). */
 window.WORTKARTE_OCR_CONTENT_4500 = {
  "generatedAt": "2026-10-26",
- "sourceBatches": "2201-6000",
+ "sourceBatches": "2201-6700",
  "words": [
   {
    "id": "ocr45-w-8346f355ea",
