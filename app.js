@@ -143,6 +143,9 @@ const CULTURE_DATA = {
 const MAP_DATA = window.WORTKARTE_MAP && Array.isArray(window.WORTKARTE_MAP.countries)
   ? window.WORTKARTE_MAP
   : null;
+const GERMANY_STATES = window.WORTKARTE_GERMANY_STATES && Array.isArray(window.WORTKARTE_GERMANY_STATES.states)
+  ? window.WORTKARTE_GERMANY_STATES
+  : null;
 const FESTIVAL_DATA = window.WORTKARTE_FESTIVALS && Array.isArray(window.WORTKARTE_FESTIVALS.items)
   ? window.WORTKARTE_FESTIVALS
   : { months: [], items: [] };
@@ -915,6 +918,20 @@ const OCR_CONTENT = {
   grammar: [...(OCR_CONTENT_BASE.grammar || []), ...(OCR_CONTENT_EXTRA.grammar || [])]
 };
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
+const GODIC_PACK = window.WORTKARTE_GODIC && window.WORTKARTE_GODIC.entries ? window.WORTKARTE_GODIC : null;
+const GODIC_ENTRIES = GODIC_PACK ? GODIC_PACK.entries : {};
+const GODIC_BY_WORD = new Map();
+for (const entry of Object.values(GODIC_ENTRIES)) {
+  const key = String(entry.word || "").toLowerCase();
+  if (key && !GODIC_BY_WORD.has(key)) GODIC_BY_WORD.set(key, entry);
+}
+
+function godicEntryFor(word) {
+  if (!word) return null;
+  const byArticle = GODIC_ENTRIES[`${word.article || ""}|${String(word.word || "").toLowerCase()}`];
+  if (byArticle) return byArticle;
+  return GODIC_BY_WORD.get(String(word.word || "").toLowerCase()) || null;
+}
 const GOETHE_WORDS = (() => {
   const pack = window.WORTKARTE_DICTIONARY;
   if (!pack || !pack.levels) return [];
@@ -1409,6 +1426,7 @@ function normalizeState(raw) {
         : (reps + (Number(review.lapses) || 0) > 0 ? 1 : 0),
       level,
       streak: Number(review.streak ?? review.correctStreak) || 0,
+      wrongStreak: Number(review.wrongStreak) || 0,
       lastPenalty: ["self", "wrong"].includes(review.lastPenalty) ? review.lastPenalty : null,
       forceForm: ["de2zh", "zh2de", "spell"].includes(review.forceForm) ? review.forceForm : null,
       status: mastery,
@@ -1919,6 +1937,23 @@ function normalizeWordRecord(word) {
       word.exampleArticleTitle = articleExample.titleZh;
       word.exampleLevel = articleExample.level;
     }
+  }
+  const godic = godicEntryFor(word);
+  if (godic) {
+    word.godic = godic;
+    if (!word.translation && godic.definitions) word.translation = godic.definitions;
+    if (word.pos === "noun" && !word.article && godic.article) word.article = godic.article;
+    if (!word.plural && godic.pluralHint) word.pluralHint = godic.pluralHint;
+    if (!word.example && godic.examples && godic.examples.length) {
+      word.example = godic.examples[0].de;
+      word.exampleDe = godic.examples[0].de;
+      word.exampleZh = godic.examples[0].zh || "";
+      word.exampleSource = "godic";
+    }
+    if (!word.synonyms && Array.isArray(godic.synonyms) && godic.synonyms.length) {
+      word.synonyms = godic.synonyms;
+    }
+    word.godicUrl = godic.sourceUrl || "";
   }
   word.finePos = classifyFinePos(word);
   return word;
@@ -3629,6 +3664,72 @@ function bindCultureMapZoom() {
   }, true);
 }
 
+function mapTextWidth(value, size = 7.6) {
+  let units = 0;
+  for (const char of String(value || "")) {
+    units += /[\u3000-\u9fff\uff00-\uffef]/.test(char) ? 1.08 : 0.62;
+  }
+  return Math.max(10, units * size + 4);
+}
+
+function mapLabelBox(text, x, y, anchor, dx, dy, size = 7.6) {
+  const width = mapTextWidth(text, size);
+  const left = anchor === "end" ? x + dx - width : anchor === "middle" ? x + dx - width / 2 : x + dx;
+  return { left, right: left + width, top: y + dy - size * 0.85, bottom: y + dy + size * 0.35 };
+}
+
+function mapBoxesOverlap(a, b, pad = 2.4) {
+  return !(a.right + pad < b.left || a.left - pad > b.right || a.bottom + pad < b.top || a.top - pad > b.bottom);
+}
+
+function layoutCityLabels(cities) {
+  const occupied = (cities || []).map(city => ({
+    left: city.x - 3.4, right: city.x + 3.4, top: city.y - 3.4, bottom: city.y + 3.4
+  }));
+  const marks = [];
+  for (const city of cities || []) {
+    const preferred = [
+      [Number.isFinite(Number(city.labelDx)) ? Number(city.labelDx) : 5, Number.isFinite(Number(city.labelDy)) ? Number(city.labelDy) : 2.5],
+      [7, 8], [-7, 8], [7, -6], [-7, -6], [0, 12], [0, -11], [14, 0], [-14, 0]
+    ];
+    let chosen = null;
+    for (const [dx, dy] of preferred) {
+      const anchor = dx > 0.5 ? "start" : dx < -0.5 ? "end" : "middle";
+      const box = mapLabelBox(city.zh, city.x, city.y, anchor, dx, dy);
+      if (!occupied.some(other => mapBoxesOverlap(box, other))) {
+        chosen = { dx, dy, anchor, box };
+        break;
+      }
+    }
+    if (chosen) occupied.push(chosen.box);
+    marks.push(`
+      <g class="map-city" data-city-id="${esc(city.id)}" role="button" tabindex="0" aria-label="${esc(city.zh)} ${esc(city.name)}">
+        <circle cx="${city.x}" cy="${city.y}" r="3.1"></circle>
+        ${chosen ? `<text x="${city.x + chosen.dx}" y="${city.y + chosen.dy}" text-anchor="${chosen.anchor}">${esc(city.zh)}</text>` : ""}
+      </g>`);
+  }
+  return { html: marks.join(""), boxes: occupied };
+}
+
+function layoutCountryLabels(labels, occupied) {
+  const parts = [];
+  for (const label of labels || []) {
+    const candidates = [[0, 0], [0, -9], [0, 9], [-20, 0], [20, 0], [0, -17], [0, 17]];
+    let chosen = null;
+    for (const [dx, dy] of candidates) {
+      const box = mapLabelBox(label.name, label.x, label.y, "middle", dx, dy, 8);
+      if (!occupied.some(other => mapBoxesOverlap(box, other, 1.5))) {
+        chosen = { dx, dy, box };
+        break;
+      }
+    }
+    if (!chosen) continue;
+    occupied.push(chosen.box);
+    parts.push(`<text class="map-label" x="${label.x + chosen.dx}" y="${label.y + chosen.dy}">${esc(label.name)}</text>`);
+  }
+  return parts.join("");
+}
+
 function renderCultureMap() {
   const panel = $("#culture-map-panel");
   const svg = $("#culture-map-svg");
@@ -3636,7 +3737,7 @@ function renderCultureMap() {
   panel.hidden = cultureCategory !== "map";
   if (panel.hidden) return;
   if (!MAP_DATA) {
-    svg.innerHTML = `<text x="20" y="40" font-size="12" fill="#7b877d">地图数据未加载</text>`;
+    svg.innerHTML = `<text x="20" y="40" font-size="12" fill="#7b877d">鍦板浘鏁版嵁鏈姞杞?/text>`;
     return;
   }
   if (svg.dataset.rendered === "1") return;
@@ -3645,19 +3746,12 @@ function renderCultureMap() {
   const sorted = countries.slice().sort((a, b) => (a.name === "Deutschland" ? 1 : 0) - (b.name === "Deutschland" ? 1 : 0));
   const countryPaths = sorted.map(country => `
     <path class="map-country ${country.name === "Deutschland" ? "is-germany" : ""}" d="${country.d}" data-country="${esc(country.name)}"></path>`).join("");
-  const countryLabels = (labels || []).filter(label => label.name !== "Deutschland").map(label => `
-    <text class="map-label" x="${label.x}" y="${label.y}">${esc(label.name)}</text>`).join("");
-  const cityMarks = (cities || []).map(city => {
-    const dx = Number.isFinite(Number(city.labelDx)) ? Number(city.labelDx) : 5;
-    const dy = Number.isFinite(Number(city.labelDy)) ? Number(city.labelDy) : 2.5;
-    const anchor = city.labelAnchor || "start";
-    return `
-    <g class="map-city" data-city-id="${esc(city.id)}" role="button" tabindex="0" aria-label="${esc(city.zh)} ${esc(city.name)}">
-      <circle cx="${city.x}" cy="${city.y}" r="3.1"></circle>
-      <text x="${city.x + dx}" y="${city.y + dy}" text-anchor="${anchor}">${esc(city.zh)}</text>
-    </g>`;
-  }).join("");
-  svg.innerHTML = `<g class="map-countries">${countryPaths}</g>${countryLabels}<g class="map-cities">${cityMarks}</g>`;
+  const cityLayout = layoutCityLabels(cities || []);
+  const cityMarks = cityLayout.html;
+  const countryLabels = layoutCountryLabels(labels || [], cityLayout.boxes);
+  const statePaths = (GERMANY_STATES?.states || []).map(state => `
+    <path class="map-state" d="${state.d}" data-state="${esc(state.name)}"><title>${esc(state.name)}</title></path>`).join("");
+  svg.innerHTML = `<g class="map-countries">${countryPaths}</g><g class="map-states">${statePaths}</g>${countryLabels}<g class="map-cities">${cityMarks}</g>`;
   svg.dataset.rendered = "1";
   if (!mapView.baseW) {
     mapView.baseW = width;
@@ -4448,8 +4542,10 @@ function resolveExamAnswer(correct, correctLabel, chosen) {
   $("#exam-result-title").textContent = correct ? "Richtig." : "Noch nicht.";
   const wait = next ? formatReviewWait(REVIEW_ENGINE.intervalFor(next)) : "";
   const reason = next ? (LEVEL_REASON_LABEL[next.levelReason] || "") : "";
+  const wrongHint = next && next.wrongStreak ? `；连错 ${next.wrongStreak}/2，再错降一级` : "";
+  const spellingProtected = exam.form === "spell" && Number(exam.level) <= 3 && !correct;
   $("#exam-result-copy").textContent = next
-    ? `${correct ? "答对了" : `正确答案是「${correctLabel}」`} · 掌握度 ${next.level}/5${reason ? `（${reason}）` : ""}，${wait}后重推。`
+    ? `${correct ? "答对了" : `正确答案是「${correctLabel}」`} · 掌握度 ${next.level}/5${reason ? `（${reason}）` : ""}，${wait}后重推${wrongHint}${spellingProtected ? "；前三级拼写错误不降级" : ""}。`
     : `${correct ? "答对了" : `正确答案是「${correctLabel}」`} · 今日回顾只记录对错，不改变长期复习安排。`;
   $("#exam-panel").classList.add("is-answered");
   const label = $("#mastery-next-label");
@@ -6393,6 +6489,15 @@ function openWordModal(id) {
       <div><span>${word.pos === "noun" ? "复数" : "变位"}</span><strong>${esc(word.pos === "noun" ? pluralLabel(word) : (word.forms || "—"))}</strong></div>
       <div><span>等级</span><strong>${esc(word.level)}</strong></div>
     </div>
+    ${word.godic ? `
+      <div class="modal-godic">
+        <p class="godic-kicker">godic.net</p>
+        <p class="godic-defs">${esc(word.godic.definitions || "")}</p>
+        ${Array.isArray(word.godic.synonyms) && word.godic.synonyms.length ? `<p class="godic-line"><strong>Synonyme:</strong> ${word.godic.synonyms.slice(0, 12).map(esc).join(" · ")}</p>` : ""}
+        ${Array.isArray(word.godic.examples) && word.godic.examples.length ? `<p class="godic-line"><strong>Beispiel:</strong> ${esc(word.godic.examples[0].de)}${word.godic.examples[0].zh ? ` — ${esc(word.godic.examples[0].zh)}` : ""}</p>` : ""}
+        ${word.godicUrl ? `<a class="godic-source" href="${esc(word.godicUrl)}" target="_blank" rel="noopener noreferrer">godic.net →</a>` : ""}
+      </div>
+    ` : ""}
     ${word.example ? `
       <div class="modal-example">
         <p>${esc(word.example)}</p>

@@ -7183,6 +7183,49 @@ kbd {
   font-weight: 600;
 }
 
+.modal-godic {
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: #f3f6f0;
+  border: 1px solid var(--line-soft);
+  border-radius: 9px;
+}
+
+.godic-kicker {
+  margin: 0 0 5px;
+  color: var(--sage);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.godic-defs {
+  margin: 0;
+  max-height: 150px;
+  overflow: auto;
+  color: var(--ink-2);
+  font-size: 10.5px;
+  line-height: 1.6;
+}
+
+.godic-line {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 9.5px;
+  line-height: 1.5;
+}
+
+.godic-line strong { color: var(--ink-2); font-weight: 700; }
+
+.godic-source {
+  display: inline-block;
+  margin-top: 7px;
+  color: var(--clay);
+  font-size: 9px;
+  text-decoration: underline;
+}
+
 .modal-example {
   padding: 13px 15px;
   background: #f8f1e4;
@@ -8510,4 +8553,22 @@ body.phrase-recite-open { overflow: hidden; }
 @media (max-width: 700px) {
   .rating-bar { grid-template-columns: repeat(3, 1fr); }
   .exam-spell { flex-direction: column; }
+}
+
+.map-state {
+  fill: none;
+  stroke: #5d7b61;
+  stroke-width: 0.8;
+  opacity: 0.72;
+  pointer-events: none;
+  vector-effect: non-scaling-stroke;
+}
+
+.map-state {
+  fill: none;
+  stroke: #4d6d53;
+  stroke-width: 1;
+  opacity: 0.9;
+  pointer-events: none;
+  vector-effect: non-scaling-stroke;
 }

@@ -67,6 +67,7 @@
       ? clampLevel(source.level)
       : legacyLevel(source);
     out.streak = Number(source.streak ?? source.correctStreak) || 0;
+    out.wrongStreak = Number(source.wrongStreak) || 0;
     out.lastPenalty = ["self", "wrong"].includes(source.lastPenalty) ? source.lastPenalty : null;
     out.forceForm = FORMS.includes(source.forceForm) ? source.forceForm : null;
     out.nextReview = toTimestamp(source.nextReview ?? source.due ?? source.nextReviewDate);
@@ -138,6 +139,7 @@
     out.lastTested = { de2zh: 0, zh2de: 0, spell: 0 };
     out.attempts = 0;
     out.streak = 0;
+    out.wrongStreak = 0;
     out.lastPenalty = null;
     out.forceForm = null;
     out.lastForm = null;
@@ -170,6 +172,7 @@
     if (correct) {
       out.testedLevels[form] = 1;
       out.streak = (Number(out.streak) || 0) + 1;
+      out.wrongStreak = 0;
       if (allFormsPassed(out)) {
         // 三种形式全部通过：掌握等级 +1，并开启下一轮三形式考核。
         out.level = Math.min(5, clampLevel(out.level) + 1);
@@ -177,12 +180,19 @@
         out.lastPenalty = null;
       }
     } else {
-      // 任一形式答错：掌握等级 -1，三形式状态重置，10 分钟后重推。
-      out.level = Math.max(0, clampLevel(out.level) - 1);
+      // 连续答错两次降一级；前三级（0–3）的拼写错误只重置考核，
+      // 不作为降级条件；拼写错误仍会进入 10 分钟重推。
       out.testedLevels = { de2zh: 0, zh2de: 0, spell: 0 };
       out.streak = 0;
       out.lapses = (Number(out.lapses) || 0) + 1;
       out.lastPenalty = "wrong";
+      if (!(form === "spell" && clampLevel(out.level) <= 3)) {
+        out.wrongStreak = (Number(out.wrongStreak) || 0) + 1;
+        if (out.wrongStreak >= 2) {
+          out.level = Math.max(0, clampLevel(out.level) - 1);
+          out.wrongStreak = 0;
+        }
+      }
     }
     return recompute(out, now, { preserveDue: false });
   }
