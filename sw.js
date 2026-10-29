@@ -1,5 +1,5 @@
 ﻿/* Wortkarte service worker – app shell cache for mobile/offline use. */
-const CACHE_NAME = "wortkarte-shell-v162";
+const CACHE_NAME = "wortkarte-shell-v163";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -104,6 +104,7 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
 
 
 

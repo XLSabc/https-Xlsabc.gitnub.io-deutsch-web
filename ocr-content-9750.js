@@ -1,4 +1,4 @@
-/* sanitized OCR content */
+/* curated content */
 window.WORTKARTE_OCR_CONTENT_9750 = {
  "generatedAt": "2026-10-26",
  "sourceBatches": "8251-9750",
