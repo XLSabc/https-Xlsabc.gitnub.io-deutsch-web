@@ -1,4 +1,4 @@
-/* OCR 2201+ extracted content (auto-generated). */
+/* sanitized OCR content */
 window.WORTKARTE_OCR_CONTENT_11250 = {
  "generatedAt": "2026-10-26",
  "sourceBatches": "9751-11250",
@@ -4259,34 +4259,6 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
    "contentDe": "Sie möchten nach Kleinwellersdorf? Da müssen Sie umkehren und bis zum Ortsende fahren. Dann weiter geradeaus bis zum Ortsschild Großwellersdorf. Gleich nach dem Ortsschild biegen Sie rechts ab in die Landstraße und fahren ungefähr einen halben Kilometer geradeaus. Sie kommen über ein Bahngleis, sehen dann rechts einen großen Bauernhof und dann kommt auf der rechten Seite das kleine Schild nach Kleinwellers-"
   },
   {
-   "id": "ocr45-art-f011dc7438",
-   "titleDe": "1. Ich möchte am 18. Juli a) am 2. August buchen.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语听说训练 A2_（德）安娜丽·比利娜（Anneli Billina）编_上海：同济大学出版社.pdf · batch9757",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "1. Ich möchte am 18. Juli a) am 2. August buchen. 2. Wir brauchen einen günstigen b) möchten wir zwei Hotelzimmer Flug reservieren. 3. Wir möchten den Rückflug c) mit einem großen Swimming-Pool. 4. Auf Korsika wollen wir d) für zwei Erwachsene und zwei Kinder. 5. In einem Hotel am Strand e) Doppelzimmer mit Halbpension"
-  },
-  {
-   "id": "ocr45-art-dad703919d",
-   "titleDe": "f) d a j) b) i) de A) g)",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语听说训练 A2_（德）安娜丽·比利娜（Anneli Billina）编_上海：同济大学出版社.pdf · batch9757",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "f) d a j) b) i) de A) g) 1. Ich möchte am 18. Juli mit meiner Familie nach Korsika fliegen. 2. Wir brauchen einen günstigen Flug für zwei Erwachsene und zwei Kinder. 3. Wir möchten den Rückflug am 2. August buchen. 4. Auf Korsika wollen wir ein Auto mieten. 5. In einem Hotel am Strand möchten wir zwei Hotelzimmer reservieren. . Das Hotel sollte Halbpension anbieten."
-  },
-  {
    "id": "ocr45-art-e626023060",
    "titleDe": "德语听说训练 A2_（德）安娜丽·比利娜（Anneli Billina）编_上海：同济大学出版社",
    "titleZh": "",
@@ -4973,20 +4945,6 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
    "contentDe": "Tina: Das ist richtig, aber dann ist es eben wichtig, dass dieses Thema in den Schulen ausführlich besprochen wird. Einen sinnvollen Umgang mit den sozialen Netzwerken muss man auch erst lernen. Aber schau doch, was für fantastische Möglichkeiten das Netz bietet, etwas zu lernen und sich zu informieren. Wie viel ist gerade durch soziale Netzwerke schon politisch bewegt worden. Das kannst du nicht abstreiten."
   },
   {
-   "id": "ocr45-art-13fb62c0bd",
-   "titleDe": "beginnen, um der Situation einwengde__ __________zunehmen. E",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语听说训练 B1_（德）安娜丽·比利娜（ANNELIBILLINA）编著_上海：同济大学出版社.pdf · batch9762",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "beginnen, um der Situation einwengde__ __________zunehmen. Erinnern Sie sich, wie schon immer diskutiert wurden. Oft wird das, was der älteren Generation noch nicht ist, als große für die Jugend gesehen. Bereits 1800, als es für sehr viele Menschen möglich wurde, Bücher zu lesen, wurde die ,, “ kritisiert. Sie sei eine Gefahr für die und Ordnung. Und die der Rockmusik in den 60er-Jahren? Für viele Eltern ein nicht zu tolerierender . Zuletzt hat uns die rasante"
-  },
-  {
    "id": "ocr45-art-92f46a86ff",
    "titleDe": "ein wenig die Dramatik zu nehmen. Erinnern Sie sich, wie auf",
    "titleZh": "",
@@ -5013,20 +4971,6 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Okay. Dann übernehme ich das Einkaufen und das Geschirrabwaschen. Und das Bad putzt jeder abwechselnd. Aber jetzt sei mir bitte nicht mehr böse. Ich freu mich so, dass du wieder zurück bist. Ich habe dir so viel zu erzählen, von der Party gestern: Da war so ein toller Typ, du weißt schon, der Bruder von Hannes ..."
-  },
-  {
-   "id": "ocr45-art-e9d45a82e4",
-   "titleDe": "1. Ich sehe gar nicht ein, dass du hier ständig Party machst",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语听说训练 B2_（德）尤莉卡·贝茨（Julika Betz），（德）安娜丽·比利娜（Anneli Billina）编著_上海：同济大学出版社.pdf · batch9763",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "1. Ich sehe gar nicht ein, dass du hier ständig Party machst - und aufräumen muss ich dann. 2. Jetzt komm mal wieder runter. 3. Sonst hätte ich mich schon rechtzeitig darum gekümmert. 4. Ich habe das jetzt wirklich satt - wir müssen unbedingt mal reden. 5. Jetzt bist du echt zu weit gegangen. 6. Ich möchte, dass wir jetzt ein für alle Mal ein paar Dinge klären. 7. Ich verstehe überhaupt nicht, warum du das nicht nachvollziehen kannst. 8. Aber, na bitte, wenn es für dich so wichtig ist, dann halte ich mich in Zukunft daran. 9. Beim Essen bist du immer gleich dabei, aber wenn es ums Einkaufen und Kochen geht - da hältst du dich schön zurück. 10. Und jetzt machst du mir daraus einen Vorwurf! 11. Findest du es nicht selbstverständlich, dass du auch in irgendeiner Form etwas zu unserem WG-Leben beiträgst? 12. Wir können uns ja zumindest auf einen Kompromiss einigen. 13. Irgendeine feste Aufgabe im Haushalt musst du jetzt schon mal übernehmen. 14. Irgendetwas, wofür nur du verantwortlich bist."
   },
   {
    "id": "ocr45-art-6f75293f7f",
@@ -5307,20 +5251,6 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Sander sah sich nie als Künstler, sondern einfach als Fotograf. Er wollte alles, was er um sich herum sah, festhalten - ohne Ausnahmen. Dazu zählten während der Zeit des Nationalsozialismus auch emigrierte Juden, Fremdarbeiter und politische Gefangene, unter denen sich auch sein Sohn Erich befand. Er wurde als Mitglied der „Sozialistischen Arbeiterpartei Deutschlands“ zu zehn Jahren Gefängnis verurteilt und starb vor seiner Entlassung, ein Jahr vor Kriegsende. Sein Vater sollte ihn noch 20 Jahre überleben"
-  },
-  {
-   "id": "ocr45-art-7a7b17a556",
-   "titleDe": "1. eingangs a) hell",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语听说训练 B2_（德）尤莉卡·贝茨（Julika Betz），（德）安娜丽·比利娜（Anneli Billina）编著_上海：同济大学出版社.pdf · batch9764",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "1. eingangs a) hell 2. sich befinden b) erfinden, neu machen 3. lichtdurchflutet c) etwas ist schwer und macht müde 4. mühsam d) arrogant 5. schaffen e) etwas erreichen wollen 6. beschwerlich f) das geht nie zu Ende, ist grenzenlos 7. einzigartig 8) ich möchte endlich etwas machen 8. es juckt mich in den Fingern h) sein 9. Ideen umsetzen i) viele Anfragen wegen Interviews, Fotos, 10. jdm. etwas übel nehmen Fernsehauftritten etc. 11. r Medienrummel j) Werke von Künstlern, die jetzt leben 12. zeitgenössische Kunst k) sich etwas stark wünschen 13. sich sehnen nach etwas 1) sicher, geschützt 14. überheblich m) Ideen verwirklichen, realisieren 15. unerschöpflich n) anstrengend 16. etwas schildern 0) jdm. böse sein wegen etwas 17. spüren p) zu Beginn, am Anfang 18. dauerhaft q) echt, nicht gelogen 19. wahrhaftig r) etwas beginnen lassen 20. etwas auslösen s) unheimlich, bedrückend, es macht Angst 21. nach etwas streben t) fühlen 22. geborgen u) etwas beschreiben 23. bedrohlich v) das gibt es nicht noch einmal"
   },
   {
    "id": "ocr45-art-430c376c05",
@@ -5795,48 +5725,6 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
     {
      "heading": "4.2 弱 变 化 动词 Die schwachen Verben + 44",
      "body": "6.4.3 不 规则 变化 动词 ”Die unregelmäßigen Verben … 45 6.5 非 限定 和 限定 动词 形式 ”Die infiniten (unbestimmten) und finiten (bestimmten) Verbformen +++ 55",
-     "examples": []
-    }
-   ],
-   "exercises": []
-  },
-  {
-   "id": "ocr45-g-b20d0a247f",
-   "title": "5.1 非 限定 动词 形式 “Die infiniten Verbformen “……… 55",
-   "summary": "6.5.2 限定 动词 形式 ”Die finiten Verbformen ………… 57 6.5.3 表达 方式 Der Modus(Aussageweise) +\" 61 6.5.4 动词 的 语 态 ”Das Genus verbi (Aktionsart) + 66",
-   "source": "德语基础语法规则100条_王璇编著_北京：北京语言大学出版社.pdf · batch10038",
-   "sections": [
-    {
-     "heading": "5.1 非 限定 动词 形式 “Die infiniten Verbformen “……… 55",
-     "body": "6.5.2 限定 动词 形式 ”Die finiten Verbformen ………… 57 6.5.3 表达 方式 Der Modus(Aussageweise) +\" 61 6.5.4 动词 的 语 态 ”Das Genus verbi (Aktionsart) + 66",
-     "examples": []
-    }
-   ],
-   "exercises": []
-  },
-  {
-   "id": "ocr45-g-e6dc2bbec7",
-   "title": "5.2 限定 动词 形式 ”Die finiten Verbformen ………… 57",
-   "summary": "6.5.3 表达 方式 Der Modus(Aussageweise) +\" 61 6.5.4 动词 的 语 态 ”Das Genus verbi (Aktionsart) + 66 6.6 动词 人 称 形式 和 时 态 形式 的 构成",
-   "source": "德语基础语法规则100条_王璇编著_北京：北京语言大学出版社.pdf · batch10038",
-   "sections": [
-    {
-     "heading": "5.2 限定 动词 形式 ”Die finiten Verbformen ………… 57",
-     "body": "6.5.3 表达 方式 Der Modus(Aussageweise) +\" 61 6.5.4 动词 的 语 态 ”Das Genus verbi (Aktionsart) + 66 6.6 动词 人 称 形式 和 时 态 形式 的 构成",
-     "examples": []
-    }
-   ],
-   "exercises": []
-  },
-  {
-   "id": "ocr45-g-1e26720cfa",
-   "title": "5.4 动词 的 语 态 ”Das Genus verbi (Aktionsart) + 66",
-   "summary": "6.6 动词 人 称 形式 和 时 态 形式 的 构成 Die Bildung der Personal- und Tempusformen +\" 68 6.6.1 直 陈 式 主动 态 Der Indikativ Aktiv - 68",
-   "source": "德语基础语法规则100条_王璇编著_北京：北京语言大学出版社.pdf · batch10038",
-   "sections": [
-    {
-     "heading": "5.4 动词 的 语 态 ”Das Genus verbi (Aktionsart) + 66",
-     "body": "6.6 动词 人 称 形式 和 时 态 形式 的 构成 Die Bildung der Personal- und Tempusformen +\" 68 6.6.1 直 陈 式 主动 态 Der Indikativ Aktiv - 68",
      "examples": []
     }
    ],

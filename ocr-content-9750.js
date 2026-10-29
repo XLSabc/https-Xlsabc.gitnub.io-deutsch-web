@@ -1,4 +1,4 @@
-/* OCR 2201+ extracted content (auto-generated). */
+/* sanitized OCR content */
 window.WORTKARTE_OCR_CONTENT_9750 = {
  "generatedAt": "2026-10-26",
  "sourceBatches": "8251-9750",
@@ -625,20 +625,6 @@ window.WORTKARTE_OCR_CONTENT_9750 = {
    "contentDe": "Wir würden uns freuen, wennauch Herr Hansen mitkäme. 1, Warest du erstaunt, wenn Prof. Blank auch nach Ham- burg (kommen)? 2. Es wäre wunderbar, wenn ihr alle mit uns (kommen). 3. Es wäre das beste, wenn wir heute zu Hause (bleiben). 4. Hamburg wäre nicht so groß, wenn es nicht an einem breiten Fluss (liegen). 5. Wir wären schon um 17. 00 in Stuttgart, wenn wir den nächsten Zug (nehmen). 6. Es wäre eine Überraschung, wenn wir hier auch Schiffe aus China (sehen). 7. Man würde keine Containerschiffe verwenden, wenn sie"
   },
   {
-   "id": "ocr45-art-16e9286938",
-   "titleDe": "德语 第2册 Band 2 修订版_E. Zettl，徐涓，陆海燕主编_上海：上海交通大学出版社",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语 第2册 Band 2 修订版_E. Zettl，徐涓，陆海燕主编_上海：上海交通大学出版社.pdf · batch8257",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "besseren Erfolg. V (dieses Buch, übersetzen), dann hätte es einen besseren Erfolg gehabt. . G (zuerst, der Plan, verbessern), dann wäre unsere Aufgabe viel leichter. . V (zuerst, der Plan, verbessern), dann wären wir mit der Arbeit schon fertig. . G (hier, eine Straße, bauen), dann gäbe es kein Verkehrs- problem mehr. . V (hier, eine Straße, bauen), dann wäre das Verkehrs- problem gelöst."
-  },
-  {
    "id": "ocr45-art-e7685903a8",
    "titleDe": "Menschen und Tiere leben von Pflanzen. Pflanzen nehmen aus",
    "titleZh": "",
@@ -1255,20 +1241,6 @@ window.WORTKARTE_OCR_CONTENT_9750 = {
    "contentDe": "Prof. Schneider ‚Sehen Sie die Fabrik dort? Seit mehr als hundert Jahren werden in diesem Werk Maschinen gebaut. 1896 wurde dort ein neuer Motor konstruiert, der heute in Hunderttausenden von Bussen, Personenwagen, Lastwagen, Lokomotiven ‚und Schiffen verwendet wird. Der Erfinder dieses Motors war der Is-"
   },
   {
-   "id": "ocr45-art-1bfdafb7ee",
-   "titleDe": "A Wie pruft man den Motor?",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语 第2册 修订版_（德）（E.策特尔）E.Zettl等编著_上海：上海交通大学出版社.pdf · batch8266",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "A Wie pruft man den Motor? a)Sehen Sie, der Motor wird so gepruft. b)Ich zeige Ihnen, wie er gepruft wird. 1. Wie prüft man den Wagen? u 2. Wie offnet man den Wagen? ， 3. Wie verwendet man dieses Gerat? 4. Wie stellt man diesen Projektor auf?: 5. Wie schaltet man diesen Rechner ein? 6. Wie schaltet man diese Maschinen aus?"
-  },
-  {
    "id": "ocr45-art-60c0c5bec3",
    "titleDe": "Wenn der Kolben den oberen Totpunkt erreicht hat, erzeugt di",
    "titleZh": "",
@@ -1437,20 +1409,6 @@ window.WORTKARTE_OCR_CONTENT_9750 = {
    "contentDe": "D Prufen Sie das Gerät selbst? Nein, ich lasse es prüfen. 1. Prüfen Sie die Geräte selbst? 2. Übersetzen Sie den Text selbst? 3. Verbesserten Sie das Programm selbst? (Imp. ) 4. Haben Sie die Programme selbst verbessert? (Perf. ) 5. Hat sie die Briefe selbst übersetzt? 6. Hat er die Plane selbst angefertigt?"
   },
   {
-   "id": "ocr45-art-de62ebf1e7",
-   "titleDe": "E Mit diesem Gerat erzeugen wir Strom.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语 第2册 修订版_（德）（E.策特尔）E.Zettl等编著_上海：上海交通大学出版社.pdf · batch8267",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "E Mit diesem Gerat erzeugen wir Strom. a)Mit diesem Gerat wird Strom erzeugt. b)Damit kann Strom erzeugt werden. 1. Mit diesem Draht verbinden wir die Pole. 2. Mit diesem Apparat erzeugen wir Funken. 3. Mit diesem Ring weisen wir Radiowellen nach. 4. Mit diesem Schalter schalten wir die Anlage ein. 5. Mit diesem Rechner fertigen wir die Zeichnungen an."
-  },
-  {
    "id": "ocr45-art-dcb5a8c505",
    "titleDe": "Deutschen Museum gesehen haben? Heinrich Hertz konnte damit",
    "titleZh": "",
@@ -1479,34 +1437,6 @@ window.WORTKARTE_OCR_CONTENT_9750 = {
    "contentDe": "Sehen Sie dort die nach Südosten gerichtete Antenne? Sie ist auf einen über dem Indischen Ozean stationierten Satelliten des Typs INTELSAT eingestellt. Diese Antenne Nr. 4 würde Ihren Anruf zum Satelliten und der Satellit zur Erde-Funkstelle Beijing übertragen. Der Operator in Beijing schließlich wurde Sie mit"
   },
   {
-   "id": "ocr45-art-9f413a6d97",
-   "titleDe": "Angenommen, ich mochte nach China telefonieren.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语 第2册 修订版_（德）（E.策特尔）E.Zettl等编著_上海：上海交通大学出版社.pdf · batch8268",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Angenommen, ich mochte nach China telefonieren. Was mußte ich da tun? (Sie, das Ausländsamt; anrufen) Sie mußten das Aaslandsamt anrufen. 1. Angenommen, ich möchte die Anlage besuchen. ' Was mußte ich da tun? (du, Herr Schug anrufen) 2. Angenommen, wir mochten die Funkstelle sehen. Was mußten wir da tun? (Sie, ein Assistent, fragen) 3. Angenommen, wir mochten die Fabrik sehen. Was müßten wir da tun? (ihr, an (Akk.) Direktor, schreiben) Bu 4. Angenommen, du möchtest im Sprachlabor arbeiten. Was mußtest du da tun? Cich, mit,” die Lehrerin,"
-  },
-  {
-   "id": "ocr45-art-6f79a7f31d",
-   "titleDe": "b) Sie sollten wirklich einmal nach München fahren.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语 第2册 修订版_（德）（E.策特尔）E.Zettl等编著_上海：上海交通大学出版社.pdf · batch8268",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "b) Sie sollten wirklich einmal nach München fahren. 1. Gestern sind wir ins Deutsche Museum gegangen. 2. Gestern sind wir nach Raisting gefahren. 3. Gestern haben wir die Funkstelle besucht. 4. Gestern haben wir mit Dr. Schug gesprochen. 5. Gestern haben wir unseren Chef angerufen. 6. Gestern haben wir eine Sendung über China gehört."
-  },
-  {
    "id": "ocr45-art-f7b7661b76",
    "titleDe": "das im Zylinder verdichtete Gas .",
    "titleZh": "",
@@ -1533,20 +1463,6 @@ window.WORTKARTE_OCR_CONTENT_9750 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "A Ich habe meinen Chef angerufen. Angenommen, ich hatte ihn nicht angerufen. Was hatte er dann gesagt. 1. Ich habe meine Freunde angerufen. . 2. Wir haben Rektor Hahn eingeladen, 3. Wir haben Frau Kohler abgeholt. . 4. Wir haben die Gaste aus Shanghai-abgeholt: . 5. Sie hat Prof. Blank die Plane zuruckgeschickt. 6. Du hast Frau Kohler die Bucher zurückgegeben."
-  },
-  {
-   "id": "ocr45-art-d070a38fd2",
-   "titleDe": "Dort hat man eine Brucke gebaut.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语 第2册 修订版_（德）（E.策特尔）E.Zettl等编著_上海：上海交通大学出版社.pdf · batch8268",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Dort hat man eine Brucke gebaut. a) Auch hier sollte man eine Brucke bauen. b)Wenn es möglich ist, wird man auch hier eine Brücke bauen. c)Wenn es moglich ware, wurde man auch hier eine Brücke bauen. d)Wenn es moglich gewesen ware, hatte man auch hier eine Brücke gebaut. 1, Dort hat man eine größere Brücke errichtet. 2. Dort hat man die alte Brücke entfernt. 3. Dort hat man einen besseren Plan entwickelt. 4. Dort hat man den neuen Plan verwirklicht. 5. Dort hat man schon mit den Arbeiten begonnen. 6. Dort hat man den Verkehr über die neue Brücke geführt. Spricht man hier von einer Brucke uber den Rhein CR) oder von der großen Brucke bei Nanjing(N)? 1. Die Arbeiten an der Brücke dauerten vier Jahre, 2. Die gesamte Konstruktion hat eine Länge von einigen Kilometern. 3. Der Autoverkehr läuft über den Eisenbähnlinien. 4. Eine Unterbrechung des Verkehrs war hier völlig un-"
   },
   {
    "id": "ocr45-art-cb138a426c",
@@ -1687,20 +1603,6 @@ window.WORTKARTE_OCR_CONTENT_9750 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Leider ist nicht die Erde reich an diesem Element, sondern die Luft. Zu 78% besteht sie aus gasformigem Stickstoff (N,). Dies ist zwar millionenmal mehr, als die Pflanzen benötigen. Dennoch “verhungern” viele Pflanzen wegen Stickstoffmangels, denn sie sind nicht in der Lage, dieses Element aus der Luft aufzunehmen. Nur der Stickstoff, der mit anderen Elementen chemisch verbunden ist, mit Sauerstoff (O) oder Wasserstoff (H) zum Beispiel, eignet sich als Nahrung fur Pflanzen und somit auch für Tiere und Menschen:"
-  },
-  {
-   "id": "ocr45-art-acdba11f4f",
-   "titleDe": "4. (sich) beschleunigen",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "德语 第2册 修订版_（德）（E.策特尔）E.Zettl等编著_上海：上海交通大学出版社.pdf · batch8271",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "4. (sich) beschleunigen Die Reaktion —__, wenn wir die Stoffe erhitzen. Durch Erhitzung konnen wir die Reaktion 5. (sich) vermehren Die Erdbevolkerung sehr schnell. Können wir auch die Nahrungsmittel so schnell _? 6. (sich entwickeln Die chemische Industrie hat wichtige mineralische Düngemittel Nicht nur die Industrie sondern auch die Landwirtschaft muß ___» damit die Bevölkerung genügend"
   },
   {
    "id": "ocr45-art-7b53428d41",

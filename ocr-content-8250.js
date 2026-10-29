@@ -1,4 +1,4 @@
-/* OCR 2201+ extracted content (auto-generated). */
+/* sanitized OCR content */
 window.WORTKARTE_OCR_CONTENT_8250 = {
  "generatedAt": "2026-10-26",
  "sourceBatches": "6751-8250",
@@ -4007,20 +4007,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
  ],
  "articles": [
   {
-   "id": "ocr45-art-8ee0a9421c",
-   "titleDe": "→ Er beeilt sich. / Er entschuldigt sich.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6751",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "→ Er beeilt sich. / Er entschuldigt sich. a) Li Hong möchte einen Deutschkurs besuchen. b) Die Arbeiter haben heute frei. c) Ihr habt heute eure Hausaufgaben vergessen. d) Monika möchte Karin treffen. e) Sie sitzen im Café. f) Die Kinder bekommen Schokolade. g) Wang Dali hat noch keine Kamera. h) Eva und Adam möchten heiraten. i) Franz ist arbeitslos. j) Susanne hat heute Geburtstag, aber sie hat noch keine Geschenke bekommen. k) Wir suchen einen freien Tisch im Restaurant. Am Fenster ist noch Platz. l) Das Buch gefällt mir, aber leider habe ich kein Geld dabei. Ergänzen Sie bitte die Sätze!"
-  },
-  {
    "id": "ocr45-art-c948d8ce52",
    "titleDe": "helfen jm. bei etw.",
    "titleZh": "",
@@ -4063,34 +4049,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    "contentDe": "Eva bedankt sich bei Adam für die Blumen. Die Männer interessieren sich sehr für Fußball. Er entschuldigt sich bei ihr für seine Verspätung. Im Unterricht diskutieren die Studenten über Deutschland. Er erzählt viel über die Reise durch Deutschland. Wir freuen uns über deinen langen Brief. Man kann sich beim DAAD über das Stipendium informieren. Er spricht gern über sein Leben an der Universität. Wang Dali unterhält sich mit Sabine über seine erste Reise nach Deutschland. sich kümmern um etw./jn. bitten jn. um etw. es geht um etw. Die Mutter kümmert sich um ihr Kind. Sie bittet mich um Hilfe. Es geht in dem Text um die Wegbeschreibung. Verben mit Akkusativpräpositionen"
   },
   {
-   "id": "ocr45-art-e141b4d0e2",
-   "titleDe": "c) Darf ich Sie",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6751",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "c) Darf ich Sie Kaffee einladen? d) Im Unterricht antwortet die Lehrerin viele Fragen. e) Auf der Party unterhielten sie sich ihren Urlaub in Afrika. f) Martin interessiert sich klassische Musik. g) \u0007Die alte Dame bedankte sich ihren Kindern die Weihnachtsgeschenke. h) Wir freuen uns ihren Besuch in der nächsten Woche. i) \u0007Ich kann leider heute nicht ins Kino gehen, denn ich muss mich die Prüfung vorbereiten."
-  },
-  {
-   "id": "ocr45-art-0ab117ced6",
-   "titleDe": "+ Ja, er wartet auf ihn.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6751",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "+ Ja, er wartet auf ihn. a) Heute wollen wir über Deutschland sprechen. b) Der Vater kümmert sich um seinen Sohn. c) Peter spricht von seinem Urlaub in Italien. d) Inge verabschiedete sich von Gisela. e) Zhu Xingen wartet am Bahnhof auf seine Mutter. f) Herr Kelle hat seine Kollegen zum Kaffee eingeladen. g) \u0007Wir bedanken uns bei Frau Schumann für das schöne Abendessen."
-  },
-  {
    "id": "ocr45-art-55d7dab432",
    "titleDe": "Auskunft Lektion 15",
    "titleZh": "",
@@ -4119,34 +4077,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    "contentDe": "einer Partner-Tageskarte können zwei Erwachsene und drei weitere Personen unter 18 Jahren sowie ein Hund fahren. Einzelfahrkarten und Tageskarten müssen Sie entwerten. Sonst sind sie nicht gültig! (Auch das kostet 60 Euro Strafe!) Streifenkarten können Sie über unbegrenzte Zeit mehrmals benutzen. Bei jeder Fahrt entwerten Sie einen bis acht Streifen, je nach der Entfernung. D. h. für eine weitere Fahrt müssen Sie mehr Streifen entwerten, für eine kürzere Fahrt weniger. Mit der Streifenkarte ist die Fahrt billiger als mit einer Einzelfahrkarte. Bei Fahrten mit dem Bus und der Straßenbahn können Sie Ihre Fahrkarte im Bus bzw. in der Straßenbahn entwerten, bei Fahrten mit der U- und S-Bahn müssen Sie die Karten vor dem Einsteigen entwerten. In den U- und S-Bahnen gibt es keine Entwerter. Wochen- und Monatskarten müssen Sie beantragen. Sie füllen ein Formular aus und geben zwei Passfotos ab. Sie bekommen eine Karte mit Ihrem Namen, Ihrer Adresse und einem Foto und müssen dann jede Woche bzw. jeden Monat am Kiosk eine neue Marke kaufen. Für Schüler und Studenten gibt es verbilligte Wochen- und Monatskarten. a) Bei welchen Verkehrsmitteln müssen Sie die Fahrkarte vor der Fahrt kaufen und entwerten?"
   },
   {
-   "id": "ocr45-art-81358cc950",
-   "titleDe": "新求精德语A2",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6751",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Beispiele: \u0007Herr Müller muss jeden Morgen früh aufstehen und mit der U-Bahn zur Arbeit fahren, denn er wohnt in der Bismarckstraße. Aber er arbeitet am Görlitzer- Bahnhof. Er kann die U7 nehmen, oder er kann auch mit der U1 dorthin fahren. Heute fährt er aber nicht mit der U-Bahn, sondern er nimmt ein Taxi, denn es ist schon zu spät für ihn. a) \u0007Sie fahren zu einem Fußballspiel nach München. Sie müssen mit der U-Bahn vom Hauptbahnhof zum Fußballstadion und dann vom Fußballstadion wieder zum Hauptbahnhof fahren. Was für eine Fahrtkarte kaufen Sie?"
-  },
-  {
-   "id": "ocr45-art-d43c4a7bd7",
-   "titleDe": "a) Ich kann mit dem Bus 123 fahren. Ich kann den Bus 55 nehm",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6751",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "a) Ich kann mit dem Bus 123 fahren. Ich kann den Bus 55 nehmen. b) Kaufen Sie die Fahrkarte vor der Fahrt! Eine Fahrt ohne Fahrkarte kostet 60 Euro Strafe! c) \u0007Mit allen Karten können Sie von der S-Bahn in den Bus umsteigen. Sie können von der Straßenbahn in die U-Bahn umsteigen. d) Der Vater ruft den Jungen an. Er kommt nicht. Sein Fahrrad ist kaputt. e) \u0007Sie studiert in München. Sie fährt jeden Tag mit der U-Bahn vom Studentenwohnheim zur Universität. f) Herr Li war gestern Nachmittag nicht bei mir zu Haus. Wir waren zusammen im Kino."
-  },
-  {
    "id": "ocr45-art-59b5b2d53d",
    "titleDe": "Ich wollte ihm ein Buch über China schenken,",
    "titleZh": "",
@@ -4159,62 +4089,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Ich wollte ihm ein Buch über China schenken, er interessiert sich sehr für China. der Buchladen war leider schon zu. Das Kaufhaus nebenan war noch auf. So ging ich ins Kaufhaus wollte dort ein Geschenk kaufen. Am Eingang waren Lebensmittel. Ich dachte: Soll ich ihm etwas Obst zum Geburtstag bringen? das schenken die Deutschen nicht. soll ich ihm Schokolade kaufen? das schenken die Deutschen auch nicht. Ich ging einfach weiter. Im Kaufhaus gab es keine Bücher. Ich kam an der Kleiderabteilung vorbei"
-  },
-  {
-   "id": "ocr45-art-6fcaa358f6",
-   "titleDe": "新求精德语A2",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6751",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "da hatte ich eine andere Idee: Ich schenke ihm ein Hemd. Das Problem war: Welche Farbe gefällt ihm? Kaufe ich ihm ein weißes, gefällt ihm ein graues? Soll ich ein dünnes nehmen, braucht er ein dickes? Niemand konnte mir helfen. Ich musste selbst entscheiden. Schließlich nahm ich ein dickes graues Hemd fuhr erleichtert nach Hause. a) Weder fahre ich mit dem Bus, noch gehe ich zu Fuß. b) * Können Sie mich am Wochenende besuchen?"
-  },
-  {
-   "id": "ocr45-art-a526120482",
-   "titleDe": "d) Die Kamera ist viel zu teuer. Die Qualität ist schlecht.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6752",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "d) Die Kamera ist viel zu teuer. Die Qualität ist schlecht. e) Der Vater schreibt der Mutter nicht, und er ruft sie auch nicht an. f) Das Bild ist schlecht. Der Maler will es aber teuer verkaufen. g) Er kann Kaffee oder Tee haben. h) Frau Zhang ist die älteste in unserer Klasse. Sie lernt Deutsch am besten. i) \u0007In den Ferien fährt Hans zu seiner Freundin nach Mainz, oder seine Freundin kommt zwei Wochen zu ihm nach Darmstadt. j) Am Wochenende geht er zu einer Party, oder er gibt selber eine Party. In der U-Bahn"
-  },
-  {
-   "id": "ocr45-art-982a2359e5",
-   "titleDe": "Fragen Sie bitte einen Fußgänger.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6752",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Fragen Sie bitte einen Fußgänger. b) \u0007Sie stehen in der Mitte in einem Bus und möchten an der nächsten Station aussteigen. Was sagen Sie zu dem Mann vor Ihnen? c) Sie möchten zum Hauptbahnhof fahren. Fragen Sie bitte den Busfahrer. d) Jemand fragt Sie nach dem Weg. Sie sind aber auch fremd in der Stadt. Was sagen Sie? e) \u0007Es ist schon sehr spät und es fährt kein Bus mehr. Sie stehen auf der Straße. Da kommt zum Glück Ihr Mitstudent in einem alten Auto vorbei und hält an. Was sagen Sie zu ihm? f) \u0007Es ist schon sehr spät und es fährt kein Bus mehr. Sie fahren mit einem Taxi nach Hause. Da sehen Sie eine junge Dame auf der Straße, sie wartet noch auf den Bus. Was sagen Sie zu"
-  },
-  {
-   "id": "ocr45-art-fa7d3ce641",
-   "titleDe": "新求精德语A2",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6752",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "— dass-Satz (bei Aussagesatz) a) Er sagt: ”Viele Jungen und Mädchen spielen heute Volleyball.“ → Er sagt, dass viele Jungen und Mädchen heute Volleyball spielen. b) Er spielt sehr gut Fußball. Es ist bekannt. → Es ist bekannt, dass er sehr gut Fußball spielt. c) Ich bin der Meinung, dass Dortmund am besten spielt. a) Sie fragt: ”Schwimmt Frau Li täglich?“ → Sie fragt, ob Frau Li täglich schwimmt. b) Hat er einen Ball zum Geburtstag bekommen? Ich weiß es nicht. → Ich weiß ▌nicht, ob er einen Ball zum Geburtstag bekommen hat. c) Ich habe keine Ahnung, ob Dortmund gestern gegen München gewonnen hat."
   },
   {
    "id": "ocr45-art-989ba0edab",
@@ -4257,20 +4131,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Die Kinder gehen am Sonntag schwimmen. Die Eltern wissen es. Mein Bruder macht nächste Woche eine Dienstreise nach Shanghai. Meine Mutter hat es geschrieben. Treibt er täglich Sport? Der Arzt möchte es wissen. Seine Frau empfiehlt den Gästen immer das „Hotel Europa“. Der Mann weiß es. Will sie bei uns übernachten? Ich frage sie. Gefällt es ihr in Köln? Ich habe keine Ahnung. Will sie mit uns zusammen einen Spaziergang machen? Ich weiß es auch nicht. Die Wettkämpfe finden am 5. Mai statt. Ich habe es gehört. Besichtigen wir morgen die Ausstellung? Es ist nicht sicher. Er hat eine Eintrittskarte für ein Fußballspiel bekommen. Es ist schön. Die chinesische Tischtennis-Nationalmannschaft ist Weltmeister. Es ist allen bekannt. Ich kann nicht mit meiner Tochter nach Nanjing fahren. Es ist schade. Die chinesischen Schwimmerinnen sind die besten Schwimmerinnen auf der Welt. Jeder Chinese weiß es. Das Kind trägt einen so schweren Koffer. Es ist unmöglich. Ist der Lehrer mit unserem Vorschlag einverstanden? Es ist nicht sicher. Hamburg ist eine wichtige Handelsstadt. Es ist bekannt. Alle Lehrer und Studenten an der Universität haben zum Nationalfeiertag sieben Tage frei. Es ist schön. Das Mädchen kocht das Essen für die ganze Familie. Es ist unglaublich. Bilden Sie bitte Sätze mit ob oder dass!"
-  },
-  {
-   "id": "ocr45-art-34f4b590c1",
-   "titleDe": "新求精德语A2",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6752",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Sport ist in Deutschland eine sehr beliebte Freizeitbeschäftigung. Es gibt mehr als 90 000 Vereine, die über 27 Mio. Mitglieder haben. Die meisten Mitglieder hat der Deutsche Fußball-Bund (DFB) mit 7 Mio. Mitgliedern. Fußball ist die beliebteste Sportart in Deutschland. Von der Bundesliga bis zu den kleinsten Vereinen — überall spielen Männer und auch Frauen Fußball. Durch die Erfolge von Steffi Graf und Boris Becker ist Tennis immer populärer geworden. Viele Jungen und Mädchen spielen heute Tennis. Wir wissen nicht, ob sie Tennis aus Spaß spielen, oder ob sie vielleicht reich und berühmt werden wollen. Andere beliebte Sportarten sind Leichtathletik, Volleyball, Handball und Tischtennis. Seit einigen Jahren treiben viele junge Menschen Sportarten, die aus den USA kommen, z. B. Windsurfen und Downhilling. Das Gemeinsame dieser Sportarten ist die Gefahr. Viele junge Menschen treiben diesen Sport wegen der Gefahr und der Spannung. Aus drei Gründen treiben die meisten Leute Sport: a) \u0007Sport ist gesund. Die körperliche Bewegung ist eine nötige Abwechslung in einer technisierten Welt. b) \u0007Sport ist auch eine soziale Aktivität, d.h. viele Menschen finden über den Sport Kontakt zu anderen Menschen. c) \u0007Für viele junge Menschen macht Sport Spaß und bietet"
   },
   {
    "id": "ocr45-art-e62012f0f2",
@@ -4497,20 +4357,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    "contentDe": "er nicht schwimmen kann, hat er ein Mädchen aus dem See gerettet. Es ist Sommer. trägt er einen Wintermantel. die Arbeit schwer ist, muss ich sie heute noch schaffen. Der Wagen kann noch 80 km/h fahren, der Motor sehr alt ist. Ich bin nicht müde. gehe ich früher ins Bett. Er ist zehn Minuten später gestorben, der Arzt ihn sofort operierte. Der Lehrer hat es ihm mehrmals erklärt. hat er es nicht verstanden. Er ist Deutscher. spricht er nicht richtig Deutsch. es schon sehr spät war, konnte er noch nicht einschlafen. Ich habe die Hausaufgaben fertig gemacht, sie schwer waren. Ich ging sehr schnell. kam ich zu spät. Hans redet über die Emanzipation, er keine Ahnung davon hat. Das Wetter war sehr schön. nahm er einen Regenschirm mit. Ich habe noch genug Zeit. möchte ich ein Taxi nehmen. Er lädt seine Freunde in ein teures Restaurant ein, er kein Geld hat."
   },
   {
-   "id": "ocr45-art-383daf4ae6",
-   "titleDe": "Aufgaben zum Text",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6753",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Aufgaben zum Text a) Für welche Produkt-Bereiche werben Frauen? b) Welchen Frauen-Typ zeigen die verschiedenen Produkt-Bereiche? In der Werbung für Kosmetika sind die Frauen jung und schön. Sie sind jung und schön, weil sie ihr Gesicht mit einer bestimmten Creme pflegen, ihr Haar mit einem bestimmten Shampoo waschen und einen bestimmten Lippenstift benutzen. Die Frauen in der Kosmetika-Werbung haben keinen bestimmten Beruf. Ihr Ziel im Leben: Sie wollen jung und schön bleiben."
-  },
-  {
    "id": "ocr45-art-9446729038",
    "titleDe": "In der Werbung für Genussmittel finden wir",
    "titleZh": "",
@@ -4523,20 +4369,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "In der Werbung für Genussmittel finden wir attraktive, emanzipierte Frauen. Die Frauen in der Zigarettenwerbung rauchen, weil sie viel arbeiten und das Leben trotzdem genießen wollen. Ebenso die Frauen in der Alkoholwerbung. Auch sie wollen sich entspannen und Freude am Leben haben. Diese Frauen sind selbstständig und zugleich attraktiv, sie gefallen den Männern. Der Jede Produktart braucht einen bestimmten Frauen-Typ — Sie sind entweder nur Karrierefrauen, oder nur emanzipiert und attraktiv, nur jung und schön oder nur perfekte Hausfrauen. Diese Frauen aus der Werbung findet man in der Realität aber"
-  },
-  {
-   "id": "ocr45-art-610eefd29c",
-   "titleDe": "a) Die Frau bleibt zu Hause und kümmert sich um den Haushalt",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6753",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "a) Die Frau bleibt zu Hause und kümmert sich um den Haushalt. b) Die Frau arbeitet und ist in ihrem Beruf erfolgreich. c) Das Produkt benutzt man für Schönheit, wie Creme oder Lippenstift. d) Das Produkt benutzt man zu Hause für Putzen oder Kochen. Finden Sie bitte im Text die Wörter, die zu den folgenden Definitionen passen!"
   },
   {
    "id": "ocr45-art-2b9a84f015",
@@ -4693,20 +4525,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    "contentDe": "Auch die Gesellschaft ist verantwortlich, weil Jugendliche die Zukunft jeder Gesellschaft sind, d.h. eine Gesellschaft ist so gut oder so schlecht wie ihre junge Generation ausgebildet ist. Besonders Kindergärten und Schulen tragen hier eine Verantwortung. Sie müssen nicht nur Wissen vermitteln, sondern auch Fähigkeiten ausbilden, wie z. B. soziales Verhalten . Natürlich kann die Ausbildung in der Schule nur erfolgreich sein, wenn die Eltern mitarbeiten. Und die Gesellschaft muss den Eltern die Chance geben mitzuarbeiten, d. h. die Gesellschaft muss Arbeitsplätze schaffen, die den Eltern einerseits eine Berufstätigkeit und andererseits"
   },
   {
-   "id": "ocr45-art-8b561b4548",
-   "titleDe": "a) Woher kommt das berühmte Porzellan?",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6754",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "a) Woher kommt das berühmte Porzellan? b) Welche Sehenswürdigkeiten in Beijing kennen Sie? c) Wie lang ist die Große Mauer? d) Woher kommt die beste Seide? e) Was können Sie einem deutschen Freund noch zeigen? a) das Tai Chi b) die Peking-Oper die Peking-Oper der Platz des die Große Mauer chinesische"
-  },
-  {
    "id": "ocr45-art-9cf4bfef0b",
    "titleDe": "新求精德语A2",
    "titleZh": "",
@@ -4719,20 +4537,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Lieber Markus, seit zweieinhalb Wochen reise ich durch China. Ich fing in Beijing an. Dort habe ich so ziemlich alles gesehen, was man sehen muss: den Kaiserpalast und den Platz des Himmlischen Friedens ( samt Mao-Mausoleum) , den Lamatempel und den Himmelstempel, den alten und den neuen Sommerpalast, die Minggräber und die Große Mauer. Vom Kaiserpalast war ich total begeistert. (Die Verkaufsbuden vor dem Eingang finde ich allerdings scheußlich. Was haben Wollpullover und Stofftiere mit dem Kaiser von China zu tun!?) An der Großen Mauer war ich zweimal. Das erste"
-  },
-  {
-   "id": "ocr45-art-8e3ba6b467",
-   "titleDe": "f ) Mein Computer ist abgestürzt, und ich habe wichtge Datei",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6754",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "f ) Mein Computer ist abgestürzt, und ich habe wichtge Dateien verloren. g) \u0007es ist schon halb neun abends, aber ich muss dir von meinem Tag erzählen. Es war wirklich ein stressiger Tag! h) Viele Grüße i) Der Morgen begann schon schlecht, weil ich verschlafen habe. j) \u0007Aber jetzt ist der Tag vorbei, und ich freue mich auf ein ruhiges Abendessen. k) In der Arbeit war es nicht besser. Im Folgenden finden Sie eine E-Mail. Versuchen Sie bitte, die Sätze in die richtige Reihenfolge zu bringen!"
   },
   {
    "id": "ocr45-art-885dcfa5f3",
@@ -4833,20 +4637,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    "contentDe": "Ihr deutscher Freund möchte Ihre Heimatstadt besuchen. Sagen Sie ihm, was er unbedingt besichtigen muss. Ihre deutsche Lehrerin hat vor, im Winter nach Beijing zu reisen. Sie finden ihren Plan nicht gut. Was sagen Sie? Ihr Freund möchte eine Reise nach Xi,an machen, aber er weiß nicht genau, wie lange er dort bleiben soll. Beraten Sie ihn. Ihr Kollege möchte in den Ferien nach Tibet reisen. Sie möchten gern mit ihm zusammen diese Reise machen. Was sagen Sie zu ihm? Zusammenfassende Übungen"
   },
   {
-   "id": "ocr45-art-0479361867",
-   "titleDe": "b) \u0007Der Kaiserpalast,",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6754",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "b) \u0007Der Kaiserpalast, viele chinesische Kaiser lebten, ist sehr sehenswert. c) \u0007Die Stadt Xi’an, wir die Tonarmee des Ersten Kaisers sehen können, liegt in der Provinz Shaanxi. d) \u0007Der „Duoyun-Xuan“ Laden, man typisch Chinesisches kaufen kann, ist in der Nanjing-Straße. e) \u0007Die Peking-Oper, sich die chinesischen jungen Leute nicht sehr interessieren, interessiert die Ausländer sehr. Die Masken, die Schauspieler auf die Bühne treten, sind für die ausländischen Touristen schön. Die Kostüme, die Touristen sehr bewundern, sind auch sehr besonders. Und die Bedeutung der Gegenstände,"
-  },
-  {
    "id": "ocr45-art-9733c4c16b",
    "titleDe": "Welche Deutschen kennen Sie und was wissen Sie über sie?",
    "titleZh": "",
@@ -4859,34 +4649,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Welche Deutschen kennen Sie und was wissen Sie über sie? Welche Städte Deutschlands sind Ihnen bekannt und was wissen Sie über sie? Welches Bundesland ist Ihnen bekannt und was wissen Sie darüber? Was wissen Sie noch über Deutschland? Wortschatz I das Land, das Bundesland, das Ausland, das Inland Herr Meier ist Deutscher. Deutschland ist sein Heimatland. Er kommt aus Bayern, einem Bundesland im Süden. Österreich und die Schweiz sind für ihn Ausland. Herr Meier lebt nicht auf dem Land, sondern in der Stadt. Seinen Urlaub macht er gern im Inland, nämlich in Deutschland."
-  },
-  {
-   "id": "ocr45-art-039ea6f535",
-   "titleDe": "新求精德语A2",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6755",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Grammatik II Temporalsatz Sie wurde 4 Jahre alt. Da bekam sie viele Geschenke. → Als sie 4 Jahre alt wurde, bekam sie viele Geschenke. Ich kam nach Rom. Die Sonne schien immer. → Jedes Mal (Immer) wenn ich nach Rom kam, schien die Sonne. Der deutsche Student hat Ferien. Er geht immer arbeiten. → Jedes Mal (Immer) wenn der deutsche Student Ferien hat, geht er arbeiten."
-  },
-  {
-   "id": "ocr45-art-6c78605550",
-   "titleDe": "Er geht zu seiner Freundin. Vorher ruft er sie an.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6755",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Er geht zu seiner Freundin. Vorher ruft er sie an. → Bevor er zu seiner Freundin geht, ruft er sie an. Ich bin in die neue Wohnung eingezogen. Vorher habe ich sie gestrichen. → Bevor ich in die neue Wohnung eingezogen bin, habe ich sie gestrichen. Ich schreibe eine Postkarte. Danach bringe ich sie zur Post. → Nachdem ich eine Postkarte geschrieben habe, bringe ich sie zur Post. Er kam in Deutschland an. Danach besuchte er seinen Professor. → Nachdem er in Deutschland angekommen war, besuchte er seinen Professor."
   },
   {
    "id": "ocr45-art-3875982c63",
@@ -4917,20 +4679,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    "contentDe": "Aufgaben zum Text Was ist das Besondere der deutschen Geschichte vor 1871? „Deutschland“, als einen Staat mit einer Regierung, gibt es seit 1871. Bis dahin gab es viele deutsche Staaten mit vielen Regierungen. Allerdings gab es schon früh enge Beziehungen zwischen diesen Staaten. Seit dem 10. Jahrhundert schlossen sie sich zu mehr oder weniger festen Bündnissen zusammen. Das heißt, bis 1871 ist die „deutsche Geschichte“ eine Geschichte von vielen Einzelstaaten, die durch Bündnisse miteinander verbunden waren. Die Geschichte dieser Bündnisse begann im 10. Jahrhundert mit dem „Römischen Reich“ und ging über das „Heilige Romische Reich Deutscher Nation“ (15. Jhdt. bis 1806) bis zum „Deutschen Bund“(1818 bis 1866)."
   },
   {
-   "id": "ocr45-art-7a177dcf41",
-   "titleDe": "新求精德语A2",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6755",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "b) \u0007Jemand meint, dass die Deutschen nicht gut Tischtennis spielen können. Sie sind völlig anderer Meinung. Begründen Sie das. c) \u0007Jemand behauptet, dass Bayern München das Spiel gegen den FC Köln verlieren wird. Sie haben aber eine ganz andere Meinung. d) \u0007Ein Bekannter fragt Sie, wie man Deutsch gut lernen kann. Geben Sie ihm einen Tipp. e) \u0007Ein Freund wird bald zum Studium nach Deutschland fahren. Sagen Sie ihm, was er mitnehmen sollte. Ordnen Sie bitte die rechten Sätze den linken Sätzen zu! Danach bilden Sie Temporalsätze."
-  },
-  {
    "id": "ocr45-art-749d6dd182",
    "titleDe": "Sein älterer Bruder war 3 Jahre alt.",
    "titleZh": "",
@@ -4957,20 +4705,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Wenn Sie fleißiger lernen, können Sie besser Deutsch sprechen. Je fleißiger Sie lernen, umso (desto) besser können Sie Deutsch sprechen. (Nebensatz) (Hauptsatz) Wenn man mehr Möbel kauft, muss man mehr Platz haben. Je mehr Möbel man kauft, umso (desto) mehr Platz muss man haben. (Nebensatz) (Hauptsatz)"
-  },
-  {
-   "id": "ocr45-art-8b435841e9",
-   "titleDe": "Vielen jungen Chinesen gefällt die Peking-Oper nicht.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6755",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Vielen jungen Chinesen gefällt die Peking-Oper nicht. Immer weniger Leute gehen in die Peking-Oper. → Vielen jungen Chinesen gefällt die Peking-Oper nicht, so dass immer weniger Leute in die Peking-Oper gehen. Er hat einen dicken Bauch. Er kann seine Füße nicht mehr sehen. → Er hat einen so dicken Bauch, dass er seine Füße nicht mehr sehen kann."
   },
   {
    "id": "ocr45-art-945d2f16b1",
@@ -5127,34 +4861,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    "contentDe": "Sie können die folgenden Sätze zur Hilfe nehmen. Redemittel: Was fehlt Ihnen? Welche Beschwerden haben Sie? Wo haben Sie Schmerzen? / Wo tut es Ihnen weh? / Tut Ihnen das weh? Machen Sie bitte den Mund auf und sagen Sie „aaa“! Machen Sie den Oberkörper frei! / Machen Sie sich bitte frei! / Ziehen Sie sich bitte aus! Legen Sie sich bitte aufs Bett! Sie sind erkältet. / Sie haben eine Lungenentzündung. Ich verschreibe Ihnen ein Rezept. Nehmen Sie von den Tabletten dreimal täglich eine! Ich schreibe Sie 2 Tage krank. Was fehlt Ihnen? Ich habe Halsschmerzen, Husten und Schnupfen. Beim Atmen tut mir alles weh. Machen Sie bitte den Mund auf und sagen Sie „aaa“!"
   },
   {
-   "id": "ocr45-art-087ea2f59e",
-   "titleDe": "c) Man hilft dem Kind (D.).",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6757",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "c) Man hilft dem Kind (D.). →Dem Kind (D.) wird geholfen. Frau Schmidt (N.) hilft dem Kind (D.). →Dem Kind (D.) wird (von Frau Schmidt <D.> ) geholfen. Man massiert den Mann (A.). →Der Mann (N.) wird massiert. Frau Schön (N.) massiert den Mann (A.). →Der Mann (N.) wird (von Frau Schön <D.> ) massiert. Er (N.) schneidet mir (D.) oft die Haare (A.). →Mir (D.) werden oft die Haare (N.) (von ihm <D.> ) geschnitten."
-  },
-  {
-   "id": "ocr45-art-7784f0fcd6",
-   "titleDe": "Der Arzt operiert Herrn Zhang.",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6757",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "Der Arzt operiert Herrn Zhang. →Herr Zhang wird (vom Arzt) operiert. (Präsens: werden + P.II) Der Arzt operierte Herrn Zhang. →Herr Zhang wurde (vom Arzt) operiert. (Präteritum: wurde . . . + P.II) Der Arzt hat Herrn Zhang operiert. →Herr Zhang ist (vom Arzt) operiert worden. (Perfekt: sein + P.II + worden) Nachdem der Arzt Herrn Zhang operiert hatte, wurde er wieder gesund. →Nachdem Herr Zhang (vom Arzt) operiert worden war, wurde er wieder gesund. (Plusquamperfekt: war . . . + P.II + worden)"
-  },
-  {
    "id": "ocr45-art-5e1c0a0c66",
    "titleDe": "Warum antwortest du nicht? (fragen)",
    "titleZh": "",
@@ -5279,20 +4985,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Mit einer Kreditkarte (in Deutschland vor allem Eurocard und Mastercard) kann man weltweit in Hotels, Restaurants und Geschäften, die diese Karte akzeptieren, bargeldlos bezahlen. Der Karteninhaber erhält einmal im Monat eine Abrechnung über seine Ausgaben mit der Kreditkarte. Dieser Betrag wird dann von seinem Girokonto abgebucht. Die Kreditkarte muss bei der Bank, bei der man sein Girokonto hat, beantragt werden. Sie kostet Gebühren."
-  },
-  {
-   "id": "ocr45-art-ef4bf7737f",
-   "titleDe": "新求精德语A2",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6758",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "a) \u0007Auf der Bank möchten Sie ein Konto eröffnen. Vor Ihnen stehen noch sechs Leute. Sie haben es aber eilig, denn in einer Stunde haben Sie noch einen wichtigen Termin. Was sagen Sie zu den anderen Leuten vor Ihnen? b) \u0007Auf der Bank stehen Sie Schlange und möchten ein Konto eröffnen. Da kommt eine hübsche junge Dame und steht plötzlich vor Ihnen. Was sagen Sie zu ihr? c) \u0007Auf der Bank möchten Sie ein Konto eröffnen und müssen ein Formular ausfüllen. Aber Sie können nicht alles verstehen. Bitten Sie eine Bankangestellte um Hilfe! d) \u0007Am Geldautomaten möchten Sie Geld abheben, können aber den Automaten nicht benutzen. Bitten Sie eine Person in der Nähe um Hilfe! e) \u0007Sie haben die EC-Karte in den Automaten gesteckt und möchten Geld abheben. Da stellen Sie fest, dass der Automat defekt ist. Was sagen Sie zu der Bankangestellten?"
   },
   {
    "id": "ocr45-art-f3060a625a",
@@ -5447,34 +5139,6 @@ window.WORTKARTE_OCR_CONTENT_8250 = {
    ],
    "summaryZh": "从 OCR 文本中提取的德语段落。",
    "contentDe": "Er möchte eine Weltreise machen. Den habe ich auch. Die Eltern hofften, dass ihr Sohn studiert. Aber der Sohn hat nach der Schule einen Beruf gelernt und damit die seiner Eltern zerstört. Jedes Kind hat zu Weihnachten viele . Ich wollte eigentlich Astronaut werden. Ich konnte den Wunsch nicht , denn meine Gesundheit erlaubte es nicht. Die Kinder gern von ihren Träumen. Ich habe einen schönen Traum . Das Kind will Maler werden. Seine Eltern helfen ihm, dass dieser Wunsch , und sie schicken es auf eine Kunstschule."
-  },
-  {
-   "id": "ocr45-art-b96e0cfec1",
-   "titleDe": "a) Geben Sie mir Ihre Adresse!",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6759",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "a) Geben Sie mir Ihre Adresse! b) Machen Sie bitte die Tür zu! c) Haben Sie Zeit, mir das Märchen vorzulesen? d) Darf ich hereinkommen? e) Wie spät ist es? → Würden/Könnten Sie mir Ihre Adresse geben? → Würden/Könnten Sie bitte die Tür zumachen? → Hätten Sie Zeit, mir das Märchen vorzulesen? → Dürfte ich hereinkommen? Aber: bei Fragen mit Fragewort → Könnten Sie mir sagen, wie spät es ist?"
-  },
-  {
-   "id": "ocr45-art-780604992d",
-   "titleDe": "der Arzt zum Patienten：",
-   "titleZh": "",
-   "levelHint": "B1",
-   "source": "新求精德语A2.pdf · batch6759",
-   "sourceUrl": "",
-   "tags": [
-    "OCR",
-    "阅读"
-   ],
-   "summaryZh": "从 OCR 文本中提取的德语段落。",
-   "contentDe": "der Arzt zum Patienten： sich ins Bett legen / mehr Wasser trinken und Obst essen / sich warm anziehen / schwitzen / nicht rauchen und trinken / kein Fett und keine Schokolade essen alte Leute zu jungen Leuten： früher schlafen und früher aufstehen / fleißig arbeiten / freundlich zu anderen sein / früher eine Familie gründen / sich nicht mit anderen streiten / nicht zu spät nach Hause kommen a) Ich kann nicht fliegen. Ich wünsche mir： b) Ich habe keinen beruflichen Erfolg. Ich wünsche mir： c) Er ist sehr krank. Er wartet auf den Arzt. → Wenn ich doch fliegen könnte! od. Könnte ich doch fliegen! → Wenn ich nur beruflichen Erfolg hätte! od. Hätte ich nur beruflichen Erfolg! → Wenn der Arzt nur/doch käme! od. Käme nur/doch der Arzt!"
   },
   {
    "id": "ocr45-art-79818fa7b1",
