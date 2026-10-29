@@ -139,9 +139,12 @@ const CULTURE_EXTRA = window.WORTKARTE_CULTURE_4500 && Array.isArray(window.WORT
 const CULTURE_8250 = window.WORTKARTE_CULTURE_8250 && Array.isArray(window.WORTKARTE_CULTURE_8250.items)
   ? window.WORTKARTE_CULTURE_8250
   : { items: [] };
+const CULTURE_9750 = window.WORTKARTE_CULTURE_9750 && Array.isArray(window.WORTKARTE_CULTURE_9750.items)
+  ? window.WORTKARTE_CULTURE_9750
+  : { items: [] };
 const CULTURE_DATA = {
   ...CULTURE_BASE,
-  items: [...(CULTURE_BASE.items || []), ...(CULTURE_EXTRA.items || []), ...(CULTURE_8250.items || [])]
+  items: [...(CULTURE_BASE.items || []), ...(CULTURE_EXTRA.items || []), ...(CULTURE_8250.items || []), ...(CULTURE_9750.items || [])]
 };
 const MAP_DATA = window.WORTKARTE_MAP && Array.isArray(window.WORTKARTE_MAP.countries)
   ? window.WORTKARTE_MAP
@@ -915,12 +918,13 @@ const PHRASES = Array.isArray(window.WORTKARTE_PHRASES) ? window.WORTKARTE_PHRAS
 const OCR_CONTENT_BASE = window.WORTKARTE_OCR_CONTENT || { articles: [], phrases: [], words: [], grammar: [] };
 const OCR_CONTENT_EXTRA = window.WORTKARTE_OCR_CONTENT_4500 || { articles: [], phrases: [], words: [], grammar: [] };
 const OCR_CONTENT_8250 = window.WORTKARTE_OCR_CONTENT_8250 || { articles: [], phrases: [], words: [], grammar: [] };
+const OCR_CONTENT_9750 = window.WORTKARTE_OCR_CONTENT_9750 || { articles: [], phrases: [], words: [], grammar: [] };
 const OCR_CONTENT = {
   ...OCR_CONTENT_BASE,
-  words: [...(OCR_CONTENT_BASE.words || []), ...(OCR_CONTENT_EXTRA.words || []), ...(OCR_CONTENT_8250.words || [])],
-  phrases: [...(OCR_CONTENT_BASE.phrases || []), ...(OCR_CONTENT_EXTRA.phrases || []), ...(OCR_CONTENT_8250.phrases || [])],
-  articles: [...(OCR_CONTENT_BASE.articles || []), ...(OCR_CONTENT_EXTRA.articles || []), ...(OCR_CONTENT_8250.articles || [])],
-  grammar: [...(OCR_CONTENT_BASE.grammar || []), ...(OCR_CONTENT_EXTRA.grammar || []), ...(OCR_CONTENT_8250.grammar || [])]
+  words: [...(OCR_CONTENT_BASE.words || []), ...(OCR_CONTENT_EXTRA.words || []), ...(OCR_CONTENT_8250.words || []), ...(OCR_CONTENT_9750.words || [])],
+  phrases: [...(OCR_CONTENT_BASE.phrases || []), ...(OCR_CONTENT_EXTRA.phrases || []), ...(OCR_CONTENT_8250.phrases || []), ...(OCR_CONTENT_9750.phrases || [])],
+  articles: [...(OCR_CONTENT_BASE.articles || []), ...(OCR_CONTENT_EXTRA.articles || []), ...(OCR_CONTENT_8250.articles || []), ...(OCR_CONTENT_9750.articles || [])],
+  grammar: [...(OCR_CONTENT_BASE.grammar || []), ...(OCR_CONTENT_EXTRA.grammar || []), ...(OCR_CONTENT_8250.grammar || []), ...(OCR_CONTENT_9750.grammar || [])]
 };
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GODIC_PACK = window.WORTKARTE_GODIC && window.WORTKARTE_GODIC.entries ? window.WORTKARTE_GODIC : null;
