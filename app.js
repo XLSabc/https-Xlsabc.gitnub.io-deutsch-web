@@ -930,12 +930,31 @@ const OCR_CONTENT = {
   articles: [...(OCR_CONTENT_BASE.articles || []), ...(OCR_CONTENT_EXTRA.articles || []), ...(OCR_CONTENT_8250.articles || []), ...(OCR_CONTENT_9750.articles || []), ...(OCR_CONTENT_11250.articles || [])],
   grammar: [...(OCR_CONTENT_BASE.grammar || []), ...(OCR_CONTENT_EXTRA.grammar || []), ...(OCR_CONTENT_8250.grammar || []), ...(OCR_CONTENT_9750.grammar || []), ...(OCR_CONTENT_11250.grammar || [])]
 };
+function dedupeContent(items, keyFn) {
+  const seen = new Set();
+  return (items || []).filter(item => {
+    let key = "";
+    try { key = keyFn(item); } catch { key = ""; }
+    if (!key) key = String(item && (item.id || item.word || item.de || item.contentDe || item.contentZh) || "");
+    key = key.trim().toLocaleLowerCase("de");
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+OCR_CONTENT.words = dedupeContent(OCR_CONTENT.words, item => item.id || item.word);
+OCR_CONTENT.phrases = dedupeContent(OCR_CONTENT.phrases, item => `${item.de || ""}|${item.zh || ""}`);
+OCR_CONTENT.articles = dedupeContent(OCR_CONTENT.articles, item => item.id || String(item.contentDe || "").slice(0, 180));
+OCR_CONTENT.grammar = dedupeContent(OCR_CONTENT.grammar, item => item.id || item.title);
+CULTURE_DATA.items = dedupeContent(CULTURE_DATA.items, item => item.id || `${item.titleZh || ""}|${item.contentZh || ""}`);
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GODIC_PACK = window.WORTKARTE_GODIC && window.WORTKARTE_GODIC.entries ? window.WORTKARTE_GODIC : null;
 const GODIC_ENTRIES = GODIC_PACK ? GODIC_PACK.entries : {};
 let DEHELPER_PACK = window.WORTKARTE_DEHELPER && window.WORTKARTE_DEHELPER.entries ? window.WORTKARTE_DEHELPER : null;
 let DEHELPER_ENTRIES = DEHELPER_PACK ? DEHELPER_PACK.entries : {};
 const DEHELPER_BY_WORD = new Map();
+const DEHELPER_HEADWORD_KEYS = new Set((window.WORTKARTE_HEADWORDS || []).map(value => String(value).toLowerCase()));
+const HEADWORD_FALLBACK = Array.isArray(window.WORTKARTE_HEADWORD_FALLBACK) ? window.WORTKARTE_HEADWORD_FALLBACK : [];
 let DEHELPER_PHRASES = [];
 
 function rebuildDehelperCaches() {
@@ -1612,11 +1631,9 @@ function loadState() {
     const backedUp = backupLocalState(saved, "corrupt");
     if (backedUp) {
       storageRecoveredFromBackup = true;
-      try {
-        localStorage.removeItem(STORAGE_KEY);
-      } catch {
-        storageRecoveryMode = true;
-      }
+      // Keep the corrupt raw value in place. It is backed up first, and the
+      // main key is only replaced after an explicit user write.
+      storageRecoveryMode = true;
     } else {
       storageRecoveryMode = true;
     }
@@ -1665,6 +1682,7 @@ const libraryFilters = {
   level: "all",
   status: "all",
   pos: "all",
+  article: "all",
   sort: "default"
 };
 let libraryVisibleLimit = 80;
@@ -2122,10 +2140,30 @@ function refreshWordIndex() {
     keptByKey.set(key, word);
     allWordList.push(word);
   }
-  // Add words that exist only in the local Dehelper dictionary.
+  // The local Dehelper pack is a reference dictionary: it enriches existing
+  // vocabulary but must not inflate the learning list with 200k inflected
+  // forms. Local-only words stay available for lookup via godicEntryFor().
+  // Add only the original 11,951 project headwords that are missing from the
+  // base packs. The full 205k dictionary remains a reference source.
+  for (const item of HEADWORD_FALLBACK) {
+    const wordText = String(item.word || "").trim();
+    if (!wordText) continue;
+    const article = item.article || "";
+    const key = `${wordText.toLocaleLowerCase("de")}|${article}`;
+    if (seen.has(key)) continue;
+    const word = {
+      id: `base-${String(item.key || wordText).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")}`,
+      word: wordText, de: wordText, article, plural: "", pos: item.pos || "other",
+      translation: item.translation || "", level: item.level || "A1", topic: "base",
+      source: "原有词库", sourceUrl: "", license: "",
+      example: "", exampleZh: "", forms: ""
+    };
+    normalizeWordRecord(word);
+    seen.add(key); uniqueWordId(word, usedIds); keptByKey.set(key, word); allWordList.push(word);
+  }
   for (const entry of Object.values(DEHELPER_ENTRIES)) {
     const wordText = String(entry.word || "").trim();
-    if (!wordText) continue;
+    if (!wordText || !DEHELPER_HEADWORD_KEYS.has(wordText.toLowerCase())) continue;
     const article = entry.article || "";
     const key = `${wordText.toLocaleLowerCase("de")}|${article}`;
     if (seen.has(key)) continue;
@@ -2133,28 +2171,24 @@ function refreshWordIndex() {
     const pos = /^(n|m|f)\./.test(posText) ? "noun" : /^(vt|vi|v|refl)\./.test(posText) ? "verb" : /^adj\./.test(posText) ? "adj" : /^adv\./.test(posText) ? "adv" : "other";
     const word = {
       id: `dehelper-${wordText.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")}`,
-      word: wordText,
-      de: wordText,
-      article,
-      plural: entry.plural || "",
-      pos,
-      translation: entry.definitions || "",
-      level: "A1",
-      topic: "dehelper",
-      source: entry.source || "Dehelper combined.bin",
-      sourceUrl: "",
-      license: entry.license || "",
-      definitions: entry.definitions || "",
-      example: "",
-      exampleZh: "",
-      forms: ""
+      word: wordText, de: wordText, article, plural: entry.plural || "", pos,
+      translation: entry.definitions || "", level: "A1", topic: "dehelper",
+      source: entry.source || "Dehelper combined.bin", sourceUrl: "",
+      license: entry.license || "", definitions: entry.definitions || "",
+      example: "", exampleZh: "", forms: ""
     };
     normalizeWordRecord(word);
-    seen.add(key);
-    uniqueWordId(word, usedIds);
-    keptByKey.set(key, word);
-    allWordList.push(word);
+    seen.add(key); uniqueWordId(word, usedIds); keptByKey.set(key, word); allWordList.push(word);
   }
+  // Count and display each headword once; local/fallback packs can otherwise
+  // add the same word under a different article key.
+  const seenHeadwords = new Set();
+  allWordList = allWordList.filter(word => {
+    const key = String(word.word || "").trim().toLocaleLowerCase("de");
+    if (!key || seenHeadwords.has(key)) return false;
+    seenHeadwords.add(key);
+    return true;
+  });
   for (const word of allWordList) {
     normalizeWordRecord(word);
     const review = state.reviews[word.id];
@@ -2725,6 +2759,11 @@ function renderChrome() {
   $$("[data-word-count]").forEach(el => {
     el.textContent = wordCount;
   });
+  const newCount = metrics.words.filter(word => !reviewFor(word.id)).length;
+  const newEl = $("#home-new-count");
+  const reviewEl = $("#home-review-count");
+  if (newEl) newEl.textContent = newCount;
+  if (reviewEl) reviewEl.textContent = metrics.dueToday.length;
 }
 
 function renderHomeLevelPicker(activeLevel) {
@@ -5011,7 +5050,7 @@ function levelRecommendation(level) {
 }
 
 function allPhrases() {
-  return [...PHRASES, ...DEHELPER_PHRASES, ...(OCR_CONTENT.phrases || []), ...(state.customPhrases || [])];
+  return dedupeContent([...PHRASES, ...DEHELPER_PHRASES, ...(OCR_CONTENT.phrases || []), ...(state.customPhrases || [])], item => `${item.de || ""}|${item.zh || ""}`);
 }
 
 const PHRASE_DIFFICULTY_ORDER = ["A", "B", "C"];
@@ -5307,7 +5346,7 @@ function shuffleWordRecite() {
 }
 
 function allArticles() {
-  return [...ARTICLES, ...(OCR_CONTENT.articles || []), ...(state.customArticles || [])];
+  return dedupeContent([...ARTICLES, ...(OCR_CONTENT.articles || []), ...(state.customArticles || [])], item => item.id || String(item.contentDe || "").slice(0, 180));
 }
 
 function articleLevelMap() {
@@ -5582,12 +5621,20 @@ function filteredWords() {
       if (libraryFilters.level !== "all" && word.level !== libraryFilters.level) return null;
       if (libraryFilters.status !== "all" && currentStatus(word) !== libraryFilters.status) return null;
       if (libraryFilters.pos !== "all" && (word.finePos || "other") !== libraryFilters.pos) return null;
+      if (libraryFilters.article !== "all" && (word.article || "none") !== libraryFilters.article) return null;
       const score = query ? scoreWordSearch(word, query) : 1;
       if (!score) return null;
       return { word, score };
     })
     .filter(Boolean)
-    .sort((a, b) => query ? b.score - a.score || a.word.word.localeCompare(b.word.word, "de") : 0)
+    .sort((a, b) => {
+      if (query) return b.score - a.score || a.word.word.localeCompare(b.word.word, "de");
+      const levelOrder = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
+      const articleOrder = { der: 1, die: 2, das: 3, none: 4 };
+      return (levelOrder[a.word.level] || 9) - (levelOrder[b.word.level] || 9)
+        || (articleOrder[a.word.article || "none"] || 9) - (articleOrder[b.word.article || "none"] || 9)
+        || a.word.word.localeCompare(b.word.word, "de");
+    })
     .map(item => item.word);
 
   if (libraryFilters.sort === "level") {
@@ -5653,6 +5700,9 @@ function renderLibrary() {
   $$("#level-filter .chip").forEach(chip => {
     chip.classList.toggle("is-active", chip.dataset.level === libraryFilters.level);
   });
+  $$("#article-filter .chip").forEach(chip => {
+    chip.classList.toggle("is-active", chip.dataset.article === libraryFilters.article);
+  });
   const statusFilter = $("#status-filter");
   if (statusFilter) statusFilter.value = libraryFilters.status;
   const posFilter = $("#pos-filter");
@@ -5661,7 +5711,26 @@ function renderLibrary() {
   if (sortFilter) sortFilter.value = libraryFilters.sort;
 
   const allFiltered = filteredWords();
-  const words = allFiltered.slice(0, libraryVisibleLimit);
+  const articleNames = { all: "全部冠词", der: "der 阳性", die: "die 阴性", das: "das 中性", none: "其他" };
+  const articleCounts = { all: allFiltered.length, der: 0, die: 0, das: 0, none: 0 };
+  for (const word of allFiltered) articleCounts[word.article || "none"] += 1;
+  $$("#article-filter .chip").forEach(chip => {
+    const key = chip.dataset.article || "all";
+    chip.textContent = `${articleNames[key] || key} ${articleCounts[key] || 0}`;
+  });
+  const groups = [];
+  const groupIndex = new Map();
+  for (const word of allFiltered) {
+    const key = `${word.level || "?"}|${word.article || "none"}`;
+    let group = groupIndex.get(key);
+    if (!group) {
+      group = { key, level: word.level, article: word.article || "none", words: [] };
+      groupIndex.set(key, group); groups.push(group);
+    }
+    group.words.push(word);
+  }
+  const groupCap = Math.max(4, Math.floor(libraryVisibleLimit / Math.max(1, groups.length)));
+  const words = groups.flatMap(group => group.words.slice(0, groupCap));
   const body = $("#library-body");
   const empty = $("#library-empty");
   $("#library-count").textContent = `显示 ${words.length} / ${allFiltered.length} 个词`;
@@ -5687,13 +5756,19 @@ function renderLibrary() {
   }
   empty.classList.add("hidden");
 
+  let lastGroup = "";
   body.innerHTML = words.map(word => {
     const status = currentStatus(word);
     const statusMeta = STATUS_META[status] || STATUS_META.unmastered;
     const review = reviewFor(word.id);
     const dueText = !review ? "—" : formatDue(review.due);
     const favorite = state.favorites.includes(word.id);
-    return `
+    const groupKey = `${word.level}|${word.article || "none"}`;
+    const groupRow = groupKey !== lastGroup
+      ? `<tr class="word-group-row"><td colspan="7"><span class="word-group-label"><i></i>${esc(word.level)} · ${esc(word.article || "其他")} <small>${(groups.find(g => g.key === groupKey)?.words.length || 0)} 词</small></span></td></tr>`
+      : "";
+    lastGroup = groupKey;
+    return groupRow + `
       <tr data-word-row="${esc(word.id)}">
         <td data-label="单词">
           <span class="word-cell">
@@ -7375,6 +7450,7 @@ function handleAction(action, element) {
       libraryFilters.level = "all";
       libraryFilters.status = "all";
       libraryFilters.pos = "all";
+      libraryFilters.article = "all";
       libraryFilters.sort = "default";
       libraryVisibleLimit = 80;
       renderLibrary();
@@ -7541,6 +7617,14 @@ function bindEvents() {
     const levelChip = event.target.closest("#level-filter [data-level]");
     if (levelChip) {
       libraryFilters.level = levelChip.dataset.level;
+      libraryVisibleLimit = 80;
+      renderLibrary();
+      return;
+    }
+
+    const articleChip = event.target.closest("#article-filter [data-article]");
+    if (articleChip) {
+      libraryFilters.article = articleChip.dataset.article;
       libraryVisibleLimit = 80;
       renderLibrary();
       return;

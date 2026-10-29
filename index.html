@@ -184,6 +184,23 @@
         </div>
       </section>
 
+      <section class="home-split-entries reveal" style="--delay:30ms" aria-label="单词学习入口">
+        <button class="split-entry split-new" type="button" data-action="quick-new">
+          <span class="split-entry-kicker">NEU LERNEN</span>
+          <strong>新学单词</strong>
+          <small>按等级认识还没学过的词</small>
+          <span class="split-entry-count"><b id="home-new-count">0</b> 个新词</span>
+          <span class="split-entry-arrow">开始新学 →</span>
+        </button>
+        <button class="split-entry split-review" type="button" data-action="quick-review">
+          <span class="split-entry-kicker">WIEDERHOLEN</span>
+          <strong>单词复习</strong>
+          <small>只复习今天到期的单词</small>
+          <span class="split-entry-count"><b id="home-review-count">0</b> 个到期</span>
+          <span class="split-entry-arrow">开始复习 →</span>
+        </button>
+      </section>
+
       <div class="hero-grid">
         <section class="hero-card reveal" style="--delay: 40ms">
           <div class="hero-copy">
@@ -822,6 +839,13 @@
           <button class="chip" data-level="C1">C1</button>
           <button class="chip" data-level="C2">C2</button>
         </div>
+        <div class="filter-chips" id="article-filter" role="group" aria-label="按阴阳中性筛选">
+          <button class="chip is-active" data-article="all">全部冠词</button>
+          <button class="chip" data-article="der">der 阳性</button>
+          <button class="chip" data-article="die">die 阴性</button>
+          <button class="chip" data-article="das">das 中性</button>
+          <button class="chip" data-article="none">其他</button>
+        </div>
         <button class="btn btn-cream" id="study-level-start" data-action="study-level">背诵此难度</button>
         <button class="btn btn-ghost" data-action="recite-words">背诵本组</button>
         <div class="library-selects">
@@ -1254,6 +1278,7 @@
   <script src="articles.js"></script>
   <script src="article-translations.js"></script>
   <script src="article-translations-extra.js"></script>
+  <script src="article-translations-ocr.js"></script>
   <script src="article-questions.js"></script>
   <script src="phrases.js"></script>
   <script src="ocr-content.js"></script>
@@ -1265,6 +1290,8 @@
   <script src="godic-pack.js"></script>
     <script src="dehelper-pack-gzip.js"></script>
   <script src="dehelper-boot.js"></script>
+  <script src="headword-keys.js"></script>
+  <script src="headword-fallback.js"></script>
   <script src="review-engine.js"></script>
   <script src="app.js"></script>
   <script id="pwa-register">
