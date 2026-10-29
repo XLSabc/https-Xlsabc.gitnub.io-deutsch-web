@@ -1,5 +1,5 @@
 ﻿/* Wortkarte service worker – app shell cache for mobile/offline use. */
-const CACHE_NAME = "wortkarte-shell-v158";
+const CACHE_NAME = "wortkarte-shell-v159";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -28,6 +28,7 @@ const APP_SHELL = [
   "./festival-data.js",
   "./culture.js",
   "./culture-content-4500.js",
+  "./culture-content-8250.js",
   "./articles.js",
   "./article-translations.js",
   "./article-translations-extra.js",
@@ -35,6 +36,7 @@ const APP_SHELL = [
   "./phrases.js",
   "./ocr-content.js",
   "./ocr-content-4500.js",
+  "./ocr-content-8250.js",
   "./ocr-vocab-words.js",
   "./godic-pack.js",
   "./dehelper-pack-gzip.js",

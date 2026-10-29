@@ -136,9 +136,12 @@ const CULTURE_BASE = window.WORTKARTE_CULTURE && Array.isArray(window.WORTKARTE_
 const CULTURE_EXTRA = window.WORTKARTE_CULTURE_4500 && Array.isArray(window.WORTKARTE_CULTURE_4500.items)
   ? window.WORTKARTE_CULTURE_4500
   : { items: [] };
+const CULTURE_8250 = window.WORTKARTE_CULTURE_8250 && Array.isArray(window.WORTKARTE_CULTURE_8250.items)
+  ? window.WORTKARTE_CULTURE_8250
+  : { items: [] };
 const CULTURE_DATA = {
   ...CULTURE_BASE,
-  items: [...(CULTURE_BASE.items || []), ...(CULTURE_EXTRA.items || [])]
+  items: [...(CULTURE_BASE.items || []), ...(CULTURE_EXTRA.items || []), ...(CULTURE_8250.items || [])]
 };
 const MAP_DATA = window.WORTKARTE_MAP && Array.isArray(window.WORTKARTE_MAP.countries)
   ? window.WORTKARTE_MAP
@@ -911,12 +914,13 @@ const ARTICLE_TRANSLATIONS = window.WORTKARTE_ARTICLE_TRANSLATIONS || {};
 const PHRASES = Array.isArray(window.WORTKARTE_PHRASES) ? window.WORTKARTE_PHRASES : [];
 const OCR_CONTENT_BASE = window.WORTKARTE_OCR_CONTENT || { articles: [], phrases: [], words: [], grammar: [] };
 const OCR_CONTENT_EXTRA = window.WORTKARTE_OCR_CONTENT_4500 || { articles: [], phrases: [], words: [], grammar: [] };
+const OCR_CONTENT_8250 = window.WORTKARTE_OCR_CONTENT_8250 || { articles: [], phrases: [], words: [], grammar: [] };
 const OCR_CONTENT = {
   ...OCR_CONTENT_BASE,
-  words: [...(OCR_CONTENT_BASE.words || []), ...(OCR_CONTENT_EXTRA.words || [])],
-  phrases: [...(OCR_CONTENT_BASE.phrases || []), ...(OCR_CONTENT_EXTRA.phrases || [])],
-  articles: [...(OCR_CONTENT_BASE.articles || []), ...(OCR_CONTENT_EXTRA.articles || [])],
-  grammar: [...(OCR_CONTENT_BASE.grammar || []), ...(OCR_CONTENT_EXTRA.grammar || [])]
+  words: [...(OCR_CONTENT_BASE.words || []), ...(OCR_CONTENT_EXTRA.words || []), ...(OCR_CONTENT_8250.words || [])],
+  phrases: [...(OCR_CONTENT_BASE.phrases || []), ...(OCR_CONTENT_EXTRA.phrases || []), ...(OCR_CONTENT_8250.phrases || [])],
+  articles: [...(OCR_CONTENT_BASE.articles || []), ...(OCR_CONTENT_EXTRA.articles || []), ...(OCR_CONTENT_8250.articles || [])],
+  grammar: [...(OCR_CONTENT_BASE.grammar || []), ...(OCR_CONTENT_EXTRA.grammar || []), ...(OCR_CONTENT_8250.grammar || [])]
 };
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GODIC_PACK = window.WORTKARTE_GODIC && window.WORTKARTE_GODIC.entries ? window.WORTKARTE_GODIC : null;
@@ -1795,6 +1799,27 @@ function inferFemininePlural(word) {
   return "";
 }
 
+function inferGeneralPlural(word) {
+  const value = String(word.word || "").trim();
+  if (!value || word.plural) return "";
+  const article = word.article || "";
+  if (article === "die") {
+    if (/in$/i.test(value)) return `die ${value}nen`;
+    if (/(ung|heit|keit|schaft|tion|sion|tät)$/i.test(value)) return "";
+    if (/e$/i.test(value)) return `die ${value}n`;
+    if (/nis$/i.test(value)) return `die ${value}se`;
+  }
+  if (article === "das") {
+    if (/(chen|lein)$/i.test(value)) return `die ${value}`;
+    if (/(ment|zeug|spiel)$/i.test(value)) return `die ${value}e`;
+    if (/nis$/i.test(value)) return `die ${value}se`;
+  }
+  if (article === "der") {
+    if (/(ist|ent|ant|or)$/i.test(value)) return `die ${value}en`;
+  }
+  return "";
+}
+
 const ARTICLE_EXAMPLE_INDEX = { built: false, byToken: new Map(), sentences: [] };
 const ARTICLE_EXAMPLE_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
@@ -1937,6 +1962,14 @@ function normalizeWordRecord(word) {
       if (inferred) {
         word.plural = inferred;
         word.pluralInferred = true;
+      }
+    }
+    if (!word.plural) {
+      const inferred = inferGeneralPlural(word);
+      if (inferred) {
+        word.plural = inferred;
+        word.pluralInferred = true;
+        word.pluralConfidence = "rule";
       }
     }
     word.pluralForm = word.pluralForm || word.plural || "";

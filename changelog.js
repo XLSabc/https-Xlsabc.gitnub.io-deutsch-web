@@ -889,17 +889,17 @@ window.WORTKARTE_CHANGELOG = [
     ]
   },
   {
-    version: "3.68.4",
+    version: "3.68.5",
     date: "2026-10-29",
-    type: "fix",
-    summary: "词库 gzip 压缩，单文件降到约 19 MB",
-    scope: "构建 · 单文件 App · GitHub",
+    type: "data",
+    summary: "补充词性、复数与 OCR 8250 内容",
+    scope: "词库 · 语法/文化/阅读",
     items: [
-      "Dehelper 全量词库改为 gzip + base64 压缩",
-      "原始 65.8 MB 词库压缩为约 7.8 MB 脚本",
-      "单文件 App 从约 80.7 MB 降到约 19.5 MB",
-      "启动时用 DecompressionStream 解压，词条仍为 205,905",
-      "GitHub Pages 不再需要 4 个 17 MB 分片"
+      "用 Dehelper cg.bin 为约 9,000 个词条补充词性",
+      "对规则名词补充复数形式，缺失复数从 7,086 降到 5,892",
+      "OCR 8250 新增 400 条短语、120 篇阅读文章、65 条历史文化卡片",
+      "OCR 不新增单词，单词仍以文件词库为准",
+      "当前词条 209,236，短语 1,603"
     ]
   }
 ];
