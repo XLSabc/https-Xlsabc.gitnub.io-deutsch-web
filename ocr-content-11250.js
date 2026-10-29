@@ -6289,6 +6289,804 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
     }
    ],
    "exercises": []
+  },
+  {
+   "id": "ocr45-g-67783341f9",
+   "title": "14 物质 和 名词 een nennen nss en nensenrnnsen (33)",
+   "summary": "3.15 集合 和 名词 rennen enter (33) 3.2 ”名词 的 性 (das Genus des Substantivs) een nennen (33) 3.21 阳性 名 词 pp (34)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "14 物质 和 名词 een nennen nss en nensenrnnsen (33)",
+     "body": "3.15 集合 和 名词 rennen enter (33) 3.2 ”名词 的 性 (das Genus des Substantivs) een nennen (33) 3.21 阳性 名 词 pp (34)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-edfae0191d",
+   "title": "15 集合 和 名词 rennen enter (33)",
+   "summary": "3.2 ”名词 的 性 (das Genus des Substantivs) een nennen (33) 3.21 阳性 名 词 pp (34) 322 ”阴性 名词 pp (39)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "15 集合 和 名词 rennen enter (33)",
+     "body": "3.2 ”名词 的 性 (das Genus des Substantivs) een nennen (33) 3.21 阳性 名 词 pp (34) 322 ”阴性 名词 pp (39)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-0c038bf7e7",
+   "title": "4.2 强 变 化 和 名词 的 变 格 pp (56)",
+   "summary": "3.4.3” 弱 变化 名 词 的 变 格 pp (59) 3.4.4 混合 变化 的 名 词 变 格 een nenn sense sense nennen (62) 3.4.5 阴性 名 词 的 变 格 站 pp (63)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "4.2 强 变 化 和 名词 的 变 格 pp (56)",
+     "body": "3.4.3” 弱 变化 名 词 的 变 格 pp (59) 3.4.4 混合 变化 的 名 词 变 格 een nenn sense sense nennen (62) 3.4.5 阴性 名 词 的 变 格 站 pp (63)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-f1a29bf231",
+   "title": "8 非 人 称 代词 es(das unpersönliche Pronomen es) een (131)",
+   "summary": "SHE FERIA (Das Adjektiv) PP (137) 5.1 形容 词 的 功能 (die Funktion des Adjektiv) s++++++++* nee (137) 511 形容 词 作 表 语 een nennen nenne (137)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "8 非 人 称 代词 es(das unpersönliche Pronomen es) een (131)",
+     "body": "SHE FERIA (Das Adjektiv) PP (137) 5.1 形容 词 的 功能 (die Funktion des Adjektiv) s++++++++* nee (137) 511 形容 词 作 表 语 een nennen nenne (137)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-ae46d6bf65",
+   "title": "2.2 ”形容词 的 强 刘 化 pp (142)",
+   "summary": "523 “形容词 的 混合 变化 pp (147) 524 ”形容词 的 特殊 变化 pp (152) 525 无 变 格 形式 的 形容 词 定语 ee een (155)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.2 ”形容词 的 强 刘 化 pp (142)",
+     "body": "523 “形容词 的 混合 变化 pp (147) 524 ”形容词 的 特殊 变化 pp (152) 525 无 变 格 形式 的 形容 词 定语 ee een (155)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-34ca915686",
+   "title": "3 ”形容词 名 词 化 (die Nominalisierung des Adjektivs) een (156)",
+   "summary": "54 形容 词 的 比较 等 级 (die Komparation des Adjektivs) ee (158) 541 形容 词 的 原 级 pp (158) 5.4.2 ”形容词 的 比较 级 (159)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "3 ”形容词 名 词 化 (die Nominalisierung des Adjektivs) een (156)",
+     "body": "54 形容 词 的 比较 等 级 (die Komparation des Adjektivs) ee (158) 541 形容 词 的 原 级 pp (158) 5.4.2 ”形容词 的 比较 级 (159)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-5e35cae6fe",
+   "title": "5.2 ”支配 介词 的 形容 词 ppp (172)",
+   "summary": "553 ”具有 多 种 支配 关系 的 形容 词 pp (179) 六 章 Biel (Das Verb) +++ m eeenennennennnnenennnn nennen nennen (181) 6.1 动词 及 动词 分 类 (das Verb und die Einteilung der Verben) \"+\" (181)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "5.2 ”支配 介词 的 形容 词 ppp (172)",
+     "body": "553 ”具有 多 种 支配 关系 的 形容 词 pp (179) 六 章 Biel (Das Verb) +++ m eeenennennennnnenennnn nennen nennen (181) 6.1 动词 及 动词 分 类 (das Verb und die Einteilung der Verben) \"+\" (181)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-5259184c4d",
+   "title": "1.2 动词 的 分 类 ( 开 ) pp (185)",
+   "summary": "6.1.2.1 Ryan nee ten essen een anne (185) 6.122 不 及 物 动 词 站 (185) 6.13 动词 的 分 类 (下 \"rennen nenne nennen enenennn (186)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "1.2 动词 的 分 类 ( 开 ) pp (185)",
+     "body": "6.1.2.1 Ryan nee ten essen een anne (185) 6.122 不 及 物 动 词 站 (185) 6.13 动词 的 分 类 (下 \"rennen nenne nennen enenennn (186)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-795886ec9e",
+   "title": "141 柑 变 化 动词 een eeneeennneenne nennen en snss nennen (188)",
+   "summary": "6.1.4.2 强 变 化 动词 oo (188) 6.143 不 规则 变化 动 调 een ent (188) 6.1.4.4 BRB PA BU pp (189)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "141 柑 变 化 动词 een eeneeennneenne nennen en snss nennen (188)",
+     "body": "6.1.4.2 强 变 化 动词 oo (188) 6.143 不 规则 变化 动 调 een ent (188) 6.1.4.4 BRB PA BU pp (189)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-9c49221a2e",
+   "title": "1.4.2 强 变 化 动词 oo (188)",
+   "summary": "6.143 不 规则 变化 动 调 een ent (188) 6.1.4.4 BRB PA BU pp (189) 6.1.5 动词 的 分 类 (V ) oo ooeeosseoseoseeeeooooooooeoosoeoeooooeeooooesooeoeoo (197)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "1.4.2 强 变 化 动词 oo (188)",
+     "body": "6.143 不 规则 变化 动 调 een ent (188) 6.1.4.4 BRB PA BU pp (189) 6.1.5 动词 的 分 类 (V ) oo ooeeosseoseoseeeeooooooooeoosoeoeooooeeooooesooeoeoo (197)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-765fe5f84e",
+   "title": "154 合成 动词 多 (202)",
+   "summary": "6.1.6 HERR) EPRI een nennen (216) 6.1.6.1 BE GYR ABT Seen nennen nen (216) 6.1.6.2 反 身 动词 的 人 称 变化 ( 变 位 ) nennen nennen (219)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "154 合成 动词 多 (202)",
+     "body": "6.1.6 HERR) EPRI een nennen (216) 6.1.6.1 BE GYR ABT Seen nennen nen (216) 6.1.6.2 反 身 动词 的 人 称 变化 ( 变 位 ) nennen nennen (219)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-a805dec34d",
+   "title": "1.6.2 反 身 动词 的 人 称 变化 ( 变 位 ) nennen nennen (219)",
+   "summary": "6.163 反 身 代词 的 位 置 een nen nennen (219) 6.1.7 动词 的 分 类 (项 ) 情 态 助动词 een nennen (221) 6.171 情态 动词 的 变 位 pe (221)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "1.6.2 反 身 动词 的 人 称 变化 ( 变 位 ) nennen nennen (219)",
+     "body": "6.163 反 身 代词 的 位 置 een nen nennen (219) 6.1.7 动词 的 分 类 (项 ) 情 态 助动词 een nennen (221) 6.171 情态 动词 的 变 位 pe (221)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-646f045d53",
+   "title": "163 反 身 代词 的 位 置 een nen nennen (219)",
+   "summary": "6.1.7 动词 的 分 类 (项 ) 情 态 助动词 een nennen (221) 6.171 情态 动词 的 变 位 pe (221) 6.1.7.2 情态 动词 的 用 法 \"een nenne nennen essen (221)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "163 反 身 代词 的 位 置 een nen nennen (219)",
+     "body": "6.1.7 动词 的 分 类 (项 ) 情 态 助动词 een nennen (221) 6.171 情态 动词 的 变 位 pe (221) 6.1.7.2 情态 动词 的 用 法 \"een nenne nennen essen (221)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-4901bfbf9f",
+   "title": "1.7 动词 的 分 类 (项 ) 情 态 助动词 een nennen (221)",
+   "summary": "6.171 情态 动词 的 变 位 pe (221) 6.1.7.2 情态 动词 的 用 法 \"een nenne nennen essen (221)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "1.7 动词 的 分 类 (项 ) 情 态 助动词 een nennen (221)",
+     "body": "6.171 情态 动词 的 变 位 pe (221) 6.1.7.2 情态 动词 的 用 法 \"een nenne nennen essen (221)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-226d9f9424",
+   "title": "171 情态 动词 的 变 位 pe (221)",
+   "summary": "6.1.7.2 情态 动词 的 用 法 \"een nenne nennen essen (221)  6.173 情态 动词 的 含义 een nennen en ane (222)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "171 情态 动词 的 变 位 pe (221)",
+     "body": "6.1.7.2 情态 动词 的 用 法 \"een nenne nennen essen (221)  6.173 情态 动词 的 含义 een nennen en ane (222)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-2bada47468",
+   "title": "1.7.4 情态 动词 的 位 置 een nennen ses (230)",
+   "summary": "6.175 情态 动词 用 作 独 立 动词 een een nennen (232) 6.1.8 HARRIS ER SS DOR AI BTA overseer reece reeeeee eee (233) 6.2 ”德语 动词 的 时 态 (die Tempora) een (235)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "1.7.4 情态 动词 的 位 置 een nennen ses (230)",
+     "body": "6.175 情态 动词 用 作 独 立 动词 een een nennen (232) 6.1.8 HARRIS ER SS DOR AI BTA overseer reece reeeeee eee (233) 6.2 ”德语 动词 的 时 态 (die Tempora) een (235)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-1a77302d72",
+   "title": "175 情态 动词 用 作 独 立 动词 een een nennen (232)",
+   "summary": "6.1.8 HARRIS ER SS DOR AI BTA overseer reece reeeeee eee (233) 6.2 ”德语 动词 的 时 态 (die Tempora) een (235) 6.2.1 动词 的 现在 时 (235)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "175 情态 动词 用 作 独 立 动词 een een nennen (232)",
+     "body": "6.1.8 HARRIS ER SS DOR AI BTA overseer reece reeeeee eee (233) 6.2 ”德语 动词 的 时 态 (die Tempora) een (235) 6.2.1 动词 的 现在 时 (235)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-c5fafbe27b",
+   "title": "2 ”德语 动词 的 时 态 (die Tempora) een (235)",
+   "summary": "6.2.1 动词 的 现在 时 (235) 6211 动词 的 现在 时 变 位 ernennen onen nn nat (235) 6.212 动词 现在 时 的 使 用 pe (245)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2 ”德语 动词 的 时 态 (die Tempora) een (235)",
+     "body": "6.2.1 动词 的 现在 时 (235) 6211 动词 的 现在 时 变 位 ernennen onen nn nat (235) 6.212 动词 现在 时 的 使 用 pe (245)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-13d5813dd5",
+   "title": "2.1 动词 的 现在 时 (235)",
+   "summary": "6211 动词 的 现在 时 变 位 ernennen onen nn nat (235) 6.212 动词 现在 时 的 使 用 pe (245) 6.2.2 动词 的 过 去 时 \"een nannten (247)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.1 动词 的 现在 时 (235)",
+     "body": "6211 动词 的 现在 时 变 位 ernennen onen nn nat (235) 6.212 动词 现在 时 的 使 用 pe (245) 6.2.2 动词 的 过 去 时 \"een nannten (247)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-aadd402b4b",
+   "title": "212 动词 现在 时 的 使 用 pe (245)",
+   "summary": "6.2.2 动词 的 过 去 时 \"een nannten (247) 6.2.2.1 动词 过 去 时 变 位 een nennen nennen ern (247) 6.2.2.2 动词 过 去 时 的 使 用 eeeeooooosoooesoooooooosooosooeoooooooooeoo。 (256)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "212 动词 现在 时 的 使 用 pe (245)",
+     "body": "6.2.2 动词 的 过 去 时 \"een nannten (247) 6.2.2.1 动词 过 去 时 变 位 een nennen nennen ern (247) 6.2.2.2 动词 过 去 时 的 使 用 eeeeooooosoooesoooooooosooosooeoooooooooeoo。 (256)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-a568fb83da",
+   "title": "2.2 动词 的 过 去 时 \"een nannten (247)",
+   "summary": "6.2.2.1 动词 过 去 时 变 位 een nennen nennen ern (247) 6.2.2.2 动词 过 去 时 的 使 用 eeeeooooosoooesoooooooosooosooeoooooooooeoo。 (256) 6.23 动词 的 现在 完成 时 pp (258)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.2 动词 的 过 去 时 \"een nannten (247)",
+     "body": "6.2.2.1 动词 过 去 时 变 位 een nennen nennen ern (247) 6.2.2.2 动词 过 去 时 的 使 用 eeeeooooosoooesoooooooosooosooeoooooooooeoo。 (256) 6.23 动词 的 现在 完成 时 pp (258)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-de63e3a3ce",
+   "title": "2.2.1 动词 过 去 时 变 位 een nennen nennen ern (247)",
+   "summary": "6.2.2.2 动词 过 去 时 的 使 用 eeeeooooosoooesoooooooosooosooeoooooooooeoo。 (256) 6.23 动词 的 现在 完成 时 pp (258) 6.231 动词 现在 完成 时 的 构成 pp (258)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.2.1 动词 过 去 时 变 位 een nennen nennen ern (247)",
+     "body": "6.2.2.2 动词 过 去 时 的 使 用 eeeeooooosoooesoooooooosooosooeoooooooooeoo。 (256) 6.23 动词 的 现在 完成 时 pp (258) 6.231 动词 现在 完成 时 的 构成 pp (258)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-e2b713484b",
+   "title": "23 动词 的 现在 完成 时 pp (258)",
+   "summary": "6.231 动词 现在 完成 时 的 构成 pp (258) 6.2.3.2 动词 第 二 分 词 的 构成 Seeeeeeeenenennn nn nn (258) 6.2.3.3 动词 现在 完成 时 的 变 位 Seemann (262)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "23 动词 的 现在 完成 时 pp (258)",
+     "body": "6.231 动词 现在 完成 时 的 构成 pp (258) 6.2.3.2 动词 第 二 分 词 的 构成 Seeeeeeeenenennn nn nn (258) 6.2.3.3 动词 现在 完成 时 的 变 位 Seemann (262)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-3e9a0f9674",
+   "title": "231 动词 现在 完成 时 的 构成 pp (258)",
+   "summary": "6.2.3.2 动词 第 二 分 词 的 构成 Seeeeeeeenenennn nn nn (258) 6.2.3.3 动词 现在 完成 时 的 变 位 Seemann (262) 6.2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "231 动词 现在 完成 时 的 构成 pp (258)",
+     "body": "6.2.3.2 动词 第 二 分 词 的 构成 Seeeeeeeenenennn nn nn (258) 6.2.3.3 动词 现在 完成 时 的 变 位 Seemann (262) 6.2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-badcf05b3c",
+   "title": "2.3.2 动词 第 二 分 词 的 构成 Seeeeeeeenenennn nn nn (258)",
+   "summary": "6.2.3.3 动词 现在 完成 时 的 变 位 Seemann (262) 6.2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267) 6.235 动词 现在 完成 时 的 使 用 ppp (272)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.3.2 动词 第 二 分 词 的 构成 Seeeeeeeenenennn nn nn (258)",
+     "body": "6.2.3.3 动词 现在 完成 时 的 变 位 Seemann (262) 6.2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267) 6.235 动词 现在 完成 时 的 使 用 ppp (272)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-a930af4ac3",
+   "title": "2.3.3 动词 现在 完成 时 的 变 位 Seemann (262)",
+   "summary": "6.2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267) 6.235 动词 现在 完成 时 的 使 用 ppp (272) 6.2.4 动词 的 过 去 完成 时 ne nennen essen (273)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.3.3 动词 现在 完成 时 的 变 位 Seemann (262)",
+     "body": "6.2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267) 6.235 动词 现在 完成 时 的 使 用 ppp (272) 6.2.4 动词 的 过 去 完成 时 ne nennen essen (273)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-bb85975a9f",
+   "title": "2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267)",
+   "summary": "6.235 动词 现在 完成 时 的 使 用 ppp (272) 6.2.4 动词 的 过 去 完成 时 ne nennen essen (273) 6.2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.3.4 时 间 助 动词 haben 4 sein 的 用 法 \"meer (267)",
+     "body": "6.235 动词 现在 完成 时 的 使 用 ppp (272) 6.2.4 动词 的 过 去 完成 时 ne nennen essen (273) 6.2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-fb2799c548",
+   "title": "235 动词 现在 完成 时 的 使 用 ppp (272)",
+   "summary": "6.2.4 动词 的 过 去 完成 时 ne nennen essen (273) 6.2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273) 6.2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "235 动词 现在 完成 时 的 使 用 ppp (272)",
+     "body": "6.2.4 动词 的 过 去 完成 时 ne nennen essen (273) 6.2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273) 6.2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-c0798b2e1d",
+   "title": "2.4 动词 的 过 去 完成 时 ne nennen essen (273)",
+   "summary": "6.2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273) 6.2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275) 6.2.5 动词 的 第 一 将 来 时 (276)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.4 动词 的 过 去 完成 时 ne nennen essen (273)",
+     "body": "6.2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273) 6.2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275) 6.2.5 动词 的 第 一 将 来 时 (276)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-dd2b34e46d",
+   "title": "2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273)",
+   "summary": "6.2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275) 6.2.5 动词 的 第 一 将 来 时 (276) 6.251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.4.1 动词 过 去 完成 时 的 构成 与 变 位 pe (273)",
+     "body": "6.2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275) 6.2.5 动词 的 第 一 将 来 时 (276) 6.251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-d311a87fef",
+   "title": "2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275)",
+   "summary": "6.2.5 动词 的 第 一 将 来 时 (276) 6.251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276) 6.2.5.2 动词 第 一 将 来 时 的 使 用 pp (276)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.4.2 动词 过 去 完成 时 的 使 用 ernennen (275)",
+     "body": "6.2.5 动词 的 第 一 将 来 时 (276) 6.251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276) 6.2.5.2 动词 第 一 将 来 时 的 使 用 pp (276)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-074cedc1f9",
+   "title": "2.5 动词 的 第 一 将 来 时 (276)",
+   "summary": "6.251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276) 6.2.5.2 动词 第 一 将 来 时 的 使 用 pp (276) 626 动词 的 第 二 将 来 时 een nennen (278)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.5 动词 的 第 一 将 来 时 (276)",
+     "body": "6.251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276) 6.2.5.2 动词 第 一 将 来 时 的 使 用 pp (276) 626 动词 的 第 二 将 来 时 een nennen (278)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-160ea9b3ce",
+   "title": "251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276)",
+   "summary": "6.2.5.2 动词 第 一 将 来 时 的 使 用 pp (276) 626 动词 的 第 二 将 来 时 een nennen (278) 6.2.6.1 动词 第 二 将 来 时 的 构成 与 变 位 pp (278)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "251 动词 第 一 将 来 时 的 构成 与 变 位 ee (276)",
+     "body": "6.2.5.2 动词 第 一 将 来 时 的 使 用 pp (276) 626 动词 的 第 二 将 来 时 een nennen (278) 6.2.6.1 动词 第 二 将 来 时 的 构成 与 变 位 pp (278)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-059abc0180",
+   "title": "2.5.2 动词 第 一 将 来 时 的 使 用 pp (276)",
+   "summary": "626 动词 的 第 二 将 来 时 een nennen (278) 6.2.6.1 动词 第 二 将 来 时 的 构成 与 变 位 pp (278) 6.2.6.2 动词 第 二 将 来 时 的 使 用 een nenn (279)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.5.2 动词 第 一 将 来 时 的 使 用 pp (276)",
+     "body": "626 动词 的 第 二 将 来 时 een nennen (278) 6.2.6.1 动词 第 二 将 来 时 的 构成 与 变 位 pp (278) 6.2.6.2 动词 第 二 将 来 时 的 使 用 een nenn (279)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-950b0411f2",
+   "title": "2.6.1 动词 第 二 将 来 时 的 构成 与 变 位 pp (278)",
+   "summary": "6.2.6.2 动词 第 二 将 来 时 的 使 用 een nenn (279)  6.3 德语 动词 的 语 态 (die Genera) crsrrrseetetterereeeeeese see tee sen nee (281)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.6.1 动词 第 二 将 来 时 的 构成 与 变 位 pp (278)",
+     "body": "6.2.6.2 动词 第 二 将 来 时 的 使 用 een nenn (279)  6.3 德语 动词 的 语 态 (die Genera) crsrrrseetetterereeeeeese see tee sen nee (281)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-75acd6635e",
+   "title": "2.6.2 动词 第 二 将 来 时 的 使 用 een nenn (279)",
+   "summary": "6.3 德语 动词 的 语 态 (die Genera) crsrrrseetetterereeeeeese see tee sen nee (281) 631 动词 被 动态 的 构成 nennen een nen (282)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2.6.2 动词 第 二 将 来 时 的 使 用 een nenn (279)",
+     "body": "6.3 德语 动词 的 语 态 (die Genera) crsrrrseetetterereeeeeese see tee sen nee (281) 631 动词 被 动态 的 构成 nennen een nen (282)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-66cb969815",
+   "title": "3.2 动词 被 动态 的 各 种 时 态 pe (282)",
+   "summary": "6.3.2.1 动词 被 动态 现在 时 een nennen (282) 6.3.2.2 动词 被 动态 的 过 去 时 pp (285) 6.3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "3.2 动词 被 动态 的 各 种 时 态 pe (282)",
+     "body": "6.3.2.1 动词 被 动态 现在 时 een nennen (282) 6.3.2.2 动词 被 动态 的 过 去 时 pp (285) 6.3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-5399dce57d",
+   "title": "3.2.1 动词 被 动态 现在 时 een nennen (282)",
+   "summary": "6.3.2.2 动词 被 动态 的 过 去 时 pp (285) 6.3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286) 6.3.2.4 动词 被 动态 的 过 去 完成 时 pp (287)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "3.2.1 动词 被 动态 现在 时 een nennen (282)",
+     "body": "6.3.2.2 动词 被 动态 的 过 去 时 pp (285) 6.3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286) 6.3.2.4 动词 被 动态 的 过 去 完成 时 pp (287)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-1e3b1b10f5",
+   "title": "3.2.2 动词 被 动态 的 过 去 时 pp (285)",
+   "summary": "6.3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286) 6.3.2.4 动词 被 动态 的 过 去 完成 时 pp (287) 6.3.2.5 BATRA een nennen nennen (289)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "3.2.2 动词 被 动态 的 过 去 时 pp (285)",
+     "body": "6.3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286) 6.3.2.4 动词 被 动态 的 过 去 完成 时 pp (287) 6.3.2.5 BATRA een nennen nennen (289)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-d53a63bc98",
+   "title": "3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286)",
+   "summary": "6.3.2.4 动词 被 动态 的 过 去 完成 时 pp (287) 6.3.2.5 BATRA een nennen nennen (289) 6326 动词 被 动态 的 第 二 将 来 时 和 pe (291)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "3.2.3 动词 被 动态 的 现在 完成 时 外 pe (286)",
+     "body": "6.3.2.4 动词 被 动态 的 过 去 完成 时 pp (287) 6.3.2.5 BATRA een nennen nennen (289) 6326 动词 被 动态 的 第 二 将 来 时 和 pe (291)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-f8b5c53597",
+   "title": "3.2.4 动词 被 动态 的 过 去 完成 时 pp (287)",
+   "summary": "6.3.2.5 BATRA een nennen nennen (289) 6326 动词 被 动态 的 第 二 将 来 时 和 pe (291)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "3.2.4 动词 被 动态 的 过 去 完成 时 pp (287)",
+     "body": "6.3.2.5 BATRA een nennen nennen (289) 6326 动词 被 动态 的 第 二 将 来 时 和 pe (291)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-a00cca2cb6",
+   "title": "4 德语 动词 的 语气 (die Modi) RN (295)",
+   "summary": "6.4.1 动词 的 陈述 语气 pp (295) 64.2 动词 的 祈 使 语气 pp (296) 6.4.3 动词 的 虚拟 语气 pe (299)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "4 德语 动词 的 语气 (die Modi) RN (295)",
+     "body": "6.4.1 动词 的 陈述 语气 pp (295) 64.2 动词 的 祈 使 语气 pp (296) 6.4.3 动词 的 虚拟 语气 pe (299)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-d73613ea45",
+   "title": "4.1 动词 的 陈述 语气 pp (295)",
+   "summary": "64.2 动词 的 祈 使 语气 pp (296) 6.4.3 动词 的 虚拟 语气 pe (299) 6.4.3.1 动词 虚拟 语气 的 形式 pp (299)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "4.1 动词 的 陈述 语气 pp (295)",
+     "body": "64.2 动词 的 祈 使 语气 pp (296) 6.4.3 动词 的 虚拟 语气 pe (299) 6.4.3.1 动词 虚拟 语气 的 形式 pp (299)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-ea6ca04d49",
+   "title": "2 动词 的 祈 使 语气 pp (296)",
+   "summary": "6.4.3 动词 的 虚拟 语气 pe (299) 6.4.3.1 动词 虚拟 语气 的 形式 pp (299) 6.4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "2 动词 的 祈 使 语气 pp (296)",
+     "body": "6.4.3 动词 的 虚拟 语气 pe (299) 6.4.3.1 动词 虚拟 语气 的 形式 pp (299) 6.4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-c8947da3cf",
+   "title": "4.3 动词 的 虚拟 语气 pe (299)",
+   "summary": "6.4.3.1 动词 虚拟 语气 的 形式 pp (299) 6.4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300) 6.4.33 动词 虚拟 语气 被 动态 各 种 时 态 和 pp (307)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "4.3 动词 的 虚拟 语气 pe (299)",
+     "body": "6.4.3.1 动词 虚拟 语气 的 形式 pp (299) 6.4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300) 6.4.33 动词 虚拟 语气 被 动态 各 种 时 态 和 pp (307)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-c7c4570230",
+   "title": "4.3.1 动词 虚拟 语气 的 形式 pp (299)",
+   "summary": "6.4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300) 6.4.33 动词 虚拟 语气 被 动态 各 种 时 态 和 pp (307) 6.4.3.4 würde-Form pp (309)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "4.3.1 动词 虚拟 语气 的 形式 pp (299)",
+     "body": "6.4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300) 6.4.33 动词 虚拟 语气 被 动态 各 种 时 态 和 pp (307) 6.4.3.4 würde-Form pp (309)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-2b39f65dbc",
+   "title": "4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300)",
+   "summary": "6.4.33 动词 虚拟 语气 被 动态 各 种 时 态 和 pp (307) 6.4.3.4 würde-Form pp (309) 6.4.3.5 动词 虚拟 语气 的 应 用 ee (312)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "4.3.2 动词 虚拟 语气 的 各 种 时 态 oo (300)",
+     "body": "6.4.33 动词 虚拟 语气 被 动态 各 种 时 态 和 pp (307) 6.4.3.4 würde-Form pp (309) 6.4.3.5 动词 虚拟 语气 的 应 用 ee (312)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-238d3a6964",
+   "title": "4.3.5 动词 虚拟 语气 的 应 用 ee (312)",
+   "summary": "6.5 动词 的 限定 形式 与 非 限 定形 式 (finite und infinite Formen des Verbs) oo (336)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "4.3.5 动词 虚拟 语气 的 应 用 ee (312)",
+     "body": "6.5 动词 的 限定 形式 与 非 限 定形 式 (finite und infinite Formen des Verbs) oo (336)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-2a02c1857c",
+   "title": "5 动词 的 限定 形式 与 非 限 定形 式 (finite und infinite",
+   "summary": "Formen des Verbs) oo (336) 651 动词 的 限定 形式 pp (336) 652 动词 的 非 限 定形 式 pp (336)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "5 动词 的 限定 形式 与 非 限 定形 式 (finite und infinite",
+     "body": "Formen des Verbs) oo (336) 651 动词 的 限定 形式 pp (336) 652 动词 的 非 限 定形 式 pp (336)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-668eeea0f1",
+   "title": "5.3 动词 的 不 定式 een nennen nennen nennen (337)",
+   "summary": "6531 动词 不 定式 的 形式 een nennen nenne nennen (337) 6.532 动词 不 定式 的 使 用 een nennen sn (338) 6.6 动词 的 分 词 (das Partizip) een (368)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "5.3 动词 的 不 定式 een nennen nennen nennen (337)",
+     "body": "6531 动词 不 定式 的 形式 een nennen nenne nennen (337) 6.532 动词 不 定式 的 使 用 een nennen sn (338) 6.6 动词 的 分 词 (das Partizip) een (368)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-edb93f807f",
+   "title": "532 动词 不 定式 的 使 用 een nennen sn (338)",
+   "summary": "6.6 动词 的 分 词 (das Partizip) een (368) 6.6.1 第 一 分 词 ( 现 在 分 词 ) 4 (368) 6.6.1.1 第 一 分 词 的 构成 pe (368)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "532 动词 不 定式 的 使 用 een nennen sn (338)",
+     "body": "6.6 动词 的 分 词 (das Partizip) een (368) 6.6.1 第 一 分 词 ( 现 在 分 词 ) 4 (368) 6.6.1.1 第 一 分 词 的 构成 pe (368)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-4d4de9ca0b",
+   "title": "6 动词 的 分 词 (das Partizip) een (368)",
+   "summary": "6.6.1 第 一 分 词 ( 现 在 分 词 ) 4 (368) 6.6.1.1 第 一 分 词 的 构成 pe (368) 6.6.12 第 一 分 词 的 意义 coccccececseccesesseeeseeesececesecseeesseseeees (368)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "6 动词 的 分 词 (das Partizip) een (368)",
+     "body": "6.6.1 第 一 分 词 ( 现 在 分 词 ) 4 (368) 6.6.1.1 第 一 分 词 的 构成 pe (368) 6.6.12 第 一 分 词 的 意义 coccccececseccesesseeeseeesececesecseeesseseeees (368)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-b535effa6b",
+   "title": "5 介词 的 用 法 (Gebrauch der Präpositionen) een (411)",
+   "summary": "751 支配 第 四 格 的 介词 een eer errr reer rere ee eer eee eee eres (411) 7.5.2 支配 第 三 格 的 介词 oo (419) 1.5.3 支配 第 三 格 和 第 四 格 的 介词 ooeoeseeoeseeosssesosseoeeoseeoeseeeeesasesese (430)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "5 介词 的 用 法 (Gebrauch der Präpositionen) een (411)",
+     "body": "751 支配 第 四 格 的 介词 een eer errr reer rere ee eer eee eee eres (411) 7.5.2 支配 第 三 格 的 介词 oo (419) 1.5.3 支配 第 三 格 和 第 四 格 的 介词 ooeoeseeoeseeosssesosseoeeoseeoeseeeeesasesese (430)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-d377692c3e",
+   "title": "5.2 支配 第 三 格 的 介词 oo (419)",
+   "summary": "1.5.3 支配 第 三 格 和 第 四 格 的 介词 ooeoeseeoeseeosssesosseoeeoseeoeseeeeesasesese (430)  7.5.3.1 第 三 格 和 第 四 格 的 介词 其 支配 关系 pe (430)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "5.2 支配 第 三 格 的 介词 oo (419)",
+     "body": "1.5.3 支配 第 三 格 和 第 四 格 的 介词 ooeoeseeoeseeosssesosseoeeoseeoeseeeeesasesese (430)  7.5.3.1 第 三 格 和 第 四 格 的 介词 其 支配 关系 pe (430)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-ce195ad210",
+   "title": "5.3.1 第 三 格 和 第 四 格 的 介词 其 支配 关系 pe (430)",
+   "summary": "7.5.3.2 支配 第 三 格 和 第 四 格 的 介词 其 各 自 独特 的 使 用 (435) 7.5.4 支配 第 二 格 的 介词 pp (444)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "5.3.1 第 三 格 和 第 四 格 的 介词 其 支配 关系 pe (430)",
+     "body": "7.5.3.2 支配 第 三 格 和 第 四 格 的 介词 其 各 自 独特 的 使 用 (435) 7.5.4 支配 第 二 格 的 介词 pp (444)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-cb21fd0f31",
+   "title": "5.2 ”形容词 的 定语 和 pp (668)",
+   "summary": "13.5.3 副词 的 定语 pp (669) 13.6 主语 的 补 语 (die Ergänzungsangabe zum Subjekt) ee (669) 13.7 宾语 的 补 语 (die Ergänzungsangabe zum Objekt) ee (670)",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10553",
+   "sections": [
+    {
+     "heading": "5.2 ”形容词 的 定语 和 pp (668)",
+     "body": "13.5.3 副词 的 定语 pp (669) 13.6 主语 的 补 语 (die Ergänzungsangabe zum Subjekt) ee (669) 13.7 宾语 的 补 语 (die Ergänzungsangabe zum Objekt) ee (670)",
+     "examples": []
+    }
+   ],
+   "exercises": []
+  },
+  {
+   "id": "ocr45-g-c099e30040",
+   "title": "3.1 冠 词 与 介词 融合 的 形式",
+   "summary": "定 冠 词 和 一 些 支配 第 三 格 或 第 四 格 的 介词 可 以 融合 成 一 个 词 ,其 形式 为 :  an dem = am in das = ins",
+   "source": "德语应用语法_姚保琮，佟秀英编著_北京：北京大学出版社.pdf · batch10554",
+   "sections": [
+    {
+     "heading": "3.1 冠 词 与 介词 融合 的 形式",
+     "body": "定 冠 词 和 一 些 支配 第 三 格 或 第 四 格 的 介词 可 以 融合 成 一 个 词 ,其 形式 为 :  an dem = am in das = ins",
+     "examples": []
+    }
+   ],
+   "exercises": []
   }
  ],
  "grammarCandidates": [
@@ -9037,6 +9835,102 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
    "contentDe": "",
    "contentZh": "安娜 . 西格斯 (1900—1983 ) ,德国女作家 。",
    "bookSource": "德语国家经典散文_叶廷芳，李伯杰主编_上海：上海文艺出版社.pdf · batch9862",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-cc5e548dde",
+   "category": "person",
+   "year": "1621",
+   "titleDe": "",
+   "titleZh": "作家拉封丹",
+   "contentDe": "",
+   "contentZh": "作家拉封丹 (1621 - 1695) 的寓言 ]:",
+   "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10657",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-e895b93e6e",
+   "category": "person",
+   "year": "1689",
+   "titleDe": "",
+   "titleZh": "的法国思想家备德斯鸠",
+   "contentDe": "",
+   "contentZh": "的法国思想家备德斯鸠 (1689—1755)",
+   "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10674",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-8c04c75fc0",
+   "category": "person",
+   "year": "1828",
+   "titleDe": "",
+   "titleZh": "诗人易下生",
+   "contentDe": "",
+   "contentZh": "诗人易下生 (1828—1906) 的话剧名 《 社",
+   "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10674",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-cf0255fbba",
+   "category": "person",
+   "year": "1759",
+   "titleDe": "",
+   "titleZh": "勒",
+   "contentDe": "",
+   "contentZh": "勒 (1759—1805) 的诗 《 大地的瓜分 》。",
+   "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10679",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-d92836b0d9",
+   "category": "person",
+   "year": "1622",
+   "titleDe": "",
+   "titleZh": "森",
+   "contentDe": "",
+   "contentZh": "森 (1622—1676) 的小说 《 澳儿西木传 》 中",
+   "bookSource": "德语成语词典_张载扬，张才尧，常克强编_北京：外语教学与研究出版社.pdf · batch10722",
+   "sources": [],
+   "confidence": 0.7,
+   "tags": [
+    "OCR",
+    "人物"
+   ]
+  },
+  {
+   "id": "ocr45-c-16ae40de3c",
+   "category": "person",
+   "year": "1621",
+   "titleDe": "",
+   "titleZh": "攻此语出自法国诗人拉封丹",
+   "contentDe": "",
+   "contentZh": "攻此语出自法国诗人拉封丹 (1621—1693)",
+   "bookSource": "德语成语词典_张载扬，张才尧，常克强编_北京：外语教学与研究出版社.pdf · batch10724",
    "sources": [],
    "confidence": 0.7,
    "tags": [
@@ -12093,102 +12987,6 @@ window.WORTKARTE_OCR_CONTENT_11250 = {
    "contentDe": "",
    "contentZh": "学出版社，1987",
    "bookSource": "德语商贸信函 德汉对照_贾慧蝶，袁志英编著_上海：同济大学出版社.pdf · batch9825",
-   "sources": [],
-   "confidence": 0.55,
-   "tags": [
-    "OCR",
-    "历史与文化"
-   ]
-  },
-  {
-   "id": "ocr11250-c-800a0bdfb4",
-   "category": "history",
-   "year": "1994",
-   "titleDe": "",
-   "titleZh": "东北师范大学出版社，1994",
-   "contentDe": "",
-   "contentZh": "东北师范大学出版社，1994",
-   "bookSource": "德语商贸信函 德汉对照_贾慧蝶，袁志英编著_上海：同济大学出版社.pdf · batch9825",
-   "sources": [],
-   "confidence": 0.55,
-   "tags": [
-    "OCR",
-    "历史与文化"
-   ]
-  },
-  {
-   "id": "ocr11250-c-b1e940d64a",
-   "category": "history",
-   "year": "2007",
-   "titleDe": "",
-   "titleZh": "大学出版社,2007.3",
-   "contentDe": "",
-   "contentZh": "大学出版社,2007.3",
-   "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-   "sources": [],
-   "confidence": 0.55,
-   "tags": [
-    "OCR",
-    "历史与文化"
-   ]
-  },
-  {
-   "id": "ocr11250-c-5767785fde",
-   "category": "history",
-   "year": "2006",
-   "titleDe": "",
-   "titleZh": "中国版本图书馆CIP数据核字(2006)第165",
-   "contentDe": "",
-   "contentZh": "中国版本图书馆CIP数据核字(2006)第165306号",
-   "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-   "sources": [],
-   "confidence": 0.55,
-   "tags": [
-    "OCR",
-    "历史与文化"
-   ]
-  },
-  {
-   "id": "ocr11250-c-71e209bb79",
-   "category": "history",
-   "year": "1239",
-   "titleDe": "",
-   "titleZh": "地址:上海市四平路1239号”邮编:200092",
-   "contentDe": "",
-   "contentZh": "地址:上海市四平路1239号”邮编:200092电话;021一65985622",
-   "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-   "sources": [],
-   "confidence": 0.55,
-   "tags": [
-    "OCR",
-    "历史与文化"
-   ]
-  },
-  {
-   "id": "ocr11250-c-ac075f8f28",
-   "category": "history",
-   "year": "2007",
-   "titleDe": "",
-   "titleZh": "2007年3月第1版2007年3月第1次印刷",
-   "contentDe": "",
-   "contentZh": "2007年3月第1版2007年3月第1次印刷",
-   "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-   "sources": [],
-   "confidence": 0.55,
-   "tags": [
-    "OCR",
-    "历史与文化"
-   ]
-  },
-  {
-   "id": "ocr11250-c-ffd59492a2",
-   "category": "history",
-   "year": "2007",
-   "titleDe": "",
-   "titleZh": "2007年2月于南京大学",
-   "contentDe": "",
-   "contentZh": "2007年2月于南京大学",
-   "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
    "sources": [],
    "confidence": 0.55,
    "tags": [

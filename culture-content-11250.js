@@ -49,6 +49,102 @@ window.WORTKARTE_CULTURE_11250 = {items:[
   ]
  },
  {
+  "id": "ocr45-c-cc5e548dde",
+  "category": "person",
+  "year": "1621",
+  "titleDe": "",
+  "titleZh": "作家拉封丹",
+  "contentDe": "",
+  "contentZh": "作家拉封丹 (1621 - 1695) 的寓言 ]:",
+  "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10657",
+  "sources": [],
+  "confidence": 0.7,
+  "tags": [
+   "OCR",
+   "人物"
+  ]
+ },
+ {
+  "id": "ocr45-c-e895b93e6e",
+  "category": "person",
+  "year": "1689",
+  "titleDe": "",
+  "titleZh": "的法国思想家备德斯鸠",
+  "contentDe": "",
+  "contentZh": "的法国思想家备德斯鸠 (1689—1755)",
+  "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10674",
+  "sources": [],
+  "confidence": 0.7,
+  "tags": [
+   "OCR",
+   "人物"
+  ]
+ },
+ {
+  "id": "ocr45-c-8c04c75fc0",
+  "category": "person",
+  "year": "1828",
+  "titleDe": "",
+  "titleZh": "诗人易下生",
+  "contentDe": "",
+  "contentZh": "诗人易下生 (1828—1906) 的话剧名 《 社",
+  "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10674",
+  "sources": [],
+  "confidence": 0.7,
+  "tags": [
+   "OCR",
+   "人物"
+  ]
+ },
+ {
+  "id": "ocr45-c-cf0255fbba",
+  "category": "person",
+  "year": "1759",
+  "titleDe": "",
+  "titleZh": "勒",
+  "contentDe": "",
+  "contentZh": "勒 (1759—1805) 的诗 《 大地的瓜分 》。",
+  "bookSource": "德语惯用语双解词典_郑华汉主编_北京：外文出版社.pdf · batch10679",
+  "sources": [],
+  "confidence": 0.7,
+  "tags": [
+   "OCR",
+   "人物"
+  ]
+ },
+ {
+  "id": "ocr45-c-d92836b0d9",
+  "category": "person",
+  "year": "1622",
+  "titleDe": "",
+  "titleZh": "森",
+  "contentDe": "",
+  "contentZh": "森 (1622—1676) 的小说 《 澳儿西木传 》 中",
+  "bookSource": "德语成语词典_张载扬，张才尧，常克强编_北京：外语教学与研究出版社.pdf · batch10722",
+  "sources": [],
+  "confidence": 0.7,
+  "tags": [
+   "OCR",
+   "人物"
+  ]
+ },
+ {
+  "id": "ocr45-c-16ae40de3c",
+  "category": "person",
+  "year": "1621",
+  "titleDe": "",
+  "titleZh": "攻此语出自法国诗人拉封丹",
+  "contentDe": "",
+  "contentZh": "攻此语出自法国诗人拉封丹 (1621—1693)",
+  "bookSource": "德语成语词典_张载扬，张才尧，常克强编_北京：外语教学与研究出版社.pdf · batch10724",
+  "sources": [],
+  "confidence": 0.7,
+  "tags": [
+   "OCR",
+   "人物"
+  ]
+ },
+ {
   "id": "ocr11250-c-03f8f0fcf5",
   "category": "history",
   "year": "2016",
@@ -3097,102 +3193,6 @@ window.WORTKARTE_CULTURE_11250 = {items:[
   "contentDe": "",
   "contentZh": "学出版社，1987",
   "bookSource": "德语商贸信函 德汉对照_贾慧蝶，袁志英编著_上海：同济大学出版社.pdf · batch9825",
-  "sources": [],
-  "confidence": 0.55,
-  "tags": [
-   "OCR",
-   "历史与文化"
-  ]
- },
- {
-  "id": "ocr11250-c-800a0bdfb4",
-  "category": "history",
-  "year": "1994",
-  "titleDe": "",
-  "titleZh": "东北师范大学出版社，1994",
-  "contentDe": "",
-  "contentZh": "东北师范大学出版社，1994",
-  "bookSource": "德语商贸信函 德汉对照_贾慧蝶，袁志英编著_上海：同济大学出版社.pdf · batch9825",
-  "sources": [],
-  "confidence": 0.55,
-  "tags": [
-   "OCR",
-   "历史与文化"
-  ]
- },
- {
-  "id": "ocr11250-c-b1e940d64a",
-  "category": "history",
-  "year": "2007",
-  "titleDe": "",
-  "titleZh": "大学出版社,2007.3",
-  "contentDe": "",
-  "contentZh": "大学出版社,2007.3",
-  "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-  "sources": [],
-  "confidence": 0.55,
-  "tags": [
-   "OCR",
-   "历史与文化"
-  ]
- },
- {
-  "id": "ocr11250-c-5767785fde",
-  "category": "history",
-  "year": "2006",
-  "titleDe": "",
-  "titleZh": "中国版本图书馆CIP数据核字(2006)第165",
-  "contentDe": "",
-  "contentZh": "中国版本图书馆CIP数据核字(2006)第165306号",
-  "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-  "sources": [],
-  "confidence": 0.55,
-  "tags": [
-   "OCR",
-   "历史与文化"
-  ]
- },
- {
-  "id": "ocr11250-c-71e209bb79",
-  "category": "history",
-  "year": "1239",
-  "titleDe": "",
-  "titleZh": "地址:上海市四平路1239号”邮编:200092",
-  "contentDe": "",
-  "contentZh": "地址:上海市四平路1239号”邮编:200092电话;021一65985622",
-  "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-  "sources": [],
-  "confidence": 0.55,
-  "tags": [
-   "OCR",
-   "历史与文化"
-  ]
- },
- {
-  "id": "ocr11250-c-ac075f8f28",
-  "category": "history",
-  "year": "2007",
-  "titleDe": "",
-  "titleZh": "2007年3月第1版2007年3月第1次印刷",
-  "contentDe": "",
-  "contentZh": "2007年3月第1版2007年3月第1次印刷",
-  "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
-  "sources": [],
-  "confidence": 0.55,
-  "tags": [
-   "OCR",
-   "历史与文化"
-  ]
- },
- {
-  "id": "ocr11250-c-ffd59492a2",
-  "category": "history",
-  "year": "2007",
-  "titleDe": "",
-  "titleZh": "2007年2月于南京大学",
-  "contentDe": "",
-  "contentZh": "2007年2月于南京大学",
-  "bookSource": "德语固定搭配例释_王永年，吴蓉编_上海：同济大学出版社.pdf · batch9826",
   "sources": [],
   "confidence": 0.55,
   "tags": [
