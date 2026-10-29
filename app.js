@@ -921,13 +921,43 @@ const OCR_CONTENT = {
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GODIC_PACK = window.WORTKARTE_GODIC && window.WORTKARTE_GODIC.entries ? window.WORTKARTE_GODIC : null;
 const GODIC_ENTRIES = GODIC_PACK ? GODIC_PACK.entries : {};
-const DEHELPER_PACK = window.WORTKARTE_DEHELPER && window.WORTKARTE_DEHELPER.entries ? window.WORTKARTE_DEHELPER : null;
-const DEHELPER_ENTRIES = DEHELPER_PACK ? DEHELPER_PACK.entries : {};
+let DEHELPER_PACK = window.WORTKARTE_DEHELPER && window.WORTKARTE_DEHELPER.entries ? window.WORTKARTE_DEHELPER : null;
+let DEHELPER_ENTRIES = DEHELPER_PACK ? DEHELPER_PACK.entries : {};
 const DEHELPER_BY_WORD = new Map();
-for (const entry of Object.values(DEHELPER_ENTRIES)) {
-  const key = String(entry.word || "").toLowerCase();
-  if (key && !DEHELPER_BY_WORD.has(key)) DEHELPER_BY_WORD.set(key, entry);
+let DEHELPER_PHRASES = [];
+
+function rebuildDehelperCaches() {
+  DEHELPER_BY_WORD.clear();
+  for (const entry of Object.values(DEHELPER_ENTRIES || {})) {
+    const key = String(entry.word || "").toLowerCase();
+    if (key && !DEHELPER_BY_WORD.has(key)) DEHELPER_BY_WORD.set(key, entry);
+  }
+  DEHELPER_PHRASES = Object.values(DEHELPER_ENTRIES || {})
+    .filter(entry => {
+      const text = String(entry.word || "").trim();
+      return text.split(/\s+/).length >= 2 && !/[()]/.test(text) && !/[=]/.test(text);
+    })
+    .map(entry => ({
+      id: `dehelper-ph-${String(entry.word).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")}`,
+      de: entry.word,
+      zh: entry.definitions || "",
+      level: String(entry.word).trim().split(/\s+/).length >= 4 ? "B1" : "A2",
+      source: "Dehelper combined.bin",
+      sourceUrl: "",
+      license: entry.license || ""
+    }));
 }
+
+function applyDehelperPack(pack) {
+  if (!pack || !pack.entries) return;
+  DEHELPER_PACK = pack;
+  DEHELPER_ENTRIES = pack.entries;
+  window.WORTKARTE_DEHELPER = pack;
+  rebuildDehelperCaches();
+}
+window.__applyDehelperPack = applyDehelperPack;
+rebuildDehelperCaches();
+
 const GODIC_BY_WORD = new Map();
 for (const entry of Object.values(GODIC_ENTRIES)) {
   const key = String(entry.word || "").toLowerCase();
@@ -2046,6 +2076,39 @@ function refreshWordIndex() {
       }
       continue;
     }
+    seen.add(key);
+    uniqueWordId(word, usedIds);
+    keptByKey.set(key, word);
+    allWordList.push(word);
+  }
+  // Add words that exist only in the local Dehelper dictionary.
+  for (const entry of Object.values(DEHELPER_ENTRIES)) {
+    const wordText = String(entry.word || "").trim();
+    if (!wordText) continue;
+    const article = entry.article || "";
+    const key = `${wordText.toLocaleLowerCase("de")}|${article}`;
+    if (seen.has(key)) continue;
+    const posText = String(entry.pos || "").toLowerCase();
+    const pos = /^(n|m|f)\./.test(posText) ? "noun" : /^(vt|vi|v|refl)\./.test(posText) ? "verb" : /^adj\./.test(posText) ? "adj" : /^adv\./.test(posText) ? "adv" : "other";
+    const word = {
+      id: `dehelper-${wordText.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")}`,
+      word: wordText,
+      de: wordText,
+      article,
+      plural: entry.plural || "",
+      pos,
+      translation: entry.definitions || "",
+      level: "A1",
+      topic: "dehelper",
+      source: entry.source || "Dehelper combined.bin",
+      sourceUrl: "",
+      license: entry.license || "",
+      definitions: entry.definitions || "",
+      example: "",
+      exampleZh: "",
+      forms: ""
+    };
+    normalizeWordRecord(word);
     seen.add(key);
     uniqueWordId(word, usedIds);
     keptByKey.set(key, word);
@@ -4907,7 +4970,7 @@ function levelRecommendation(level) {
 }
 
 function allPhrases() {
-  return [...PHRASES, ...(OCR_CONTENT.phrases || []), ...(state.customPhrases || [])];
+  return [...PHRASES, ...DEHELPER_PHRASES, ...(OCR_CONTENT.phrases || []), ...(state.customPhrases || [])];
 }
 
 const PHRASE_DIFFICULTY_ORDER = ["A", "B", "C"];
@@ -6599,7 +6662,7 @@ function openWordModal(id) {
     </div>
     <div class="word-modal-hero" style="--topic-soft:${topic.soft};--topic-color:${topic.color}" data-letter="${esc(topic.letter)}">
       <p class="eyebrow">${esc(topic.de)}</p>
-      <h3 class="modal-word">${article ? `<span class="article" data-art="${esc(article)}">${esc(article)}</span>` : ""}${esc(word.word)}</h3>
+      <h3 class="modal-word">${article ? `<span class="article" data-art="${esc(article)}">${esc(article)}</span>` : ""}${esc(word.word)}<button type="button" class="word-speak" data-action="speak-word" data-word-id="${esc(word.id)}" aria-label="发音">🔊</button></h3>
       <p class="modal-translation">${esc(word.translation)}</p>
       <div class="modal-meta">
         <span class="level-chip">${esc(word.level)}</span>
@@ -7244,6 +7307,11 @@ function handleAction(action, element) {
     case "speak-card":
       speakCurrentWord(element);
       break;
+    case "speak-word": {
+      const spoken = getWord(element.dataset.wordId);
+      if (spoken) speakText(wordDisplay(spoken), element);
+      break;
+    }
     case "speak-quiz":
       if (quiz.questions[quiz.index]) speakText(wordDisplay(quiz.questions[quiz.index].word), element);
       break;
@@ -7949,7 +8017,17 @@ function init() {
   }
 }
 
-init();
+if (window.__DEHELPER_READY) {
+  window.__DEHELPER_READY.then(pack => {
+    if (pack) applyDehelperPack(pack);
+    init();
+  }).catch(error => {
+    console.error("Dehelper pack failed", error);
+    init();
+  });
+} else {
+  init();
+}
 
 
 

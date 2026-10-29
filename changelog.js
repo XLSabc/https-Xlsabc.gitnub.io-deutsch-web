@@ -889,16 +889,17 @@ window.WORTKARTE_CHANGELOG = [
     ]
   },
   {
-    version: "3.68.0",
+    version: "3.68.4",
     date: "2026-10-29",
-    type: "data",
-    summary: "导入本机 Dehelper 全量词典",
-    scope: "词典补充 · 本地词库",
+    type: "fix",
+    summary: "词库 gzip 压缩，单文件降到约 19 MB",
+    scope: "构建 · 单文件 App · GitHub",
     items: [
-      "从本机 Dehelper combined.bin 提取 70,854 个词条",
-      "词条包含释义、词性、冠词、复数形式",
-      "本地词库作为 godic 的离线补充源，不依赖登录或网络",
-      "词卡优先使用已有词条，缺失字段由本地词典补入"
+      "Dehelper 全量词库改为 gzip + base64 压缩",
+      "原始 65.8 MB 词库压缩为约 7.8 MB 脚本",
+      "单文件 App 从约 80.7 MB 降到约 19.5 MB",
+      "启动时用 DecompressionStream 解压，词条仍为 205,905",
+      "GitHub Pages 不再需要 4 个 17 MB 分片"
     ]
   }
 ];

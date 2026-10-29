@@ -8824,3 +8824,23 @@ body.phrase-recite-open { overflow: hidden; }
 .festival-body {
   min-width: 0;
 }
+
+.word-speak {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;
+  vertical-align: middle;
+  color: var(--sage);
+  background: #eef5e9;
+  border: 1px solid var(--line-soft);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 13px;
+}
+.word-speak.is-speaking {
+  background: #dcebd7;
+  color: var(--forest-3);
+}
