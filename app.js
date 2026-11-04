@@ -942,11 +942,26 @@ function dedupeContent(items, keyFn) {
     return true;
   });
 }
+const HEADWORD_REJECT = new Set([
+  "was was für ein waschen", "soviel so viel so viel wie", "sowieso sowohl ... als auch",
+  "egla wie man sie dreht und wendet"
+]);
+function cleanSourceText(value) {
+  return String(value || "")
+    .replace(/_([^·]{2,220})\.pdf/gi, ".pdf")
+    .replace(/\s*·\s*batch\d+\s*$/i, "")
+    .replace(/[\uFFFD\u0000-\u001F]/g, "")
+    .trim();
+}
 OCR_CONTENT.words = dedupeContent(OCR_CONTENT.words, item => item.id || item.word);
 OCR_CONTENT.phrases = dedupeContent(OCR_CONTENT.phrases, item => `${item.de || ""}|${item.zh || ""}`);
-OCR_CONTENT.articles = dedupeContent(OCR_CONTENT.articles, item => item.id || String(item.contentDe || "").slice(0, 180));
-OCR_CONTENT.grammar = dedupeContent(OCR_CONTENT.grammar, item => item.id || item.title);
-CULTURE_DATA.items = dedupeContent(CULTURE_DATA.items, item => item.id || `${item.titleZh || ""}|${item.contentZh || ""}`);
+OCR_CONTENT.articles = dedupeContent(OCR_CONTENT.articles, item => item.id || String(item.contentDe || "").slice(0, 180))
+  .filter(item => !/[@#�]|Agg@|tewe|gytomaf|Maschipegg/i.test(String(item.contentDe || "")))
+  .map(item => ({ ...item, source: cleanSourceText(item.source) }));
+OCR_CONTENT.grammar = dedupeContent(OCR_CONTENT.grammar, item => item.id || item.title)
+  .map(item => ({ ...item, source: cleanSourceText(item.source) }));
+CULTURE_DATA.items = dedupeContent(CULTURE_DATA.items, item => item.id || `${item.titleZh || ""}|${item.contentZh || ""}`)
+  .map(item => ({ ...item, bookSource: cleanSourceText(item.bookSource), source: cleanSourceText(item.source) }));
 const OCR_VOCAB = Array.isArray(window.WORTKARTE_OCR_VOCAB) ? window.WORTKARTE_OCR_VOCAB : [];
 const GODIC_PACK = window.WORTKARTE_GODIC && window.WORTKARTE_GODIC.entries ? window.WORTKARTE_GODIC : null;
 const GODIC_ENTRIES = GODIC_PACK ? GODIC_PACK.entries : {};
@@ -1170,7 +1185,7 @@ function normalize(value) {
   return String(value ?? "")
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\uFFFD\u0000-\u001F]/g, "")
 }
 
 function shuffle(items) {
@@ -1853,7 +1868,7 @@ function articleExampleKey(value) {
   return String(value || "")
     .toLocaleLowerCase("de")
     .replace(/^(der|die|das|sich)\s+/i, "")
-    .replace(/[^a-z0-9äöüß\s-]/g, " ")
+    .replace(/[\uFFFD\u0000-\u001F]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -2185,7 +2200,9 @@ function refreshWordIndex() {
   const seenHeadwords = new Set();
   allWordList = allWordList.filter(word => {
     const key = String(word.word || "").trim().toLocaleLowerCase("de");
-    if (!key || seenHeadwords.has(key)) return false;
+    if (!key || HEADWORD_REJECT.has(key) || /^egla\b/i.test(key) || seenHeadwords.has(key)) return false;
+    const tokens = key.split(/\s+/).filter(Boolean);
+    if (tokens.length > 1 && !(tokens[0] === "sich" && tokens.length <= 4)) return false;
     seenHeadwords.add(key);
     return true;
   });
